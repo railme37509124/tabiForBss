@@ -1,9547 +1,1673 @@
-return (function(tabi_IIIl1l1l1I, tabi_I11I1l1l1I, tabi_ll1I1l1l1I, tabi_Il1I1l1l1I, tabi_lI1I1l1l1I, tabi_II1I1l1l1I, tabi_l1lI1l1l1I, tabi_IIlI1l1l1I, tabi_l1II1l1l1I, tabi_I1lI1l1l1I, tabi_l1l1ll1l1I, tabi_II11ll1l1I, tabi_I111ll1l1I, tabi_IllI1l1l1I, tabi_lIlI1l1l1I, tabi_llII1l1l1I, tabi_l111ll1l1I, tabi_I1II1l1l1I, tabi_ll11ll1l1I, tabi_IlII1l1l1I, tabi_lllI1l1l1I, tabi_IIII1l1l1I, tabi_l11I1l1l1I, tabi_lIII1l1l1I, tabi_lI11ll1l1I, tabi_Il11ll1l1I)
-	tabi_I1lI1l1l1I, tabi_l111ll1l1I, tabi_IIII1l1l1I, tabi_l11I1l1l1I, tabi_II11ll1l1I, tabi_IIlI1l1l1I, tabi_lIlI1l1l1I, tabi_IllI1l1l1I, tabi_llII1l1l1I, tabi_IlII1l1l1I, tabi_Il11ll1l1I, tabi_ll11ll1l1I, tabi_lllI1l1l1I, tabi_lI11ll1l1I, tabi_l1II1l1l1I, tabi_I1II1l1l1I, tabi_l1l1ll1l1I, tabi_lIII1l1l1I, tabi_I111ll1l1I = {}, function(tabi_IIIl1l1l1I, tabi_I11I1l1l1I)
-			local tabi_ll1I1l1l1I = tabi_IIlI1l1l1I(tabi_I11I1l1l1I);
-			local tabi_Il1I1l1l1I = function()
-					return tabi_l11I1l1l1I(tabi_IIIl1l1l1I, {}, tabi_I11I1l1l1I, tabi_ll1I1l1l1I);
-				end;
-			return tabi_Il1I1l1l1I;
-		end, function(tabi_IIIl1l1l1I, tabi_I11I1l1l1I)
-			local tabi_ll1I1l1l1I = tabi_IIlI1l1l1I(tabi_I11I1l1l1I);
-			local tabi_Il1I1l1l1I = function(tabi_Il1I1l1l1I, tabi_lI1I1l1l1I, tabi_II1I1l1l1I, tabi_l1lI1l1l1I, tabi_I1lI1l1l1I, tabi_lllI1l1l1I)
-					return tabi_l11I1l1l1I(tabi_IIIl1l1l1I, {
-						tabi_Il1I1l1l1I,
-						tabi_lI1I1l1l1I,
-						tabi_II1I1l1l1I,
-						tabi_l1lI1l1l1I,
-						tabi_I1lI1l1l1I,
-						tabi_lllI1l1l1I,
-					}, tabi_I11I1l1l1I, tabi_ll1I1l1l1I);
-				end;
-			return tabi_Il1I1l1l1I;
-		end, function(tabi_l11I1l1l1I, tabi_ll1I1l1l1I, tabi_Il1I1l1l1I, tabi_lI1I1l1l1I)
-			local tabi_l1IIIl1l1I = {};
-			local tabi_l1l1Il1l1I, tabi_Ill1Il1l1I, tabi_I1I1Il1l1I, tabi_lll1ll1l1I, tabi_llllll1l1I, tabi_III1Il1l1I, tabi_llIlIl1l1I, tabi_IlIlll1l1I, tabi_ll11Il1l1I, tabi_I11IIl1l1I, tabi_l1IIll1l1I, tabi_IlllIl1l1I, tabi_l1I1Il1l1I, tabi_I1Illl1l1I, tabi_II11Il1l1I, tabi_IlIIll1l1I, tabi_IllIIl1l1I, tabi_l1lIIl1l1I, tabi_llIIll1l1I, tabi_Il1lIl1l1I, tabi_l1IlIl1l1I, tabi_lI11Il1l1I, tabi_Il1IIl1l1I, tabi_Ill1ll1l1I, tabi_Il1lll1l1I, tabi_IIlI1l1l1I, tabi_ll1lIl1l1I, tabi_llI1ll1l1I, tabi_I1I1ll1l1I, tabi_lIIIll1l1I, tabi_I11Ill1l1I, tabi_lI1IIl1l1I, tabi_lIllIl1l1I, tabi_l111Il1l1I, tabi_lI1lIl1l1I, tabi_IIIlll1l1I, tabi_lIlIll1l1I, tabi_IIl1Il1l1I, tabi_lIlI1l1l1I, tabi_IIllll1l1I, tabi_l1lI1l1l1I, tabi_IlIlIl1l1I, tabi_I1lIIl1l1I, tabi_l1I1ll1l1I, tabi_lllIll1l1I, tabi_lII1Il1l1I, tabi_lllI1l1l1I, tabi_lIIlIl1l1I, tabi_l1llll1l1I, tabi_I1lIll1l1I, tabi_I11lIl1l1I, tabi_I1IIll1l1I, tabi_l1llIl1l1I, tabi_l11IIl1l1I, tabi_IIl1ll1l1I, tabi_lIl1ll1l1I, tabi_llllIl1l1I, tabi_I111Il1l1I, tabi_IIlIll1l1I, tabi_IIllIl1l1I, tabi_l11lll1l1I, tabi_IlI1ll1l1I, tabi_III1ll1l1I, tabi_l1II1l1l1I, tabi_lIl1Il1l1I, tabi_II1Ill1l1I, tabi_lIlIIl1l1I, tabi_lIIlll1l1I, tabi_ll1Ill1l1I, tabi_I1l1ll1l1I, tabi_ll1lll1l1I, tabi_lI1Ill1l1I, tabi_IIIlIl1l1I, tabi_lII1ll1l1I, tabi_ll1IIl1l1I, tabi_Il11Il1l1I, tabi_II1IIl1l1I, tabi_I1llll1l1I, tabi_l11Ill1l1I, tabi_llIlll1l1I, tabi_I1l1Il1l1I, tabi_llI1Il1l1I, tabi_lllIIl1l1I, tabi_lll1Il1l1I, tabi_IIIIll1l1I, tabi_IllIll1l1I, tabi_lI1lll1l1I, tabi_II1lIl1l1I, tabi_II1lll1l1I, tabi_I11lll1l1I, tabi_IIlIIl1l1I, tabi_lIllll1l1I, tabi_Il1Ill1l1I, tabi_I1llIl1l1I, tabi_IlI1Il1l1I, tabi_l1Illl1l1I, tabi_Illlll1l1I, tabi_l1lIll1l1I, tabi_l11lIl1l1I, tabi_I1IlIl1l1I;
-			while tabi_l11I1l1l1I do
-				if tabi_l11I1l1l1I < 7967935 then
-					if tabi_l11I1l1l1I < 4061140 then
-						if tabi_l11I1l1l1I < 1804146 then
-							if tabi_l11I1l1l1I < 1222086 then
-								if tabi_l11I1l1l1I < 558991 then
-									if tabi_l11I1l1l1I < 281308 then
-										if tabi_l11I1l1l1I < 188233 then
-											if tabi_l11I1l1l1I < 88960 then
-												tabi_ll1Ill1l1I = 65536;
-												tabi_I11Ill1l1I = tabi_llllll1l1I % tabi_ll1Ill1l1I;
-												tabi_ll1Ill1l1I = 256;
-												tabi_l11Ill1l1I = tabi_I11Ill1l1I / tabi_ll1Ill1l1I;
-												tabi_lIIlll1l1I = { tabi_lII1ll1l1I(tabi_l11Ill1l1I) };
-												tabi_IlIlll1l1I = { tabi_llI1ll1l1I(tabi_I11I1l1l1I(tabi_lIIlll1l1I)) };
-												tabi_llIlll1l1I = tabi_l1I1ll1l1I(tabi_l1llll1l1I, tabi_I11I1l1l1I(tabi_IlIlll1l1I));
-												tabi_l11I1l1l1I = 5162653;
-											else
-												tabi_lIlI1l1l1I = "\103\097\109\101";
-												tabi_l1II1l1l1I = -10955;
-												tabi_lllI1l1l1I = tabi_IIIl1l1l1I[tabi_lIlI1l1l1I];
-												tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIlI1l1l1I = tabi_lIlI1l1l1I(tabi_l1II1l1l1I);
-												tabi_l1lI1l1l1I = tabi_lllI1l1l1I[tabi_IIlI1l1l1I];
-												tabi_IIlI1l1l1I = -10918;
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIlI1l1l1I = tabi_lllI1l1l1I(tabi_IIlI1l1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lIlI1l1l1I];
-												tabi_lllI1l1l1I = "\071\101\116\077\111\117\115\101";
-												tabi_lllI1l1l1I = tabi_l11I1l1l1I[tabi_lllI1l1l1I];
-												tabi_l1lI1l1l1I = { tabi_lllI1l1l1I(tabi_l11I1l1l1I) };
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.i9JhEJlnEhUGrM;
-												tabi_l1lI1l1l1I = { tabi_I11I1l1l1I(tabi_l1lI1l1l1I) };
-											end;
-										else
-											tabi_l11I1l1l1I = tabi_I1llll1l1I <= tabi_II1lll1l1I;
-											tabi_l11I1l1l1I = tabi_l11I1l1l1I and 1857080 or 4014714;
-										end;
-									else
-										if tabi_l11I1l1l1I < 471662 then
-											if tabi_l11I1l1l1I < 375649 then
-												tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-												tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIlI1l1l1I = tabi_lllI1l1l1I == tabi_IIlI1l1l1I;
-												tabi_l11I1l1l1I = tabi_lIlI1l1l1I and 10352956 or 954909;
-												tabi_l1lI1l1l1I = tabi_lIlI1l1l1I;
-											else
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = -10906;
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_IIl1ll1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = -10938;
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-												tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-												tabi_lII1ll1l1I = -10906;
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_IlI1ll1l1I = -10964;
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_IIl1ll1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_lIl1ll1l1I == tabi_IIl1ll1l1I;
-												tabi_l11I1l1l1I = tabi_Ill1ll1l1I and 7938290 or 13170578;
-											end;
-										else
-											tabi_l11I1l1l1I = tabi_IIl1ll1l1I;
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I and 1418283 or 7715563;
-											tabi_I1l1ll1l1I = tabi_lIl1ll1l1I;
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 871578 then
-										if tabi_l11I1l1l1I < 780401 then
-											if tabi_l11I1l1l1I < 600188 then
-												tabi_lIl1ll1l1I = "\115\116\114\105\110\103";
-												tabi_I1l1ll1l1I = 35184372088832;
-												tabi_l11I1l1l1I = {};
-												tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]] = tabi_l11I1l1l1I;
-												tabi_Ill1ll1l1I = 255;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-												tabi_l1II1l1l1I = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_lIlI1l1l1I % tabi_I1l1ll1l1I;
-												tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]] = tabi_l1lI1l1l1I;
-												tabi_lll1ll1l1I = tabi_lIlI1l1l1I % tabi_Ill1ll1l1I;
-												tabi_Ill1ll1l1I = 2;
-												tabi_I1l1ll1l1I = tabi_lll1ll1l1I + tabi_Ill1ll1l1I;
-												tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[5]] = tabi_I1l1ll1l1I;
-												tabi_l11I1l1l1I = 6985941;
-												tabi_Ill1ll1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = "\108\101\110";
-												tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lllI1l1l1I);
-												tabi_lll1ll1l1I = "";
-												tabi_IIlI1l1l1I[tabi_lIlI1l1l1I] = tabi_lll1ll1l1I;
-												tabi_l1I1ll1l1I = 1;
-												tabi_lIl1ll1l1I = 1;
-												tabi_IIl1ll1l1I = tabi_Ill1ll1l1I;
-												tabi_lll1ll1l1I = 171;
-												tabi_I1I1ll1l1I = tabi_l1I1ll1l1I;
-												tabi_l1I1ll1l1I = 0;
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I < tabi_l1I1ll1l1I;
-												tabi_l1I1ll1l1I = tabi_lIl1ll1l1I - tabi_I1I1ll1l1I;
-											else
-												tabi_lIl1ll1l1I = nil;
-												tabi_l11I1l1l1I = 1358377;
-												tabi_IIl1ll1l1I = nil;
-											end;
-										else
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.L4ryoywscVYoD;
-											tabi_lllI1l1l1I = nil;
-											tabi_l1lI1l1l1I = {};
-										end;
-									else
-										if tabi_l11I1l1l1I < 967559 then
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I and 14439353 or 2313798;
-										else
-											tabi_l11I1l1l1I = 3740274;
-											tabi_l1II1l1l1I = nil;
-											tabi_I1l1ll1l1I = nil;
-										end;
-									end;
-								end;
-							else
-								if tabi_l11I1l1l1I < 1442336 then
-									if tabi_l11I1l1l1I < 1369920 then
-										if tabi_l11I1l1l1I < 1341996 then
-											if tabi_l11I1l1l1I < 1236562 then
-												tabi_l11I1l1l1I = 16523769;
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I;
-											else
-												tabi_lIl1ll1l1I = "\117\116\102\056";
-												tabi_l1I1ll1l1I = -10963;
-												tabi_Ill1ll1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-												tabi_l11I1l1l1I = 12242806;
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-												tabi_lIl1ll1l1I = 10003;
-												tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_l1II1l1l1I = tabi_Ill1ll1l1I;
-											end;
-										else
-											tabi_Ill1ll1l1I, tabi_IIl1ll1l1I = tabi_I1l1ll1l1I(tabi_lll1ll1l1I, tabi_Ill1ll1l1I);
-											tabi_l11I1l1l1I = tabi_Ill1ll1l1I and 1236005 or 9428768;
-										end;
-									else
-										if tabi_l11I1l1l1I < 1414977 then
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.WUF0Na3cwFUwOJ;
-											tabi_l1lI1l1l1I = {};
-										else
-											tabi_I1I1ll1l1I = -10947;
-											tabi_IIlI1l1l1I = { [tabi_lll1ll1l1I] = tabi_I1l1ll1l1I };
-											tabi_I1l1ll1l1I = "\084\119\101\101\110\073\110\102\111";
-											tabi_l11I1l1l1I = tabi_Ill1ll1l1I;
-											tabi_lllI1l1l1I = "\067\114\101\097\116\101";
-											tabi_IIl1ll1l1I = "\069\110\117\109";
-											tabi_Ill1ll1l1I = -10981;
-											tabi_lllI1l1l1I = tabi_l1lI1l1l1I[tabi_lllI1l1l1I];
-											tabi_lllI1l1l1I = tabi_lllI1l1l1I(tabi_l1lI1l1l1I, tabi_lIlI1l1l1I, tabi_l1II1l1l1I, tabi_IIlI1l1l1I);
-											tabi_l1lI1l1l1I = "\080\108\097\121";
-											tabi_l1lI1l1l1I = tabi_lllI1l1l1I[tabi_l1lI1l1l1I];
-											tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_lllI1l1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[6]];
-											tabi_l1II1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_IIlI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_I1l1ll1l1I = .3;
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_l1I1ll1l1I = -10956;
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_l11I1l1l1I;
-											tabi_l1II1l1l1I = tabi_IIlI1l1l1I(tabi_I1l1ll1l1I, tabi_lll1ll1l1I);
-											tabi_Ill1ll1l1I = -10958;
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_l11I1l1l1I;
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11I1l1l1I = tabi_l1I1ll1l1I and 12798855 or 12326776;
-											tabi_lIl1ll1l1I = tabi_l1I1ll1l1I;
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 1733911 then
-										if tabi_l11I1l1l1I < 1646655 then
-											if tabi_l11I1l1l1I < 1513147 then
-												tabi_lIlI1l1l1I = tabi_ll1I1l1l1I[2];
-												tabi_lIl1ll1l1I = -10981;
-												tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-												tabi_IIlI1l1l1I = tabi_ll1I1l1l1I[3];
-												tabi_llI1ll1l1I = -10890;
-												tabi_l1II1l1l1I = .5;
-												tabi_l1lI1l1l1I = tabi_IIlI1l1l1I or tabi_l1II1l1l1I;
-												tabi_IIlI1l1l1I = tabi_l1lI1l1l1I;
-												tabi_lll1ll1l1I = "\084\119\101\101\110\073\110\102\111";
-												tabi_I1l1ll1l1I = tabi_IIIl1l1l1I[tabi_lll1ll1l1I];
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_l1II1l1l1I = tabi_I1l1ll1l1I[tabi_Ill1ll1l1I];
-												tabi_IIl1ll1l1I = "\069\110\117\109";
-												tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-												tabi_I1I1ll1l1I = -10947;
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-												tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-												tabi_l1I1ll1l1I = -10975;
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-												tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-												tabi_l1I1ll1l1I = "\069\110\117\109";
-												tabi_IIl1ll1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-												tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = -10989;
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-												tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-												tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_IIlI1l1l1I, tabi_lll1ll1l1I, tabi_Ill1ll1l1I);
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lll1ll1l1I = "\067\114\101\097\116\101";
-												tabi_lll1ll1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-												tabi_IIlI1l1l1I = nil;
-												tabi_lll1ll1l1I = tabi_lll1ll1l1I(tabi_l1II1l1l1I, tabi_lllI1l1l1I, tabi_I1l1ll1l1I, tabi_lIlI1l1l1I);
-												tabi_lllI1l1l1I = nil;
-												tabi_l1II1l1l1I = "\080\108\097\121";
-												tabi_l1II1l1l1I = tabi_lll1ll1l1I[tabi_l1II1l1l1I];
-												tabi_I1l1ll1l1I = nil;
-												tabi_l1lI1l1l1I = {};
-												tabi_lIlI1l1l1I = nil;
-												tabi_l1II1l1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.neRCv2qI1EVXu;
-												tabi_lll1ll1l1I = nil;
-											else
-												tabi_IIlI1l1l1I = { [tabi_lll1ll1l1I] = tabi_I1l1ll1l1I };
-												tabi_l11I1l1l1I = tabi_Ill1ll1l1I;
-												tabi_lllI1l1l1I = "\067\114\101\097\116\101";
-												tabi_lllI1l1l1I = tabi_l1lI1l1l1I[tabi_lllI1l1l1I];
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.fPWx33vNx0xuGo;
-												tabi_lllI1l1l1I = tabi_lllI1l1l1I(tabi_l1lI1l1l1I, tabi_lIlI1l1l1I, tabi_l1II1l1l1I, tabi_IIlI1l1l1I);
-												tabi_l1lI1l1l1I = "\080\108\097\121";
-												tabi_l1lI1l1l1I = tabi_lllI1l1l1I[tabi_l1lI1l1l1I];
-												tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_lllI1l1l1I);
-												tabi_l1lI1l1l1I = {};
-											end;
-										else
-											tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-											tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1II1l1l1I = -10942;
-											tabi_I1l1ll1l1I = "\085\068\105\109\050";
-											tabi_IIlI1l1l1I = tabi_lIlI1l1l1I(tabi_l1II1l1l1I);
-											tabi_l1lI1l1l1I = tabi_lllI1l1l1I[tabi_IIlI1l1l1I];
-											tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_Ill1ll1l1I = -10981;
-											tabi_l1II1l1l1I = -10942;
-											tabi_llI1ll1l1I = -10938;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I - tabi_lIlI1l1l1I;
-											tabi_lIlI1l1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10964;
-											tabi_IIlI1l1l1I = tabi_l1lI1l1l1I(tabi_l1II1l1l1I);
-											tabi_l1II1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = -10938;
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-											tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = -10893;
-											tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-											tabi_I1l1ll1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = -10882;
-											tabi_lllI1l1l1I = nil;
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_I1I1ll1l1I = -10938;
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_llI1ll1l1I = -10964;
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_lIlI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_lll1ll1l1I = tabi_Ill1ll1l1I + tabi_lIl1ll1l1I;
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = -10893;
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-											tabi_l1I1ll1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-											tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = -10882;
-											tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-											tabi_IlI1ll1l1I = -10964;
-											tabi_IIl1ll1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-											tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-											tabi_l1I1ll1l1I = tabi_lIlI1l1l1I[tabi_llI1ll1l1I];
-											tabi_lIlI1l1l1I = nil;
-											tabi_lIl1ll1l1I = tabi_IIl1ll1l1I + tabi_l1I1ll1l1I;
-											tabi_l1II1l1l1I = tabi_l1lI1l1l1I(tabi_I1l1ll1l1I, tabi_lll1ll1l1I, tabi_Ill1ll1l1I, tabi_lIl1ll1l1I);
-											tabi_l1lI1l1l1I = {};
-											tabi_l11I1l1l1I[tabi_IIlI1l1l1I] = tabi_l1II1l1l1I;
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.PchQMRUezzT3;
-										end;
-									else
-										if tabi_l11I1l1l1I < 1768505 then
-											tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-											tabi_l1lI1l1l1I = {};
-											tabi_lllI1l1l1I = nil;
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.UPaxyPtni1Da;
-										else
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIlI1l1l1I = 11026;
-											tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-											tabi_lIlI1l1l1I = tabi_lllI1l1l1I + tabi_IIlI1l1l1I;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lIlI1l1l1I];
-											tabi_l1lI1l1l1I = { tabi_l11I1l1l1I };
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I["\051\115\097\072\080\075\111\050\090\111\074\052"];
-										end;
-									end;
-								end;
-							end;
-						else
-							if tabi_l11I1l1l1I < 3366984 then
-								if tabi_l11I1l1l1I < 3036556 then
-									if tabi_l11I1l1l1I < 2952282 then
-										if tabi_l11I1l1l1I < 2028203 then
-											if tabi_l11I1l1l1I < 1918257 then
-												tabi_l11I1l1l1I = tabi_lIl1ll1l1I(tabi_lI1lll1l1I, tabi_I1llll1l1I, tabi_I1llll1l1I);
-												tabi_lIllll1l1I = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_lll1ll1l1I[tabi_lIllll1l1I];
-												tabi_IIllll1l1I = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_IIllll1l1I and 12233590 or 6263487;
-											else
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.IUtNosAf7fSJOE;
-												tabi_l1lI1l1l1I = {};
-												tabi_lllI1l1l1I = tabi_I1II1l1l1I(tabi_lllI1l1l1I);
-											end;
-										else
-											tabi_lllI1l1l1I = nil;
-											tabi_l1lI1l1l1I = {};
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.dxQYz6Vp43f3LS;
-										end;
-									else
-										if tabi_l11I1l1l1I < 3028600 then
-											tabi_IIl1ll1l1I = "\069\110\117\109";
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1l1ll1l1I = "\084\119\101\101\110\073\110\102\111";
-											tabi_l11I1l1l1I = not tabi_l1lI1l1l1I;
-											tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]] = tabi_l11I1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_l1II1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-											tabi_Ill1ll1l1I = -10981;
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_I1I1ll1l1I = -10947;
-											tabi_IIlI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-											tabi_I1l1ll1l1I = .3;
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_lllI1l1l1I = "\067\114\101\097\116\101";
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = -10956;
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_I1I1ll1l1I = 0;
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_l11I1l1l1I;
-											tabi_l1II1l1l1I = tabi_IIlI1l1l1I(tabi_I1l1ll1l1I, tabi_lll1ll1l1I);
-											tabi_IIl1ll1l1I = 180;
-											tabi_Ill1ll1l1I = -10877;
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_l11I1l1l1I;
-											tabi_lllI1l1l1I = tabi_l1lI1l1l1I[tabi_lllI1l1l1I];
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_l1I1ll1l1I and tabi_I1I1ll1l1I;
-											tabi_I1l1ll1l1I = tabi_lIl1ll1l1I or tabi_IIl1ll1l1I;
-											tabi_IIlI1l1l1I = { [tabi_lll1ll1l1I] = tabi_I1l1ll1l1I };
-											tabi_lllI1l1l1I = tabi_lllI1l1l1I(tabi_l1lI1l1l1I, tabi_lIlI1l1l1I, tabi_l1II1l1l1I, tabi_IIlI1l1l1I);
-											tabi_I1I1ll1l1I = -10947;
-											tabi_l1lI1l1l1I = "\080\108\097\121";
-											tabi_l1lI1l1l1I = tabi_lllI1l1l1I[tabi_l1lI1l1l1I];
-											tabi_I1l1ll1l1I = "\084\119\101\101\110\073\110\102\111";
-											tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_lllI1l1l1I);
-											tabi_Ill1ll1l1I = -10981;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[5]];
-											tabi_l1II1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_IIlI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-											tabi_I1l1ll1l1I = .3;
-											tabi_IIl1ll1l1I = "\069\110\117\109";
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = -10956;
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-											tabi_Ill1ll1l1I = -10899;
-											tabi_l1II1l1l1I = tabi_IIlI1l1l1I(tabi_I1l1ll1l1I, tabi_lll1ll1l1I);
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_l11I1l1l1I;
-											tabi_IIl1ll1l1I = tabi_l11I1l1l1I;
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11I1l1l1I = tabi_l1I1ll1l1I and 11941229 or 533520;
-											tabi_lIl1ll1l1I = tabi_l1I1ll1l1I;
-										else
-											tabi_IIlI1l1l1I = "\116\097\098\108\101";
-											tabi_lIlI1l1l1I = tabi_IIIl1l1l1I[tabi_IIlI1l1l1I];
-											tabi_IIlI1l1l1I = "\114\101\109\111\118\101";
-											tabi_lllI1l1l1I = tabi_lIlI1l1l1I[tabi_IIlI1l1l1I];
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I["\048\053\065\090\083\097\122\080\075\098\056\115\119"];
-											tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIlI1l1l1I = { tabi_lllI1l1l1I(tabi_IIlI1l1l1I) };
-											tabi_l1lI1l1l1I = { tabi_I11I1l1l1I(tabi_lIlI1l1l1I) };
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 3195761 then
-										if tabi_l11I1l1l1I < 3151509 then
-											if tabi_l11I1l1l1I < 3083136 then
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_IlI1ll1l1I = -10906;
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = -10906;
-												tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-												tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = -10938;
-												tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-												tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_IIl1ll1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = -10964;
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-												tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-												tabi_lll1ll1l1I = tabi_Ill1ll1l1I < tabi_lIl1ll1l1I;
-												tabi_l11I1l1l1I = tabi_lll1ll1l1I and 6253759 or 431629;
-											else
-												tabi_l1II1l1l1I = tabi_lllI1l1l1I;
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lll1ll1l1I = tabi_I1l1ll1l1I ~= tabi_Ill1ll1l1I;
-												tabi_l11I1l1l1I = tabi_lll1ll1l1I and 7992564 or 1148963;
-											end;
-										else
-											tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-											tabi_IIlI1l1l1I = tabi_IllI1l1l1I();
-											tabi_lIlI1l1l1I = tabi_ll1I1l1l1I[2];
-											tabi_lll1ll1l1I = -10981;
-											tabi_I1lI1l1l1I[tabi_IIlI1l1l1I] = tabi_ll1I1l1l1I[3];
-											tabi_l1II1l1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_l1II1l1l1I];
-											tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-											tabi_Ill1ll1l1I = -10981;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_lll1ll1l1I = -10957;
-											tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1l1ll1l1I = { tabi_l1II1l1l1I(tabi_lll1ll1l1I) };
-											tabi_l1II1l1l1I = tabi_IllI1l1l1I();
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_I1l1ll1l1I));
-											tabi_I1lI1l1l1I[tabi_l1II1l1l1I] = tabi_l1lI1l1l1I;
-											tabi_I1l1ll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lll1ll1l1I];
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Ill1ll1l1I = -10937;
-											tabi_lll1ll1l1I = { tabi_I1l1ll1l1I(tabi_Ill1ll1l1I) };
-											tabi_Ill1ll1l1I = -10969;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_lll1ll1l1I));
-											tabi_I1l1ll1l1I = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = -10948;
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I);
-											tabi_I1I1ll1l1I = 19;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Ill1ll1l1I = tabi_l1lI1l1l1I(tabi_lIl1ll1l1I);
-											tabi_l11I1l1l1I[tabi_lll1ll1l1I] = tabi_Ill1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_Ill1ll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_l11I1l1l1I[tabi_lll1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Ill1ll1l1I = -10920;
-											tabi_lIl1ll1l1I = "\067\111\108\111\114\051";
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-											tabi_l1I1ll1l1I = -11000;
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-											tabi_lIl1ll1l1I = 57;
-											tabi_l1I1ll1l1I = 57;
-											tabi_IIl1ll1l1I = 57;
-											tabi_Ill1ll1l1I = tabi_l1lI1l1l1I(tabi_lIl1ll1l1I, tabi_IIl1ll1l1I, tabi_l1I1ll1l1I);
-											tabi_l11I1l1l1I[tabi_lll1ll1l1I] = tabi_Ill1ll1l1I;
-											tabi_lIl1ll1l1I = "\067\111\108\111\114\051";
-											tabi_Ill1ll1l1I = -11006;
-											tabi_l1I1ll1l1I = -11000;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_lIl1ll1l1I = 0;
-											tabi_l1I1ll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = 0;
-											tabi_Ill1ll1l1I = tabi_l1lI1l1l1I(tabi_lIl1ll1l1I, tabi_IIl1ll1l1I, tabi_l1I1ll1l1I);
-											tabi_l11I1l1l1I[tabi_lll1ll1l1I] = tabi_Ill1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Ill1ll1l1I = -10912;
-											tabi_lIl1ll1l1I = "\085\068\105\109\050";
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I);
-											tabi_Ill1ll1l1I = -10958;
-											tabi_l1lI1l1l1I = 0;
-											tabi_l11I1l1l1I[tabi_lll1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I);
-											tabi_l1I1ll1l1I = -10981;
-											tabi_Ill1ll1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-											tabi_lIl1ll1l1I = 0;
-											tabi_IIl1ll1l1I = 177;
-											tabi_l1I1ll1l1I = 0;
-											tabi_Ill1ll1l1I = tabi_l1lI1l1l1I(tabi_lIl1ll1l1I, tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I);
-											tabi_l11I1l1l1I[tabi_lll1ll1l1I] = tabi_Ill1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_Ill1ll1l1I = -10984;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I);
-											tabi_IIl1ll1l1I = "\069\110\117\109";
-											tabi_l1lI1l1l1I = false;
-											tabi_l11I1l1l1I[tabi_lll1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_I1I1ll1l1I = -10917;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Ill1ll1l1I = -10917;
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = -10904;
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-											tabi_l11I1l1l1I[tabi_lll1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_Ill1ll1l1I = -10909;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = -10991;
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_lIlI1l1l1I;
-											tabi_IIl1ll1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_lIlI1l1l1I and 10368829 or 3987577;
-										end;
-									else
-										if tabi_l11I1l1l1I < 3262233 then
-											tabi_l11I1l1l1I = true;
-											tabi_I1l1ll1l1I = -10942;
-											tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]] = tabi_l11I1l1l1I;
-											tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_lllI1l1l1I];
-											tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1II1l1l1I = tabi_IIlI1l1l1I(tabi_I1l1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_lIlI1l1l1I[tabi_l1II1l1l1I];
-											tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]] = tabi_l1lI1l1l1I;
-											tabi_lll1ll1l1I = -10942;
-											tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_Ill1ll1l1I = -10905;
-											tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11I1l1l1I = 1940027;
-											tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-											tabi_lIlI1l1l1I = tabi_IIlI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[5]] = tabi_lIlI1l1l1I;
-											tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_lllI1l1l1I];
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_I1l1ll1l1I = tabi_I111ll1l1I(15829988, { tabi_lllI1l1l1I, tabi_Il1I1l1l1I[1], tabi_Il1I1l1l1I[2] });
-											tabi_IIlI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-											tabi_l1II1l1l1I = "\067\111\110\110\101\099\116";
-											tabi_l1II1l1l1I = tabi_IIlI1l1l1I[tabi_l1II1l1l1I];
-											tabi_l1II1l1l1I = tabi_l1II1l1l1I(tabi_IIlI1l1l1I, tabi_I1l1ll1l1I);
-										else
-											tabi_lllI1l1l1I = tabi_Il11ll1l1I(7017174, {});
-											tabi_l11I1l1l1I = 12406139;
-											tabi_l1lI1l1l1I = tabi_lllI1l1l1I;
-										end;
-									end;
-								end;
-							else
-								if tabi_l11I1l1l1I < 3643869 then
-									if tabi_l11I1l1l1I < 3537189 then
-										if tabi_l11I1l1l1I < 3471646 then
-											if tabi_l11I1l1l1I < 3443652 then
-												tabi_I1l1ll1l1I = "\109\097\116\104";
-												tabi_l1lI1l1l1I = tabi_lIlI1l1l1I;
-												tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[8]] = tabi_l1lI1l1l1I;
-												tabi_Ill1ll1l1I = -10971;
-												tabi_l1II1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-												tabi_IIlI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[8]];
-												tabi_Ill1ll1l1I = -10909;
-												tabi_l1II1l1l1I = tabi_IIlI1l1l1I(tabi_I1l1ll1l1I);
-												tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[9]] = tabi_l1II1l1l1I;
-												tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[10]];
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[9]];
-												tabi_IIlI1l1l1I[tabi_lll1ll1l1I] = tabi_I1l1ll1l1I;
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[11]];
-												tabi_I1l1ll1l1I = tabi_l11I1l1l1I;
-												tabi_IIlI1l1l1I = tabi_lll1ll1l1I;
-												tabi_l11I1l1l1I = tabi_lll1ll1l1I and 9402143 or 9928495;
-											else
-												tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-												tabi_l1II1l1l1I = tabi_IllI1l1l1I();
-												tabi_I1l1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_lIlI1l1l1I = tabi_ll1I1l1l1I[2];
-												tabi_IIlI1l1l1I = tabi_IllI1l1l1I();
-												tabi_llI1ll1l1I = -10981;
-												tabi_I1lI1l1l1I[tabi_IIlI1l1l1I] = tabi_ll1I1l1l1I[3];
-												tabi_I1lI1l1l1I[tabi_l1II1l1l1I] = tabi_ll1I1l1l1I[4];
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-												tabi_Ill1ll1l1I = -10981;
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lll1ll1l1I];
-												tabi_Ill1ll1l1I = -11017;
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = -10981;
-												tabi_lll1ll1l1I = { tabi_I1l1ll1l1I(tabi_Ill1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_lll1ll1l1I));
-												tabi_lll1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_I1l1ll1l1I = tabi_IllI1l1l1I();
-												tabi_I1lI1l1l1I[tabi_I1l1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lll1ll1l1I];
-												tabi_IlI1ll1l1I = -10981;
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10981;
-												tabi_lIl1ll1l1I = -10981;
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_lIl1ll1l1I = -10937;
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Ill1ll1l1I = { tabi_lll1ll1l1I(tabi_lIl1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_Ill1ll1l1I));
-												tabi_Ill1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_lll1ll1l1I = tabi_l1lI1l1l1I;
-												tabi_IIl1ll1l1I = -10981;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_I1I1ll1l1I = -10981;
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_IIl1ll1l1I = -11018;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = { tabi_Ill1ll1l1I(tabi_IIl1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_lIl1ll1l1I));
-												tabi_lIl1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_Ill1ll1l1I = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_l1I1ll1l1I = -10983;
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIl1ll1l1I = { tabi_lIl1ll1l1I(tabi_l1I1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_IIl1ll1l1I));
-												tabi_IIl1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_lIl1ll1l1I = tabi_IllI1l1l1I();
-												tabi_I1lI1l1l1I[tabi_lIl1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_l1I1ll1l1I];
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = -11017;
-												tabi_l1I1ll1l1I = { tabi_IIl1ll1l1I(tabi_I1I1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_l1I1ll1l1I));
-												tabi_IIl1ll1l1I = tabi_IllI1l1l1I();
-												tabi_l1I1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_I1lI1l1l1I[tabi_IIl1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_llI1ll1l1I = -10957;
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = { tabi_l1I1ll1l1I(tabi_llI1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_I1I1ll1l1I));
-												tabi_I1I1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_IlI1ll1l1I = -11017;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_llI1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = { tabi_I1I1ll1l1I(tabi_IlI1ll1l1I) };
-												tabi_I1I1ll1l1I = tabi_IllI1l1l1I();
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_llI1ll1l1I));
-												tabi_llI1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_I1lI1l1l1I[tabi_I1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = -10933;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_IlI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = -10997;
-												tabi_IlI1ll1l1I = { tabi_llI1ll1l1I(tabi_lII1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_IlI1ll1l1I));
-												tabi_llI1ll1l1I = tabi_l1lI1l1l1I;
-												tabi_lII1ll1l1I = -10969;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_I11lll1l1I = -11000;
-												tabi_lII1ll1l1I = -10946;
-												tabi_III1ll1l1I = "\067\111\108\111\114\051";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_lII1ll1l1I = -10920;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_I11lll1l1I = 57;
-												tabi_l11lll1l1I = 57;
-												tabi_III1ll1l1I = 57;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-												tabi_III1ll1l1I = "\067\111\108\111\114\051";
-												tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_lII1ll1l1I = -11006;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_ll1lll1l1I = 0;
-												tabi_I11lll1l1I = -11000;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = 0;
-												tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = 0;
-												tabi_III1ll1l1I = 0;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-												tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = "\085\068\105\109\050";
-												tabi_lII1ll1l1I = -10912;
-												tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = -10942;
-												tabi_l1lI1l1l1I = 0;
-												tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = -10981;
-												tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = .427184463;
-												tabi_III1ll1l1I = 0;
-												tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = 0;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_ll1lll1l1I = 21;
-												tabi_I11lll1l1I = -10981;
-												tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-												tabi_III1ll1l1I = "\085\068\105\109\050";
-												tabi_lII1ll1l1I = -10958;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = 0;
-												tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_III1ll1l1I = 0;
-												tabi_l11lll1l1I = 219;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = -10899;
-												tabi_l11lll1l1I = -10981;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-												tabi_lII1ll1l1I = "\085\068\105\109";
-												tabi_IlI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-												tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-												tabi_lII1ll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = 4;
-												tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I);
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = -10969;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10895;
-												tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11lll1l1I = -11000;
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-												tabi_lII1ll1l1I = -10952;
-												tabi_IlI1ll1l1I = -10946;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_IlI1ll1l1I = -10969;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-												tabi_IlI1ll1l1I = -10946;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-												tabi_lII1ll1l1I = "\067\111\108\111\114\051";
-												tabi_IlI1ll1l1I = -10920;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-												tabi_IlI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-												tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-												tabi_lII1ll1l1I = 255;
-												tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-												tabi_l11lll1l1I = 255;
-												tabi_III1ll1l1I = 255;
-												tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I, tabi_l11lll1l1I);
-												tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-												tabi_l11lll1l1I = -11000;
-												tabi_lII1ll1l1I = "\067\111\108\111\114\051";
-												tabi_IlI1ll1l1I = -10881;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-												tabi_IlI1ll1l1I = -11006;
-												tabi_l11I1l1l1I = 1;
-												tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = 0;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-												tabi_IlI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-												tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-												tabi_lII1ll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-												tabi_l11lll1l1I = 0;
-												tabi_III1ll1l1I = 0;
-												tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I, tabi_l11lll1l1I);
-												tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-												tabi_IlI1ll1l1I = -10912;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-												tabi_IlI1ll1l1I = -10942;
-												tabi_l11I1l1l1I = 0;
-												tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_lII1ll1l1I = "\085\068\105\109\050";
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-												tabi_l11lll1l1I = -10981;
-												tabi_IlI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-												tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-												tabi_lII1ll1l1I = 0;
-												tabi_l11lll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = 5;
-												tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-												tabi_l11lll1l1I = -10981;
-												tabi_lII1ll1l1I = "\085\068\105\109\050";
-												tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-												tabi_IlI1ll1l1I = -10958;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-												tabi_IlI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-												tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-												tabi_l11lll1l1I = 0;
-												tabi_lII1ll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-												tabi_I11lll1l1I = 21;
-												tabi_III1ll1l1I = 194;
-												tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-												tabi_I11lll1l1I = -10917;
-												tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = "\069\110\117\109";
-												tabi_IlI1ll1l1I = -10917;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_IlI1ll1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = -10892;
-												tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-												tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-												tabi_IlI1ll1l1I = -10909;
-												tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-												tabi_IlI1ll1l1I = tabi_lIlI1l1l1I;
-												tabi_l11I1l1l1I = tabi_lIlI1l1l1I and 5595819 or 14400952;
-											end;
-										else
-											tabi_l1lI1l1l1I = {};
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.zUg76cIOljAvcx;
-										end;
-									else
-										if tabi_l11I1l1l1I < 3592608 then
-											tabi_l11I1l1l1I = false;
-											tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = 813592;
-										else
-											tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-											tabi_III1ll1l1I = "\067\111\108\111\114\051";
-											tabi_I11lll1l1I = -11000;
-											tabi_lII1ll1l1I = -10914;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_I11lll1l1I = 255;
-											tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = 255;
-											tabi_III1ll1l1I = 255;
-											tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-											tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-											tabi_ll1lll1l1I = -10879;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -11019;
-											tabi_l11lll1l1I = "\069\110\117\109";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_l11I1l1l1I = 14;
-											tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_lII1ll1l1I = -10879;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-											tabi_lII1ll1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-											tabi_I11lll1l1I = -10873;
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_III1ll1l1I = -10998;
-											tabi_lII1ll1l1I = -10969;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I);
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-											tabi_I11lll1l1I = -10981;
-											tabi_lII1ll1l1I = -10946;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = "\086\101\099\116\111\114\050";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_lII1ll1l1I = -10901;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_III1ll1l1I = 0;
-											tabi_l11lll1l1I = .5;
-											tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I);
-											tabi_III1ll1l1I = "\067\111\108\111\114\051";
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10920;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_I11lll1l1I = -11000;
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = 45;
-											tabi_I11lll1l1I = 45;
-											tabi_III1ll1l1I = 45;
-											tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-											tabi_lII1ll1l1I = -11006;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = "\067\111\108\111\114\051";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I11lll1l1I = -11000;
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_I11lll1l1I = 0;
-											tabi_III1ll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = 0;
-											tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-											tabi_ll1lll1l1I = 0;
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10912;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = -10942;
-											tabi_l11I1l1l1I = 0;
-											tabi_III1ll1l1I = "\085\068\105\109\050";
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_I11lll1l1I = -10981;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_III1ll1l1I = 0;
-											tabi_I11lll1l1I = .5;
-											tabi_l11lll1l1I = 0;
-											tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-											tabi_I11lll1l1I = -10981;
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-											tabi_lII1ll1l1I = -10958;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_ll1lll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_III1ll1l1I = "\085\068\105\109\050";
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_III1ll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_I11lll1l1I = .25;
-											tabi_l11lll1l1I = 6;
-											tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-											tabi_III1ll1l1I = -10970;
-											tabi_lII1ll1l1I = -10969;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I);
-											tabi_lIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-											tabi_I11lll1l1I = -10981;
-											tabi_lII1ll1l1I = -10946;
-											tabi_III1ll1l1I = -11015;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_ll1lll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_l11I1l1l1I = tabi_Ill1ll1l1I;
-											tabi_lII1ll1l1I = -10911;
-											tabi_lIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_l11I1l1l1I = 2;
-											tabi_IIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_lII1ll1l1I = -10909;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I);
-											tabi_IIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10958;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_III1ll1l1I = "\085\068\105\109\050";
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = 0;
-											tabi_I11lll1l1I = 1;
-											tabi_III1ll1l1I = 1;
-											tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-											tabi_IIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_IIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_lII1ll1l1I = -10881;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_III1ll1l1I = "\116\097\098\108\101";
-											tabi_l11I1l1l1I = 1;
-											tabi_IIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lII1ll1l1I = 1;
-											tabi_I11lll1l1I = -10962;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I + tabi_lII1ll1l1I;
-											tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]] = tabi_l11I1l1l1I;
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[5]];
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_l11lll1l1I = { tabi_I11lll1l1I, tabi_ll1lll1l1I };
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I);
-											tabi_l1lI1l1l1I = false;
-											tabi_III1ll1l1I = "\116\097\098\117\104\104";
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_lIII1l1l1I(7655658, {
-													tabi_Il1I1l1l1I[5],
-													tabi_l1II1l1l1I,
-													tabi_Il1I1l1l1I[6],
-													tabi_Il1I1l1l1I[1],
-													tabi_Il1I1l1l1I[7],
-													tabi_l1I1ll1l1I,
-												});
-											tabi_l11lll1l1I = 1;
-											tabi_IIIl1l1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_l1lI1l1l1I = tabi_III1ll1l1I == tabi_l11lll1l1I;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I and 8044789 or 15555547;
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 3967968 then
-										if tabi_l11I1l1l1I < 3842722 then
-											if tabi_l11I1l1l1I < 3780055 then
-												tabi_lllI1l1l1I, tabi_I1l1ll1l1I = tabi_lIlI1l1l1I(tabi_IIlI1l1l1I, tabi_lllI1l1l1I);
-												tabi_l11I1l1l1I = tabi_lllI1l1l1I and 3084894 or 13510557;
-											else
-												tabi_III1ll1l1I, tabi_Il1lll1l1I = tabi_l11lll1l1I(tabi_I11lll1l1I, tabi_III1ll1l1I);
-												tabi_l11I1l1l1I = tabi_III1ll1l1I and 15601629 or 5805745;
-											end;
-										else
-											tabi_IlIlll1l1I = 1;
-											tabi_llIlll1l1I = tabi_I1llll1l1I + tabi_IlIlll1l1I;
-											tabi_I1llll1l1I = tabi_llIlll1l1I;
-											tabi_l11I1l1l1I = 212998;
-											tabi_IIllll1l1I = nil;
-											tabi_lIllll1l1I = nil;
-										end;
-									else
-										if tabi_l11I1l1l1I < 3988739 then
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llI1ll1l1I = -10948;
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_I1I1ll1l1I;
-											tabi_l11I1l1l1I = 10368829;
-										else
-											tabi_lIllll1l1I = tabi_I1I1ll1l1I(tabi_l1llll1l1I);
-											tabi_l1llll1l1I = nil;
-											tabi_llllll1l1I = nil;
-											tabi_II1lll1l1I = nil;
-											tabi_Illlll1l1I = nil;
-											tabi_I1llll1l1I = nil;
-											tabi_l11I1l1l1I = 7717099;
-											tabi_Ill1ll1l1I[tabi_III1ll1l1I] = tabi_lIllll1l1I;
-										end;
-									end;
-								end;
-							end;
-						end;
-					else
-						if tabi_l11I1l1l1I < 6257300 then
-							if tabi_l11I1l1l1I < 5473990 then
-								if tabi_l11I1l1l1I < 4916979 then
-									if tabi_l11I1l1l1I < 4542187 then
-										if tabi_l11I1l1l1I < 4347456 then
-											if tabi_l11I1l1l1I < 4279899 then
-												tabi_l1I1ll1l1I = -10981;
-												tabi_lIl1ll1l1I = "\085\068\105\109\050";
-												tabi_Ill1ll1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-												tabi_III1ll1l1I = -10958;
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-												tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-												tabi_lIl1ll1l1I = 0;
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[6]];
-												tabi_IlI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_lII1ll1l1I = tabi_IlI1ll1l1I(tabi_III1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_llI1ll1l1I[tabi_lII1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_lII1ll1l1I = -10938;
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_IlI1ll1l1I = -10882;
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_IlI1ll1l1I = 21;
-												tabi_IIl1ll1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_l1I1ll1l1I = 0;
-												tabi_l11I1l1l1I = 14060461;
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = #tabi_l11lll1l1I;
-												tabi_l11lll1l1I = 24;
-												tabi_lII1ll1l1I = tabi_III1ll1l1I * tabi_l11lll1l1I;
-												tabi_llI1ll1l1I = tabi_IlI1ll1l1I + tabi_lII1ll1l1I;
-												tabi_IlI1ll1l1I = 8;
-												tabi_I1I1ll1l1I = tabi_llI1ll1l1I + tabi_IlI1ll1l1I;
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I, tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I);
-												tabi_l1II1l1l1I = tabi_Ill1ll1l1I;
-											else
-												tabi_IIlI1l1l1I = tabi_Il11ll1l1I(11672420, {});
-												tabi_lllI1l1l1I = tabi_IIlI1l1l1I;
-												tabi_l11I1l1l1I = 9562916;
-											end;
-										else
-											tabi_ll1lll1l1I = "\115\116\114\105\110\103";
-											tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-											tabi_lIl1ll1l1I = tabi_l1I1ll1l1I;
-											tabi_ll1lll1l1I = "\098\121\116\101";
-											tabi_l11lll1l1I = tabi_I11lll1l1I[tabi_ll1lll1l1I];
-											tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_lllI1l1l1I, tabi_lIl1ll1l1I);
-											tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[6]];
-											tabi_ll1lll1l1I = tabi_l11lll1l1I();
-											tabi_III1ll1l1I = tabi_I11lll1l1I + tabi_ll1lll1l1I;
-											tabi_lII1ll1l1I = tabi_III1ll1l1I + tabi_lll1ll1l1I;
-											tabi_ll1lll1l1I = 1;
-											tabi_III1ll1l1I = 256;
-											tabi_IlI1ll1l1I = tabi_lII1ll1l1I % tabi_III1ll1l1I;
-											tabi_lll1ll1l1I = tabi_IlI1ll1l1I;
-											tabi_l11I1l1l1I = 6985941;
-											tabi_III1ll1l1I = tabi_IIlI1l1l1I[tabi_lIlI1l1l1I];
-											tabi_I11lll1l1I = tabi_lll1ll1l1I + tabi_ll1lll1l1I;
-											tabi_l11lll1l1I = tabi_l1II1l1l1I[tabi_I11lll1l1I];
-											tabi_lII1ll1l1I = tabi_III1ll1l1I .. tabi_l11lll1l1I;
-											tabi_IIlI1l1l1I[tabi_lIlI1l1l1I] = tabi_lII1ll1l1I;
-											tabi_lIl1ll1l1I = nil;
-										end;
-									else
-										if tabi_l11I1l1l1I < 4899284 then
-											if tabi_l11I1l1l1I < 4821071 then
-												tabi_lll1ll1l1I = tabi_IllI1l1l1I();
-												tabi_l11I1l1l1I = tabi_IIlI1l1l1I and 10252089 or 16414197;
-												tabi_I1lI1l1l1I[tabi_lll1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIlI1l1l1I;
-											else
-												tabi_l11I1l1l1I = 3956856;
-											end;
-										else
-											tabi_lII1ll1l1I = tabi_lII1ll1l1I + tabi_l11lll1l1I;
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I <= tabi_III1ll1l1I;
-											tabi_ll1lll1l1I = not tabi_I11lll1l1I;
-											tabi_l1lI1l1l1I = tabi_ll1lll1l1I and tabi_l1lI1l1l1I;
-											tabi_ll1lll1l1I = tabi_lII1ll1l1I >= tabi_III1ll1l1I;
-											tabi_ll1lll1l1I = tabi_I11lll1l1I and tabi_ll1lll1l1I;
-											tabi_l1lI1l1l1I = tabi_ll1lll1l1I or tabi_l1lI1l1l1I;
-											tabi_ll1lll1l1I = 6014647;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I and tabi_ll1lll1l1I;
-											tabi_l1lI1l1l1I = 10238265;
-											tabi_l11I1l1l1I = tabi_l11I1l1l1I or tabi_l1lI1l1l1I;
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 5172883 then
-										if tabi_l11I1l1l1I < 5163983 then
-											if tabi_l11I1l1l1I < 5082349 then
-												tabi_l11I1l1l1I = tabi_IIlI1l1l1I;
-												tabi_l1lI1l1l1I[tabi_lIlI1l1l1I] = tabi_lllI1l1l1I;
-												tabi_l1II1l1l1I = -10974;
-												tabi_lIlI1l1l1I = "\116\097\115\107";
-												tabi_lllI1l1l1I = tabi_IIIl1l1l1I[tabi_lIlI1l1l1I];
-												tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-												tabi_IIlI1l1l1I = tabi_lIlI1l1l1I(tabi_l1II1l1l1I);
-												tabi_l1lI1l1l1I = tabi_lllI1l1l1I[tabi_IIlI1l1l1I];
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_lIlI1l1l1I = tabi_l1II1l1l1I;
-												tabi_IIlI1l1l1I = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_l1II1l1l1I and 14330806 or 8371967;
-											else
-												tabi_l11I1l1l1I = 4014714;
-												tabi_lIllll1l1I = nil;
-												tabi_IIllll1l1I = nil;
-											end;
-										else
-											tabi_l1I1ll1l1I = "\085\068\105\109\050";
-											tabi_l11I1l1l1I = 1570864;
-											tabi_IIl1ll1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-											tabi_llI1ll1l1I = -10981;
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_IlI1ll1l1I = 310;
-											tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_I1I1ll1l1I = 500;
-											tabi_l1I1ll1l1I = 0;
-											tabi_llI1ll1l1I = 0;
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I, tabi_I1I1ll1l1I, tabi_llI1ll1l1I, tabi_IlI1ll1l1I);
-											tabi_I1l1ll1l1I = tabi_IIl1ll1l1I;
-										end;
-									else
-										if tabi_l11I1l1l1I < 5415524 then
-											tabi_l1lI1l1l1I = { tabi_lIlI1l1l1I };
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.NiCpFMqbOA4e;
-										else
-											tabi_l11I1l1l1I = nil;
-											tabi_lllI1l1l1I = tabi_IllI1l1l1I();
-											tabi_l1II1l1l1I = tabi_IllI1l1l1I();
-											tabi_I1lI1l1l1I[tabi_lllI1l1l1I] = tabi_ll1I1l1l1I[1];
-											tabi_lIlI1l1l1I = tabi_IllI1l1l1I();
-											tabi_IIlI1l1l1I = tabi_IllI1l1l1I();
-											tabi_I1lI1l1l1I[tabi_lIlI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = nil;
-											tabi_I1lI1l1l1I[tabi_IIlI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = nil;
-											tabi_I1lI1l1l1I[tabi_l1II1l1l1I] = tabi_l11I1l1l1I;
-											tabi_IIl1ll1l1I = -10982;
-											tabi_l11I1l1l1I = nil;
-											tabi_lll1ll1l1I = tabi_IllI1l1l1I();
-											tabi_I1l1ll1l1I = tabi_IllI1l1l1I();
-											tabi_I1lI1l1l1I[tabi_I1l1ll1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_IlII1l1l1I(1684019, {
-													tabi_Il1I1l1l1I[1],
-													tabi_l1II1l1l1I,
-													tabi_lllI1l1l1I,
-													tabi_I1l1ll1l1I,
-												});
-											tabi_I1lI1l1l1I[tabi_lll1ll1l1I] = tabi_l11I1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_lllI1l1l1I];
-											tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-											tabi_IIl1ll1l1I = -10883;
-											tabi_Ill1ll1l1I = tabi_I111ll1l1I(11980654, {
-													tabi_Il1I1l1l1I[1],
-													tabi_lIlI1l1l1I,
-													tabi_l1II1l1l1I,
-													tabi_lllI1l1l1I,
-													tabi_I1l1ll1l1I,
-												});
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_l1lI1l1l1I = "\067\111\110\110\101\099\116";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I[tabi_l1lI1l1l1I];
-											tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_l11I1l1l1I, tabi_Ill1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_lllI1l1l1I];
-											tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-											tabi_IIl1ll1l1I = -10883;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_Ill1ll1l1I = tabi_lIII1l1l1I(8022773, { tabi_Il1I1l1l1I[1], tabi_IIlI1l1l1I });
-											tabi_l1lI1l1l1I = "\067\111\110\110\101\099\116";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I[tabi_l1lI1l1l1I];
-											tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_l11I1l1l1I, tabi_Ill1ll1l1I);
-											tabi_I1l1ll1l1I = tabi_I1II1l1l1I(tabi_I1l1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_lllI1l1l1I = tabi_I1II1l1l1I(tabi_lllI1l1l1I);
-											tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1II1l1l1I = tabi_I1II1l1l1I(tabi_l1II1l1l1I);
-											tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_ll11ll1l1I(303625, { tabi_IIlI1l1l1I, tabi_lIlI1l1l1I, tabi_lll1ll1l1I });
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_l1lI1l1l1I = "\067\111\110\110\101\099\116";
-											tabi_lIlI1l1l1I = tabi_I1II1l1l1I(tabi_lIlI1l1l1I);
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I[tabi_l1lI1l1l1I];
-											tabi_IIlI1l1l1I = tabi_I1II1l1l1I(tabi_IIlI1l1l1I);
-											tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_l11I1l1l1I, tabi_Ill1ll1l1I);
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.UwAO1kVzZUlyh;
-											tabi_lll1ll1l1I = tabi_I1II1l1l1I(tabi_lll1ll1l1I);
-											tabi_l1lI1l1l1I = {};
-										end;
-									end;
-								end;
-							else
-								if tabi_l11I1l1l1I < 5739254 then
-									if tabi_l11I1l1l1I < 5589365 then
-										if tabi_l11I1l1l1I < 5582708 then
-											if tabi_l11I1l1l1I < 5525030 then
-												tabi_l11I1l1l1I = tabi_lllI1l1l1I;
-												tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = 9912111;
-											else
-												tabi_l11I1l1l1I = tabi_IIlI1l1l1I;
-												tabi_Ill1ll1l1I = 180;
-												tabi_I1l1ll1l1I = tabi_l11I1l1l1I;
-												tabi_I1l1ll1l1I = 0;
-												tabi_l1lI1l1l1I[tabi_lIlI1l1l1I] = tabi_lllI1l1l1I;
-												tabi_IIlI1l1l1I = -10877;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[7]];
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_lIlI1l1l1I = tabi_lllI1l1l1I(tabi_IIlI1l1l1I);
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_IIlI1l1l1I = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.kST3nMpMHXH1O9;
-												tabi_l1II1l1l1I = tabi_lll1ll1l1I and tabi_Ill1ll1l1I;
-												tabi_lllI1l1l1I = tabi_l1II1l1l1I or tabi_I1l1ll1l1I;
-												tabi_l1lI1l1l1I[tabi_lIlI1l1l1I] = tabi_lllI1l1l1I;
-												tabi_l1lI1l1l1I = {};
-											end;
-										else
-											tabi_lIl1ll1l1I = "\067\111\108\111\114\051";
-											tabi_Ill1ll1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-											tabi_l1I1ll1l1I = -11000;
-											tabi_l11I1l1l1I = 4591756;
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_l1I1ll1l1I = 46;
-											tabi_lIl1ll1l1I = 93;
-											tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = 194;
-											tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I, tabi_IIl1ll1l1I, tabi_l1I1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_Ill1ll1l1I;
-										end;
-									else
-										if tabi_l11I1l1l1I < 5631580 then
-											tabi_lII1ll1l1I = "\067\111\108\111\114\051";
-											tabi_l11lll1l1I = -11000;
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = -10914;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_IlI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-											tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-											tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-											tabi_lII1ll1l1I = 202;
-											tabi_III1ll1l1I = 202;
-											tabi_l11lll1l1I = 202;
-											tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I, tabi_l11lll1l1I);
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = -11019;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_l11I1l1l1I = 14;
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = -10879;
-											tabi_III1ll1l1I = "\069\110\117\109";
-											tabi_I11lll1l1I = -10879;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_IlI1ll1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = -10873;
-											tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-											tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_I11lll1l1I = -11000;
-											tabi_III1ll1l1I = -10888;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10969;
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_lII1ll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_III1ll1l1I = "\067\111\108\111\114\051";
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10920;
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_I11lll1l1I = 255;
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = 255;
-											tabi_III1ll1l1I = 255;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_I11lll1l1I = -11000;
-											tabi_III1ll1l1I = "\067\111\108\111\114\051";
-											tabi_lII1ll1l1I = -10881;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_l1lI1l1l1I = 1;
-											tabi_lII1ll1l1I = -11006;
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = 0;
-											tabi_III1ll1l1I = 0;
-											tabi_ll1lll1l1I = 0;
-											tabi_I11lll1l1I = 0;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_lII1ll1l1I = -10912;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_l1lI1l1l1I = 0;
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I11lll1l1I = -10981;
-											tabi_lII1ll1l1I = -10942;
-											tabi_III1ll1l1I = "\085\068\105\109\050";
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_III1ll1l1I = 1;
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_I11lll1l1I = 0;
-											tabi_l11lll1l1I = -25;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10958;
-											tabi_III1ll1l1I = "\085\068\105\109\050";
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_ll1lll1l1I = 23;
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I11lll1l1I = -10981;
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_III1ll1l1I = 0;
-											tabi_l11lll1l1I = 23;
-											tabi_I11lll1l1I = 0;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -11014;
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = -10968;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_ll1lll1l1I = 21;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_III1ll1l1I = -10987;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10969;
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_I11lll1l1I = -11000;
-											tabi_lII1ll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_lII1ll1l1I = -10920;
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_III1ll1l1I = "\067\111\108\111\114\051";
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = 52;
-											tabi_I11lll1l1I = 52;
-											tabi_III1ll1l1I = 52;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_III1ll1l1I = "\067\111\108\111\114\051";
-											tabi_lII1ll1l1I = -11006;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I11lll1l1I = -11000;
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_III1ll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_I11lll1l1I = 0;
-											tabi_l11lll1l1I = 0;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_lII1ll1l1I = -10912;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_l1lI1l1l1I = 0;
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_lII1ll1l1I = -10942;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_I11lll1l1I = -10981;
-											tabi_III1ll1l1I = "\085\068\105\109\050";
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_III1ll1l1I = 0;
-											tabi_l11lll1l1I = 0;
-											tabi_I11lll1l1I = 0;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_I11lll1l1I = -10981;
-											tabi_III1ll1l1I = "\085\068\105\109\050";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10958;
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_I11lll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_III1ll1l1I = 1;
-											tabi_l11lll1l1I = 0;
-											tabi_ll1lll1l1I = 2;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10886;
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_ll1lll1l1I = 28;
-											tabi_l1lI1l1l1I = false;
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -11011;
-											tabi_IlI1ll1l1I = -10969;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_l1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_IlI1ll1l1I = -10920;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_l1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_lII1ll1l1I = "\067\111\108\111\114\051";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -11000;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_IlI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-											tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-											tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-											tabi_l11lll1l1I = 255;
-											tabi_III1ll1l1I = 255;
-											tabi_lII1ll1l1I = 255;
-											tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I, tabi_l11lll1l1I);
-											tabi_l1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-											tabi_IlI1ll1l1I = -10881;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -11000;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_l11I1l1l1I = 1;
-											tabi_lII1ll1l1I = "\067\111\108\111\114\051";
-											tabi_IlI1ll1l1I = -11006;
-											tabi_l1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_IlI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-											tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-											tabi_lII1ll1l1I = 0;
-											tabi_l11lll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = 0;
-											tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I, tabi_l11lll1l1I);
-											tabi_l1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-											tabi_IlI1ll1l1I = -10912;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -10981;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_l11I1l1l1I = 0;
-											tabi_l1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_IlI1ll1l1I = -10958;
-											tabi_lII1ll1l1I = "\085\068\105\109\050";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_I11lll1l1I = 21;
-											tabi_IlI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-											tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-											tabi_lII1ll1l1I = 1;
-											tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = 0;
-											tabi_l11lll1l1I = 0;
-											tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-											tabi_III1ll1l1I = "\069\110\117\109";
-											tabi_l1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-											tabi_IlI1ll1l1I = -10917;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_I11lll1l1I = -10917;
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_IlI1ll1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = -10903;
-											tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-											tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-											tabi_l1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = -10909;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -11015;
-											tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = "\067\111\108\111\114\051";
-											tabi_l1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-											tabi_IlI1ll1l1I = -10914;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_l11lll1l1I = -11000;
-											tabi_IlI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-											tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-											tabi_l11lll1l1I = 0;
-											tabi_lII1ll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = 0;
-											tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I, tabi_l11lll1l1I);
-											tabi_l1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = -11019;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_lII1ll1l1I = -10969;
-											tabi_l11I1l1l1I = 14;
-											tabi_l1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_III1ll1l1I = -10898;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_lII1ll1l1I = -10946;
-											tabi_I11lll1l1I = -11000;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -11024;
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_l1lI1l1l1I = true;
-											tabi_III1ll1l1I = "\067\111\108\111\114\051";
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10920;
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_III1ll1l1I = 255;
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_I11lll1l1I = 255;
-											tabi_l11lll1l1I = 255;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-											tabi_I11lll1l1I = -11000;
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10881;
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = -11006;
-											tabi_l1lI1l1l1I = 1;
-											tabi_III1ll1l1I = "\067\111\108\111\114\051";
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_III1ll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = 0;
-											tabi_I11lll1l1I = 0;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = "\085\068\105\109\050";
-											tabi_lII1ll1l1I = -10912;
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_I11lll1l1I = -10981;
-											tabi_l1lI1l1l1I = 0;
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_lII1ll1l1I = -10942;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_I11lll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_III1ll1l1I = 0;
-											tabi_l11lll1l1I = 0;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_ll1lll1l1I = 97;
-											tabi_lII1ll1l1I = -10958;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = "\085\068\105\109\050";
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_I11lll1l1I = -10981;
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = 0;
-											tabi_I11lll1l1I = 0;
-											tabi_III1ll1l1I = 1;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_lII1ll1l1I;
-											tabi_III1ll1l1I = "\069\110\117\109";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10886;
-											tabi_I11lll1l1I = -10930;
-											tabi_IlI1ll1l1I = tabi_l1lI1l1l1I(tabi_lII1ll1l1I);
-											tabi_l1lI1l1l1I = false;
-											tabi_l11I1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -10928;
-											tabi_IlI1ll1l1I = -10969;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-											tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-											tabi_IlI1ll1l1I = -10946;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_IlI1ll1l1I = -10930;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_IlI1ll1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = -10940;
-											tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-											tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-											tabi_IlI1ll1l1I = -11008;
-											tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_I11lll1l1I = -11008;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = "\069\110\117\109";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_IlI1ll1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-											tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -11025;
-											tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-											tabi_lII1ll1l1I = "\085\068\105\109";
-											tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-											tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_IlI1ll1l1I = -10913;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_IlI1ll1l1I);
-											tabi_IlI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-											tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -10981;
-											tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-											tabi_lII1ll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = 3;
-											tabi_IlI1ll1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I);
-											tabi_III1ll1l1I = nil;
-											tabi_l11I1l1l1I = false;
-											tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_IlI1ll1l1I;
-											tabi_IlI1ll1l1I = tabi_IllI1l1l1I();
-											tabi_lII1ll1l1I = tabi_IllI1l1l1I();
-											tabi_I1lI1l1l1I[tabi_IlI1ll1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_Il11ll1l1I(9744681, {
-													tabi_IIlI1l1l1I,
-													tabi_IlI1ll1l1I,
-													tabi_I1I1ll1l1I,
-													tabi_Il1I1l1l1I[1],
-													tabi_IIl1ll1l1I,
-													tabi_I1l1ll1l1I,
-													tabi_lIl1ll1l1I,
-												});
-											tabi_l1lI1l1l1I = nil;
-											tabi_I1lI1l1l1I[tabi_lII1ll1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIlI1l1l1I];
-											tabi_I11lll1l1I = tabi_l1lI1l1l1I;
-											tabi_l11lll1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = 3834997;
-										else
-											tabi_IIlI1l1l1I = tabi_IllI1l1l1I();
-											tabi_I1lI1l1l1I[tabi_IIlI1l1l1I] = tabi_ll1I1l1l1I[3];
-											tabi_lIlI1l1l1I = tabi_ll1I1l1l1I[2];
-											tabi_l1II1l1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_lIl1ll1l1I = -10981;
-											tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_l1II1l1l1I];
-											tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lll1ll1l1I = -10981;
-											tabi_Ill1ll1l1I = -10981;
-											tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_lll1ll1l1I = -11017;
-											tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1l1ll1l1I = { tabi_l1II1l1l1I(tabi_lll1ll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_I1l1ll1l1I));
-											tabi_l1II1l1l1I = tabi_l1lI1l1l1I;
-											tabi_I1l1ll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llI1ll1l1I = 0;
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lll1ll1l1I];
-											tabi_Ill1ll1l1I = -10957;
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lll1ll1l1I = { tabi_I1l1ll1l1I(tabi_Ill1ll1l1I) };
-											tabi_I1l1ll1l1I = tabi_IllI1l1l1I();
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_lll1ll1l1I));
-											tabi_lll1ll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_I1lI1l1l1I[tabi_I1l1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lll1ll1l1I];
-											tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-											tabi_lIl1ll1l1I = -10937;
-											tabi_IIl1ll1l1I = -10981;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_Ill1ll1l1I];
-											tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Ill1ll1l1I = { tabi_lll1ll1l1I(tabi_lIl1ll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_Ill1ll1l1I));
-											tabi_I1I1ll1l1I = -11000;
-											tabi_Ill1ll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-											tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_IIl1ll1l1I = -11018;
-											tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = { tabi_Ill1ll1l1I(tabi_IIl1ll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_lIl1ll1l1I));
-											tabi_IIl1ll1l1I = -10902;
-											tabi_lIl1ll1l1I = -10969;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Ill1ll1l1I = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_l11I1l1l1I(tabi_IIl1ll1l1I);
-											tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_lIl1ll1l1I = -10946;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_IIl1ll1l1I = "\067\111\108\111\114\051";
-											tabi_lIl1ll1l1I = -10920;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_I1I1ll1l1I = 255;
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_IIl1ll1l1I = 255;
-											tabi_l1I1ll1l1I = 255;
-											tabi_lIl1ll1l1I = tabi_l11I1l1l1I(tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I);
-											tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = -10881;
-											tabi_IIl1ll1l1I = "\067\111\108\111\114\051";
-											tabi_I1I1ll1l1I = -11000;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_l11I1l1l1I = 1;
-											tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = -11006;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_I1I1ll1l1I = 0;
-											tabi_IIl1ll1l1I = 0;
-											tabi_l1I1ll1l1I = 0;
-											tabi_lIl1ll1l1I = tabi_l11I1l1l1I(tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I);
-											tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_lIl1ll1l1I = -10912;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = "\085\068\105\109\050";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_I1I1ll1l1I = -10981;
-											tabi_l11I1l1l1I = 0;
-											tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_lIl1ll1l1I = -10942;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = 0;
-											tabi_I1I1ll1l1I = .46808511;
-											tabi_IIl1ll1l1I = 0;
-											tabi_lIl1ll1l1I = tabi_l11I1l1l1I(tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I, tabi_llI1ll1l1I);
-											tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_lIl1ll1l1I = -10958;
-											tabi_llI1ll1l1I = 19;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_I1I1ll1l1I = -10981;
-											tabi_IIl1ll1l1I = "\085\068\105\109\050";
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = 176;
-											tabi_I1I1ll1l1I = 0;
-											tabi_IIl1ll1l1I = 0;
-											tabi_lIl1ll1l1I = tabi_l11I1l1l1I(tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I, tabi_llI1ll1l1I);
-											tabi_IIl1ll1l1I = -10969;
-											tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_l1lI1l1l1I(tabi_IIl1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = -10988;
-											tabi_IIl1ll1l1I = tabi_l1lI1l1l1I(tabi_l1I1ll1l1I);
-											tabi_l11I1l1l1I[tabi_lIl1ll1l1I] = tabi_IIl1ll1l1I;
-											tabi_IIl1ll1l1I = -10946;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_l1lI1l1l1I(tabi_IIl1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_l1II1l1l1I;
-											tabi_l11I1l1l1I[tabi_lIl1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_l1I1ll1l1I = "\067\111\108\111\114\051";
-											tabi_IIl1ll1l1I = -10920;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_l1lI1l1l1I(tabi_IIl1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_llI1ll1l1I = -11000;
-											tabi_l11I1l1l1I[tabi_lIl1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = -11006;
-											tabi_lIl1ll1l1I = tabi_l1lI1l1l1I(tabi_IIl1ll1l1I);
-											tabi_IIl1ll1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_l1I1ll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_I1I1ll1l1I = 0;
-											tabi_llI1ll1l1I = 0;
-											tabi_IIl1ll1l1I = tabi_l1lI1l1l1I(tabi_l1I1ll1l1I, tabi_I1I1ll1l1I, tabi_llI1ll1l1I);
-											tabi_l11I1l1l1I[tabi_lIl1ll1l1I] = tabi_IIl1ll1l1I;
-											tabi_IlI1ll1l1I = 19;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_IIl1ll1l1I = -10912;
-											tabi_llI1ll1l1I = -10981;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_l1lI1l1l1I(tabi_IIl1ll1l1I);
-											tabi_l1lI1l1l1I = 0;
-											tabi_l11I1l1l1I[tabi_lIl1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_IIl1ll1l1I = -10958;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_l1lI1l1l1I(tabi_IIl1ll1l1I);
-											tabi_l1I1ll1l1I = "\085\068\105\109\050";
-											tabi_IIl1ll1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_l1I1ll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_I1I1ll1l1I = 19;
-											tabi_llI1ll1l1I = 0;
-											tabi_IIl1ll1l1I = tabi_l1lI1l1l1I(tabi_l1I1ll1l1I, tabi_I1I1ll1l1I, tabi_llI1ll1l1I, tabi_IlI1ll1l1I);
-											tabi_l11I1l1l1I[tabi_lIl1ll1l1I] = tabi_IIl1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_IlI1ll1l1I = -10917;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = -10984;
-											tabi_lIl1ll1l1I = tabi_l1lI1l1l1I(tabi_IIl1ll1l1I);
-											tabi_l1lI1l1l1I = false;
-											tabi_IIl1ll1l1I = -10917;
-											tabi_l11I1l1l1I[tabi_lIl1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_I1I1ll1l1I = "\069\110\117\109";
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_l1lI1l1l1I(tabi_IIl1ll1l1I);
-											tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-											tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-											tabi_IIl1ll1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-											tabi_llI1ll1l1I = -10903;
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_l11I1l1l1I[tabi_lIl1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_IIl1ll1l1I = -10909;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = -11015;
-											tabi_lIl1ll1l1I = tabi_l1lI1l1l1I(tabi_IIl1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = tabi_l1lI1l1l1I(tabi_l1I1ll1l1I);
-											tabi_l11I1l1l1I[tabi_lIl1ll1l1I] = tabi_IIl1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_IIl1ll1l1I = -10914;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = "\067\111\108\111\114\051";
-											tabi_lIl1ll1l1I = tabi_l1lI1l1l1I(tabi_IIl1ll1l1I);
-											tabi_IIl1ll1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llI1ll1l1I = -11000;
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_llI1ll1l1I = 255;
-											tabi_l1I1ll1l1I = 255;
-											tabi_l1lI1l1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_I1I1ll1l1I = 255;
-											tabi_IIl1ll1l1I = tabi_l1lI1l1l1I(tabi_l1I1ll1l1I, tabi_I1I1ll1l1I, tabi_llI1ll1l1I);
-											tabi_l11I1l1l1I[tabi_lIl1ll1l1I] = tabi_IIl1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = -11019;
-											tabi_lIl1ll1l1I = tabi_l1lI1l1l1I(tabi_IIl1ll1l1I);
-											tabi_l1lI1l1l1I = 18;
-											tabi_l11I1l1l1I[tabi_lIl1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_IIl1ll1l1I = "\085\068\105\109";
-											tabi_lIl1ll1l1I = -10899;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_I1I1ll1l1I = -10981;
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_IIl1ll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = 4;
-											tabi_lIl1ll1l1I = tabi_l11I1l1l1I(tabi_IIl1ll1l1I, tabi_l1I1ll1l1I);
-											tabi_IIl1ll1l1I = -10941;
-											tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = -10969;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_l11I1l1l1I(tabi_IIl1ll1l1I);
-											tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_lIl1ll1l1I = -10946;
-											tabi_llI1ll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = -10969;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_IIl1ll1l1I = -10960;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_l11I1l1l1I(tabi_IIl1ll1l1I);
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_I1I1ll1l1I = -11000;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_l11I1l1l1I = tabi_l1II1l1l1I;
-											tabi_lIl1ll1l1I = -10920;
-											tabi_IIl1ll1l1I = "\067\111\108\111\114\051";
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = 255;
-											tabi_I1I1ll1l1I = 255;
-											tabi_IIl1ll1l1I = 255;
-											tabi_lIl1ll1l1I = tabi_l11I1l1l1I(tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I);
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = -10881;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_lIl1ll1l1I = -11006;
-											tabi_IIl1ll1l1I = "\067\111\108\111\114\051";
-											tabi_l11I1l1l1I = 1;
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = -11000;
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_IIl1ll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = 0;
-											tabi_I1I1ll1l1I = 0;
-											tabi_lIl1ll1l1I = tabi_l11I1l1l1I(tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I);
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = -10981;
-											tabi_lIl1ll1l1I = -10912;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_l11I1l1l1I = 0;
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_lIl1ll1l1I = -10942;
-											tabi_IIl1ll1l1I = "\085\068\105\109\050";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_I1I1ll1l1I = 0;
-											tabi_IIl1ll1l1I = .17;
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = 0;
-											tabi_lIl1ll1l1I = tabi_l11I1l1l1I(tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I, tabi_llI1ll1l1I);
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = -10981;
-											tabi_lIl1ll1l1I = -10958;
-											tabi_IIl1ll1l1I = "\085\068\105\109\050";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_llI1ll1l1I = 0;
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_I1I1ll1l1I = 1;
-											tabi_IIl1ll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = 168;
-											tabi_lIl1ll1l1I = tabi_l11I1l1l1I(tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I, tabi_llI1ll1l1I);
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_lIl1ll1l1I = -10917;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = "\069\110\117\109";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_llI1ll1l1I = -10917;
-											tabi_IIl1ll1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = -10892;
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_lIl1ll1l1I = -10909;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_lIlI1l1l1I;
-											tabi_l11I1l1l1I = tabi_lIlI1l1l1I and 7650537 or 14840773;
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 6117488 then
-										if tabi_l11I1l1l1I < 5927326 then
-											if tabi_l11I1l1l1I < 5823551 then
-												tabi_lIl1ll1l1I = tabi_I1II1l1l1I(tabi_lIl1ll1l1I);
-												tabi_Ill1ll1l1I = nil;
-												tabi_ll1lll1l1I = -10885;
-												tabi_llI1ll1l1I = nil;
-												tabi_l1lI1l1l1I = {};
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_lll1ll1l1I = nil;
-												tabi_l11lll1l1I = "\067\111\110\110\101\099\116";
-												tabi_III1ll1l1I = tabi_l1I1ll1l1I[tabi_I11lll1l1I];
-												tabi_IlI1ll1l1I = tabi_I1II1l1l1I(tabi_IlI1ll1l1I);
-												tabi_lIlI1l1l1I = nil;
-												tabi_l1I1ll1l1I = nil;
-												tabi_IIl1ll1l1I = tabi_I1II1l1l1I(tabi_IIl1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_I1II1l1l1I(tabi_I1I1ll1l1I);
-												tabi_I1l1ll1l1I = tabi_I1II1l1l1I(tabi_I1l1ll1l1I);
-												tabi_IIlI1l1l1I = tabi_I1II1l1l1I(tabi_IIlI1l1l1I);
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.PLH7Jm3Ty3AQ0P;
-												tabi_l11lll1l1I = tabi_III1ll1l1I[tabi_l11lll1l1I];
-												tabi_l1II1l1l1I = tabi_I1II1l1l1I(tabi_l1II1l1l1I);
-												tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_lII1ll1l1I];
-												tabi_l11lll1l1I = tabi_l11lll1l1I(tabi_III1ll1l1I, tabi_I11lll1l1I);
-												tabi_lII1ll1l1I = tabi_I1II1l1l1I(tabi_lII1ll1l1I);
-												tabi_lllI1l1l1I = nil;
-											else
-												tabi_l11I1l1l1I = {};
-												tabi_lll1ll1l1I = nil;
-												tabi_IIl1ll1l1I = nil;
-												tabi_llI1ll1l1I = nil;
-												tabi_Ill1ll1l1I = nil;
-												tabi_I1I1ll1l1I = nil;
-												tabi_IlI1ll1l1I = nil;
-												tabi_lII1ll1l1I = nil;
-												tabi_llI1ll1l1I = -10939;
-												tabi_Ill1ll1l1I = tabi_IllI1l1l1I();
-												tabi_l1I1ll1l1I = nil;
-												tabi_lIl1ll1l1I = nil;
-												tabi_lIl1ll1l1I = tabi_IllI1l1l1I();
-												tabi_lII1ll1l1I = -10944;
-												tabi_lll1ll1l1I = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = 0;
-												tabi_I1lI1l1l1I[tabi_Ill1ll1l1I] = tabi_l11I1l1l1I;
-												tabi_IIl1ll1l1I = "\103\097\109\101";
-												tabi_l11I1l1l1I = {};
-												tabi_I1lI1l1l1I[tabi_lIl1ll1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_IIl1ll1l1I = "\071\101\116\083\101\114\118\105\099\101";
-												tabi_I1I1ll1l1I = { tabi_l1I1ll1l1I(tabi_llI1ll1l1I) };
-												tabi_IIl1ll1l1I = tabi_l11I1l1l1I[tabi_IIl1ll1l1I];
-												tabi_l1I1ll1l1I = tabi_IllI1l1l1I();
-												tabi_IIl1ll1l1I = tabi_IIl1ll1l1I(tabi_l11I1l1l1I, tabi_I11I1l1l1I(tabi_I1I1ll1l1I));
-												tabi_I1lI1l1l1I[tabi_l1I1ll1l1I] = tabi_IIl1ll1l1I;
-												tabi_I1I1ll1l1I = "\103\097\109\101";
-												tabi_l11I1l1l1I = tabi_l111ll1l1I(183301, { tabi_I1l1ll1l1I });
-												tabi_IIl1ll1l1I = tabi_IllI1l1l1I();
-												tabi_I1lI1l1l1I[tabi_IIl1ll1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_IlI1ll1l1I = { tabi_llI1ll1l1I(tabi_lII1ll1l1I) };
-												tabi_I1I1ll1l1I = "\071\101\116\083\101\114\118\105\099\101";
-												tabi_llI1ll1l1I = tabi_IllI1l1l1I();
-												tabi_I1I1ll1l1I = tabi_l11I1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1I1ll1l1I(tabi_l11I1l1l1I, tabi_I11I1l1l1I(tabi_IlI1ll1l1I));
-												tabi_l11I1l1l1I = tabi_ll11ll1l1I(5473447, { tabi_I1l1ll1l1I, tabi_l1I1ll1l1I });
-												tabi_l1lI1l1l1I = { tabi_lll1ll1l1I };
-												tabi_lII1ll1l1I = "\078\101\119";
-												tabi_I1lI1l1l1I[tabi_llI1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_IlI1ll1l1I = tabi_IllI1l1l1I();
-												tabi_I1I1ll1l1I = "\097\112\112\108\121\100\114\097\103";
-												tabi_IIIl1l1l1I[tabi_I1I1ll1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_IIII1l1l1I(1485869, { tabi_I1l1ll1l1I, tabi_llI1ll1l1I });
-												tabi_I1I1ll1l1I = tabi_IllI1l1l1I();
-												tabi_I1lI1l1l1I[tabi_I1I1ll1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_Il11ll1l1I(6493382, { tabi_I1l1ll1l1I, tabi_I1I1ll1l1I });
-												tabi_I1lI1l1l1I[tabi_IlI1ll1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_l1l1ll1l1I(13586335, {
-														tabi_I1l1ll1l1I,
-														tabi_llI1ll1l1I,
-														tabi_Ill1ll1l1I,
-														tabi_lIl1ll1l1I,
-														tabi_IlI1ll1l1I,
-														tabi_IIl1ll1l1I,
-														tabi_l1I1ll1l1I,
-													});
-												tabi_lll1ll1l1I[tabi_lII1ll1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.Uv81bCHUSJ6r;
-											end;
-										else
-											tabi_ll1lll1l1I = tabi_lII1ll1l1I;
-											tabi_l11I1l1l1I = tabi_ll1lll1l1I;
-											tabi_IlI1ll1l1I[tabi_ll1lll1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = 4913302;
-											tabi_ll1lll1l1I = nil;
-										end;
-									else
-										if tabi_l11I1l1l1I < 6239663 then
-											tabi_I1I1ll1l1I = -10906;
-											tabi_l11I1l1l1I = 13170578;
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = -10938;
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-											tabi_Ill1ll1l1I = 1.5;
-											tabi_I1l1ll1l1I = tabi_lll1ll1l1I * tabi_Ill1ll1l1I;
-											tabi_l1II1l1l1I = tabi_I1l1ll1l1I;
-										else
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llI1ll1l1I = -10906;
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_I1I1ll1l1I = -10964;
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_lIl1ll1l1I = 1.5;
-											tabi_l11I1l1l1I = 13170578;
-											tabi_lll1ll1l1I = tabi_Ill1ll1l1I * tabi_lIl1ll1l1I;
-											tabi_l1II1l1l1I = tabi_lll1ll1l1I;
-										end;
-									end;
-								end;
-							end;
-						else
-							if tabi_l11I1l1l1I < 7031889 then
-								if tabi_l11I1l1l1I < 6794647 then
-									if tabi_l11I1l1l1I < 6488308 then
-										if tabi_l11I1l1l1I < 6480682 then
-											if tabi_l11I1l1l1I < 6455542 then
-												tabi_I11Ill1l1I = 34890157850349;
-												tabi_l11Ill1l1I = "\234";
-												tabi_lIIlll1l1I = tabi_lIlI1l1l1I(tabi_l11Ill1l1I, tabi_I11Ill1l1I);
-												tabi_IlIlll1l1I = tabi_IIlI1l1l1I[tabi_lIIlll1l1I];
-												tabi_llIlll1l1I = tabi_lIllll1l1I == tabi_IlIlll1l1I;
-												tabi_l11I1l1l1I = tabi_llIlll1l1I and 16322035 or 3956856;
-											else
-												tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-												tabi_lIlI1l1l1I = tabi_ll1I1l1l1I[2];
-												tabi_l1II1l1l1I = -10909;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lllI1l1l1I = nil;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_IIlI1l1l1I = tabi_l1lI1l1l1I(tabi_l1II1l1l1I);
-												tabi_l1II1l1l1I = "\116\111\115\116\114\105\110\103";
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1II1l1l1I = tabi_l1lI1l1l1I(tabi_lIlI1l1l1I);
-												tabi_lIlI1l1l1I = nil;
-												tabi_l11I1l1l1I[tabi_IIlI1l1l1I] = tabi_l1II1l1l1I;
-												tabi_l1lI1l1l1I = {};
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.Fs9NF7Hi05QZ;
-											end;
-										else
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = #tabi_lllI1l1l1I;
-											tabi_lllI1l1l1I = 0;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I == tabi_lllI1l1l1I;
-											tabi_l11I1l1l1I = tabi_l11I1l1l1I and 11321178 or 3032668;
-										end;
-									else
-										if tabi_l11I1l1l1I < 6554420 then
-											tabi_l1lI1l1l1I = "\115\112\097\119\110";
-											tabi_lllI1l1l1I = tabi_IllI1l1l1I();
-											tabi_lIlI1l1l1I = tabi_l111ll1l1I(11249495, { tabi_Il1I1l1l1I[1], tabi_lllI1l1l1I, tabi_Il1I1l1l1I[2] });
-											tabi_I1lI1l1l1I[tabi_lllI1l1l1I] = tabi_ll1I1l1l1I[1];
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I[tabi_l1lI1l1l1I];
-											tabi_lllI1l1l1I = tabi_I1II1l1l1I(tabi_lllI1l1l1I);
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIlI1l1l1I);
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.gvvrARMraVUrj;
-											tabi_l1lI1l1l1I = {};
-										else
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_l11I1l1l1I = not tabi_l1lI1l1l1I;
-											tabi_IIlI1l1l1I = -10886;
-											tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]] = tabi_l11I1l1l1I;
-											tabi_I1l1ll1l1I = tabi_l11I1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lIlI1l1l1I = tabi_lllI1l1l1I(tabi_IIlI1l1l1I);
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_l1lI1l1l1I[tabi_lIlI1l1l1I] = tabi_lllI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[5]];
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_IIlI1l1l1I = -10886;
-											tabi_lIlI1l1l1I = tabi_lllI1l1l1I(tabi_IIlI1l1l1I);
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_l1lI1l1l1I[tabi_lIlI1l1l1I] = tabi_lllI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[6]];
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_IIlI1l1l1I = -10958;
-											tabi_lIlI1l1l1I = tabi_lllI1l1l1I(tabi_IIlI1l1l1I);
-											tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_l1II1l1l1I = tabi_lll1ll1l1I;
-											tabi_IIlI1l1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_lll1ll1l1I and 4079740 or 14060461;
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 6986442 then
-										if tabi_l11I1l1l1I < 6849057 then
-											if tabi_l11I1l1l1I < 6808652 then
-												tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-												tabi_IIlI1l1l1I = 214;
-												tabi_lllI1l1l1I = tabi_lIlI1l1l1I * tabi_IIlI1l1l1I;
-												tabi_lIlI1l1l1I = 257;
-												tabi_l1lI1l1l1I = tabi_lllI1l1l1I % tabi_lIlI1l1l1I;
-												tabi_l11I1l1l1I = 11266904;
-												tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]] = tabi_l1lI1l1l1I;
-											else
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I();
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_l11I1l1l1I = tabi_lllI1l1l1I and 12406139 or 3271268;
-												tabi_l1lI1l1l1I = tabi_lllI1l1l1I;
-											end;
-										else
-											tabi_IlI1ll1l1I = not tabi_llI1ll1l1I;
-											tabi_l1I1ll1l1I = tabi_l1I1ll1l1I + tabi_I1I1ll1l1I;
-											tabi_lIl1ll1l1I = tabi_l1I1ll1l1I <= tabi_IIl1ll1l1I;
-											tabi_lIl1ll1l1I = tabi_IlI1ll1l1I and tabi_lIl1ll1l1I;
-											tabi_IlI1ll1l1I = tabi_l1I1ll1l1I >= tabi_IIl1ll1l1I;
-											tabi_IlI1ll1l1I = tabi_llI1ll1l1I and tabi_IlI1ll1l1I;
-											tabi_lIl1ll1l1I = tabi_IlI1ll1l1I or tabi_lIl1ll1l1I;
-											tabi_IlI1ll1l1I = 4400262;
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I and tabi_IlI1ll1l1I;
-											tabi_lIl1ll1l1I = 14258099;
-											tabi_l11I1l1l1I = tabi_l11I1l1l1I or tabi_lIl1ll1l1I;
-										end;
-									else
-										if tabi_l11I1l1l1I < 7020050 then
-											tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.VGvUqHZ7ocsllt;
-											tabi_lllI1l1l1I = nil;
-											tabi_l1lI1l1l1I = {};
-										else
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIlI1l1l1I = -10886;
-											tabi_l11I1l1l1I = not tabi_l1lI1l1l1I;
-											tabi_Ill1ll1l1I = -10981;
-											tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]] = tabi_l11I1l1l1I;
-											tabi_I1l1ll1l1I = "\084\119\101\101\110\073\110\102\111";
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_I1I1ll1l1I = -10947;
-											tabi_lIlI1l1l1I = tabi_lllI1l1l1I(tabi_IIlI1l1l1I);
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = "\069\110\117\109";
-											tabi_l1lI1l1l1I[tabi_lIlI1l1l1I] = tabi_lllI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[5]];
-											tabi_l1II1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_I1l1ll1l1I = .3;
-											tabi_IIlI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_lllI1l1l1I = "\067\114\101\097\116\101";
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_l1I1ll1l1I = -10956;
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_lllI1l1l1I = tabi_l1lI1l1l1I[tabi_lllI1l1l1I];
-											tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-											tabi_l1II1l1l1I = tabi_IIlI1l1l1I(tabi_I1l1ll1l1I, tabi_lll1ll1l1I);
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_IIl1ll1l1I = tabi_l11I1l1l1I;
-											tabi_Ill1ll1l1I = -10877;
-											tabi_I1I1ll1l1I = 180;
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_l11I1l1l1I;
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.YgVp58W1Ejy5;
-											tabi_lIl1ll1l1I = tabi_l1I1ll1l1I and tabi_I1I1ll1l1I;
-											tabi_IIl1ll1l1I = 90;
-											tabi_I1l1ll1l1I = tabi_lIl1ll1l1I or tabi_IIl1ll1l1I;
-											tabi_IIlI1l1l1I = { [tabi_lll1ll1l1I] = tabi_I1l1ll1l1I };
-											tabi_lllI1l1l1I = tabi_lllI1l1l1I(tabi_l1lI1l1l1I, tabi_lIlI1l1l1I, tabi_l1II1l1l1I, tabi_IIlI1l1l1I);
-											tabi_l1lI1l1l1I = "\080\108\097\121";
-											tabi_l1lI1l1l1I = tabi_lllI1l1l1I[tabi_l1lI1l1l1I];
-											tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_lllI1l1l1I);
-											tabi_l1lI1l1l1I = {};
-										end;
-									end;
-								end;
-							else
-								if tabi_l11I1l1l1I < 7688414 then
-									if tabi_l11I1l1l1I < 7651622 then
-										if tabi_l11I1l1l1I < 7347758 then
-											if tabi_l11I1l1l1I < 7188271 then
-												tabi_I1Illl1l1I = 0;
-												tabi_Illlll1l1I = tabi_I1Illl1l1I;
-												tabi_lIIlll1l1I = 65536;
-												tabi_l11Ill1l1I = 65536;
-												tabi_IlIlll1l1I = tabi_llllll1l1I / tabi_lIIlll1l1I;
-												tabi_llIlll1l1I = tabi_lII1ll1l1I(tabi_IlIlll1l1I);
-												tabi_IIIlll1l1I = tabi_llllll1l1I % tabi_l11Ill1l1I;
-												tabi_l11Ill1l1I = 256;
-												tabi_lIIlll1l1I = tabi_IIIlll1l1I / tabi_l11Ill1l1I;
-												tabi_IIIlll1l1I = 256;
-												tabi_IlIlll1l1I = tabi_lII1ll1l1I(tabi_lIIlll1l1I);
-												tabi_lIIlll1l1I = tabi_llllll1l1I % tabi_IIIlll1l1I;
-												tabi_l11Ill1l1I = { tabi_llI1ll1l1I(tabi_llIlll1l1I, tabi_IlIlll1l1I, tabi_lIIlll1l1I) };
-												tabi_IlIlll1l1I = nil;
-												tabi_lIIlll1l1I = nil;
-												tabi_IIIlll1l1I = tabi_l1I1ll1l1I(tabi_l1llll1l1I, tabi_I11I1l1l1I(tabi_l11Ill1l1I));
-												tabi_IIIlll1l1I = 0;
-												tabi_llIlll1l1I = nil;
-												tabi_llllll1l1I = tabi_IIIlll1l1I;
-												tabi_l11I1l1l1I = 4864148;
-											else
-												tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-												tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1II1l1l1I = -11002;
-												tabi_IIlI1l1l1I = tabi_lIlI1l1l1I(tabi_l1II1l1l1I);
-												tabi_l1lI1l1l1I = tabi_lllI1l1l1I[tabi_IIlI1l1l1I];
-												tabi_I1l1ll1l1I = "\069\110\117\109";
-												tabi_l1II1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-												tabi_Ill1ll1l1I = -11002;
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-												tabi_IIlI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-												tabi_lll1ll1l1I = -10874;
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-												tabi_lIlI1l1l1I = tabi_IIlI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I == tabi_lIlI1l1l1I;
-												tabi_l11I1l1l1I = tabi_l11I1l1l1I and 3537516 or 813592;
-											end;
-										else
-											tabi_IIl1ll1l1I = "\067\111\108\111\114\051";
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = -10914;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_lll1ll1l1I = nil;
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_I1I1ll1l1I = -11000;
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_IIl1ll1l1I = 202;
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_I1I1ll1l1I = 202;
-											tabi_l1I1ll1l1I = 202;
-											tabi_lIl1ll1l1I = tabi_l11I1l1l1I(tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I);
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_lIl1ll1l1I;
-											tabi_llI1ll1l1I = -10879;
-											tabi_lIl1ll1l1I = -11019;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_l11I1l1l1I = 14;
-											tabi_lIl1ll1l1I = -10879;
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l1I1ll1l1I = "\069\110\117\109";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lIl1ll1l1I);
-											tabi_lllI1l1l1I = nil;
-											tabi_IIl1ll1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-											tabi_lIlI1l1l1I = nil;
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_I1I1ll1l1I = -10873;
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_l11I1l1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_Ill1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_I1I1ll1l1I = -10885;
-											tabi_lIl1ll1l1I = tabi_IllI1l1l1I();
-											tabi_l1II1l1l1I = nil;
-											tabi_l11I1l1l1I = false;
-											tabi_I1lI1l1l1I[tabi_lIl1ll1l1I] = tabi_l11I1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_IIl1ll1l1I = tabi_ll11ll1l1I(11243351, {
-													tabi_lIl1ll1l1I,
-													tabi_I1l1ll1l1I,
-													tabi_Il1I1l1l1I[1],
-													tabi_IIlI1l1l1I,
-												});
-											tabi_IIlI1l1l1I = tabi_I1II1l1l1I(tabi_IIlI1l1l1I);
-											tabi_lIl1ll1l1I = tabi_I1II1l1l1I(tabi_lIl1ll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_l1lI1l1l1I = "\067\111\110\110\101\099\116";
-											tabi_Ill1ll1l1I = nil;
-											tabi_I1l1ll1l1I = tabi_I1II1l1l1I(tabi_I1l1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I[tabi_l1lI1l1l1I];
-											tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_l11I1l1l1I, tabi_IIl1ll1l1I);
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.C3NSHocAYdrGd;
-											tabi_l1lI1l1l1I = {};
-										end;
-									else
-										if tabi_l11I1l1l1I < 7660960 then
-											tabi_l1lI1l1l1I = nil;
-											tabi_lllI1l1l1I = nil;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIlI1l1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = 3740274;
-											tabi_IIlI1l1l1I = tabi_l1lI1l1l1I;
-										else
-											tabi_l11I1l1l1I = 5172894;
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 7741741 then
-										if tabi_l11I1l1l1I < 7717130 then
-											if tabi_l11I1l1l1I < 7716108 then
-												tabi_l1I1ll1l1I = "\085\068\105\109";
-												tabi_llI1ll1l1I = -10981;
-												tabi_IIl1ll1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-												tabi_l11I1l1l1I = 1418283;
-												tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = 0;
-												tabi_l1I1ll1l1I = 0;
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I, tabi_I1I1ll1l1I);
-												tabi_I1l1ll1l1I = tabi_IIl1ll1l1I;
-											else
-												tabi_l11I1l1l1I = 8100599;
-												tabi_lI1lll1l1I = nil;
-												tabi_III1ll1l1I = nil;
-											end;
-										else
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.zK3wsvMuZh7G9v;
-											tabi_l1lI1l1l1I = {};
-										end;
-									else
-										if tabi_l11I1l1l1I < 7941261 then
-											tabi_l11I1l1l1I = 13170578;
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = -10906;
-											tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-											tabi_IIl1ll1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llI1ll1l1I = -10938;
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_IIl1ll1l1I = 1.5;
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I * tabi_IIl1ll1l1I;
-											tabi_l1II1l1l1I = tabi_Ill1ll1l1I;
-										else
-											tabi_lIl1ll1l1I = -10981;
-											tabi_lll1ll1l1I = "\085\068\105\109\050";
-											tabi_I1l1ll1l1I = tabi_IIIl1l1l1I[tabi_lll1ll1l1I];
-											tabi_IlI1ll1l1I = -10958;
-											tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-											tabi_lll1ll1l1I = 0;
-											tabi_l1II1l1l1I = tabi_I1l1ll1l1I[tabi_Ill1ll1l1I];
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[6]];
-											tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-											tabi_l11I1l1l1I = 5581482;
-											tabi_IIl1ll1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-											tabi_llI1ll1l1I = -10938;
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_I1I1ll1l1I = -10882;
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_lIl1ll1l1I = 0;
-											tabi_IIl1ll1l1I = 21;
-											tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I, tabi_Ill1ll1l1I, tabi_lIl1ll1l1I, tabi_IIl1ll1l1I);
-											tabi_lllI1l1l1I = tabi_I1l1ll1l1I;
-										end;
-									end;
-								end;
-							end;
-						end;
-					end;
-				else
-					if tabi_l11I1l1l1I < 12235874 then
-						if tabi_l11I1l1l1I < 10176162 then
-							if tabi_l11I1l1l1I < 9402672 then
-								if tabi_l11I1l1l1I < 8595569 then
-									if tabi_l11I1l1l1I < 8065869 then
-										if tabi_l11I1l1l1I < 8029939 then
-											if tabi_l11I1l1l1I < 8011690 then
-												tabi_l1I1ll1l1I = 1;
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-												tabi_IIl1ll1l1I = tabi_I1l1ll1l1I[tabi_l1I1ll1l1I];
-												tabi_IlI1ll1l1I = -10981;
-												tabi_I11lll1l1I = -10947;
-												tabi_llI1ll1l1I = -10998;
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-												tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = "\084\119\101\101\110\073\110\102\111";
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_III1ll1l1I = "\069\110\117\109";
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_I1I1ll1l1I = .2;
-												tabi_IIl1ll1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_IlI1ll1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_l11lll1l1I = -10956;
-												tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-												tabi_lII1ll1l1I = "\085\068\105\109\050";
-												tabi_llI1ll1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-												tabi_IlI1ll1l1I = -10958;
-												tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I);
-												tabi_l11I1l1l1I = 1148963;
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_l11lll1l1I = -10981;
-												tabi_I11lll1l1I = 0;
-												tabi_IlI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-												tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-												tabi_I1I1ll1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-												tabi_Ill1ll1l1I = "\067\114\101\097\116\101";
-												tabi_lII1ll1l1I = 0;
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I[tabi_Ill1ll1l1I];
-												tabi_l11lll1l1I = .25;
-												tabi_III1ll1l1I = 6;
-												tabi_IlI1ll1l1I = tabi_I1I1ll1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-												tabi_I11lll1l1I = -10947;
-												tabi_IIl1ll1l1I = { [tabi_llI1ll1l1I] = tabi_IlI1ll1l1I };
-												tabi_Ill1ll1l1I = tabi_Ill1ll1l1I(tabi_lll1ll1l1I, tabi_lIl1ll1l1I, tabi_l1I1ll1l1I, tabi_IIl1ll1l1I);
-												tabi_lll1ll1l1I = "\080\108\097\121";
-												tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_lll1ll1l1I];
-												tabi_lll1ll1l1I = tabi_lll1ll1l1I(tabi_Ill1ll1l1I);
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-												tabi_l1I1ll1l1I = 1;
-												tabi_llI1ll1l1I = -10998;
-												tabi_IlI1ll1l1I = -10981;
-												tabi_IIl1ll1l1I = tabi_I1l1ll1l1I[tabi_l1I1ll1l1I];
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-												tabi_III1ll1l1I = "\069\110\117\109";
-												tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = "\084\119\101\101\110\073\110\102\111";
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_I1I1ll1l1I = .2;
-												tabi_IIl1ll1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_IlI1ll1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_l11lll1l1I = -10956;
-												tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-												tabi_llI1ll1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-												tabi_lII1ll1l1I = "\067\111\108\111\114\051";
-												tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_IlI1ll1l1I = -10920;
-												tabi_Ill1ll1l1I = "\067\114\101\097\116\101";
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I[tabi_Ill1ll1l1I];
-												tabi_l11lll1l1I = -11000;
-												tabi_IlI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-												tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-												tabi_lII1ll1l1I = 45;
-												tabi_I1I1ll1l1I = tabi_IlI1ll1l1I[tabi_III1ll1l1I];
-												tabi_l11lll1l1I = 45;
-												tabi_III1ll1l1I = 45;
-												tabi_IlI1ll1l1I = tabi_I1I1ll1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I, tabi_l11lll1l1I);
-												tabi_IIl1ll1l1I = { [tabi_llI1ll1l1I] = tabi_IlI1ll1l1I };
-												tabi_Ill1ll1l1I = tabi_Ill1ll1l1I(tabi_lll1ll1l1I, tabi_lIl1ll1l1I, tabi_l1I1ll1l1I, tabi_IIl1ll1l1I);
-												tabi_lll1ll1l1I = "\080\108\097\121";
-												tabi_IIl1ll1l1I = -10886;
-												tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_lll1ll1l1I];
-												tabi_lll1ll1l1I = tabi_lll1ll1l1I(tabi_Ill1ll1l1I);
-												tabi_Ill1ll1l1I = 2;
-												tabi_lll1ll1l1I = tabi_I1l1ll1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_Ill1ll1l1I = false;
-												tabi_lll1ll1l1I[tabi_lIl1ll1l1I] = tabi_Ill1ll1l1I;
-											else
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = -11002;
-												tabi_IIl1ll1l1I = -11002;
-												tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-												tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-												tabi_Ill1ll1l1I = "\069\110\117\109";
-												tabi_IIlI1l1l1I = tabi_lllI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_lll1ll1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_I1l1ll1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = -11010;
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_l1II1l1l1I = tabi_I1l1ll1l1I[tabi_Ill1ll1l1I];
-												tabi_lIlI1l1l1I = tabi_IIlI1l1l1I == tabi_l1II1l1l1I;
-												tabi_l1lI1l1l1I = tabi_lIlI1l1l1I;
-												tabi_l11I1l1l1I = tabi_lIlI1l1l1I and 15247314 or 8773388;
-											end;
-										else
-											tabi_III1ll1l1I = "\116\097\098\117\104\104";
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_l11I1l1l1I = 15555547;
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I();
-										end;
-									else
-										if tabi_l11I1l1l1I < 8328345 then
-											if tabi_l11I1l1l1I < 8159292 then
-												tabi_l11lll1l1I = tabi_l11lll1l1I + tabi_ll1lll1l1I;
-												tabi_lI1lll1l1I = not tabi_Il1lll1l1I;
-												tabi_III1ll1l1I = tabi_l11lll1l1I <= tabi_I11lll1l1I;
-												tabi_III1ll1l1I = tabi_lI1lll1l1I and tabi_III1ll1l1I;
-												tabi_lI1lll1l1I = tabi_l11lll1l1I >= tabi_I11lll1l1I;
-												tabi_lI1lll1l1I = tabi_Il1lll1l1I and tabi_lI1lll1l1I;
-												tabi_III1ll1l1I = tabi_lI1lll1l1I or tabi_III1ll1l1I;
-												tabi_lI1lll1l1I = 13468059;
-												tabi_l11I1l1l1I = tabi_III1ll1l1I and tabi_lI1lll1l1I;
-												tabi_III1ll1l1I = 5833394;
-												tabi_l11I1l1l1I = tabi_l11I1l1l1I or tabi_III1ll1l1I;
-											else
-												tabi_l1II1l1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_lIlI1l1l1I = tabi_ll1I1l1l1I[2];
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_l1II1l1l1I];
-												tabi_l11I1l1l1I = {};
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-												tabi_lll1ll1l1I = -10981;
-												tabi_IIl1ll1l1I = -10981;
-												tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-												tabi_IIlI1l1l1I = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_lll1ll1l1I = -11017;
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = { tabi_l1II1l1l1I(tabi_lll1ll1l1I) };
-												tabi_Ill1ll1l1I = -10981;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_I1l1ll1l1I));
-												tabi_I1l1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_l1II1l1l1I = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lll1ll1l1I];
-												tabi_lIl1ll1l1I = -10981;
-												tabi_Ill1ll1l1I = -10983;
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = { tabi_I1l1ll1l1I(tabi_Ill1ll1l1I) };
-												tabi_I1l1ll1l1I = tabi_IllI1l1l1I();
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_lll1ll1l1I));
-												tabi_l1I1ll1l1I = -10981;
-												tabi_I1lI1l1l1I[tabi_I1l1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_lll1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lll1ll1l1I];
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_lIl1ll1l1I = -11018;
-												tabi_I1I1ll1l1I = -10981;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Ill1ll1l1I = { tabi_lll1ll1l1I(tabi_lIl1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_Ill1ll1l1I));
-												tabi_lll1ll1l1I = tabi_l1lI1l1l1I;
-												tabi_Ill1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIl1ll1l1I = -10957;
-												tabi_lIl1ll1l1I = { tabi_Ill1ll1l1I(tabi_IIl1ll1l1I) };
-												tabi_Ill1ll1l1I = tabi_IllI1l1l1I();
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_lIl1ll1l1I));
-												tabi_I1lI1l1l1I[tabi_Ill1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_lIl1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = -11017;
-												tabi_IIl1ll1l1I = { tabi_lIl1ll1l1I(tabi_l1I1ll1l1I) };
-												tabi_lIl1ll1l1I = tabi_IllI1l1l1I();
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_IIl1ll1l1I));
-												tabi_IIl1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_I1lI1l1l1I[tabi_lIl1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-												tabi_lII1ll1l1I = 0;
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_l1I1ll1l1I];
-												tabi_I1I1ll1l1I = -10933;
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = { tabi_IIl1ll1l1I(tabi_I1I1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_l1I1ll1l1I));
-												tabi_IlI1ll1l1I = -11000;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = -10969;
-												tabi_I1I1ll1l1I = -10923;
-												tabi_IIl1ll1l1I = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I(tabi_I1I1ll1l1I);
-												tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_l1I1ll1l1I;
-												tabi_l1I1ll1l1I = -10946;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_I1I1ll1l1I = "\067\111\108\111\114\051";
-												tabi_l1I1ll1l1I = -10920;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_IlI1ll1l1I = 40;
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_I1I1ll1l1I = 83;
-												tabi_llI1ll1l1I = 170;
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I, tabi_IlI1ll1l1I);
-												tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_l1I1ll1l1I;
-												tabi_l1I1ll1l1I = -10881;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = "\067\111\108\111\114\051";
-												tabi_III1ll1l1I = 3;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_IlI1ll1l1I = -11000;
-												tabi_l11I1l1l1I = 1;
-												tabi_l1I1ll1l1I = -11006;
-												tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_IlI1ll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_I1I1ll1l1I = 0;
-												tabi_llI1ll1l1I = 0;
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I, tabi_IlI1ll1l1I);
-												tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_l1I1ll1l1I;
-												tabi_l1I1ll1l1I = -10912;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I = 0;
-												tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l1I1ll1l1I = -10942;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_IlI1ll1l1I = -10981;
-												tabi_I1I1ll1l1I = "\085\068\105\109\050";
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_I1I1ll1l1I = 0;
-												tabi_llI1ll1l1I = 0;
-												tabi_IlI1ll1l1I = .111524165;
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I);
-												tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_l1I1ll1l1I;
-												tabi_l1I1ll1l1I = -10958;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = "\085\068\105\109\050";
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = -10981;
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_lII1ll1l1I = 20;
-												tabi_I1I1ll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = 368;
-												tabi_IlI1ll1l1I = 0;
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = -10985;
-												tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_l1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = -10985;
-												tabi_llI1ll1l1I = "\069\110\117\109";
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_IlI1ll1l1I = -10964;
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = -10925;
-												tabi_l1II1l1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_I1I1ll1l1I = -10969;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = tabi_l1lI1l1l1I(tabi_llI1ll1l1I);
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_llI1ll1l1I = "\067\111\108\111\114\051";
-												tabi_I1I1ll1l1I = -10946;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_lII1ll1l1I = -11000;
-												tabi_I1I1ll1l1I = -10920;
-												tabi_l1lI1l1l1I = tabi_l1II1l1l1I;
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = 255;
-												tabi_l1lI1l1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_IlI1ll1l1I = 255;
-												tabi_llI1ll1l1I = 255;
-												tabi_I1I1ll1l1I = tabi_l1lI1l1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_llI1ll1l1I = "\067\111\108\111\114\051";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = -10881;
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_lII1ll1l1I = -11000;
-												tabi_l1lI1l1l1I = 1;
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_I1I1ll1l1I = -11006;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_lII1ll1l1I = 0;
-												tabi_llI1ll1l1I = 0;
-												tabi_IlI1ll1l1I = 0;
-												tabi_I1I1ll1l1I = tabi_l1lI1l1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I);
-												tabi_llI1ll1l1I = "\085\068\105\109\050";
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = -10912;
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = 0;
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_I1I1ll1l1I = -10942;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_lII1ll1l1I = -10981;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_llI1ll1l1I = 0;
-												tabi_IlI1ll1l1I = 3;
-												tabi_lII1ll1l1I = 0;
-												tabi_I1I1ll1l1I = tabi_l1lI1l1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I, tabi_III1ll1l1I);
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_I1I1ll1l1I = -10877;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10981;
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = 90;
-												tabi_I1I1ll1l1I = -10958;
-												tabi_llI1ll1l1I = "\085\068\105\109\050";
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_III1ll1l1I = 14;
-												tabi_IlI1ll1l1I = 14;
-												tabi_lII1ll1l1I = 0;
-												tabi_llI1ll1l1I = 0;
-												tabi_I1I1ll1l1I = tabi_l1lI1l1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I, tabi_III1ll1l1I);
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_I1I1ll1l1I = -11014;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = -10894;
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = tabi_l1lI1l1l1I(tabi_llI1ll1l1I);
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = -10878;
-												tabi_IlI1ll1l1I = -11000;
-												tabi_l1I1ll1l1I = -10969;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I(tabi_I1I1ll1l1I);
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = "\067\111\108\111\114\051";
-												tabi_l1I1ll1l1I = -10946;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1II1l1l1I;
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = -10920;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_I1I1ll1l1I = 255;
-												tabi_IlI1ll1l1I = 255;
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = 255;
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I, tabi_IlI1ll1l1I);
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = -10881;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I = 1;
-												tabi_I1I1ll1l1I = "\067\111\108\111\114\051";
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l1I1ll1l1I = -11006;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = -11000;
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_IlI1ll1l1I = 0;
-												tabi_I1I1ll1l1I = 0;
-												tabi_llI1ll1l1I = 0;
-												tabi_lII1ll1l1I = 0;
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I, tabi_IlI1ll1l1I);
-												tabi_I1I1ll1l1I = "\085\068\105\109\050";
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l1I1ll1l1I;
-												tabi_l1I1ll1l1I = -10912;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_IlI1ll1l1I = -10981;
-												tabi_l11I1l1l1I = 0;
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l1I1ll1l1I = -10942;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_I1I1ll1l1I = .0625;
-												tabi_IlI1ll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = 0;
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I);
-												tabi_I1I1ll1l1I = "\085\068\105\109\050";
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = -10958;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_IlI1ll1l1I = -10981;
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_lII1ll1l1I = 20;
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_IlI1ll1l1I = 0;
-												tabi_III1ll1l1I = 20;
-												tabi_I1I1ll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = 184;
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I);
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l1I1ll1l1I;
-												tabi_l1I1ll1l1I = -10917;
-												tabi_llI1ll1l1I = "\069\110\117\109";
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10917;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = -10903;
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_l1I1ll1l1I = -10909;
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_I1I1ll1l1I = "\067\111\108\111\114\051";
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I = tabi_lIlI1l1l1I;
-												tabi_IlI1ll1l1I = -11000;
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l1I1ll1l1I = -10914;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_IlI1ll1l1I = 255;
-												tabi_I1I1ll1l1I = 255;
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = 255;
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I, tabi_IlI1ll1l1I);
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = -11019;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I = 14;
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_llI1ll1l1I = "\069\110\117\109";
-												tabi_l1I1ll1l1I = -10879;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_lII1ll1l1I = -10879;
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_IlI1ll1l1I = -10873;
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10981;
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = -10911;
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = 0;
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_llI1ll1l1I = "\085\068\105\109\050";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = -10958;
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = 0;
-												tabi_llI1ll1l1I = 0;
-												tabi_l1lI1l1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_IlI1ll1l1I = 368;
-												tabi_I1I1ll1l1I = tabi_l1lI1l1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I, tabi_III1ll1l1I);
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = -10946;
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_llI1ll1l1I = -11015;
-												tabi_l1lI1l1l1I = tabi_l1II1l1l1I;
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = -10909;
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = tabi_l1lI1l1l1I(tabi_llI1ll1l1I);
-												tabi_III1ll1l1I = 23;
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = -10881;
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_I1I1ll1l1I = -10920;
-												tabi_l1lI1l1l1I = 1;
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-												tabi_I1I1ll1l1I = -10984;
-												tabi_llI1ll1l1I = -11004;
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_I1I1ll1l1I = -10969;
-												tabi_l1lI1l1l1I = false;
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = tabi_l1lI1l1l1I(tabi_llI1ll1l1I);
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = -10946;
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_l1II1l1l1I;
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_I1I1ll1l1I = -10920;
-												tabi_llI1ll1l1I = "\067\111\108\111\114\051";
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_lII1ll1l1I = -11000;
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_llI1ll1l1I = 255;
-												tabi_l1lI1l1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_IlI1ll1l1I = 255;
-												tabi_lII1ll1l1I = 255;
-												tabi_I1I1ll1l1I = tabi_l1lI1l1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_I1I1ll1l1I = -10881;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = 1;
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_llI1ll1l1I = "\067\111\108\111\114\051";
-												tabi_I1I1ll1l1I = -11006;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -11000;
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_lII1ll1l1I = 0;
-												tabi_IlI1ll1l1I = 0;
-												tabi_llI1ll1l1I = 0;
-												tabi_I1I1ll1l1I = tabi_l1lI1l1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_I1I1ll1l1I = -10912;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = 0;
-												tabi_llI1ll1l1I = "\085\068\105\109\050";
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_I1I1ll1l1I = -10942;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10981;
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_lII1ll1l1I = 0;
-												tabi_IlI1ll1l1I = 0;
-												tabi_llI1ll1l1I = .0461956523;
-												tabi_I1I1ll1l1I = tabi_l1lI1l1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I, tabi_III1ll1l1I);
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_lII1ll1l1I = -10981;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_I1I1ll1l1I = -10958;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_llI1ll1l1I = "\085\068\105\109\050";
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_llI1ll1l1I = 0;
-												tabi_III1ll1l1I = 0;
-												tabi_l1lI1l1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_lII1ll1l1I = 0;
-												tabi_IlI1ll1l1I = 343;
-												tabi_I1I1ll1l1I = tabi_l1lI1l1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I, tabi_III1ll1l1I);
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I;
-												tabi_I1I1ll1l1I = -10886;
-												tabi_lII1ll1l1I = -11008;
-												tabi_llI1ll1l1I = "\069\110\117\109";
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = false;
-												tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1I1ll1l1I = -10969;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = -10875;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I(tabi_I1I1ll1l1I);
-												tabi_IIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_l1I1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = -10946;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_IIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l1I1ll1l1I = -11008;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = -11025;
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_I1I1ll1l1I = "\085\068\105\109";
-												tabi_IIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l1I1ll1l1I = -10913;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_l1I1ll1l1I);
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_IlI1ll1l1I = -10981;
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_IlI1ll1l1I = -11009;
-												tabi_llI1ll1l1I = 3;
-												tabi_I1I1ll1l1I = 0;
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I);
-												tabi_IIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_l1I1ll1l1I;
-												tabi_l11I1l1l1I = false;
-												tabi_l1I1ll1l1I = tabi_IllI1l1l1I();
-												tabi_I1lI1l1l1I[tabi_l1I1ll1l1I] = tabi_l11I1l1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_llI1ll1l1I];
-												tabi_l1lI1l1l1I = "\067\111\110\110\101\099\116";
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I[tabi_l1lI1l1l1I];
-												tabi_I1I1ll1l1I = tabi_I111ll1l1I(14926792, { tabi_Ill1ll1l1I, tabi_Il1I1l1l1I[1] });
-												tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_l11I1l1l1I, tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_IlI1ll1l1I = -11016;
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_llI1ll1l1I];
-												tabi_l1lI1l1l1I = "\067\111\110\110\101\099\116";
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I[tabi_l1lI1l1l1I];
-												tabi_I1I1ll1l1I = tabi_l111ll1l1I(12183412, { tabi_Ill1ll1l1I, tabi_Il1I1l1l1I[1] });
-												tabi_IlI1ll1l1I = -10885;
-												tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_l11I1l1l1I, tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_I1I1ll1l1I = tabi_l111ll1l1I(7022294, {
-														tabi_l1I1ll1l1I,
-														tabi_lIl1ll1l1I,
-														tabi_Il1I1l1l1I[1],
-														tabi_Il1I1l1l1I[4],
-														tabi_I1l1ll1l1I,
-													});
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_llI1ll1l1I];
-												tabi_l1lI1l1l1I = "\067\111\110\110\101\099\116";
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I[tabi_l1lI1l1l1I];
-												tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_l11I1l1l1I, tabi_I1I1ll1l1I);
-												tabi_l1lI1l1l1I = "\066\117\116\116\111\110";
-												tabi_l11I1l1l1I = tabi_lIII1l1l1I(3169376, { tabi_Il1I1l1l1I[1], tabi_lIl1ll1l1I, tabi_Il1I1l1l1I[5] });
-												tabi_IIlI1l1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_Il11ll1l1I(5681325, { tabi_Il1I1l1l1I[1], tabi_lIl1ll1l1I, tabi_Il1I1l1l1I[3] });
-												tabi_l1lI1l1l1I = "\084\111\103\103\108\101";
-												tabi_IIlI1l1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l1lI1l1l1I = "\068\114\111\112\068\111\119\110";
-												tabi_l11I1l1l1I = tabi_lI11ll1l1I(3443817, { tabi_Il1I1l1l1I[1], tabi_lIl1ll1l1I });
-												tabi_IIlI1l1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_II11ll1l1I(10894669, {
-														tabi_Il1I1l1l1I[1],
-														tabi_lIl1ll1l1I,
-														tabi_Il1I1l1l1I[6],
-														tabi_Il1I1l1l1I[7],
-													});
-												tabi_l1lI1l1l1I = "\083\108\105\100\101\114";
-												tabi_IIlI1l1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l1lI1l1l1I = "\076\097\098\101\108";
-												tabi_l11I1l1l1I = tabi_Il11ll1l1I(16423926, { tabi_Il1I1l1l1I[1], tabi_lIl1ll1l1I });
-												tabi_IIlI1l1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.ZQQ99J4mDQue;
-												tabi_l1lI1l1l1I = { tabi_IIlI1l1l1I };
-											end;
-										else
-											tabi_l11I1l1l1I = 14330806;
-											tabi_l1II1l1l1I = tabi_I111ll1l1I(1760821, {});
-											tabi_lIlI1l1l1I = tabi_l1II1l1l1I;
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 9204673 then
-										if tabi_l11I1l1l1I < 8990610 then
-											if tabi_l11I1l1l1I < 8777789 then
-												tabi_lll1ll1l1I = -11002;
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIl1ll1l1I = -11002;
-												tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-												tabi_IIlI1l1l1I = tabi_lllI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_Ill1ll1l1I = "\069\110\117\109";
-												tabi_lll1ll1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_I1l1ll1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = -10999;
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_l1II1l1l1I = tabi_I1l1ll1l1I[tabi_Ill1ll1l1I];
-												tabi_lIlI1l1l1I = tabi_IIlI1l1l1I == tabi_l1II1l1l1I;
-												tabi_l11I1l1l1I = 15247314;
-												tabi_l1lI1l1l1I = tabi_lIlI1l1l1I;
-											else
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I and 9441568 or 3535980;
-											end;
-										else
-											tabi_I11lll1l1I = -10900;
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11I1l1l1I = 12572544;
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_lII1ll1l1I = tabi_l11lll1l1I;
-										end;
-									else
-										if tabi_l11I1l1l1I < 9355406 then
-											tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_IIlI1l1l1I = 32;
-											tabi_lllI1l1l1I = tabi_lIlI1l1l1I % tabi_IIlI1l1l1I;
-											tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_I1I1ll1l1I = 13;
-											tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_IlI1ll1l1I = tabi_lII1ll1l1I - tabi_lllI1l1l1I;
-											tabi_IIl1ll1l1I = 2;
-											tabi_lII1ll1l1I = 32;
-											tabi_llI1ll1l1I = tabi_IlI1ll1l1I / tabi_lII1ll1l1I;
-											tabi_l1I1ll1l1I = tabi_I1I1ll1l1I - tabi_llI1ll1l1I;
-											tabi_lIl1ll1l1I = tabi_IIl1ll1l1I ^ tabi_l1I1ll1l1I;
-											tabi_lll1ll1l1I = tabi_Ill1ll1l1I / tabi_lIl1ll1l1I;
-											tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-											tabi_l1II1l1l1I = 4294967296;
-											tabi_IIlI1l1l1I = tabi_I1l1ll1l1I % tabi_l1II1l1l1I;
-											tabi_I1l1ll1l1I = 2;
-											tabi_I1I1ll1l1I = 256;
-											tabi_lIl1ll1l1I = 1;
-											tabi_l1II1l1l1I = tabi_I1l1ll1l1I ^ tabi_lllI1l1l1I;
-											tabi_lIlI1l1l1I = tabi_IIlI1l1l1I / tabi_l1II1l1l1I;
-											tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_Ill1ll1l1I = tabi_lIlI1l1l1I % tabi_lIl1ll1l1I;
-											tabi_lIl1ll1l1I = 4294967296;
-											tabi_lll1ll1l1I = tabi_Ill1ll1l1I * tabi_lIl1ll1l1I;
-											tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-											tabi_Ill1ll1l1I = 65536;
-											tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lll1ll1l1I = tabi_l1II1l1l1I(tabi_lIlI1l1l1I);
-											tabi_IIlI1l1l1I = tabi_I1l1ll1l1I + tabi_lll1ll1l1I;
-											tabi_lIlI1l1l1I = nil;
-											tabi_I1l1ll1l1I = 65536;
-											tabi_l1II1l1l1I = tabi_IIlI1l1l1I % tabi_I1l1ll1l1I;
-											tabi_IIl1ll1l1I = 256;
-											tabi_lllI1l1l1I = nil;
-											tabi_lll1ll1l1I = tabi_IIlI1l1l1I - tabi_l1II1l1l1I;
-											tabi_I1l1ll1l1I = tabi_lll1ll1l1I / tabi_Ill1ll1l1I;
-											tabi_Ill1ll1l1I = 256;
-											tabi_l11I1l1l1I = 3032668;
-											tabi_lll1ll1l1I = tabi_l1II1l1l1I % tabi_Ill1ll1l1I;
-											tabi_lIl1ll1l1I = tabi_l1II1l1l1I - tabi_lll1ll1l1I;
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I / tabi_IIl1ll1l1I;
-											tabi_IIl1ll1l1I = 256;
-											tabi_IIlI1l1l1I = nil;
-											tabi_lIl1ll1l1I = tabi_I1l1ll1l1I % tabi_IIl1ll1l1I;
-											tabi_l1I1ll1l1I = tabi_I1l1ll1l1I - tabi_lIl1ll1l1I;
-											tabi_IIl1ll1l1I = tabi_l1I1ll1l1I / tabi_I1I1ll1l1I;
-											tabi_l1II1l1l1I = nil;
-											tabi_l1I1ll1l1I = {
-													tabi_lll1ll1l1I,
-													tabi_Ill1ll1l1I,
-													tabi_lIl1ll1l1I,
-													tabi_IIl1ll1l1I,
-												};
-											tabi_I1l1ll1l1I = nil;
-											tabi_lll1ll1l1I = nil;
-											tabi_lIl1ll1l1I = nil;
-											tabi_IIl1ll1l1I = nil;
-											tabi_Ill1ll1l1I = nil;
-											tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]] = tabi_l1I1ll1l1I;
-										else
-											tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[9]];
-											tabi_l11I1l1l1I = tabi_I1l1ll1l1I;
-											tabi_l11I1l1l1I = 10244921;
-											tabi_I1l1ll1l1I = tabi_IIlI1l1l1I(tabi_lll1ll1l1I);
-										end;
-									end;
-								end;
-							else
-								if tabi_l11I1l1l1I < 9664339 then
-									if tabi_l11I1l1l1I < 9538977 then
-										if tabi_l11I1l1l1I < 9483266 then
-											if tabi_l11I1l1l1I < 9434500 then
-												tabi_lllIIl1l1I = "\044";
-												tabi_I1I1ll1l1I = 5460143805405;
-												tabi_IIllll1l1I = 10492925322796;
-												tabi_l11I1l1l1I = tabi_IIII1l1l1I(1787446, { tabi_l1II1l1l1I });
-												tabi_lI11Il1l1I = "\116";
-												tabi_llllll1l1I = "\204";
-												tabi_ll1Ill1l1I = "\233";
-												tabi_I111Il1l1I = 29644768963544;
-												tabi_lIllIl1l1I = "\227";
-												tabi_lll1Il1l1I = "\022";
-												tabi_l1IIIl1l1I[4] = 5034929066577;
-												tabi_I1l1ll1l1I = tabi_IllI1l1l1I();
-												tabi_l1I1Il1l1I = "\223";
-												tabi_I1lI1l1l1I[tabi_I1l1ll1l1I] = tabi_l11I1l1l1I;
-												tabi_l11lll1l1I = "\183";
-												tabi_l1IIIl1l1I[13] = "\177";
-												tabi_IIl1ll1l1I = 18966080636159;
-												tabi_IllIIl1l1I = 26021853486762;
-												tabi_lI1IIl1l1I = "\138";
-												tabi_II11Il1l1I = 16669276781732;
-												tabi_l111Il1l1I = "\250";
-												tabi_l1IIIl1l1I[8] = 19083122066796;
-												tabi_l1llIl1l1I = "\220";
-												tabi_I11lll1l1I = 14121209672543;
-												tabi_IllIll1l1I = 5620136219762;
-												tabi_lIl1ll1l1I = "\210";
-												tabi_I11Ill1l1I = 25423761038461;
-												tabi_llI1ll1l1I = "\002";
-												tabi_lIIlll1l1I = "\223";
-												tabi_l1I1ll1l1I = "\099";
-												tabi_IIIlll1l1I = 7775201827913;
-												tabi_l1IIIl1l1I[23] = "\119";
-												tabi_Ill1ll1l1I = tabi_lIlI1l1l1I(tabi_lIl1ll1l1I, tabi_IIl1ll1l1I);
-												tabi_lIlIIl1l1I = "\136";
-												tabi_Il1lll1l1I = 30115082235278;
-												tabi_I11lIl1l1I = 26174329478968;
-												tabi_lll1ll1l1I = tabi_IIlI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_lII1ll1l1I = "\224";
-												tabi_lI1lll1l1I = "\061";
-												tabi_l1IIIl1l1I[12] = 24729028876790;
-												tabi_Ill1ll1l1I = 2;
-												tabi_lIl1Il1l1I = "\150";
-												tabi_IIl1ll1l1I = tabi_lIlI1l1l1I(tabi_l1I1ll1l1I, tabi_I1I1ll1l1I);
-												tabi_l1IIIl1l1I[20] = 10618556950177;
-												tabi_l1llll1l1I = "\146";
-												tabi_III1ll1l1I = 3173003922315;
-												tabi_ll1lIl1l1I = "\178";
-												tabi_I1llll1l1I = 32506378253889;
-												tabi_lIl1ll1l1I = tabi_IIlI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_lIlIll1l1I = "\192";
-												tabi_I1lIIl1l1I = 22837038043924;
-												tabi_l1IIIl1l1I[29] = "\005";
-												tabi_llIlll1l1I = "\251";
-												tabi_I1l1Il1l1I = 5837038687548;
-												tabi_l1l1Il1l1I = "\123";
-												tabi_II1lll1l1I = 29047750289836;
-												tabi_l1IIIl1l1I[35] = "\175";
-												tabi_IIl1ll1l1I = 25;
-												tabi_l1IIIl1l1I[22] = 8509663649525;
-												tabi_IlI1ll1l1I = 25277727693813;
-												tabi_lIllll1l1I = "\079";
-												tabi_I1Illl1l1I = 30618682519395;
-												tabi_l1IIIl1l1I[32] = 463870624176;
-												tabi_I1I1ll1l1I = tabi_lIlI1l1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I);
-												tabi_II1lIl1l1I = 8883337207889;
-												tabi_l1IIIl1l1I[33] = "\064";
-												tabi_ll1lll1l1I = "\101";
-												tabi_l1I1ll1l1I = tabi_IIlI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = 18;
-												tabi_IlllIl1l1I = 18992925000984;
-												tabi_I11IIl1l1I = 15377525946353;
-												tabi_IlI1ll1l1I = tabi_lIlI1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I);
-												tabi_l1IIIl1l1I[26] = 1647170225662;
-												tabi_ll11Il1l1I = "\003";
-												tabi_III1Il1l1I = 7115904227811;
-												tabi_llI1ll1l1I = tabi_IIlI1l1l1I[tabi_IlI1ll1l1I];
-												tabi_IlI1ll1l1I = 37;
-												tabi_I1lIll1l1I = 23859271456460;
-												tabi_l11IIl1l1I = "\099";
-												tabi_II1Ill1l1I = 24287707519067;
-												tabi_l11lIl1l1I = "\006";
-												tabi_III1ll1l1I = tabi_lIlI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I);
-												tabi_l1IlIl1l1I = "\069";
-												tabi_l1IIIl1l1I[7] = "\222";
-												tabi_lII1ll1l1I = tabi_IIlI1l1l1I[tabi_III1ll1l1I];
-												tabi_I11lll1l1I = tabi_lIlI1l1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-												tabi_l1IIIl1l1I[31] = "\069";
-												tabi_lllIll1l1I = "\094";
-												tabi_l1lIll1l1I = "\135";
-												tabi_Ill1Il1l1I = 13855987348072;
-												tabi_III1ll1l1I = 29;
-												tabi_Il1lIl1l1I = 29326931684016;
-												tabi_l1IIIl1l1I[2] = 25026464439051;
-												tabi_l11lll1l1I = tabi_IIlI1l1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = 38;
-												tabi_Il1lll1l1I = tabi_lIlI1l1l1I(tabi_lI1lll1l1I, tabi_II1lll1l1I);
-												tabi_ll1lll1l1I = tabi_IIlI1l1l1I[tabi_Il1lll1l1I];
-												tabi_Illlll1l1I = 2997978663656;
-												tabi_l1Illl1l1I = "\081";
-												tabi_Il1Ill1l1I = 8340007263831;
-												tabi_I1I1Il1l1I = 11630052616783;
-												tabi_llllIl1l1I = "\020";
-												tabi_I1IIll1l1I = 32833879504754;
-												tabi_l1IIIl1l1I[6] = 18331479851696;
-												tabi_llIIll1l1I = "\242";
-												tabi_l1IIIl1l1I[11] = "\208";
-												tabi_IIl1Il1l1I = 17031138819573;
-												tabi_Il1lll1l1I = 26;
-												tabi_l1IIIl1l1I[36] = 11974734261136;
-												tabi_II1lll1l1I = tabi_lIlI1l1l1I(tabi_l1llll1l1I, tabi_I1llll1l1I);
-												tabi_IlIlll1l1I = 4029876047529;
-												tabi_l1IIIl1l1I[10] = 34739829407329;
-												tabi_IIlIll1l1I = 14641990350148;
-												tabi_lI1lll1l1I = tabi_IIlI1l1l1I[tabi_II1lll1l1I];
-												tabi_I1llll1l1I = tabi_lIlI1l1l1I(tabi_llllll1l1I, tabi_Illlll1l1I);
-												tabi_I1IlIl1l1I = 4569984667808;
-												tabi_l1llll1l1I = tabi_IIlI1l1l1I[tabi_I1llll1l1I];
-												tabi_llI1Il1l1I = "\208";
-												tabi_II1lll1l1I = 12;
-												tabi_I1llll1l1I = 41;
-												tabi_ll1IIl1l1I = "\146";
-												tabi_lI1Ill1l1I = "\123";
-												tabi_Illlll1l1I = tabi_lIlI1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I);
-												tabi_llllll1l1I = tabi_IIlI1l1l1I[tabi_Illlll1l1I];
-												tabi_IIllll1l1I = tabi_lIlI1l1l1I(tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-												tabi_l11Ill1l1I = "\019";
-												tabi_lIIlIl1l1I = "\157";
-												tabi_II1IIl1l1I = 10493999097389;
-												tabi_Il11Il1l1I = 17098786618932;
-												tabi_lIllll1l1I = tabi_IIlI1l1l1I[tabi_IIllll1l1I];
-												tabi_IIllll1l1I = 54;
-												tabi_IlI1Il1l1I = 21907149246386;
-												tabi_I1Illl1l1I = tabi_lIlI1l1l1I(tabi_llIlll1l1I, tabi_IlIlll1l1I);
-												tabi_l1IIIl1l1I[17] = "\203";
-												tabi_l1Illl1l1I = tabi_IIlI1l1l1I[tabi_I1Illl1l1I];
-												tabi_IlIIll1l1I = 30007704775978;
-												tabi_IlIlll1l1I = tabi_lIlI1l1l1I(tabi_lIIlll1l1I, tabi_IIIlll1l1I);
-												tabi_llIlll1l1I = tabi_IIlI1l1l1I[tabi_IlIlll1l1I];
-												tabi_Illlll1l1I = 15;
-												tabi_IIIlll1l1I = tabi_lIlI1l1l1I(tabi_l11Ill1l1I, tabi_I11Ill1l1I);
-												tabi_lIIlll1l1I = tabi_IIlI1l1l1I[tabi_IIIlll1l1I];
-												tabi_IlIlll1l1I = 20;
-												tabi_IIIlll1l1I = 27;
-												tabi_l1IIIl1l1I[15] = "\240";
-												tabi_I1Illl1l1I = 35;
-												tabi_I11Ill1l1I = tabi_lIlI1l1l1I(tabi_ll1Ill1l1I, tabi_Il1Ill1l1I);
-												tabi_l11Ill1l1I = tabi_IIlI1l1l1I[tabi_I11Ill1l1I];
-												tabi_l1IIIl1l1I[5] = "\225";
-												tabi_l1IIIl1l1I[1] = "\161";
-												tabi_Il1Ill1l1I = tabi_lIlI1l1l1I(tabi_lI1Ill1l1I, tabi_II1Ill1l1I);
-												tabi_l1IIIl1l1I[21] = "\062";
-												tabi_I11Ill1l1I = 53;
-												tabi_ll1Ill1l1I = tabi_IIlI1l1l1I[tabi_Il1Ill1l1I];
-												tabi_lI1lIl1l1I = "\187";
-												tabi_II1Ill1l1I = tabi_lIlI1l1l1I(tabi_l1lIll1l1I, tabi_I1lIll1l1I);
-												tabi_IIIlIl1l1I = 35157527724007;
-												tabi_lIIIll1l1I = "\226";
-												tabi_lI1Ill1l1I = tabi_IIlI1l1l1I[tabi_II1Ill1l1I];
-												tabi_l1IIll1l1I = "\076";
-												tabi_II1Ill1l1I = 1;
-												tabi_I1lIll1l1I = tabi_lIlI1l1l1I(tabi_lllIll1l1I, tabi_IllIll1l1I);
-												tabi_l1lIll1l1I = tabi_IIlI1l1l1I[tabi_I1lIll1l1I];
-												tabi_Il1Ill1l1I = 36;
-												tabi_I1lIll1l1I = 58;
-												tabi_IlIlIl1l1I = 7639906229195;
-												tabi_IllIll1l1I = tabi_lIlI1l1l1I(tabi_lIlIll1l1I, tabi_IIlIll1l1I);
-												tabi_lllIll1l1I = tabi_IIlI1l1l1I[tabi_IllIll1l1I];
-												tabi_IIlIll1l1I = tabi_lIlI1l1l1I(tabi_l1IIll1l1I, tabi_I1IIll1l1I);
-												tabi_IllIll1l1I = 31;
-												tabi_IIIIll1l1I = 6780886554795;
-												tabi_llIlIl1l1I = "\089";
-												tabi_lIlIll1l1I = tabi_IIlI1l1l1I[tabi_IIlIll1l1I];
-												tabi_I1IIll1l1I = tabi_lIlI1l1l1I(tabi_llIIll1l1I, tabi_IlIIll1l1I);
-												tabi_l1IIll1l1I = tabi_IIlI1l1l1I[tabi_I1IIll1l1I];
-												tabi_I1IIll1l1I = 22;
-												tabi_IlIIll1l1I = tabi_lIlI1l1l1I(tabi_lIIIll1l1I, tabi_IIIIll1l1I);
-												tabi_IIlIll1l1I = 45;
-												tabi_llIIll1l1I = tabi_IIlI1l1l1I[tabi_IlIIll1l1I];
-												tabi_IlIIll1l1I = 47;
-												tabi_IIIIll1l1I = tabi_lIlI1l1l1I(tabi_l111Il1l1I, tabi_I111Il1l1I);
-												tabi_lIIIll1l1I = tabi_IIlI1l1l1I[tabi_IIIIll1l1I];
-												tabi_IIIIll1l1I = 5;
-												tabi_l1IIIl1l1I[27] = "~";
-												tabi_l1lIIl1l1I = "\049";
-												tabi_I111Il1l1I = tabi_lIlI1l1l1I(tabi_ll11Il1l1I, tabi_Il11Il1l1I);
-												tabi_l111Il1l1I = tabi_IIlI1l1l1I[tabi_I111Il1l1I];
-												tabi_I111Il1l1I = 59;
-												tabi_Il11Il1l1I = tabi_lIlI1l1l1I(tabi_lI11Il1l1I, tabi_II11Il1l1I);
-												tabi_ll11Il1l1I = tabi_IIlI1l1l1I[tabi_Il11Il1l1I];
-												tabi_II11Il1l1I = tabi_lIlI1l1l1I(tabi_l1l1Il1l1I, tabi_I1l1Il1l1I);
-												tabi_Il11Il1l1I = 32;
-												tabi_lII1Il1l1I = "\162";
-												tabi_lI11Il1l1I = tabi_IIlI1l1l1I[tabi_II11Il1l1I];
-												tabi_I1l1Il1l1I = tabi_lIlI1l1l1I(tabi_lll1Il1l1I, tabi_Ill1Il1l1I);
-												tabi_l1l1Il1l1I = tabi_IIlI1l1l1I[tabi_I1l1Il1l1I];
-												tabi_Il1IIl1l1I = 18460332802856;
-												tabi_I1l1Il1l1I = 9;
-												tabi_Ill1Il1l1I = tabi_lIlI1l1l1I(tabi_lIl1Il1l1I, tabi_IIl1Il1l1I);
-												tabi_lll1Il1l1I = tabi_IIlI1l1l1I[tabi_Ill1Il1l1I];
-												tabi_Ill1Il1l1I = 62;
-												tabi_II11Il1l1I = 57;
-												tabi_IIl1Il1l1I = tabi_lIlI1l1l1I(tabi_l1I1Il1l1I, tabi_I1I1Il1l1I);
-												tabi_lIl1Il1l1I = tabi_IIlI1l1l1I[tabi_IIl1Il1l1I];
-												tabi_I1I1Il1l1I = tabi_lIlI1l1l1I(tabi_llI1Il1l1I, tabi_IlI1Il1l1I);
-												tabi_IIl1Il1l1I = 11;
-												tabi_l1IIIl1l1I[30] = 6338491422479;
-												tabi_l1I1Il1l1I = tabi_IIlI1l1l1I[tabi_I1I1Il1l1I];
-												tabi_I1I1Il1l1I = 33;
-												tabi_IlI1Il1l1I = tabi_lIlI1l1l1I(tabi_lII1Il1l1I, tabi_III1Il1l1I);
-												tabi_llI1Il1l1I = tabi_IIlI1l1l1I[tabi_IlI1Il1l1I];
-												tabi_III1Il1l1I = tabi_lIlI1l1l1I(tabi_l11lIl1l1I, tabi_I11lIl1l1I);
-												tabi_lII1Il1l1I = tabi_IIlI1l1l1I[tabi_III1Il1l1I];
-												tabi_III1Il1l1I = 49;
-												tabi_IlI1Il1l1I = 4;
-												tabi_I11lIl1l1I = tabi_lIlI1l1l1I(tabi_ll1lIl1l1I, tabi_Il1lIl1l1I);
-												tabi_l11lIl1l1I = tabi_IIlI1l1l1I[tabi_I11lIl1l1I];
-												tabi_Il1lIl1l1I = tabi_lIlI1l1l1I(tabi_lI1lIl1l1I, tabi_II1lIl1l1I);
-												tabi_ll1lIl1l1I = tabi_IIlI1l1l1I[tabi_Il1lIl1l1I];
-												tabi_IIllIl1l1I = 28459321812872;
-												tabi_Il1lIl1l1I = 42;
-												tabi_I1llIl1l1I = 32990650595332;
-												tabi_II1lIl1l1I = tabi_lIlI1l1l1I(tabi_l1llIl1l1I, tabi_I1llIl1l1I);
-												tabi_lI1lIl1l1I = tabi_IIlI1l1l1I[tabi_II1lIl1l1I];
-												tabi_II1lIl1l1I = 39;
-												tabi_I11lIl1l1I = 8;
-												tabi_I1llIl1l1I = tabi_lIlI1l1l1I(tabi_llllIl1l1I, tabi_IlllIl1l1I);
-												tabi_l1llIl1l1I = tabi_IIlI1l1l1I[tabi_I1llIl1l1I];
-												tabi_l1IIIl1l1I[18] = 4879231750592;
-												tabi_l1IIIl1l1I[16] = 4036318695087;
-												tabi_I1llIl1l1I = 55;
-												tabi_IlllIl1l1I = tabi_lIlI1l1l1I(tabi_lIllIl1l1I, tabi_IIllIl1l1I);
-												tabi_l1IIIl1l1I[9] = "\186";
-												tabi_llllIl1l1I = tabi_IIlI1l1l1I[tabi_IlllIl1l1I];
-												tabi_IlllIl1l1I = 0;
-												tabi_IIllIl1l1I = tabi_lIlI1l1l1I(tabi_l1IlIl1l1I, tabi_I1IlIl1l1I);
-												tabi_lIllIl1l1I = tabi_IIlI1l1l1I[tabi_IIllIl1l1I];
-												tabi_IIllIl1l1I = 19;
-												tabi_I1IlIl1l1I = tabi_lIlI1l1l1I(tabi_llIlIl1l1I, tabi_IlIlIl1l1I);
-												tabi_l1IlIl1l1I = tabi_IIlI1l1l1I[tabi_I1IlIl1l1I];
-												tabi_l1IIIl1l1I[3] = "\254";
-												tabi_IlIlIl1l1I = tabi_lIlI1l1l1I(tabi_lIIlIl1l1I, tabi_IIIlIl1l1I);
-												tabi_I1IlIl1l1I = 34;
-												tabi_llIlIl1l1I = tabi_IIlI1l1l1I[tabi_IlIlIl1l1I];
-												tabi_l1IIIl1l1I[19] = "\037";
-												tabi_IIIlIl1l1I = tabi_lIlI1l1l1I(tabi_l11IIl1l1I, tabi_I11IIl1l1I);
-												tabi_IlIlIl1l1I = 21;
-												tabi_l1IIIl1l1I[14] = 6062531352078;
-												tabi_lIIlIl1l1I = tabi_IIlI1l1l1I[tabi_IIIlIl1l1I];
-												tabi_l1IIIl1l1I[25] = "\122";
-												tabi_IIIlIl1l1I = 28;
-												tabi_I11IIl1l1I = tabi_lIlI1l1l1I(tabi_ll1IIl1l1I, tabi_Il1IIl1l1I);
-												tabi_l11IIl1l1I = tabi_IIlI1l1l1I[tabi_I11IIl1l1I];
-												tabi_I11IIl1l1I = 6;
-												tabi_IIlIIl1l1I = 2327943317624;
-												tabi_Il1IIl1l1I = tabi_lIlI1l1l1I(tabi_lI1IIl1l1I, tabi_II1IIl1l1I);
-												tabi_ll1IIl1l1I = tabi_IIlI1l1l1I[tabi_Il1IIl1l1I];
-												tabi_II1IIl1l1I = tabi_lIlI1l1l1I(tabi_l1lIIl1l1I, tabi_I1lIIl1l1I);
-												tabi_Il1IIl1l1I = 3;
-												tabi_lI1IIl1l1I = tabi_IIlI1l1l1I[tabi_II1IIl1l1I];
-												tabi_II1IIl1l1I = 10;
-												tabi_I1lIIl1l1I = tabi_lIlI1l1l1I(tabi_lllIIl1l1I, tabi_IllIIl1l1I);
-												tabi_l1lIIl1l1I = tabi_IIlI1l1l1I[tabi_I1lIIl1l1I];
-												tabi_I1lIIl1l1I = 52;
-												tabi_IllIIl1l1I = tabi_lIlI1l1l1I(tabi_lIlIIl1l1I, tabi_IIlIIl1l1I);
-												tabi_lllIIl1l1I = tabi_IIlI1l1l1I[tabi_IllIIl1l1I];
-												tabi_IIlIIl1l1I = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[1], tabi_l1IIIl1l1I[2]);
-												tabi_lIlIIl1l1I = tabi_IIlI1l1l1I[tabi_IIlIIl1l1I];
-												tabi_IIlIIl1l1I = 14;
-												tabi_l1IIIl1l1I[2] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[3], tabi_l1IIIl1l1I[4]);
-												tabi_IllIIl1l1I = 17;
-												tabi_l1IIIl1l1I[1] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[2]];
-												tabi_l1IIIl1l1I[4] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[5], tabi_l1IIIl1l1I[6]);
-												tabi_l1IIIl1l1I[3] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[4]];
-												tabi_l1IIIl1l1I[6] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[7], tabi_l1IIIl1l1I[8]);
-												tabi_l1IIIl1l1I[5] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[6]];
-												tabi_l1IIIl1l1I[6] = 61;
-												tabi_l1IIIl1l1I[4] = 13;
-												tabi_l1IIIl1l1I[2] = 44;
-												tabi_l1IIIl1l1I[8] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[9], tabi_l1IIIl1l1I[10]);
-												tabi_l1IIIl1l1I[24] = 8108071951743;
-												tabi_l1IIIl1l1I[7] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[8]];
-												tabi_l1IIIl1l1I[10] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[11], tabi_l1IIIl1l1I[12]);
-												tabi_l1IIIl1l1I[8] = 43;
-												tabi_l1IIIl1l1I[9] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[10]];
-												tabi_l1IIIl1l1I[10] = 23;
-												tabi_l1IIIl1l1I[12] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[13], tabi_l1IIIl1l1I[14]);
-												tabi_l1IIIl1l1I[11] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[12]];
-												tabi_l1IIIl1l1I[28] = 4431467745311;
-												tabi_l1IIIl1l1I[14] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[15], tabi_l1IIIl1l1I[16]);
-												tabi_l1IIIl1l1I[13] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[14]];
-												tabi_l1IIIl1l1I[16] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[17], tabi_l1IIIl1l1I[18]);
-												tabi_l1IIIl1l1I[12] = 7;
-												tabi_l1IIIl1l1I[14] = 16;
-												tabi_l1IIIl1l1I[15] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[16]];
-												tabi_l1IIIl1l1I[16] = 50;
-												tabi_l1IIIl1l1I[18] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[19], tabi_l1IIIl1l1I[20]);
-												tabi_l1IIIl1l1I[17] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[18]];
-												tabi_l1IIIl1l1I[18] = 56;
-												tabi_l1IIIl1l1I[20] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[21], tabi_l1IIIl1l1I[22]);
-												tabi_l1IIIl1l1I[19] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[20]];
-												tabi_l1IIIl1l1I[22] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[23], tabi_l1IIIl1l1I[24]);
-												tabi_l1IIIl1l1I[21] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[22]];
-												tabi_l1IIIl1l1I[24] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[25], tabi_l1IIIl1l1I[26]);
-												tabi_l1IIIl1l1I[34] = 14616219759916;
-												tabi_l1IIIl1l1I[22] = 51;
-												tabi_l1IIIl1l1I[23] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[24]];
-												tabi_l1IIIl1l1I[26] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[27], tabi_l1IIIl1l1I[28]);
-												tabi_l1IIIl1l1I[25] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[26]];
-												tabi_l1IIIl1l1I[28] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[29], tabi_l1IIIl1l1I[30]);
-												tabi_l1IIIl1l1I[26] = 63;
-												tabi_l1IIIl1l1I[20] = 60;
-												tabi_l1IIIl1l1I[27] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[28]];
-												tabi_l1IIIl1l1I[28] = 30;
-												tabi_l1IIIl1l1I[30] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[31], tabi_l1IIIl1l1I[32]);
-												tabi_l1IIIl1l1I[24] = 46;
-												tabi_l1IIIl1l1I[29] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[30]];
-												tabi_l1IIIl1l1I[32] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[33], tabi_l1IIIl1l1I[34]);
-												tabi_l1IIIl1l1I[30] = 48;
-												tabi_l1IIIl1l1I[31] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[32]];
-												tabi_l1IIIl1l1I[34] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[35], tabi_l1IIIl1l1I[36]);
-												tabi_l1IIIl1l1I[33] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[34]];
-												tabi_l1IIIl1l1I[34] = 40;
-												tabi_l1IIIl1l1I[32] = 24;
-												tabi_l11I1l1l1I = {
-														[tabi_lll1ll1l1I] = tabi_Ill1ll1l1I,
-														[tabi_lIl1ll1l1I] = tabi_IIl1ll1l1I,
-														[tabi_l1I1ll1l1I] = tabi_I1I1ll1l1I,
-														[tabi_llI1ll1l1I] = tabi_IlI1ll1l1I,
-														[tabi_lII1ll1l1I] = tabi_III1ll1l1I,
-														[tabi_l11lll1l1I] = tabi_I11lll1l1I,
-														[tabi_ll1lll1l1I] = tabi_Il1lll1l1I,
-														[tabi_lI1lll1l1I] = tabi_II1lll1l1I,
-														[tabi_l1llll1l1I] = tabi_I1llll1l1I,
-														[tabi_llllll1l1I] = tabi_Illlll1l1I,
-														[tabi_lIllll1l1I] = tabi_IIllll1l1I,
-														[tabi_l1Illl1l1I] = tabi_I1Illl1l1I,
-														[tabi_llIlll1l1I] = tabi_IlIlll1l1I,
-														[tabi_lIIlll1l1I] = tabi_IIIlll1l1I,
-														[tabi_l11Ill1l1I] = tabi_I11Ill1l1I,
-														[tabi_ll1Ill1l1I] = tabi_Il1Ill1l1I,
-														[tabi_lI1Ill1l1I] = tabi_II1Ill1l1I,
-														[tabi_l1lIll1l1I] = tabi_I1lIll1l1I,
-														[tabi_lllIll1l1I] = tabi_IllIll1l1I,
-														[tabi_lIlIll1l1I] = tabi_IIlIll1l1I,
-														[tabi_l1IIll1l1I] = tabi_I1IIll1l1I,
-														[tabi_llIIll1l1I] = tabi_IlIIll1l1I,
-														[tabi_lIIIll1l1I] = tabi_IIIIll1l1I,
-														[tabi_l111Il1l1I] = tabi_I111Il1l1I,
-														[tabi_ll11Il1l1I] = tabi_Il11Il1l1I,
-														[tabi_lI11Il1l1I] = tabi_II11Il1l1I,
-														[tabi_l1l1Il1l1I] = tabi_I1l1Il1l1I,
-														[tabi_lll1Il1l1I] = tabi_Ill1Il1l1I,
-														[tabi_lIl1Il1l1I] = tabi_IIl1Il1l1I,
-														[tabi_l1I1Il1l1I] = tabi_I1I1Il1l1I,
-														[tabi_llI1Il1l1I] = tabi_IlI1Il1l1I,
-														[tabi_lII1Il1l1I] = tabi_III1Il1l1I,
-														[tabi_l11lIl1l1I] = tabi_I11lIl1l1I,
-														[tabi_ll1lIl1l1I] = tabi_Il1lIl1l1I,
-														[tabi_lI1lIl1l1I] = tabi_II1lIl1l1I,
-														[tabi_l1llIl1l1I] = tabi_I1llIl1l1I,
-														[tabi_llllIl1l1I] = tabi_IlllIl1l1I,
-														[tabi_lIllIl1l1I] = tabi_IIllIl1l1I,
-														[tabi_l1IlIl1l1I] = tabi_I1IlIl1l1I,
-														[tabi_llIlIl1l1I] = tabi_IlIlIl1l1I,
-														[tabi_lIIlIl1l1I] = tabi_IIIlIl1l1I,
-														[tabi_l11IIl1l1I] = tabi_I11IIl1l1I,
-														[tabi_ll1IIl1l1I] = tabi_Il1IIl1l1I,
-														[tabi_lI1IIl1l1I] = tabi_II1IIl1l1I,
-														[tabi_l1lIIl1l1I] = tabi_I1lIIl1l1I,
-														[tabi_lllIIl1l1I] = tabi_IllIIl1l1I,
-														[tabi_lIlIIl1l1I] = tabi_IIlIIl1l1I,
-														[tabi_l1IIIl1l1I[1]] = tabi_l1IIIl1l1I[2],
-														[tabi_l1IIIl1l1I[3]] = tabi_l1IIIl1l1I[4],
-														[tabi_l1IIIl1l1I[5]] = tabi_l1IIIl1l1I[6],
-														[tabi_l1IIIl1l1I[7]] = tabi_l1IIIl1l1I[8],
-														[tabi_l1IIIl1l1I[9]] = tabi_l1IIIl1l1I[10],
-														[tabi_l1IIIl1l1I[11]] = tabi_l1IIIl1l1I[12],
-														[tabi_l1IIIl1l1I[13]] = tabi_l1IIIl1l1I[14],
-														[tabi_l1IIIl1l1I[15]] = tabi_l1IIIl1l1I[16],
-														[tabi_l1IIIl1l1I[17]] = tabi_l1IIIl1l1I[18],
-														[tabi_l1IIIl1l1I[19]] = tabi_l1IIIl1l1I[20],
-														[tabi_l1IIIl1l1I[21]] = tabi_l1IIIl1l1I[22],
-														[tabi_l1IIIl1l1I[23]] = tabi_l1IIIl1l1I[24],
-														[tabi_l1IIIl1l1I[25]] = tabi_l1IIIl1l1I[26],
-														[tabi_l1IIIl1l1I[27]] = tabi_l1IIIl1l1I[28],
-														[tabi_l1IIIl1l1I[29]] = tabi_l1IIIl1l1I[30],
-														[tabi_l1IIIl1l1I[31]] = tabi_l1IIIl1l1I[32],
-														[tabi_l1IIIl1l1I[33]] = tabi_l1IIIl1l1I[34],
-													};
-												tabi_I1I1ll1l1I = "\002\233\098";
-												tabi_lll1ll1l1I = tabi_l11I1l1l1I;
-												tabi_ll1lll1l1I = 31707489956697;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_III1ll1l1I = 24401527625925;
-												tabi_Ill1ll1l1I = tabi_l11I1l1l1I;
-												tabi_llI1ll1l1I = 5790866380049;
-												tabi_IIl1ll1l1I = "\115\116\114\105\110\103";
-												tabi_IlI1ll1l1I = 14556088382708;
-												tabi_lII1ll1l1I = 15608387483848;
-												tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-												tabi_l1I1ll1l1I = tabi_lIlI1l1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I);
-												tabi_IIl1ll1l1I = tabi_IIlI1l1l1I[tabi_l1I1ll1l1I];
-												tabi_l11I1l1l1I = tabi_lIl1ll1l1I[tabi_IIl1ll1l1I];
-												tabi_llI1ll1l1I = "\141\187\159";
-												tabi_l1I1ll1l1I = "\115\116\114\105\110\103";
-												tabi_IIl1ll1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_lIlI1l1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I);
-												tabi_IlI1ll1l1I = "\160\205\201\130\064\226";
-												tabi_l1I1ll1l1I = tabi_IIlI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_lIl1ll1l1I = tabi_l11I1l1l1I;
-												tabi_I1I1ll1l1I = "\116\097\098\108\101";
-												tabi_l11I1l1l1I = tabi_IIl1ll1l1I[tabi_l1I1ll1l1I];
-												tabi_IIl1ll1l1I = tabi_l11I1l1l1I;
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_llI1ll1l1I = tabi_lIlI1l1l1I(tabi_IlI1ll1l1I, tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = "\189\139\130\051\122\243";
-												tabi_I1I1ll1l1I = tabi_IIlI1l1l1I[tabi_llI1ll1l1I];
-												tabi_l11I1l1l1I = tabi_l1I1ll1l1I[tabi_I1I1ll1l1I];
-												tabi_llI1ll1l1I = "\116\097\098\108\101";
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I;
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_IlI1ll1l1I = tabi_lIlI1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I);
-												tabi_llI1ll1l1I = tabi_IIlI1l1l1I[tabi_IlI1ll1l1I];
-												tabi_III1ll1l1I = "\211\224\071\127";
-												tabi_l11I1l1l1I = tabi_I1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_IlI1ll1l1I = "\115\116\114\105\110\103";
-												tabi_l11lll1l1I = 14448710923408;
-												tabi_llI1ll1l1I = tabi_IIIl1l1l1I[tabi_IlI1ll1l1I];
-												tabi_lII1ll1l1I = tabi_lIlI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I);
-												tabi_IlI1ll1l1I = tabi_IIlI1l1l1I[tabi_lII1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_llI1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_IlI1ll1l1I = "\116\121\112\101";
-												tabi_llI1ll1l1I = tabi_l11I1l1l1I;
-												tabi_III1ll1l1I = "\109\097\116\104";
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I[tabi_IlI1ll1l1I];
-												tabi_I11lll1l1I = "\112\120\108\249\089";
-												tabi_IlI1ll1l1I = tabi_l11I1l1l1I;
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_l11lll1l1I = tabi_lIlI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_III1ll1l1I = tabi_IIlI1l1l1I[tabi_l11lll1l1I];
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = 1;
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I;
-												tabi_l11lll1l1I = #tabi_Ill1ll1l1I;
-												tabi_I11lll1l1I = tabi_l11lll1l1I;
-												tabi_l11I1l1l1I = 8100599;
-												tabi_l11lll1l1I = 1;
-												tabi_ll1lll1l1I = tabi_l11lll1l1I;
-												tabi_l11lll1l1I = 0;
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I < tabi_l11lll1l1I;
-												tabi_l11lll1l1I = tabi_III1ll1l1I - tabi_ll1lll1l1I;
-											else
-												tabi_lIlI1l1l1I = "\109\097\116\104";
-												tabi_lllI1l1l1I = tabi_IIIl1l1l1I[tabi_lIlI1l1l1I];
-												tabi_l1II1l1l1I = -10936;
-												tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lIl1ll1l1I = -10938;
-												tabi_IIlI1l1l1I = tabi_lIlI1l1l1I(tabi_l1II1l1l1I);
-												tabi_l1lI1l1l1I = tabi_lllI1l1l1I[tabi_IIlI1l1l1I];
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-												tabi_lll1ll1l1I = tabi_I1l1ll1l1I();
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_Ill1ll1l1I = tabi_I1l1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_l1II1l1l1I = tabi_lll1ll1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_l1I1ll1l1I = -10908;
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-												tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-												tabi_IIl1ll1l1I = -10938;
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_I1l1ll1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_IIlI1l1l1I = tabi_l1II1l1l1I - tabi_I1l1ll1l1I;
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-												tabi_IIl1ll1l1I = -10906;
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_I1l1ll1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lIl1ll1l1I = -10938;
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_l1II1l1l1I = tabi_I1l1ll1l1I[tabi_Ill1ll1l1I];
-												tabi_lIlI1l1l1I = tabi_IIlI1l1l1I / tabi_l1II1l1l1I;
-												tabi_l1II1l1l1I = 1;
-												tabi_IIlI1l1l1I = 0;
-												tabi_lllI1l1l1I = tabi_l1lI1l1l1I(tabi_lIlI1l1l1I, tabi_IIlI1l1l1I, tabi_l1II1l1l1I);
-												tabi_l1II1l1l1I = -10958;
-												tabi_I1l1ll1l1I = "\085\068\105\109\050";
-												tabi_Ill1ll1l1I = -10981;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[5]];
-												tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_IIlI1l1l1I = tabi_lIlI1l1l1I(tabi_l1II1l1l1I);
-												tabi_l1II1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-												tabi_lIlI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-												tabi_lll1ll1l1I = 1;
-												tabi_I1l1ll1l1I = 0;
-												tabi_Ill1ll1l1I = 0;
-												tabi_l1II1l1l1I = tabi_lIlI1l1l1I(tabi_lllI1l1l1I, tabi_I1l1ll1l1I, tabi_lll1ll1l1I, tabi_Ill1ll1l1I);
-												tabi_l1lI1l1l1I[tabi_IIlI1l1l1I] = tabi_l1II1l1l1I;
-												tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[6]];
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[7]];
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[6]];
-												tabi_l1II1l1l1I = tabi_I1l1ll1l1I - tabi_lll1ll1l1I;
-												tabi_IIlI1l1l1I = tabi_lllI1l1l1I * tabi_l1II1l1l1I;
-												tabi_l1lI1l1l1I = tabi_lIlI1l1l1I + tabi_IIlI1l1l1I;
-												tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[8]];
-												tabi_lIlI1l1l1I = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_lIlI1l1l1I ~= tabi_IIlI1l1l1I;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I and 3371623 or 10244921;
-											end;
-										else
-											tabi_I1I1ll1l1I = 1;
-											tabi_IlI1ll1l1I = 2;
-											tabi_Il1lll1l1I = 1;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_llI1ll1l1I = tabi_IIl1ll1l1I[tabi_IlI1ll1l1I];
-											tabi_IlI1ll1l1I = 1;
-											tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_lI1lll1l1I = 2;
-											tabi_ll1lll1l1I = 2;
-											tabi_lII1ll1l1I = 2;
-											tabi_I11lll1l1I = tabi_IIl1ll1l1I[tabi_ll1lll1l1I];
-											tabi_III1ll1l1I = tabi_l11lll1l1I[tabi_I11lll1l1I];
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_ll1lll1l1I = tabi_IIl1ll1l1I[tabi_Il1lll1l1I];
-											tabi_Il1lll1l1I = 1;
-											tabi_l11lll1l1I = tabi_I11lll1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = tabi_IIl1ll1l1I[tabi_Il1lll1l1I];
-											tabi_Il1lll1l1I = 1;
-											tabi_I11lll1l1I = tabi_ll1lll1l1I + tabi_Il1lll1l1I;
-											tabi_Il1lll1l1I = tabi_IIl1ll1l1I[tabi_lI1lll1l1I];
-											tabi_lI1lll1l1I = 1;
-											tabi_ll1lll1l1I = tabi_Il1lll1l1I - tabi_lI1lll1l1I;
-											tabi_l11I1l1l1I[tabi_l1I1ll1l1I] = tabi_III1ll1l1I;
-											tabi_l11I1l1l1I = 16523769;
-											tabi_I1I1ll1l1I[tabi_llI1ll1l1I] = tabi_l11lll1l1I;
-											tabi_IIl1ll1l1I[tabi_IlI1ll1l1I] = tabi_I11lll1l1I;
-											tabi_IIl1ll1l1I[tabi_lII1ll1l1I] = tabi_ll1lll1l1I;
-										end;
-									else
-										if tabi_l11I1l1l1I < 9600428 then
-											tabi_l11I1l1l1I = tabi_lIlI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lllI1l1l1I);
-											tabi_IIlI1l1l1I = -10974;
-											tabi_lllI1l1l1I = "\116\097\115\107";
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lllI1l1l1I];
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIlI1l1l1I = tabi_lllI1l1l1I(tabi_IIlI1l1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lIlI1l1l1I];
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lllI1l1l1I, tabi_lIlI1l1l1I);
-											tabi_l1lI1l1l1I = {};
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.vpxxBzSBPps3VL;
-										else
-											tabi_l11I1l1l1I = tabi_IlIlll1l1I;
-											tabi_l11I1l1l1I = tabi_llIlll1l1I and 51201 or 5162653;
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 9981570 then
-										if tabi_l11I1l1l1I < 9920398 then
-											if tabi_l11I1l1l1I < 9830474 then
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = #tabi_lllI1l1l1I;
-												tabi_lllI1l1l1I = 0;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I == tabi_lllI1l1l1I;
-												tabi_l11I1l1l1I = tabi_l11I1l1l1I and 1398826 or 6578889;
-											else
-												tabi_l1lI1l1l1I = {};
-												tabi_lllI1l1l1I = nil;
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.avm9ejWfqMM4n;
-											end;
-										else
-											tabi_lll1ll1l1I = tabi_lIII1l1l1I(14294453, {});
-											tabi_IIlI1l1l1I = tabi_lll1ll1l1I;
-											tabi_l11I1l1l1I = 9402143;
-										end;
-									else
-										if tabi_l11I1l1l1I < 10031813 then
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = { tabi_l11I1l1l1I };
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I["\057\115\083\055\102\052\056\114\085\098\057\085\114"];
-										else
-											tabi_l11I1l1l1I = tabi_IIl1ll1l1I(tabi_lI1lll1l1I);
-											tabi_II1lll1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = {};
-											tabi_l1llll1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = 1;
-											tabi_I1llll1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = 0;
-											tabi_llllll1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = 212998;
-										end;
-									end;
-								end;
-							end;
-						else
-							if tabi_l11I1l1l1I < 11245995 then
-								if tabi_l11I1l1l1I < 10803580 then
-									if tabi_l11I1l1l1I < 10349583 then
-										if tabi_l11I1l1l1I < 10246746 then
-											if tabi_l11I1l1l1I < 10242812 then
-												tabi_l1lI1l1l1I = #tabi_IlI1ll1l1I;
-												tabi_lII1ll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I == tabi_lII1ll1l1I;
-												tabi_l11I1l1l1I = 12104050;
-											else
-												tabi_lll1ll1l1I = "\116\097\115\107";
-												tabi_I1l1ll1l1I = tabi_IIIl1l1l1I[tabi_lll1ll1l1I];
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lIl1ll1l1I = -10965;
-												tabi_l11I1l1l1I = 8955665;
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_lllI1l1l1I = nil;
-												tabi_lIlI1l1l1I = nil;
-												tabi_IIlI1l1l1I = tabi_I1l1ll1l1I[tabi_Ill1ll1l1I];
-												tabi_I1l1ll1l1I = tabi_IIlI1l1l1I();
-											end;
-										else
-											tabi_Ill1ll1l1I = tabi_IllI1l1l1I();
-											tabi_lIl1ll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_llI1ll1l1I = -10981;
-											tabi_I1lI1l1l1I[tabi_Ill1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-											tabi_I1I1ll1l1I = -10981;
-											tabi_ll1lll1l1I = -10981;
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_II1lll1l1I = -10981;
-											tabi_l1I1ll1l1I = -10981;
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = -10926;
-											tabi_IIl1ll1l1I = { tabi_lIl1ll1l1I(tabi_l1I1ll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_IIl1ll1l1I));
-											tabi_lIl1ll1l1I = tabi_l1lI1l1l1I;
-											tabi_IIl1ll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_I1I1ll1l1I = -11017;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_Illlll1l1I = -10981;
-											tabi_I1llll1l1I = -10981;
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = { tabi_IIl1ll1l1I(tabi_I1I1ll1l1I) };
-											tabi_IIl1ll1l1I = tabi_IllI1l1l1I();
-											tabi_lII1ll1l1I = -10981;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_l1I1ll1l1I));
-											tabi_l1I1ll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_I1lI1l1l1I[tabi_IIl1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_llI1ll1l1I = -11017;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_IlI1ll1l1I = -10981;
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = { tabi_l1I1ll1l1I(tabi_llI1ll1l1I) };
-											tabi_l1I1ll1l1I = tabi_IllI1l1l1I();
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_I1I1ll1l1I));
-											tabi_I1lI1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11lll1l1I = -10981;
-											tabi_I1I1ll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-											tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_llI1ll1l1I];
-											tabi_IlI1ll1l1I = -10937;
-											tabi_I11lll1l1I = -10981;
-											tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llI1ll1l1I = { tabi_I1I1ll1l1I(tabi_IlI1ll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_llI1ll1l1I));
-											tabi_Il1lll1l1I = -10981;
-											tabi_llI1ll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_I1I1ll1l1I = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-											tabi_III1ll1l1I = -10981;
-											tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_IlI1ll1l1I];
-											tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = -11017;
-											tabi_IlI1ll1l1I = { tabi_llI1ll1l1I(tabi_lII1ll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_IlI1ll1l1I));
-											tabi_IlI1ll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_llI1ll1l1I = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_IlI1ll1l1I];
-											tabi_IlI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lII1ll1l1I = tabi_IlI1ll1l1I(tabi_III1ll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lII1ll1l1I];
-											tabi_IlI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = -10937;
-											tabi_lII1ll1l1I = { tabi_IlI1ll1l1I(tabi_III1ll1l1I) };
-											tabi_IlI1ll1l1I = tabi_IllI1l1l1I();
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_lII1ll1l1I));
-											tabi_I1lI1l1l1I[tabi_IlI1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_lII1ll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-											tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_III1ll1l1I];
-											tabi_l11lll1l1I = -11018;
-											tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = { tabi_lII1ll1l1I(tabi_l11lll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_III1ll1l1I));
-											tabi_lI1lll1l1I = -10981;
-											tabi_lII1ll1l1I = tabi_l1lI1l1l1I;
-											tabi_III1ll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_I11lll1l1I = -10897;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_l11lll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = { tabi_III1ll1l1I(tabi_I11lll1l1I) };
-											tabi_III1ll1l1I = tabi_IllI1l1l1I();
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_l11lll1l1I));
-											tabi_l11lll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_I1lI1l1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-											tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-											tabi_ll1lll1l1I = -10937;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_I11lll1l1I];
-											tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llllll1l1I = -10981;
-											tabi_I11lll1l1I = { tabi_l11lll1l1I(tabi_ll1lll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_I11lll1l1I));
-											tabi_l11lll1l1I = tabi_l1lI1l1l1I;
-											tabi_I11lll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_lIllll1l1I = -10981;
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_ll1lll1l1I];
-											tabi_IIllll1l1I = "\103\097\109\101";
-											tabi_Il1lll1l1I = -11017;
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_ll1lll1l1I = { tabi_I11lll1l1I(tabi_Il1lll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_ll1lll1l1I));
-											tabi_I11lll1l1I = tabi_l1lI1l1l1I;
-											tabi_ll1lll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_l1llll1l1I = -10981;
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-											tabi_lI1lll1l1I = -10937;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_Il1lll1l1I];
-											tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Il1lll1l1I = { tabi_ll1lll1l1I(tabi_lI1lll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_Il1lll1l1I));
-											tabi_ll1lll1l1I = tabi_l1lI1l1l1I;
-											tabi_Il1lll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_Il1lll1l1I];
-											tabi_Il1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lI1lll1l1I = tabi_Il1lll1l1I(tabi_II1lll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lI1lll1l1I];
-											tabi_Il1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_II1lll1l1I = -11017;
-											tabi_lI1lll1l1I = { tabi_Il1lll1l1I(tabi_II1lll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_lI1lll1l1I));
-											tabi_Il1lll1l1I = tabi_l1lI1l1l1I;
-											tabi_lI1lll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lI1lll1l1I];
-											tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_II1lll1l1I = tabi_lI1lll1l1I(tabi_l1llll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_II1lll1l1I];
-											tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1Illl1l1I = -10955;
-											tabi_l1llll1l1I = -11017;
-											tabi_II1lll1l1I = { tabi_lI1lll1l1I(tabi_l1llll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_II1lll1l1I));
-											tabi_II1lll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_lI1lll1l1I = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_II1lll1l1I];
-											tabi_II1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1llll1l1I = tabi_II1lll1l1I(tabi_I1llll1l1I);
-											tabi_I1llll1l1I = -11017;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_l1llll1l1I];
-											tabi_II1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1llll1l1I = { tabi_II1lll1l1I(tabi_I1llll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_l1llll1l1I));
-											tabi_II1lll1l1I = tabi_l1lI1l1l1I;
-											tabi_l1llll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_l1llll1l1I];
-											tabi_l1llll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1llll1l1I = tabi_l1llll1l1I(tabi_llllll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_I1llll1l1I];
-											tabi_l1llll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llllll1l1I = -10919;
-											tabi_I1llll1l1I = { tabi_l1llll1l1I(tabi_llllll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_I1llll1l1I));
-											tabi_I1llll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_l1llll1l1I = tabi_IllI1l1l1I();
-											tabi_I1lI1l1l1I[tabi_l1llll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_I1llll1l1I];
-											tabi_I1llll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llllll1l1I = tabi_I1llll1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = -10933;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_llllll1l1I];
-											tabi_I1llll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llllll1l1I = { tabi_I1llll1l1I(tabi_Illlll1l1I) };
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_llllll1l1I));
-											tabi_llllll1l1I = "\073\110\115\116\097\110\099\101";
-											tabi_I1llll1l1I = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_llllll1l1I];
-											tabi_llllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_llllll1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = -11017;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_Illlll1l1I];
-											tabi_llllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = { tabi_llllll1l1I(tabi_lIllll1l1I) };
-											tabi_llllll1l1I = tabi_IllI1l1l1I();
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_Illlll1l1I));
-											tabi_I1lI1l1l1I[tabi_llllll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = -10876;
-											tabi_Illlll1l1I = -10969;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I);
-											tabi_lIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_Illlll1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = -10918;
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l1Illl1l1I = -10961;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = { tabi_lIllll1l1I(tabi_l1Illl1l1I) };
-											tabi_Illlll1l1I = "\087\097\105\116\070\111\114\067\104\105\108\100";
-											tabi_Illlll1l1I = tabi_l11I1l1l1I[tabi_Illlll1l1I];
-											tabi_Illlll1l1I = tabi_Illlll1l1I(tabi_l11I1l1l1I, tabi_I11I1l1l1I(tabi_IIllll1l1I));
-											tabi_lIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_IIllll1l1I = "\069\110\117\109";
-											tabi_Illlll1l1I = -10927;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1Illl1l1I = -10927;
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_Illlll1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = -10915;
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_I1Illl1l1I = -11000;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_lIl1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_lIllll1l1I = -10946;
-											tabi_llIlll1l1I = 5;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = tabi_lIl1ll1l1I;
-											tabi_lIllll1l1I = -10920;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = "\067\111\108\111\114\051";
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_IIllll1l1I = 36;
-											tabi_I1Illl1l1I = 36;
-											tabi_l1Illl1l1I = 33;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIllll1l1I = "\067\111\108\111\114\051";
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = -11006;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_I1Illl1l1I = -11000;
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_IIllll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = 0;
-											tabi_I1Illl1l1I = 0;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = -10912;
-											tabi_I1Illl1l1I = -10981;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = 0;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_lIllll1l1I = -10942;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_IIllll1l1I = "\085\068\105\109\050";
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_IIllll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = 5;
-											tabi_I1Illl1l1I = 0;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I, tabi_llIlll1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_IIllll1l1I = "\085\068\105\109\050";
-											tabi_lIllll1l1I = -10958;
-											tabi_llIlll1l1I = 310;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_I1Illl1l1I = -10981;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_I1Illl1l1I = 0;
-											tabi_IIllll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = 500;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I, tabi_llIlll1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_lIllll1l1I = -10953;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = true;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_IIllll1l1I = -10959;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_llllll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = -10969;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_llllll1l1I];
-											tabi_lIllll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1Illl1l1I = -11000;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_IIllll1l1I = "\067\111\108\111\114\051";
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_llllll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = -10920;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = 255;
-											tabi_IIllll1l1I = 255;
-											tabi_I1Illl1l1I = 255;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_llllll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = "\067\111\108\111\114\051";
-											tabi_I1Illl1l1I = -11000;
-											tabi_lIllll1l1I = -10881;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = 1;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_lIllll1l1I = -11006;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_llllll1l1I];
-											tabi_llIlll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_I1Illl1l1I = 0;
-											tabi_IIllll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = 0;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_IIllll1l1I = "\085\068\105\109\050";
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_llllll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = -10912;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = 0;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_llllll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = -10942;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_I1Illl1l1I = -10981;
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_IIllll1l1I = .238000005;
-											tabi_I1Illl1l1I = .109677419;
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = 0;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I, tabi_llIlll1l1I);
-											tabi_IIllll1l1I = "\085\068\105\109\050";
-											tabi_llIlll1l1I = 269;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_lIllll1l1I = -10958;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_llllll1l1I];
-											tabi_I1Illl1l1I = -10981;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_I1Illl1l1I = 0;
-											tabi_IIllll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = 368;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I, tabi_llIlll1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_lIllll1l1I = -10969;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_IIllll1l1I = -11022;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_lIllll1l1I = -10946;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_lIllll1l1I = -10920;
-											tabi_IIllll1l1I = "\067\111\108\111\114\051";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_lll1ll1l1I];
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_lIllll1l1I = -11006;
-											tabi_I1Illl1l1I = -11000;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = 0;
-											tabi_I1Illl1l1I = 0;
-											tabi_IIllll1l1I = 0;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_lIllll1l1I = -10912;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_llIlll1l1I = 25;
-											tabi_I1Illl1l1I = -10981;
-											tabi_l1lI1l1l1I = 0;
-											tabi_lIllll1l1I = -10958;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_IIllll1l1I = "\085\068\105\109\050";
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_IIllll1l1I = 1;
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = 0;
-											tabi_I1Illl1l1I = 0;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I, tabi_llIlll1l1I);
-											tabi_l1Illl1l1I = -10981;
-											tabi_I1Illl1l1I = 0;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = "\085\068\105\109";
-											tabi_Illlll1l1I = -10899;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 6;
-											tabi_lIllll1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I);
-											tabi_I1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_lIllll1l1I = -10949;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = -10981;
-											tabi_Illlll1l1I = -10969;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = -10922;
-											tabi_I1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10946;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = -10969;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_I1I1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I);
-											tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10946;
-											tabi_lIllll1l1I = "\086\101\099\116\111\114\050";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_Illlll1l1I = -10901;
-											tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_lIllll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 1;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I);
-											tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10920;
-											tabi_l1Illl1l1I = -11000;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_lll1ll1l1I];
-											tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_Illlll1l1I = -11006;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = "\067\111\108\111\114\051";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 0;
-											tabi_lIllll1l1I = 0;
-											tabi_l1Illl1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10912;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = -10942;
-											tabi_l11I1l1l1I = 0;
-											tabi_lIllll1l1I = "\085\068\105\109\050";
-											tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_l1Illl1l1I = -10981;
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_l1Illl1l1I = 1.00000012;
-											tabi_IIllll1l1I = 0;
-											tabi_lIllll1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_I1Illl1l1I = 8;
-											tabi_lIllll1l1I = "\085\068\105\109\050";
-											tabi_l1Illl1l1I = -10981;
-											tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10958;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_lIllll1l1I = 1;
-											tabi_l1Illl1l1I = .0390000008;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_lIllll1l1I = -10969;
-											tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IlI1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_I1Illl1l1I = -10981;
-											tabi_IIllll1l1I = -11012;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_IIllll1l1I = "\085\068\105\109";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IlI1ll1l1I];
-											tabi_lIllll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = tabi_llI1ll1l1I;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_lIllll1l1I = -10899;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IlI1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_IIllll1l1I = 0;
-											tabi_l1Illl1l1I = 0;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_Illlll1l1I = -10946;
-											tabi_l1Illl1l1I = -11000;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_lIllll1l1I = "\067\111\108\111\114\051";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_Illlll1l1I = -10920;
-											tabi_lII1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_lIllll1l1I = 255;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_l1Illl1l1I = 255;
-											tabi_IIllll1l1I = 255;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_lII1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10881;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = -11000;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = 1;
-											tabi_lII1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_Illlll1l1I = -11006;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = "\067\111\108\111\114\051";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_lIllll1l1I = 0;
-											tabi_IIllll1l1I = 0;
-											tabi_l1Illl1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_lII1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = "\085\068\105\109\050";
-											tabi_Illlll1l1I = -10912;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l1Illl1l1I = -10981;
-											tabi_Illlll1l1I = -10942;
-											tabi_l11I1l1l1I = 0;
-											tabi_lII1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_I1Illl1l1I = 0;
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_l1Illl1l1I = 0;
-											tabi_IIllll1l1I = 0;
-											tabi_lIllll1l1I = .0599999987;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_lII1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10958;
-											tabi_l1Illl1l1I = -10981;
-											tabi_lIllll1l1I = "\085\068\105\109\050";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_l1Illl1l1I = 1;
-											tabi_lIllll1l1I = .477999985;
-											tabi_IIllll1l1I = 0;
-											tabi_I1Illl1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_lII1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10917;
-											tabi_I1Illl1l1I = -10917;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_IIllll1l1I = "\069\110\117\109";
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_Illlll1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = -10993;
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_lII1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10909;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_lIlI1l1l1I;
-											tabi_l11I1l1l1I = tabi_lIlI1l1l1I and 15506394 or 16706558;
-										end;
-									else
-										if tabi_l11I1l1l1I < 10355872 then
-											tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_l11I1l1l1I = 954909;
-											tabi_l1lI1l1l1I = tabi_lIlI1l1l1I;
-										else
-											tabi_l11I1l1l1I = tabi_IIl1ll1l1I;
-											tabi_lIlI1l1l1I = nil;
-											tabi_lllI1l1l1I = nil;
-											tabi_l1I1ll1l1I = -11000;
-											tabi_l1lI1l1l1I = tabi_lIl1ll1l1I .. tabi_Ill1ll1l1I;
-											tabi_l11I1l1l1I[tabi_lll1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_Ill1ll1l1I = -10914;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_lIl1ll1l1I = "\067\111\108\111\114\051";
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-											tabi_lIl1ll1l1I = 202;
-											tabi_l1I1ll1l1I = 202;
-											tabi_IIl1ll1l1I = 202;
-											tabi_Ill1ll1l1I = tabi_l1lI1l1l1I(tabi_lIl1ll1l1I, tabi_IIl1ll1l1I, tabi_l1I1ll1l1I);
-											tabi_l11I1l1l1I[tabi_lll1ll1l1I] = tabi_Ill1ll1l1I;
-											tabi_Ill1ll1l1I = -11019;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIl1ll1l1I = "\069\110\117\109";
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I);
-											tabi_Ill1ll1l1I = -10879;
-											tabi_l1lI1l1l1I = 14;
-											tabi_l11I1l1l1I[tabi_lll1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_I1I1ll1l1I = -10879;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = -10873;
-											tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-											tabi_l11I1l1l1I[tabi_lll1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_IIl1ll1l1I = -10981;
-											tabi_Ill1ll1l1I = "\085\068\105\109";
-											tabi_lll1ll1l1I = -10899;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lll1ll1l1I);
-											tabi_lll1ll1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-											tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-											tabi_l11I1l1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-											tabi_Ill1ll1l1I = 0;
-											tabi_lIl1ll1l1I = 4;
-											tabi_lll1ll1l1I = tabi_l11I1l1l1I(tabi_Ill1ll1l1I, tabi_lIl1ll1l1I);
-											tabi_IIl1ll1l1I = -10921;
-											tabi_I1l1ll1l1I[tabi_l1lI1l1l1I] = tabi_lll1ll1l1I;
-											tabi_Ill1ll1l1I = -10950;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lll1ll1l1I = -10969;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lll1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lll1ll1l1I = tabi_l11I1l1l1I(tabi_Ill1ll1l1I);
-											tabi_I1l1ll1l1I[tabi_l1lI1l1l1I] = tabi_lll1ll1l1I;
-											tabi_lll1ll1l1I = -10946;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lll1ll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_lll1ll1l1I = "\103\097\109\101";
-											tabi_I1l1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lll1ll1l1I];
-											tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lll1ll1l1I = "\071\101\116\083\101\114\118\105\099\101";
-											tabi_lll1ll1l1I = tabi_l1lI1l1l1I[tabi_lll1ll1l1I];
-											tabi_lIl1ll1l1I = { tabi_Ill1ll1l1I(tabi_IIl1ll1l1I) };
-											tabi_I1l1ll1l1I = nil;
-											tabi_lll1ll1l1I = tabi_lll1ll1l1I(tabi_l1lI1l1l1I, tabi_I11I1l1l1I(tabi_lIl1ll1l1I));
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIl1ll1l1I = -11020;
-											tabi_Ill1ll1l1I = tabi_l1lI1l1l1I(tabi_lIl1ll1l1I);
-											tabi_l11I1l1l1I = tabi_lll1ll1l1I[tabi_Ill1ll1l1I];
-											tabi_l1lI1l1l1I = "\067\111\110\110\101\099\116";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I[tabi_l1lI1l1l1I];
-											tabi_lll1ll1l1I = tabi_ll11ll1l1I(12061040, { tabi_l1II1l1l1I, tabi_Il1I1l1l1I[1] });
-											tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_l11I1l1l1I, tabi_lll1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-											tabi_lIl1ll1l1I = -10885;
-											tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_Ill1ll1l1I];
-											tabi_lll1ll1l1I = tabi_lIII1l1l1I(14966217, {
-													tabi_Il1I1l1l1I[1],
-													tabi_IIlI1l1l1I,
-													tabi_Il1I1l1l1I[3],
-													tabi_l1II1l1l1I,
-												});
-											tabi_l1II1l1l1I = tabi_I1II1l1l1I(tabi_l1II1l1l1I);
-											tabi_IIlI1l1l1I = tabi_I1II1l1l1I(tabi_IIlI1l1l1I);
-											tabi_l1lI1l1l1I = "\067\111\110\110\101\099\116";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I[tabi_l1lI1l1l1I];
-											tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_l11I1l1l1I, tabi_lll1ll1l1I);
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.lYYiEhCppz88Ei;
-											tabi_l1lI1l1l1I = {};
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 11139357 then
-										if tabi_l11I1l1l1I < 10906891 then
-											if tabi_l11I1l1l1I < 10874846 then
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-												tabi_lll1ll1l1I = -11015;
-												tabi_l11I1l1l1I = 4992152;
-												tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-												tabi_lllI1l1l1I = tabi_I1l1ll1l1I;
-											else
-												tabi_IIlI1l1l1I = tabi_ll1I1l1l1I[3];
-												tabi_llI1ll1l1I = -10981;
-												tabi_Ill1ll1l1I = tabi_l11I1l1l1I;
-												tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-												tabi_I1I1ll1l1I = -10981;
-												tabi_III1ll1l1I = -10981;
-												tabi_lIlI1l1l1I = tabi_ll1I1l1l1I[2];
-												tabi_lll1ll1l1I = 0;
-												tabi_l1II1l1l1I = tabi_ll1I1l1l1I[4];
-												tabi_I1l1ll1l1I = tabi_IllI1l1l1I();
-												tabi_Ill1ll1l1I = tabi_IllI1l1l1I();
-												tabi_IIl1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_I1lI1l1l1I[tabi_I1l1ll1l1I] = tabi_ll1I1l1l1I[5];
-												tabi_lIl1ll1l1I = 50;
-												tabi_l1lI1l1l1I = tabi_IIlI1l1l1I or tabi_lll1ll1l1I;
-												tabi_lll1ll1l1I = tabi_IllI1l1l1I();
-												tabi_I1lI1l1l1I[tabi_lll1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_l1II1l1l1I or tabi_lIl1ll1l1I;
-												tabi_I1lI1l1l1I[tabi_Ill1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_ll1lll1l1I = -10976;
-												tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-												tabi_I1I1ll1l1I = -11017;
-												tabi_l1lI1l1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = { tabi_IIl1ll1l1I(tabi_I1I1ll1l1I) };
-												tabi_lIl1ll1l1I = tabi_l1lI1l1l1I(tabi_I11I1l1l1I(tabi_l1I1ll1l1I));
-												tabi_l1I1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_IIl1ll1l1I = tabi_IllI1l1l1I();
-												tabi_IlI1ll1l1I = -10981;
-												tabi_I1lI1l1l1I[tabi_IIl1ll1l1I] = tabi_lIl1ll1l1I;
-												tabi_lII1ll1l1I = -10981;
-												tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_lIl1ll1l1I[tabi_I1I1ll1l1I];
-												tabi_llI1ll1l1I = -10937;
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = { tabi_l1I1ll1l1I(tabi_llI1ll1l1I) };
-												tabi_lIl1ll1l1I = tabi_l1lI1l1l1I(tabi_I11I1l1l1I(tabi_I1I1ll1l1I));
-												tabi_lI1lll1l1I = -11000;
-												tabi_I1I1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = -11018;
-												tabi_llI1ll1l1I = { tabi_I1I1ll1l1I(tabi_IlI1ll1l1I) };
-												tabi_I1I1ll1l1I = tabi_IllI1l1l1I();
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I11I1l1l1I(tabi_llI1ll1l1I));
-												tabi_llI1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_I1lI1l1l1I[tabi_I1I1ll1l1I] = tabi_l1I1ll1l1I;
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_I11lll1l1I = -10981;
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_l1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_lII1ll1l1I = -11018;
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = { tabi_llI1ll1l1I(tabi_lII1ll1l1I) };
-												tabi_l1I1ll1l1I = tabi_l1lI1l1l1I(tabi_I11I1l1l1I(tabi_IlI1ll1l1I));
-												tabi_IlI1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_llI1ll1l1I = tabi_IIIl1l1l1I[tabi_IlI1ll1l1I];
-												tabi_IlI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = -10981;
-												tabi_lII1ll1l1I = tabi_IlI1ll1l1I(tabi_III1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_llI1ll1l1I[tabi_lII1ll1l1I];
-												tabi_III1ll1l1I = -11017;
-												tabi_IlI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = { tabi_IlI1ll1l1I(tabi_III1ll1l1I) };
-												tabi_IlI1ll1l1I = tabi_IllI1l1l1I();
-												tabi_llI1ll1l1I = tabi_l1lI1l1l1I(tabi_I11I1l1l1I(tabi_lII1ll1l1I));
-												tabi_I1lI1l1l1I[tabi_IlI1ll1l1I] = tabi_llI1ll1l1I;
-												tabi_lII1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_llI1ll1l1I = tabi_IIIl1l1l1I[tabi_lII1ll1l1I];
-												tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-												tabi_l1lI1l1l1I = tabi_llI1ll1l1I[tabi_III1ll1l1I];
-												tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = -10937;
-												tabi_III1ll1l1I = { tabi_lII1ll1l1I(tabi_l11lll1l1I) };
-												tabi_llI1ll1l1I = tabi_l1lI1l1l1I(tabi_I11I1l1l1I(tabi_III1ll1l1I));
-												tabi_III1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = -10957;
-												tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_II1lll1l1I = 0;
-												tabi_l11lll1l1I = { tabi_III1ll1l1I(tabi_I11lll1l1I) };
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_I11I1l1l1I(tabi_l11lll1l1I));
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_I11lll1l1I = -10969;
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I);
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_I11lll1l1I = -10946;
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_III1ll1l1I;
-												tabi_I11lll1l1I = -10920;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_ll1lll1l1I = "\067\111\108\111\114\051";
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-												tabi_ll1lll1l1I = 62;
-												tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-												tabi_Il1lll1l1I = 62;
-												tabi_lI1lll1l1I = 62;
-												tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I);
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-												tabi_I11lll1l1I = -11006;
-												tabi_ll1lll1l1I = "\067\111\108\111\114\051";
-												tabi_lI1lll1l1I = -11000;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-												tabi_ll1lll1l1I = 0;
-												tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-												tabi_Il1lll1l1I = 0;
-												tabi_lI1lll1l1I = 0;
-												tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I);
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_I11lll1l1I = -10912;
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_III1ll1l1I = 0;
-												tabi_lI1lll1l1I = -10981;
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_III1ll1l1I;
-												tabi_I11lll1l1I = -10942;
-												tabi_ll1lll1l1I = "\085\068\105\109\050";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-												tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-												tabi_lI1lll1l1I = .75555557;
-												tabi_ll1lll1l1I = 0;
-												tabi_Il1lll1l1I = 0;
-												tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I, tabi_II1lll1l1I);
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-												tabi_ll1lll1l1I = "\085\068\105\109\050";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_lI1lll1l1I = -10981;
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = -10958;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-												tabi_ll1lll1l1I = 1;
-												tabi_II1lll1l1I = 21;
-												tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-												tabi_lI1lll1l1I = 0;
-												tabi_Il1lll1l1I = 0;
-												tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I, tabi_II1lll1l1I);
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-												tabi_I11lll1l1I = "\085\068\105\109";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = -10899;
-												tabi_Il1lll1l1I = -10981;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-												tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = 4;
-												tabi_I11lll1l1I = 0;
-												tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_lIl1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-												tabi_I11lll1l1I = -11005;
-												tabi_l11lll1l1I = -10969;
-												tabi_ll1lll1l1I = -10916;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I);
-												tabi_lIl1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = -10946;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_lIl1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = -10969;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I);
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = -10946;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = -10901;
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_III1ll1l1I;
-												tabi_lI1lll1l1I = -10981;
-												tabi_ll1lll1l1I = "\086\101\099\116\111\114\050";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-												tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-												tabi_ll1lll1l1I = .5;
-												tabi_Il1lll1l1I = .5;
-												tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-												tabi_lI1lll1l1I = -11000;
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-												tabi_I11lll1l1I = -10920;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_ll1lll1l1I = "\067\111\108\111\114\051";
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-												tabi_ll1lll1l1I = 255;
-												tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-												tabi_Il1lll1l1I = 255;
-												tabi_lI1lll1l1I = 255;
-												tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I);
-												tabi_lI1lll1l1I = -11000;
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_II1lll1l1I = 0;
-												tabi_I11lll1l1I = -10881;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_III1ll1l1I = 1;
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_III1ll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I11lll1l1I = -11006;
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_ll1lll1l1I = "\067\111\108\111\114\051";
-												tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-												tabi_ll1lll1l1I = 0;
-												tabi_lI1lll1l1I = 0;
-												tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-												tabi_Il1lll1l1I = 0;
-												tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I);
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I11lll1l1I = -10912;
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_lI1lll1l1I = -10981;
-												tabi_III1ll1l1I = 0;
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_III1ll1l1I;
-												tabi_ll1lll1l1I = "\085\068\105\109\050";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = -10942;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-												tabi_ll1lll1l1I = .736151576;
-												tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-												tabi_Il1lll1l1I = 0;
-												tabi_lI1lll1l1I = .5;
-												tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I, tabi_II1lll1l1I);
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-												tabi_lI1lll1l1I = -10981;
-												tabi_ll1lll1l1I = "\085\068\105\109\050";
-												tabi_I11lll1l1I = -10958;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_II1lll1l1I = 0;
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-												tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-												tabi_lI1lll1l1I = 1;
-												tabi_ll1lll1l1I = .482507288;
-												tabi_Il1lll1l1I = 0;
-												tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I, tabi_II1lll1l1I);
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I11lll1l1I = -10911;
-												tabi_Il1lll1l1I = "\069\110\117\109";
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_III1ll1l1I = 2;
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_III1ll1l1I;
-												tabi_I11lll1l1I = -10917;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_II1lll1l1I = -10917;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_ll1lll1l1I = tabi_IIIl1l1l1I[tabi_Il1lll1l1I];
-												tabi_Il1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lI1lll1l1I = tabi_Il1lll1l1I(tabi_II1lll1l1I);
-												tabi_I11lll1l1I = tabi_ll1lll1l1I[tabi_lI1lll1l1I];
-												tabi_lI1lll1l1I = -10892;
-												tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-												tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_III1ll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I11lll1l1I = -10909;
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_lll1ll1l1I];
-												tabi_I11lll1l1I = -10914;
-												tabi_II1lll1l1I = -10879;
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_III1ll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lI1lll1l1I = -11000;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_ll1lll1l1I = "\067\111\108\111\114\051";
-												tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-												tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-												tabi_lI1lll1l1I = 255;
-												tabi_ll1lll1l1I = 255;
-												tabi_Il1lll1l1I = 255;
-												tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I);
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = -11019;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_III1ll1l1I = 14;
-												tabi_I11lll1l1I = -10879;
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_III1ll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_Il1lll1l1I = "\069\110\117\109";
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_ll1lll1l1I = tabi_IIIl1l1l1I[tabi_Il1lll1l1I];
-												tabi_Il1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lI1lll1l1I = tabi_Il1lll1l1I(tabi_II1lll1l1I);
-												tabi_I11lll1l1I = tabi_ll1lll1l1I[tabi_lI1lll1l1I];
-												tabi_lI1lll1l1I = -10880;
-												tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-												tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-												tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_III1ll1l1I;
-												tabi_l11lll1l1I = -10969;
-												tabi_I11lll1l1I = -10931;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I);
-												tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-												tabi_Il1lll1l1I = -10981;
-												tabi_l11lll1l1I = -10946;
-												tabi_I11lll1l1I = "\086\101\099\116\111\114\050";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11lll1l1I = -10901;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-												tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = .5;
-												tabi_I11lll1l1I = .5;
-												tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-												tabi_Il1lll1l1I = -11000;
-												tabi_I11lll1l1I = "\067\111\108\111\114\051";
-												tabi_l11lll1l1I = -10920;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-												tabi_Il1lll1l1I = 255;
-												tabi_lI1lll1l1I = 0;
-												tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-												tabi_I11lll1l1I = 255;
-												tabi_ll1lll1l1I = 255;
-												tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-												tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = -10881;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l1lI1l1l1I = 1;
-												tabi_I11lll1l1I = "\067\111\108\111\114\051";
-												tabi_l11lll1l1I = -11006;
-												tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = -11000;
-												tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-												tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-												tabi_Il1lll1l1I = 0;
-												tabi_ll1lll1l1I = 0;
-												tabi_I11lll1l1I = 0;
-												tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-												tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = -10981;
-												tabi_I11lll1l1I = "\085\068\105\109\050";
-												tabi_l11lll1l1I = -10912;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l11lll1l1I = -10942;
-												tabi_l1lI1l1l1I = 0;
-												tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-												tabi_Il1lll1l1I = .5;
-												tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = 0;
-												tabi_I11lll1l1I = .255102038;
-												tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I);
-												tabi_I11lll1l1I = "\085\068\105\109\050";
-												tabi_lI1lll1l1I = 0;
-												tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = -10958;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-												tabi_Il1lll1l1I = -10981;
-												tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-												tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-												tabi_I11lll1l1I = .479591846;
-												tabi_Il1lll1l1I = 1;
-												tabi_ll1lll1l1I = 0;
-												tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I);
-												tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = -10911;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l11lll1l1I = -10917;
-												tabi_l1lI1l1l1I = 2;
-												tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_lI1lll1l1I = -10917;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_ll1lll1l1I = "\069\110\117\109";
-												tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-												tabi_l11lll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-												tabi_Il1lll1l1I = -10892;
-												tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-												tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-												tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = -10909;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l11lll1l1I = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_lIlI1l1l1I and 16684030 or 11182421;
-												tabi_l1lI1l1l1I = tabi_lIlI1l1l1I;
-											end;
-										else
-											tabi_l1lI1l1l1I = "\115\101\116\109\101\116\097\116\097\098\108\101";
-											tabi_lII1ll1l1I = tabi_IllI1l1l1I();
-											tabi_l1llll1l1I = nil;
-											tabi_III1ll1l1I = tabi_IllI1l1l1I();
-											tabi_l1IIIl1l1I[57] = 15156328380195;
-											tabi_l11I1l1l1I = {};
-											tabi_I1lI1l1l1I[tabi_lII1ll1l1I] = tabi_l11I1l1l1I;
-											tabi_l11lIl1l1I = 7691447409659;
-											tabi_l11I1l1l1I = tabi_IlII1l1l1I(6487750, {
-													tabi_lII1ll1l1I,
-													tabi_lIl1ll1l1I,
-													tabi_IIl1ll1l1I,
-													tabi_l1II1l1l1I,
-												});
-											tabi_I1lI1l1l1I[tabi_III1ll1l1I] = tabi_l11I1l1l1I;
-											tabi_l1I1ll1l1I = nil;
-											tabi_Il11Il1l1I = 577690731034;
-											tabi_I11lll1l1I = {};
-											tabi_lIlIll1l1I = 23554319472048;
-											tabi_l11lll1l1I = tabi_IllI1l1l1I();
-											tabi_llI1Il1l1I = 27476818060277;
-											tabi_l1IIIl1l1I[58] = 5284044772153;
-											tabi_IlI1ll1l1I = nil;
-											tabi_l11I1l1l1I = {};
-											tabi_I1l1Il1l1I = 10184752014605;
-											tabi_IllIll1l1I = 12881000017628;
-											tabi_lllIIl1l1I = 21732123987727;
-											tabi_I1lI1l1l1I[tabi_l11lll1l1I] = tabi_l11I1l1l1I;
-											tabi_I1lIll1l1I = 28865208609026;
-											tabi_l1II1l1l1I = tabi_I1II1l1l1I(tabi_l1II1l1l1I);
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I[tabi_l1lI1l1l1I];
-											tabi_Il1lll1l1I = "\095\095\105\110\100\101\120";
-											tabi_lll1ll1l1I = nil;
-											tabi_IlI1Il1l1I = 16451300539353;
-											tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_l11lll1l1I];
-											tabi_II1lll1l1I = "\095\095\109\101\116\097\116\097\098\108\101";
-											tabi_ll1lll1l1I = { [tabi_Il1lll1l1I] = tabi_lI1lll1l1I, [tabi_II1lll1l1I] = tabi_l1llll1l1I };
-											tabi_lll1ll1l1I = "\076\068\255\241\208\005\187\143\217\160\050\152\101\137\159\189\102\031\156\235";
-											tabi_l1Illl1l1I = 4695616295189;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I);
-											tabi_I11lIl1l1I = 28807224781004;
-											tabi_I1l1ll1l1I = nil;
-											tabi_l11I1l1l1I = tabi_lIII1l1l1I(15661022, {
-													tabi_l11lll1l1I,
-													tabi_lII1ll1l1I,
-													tabi_I1I1ll1l1I,
-													tabi_lIl1ll1l1I,
-													tabi_IIl1ll1l1I,
-													tabi_III1ll1l1I,
-												});
-											tabi_lII1ll1l1I = tabi_I1II1l1l1I(tabi_lII1ll1l1I);
-											tabi_l11lll1l1I = tabi_I1II1l1l1I(tabi_l11lll1l1I);
-											tabi_IIlI1l1l1I = tabi_l1lI1l1l1I;
-											tabi_I11lll1l1I = 19558804211495;
-											tabi_lIl1ll1l1I = tabi_I1II1l1l1I(tabi_lIl1ll1l1I);
-											tabi_III1ll1l1I = tabi_I1II1l1l1I(tabi_III1ll1l1I);
-											tabi_IIIlIl1l1I = 16836785618240;
-											tabi_II11Il1l1I = 9790676738974;
-											tabi_IIl1ll1l1I = tabi_I1II1l1l1I(tabi_IIl1ll1l1I);
-											tabi_I1I1ll1l1I = tabi_I1II1l1l1I(tabi_I1I1ll1l1I);
-											tabi_lIlIIl1l1I = 5588996756565;
-											tabi_l1IIIl1l1I[7] = 11951111220090;
-											tabi_ll1lll1l1I = 32887568234404;
-											tabi_lI1lll1l1I = 2655444568489;
-											tabi_ll11Il1l1I = 30933298475144;
-											tabi_Ill1ll1l1I = nil;
-											tabi_ll1Ill1l1I = 30306214112832;
-											tabi_l1IIIl1l1I[39] = 27934246036895;
-											tabi_ll1lIl1l1I = 6833501509852;
-											tabi_I1I1ll1l1I = 5075732501111;
-											tabi_IIIlll1l1I = 3635800771898;
-											tabi_IlIIll1l1I = 18518316630878;
-											tabi_lIllll1l1I = 7374683904724;
-											tabi_I11IIl1l1I = 9448142643807;
-											tabi_llI1ll1l1I = nil;
-											tabi_IIl1ll1l1I = 5430078116801;
-											tabi_l1llll1l1I = 27557351154752;
-											tabi_IIllIl1l1I = 6013137720800;
-											tabi_lIlI1l1l1I = tabi_l11I1l1l1I;
-											tabi_II1Ill1l1I = 28552740202463;
-											tabi_lllIll1l1I = 10014021854318;
-											tabi_l1IIIl1l1I[50] = 30042065562954;
-											tabi_Illlll1l1I = 8084448910697;
-											tabi_lIl1ll1l1I = 6271917397713;
-											tabi_llI1ll1l1I = 28447510292349;
-											tabi_Ill1ll1l1I = 7123420649962;
-											tabi_IIlIll1l1I = 24824594815567;
-											tabi_I1l1ll1l1I = tabi_lIlI1l1l1I(tabi_lll1ll1l1I, tabi_Ill1ll1l1I);
-											tabi_Ill1ll1l1I = "\143\114\086\077\105\047\247\232\113\143\164\082\028\229\088\253";
-											tabi_IIllll1l1I = 10957869721565;
-											tabi_l1II1l1l1I = tabi_IIlI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_l1IIIl1l1I[4] = 545477493244;
-											tabi_lll1ll1l1I = tabi_lIlI1l1l1I(tabi_Ill1ll1l1I, tabi_lIl1ll1l1I);
-											tabi_lIl1ll1l1I = "\168\104\033\170\131\148\003\185\134\187\197\056";
-											tabi_I1l1ll1l1I = tabi_IIlI1l1l1I[tabi_lll1ll1l1I];
-											tabi_Ill1ll1l1I = tabi_lIlI1l1l1I(tabi_lIl1ll1l1I, tabi_IIl1ll1l1I);
-											tabi_l11lll1l1I = 3680899304804;
-											tabi_lll1ll1l1I = tabi_IIlI1l1l1I[tabi_Ill1ll1l1I];
-											tabi_l1I1ll1l1I = 4594681483447;
-											tabi_IIl1ll1l1I = "\036\060\028\139\153\209\187\113\199\109\188\048";
-											tabi_l1llIl1l1I = 29965827566851;
-											tabi_l1IIIl1l1I[6] = 33234397427943;
-											tabi_lIl1ll1l1I = tabi_lIlI1l1l1I(tabi_IIl1ll1l1I, tabi_l1I1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_IIlI1l1l1I[tabi_lIl1ll1l1I];
-											tabi_IlI1ll1l1I = 21176982523146;
-											tabi_l1I1ll1l1I = "\249\102\194\033\215\095\168\146\198\159\189\216\002\230\094\240";
-											tabi_IIl1ll1l1I = tabi_lIlI1l1l1I(tabi_l1I1ll1l1I, tabi_I1I1ll1l1I);
-											tabi_llIlll1l1I = 18046929584551;
-											tabi_llllll1l1I = 28536633583568;
-											tabi_lIl1ll1l1I = tabi_IIlI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l11Ill1l1I = 21623672753834;
-											tabi_I1I1ll1l1I = "\167\067\212\170\085\090\014\135\201\196\112\065\200\187\047\183";
-											tabi_l1I1ll1l1I = tabi_lIlI1l1l1I(tabi_I1I1ll1l1I, tabi_llI1ll1l1I);
-											tabi_l1lIll1l1I = 17229787119278;
-											tabi_Il1lll1l1I = 1868367791820;
-											tabi_lII1ll1l1I = 23150580225080;
-											tabi_II1lll1l1I = 33405127588230;
-											tabi_llI1ll1l1I = "\019\015\006\103\090\162\138\152\169\195\150\105\006\099\153\172 \006\230\077";
-											tabi_IIl1ll1l1I = tabi_IIlI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_I1I1ll1l1I = tabi_lIlI1l1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I);
-											tabi_IlI1ll1l1I = "\076\023\208\042\054\222\118\244\041\083\130\130\042\216\119\076\111\156\109\046\073 \v\094";
-											tabi_I1llll1l1I = 20360913832466;
-											tabi_l1I1ll1l1I = tabi_IIlI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_lI1Ill1l1I = 9333248762356;
-											tabi_llI1ll1l1I = tabi_lIlI1l1l1I(tabi_IlI1ll1l1I, tabi_lII1ll1l1I);
-											tabi_III1ll1l1I = 10473597380122;
-											tabi_Il1Ill1l1I = 10222334125360;
-											tabi_I1I1ll1l1I = tabi_IIlI1l1l1I[tabi_llI1ll1l1I];
-											tabi_lII1ll1l1I = "\239\016\052\092\071\084\243\203\089\111\220\118\173\163\239\085\255\254\043\035";
-											tabi_IlI1ll1l1I = tabi_lIlI1l1l1I(tabi_lII1ll1l1I, tabi_III1ll1l1I);
-											tabi_l1IIIl1l1I[48] = 20111798126890;
-											tabi_l1l1Il1l1I = 11633273940562;
-											tabi_llI1ll1l1I = tabi_IIlI1l1l1I[tabi_IlI1ll1l1I];
-											tabi_III1ll1l1I = "\204\227\078\162\180\162\070\114\135\203\171\054\211\041\099\228\179\164\252\154";
-											tabi_lII1ll1l1I = tabi_lIlI1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I);
-											tabi_l11lll1l1I = "\109\112\235\071\049\250\165\t\041\207\084\073";
-											tabi_IlI1ll1l1I = tabi_IIlI1l1l1I[tabi_lII1ll1l1I];
-											tabi_III1ll1l1I = tabi_lIlI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I);
-											tabi_I11lll1l1I = "\149\031\143\154\099\082\183\b";
-											tabi_lIIlIl1l1I = 11690183993991;
-											tabi_III1Il1l1I = 18680456594421;
-											tabi_lII1ll1l1I = tabi_IIlI1l1l1I[tabi_III1ll1l1I];
-											tabi_I1IlIl1l1I = 11597839378993;
-											tabi_l1IIIl1l1I[55] = 4413213577230;
-											tabi_l11lll1l1I = tabi_lIlI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I);
-											tabi_I111Il1l1I = 13377083879594;
-											tabi_ll1lll1l1I = "\054\069\167\239\095\098\185\189\129\205\024\057\250\059\134\a";
-											tabi_III1ll1l1I = tabi_IIlI1l1l1I[tabi_l11lll1l1I];
-											tabi_llIIll1l1I = 23582237611466;
-											tabi_I11lll1l1I = tabi_lIlI1l1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-											tabi_I1Illl1l1I = 1074848367593;
-											tabi_Il1lll1l1I = "\100\049\240\137\041\178\194\202\086\080\053\210";
-											tabi_l11lll1l1I = tabi_IIlI1l1l1I[tabi_I11lll1l1I];
-											tabi_l1IIIl1l1I[51] = 15194984265543;
-											tabi_ll1lll1l1I = tabi_lIlI1l1l1I(tabi_Il1lll1l1I, tabi_lI1lll1l1I);
-											tabi_l1IIIl1l1I[12] = 23305203766472;
-											tabi_I11lll1l1I = tabi_IIlI1l1l1I[tabi_ll1lll1l1I];
-											tabi_lI1lll1l1I = "\001\087\123\038\247\073\106\212";
-											tabi_Il1lll1l1I = tabi_lIlI1l1l1I(tabi_lI1lll1l1I, tabi_II1lll1l1I);
-											tabi_ll1lll1l1I = tabi_IIlI1l1l1I[tabi_Il1lll1l1I];
-											tabi_l1IIIl1l1I[2] = 10515474589249;
-											tabi_II1lll1l1I = "\036\081\195\223\v\r\209\229\012\214\043\067\154\120\023\081\255~\017\058\194\000\254\000";
-											tabi_l1IIIl1l1I[26] = 3364135799869;
-											tabi_lI1lll1l1I = tabi_lIlI1l1l1I(tabi_II1lll1l1I, tabi_l1llll1l1I);
-											tabi_l1llll1l1I = "\219\254\065\234\183\228\015\219\016\097\062\150\202\208\r\123";
-											tabi_lIIlll1l1I = 29140094904834;
-											tabi_I11Ill1l1I = 21714943594239;
-											tabi_Il1lll1l1I = tabi_IIlI1l1l1I[tabi_lI1lll1l1I];
-											tabi_II1lll1l1I = tabi_lIlI1l1l1I(tabi_l1llll1l1I, tabi_I1llll1l1I);
-											tabi_lI1lll1l1I = tabi_IIlI1l1l1I[tabi_II1lll1l1I];
-											tabi_I1llll1l1I = "\251\157\209\235\203\117\233\225\207\163\070\078";
-											tabi_l1IIIl1l1I[33] = 16608071629931;
-											tabi_l1IIIl1l1I[45] = 6464123049860;
-											tabi_I1I1Il1l1I = 2822953404997;
-											tabi_l1llll1l1I = tabi_lIlI1l1l1I(tabi_I1llll1l1I, tabi_llllll1l1I);
-											tabi_l1IIIl1l1I[25] = 31579710780130;
-											tabi_II1lll1l1I = tabi_IIlI1l1l1I[tabi_l1llll1l1I];
-											tabi_IlIlll1l1I = 8983198245038;
-											tabi_l1IIIl1l1I[35] = 26645716525295;
-											tabi_llllll1l1I = "\221\064\006\035\138\129\151\209\018\213\b\127\123\212\173\030";
-											tabi_lIl1Il1l1I = 24344617572496;
-											tabi_I1llll1l1I = tabi_lIlI1l1l1I(tabi_llllll1l1I, tabi_Illlll1l1I);
-											tabi_l1llll1l1I = tabi_IIlI1l1l1I[tabi_I1llll1l1I];
-											tabi_I1llIl1l1I = 34760231124596;
-											tabi_Illlll1l1I = "\202\177\033\046";
-											tabi_llllll1l1I = tabi_lIlI1l1l1I(tabi_Illlll1l1I, tabi_lIllll1l1I);
-											tabi_I1llll1l1I = tabi_IIlI1l1l1I[tabi_llllll1l1I];
-											tabi_lIllll1l1I = "\211\247\090\002\023\141\137\201\033\231\064\129\229\228\183\223";
-											tabi_ll1IIl1l1I = 1489325360491;
-											tabi_l1IIIl1l1I[37] = 28813667428562;
-											tabi_Illlll1l1I = tabi_lIlI1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I);
-											tabi_llllIl1l1I = 12647990930947;
-											tabi_IIllll1l1I = "\163\205\160\063";
-											tabi_llllll1l1I = tabi_IIlI1l1l1I[tabi_Illlll1l1I];
-											tabi_l1IIll1l1I = 17266295455440;
-											tabi_lIllll1l1I = tabi_lIlI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_l1Illl1l1I = "\238\067\150\183\067\243\169\166\123\074\119\188\040\001\228\249";
-											tabi_Illlll1l1I = tabi_IIlI1l1l1I[tabi_lIllll1l1I];
-											tabi_l1IIIl1l1I[11] = 18618177668027;
-											tabi_IIllll1l1I = tabi_lIlI1l1l1I(tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_lIllll1l1I = tabi_IIlI1l1l1I[tabi_IIllll1l1I];
-											tabi_lI11Il1l1I = 22832742945552;
-											tabi_I1Illl1l1I = "\117\166\251\115\187\087\245\102\002\223\252\160\204\189\019\073";
-											tabi_l1Illl1l1I = tabi_lIlI1l1l1I(tabi_I1Illl1l1I, tabi_llIlll1l1I);
-											tabi_IIllll1l1I = tabi_IIlI1l1l1I[tabi_l1Illl1l1I];
-											tabi_lll1Il1l1I = 26529748869251;
-											tabi_llIlll1l1I = "\170\073\227\208\186\149\143\070\000\220\054 \086\055\107\086\064\001\r\151";
-											tabi_l11IIl1l1I = 4457238335543;
-											tabi_I1Illl1l1I = tabi_lIlI1l1l1I(tabi_llIlll1l1I, tabi_IlIlll1l1I);
-											tabi_l1Illl1l1I = tabi_IIlI1l1l1I[tabi_I1Illl1l1I];
-											tabi_Ill1Il1l1I = 27107439600285;
-											tabi_IlIlll1l1I = "\221\076\050\239\037\218\203\190\074\211\176\085\072\214\072\087\200\232\090\085";
-											tabi_llIlll1l1I = tabi_lIlI1l1l1I(tabi_IlIlll1l1I, tabi_lIIlll1l1I);
-											tabi_I1Illl1l1I = tabi_IIlI1l1l1I[tabi_llIlll1l1I];
-											tabi_lIIlll1l1I = "\120\089\231\121\238\139\156\066\087\230\252\145\188\061\089\227\020\188\104\063";
-											tabi_l1IIIl1l1I[15] = 178246582438;
-											tabi_IlIlll1l1I = tabi_lIlI1l1l1I(tabi_lIIlll1l1I, tabi_IIIlll1l1I);
-											tabi_IIIlll1l1I = "\196\024\027\042\203\116\083\061\240\096\042\042\033\100\026\171";
-											tabi_llIlll1l1I = tabi_IIlI1l1l1I[tabi_IlIlll1l1I];
-											tabi_lIIlll1l1I = tabi_lIlI1l1l1I(tabi_IIIlll1l1I, tabi_l11Ill1l1I);
-											tabi_l11Ill1l1I = "\070\242\118\247\014\047\162\'\124\000\052\222\"\050\170\081";
-											tabi_IlIlll1l1I = tabi_IIlI1l1l1I[tabi_lIIlll1l1I];
-											tabi_IIl1Il1l1I = 32134852244711;
-											tabi_IIIlll1l1I = tabi_lIlI1l1l1I(tabi_l11Ill1l1I, tabi_I11Ill1l1I);
-											tabi_Il1IIl1l1I = 8707238174637;
-											tabi_I11Ill1l1I = "\063\134\062\113";
-											tabi_lIIlll1l1I = tabi_IIlI1l1l1I[tabi_IIIlll1l1I];
-											tabi_IIlIIl1l1I = 8713680822195;
-											tabi_l11Ill1l1I = tabi_lIlI1l1l1I(tabi_I11Ill1l1I, tabi_ll1Ill1l1I);
-											tabi_IIIlll1l1I = tabi_IIlI1l1l1I[tabi_l11Ill1l1I];
-											tabi_ll1Ill1l1I = "\080\229\233\123\238\124\091\139\173\001\239\r\046\171\151\181";
-											tabi_I11Ill1l1I = tabi_lIlI1l1l1I(tabi_ll1Ill1l1I, tabi_Il1Ill1l1I);
-											tabi_l1IIIl1l1I[8] = 7023559612813;
-											tabi_l11Ill1l1I = tabi_IIlI1l1l1I[tabi_I11Ill1l1I];
-											tabi_Il1Ill1l1I = "\228\122\137\124\004\134\091\171";
-											tabi_ll1Ill1l1I = tabi_lIlI1l1l1I(tabi_Il1Ill1l1I, tabi_lI1Ill1l1I);
-											tabi_I11Ill1l1I = tabi_IIlI1l1l1I[tabi_ll1Ill1l1I];
-											tabi_lI1Ill1l1I = "\109\015\100\018\242\151\089\068\021\082\139\144\100\249\112\055";
-											tabi_Il1Ill1l1I = tabi_lIlI1l1l1I(tabi_lI1Ill1l1I, tabi_II1Ill1l1I);
-											tabi_ll1Ill1l1I = tabi_IIlI1l1l1I[tabi_Il1Ill1l1I];
-											tabi_l1IIIl1l1I[14] = 3078511758131;
-											tabi_II1Ill1l1I = "\179\111\181\184\083\250\120\060\061\184\204\251\196\177\042\019";
-											tabi_lI1Ill1l1I = tabi_lIlI1l1l1I(tabi_II1Ill1l1I, tabi_l1lIll1l1I);
-											tabi_l1lIll1l1I = "\028\106\143\064\021\025\254\231";
-											tabi_Il1Ill1l1I = tabi_IIlI1l1l1I[tabi_lI1Ill1l1I];
-											tabi_II1Ill1l1I = tabi_lIlI1l1l1I(tabi_l1lIll1l1I, tabi_I1lIll1l1I);
-											tabi_l1IIIl1l1I[9] = 11576363887133;
-											tabi_lI1Ill1l1I = tabi_IIlI1l1l1I[tabi_II1Ill1l1I];
-											tabi_I1lIll1l1I = "\049\021\249\069\194\253\046\135";
-											tabi_l1lIll1l1I = tabi_lIlI1l1l1I(tabi_I1lIll1l1I, tabi_lllIll1l1I);
-											tabi_lllIll1l1I = "\224\232\134\067\102\044\067\152";
-											tabi_II1Ill1l1I = tabi_IIlI1l1l1I[tabi_l1lIll1l1I];
-											tabi_I1lIll1l1I = tabi_lIlI1l1l1I(tabi_lllIll1l1I, tabi_IllIll1l1I);
-											tabi_IllIll1l1I = "\a\a\151\056\161\233\224\088\090\043\128\040";
-											tabi_l1lIll1l1I = tabi_IIlI1l1l1I[tabi_I1lIll1l1I];
-											tabi_lllIll1l1I = tabi_lIlI1l1l1I(tabi_IllIll1l1I, tabi_lIlIll1l1I);
-											tabi_lII1Il1l1I = 11961848966020;
-											tabi_l1IlIl1l1I = 12185194081364;
-											tabi_lIlIll1l1I = "\177\119\207\004\175\060\058\075\178\174\109\111\018\108-\117\130\245\051\004\023\139\115\087";
-											tabi_I1lIll1l1I = tabi_IIlI1l1l1I[tabi_lllIll1l1I];
-											tabi_IllIll1l1I = tabi_lIlI1l1l1I(tabi_lIlIll1l1I, tabi_IIlIll1l1I);
-											tabi_l111Il1l1I = 10562720671341;
-											tabi_l1IIIl1l1I[38] = 1813605287577;
-											tabi_IIlIll1l1I = "\107\164\168\020\159\058\138\182";
-											tabi_l1lIIl1l1I = 17738756276360;
-											tabi_l1IIIl1l1I[5] = 5916498007430;
-											tabi_I1IIll1l1I = 26703700353317;
-											tabi_lllIll1l1I = tabi_IIlI1l1l1I[tabi_IllIll1l1I];
-											tabi_lIlIll1l1I = tabi_lIlI1l1l1I(tabi_IIlIll1l1I, tabi_l1IIll1l1I);
-											tabi_IllIll1l1I = tabi_IIlI1l1l1I[tabi_lIlIll1l1I];
-											tabi_l1IIll1l1I = "\206\224\185\248\158\138\174\055\106\003\236\132\220\167\047\214\020\159\252\082";
-											tabi_IIlIll1l1I = tabi_lIlI1l1l1I(tabi_l1IIll1l1I, tabi_I1IIll1l1I);
-											tabi_lIlIll1l1I = tabi_IIlI1l1l1I[tabi_IIlIll1l1I];
-											tabi_l1IIIl1l1I[36] = 12290423991478;
-											tabi_I1IIll1l1I = "\143\000\091\247\139\118\055\099";
-											tabi_l1IIIl1l1I[52] = 3853777014277;
-											tabi_lIIIll1l1I = 16712227765452;
-											tabi_l1IIll1l1I = tabi_lIlI1l1l1I(tabi_I1IIll1l1I, tabi_llIIll1l1I);
-											tabi_IIlIll1l1I = tabi_IIlI1l1l1I[tabi_l1IIll1l1I];
-											tabi_llIIll1l1I = "\095\214\001\219\067\170\076\077\124\129\069\049\116\062\075\225\005\145\171\216\209\084\229\250\064\047\233\164\217\116\221\116\106\181\016\146";
-											tabi_l1IIIl1l1I[49] = 17267369230033;
-											tabi_IIIIll1l1I = 25272358820848;
-											tabi_lIllIl1l1I = 30283664846379;
-											tabi_I1IIll1l1I = tabi_lIlI1l1l1I(tabi_llIIll1l1I, tabi_IlIIll1l1I);
-											tabi_l1IIIl1l1I[60] = 7988882971920;
-											tabi_l1IIIl1l1I[53] = 3531644636377;
-											tabi_IlIIll1l1I = "\163\149\235\177\148\147\075\135\177\083\093\069\110\107\165\085\242\070\211\108";
-											tabi_l1IIll1l1I = tabi_IIlI1l1l1I[tabi_I1IIll1l1I];
-											tabi_llIIll1l1I = tabi_lIlI1l1l1I(tabi_IlIIll1l1I, tabi_lIIIll1l1I);
-											tabi_I1IIll1l1I = tabi_IIlI1l1l1I[tabi_llIIll1l1I];
-											tabi_lIIIll1l1I = "\023\124\030\139\164\104\113\235\201\130\210\078";
-											tabi_IlIIll1l1I = tabi_lIlI1l1l1I(tabi_lIIIll1l1I, tabi_IIIIll1l1I);
-											tabi_IIIIll1l1I = "\215\121\125\124\026\078\114\044";
-											tabi_IlIlIl1l1I = 8333564616273;
-											tabi_llIIll1l1I = tabi_IIlI1l1l1I[tabi_IlIIll1l1I];
-											tabi_lIIIll1l1I = tabi_lIlI1l1l1I(tabi_IIIIll1l1I, tabi_l111Il1l1I);
-											tabi_IlIIll1l1I = tabi_IIlI1l1l1I[tabi_lIIIll1l1I];
-											tabi_l111Il1l1I = "\015\194\071\107";
-											tabi_IIIIll1l1I = tabi_lIlI1l1l1I(tabi_l111Il1l1I, tabi_I111Il1l1I);
-											tabi_lIIIll1l1I = tabi_IIlI1l1l1I[tabi_IIIIll1l1I];
-											tabi_I111Il1l1I = "\177\216\020\212\204\217\175\073";
-											tabi_l111Il1l1I = tabi_lIlI1l1l1I(tabi_I111Il1l1I, tabi_ll11Il1l1I);
-											tabi_IIIIll1l1I = tabi_IIlI1l1l1I[tabi_l111Il1l1I];
-											tabi_ll11Il1l1I = "\193\169\121\084\151\239\230\076";
-											tabi_I111Il1l1I = tabi_lIlI1l1l1I(tabi_ll11Il1l1I, tabi_Il11Il1l1I);
-											tabi_Il11Il1l1I = "\052\123\025\223\018\054\090\079\042\188\214\092";
-											tabi_l111Il1l1I = tabi_IIlI1l1l1I[tabi_I111Il1l1I];
-											tabi_ll11Il1l1I = tabi_lIlI1l1l1I(tabi_Il11Il1l1I, tabi_lI11Il1l1I);
-											tabi_IlllIl1l1I = 13912897401501;
-											tabi_lI11Il1l1I = "\074\101\249\193\144\195\205\198\004\139\092\186\204\205\215\019";
-											tabi_I111Il1l1I = tabi_IIlI1l1l1I[tabi_ll11Il1l1I];
-											tabi_Il11Il1l1I = tabi_lIlI1l1l1I(tabi_lI11Il1l1I, tabi_II11Il1l1I);
-											tabi_II11Il1l1I = "\029\151\v\181\190\243\092\002";
-											tabi_ll11Il1l1I = tabi_IIlI1l1l1I[tabi_Il11Il1l1I];
-											tabi_lI11Il1l1I = tabi_lIlI1l1l1I(tabi_II11Il1l1I, tabi_l1l1Il1l1I);
-											tabi_l1I1Il1l1I = 3436078697600;
-											tabi_I1lIIl1l1I = 20393127070256;
-											tabi_l1l1Il1l1I = "\189\058\199\143\093\077\084\197";
-											tabi_Il11Il1l1I = tabi_IIlI1l1l1I[tabi_lI11Il1l1I];
-											tabi_II11Il1l1I = tabi_lIlI1l1l1I(tabi_l1l1Il1l1I, tabi_I1l1Il1l1I);
-											tabi_I1l1Il1l1I = "\176\"\234\028\046\181\248\040\065-\187\172\070\218\148\235";
-											tabi_lI11Il1l1I = tabi_IIlI1l1l1I[tabi_II11Il1l1I];
-											tabi_l1l1Il1l1I = tabi_lIlI1l1l1I(tabi_I1l1Il1l1I, tabi_lll1Il1l1I);
-											tabi_l1IIIl1l1I[41] = 3753915977128;
-											tabi_lll1Il1l1I = "\046\102\000\101\220\043\123\205";
-											tabi_II11Il1l1I = tabi_IIlI1l1l1I[tabi_l1l1Il1l1I];
-											tabi_I1l1Il1l1I = tabi_lIlI1l1l1I(tabi_lll1Il1l1I, tabi_Ill1Il1l1I);
-											tabi_l1l1Il1l1I = tabi_IIlI1l1l1I[tabi_I1l1Il1l1I];
-											tabi_Ill1Il1l1I = "\138\213\074\147\165\089\208\148\161\116\070\179";
-											tabi_lll1Il1l1I = tabi_lIlI1l1l1I(tabi_Ill1Il1l1I, tabi_lIl1Il1l1I);
-											tabi_lIl1Il1l1I = "\073\172\023\204\031\255\002\098\n\021\246\229\090\251\225\142\123\239\080\071\058\135\228\181";
-											tabi_I1l1Il1l1I = tabi_IIlI1l1l1I[tabi_lll1Il1l1I];
-											tabi_lI1IIl1l1I = 6293392889573;
-											tabi_II1lIl1l1I = 12450416405835;
-											tabi_Ill1Il1l1I = tabi_lIlI1l1l1I(tabi_lIl1Il1l1I, tabi_IIl1Il1l1I);
-											tabi_lll1Il1l1I = tabi_IIlI1l1l1I[tabi_Ill1Il1l1I];
-											tabi_l1IIIl1l1I[23] = 4268254007175;
-											tabi_l1IIIl1l1I[44] = 6030318114288;
-											tabi_IIl1Il1l1I = "\204\102\255\165\143\101\250\143\181\169\093\134\014\171\255\164\151\017\154\047\055\217\024\120";
-											tabi_l1IIIl1l1I[47] = 24232945014824;
-											tabi_Il1lIl1l1I = 19117482853772;
-											tabi_lIl1Il1l1I = tabi_lIlI1l1l1I(tabi_IIl1Il1l1I, tabi_l1I1Il1l1I);
-											tabi_Ill1Il1l1I = tabi_IIlI1l1l1I[tabi_lIl1Il1l1I];
-											tabi_l1I1Il1l1I = "\211\217\079\217\053\249\087\208\109\170\003\140";
-											tabi_IIl1Il1l1I = tabi_lIlI1l1l1I(tabi_l1I1Il1l1I, tabi_I1I1Il1l1I);
-											tabi_lI1lIl1l1I = 19668329219981;
-											tabi_I1I1Il1l1I = "\133\232\246\067\183\123\143\241\176\199\214\062\182\014 \169\080\016\138\226";
-											tabi_lIl1Il1l1I = tabi_IIlI1l1l1I[tabi_IIl1Il1l1I];
-											tabi_llIlIl1l1I = 30540296974106;
-											tabi_l1I1Il1l1I = tabi_lIlI1l1l1I(tabi_I1I1Il1l1I, tabi_llI1Il1l1I);
-											tabi_IIl1Il1l1I = tabi_IIlI1l1l1I[tabi_l1I1Il1l1I];
-											tabi_llI1Il1l1I = "\187\205\157\044\140\202\238\088\186\065\197\180\229\165\136\060";
-											tabi_I1I1Il1l1I = tabi_lIlI1l1l1I(tabi_llI1Il1l1I, tabi_IlI1Il1l1I);
-											tabi_IlI1Il1l1I = "\121\151\063\062\254\087\167\078\195\207-\209";
-											tabi_l1I1Il1l1I = tabi_IIlI1l1l1I[tabi_I1I1Il1l1I];
-											tabi_l1IIIl1l1I[13] = 19708058879922;
-											tabi_llI1Il1l1I = tabi_lIlI1l1l1I(tabi_IlI1Il1l1I, tabi_lII1Il1l1I);
-											tabi_lII1Il1l1I = "\136\087\134\064\076\206\238\091";
-											tabi_I1I1Il1l1I = tabi_IIlI1l1l1I[tabi_llI1Il1l1I];
-											tabi_IlI1Il1l1I = tabi_lIlI1l1l1I(tabi_lII1Il1l1I, tabi_III1Il1l1I);
-											tabi_llI1Il1l1I = tabi_IIlI1l1l1I[tabi_IlI1Il1l1I];
-											tabi_III1Il1l1I = "~\195\240\235\128\248\133\215\002\158\217\114\028\174\043\109";
-											tabi_lII1Il1l1I = tabi_lIlI1l1l1I(tabi_III1Il1l1I, tabi_l11lIl1l1I);
-											tabi_l11lIl1l1I = "\117\093\187\144\109\036\202\092";
-											tabi_l1IIIl1l1I[46] = 9862619636705;
-											tabi_IlI1Il1l1I = tabi_IIlI1l1l1I[tabi_lII1Il1l1I];
-											tabi_III1Il1l1I = tabi_lIlI1l1l1I(tabi_l11lIl1l1I, tabi_I11lIl1l1I);
-											tabi_I11lIl1l1I = "\140\047\069\073\079\119\115\022\240\121\179\129\n\076\112\179\123\073\064\020\142\214\058\108";
-											tabi_lII1Il1l1I = tabi_IIlI1l1l1I[tabi_III1Il1l1I];
-											tabi_l11lIl1l1I = tabi_lIlI1l1l1I(tabi_I11lIl1l1I, tabi_ll1lIl1l1I);
-											tabi_IllIIl1l1I = 16870072630623;
-											tabi_ll1lIl1l1I = "\195\037\106\162\255\097\149\012\210\135\242\217\060\215\137\146";
-											tabi_III1Il1l1I = tabi_IIlI1l1l1I[tabi_l11lIl1l1I];
-											tabi_I11lIl1l1I = tabi_lIlI1l1l1I(tabi_ll1lIl1l1I, tabi_Il1lIl1l1I);
-											tabi_l11lIl1l1I = tabi_IIlI1l1l1I[tabi_I11lIl1l1I];
-											tabi_Il1lIl1l1I = "\125\103\131\129\093\208\085\106\071\113\135\195\085\207\125\037\185\084\047\152\005\247\109\a\058\006\143\165\217\018\241\162";
-											tabi_ll1lIl1l1I = tabi_lIlI1l1l1I(tabi_Il1lIl1l1I, tabi_lI1lIl1l1I);
-											tabi_I11lIl1l1I = tabi_IIlI1l1l1I[tabi_ll1lIl1l1I];
-											tabi_lI1lIl1l1I = "\235\246\222\n\191\035\228\041\133\144\042\020";
-											tabi_Il1lIl1l1I = tabi_lIlI1l1l1I(tabi_lI1lIl1l1I, tabi_II1lIl1l1I);
-											tabi_II1lIl1l1I = "\065\068\060\181\017\005\092\131\023\108\087\158";
-											tabi_ll1lIl1l1I = tabi_IIlI1l1l1I[tabi_Il1lIl1l1I];
-											tabi_lI1lIl1l1I = tabi_lIlI1l1l1I(tabi_II1lIl1l1I, tabi_l1llIl1l1I);
-											tabi_Il1lIl1l1I = tabi_IIlI1l1l1I[tabi_lI1lIl1l1I];
-											tabi_l1llIl1l1I = "\223\245\018\120\102\248\073\075";
-											tabi_II1lIl1l1I = tabi_lIlI1l1l1I(tabi_l1llIl1l1I, tabi_I1llIl1l1I);
-											tabi_l1IIIl1l1I[1] = 11824405818116;
-											tabi_I1llIl1l1I = "\116\196\158\102\016\179\088\106\002\228\163\193\174\120\027\140\r\114\253\203\082\083\071\n";
-											tabi_lI1lIl1l1I = tabi_IIlI1l1l1I[tabi_II1lIl1l1I];
-											tabi_l1llIl1l1I = tabi_lIlI1l1l1I(tabi_I1llIl1l1I, tabi_llllIl1l1I);
-											tabi_l1IIIl1l1I[18] = 33402980039044;
-											tabi_l1IIIl1l1I[16] = 27032275378775;
-											tabi_llllIl1l1I = "\192\119\234\171";
-											tabi_II1lIl1l1I = tabi_IIlI1l1l1I[tabi_l1llIl1l1I];
-											tabi_I1llIl1l1I = tabi_lIlI1l1l1I(tabi_llllIl1l1I, tabi_IlllIl1l1I);
-											tabi_IlllIl1l1I = "\113\244\184\235\195\043\048\159\195\196\014\166";
-											tabi_l1llIl1l1I = tabi_IIlI1l1l1I[tabi_I1llIl1l1I];
-											tabi_llllIl1l1I = tabi_lIlI1l1l1I(tabi_IlllIl1l1I, tabi_lIllIl1l1I);
-											tabi_lIllIl1l1I = "\195\224\112\102\033\119\022\002";
-											tabi_I1llIl1l1I = tabi_IIlI1l1l1I[tabi_llllIl1l1I];
-											tabi_IlllIl1l1I = tabi_lIlI1l1l1I(tabi_lIllIl1l1I, tabi_IIllIl1l1I);
-											tabi_l1IIIl1l1I[30] = 21181277621518;
-											tabi_IIllIl1l1I = "\222\101\240\142\021\062\236\111";
-											tabi_llllIl1l1I = tabi_IIlI1l1l1I[tabi_IlllIl1l1I];
-											tabi_lIllIl1l1I = tabi_lIlI1l1l1I(tabi_IIllIl1l1I, tabi_l1IlIl1l1I);
-											tabi_l1IIIl1l1I[17] = 13563920658776;
-											tabi_IlllIl1l1I = tabi_IIlI1l1l1I[tabi_lIllIl1l1I];
-											tabi_l1IlIl1l1I = "\171\157\210\134\217\079\237\138";
-											tabi_l1IIIl1l1I[24] = 3714186317187;
-											tabi_IIllIl1l1I = tabi_lIlI1l1l1I(tabi_l1IlIl1l1I, tabi_I1IlIl1l1I);
-											tabi_lIllIl1l1I = tabi_IIlI1l1l1I[tabi_IIllIl1l1I];
-											tabi_I1IlIl1l1I = "\123\042\110\185\205\203\226\077\134\178\"\145\235\242\t\022";
-											tabi_l1IlIl1l1I = tabi_lIlI1l1l1I(tabi_I1IlIl1l1I, tabi_llIlIl1l1I);
-											tabi_llIlIl1l1I = "\102\101\075\241\120\089\082\240\230\156\250\146\044\048\023\169\141 \217\213\001\255\083\134";
-											tabi_l1IIIl1l1I[43] = 19206606144991;
-											tabi_l1IIIl1l1I[3] = 12279686245548;
-											tabi_IIllIl1l1I = tabi_IIlI1l1l1I[tabi_l1IlIl1l1I];
-											tabi_I1IlIl1l1I = tabi_lIlI1l1l1I(tabi_llIlIl1l1I, tabi_IlIlIl1l1I);
-											tabi_IlIlIl1l1I = "\100\064\181\108\070\'\096\"\099\110\138\052\176\242\089\132";
-											tabi_l1IlIl1l1I = tabi_IIlI1l1l1I[tabi_I1IlIl1l1I];
-											tabi_llIlIl1l1I = tabi_lIlI1l1l1I(tabi_IlIlIl1l1I, tabi_lIIlIl1l1I);
-											tabi_lIIlIl1l1I = "\198\212\222\133\062\092\166\"\016\160\016\209\202\070\096\179\190\110\252\104\191\226\012\146\080\065\197\103";
-											tabi_I1IlIl1l1I = tabi_IIlI1l1l1I[tabi_llIlIl1l1I];
-											tabi_IlIlIl1l1I = tabi_lIlI1l1l1I(tabi_lIIlIl1l1I, tabi_IIIlIl1l1I);
-											tabi_llIlIl1l1I = tabi_IIlI1l1l1I[tabi_IlIlIl1l1I];
-											tabi_IIIlIl1l1I = "\156\054\187\209\115\178\163\059\122\178\086\021\224\167\074\056\084\067\227\121";
-											tabi_lIIlIl1l1I = tabi_lIlI1l1l1I(tabi_IIIlIl1l1I, tabi_l11IIl1l1I);
-											tabi_l1IIIl1l1I[10] = 27354407756675;
-											tabi_IlIlIl1l1I = tabi_IIlI1l1l1I[tabi_lIIlIl1l1I];
-											tabi_l11IIl1l1I = "\142\232\135\250\088\117\219\163\029\092\015\195\185\067\206\040\v\042\015\073";
-											tabi_IIIlIl1l1I = tabi_lIlI1l1l1I(tabi_l11IIl1l1I, tabi_I11IIl1l1I);
-											tabi_I11IIl1l1I = "\055\127\004\235\042\219\133\196\168\099\246\246\169\122\229\042\n\138\198\005";
-											tabi_lIIlIl1l1I = tabi_IIlI1l1l1I[tabi_IIIlIl1l1I];
-											tabi_l11IIl1l1I = tabi_lIlI1l1l1I(tabi_I11IIl1l1I, tabi_ll1IIl1l1I);
-											tabi_IIIlIl1l1I = tabi_IIlI1l1l1I[tabi_l11IIl1l1I];
-											tabi_II1IIl1l1I = 30432919514806;
-											tabi_ll1IIl1l1I = "\r\004\159\199 \112\231\091\067\074\026\035";
-											tabi_I11IIl1l1I = tabi_lIlI1l1l1I(tabi_ll1IIl1l1I, tabi_Il1IIl1l1I);
-											tabi_Il1IIl1l1I = "\189\148\219\114\127\038\022\031\004\015\r\247\195\059\180\029";
-											tabi_l11IIl1l1I = tabi_IIlI1l1l1I[tabi_I11IIl1l1I];
-											tabi_ll1IIl1l1I = tabi_lIlI1l1l1I(tabi_Il1IIl1l1I, tabi_lI1IIl1l1I);
-											tabi_lI1IIl1l1I = "\218\030\134\196\028\028\'\158\067\195\069\088\168\118 \043\143\229\002\212";
-											tabi_I11IIl1l1I = tabi_IIlI1l1l1I[tabi_ll1IIl1l1I];
-											tabi_Il1IIl1l1I = tabi_lIlI1l1l1I(tabi_lI1IIl1l1I, tabi_II1IIl1l1I);
-											tabi_II1IIl1l1I = "\189\160\091\137\056\251\041\212";
-											tabi_l1IIIl1l1I[21] = 13586469925229;
-											tabi_ll1IIl1l1I = tabi_IIlI1l1l1I[tabi_Il1IIl1l1I];
-											tabi_lI1IIl1l1I = tabi_lIlI1l1l1I(tabi_II1IIl1l1I, tabi_l1lIIl1l1I);
-											tabi_Il1IIl1l1I = tabi_IIlI1l1l1I[tabi_lI1IIl1l1I];
-											tabi_l1lIIl1l1I = "\116\227\188\087\088\116\123\135\029\106\242\101\253\243\002\070";
-											tabi_II1IIl1l1I = tabi_lIlI1l1l1I(tabi_l1lIIl1l1I, tabi_I1lIIl1l1I);
-											tabi_lI1IIl1l1I = tabi_IIlI1l1l1I[tabi_II1IIl1l1I];
-											tabi_I1lIIl1l1I = "\004\036\156\119\079\094\178\130\096\020\179\224\251\235\255\134";
-											tabi_l1lIIl1l1I = tabi_lIlI1l1l1I(tabi_I1lIIl1l1I, tabi_lllIIl1l1I);
-											tabi_lllIIl1l1I = "\155\058\000\067\097\069\211\052\187\242\159\229\111\143\197\137\234\041\254\230\124\187\117\243";
-											tabi_II1IIl1l1I = tabi_IIlI1l1l1I[tabi_l1lIIl1l1I];
-											tabi_I1lIIl1l1I = tabi_lIlI1l1l1I(tabi_lllIIl1l1I, tabi_IllIIl1l1I);
-											tabi_IllIIl1l1I = "\057\119\246\128\165\105\171\216\067\109\208\197\069\028\050\101\040\071\229\238";
-											tabi_l1lIIl1l1I = tabi_IIlI1l1l1I[tabi_I1lIIl1l1I];
-											tabi_l1IIIl1l1I[22] = 881568940853;
-											tabi_lllIIl1l1I = tabi_lIlI1l1l1I(tabi_IllIIl1l1I, tabi_lIlIIl1l1I);
-											tabi_I1lIIl1l1I = tabi_IIlI1l1l1I[tabi_lllIIl1l1I];
-											tabi_lIlIIl1l1I = "\189\181\182\156\155\243\141\217\109\177\050\233\093\127\170\185";
-											tabi_IllIIl1l1I = tabi_lIlI1l1l1I(tabi_lIlIIl1l1I, tabi_IIlIIl1l1I);
-											tabi_IIlIIl1l1I = "\041\130\187\100\088\207\040\175";
-											tabi_lllIIl1l1I = tabi_IIlI1l1l1I[tabi_IllIIl1l1I];
-											tabi_lIlIIl1l1I = tabi_lIlI1l1l1I(tabi_IIlIIl1l1I, tabi_l1IIIl1l1I[1]);
-											tabi_l1IIIl1l1I[1] = "\035\184\180\229\171\020\042\028\002\203\225\162";
-											tabi_IllIIl1l1I = tabi_IIlI1l1l1I[tabi_lIlIIl1l1I];
-											tabi_IIlIIl1l1I = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[1], tabi_l1IIIl1l1I[2]);
-											tabi_lIlIIl1l1I = tabi_IIlI1l1l1I[tabi_IIlIIl1l1I];
-											tabi_l1IIIl1l1I[2] = "\023\246\132\002\232\192\103\033\'\080\136\230";
-											tabi_l1IIIl1l1I[1] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[2], tabi_l1IIIl1l1I[3]);
-											tabi_l1IIIl1l1I[3] = "\186\130\111\076\128\246\247\163\251\230\187\145\119\243\024\255";
-											tabi_l1IIIl1l1I[59] = 32790928521034;
-											tabi_IIlIIl1l1I = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[1]];
-											tabi_l1IIIl1l1I[2] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[3], tabi_l1IIIl1l1I[4]);
-											tabi_l1IIIl1l1I[4] = "\194\197\098\141\169\228\061\048\138\210\159\234";
-											tabi_l1IIIl1l1I[1] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[2]];
-											tabi_l1IIIl1l1I[3] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[4], tabi_l1IIIl1l1I[5]);
-											tabi_l1IIIl1l1I[2] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[3]];
-											tabi_l1IIIl1l1I[5] = "\078\160\065\190\186\100\235\012~\203-\192\083\255\035\233\135\191\061\119";
-											tabi_l1IIIl1l1I[54] = 27391989867430;
-											tabi_l1IIIl1l1I[4] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[5], tabi_l1IIIl1l1I[6]);
-											tabi_l1IIIl1l1I[56] = 15489198504025;
-											tabi_l1IIIl1l1I[3] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[4]];
-											tabi_l1IIIl1l1I[6] = "\101\208\049\141\179\088\201\062";
-											tabi_l1IIIl1l1I[29] = 1330406720727;
-											tabi_l1IIIl1l1I[5] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[6], tabi_l1IIIl1l1I[7]);
-											tabi_l1IIIl1l1I[20] = 11763200666315;
-											tabi_l1IIIl1l1I[4] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[5]];
-											tabi_l1IIIl1l1I[7] = "\059\183\113\167";
-											tabi_l1IIIl1l1I[6] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[7], tabi_l1IIIl1l1I[8]);
-											tabi_l1IIIl1l1I[19] = 3612177730852;
-											tabi_l1IIIl1l1I[5] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[6]];
-											tabi_l1IIIl1l1I[8] = "\043\178\223\228\124\189\088\067";
-											tabi_l1IIIl1l1I[7] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[8], tabi_l1IIIl1l1I[9]);
-											tabi_l1IIIl1l1I[9] = "\203\057\202\025\111\078\019\145\212\108\025\098\096\003\171 \147\049\147\115\208\129\043\066";
-											tabi_l1IIIl1l1I[6] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[7]];
-											tabi_l1IIIl1l1I[34] = 34390852664604;
-											tabi_l1IIIl1l1I[8] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[9], tabi_l1IIIl1l1I[10]);
-											tabi_l1IIIl1l1I[7] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[8]];
-											tabi_l1IIIl1l1I[10] = "\174\138\042\040\164\171\161\043\116\212\222\204\071\080\160\057";
-											tabi_l1IIIl1l1I[40] = 22929382658922;
-											tabi_l1IIIl1l1I[27] = 30092532968825;
-											tabi_l1IIIl1l1I[9] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[10], tabi_l1IIIl1l1I[11]);
-											tabi_l1IIIl1l1I[11] = "\012\051\106\147\061\003\083\251\169\252\243\201\096\064\059\060";
-											tabi_l1IIIl1l1I[8] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[9]];
-											tabi_l1IIIl1l1I[10] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[11], tabi_l1IIIl1l1I[12]);
-											tabi_l1IIIl1l1I[9] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[10]];
-											tabi_l1IIIl1l1I[12] = "\159\247\021\090\176\063\162\190\174\140\210\n";
-											tabi_l1IIIl1l1I[11] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[12], tabi_l1IIIl1l1I[13]);
-											tabi_l1IIIl1l1I[13] = "\029\121\100\"\074\173\030\228";
-											tabi_l1IIIl1l1I[10] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[11]];
-											tabi_l1IIIl1l1I[12] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[13], tabi_l1IIIl1l1I[14]);
-											tabi_l1IIIl1l1I[11] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[12]];
-											tabi_l1IIIl1l1I[14] = "\109\159\028-\148\198\110\224\144\219\n\187\157\103\102\165";
-											tabi_l1IIIl1l1I[13] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[14], tabi_l1IIIl1l1I[15]);
-											tabi_l1IIIl1l1I[12] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[13]];
-											tabi_l1IIIl1l1I[15] = "\147\067\142\184\134\223\188\156";
-											tabi_l1IIIl1l1I[14] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[15], tabi_l1IIIl1l1I[16]);
-											tabi_l1IIIl1l1I[13] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[14]];
-											tabi_l1IIIl1l1I[31] = 3352324279346;
-											tabi_l1IIIl1l1I[16] = "\193\159\165\061\084\081\051\079\035\135\217\033\076\199\066\254";
-											tabi_l1IIIl1l1I[32] = 5864956826966;
-											tabi_l1IIIl1l1I[15] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[16], tabi_l1IIIl1l1I[17]);
-											tabi_l1IIIl1l1I[14] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[15]];
-											tabi_l1IIIl1l1I[17] = "\104\185\012\094\024\042\210\208\124\167\217\069";
-											tabi_l1IIIl1l1I[16] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[17], tabi_l1IIIl1l1I[18]);
-											tabi_l1IIIl1l1I[15] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[16]];
-											tabi_l1IIIl1l1I[18] = "\111\018\146\160\138\226\041\085\030\116\217\224\233\241\168\n";
-											tabi_l1IIIl1l1I[17] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[18], tabi_l1IIIl1l1I[19]);
-											tabi_l1IIIl1l1I[19] = "\190\156\165\095\121\159\237\119\252\250\134\255\228\168\051\102";
-											tabi_l1IIIl1l1I[16] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[17]];
-											tabi_l1IIIl1l1I[18] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[19], tabi_l1IIIl1l1I[20]);
-											tabi_l1IIIl1l1I[20] = "\069\027\029\131\174-\024\103\090\222\175\071\168\074\001\217";
-											tabi_l1IIIl1l1I[17] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[18]];
-											tabi_l1IIIl1l1I[28] = 27711974696144;
-											tabi_l1IIIl1l1I[19] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[20], tabi_l1IIIl1l1I[21]);
-											tabi_l1IIIl1l1I[18] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[19]];
-											tabi_l1IIIl1l1I[21] = "\006\095\127\086\141\137\188\067\r\044\121\140\117\185\173\020\046\137\157\t";
-											tabi_l1IIIl1l1I[20] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[21], tabi_l1IIIl1l1I[22]);
-											tabi_l1IIIl1l1I[22] = "\104\014\116\141\086\005\091\194\132\178\242\220\228\004\187\152";
-											tabi_l1IIIl1l1I[19] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[20]];
-											tabi_l1IIIl1l1I[21] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[22], tabi_l1IIIl1l1I[23]);
-											tabi_l1IIIl1l1I[20] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[21]];
-											tabi_l1IIIl1l1I[23] = "\120\072\249\068\207\150\018\086\222\203\216\112\068\097\002\048\169\177\075\243\068\158\131\017\017\118\033\230\224\155\044\203\208\083\035\173";
-											tabi_l1IIIl1l1I[22] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[23], tabi_l1IIIl1l1I[24]);
-											tabi_l1IIIl1l1I[24] = "\122\097\149\024\246\169\223\137";
-											tabi_l1IIIl1l1I[21] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[22]];
-											tabi_l1IIIl1l1I[23] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[24], tabi_l1IIIl1l1I[25]);
-											tabi_l1IIIl1l1I[25] = "\249\038\254\249\004\100\075\037";
-											tabi_l1IIIl1l1I[22] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[23]];
-											tabi_l1IIIl1l1I[24] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[25], tabi_l1IIIl1l1I[26]);
-											tabi_l1IIIl1l1I[23] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[24]];
-											tabi_l1IIIl1l1I[26] = "\a\035\221\251\124\252\226-\157\191\087\071";
-											tabi_l1IIIl1l1I[25] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[26], tabi_l1IIIl1l1I[27]);
-											tabi_l1IIIl1l1I[24] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[25]];
-											tabi_l1IIIl1l1I[27] = "\046\194\066\022\037\232\087\182\233\020\"\140\088\115\041\209\078\063\206\195";
-											tabi_l1IIIl1l1I[26] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[27], tabi_l1IIIl1l1I[28]);
-											tabi_l1IIIl1l1I[28] = "\188\234\237\048\163\187\b\135\216\060\a\171\004\110\181\081\118\238\132\121";
-											tabi_l1IIIl1l1I[25] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[26]];
-											tabi_l1IIIl1l1I[27] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[28], tabi_l1IIIl1l1I[29]);
-											tabi_l1IIIl1l1I[26] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[27]];
-											tabi_l1IIIl1l1I[29] = "\179\138\015\075\222\040\235\a\004\171\150\093";
-											tabi_l1IIIl1l1I[28] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[29], tabi_l1IIIl1l1I[30]);
-											tabi_l1IIIl1l1I[27] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[28]];
-											tabi_l1IIIl1l1I[30] = "\129\018\243\095\124\125\107\216\148\036\199\106";
-											tabi_l1IIIl1l1I[29] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[30], tabi_l1IIIl1l1I[31]);
-											tabi_l1IIIl1l1I[42] = 10861230008195;
-											tabi_l1IIIl1l1I[31] = "\181\213\100\'\117\236\103\224\138-\255\181";
-											tabi_l1IIIl1l1I[28] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[29]];
-											tabi_l1IIIl1l1I[30] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[31], tabi_l1IIIl1l1I[32]);
-											tabi_l1IIIl1l1I[29] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[30]];
-											tabi_l1IIIl1l1I[32] = "\067\b\173\122\070\067\022\153\219\063\019\096\168\143\238\195-\162\066\"\235\207\066\075";
-											tabi_l1IIIl1l1I[31] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[32], tabi_l1IIIl1l1I[33]);
-											tabi_l1IIIl1l1I[30] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[31]];
-											tabi_l1IIIl1l1I[33] = "\030\006\065\166\174\093\244\115\049\085\117\170\089\168\096\183\r\212\014\199\220\196\151\082";
-											tabi_l1IIIl1l1I[32] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[33], tabi_l1IIIl1l1I[34]);
-											tabi_l1IIIl1l1I[34] = "\192\192\061\150\196\242\207\131\062\246~\144\046\226\098\214";
-											tabi_l1IIIl1l1I[31] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[32]];
-											tabi_l1IIIl1l1I[33] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[34], tabi_l1IIIl1l1I[35]);
-											tabi_l1IIIl1l1I[35] = "\243\133\085\235\151\069\069\029";
-											tabi_l1IIIl1l1I[32] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[33]];
-											tabi_l1IIIl1l1I[34] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[35], tabi_l1IIIl1l1I[36]);
-											tabi_l1IIIl1l1I[36] = "\080\187\137\040\n\241\150\146\114\094\251\070\026\006\098\205\233\049\064\169\139\076\085\159\097\003\202\014\016\083\111\100";
-											tabi_l1IIIl1l1I[33] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[34]];
-											tabi_l1IIIl1l1I[35] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[36], tabi_l1IIIl1l1I[37]);
-											tabi_l1IIIl1l1I[34] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[35]];
-											tabi_l1IIIl1l1I[37] = "\150\182\159\158\086\029\149\151";
-											tabi_l1IIIl1l1I[36] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[37], tabi_l1IIIl1l1I[38]);
-											tabi_l1IIIl1l1I[38] = "\209\150\042\214\138\063\114\n\142\019\161\093\113\202\079\238\113\035\083\150";
-											tabi_l1IIIl1l1I[35] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[36]];
-											tabi_l1IIIl1l1I[37] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[38], tabi_l1IIIl1l1I[39]);
-											tabi_l1IIIl1l1I[39] = "\117\001\055\075\088\253\106\217\024\027\042\214\218\205\093\239";
-											tabi_l1IIIl1l1I[36] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[37]];
-											tabi_l1IIIl1l1I[38] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[39], tabi_l1IIIl1l1I[40]);
-											tabi_l1IIIl1l1I[40] = "\214\105\029\061-\043\082\052\243\200\194\176";
-											tabi_l1IIIl1l1I[37] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[38]];
-											tabi_l1IIIl1l1I[39] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[40], tabi_l1IIIl1l1I[41]);
-											tabi_l1IIIl1l1I[38] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[39]];
-											tabi_l1IIIl1l1I[41] = "\206\005\104\219\'\249\017\n";
-											tabi_l1IIIl1l1I[40] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[41], tabi_l1IIIl1l1I[42]);
-											tabi_l1IIIl1l1I[39] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[40]];
-											tabi_l1IIIl1l1I[42] = "\251\162\079\141\005\172\200\048\141\086\023\234\235\099\237\155";
-											tabi_l1IIIl1l1I[41] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[42], tabi_l1IIIl1l1I[43]);
-											tabi_l1IIIl1l1I[43] = "\226\081\047\212\093\054\213\255\244\052-\176\145\195\187\080";
-											tabi_l1IIIl1l1I[40] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[41]];
-											tabi_l1IIIl1l1I[42] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[43], tabi_l1IIIl1l1I[44]);
-											tabi_l1IIIl1l1I[44] = "\102\106\186\206\v\226\089\214";
-											tabi_l1IIIl1l1I[41] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[42]];
-											tabi_l1IIIl1l1I[43] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[44], tabi_l1IIIl1l1I[45]);
-											tabi_l1IIIl1l1I[45] = "\038\197\157\t\176\189\057\057\137\086\149\160\225\075\197\206";
-											tabi_l1IIIl1l1I[42] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[43]];
-											tabi_l1IIIl1l1I[44] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[45], tabi_l1IIIl1l1I[46]);
-											tabi_l1IIIl1l1I[46] = "\048\176\248\158\179\145\104\014";
-											tabi_l1IIIl1l1I[43] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[44]];
-											tabi_l1IIIl1l1I[45] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[46], tabi_l1IIIl1l1I[47]);
-											tabi_l1IIIl1l1I[44] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[45]];
-											tabi_l1IIIl1l1I[47] = "\098\163\190\224\112\031\065\029\088\106\205\070\197\108\220\079\196\143\125\196\149\088\199\191\001\205\175\160";
-											tabi_l1IIIl1l1I[46] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[47], tabi_l1IIIl1l1I[48]);
-											tabi_l1IIIl1l1I[48] = "\139\241\124\210\105\149\186\191\201\016\114\086";
-											tabi_l1IIIl1l1I[45] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[46]];
-											tabi_l1IIIl1l1I[47] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[48], tabi_l1IIIl1l1I[49]);
-											tabi_l1IIIl1l1I[46] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[47]];
-											tabi_l1IIIl1l1I[49] = "\249\235\051\133\207\200\197\057\091\221\147\132\175\093\109\165";
-											tabi_l1IIIl1l1I[48] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[49], tabi_l1IIIl1l1I[50]);
-											tabi_l1IIIl1l1I[50] = "\040\113\227\029\016\245\033\197\105\147\100\207\130\'\024\189\172\208\062\221";
-											tabi_l1IIIl1l1I[47] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[48]];
-											tabi_l1IIIl1l1I[49] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[50], tabi_l1IIIl1l1I[51]);
-											tabi_l1IIIl1l1I[48] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[49]];
-											tabi_l1IIIl1l1I[51] = "\058\019\175\148\059\230\083\138\233\094\t\184";
-											tabi_l1IIIl1l1I[50] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[51], tabi_l1IIIl1l1I[52]);
-											tabi_l1IIIl1l1I[52] = "\157\035\192\156\190\038\251\t\103\143\189\241";
-											tabi_l1IIIl1l1I[49] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[50]];
-											tabi_l1IIIl1l1I[51] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[52], tabi_l1IIIl1l1I[53]);
-											tabi_l1IIIl1l1I[50] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[51]];
-											tabi_l1IIIl1l1I[53] = "\254\178\183\109\237\182\196\077";
-											tabi_l1IIIl1l1I[52] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[53], tabi_l1IIIl1l1I[54]);
-											tabi_l1IIIl1l1I[51] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[52]];
-											tabi_l1IIIl1l1I[54] = "\217\088\251\089\237\146\105\161\074\071\167\218\069\091\177\118";
-											tabi_l1IIIl1l1I[53] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[54], tabi_l1IIIl1l1I[55]);
-											tabi_l1IIIl1l1I[55] = "";
-											tabi_l1IIIl1l1I[52] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[53]];
-											tabi_l1IIIl1l1I[54] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[55], tabi_l1IIIl1l1I[56]);
-											tabi_l1IIIl1l1I[53] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[54]];
-											tabi_l1IIIl1l1I[56] = "\168\215\252\250\182\122\048\212";
-											tabi_l1IIIl1l1I[55] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[56], tabi_l1IIIl1l1I[57]);
-											tabi_l1IIIl1l1I[57] = "\087\134\058\117\122\131\174\154\244\092\138\095\046\052\233\026\103\059\110\178\226\077\192\231";
-											tabi_l1IIIl1l1I[54] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[55]];
-											tabi_l1IIIl1l1I[56] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[57], tabi_l1IIIl1l1I[58]);
-											tabi_l1IIIl1l1I[55] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[56]];
-											tabi_l1IIIl1l1I[58] = "\058\103\001\139\065\085\"\041\081\154\155\060\015\133\049\172\t\103\154\204";
-											tabi_l1IIIl1l1I[57] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[58], tabi_l1IIIl1l1I[59]);
-											tabi_l1IIIl1l1I[56] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[57]];
-											tabi_l1IIIl1l1I[59] = "\158\233\015\249\244\142\171\035\012\134\026\031";
-											tabi_l1IIIl1l1I[58] = tabi_lIlI1l1l1I(tabi_l1IIIl1l1I[59], tabi_l1IIIl1l1I[60]);
-											tabi_l1IIIl1l1I[57] = tabi_IIlI1l1l1I[tabi_l1IIIl1l1I[58]];
-											tabi_l11I1l1l1I = {
-													tabi_l1II1l1l1I,
-													tabi_I1l1ll1l1I,
-													tabi_lll1ll1l1I,
-													tabi_Ill1ll1l1I,
-													tabi_lIl1ll1l1I,
-													tabi_IIl1ll1l1I,
-													tabi_l1I1ll1l1I,
-													tabi_I1I1ll1l1I,
-													tabi_llI1ll1l1I,
-													tabi_IlI1ll1l1I,
-													tabi_lII1ll1l1I,
-													tabi_III1ll1l1I,
-													tabi_l11lll1l1I,
-													tabi_I11lll1l1I,
-													tabi_ll1lll1l1I,
-													tabi_Il1lll1l1I,
-													tabi_lI1lll1l1I,
-													tabi_II1lll1l1I,
-													tabi_l1llll1l1I,
-													tabi_I1llll1l1I,
-													tabi_llllll1l1I,
-													tabi_Illlll1l1I,
-													tabi_lIllll1l1I,
-													tabi_IIllll1l1I,
-													tabi_l1Illl1l1I,
-													tabi_I1Illl1l1I,
-													tabi_llIlll1l1I,
-													tabi_IlIlll1l1I,
-													tabi_lIIlll1l1I,
-													tabi_IIIlll1l1I,
-													tabi_l11Ill1l1I,
-													tabi_I11Ill1l1I,
-													tabi_ll1Ill1l1I,
-													tabi_Il1Ill1l1I,
-													tabi_lI1Ill1l1I,
-													tabi_II1Ill1l1I,
-													tabi_l1lIll1l1I,
-													tabi_I1lIll1l1I,
-													tabi_lllIll1l1I,
-													tabi_IllIll1l1I,
-													tabi_lIlIll1l1I,
-													tabi_IIlIll1l1I,
-													tabi_l1IIll1l1I,
-													tabi_I1IIll1l1I,
-													tabi_llIIll1l1I,
-													tabi_IlIIll1l1I,
-													tabi_lIIIll1l1I,
-													tabi_IIIIll1l1I,
-													tabi_l111Il1l1I,
-													tabi_I111Il1l1I,
-													tabi_ll11Il1l1I,
-													tabi_Il11Il1l1I,
-													tabi_lI11Il1l1I,
-													tabi_II11Il1l1I,
-													tabi_l1l1Il1l1I,
-													tabi_I1l1Il1l1I,
-													tabi_lll1Il1l1I,
-													tabi_Ill1Il1l1I,
-													tabi_lIl1Il1l1I,
-													tabi_IIl1Il1l1I,
-													tabi_l1I1Il1l1I,
-													tabi_I1I1Il1l1I,
-													tabi_llI1Il1l1I,
-													tabi_IlI1Il1l1I,
-													tabi_lII1Il1l1I,
-													tabi_III1Il1l1I,
-													tabi_l11lIl1l1I,
-													tabi_I11lIl1l1I,
-													tabi_ll1lIl1l1I,
-													tabi_Il1lIl1l1I,
-													tabi_lI1lIl1l1I,
-													tabi_II1lIl1l1I,
-													tabi_l1llIl1l1I,
-													tabi_I1llIl1l1I,
-													tabi_llllIl1l1I,
-													tabi_IlllIl1l1I,
-													tabi_lIllIl1l1I,
-													tabi_IIllIl1l1I,
-													tabi_l1IlIl1l1I,
-													tabi_I1IlIl1l1I,
-													tabi_llIlIl1l1I,
-													tabi_IlIlIl1l1I,
-													tabi_lIIlIl1l1I,
-													tabi_IIIlIl1l1I,
-													tabi_l11IIl1l1I,
-													tabi_I11IIl1l1I,
-													tabi_ll1IIl1l1I,
-													tabi_Il1IIl1l1I,
-													tabi_lI1IIl1l1I,
-													tabi_II1IIl1l1I,
-													tabi_l1lIIl1l1I,
-													tabi_I1lIIl1l1I,
-													tabi_lllIIl1l1I,
-													tabi_IllIIl1l1I,
-													tabi_lIlIIl1l1I,
-													tabi_IIlIIl1l1I,
-													tabi_l1IIIl1l1I[1],
-													tabi_l1IIIl1l1I[2],
-													tabi_l1IIIl1l1I[3],
-													tabi_l1IIIl1l1I[4],
-													tabi_l1IIIl1l1I[5],
-													tabi_l1IIIl1l1I[6],
-													tabi_l1IIIl1l1I[7],
-													tabi_l1IIIl1l1I[8],
-													tabi_l1IIIl1l1I[9],
-													tabi_l1IIIl1l1I[10],
-													tabi_l1IIIl1l1I[11],
-													tabi_l1IIIl1l1I[12],
-													tabi_l1IIIl1l1I[13],
-													tabi_l1IIIl1l1I[14],
-													tabi_l1IIIl1l1I[15],
-													tabi_l1IIIl1l1I[16],
-													tabi_l1IIIl1l1I[17],
-													tabi_l1IIIl1l1I[18],
-													tabi_l1IIIl1l1I[19],
-													tabi_l1IIIl1l1I[20],
-													tabi_l1IIIl1l1I[21],
-													tabi_l1IIIl1l1I[22],
-													tabi_l1IIIl1l1I[23],
-													tabi_l1IIIl1l1I[24],
-													tabi_l1IIIl1l1I[25],
-													tabi_l1IIIl1l1I[26],
-													tabi_l1IIIl1l1I[27],
-													tabi_l1IIIl1l1I[28],
-													tabi_l1IIIl1l1I[29],
-													tabi_l1IIIl1l1I[30],
-													tabi_l1IIIl1l1I[31],
-													tabi_l1IIIl1l1I[32],
-													tabi_l1IIIl1l1I[33],
-													tabi_l1IIIl1l1I[34],
-													tabi_l1IIIl1l1I[35],
-													tabi_l1IIIl1l1I[36],
-													tabi_l1IIIl1l1I[37],
-													tabi_l1IIIl1l1I[38],
-													tabi_l1IIIl1l1I[39],
-													tabi_l1IIIl1l1I[40],
-													tabi_l1IIIl1l1I[41],
-													tabi_l1IIIl1l1I[42],
-													tabi_l1IIIl1l1I[43],
-													tabi_l1IIIl1l1I[44],
-													tabi_l1IIIl1l1I[45],
-													tabi_l1IIIl1l1I[46],
-													tabi_l1IIIl1l1I[47],
-													tabi_l1IIIl1l1I[48],
-													tabi_l1IIIl1l1I[49],
-													tabi_l1IIIl1l1I[50],
-													tabi_l1IIIl1l1I[51],
-													tabi_l1IIIl1l1I[52],
-													tabi_l1IIIl1l1I[53],
-													tabi_l1IIIl1l1I[54],
-													tabi_l1IIIl1l1I[55],
-													tabi_l1IIIl1l1I[56],
-													tabi_l1IIIl1l1I[57],
-												};
-											tabi_l1II1l1l1I = tabi_IllI1l1l1I();
-											tabi_I1I1ll1l1I = 153;
-											tabi_I1lI1l1l1I[tabi_l1II1l1l1I] = tabi_l11I1l1l1I;
-											tabi_I1l1ll1l1I = "\105\112\097\105\114\115";
-											tabi_l1I1ll1l1I = 1;
-											tabi_IlI1ll1l1I = 153;
-											tabi_IIl1ll1l1I = { tabi_l1I1ll1l1I, tabi_I1I1ll1l1I };
-											tabi_llI1ll1l1I = 15;
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-											tabi_I1I1ll1l1I = 1;
-											tabi_l1I1ll1l1I = { tabi_I1I1ll1l1I, tabi_llI1ll1l1I };
-											tabi_llI1ll1l1I = 16;
-											tabi_I1I1ll1l1I = { tabi_llI1ll1l1I, tabi_IlI1ll1l1I };
-											tabi_lIl1ll1l1I = { tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I };
-											tabi_IIl1ll1l1I = { tabi_l11I1l1l1I(tabi_lIl1ll1l1I) };
-											tabi_l11I1l1l1I = 1358377;
-											tabi_I1l1ll1l1I = tabi_IIl1ll1l1I[1];
-											tabi_lll1ll1l1I = tabi_IIl1ll1l1I[2];
-											tabi_Ill1ll1l1I = tabi_IIl1ll1l1I[3];
-										end;
-									else
-										if tabi_l11I1l1l1I < 11210098 then
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Il1lll1l1I = -10976;
-											tabi_l11I1l1l1I = 16684030;
-											tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-											tabi_l1lI1l1l1I = tabi_ll1lll1l1I;
-										else
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11I1l1l1I = not tabi_l1lI1l1l1I;
-											tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]] = tabi_l11I1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_IIlI1l1l1I = -10909;
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_I1l1ll1l1I = tabi_l11I1l1l1I;
-											tabi_lIlI1l1l1I = tabi_lllI1l1l1I(tabi_IIlI1l1l1I);
-											tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIlI1l1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_lll1ll1l1I and 1238565 or 12242806;
-											tabi_l1II1l1l1I = tabi_lll1ll1l1I;
-										end;
-									end;
-								end;
-							else
-								if tabi_l11I1l1l1I < 11959968 then
-									if tabi_l11I1l1l1I < 11477242 then
-										if tabi_l11I1l1l1I < 11305115 then
-											if tabi_l11I1l1l1I < 11251844 then
-												tabi_lll1ll1l1I = -10955;
-												tabi_IIlI1l1l1I = "\103\097\109\101";
-												tabi_Ill1ll1l1I = -10981;
-												tabi_I1l1ll1l1I = -10955;
-												tabi_lIlI1l1l1I = tabi_IIIl1l1l1I[tabi_IIlI1l1l1I];
-												tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1II1l1l1I = tabi_IIlI1l1l1I(tabi_I1l1ll1l1I);
-												tabi_lllI1l1l1I = tabi_lIlI1l1l1I[tabi_l1II1l1l1I];
-												tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1II1l1l1I = -10918;
-												tabi_IIlI1l1l1I = tabi_lIlI1l1l1I(tabi_l1II1l1l1I);
-												tabi_l1lI1l1l1I = tabi_lllI1l1l1I[tabi_IIlI1l1l1I];
-												tabi_lllI1l1l1I = "\071\101\116\077\111\117\115\101";
-												tabi_IIlI1l1l1I = -10938;
-												tabi_lllI1l1l1I = tabi_l1lI1l1l1I[tabi_lllI1l1l1I];
-												tabi_lllI1l1l1I = tabi_lllI1l1l1I(tabi_l1lI1l1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIlI1l1l1I = tabi_l1lI1l1l1I(tabi_IIlI1l1l1I);
-												tabi_l1II1l1l1I = "\103\097\109\101";
-												tabi_l11I1l1l1I = tabi_lllI1l1l1I[tabi_lIlI1l1l1I];
-												tabi_IIlI1l1l1I = tabi_IIIl1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-												tabi_lIlI1l1l1I = tabi_IIlI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_I1l1ll1l1I = -10918;
-												tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1II1l1l1I = tabi_IIlI1l1l1I(tabi_I1l1ll1l1I);
-												tabi_lllI1l1l1I = tabi_lIlI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1II1l1l1I = -10964;
-												tabi_lIlI1l1l1I = "\071\101\116\077\111\117\115\101";
-												tabi_lIlI1l1l1I = tabi_lllI1l1l1I[tabi_lIlI1l1l1I];
-												tabi_lIlI1l1l1I = tabi_lIlI1l1l1I(tabi_lllI1l1l1I);
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIlI1l1l1I = tabi_lllI1l1l1I(tabi_l1II1l1l1I);
-												tabi_lllI1l1l1I = "\120";
-												tabi_l1lI1l1l1I = tabi_lIlI1l1l1I[tabi_IIlI1l1l1I];
-												tabi_IIIl1l1l1I[tabi_lllI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_lllI1l1l1I = "\121";
-												tabi_l1II1l1l1I = -10953;
-												tabi_IIIl1l1l1I[tabi_lllI1l1l1I] = tabi_l1lI1l1l1I;
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = -10981;
-												tabi_IIlI1l1l1I = tabi_lIlI1l1l1I(tabi_l1II1l1l1I);
-												tabi_lIlI1l1l1I = true;
-												tabi_lllI1l1l1I[tabi_IIlI1l1l1I] = tabi_lIlI1l1l1I;
-												tabi_IIlI1l1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_lIlI1l1l1I = tabi_IIIl1l1l1I[tabi_IIlI1l1l1I];
-												tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1II1l1l1I = tabi_IIlI1l1l1I(tabi_I1l1ll1l1I);
-												tabi_lllI1l1l1I = tabi_lIlI1l1l1I[tabi_l1II1l1l1I];
-												tabi_I1l1ll1l1I = -10983;
-												tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1II1l1l1I = { tabi_IIlI1l1l1I(tabi_I1l1ll1l1I) };
-												tabi_lIlI1l1l1I = tabi_lllI1l1l1I(tabi_I11I1l1l1I(tabi_l1II1l1l1I));
-												tabi_l1II1l1l1I = -10969;
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIlI1l1l1I = tabi_lllI1l1l1I(tabi_l1II1l1l1I);
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = -10935;
-												tabi_l1II1l1l1I = tabi_lllI1l1l1I(tabi_I1l1ll1l1I);
-												tabi_I1l1ll1l1I = "\067\111\108\111\114\051";
-												tabi_lIlI1l1l1I[tabi_IIlI1l1l1I] = tabi_l1II1l1l1I;
-												tabi_l1II1l1l1I = -10946;
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIlI1l1l1I = tabi_lllI1l1l1I(tabi_l1II1l1l1I);
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lIlI1l1l1I[tabi_IIlI1l1l1I] = tabi_lllI1l1l1I;
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1II1l1l1I = -10920;
-												tabi_IIlI1l1l1I = tabi_lllI1l1l1I(tabi_l1II1l1l1I);
-												tabi_l1II1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-												tabi_I1l1ll1l1I = 1;
-												tabi_lllI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-												tabi_lll1ll1l1I = 1;
-												tabi_Ill1ll1l1I = 1;
-												tabi_l1II1l1l1I = tabi_lllI1l1l1I(tabi_I1l1ll1l1I, tabi_lll1ll1l1I, tabi_Ill1ll1l1I);
-												tabi_lIlI1l1l1I[tabi_IIlI1l1l1I] = tabi_l1II1l1l1I;
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1II1l1l1I = -10881;
-												tabi_IIlI1l1l1I = tabi_lllI1l1l1I(tabi_l1II1l1l1I);
-												tabi_lllI1l1l1I = 1;
-												tabi_I1l1ll1l1I = -10943;
-												tabi_l1II1l1l1I = -11014;
-												tabi_IIl1ll1l1I = -10908;
-												tabi_lIl1ll1l1I = -10908;
-												tabi_lIlI1l1l1I[tabi_IIlI1l1l1I] = tabi_lllI1l1l1I;
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIlI1l1l1I = tabi_lllI1l1l1I(tabi_l1II1l1l1I);
-												tabi_I1I1ll1l1I = -10906;
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1II1l1l1I = tabi_lllI1l1l1I(tabi_I1l1ll1l1I);
-												tabi_lIlI1l1l1I[tabi_IIlI1l1l1I] = tabi_l1II1l1l1I;
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1II1l1l1I = -11003;
-												tabi_IIlI1l1l1I = tabi_lllI1l1l1I(tabi_l1II1l1l1I);
-												tabi_lllI1l1l1I = .5;
-												tabi_lIlI1l1l1I[tabi_IIlI1l1l1I] = tabi_lllI1l1l1I;
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1II1l1l1I = -10946;
-												tabi_IIlI1l1l1I = tabi_lllI1l1l1I(tabi_l1II1l1l1I);
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lIlI1l1l1I[tabi_IIlI1l1l1I] = tabi_lllI1l1l1I;
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1II1l1l1I = -10911;
-												tabi_IIlI1l1l1I = tabi_lllI1l1l1I(tabi_l1II1l1l1I);
-												tabi_l1II1l1l1I = "\120";
-												tabi_lllI1l1l1I = 1000;
-												tabi_lIlI1l1l1I[tabi_IIlI1l1l1I] = tabi_lllI1l1l1I;
-												tabi_IIlI1l1l1I = tabi_IIIl1l1l1I[tabi_l1II1l1l1I];
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_I1l1ll1l1I = tabi_lIlI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = -10938;
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_l1II1l1l1I = tabi_I1l1ll1l1I[tabi_Ill1ll1l1I];
-												tabi_lllI1l1l1I = tabi_IIlI1l1l1I - tabi_l1II1l1l1I;
-												tabi_I1l1ll1l1I = "\121";
-												tabi_l1II1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_IIl1ll1l1I = -10964;
-												tabi_lll1ll1l1I = tabi_lIlI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_I1l1ll1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_IIlI1l1l1I = tabi_l1II1l1l1I - tabi_I1l1ll1l1I;
-												tabi_Ill1ll1l1I = "\085\068\105\109\050";
-												tabi_lll1ll1l1I = -10942;
-												tabi_IIl1ll1l1I = -10981;
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-												tabi_lll1ll1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_Ill1ll1l1I = 0;
-												tabi_l1II1l1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = 0;
-												tabi_lll1ll1l1I = tabi_l1II1l1l1I(tabi_Ill1ll1l1I, tabi_lllI1l1l1I, tabi_lIl1ll1l1I, tabi_IIlI1l1l1I);
-												tabi_l1II1l1l1I = 0;
-												tabi_lIlI1l1l1I[tabi_I1l1ll1l1I] = tabi_lll1ll1l1I;
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-												tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = -10938;
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-												tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-												tabi_llI1ll1l1I = -10906;
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-												tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = -10964;
-												tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-												tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-												tabi_I1l1ll1l1I = tabi_lll1ll1l1I > tabi_Ill1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1l1ll1l1I and 6233278 or 3037788;
-											else
-												tabi_IIlI1l1l1I = 1;
-												tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-												tabi_lllI1l1l1I = tabi_lIlI1l1l1I ~= tabi_IIlI1l1l1I;
-												tabi_l11I1l1l1I = tabi_lllI1l1l1I and 9251098 or 6802127;
-											end;
-										else
-											tabi_IIlI1l1l1I = 37;
-											tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_lllI1l1l1I = tabi_lIlI1l1l1I * tabi_IIlI1l1l1I;
-											tabi_lIlI1l1l1I = 3550972579051;
-											tabi_l1lI1l1l1I = tabi_lllI1l1l1I + tabi_lIlI1l1l1I;
-											tabi_lllI1l1l1I = 35184372088832;
-											tabi_lIlI1l1l1I = 1;
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I % tabi_lllI1l1l1I;
-											tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = 6802127;
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_l1lI1l1l1I = tabi_lllI1l1l1I ~= tabi_lIlI1l1l1I;
-										end;
-									else
-										if tabi_l11I1l1l1I < 11828561 then
-											tabi_l1lI1l1l1I = {};
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.V5179iVb1yXzcA;
-										else
-											tabi_llI1ll1l1I = "\085\068\105\109";
-											tabi_lII1ll1l1I = -10981;
-											tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-											tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-											tabi_l1I1ll1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-											tabi_IlI1ll1l1I = 6;
-											tabi_llI1ll1l1I = 0;
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I);
-											tabi_l11I1l1l1I = 533520;
-											tabi_lIl1ll1l1I = tabi_I1I1ll1l1I;
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 12137486 then
-										if tabi_l11I1l1l1I < 12090414 then
-											if tabi_l11I1l1l1I < 11988328 then
-												tabi_lllI1l1l1I = tabi_IllI1l1l1I();
-												tabi_I1lI1l1l1I[tabi_lllI1l1l1I] = tabi_ll1I1l1l1I[1];
-												tabi_Ill1ll1l1I = -11002;
-												tabi_IIl1ll1l1I = -11002;
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_lllI1l1l1I];
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-												tabi_IIlI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-												tabi_Ill1ll1l1I = "\069\110\117\109";
-												tabi_lll1ll1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_I1l1ll1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = -10874;
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_l1II1l1l1I = tabi_I1l1ll1l1I[tabi_Ill1ll1l1I];
-												tabi_lIlI1l1l1I = tabi_IIlI1l1l1I == tabi_l1II1l1l1I;
-												tabi_l1lI1l1l1I = tabi_lIlI1l1l1I;
-												tabi_l11I1l1l1I = tabi_lIlI1l1l1I and 15529946 or 15580124;
-											else
-												tabi_l1I1ll1l1I = -10994;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_IIlI1l1l1I = "\085\068\105\109\050";
-												tabi_lIlI1l1l1I = -10958;
-												tabi_lllI1l1l1I = tabi_l1lI1l1l1I(tabi_lIlI1l1l1I);
-												tabi_lIlI1l1l1I = tabi_IIIl1l1l1I[tabi_IIlI1l1l1I];
-												tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_I1l1ll1l1I = -10981;
-												tabi_l1II1l1l1I = tabi_IIlI1l1l1I(tabi_I1l1ll1l1I);
-												tabi_IIlI1l1l1I = 0;
-												tabi_l1lI1l1l1I = tabi_lIlI1l1l1I[tabi_l1II1l1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-												tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_IIl1ll1l1I = -10938;
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_I1l1ll1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_lll1ll1l1I = 4;
-												tabi_l1II1l1l1I = tabi_I1l1ll1l1I + tabi_lll1ll1l1I;
-												tabi_I1l1ll1l1I = 0;
-												tabi_lll1ll1l1I = 19;
-												tabi_lIlI1l1l1I = tabi_l1lI1l1l1I(tabi_IIlI1l1l1I, tabi_l1II1l1l1I, tabi_I1l1ll1l1I, tabi_lll1ll1l1I);
-												tabi_l1lI1l1l1I = {};
-												tabi_l11I1l1l1I[tabi_lllI1l1l1I] = tabi_lIlI1l1l1I;
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.aZ5DVLQdhiA3Ti;
-											end;
-										else
-											tabi_l1lI1l1l1I = 1;
-											tabi_lII1ll1l1I = #tabi_IlI1ll1l1I;
-											tabi_l11I1l1l1I = tabi_I1l1ll1l1I(tabi_l1lI1l1l1I, tabi_lII1ll1l1I);
-											tabi_lII1ll1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_lll1ll1l1I(tabi_IlI1ll1l1I, tabi_lII1ll1l1I);
-											tabi_III1ll1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-											tabi_I11lll1l1I = 1;
-											tabi_l11lll1l1I = tabi_III1ll1l1I - tabi_I11lll1l1I;
-											tabi_l1lI1l1l1I = tabi_Ill1ll1l1I(tabi_l11lll1l1I);
-											tabi_l11I1l1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = 16502264;
-											tabi_III1ll1l1I = nil;
-											tabi_lII1ll1l1I = nil;
-										end;
-									else
-										if tabi_l11I1l1l1I < 12189752 then
-											tabi_lIlI1l1l1I = -10881;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_lllI1l1l1I = tabi_l1lI1l1l1I(tabi_lIlI1l1l1I);
-											tabi_l1lI1l1l1I = 1;
-											tabi_l11I1l1l1I[tabi_lllI1l1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.yuMQQpVXrKwy;
-											tabi_l1lI1l1l1I = {};
-										else
-											tabi_lIIlll1l1I = 3;
-											tabi_IlIlll1l1I = tabi_lIIlll1l1I - tabi_Illlll1l1I;
-											tabi_llIlll1l1I = 64;
-											tabi_I1Illl1l1I = tabi_llIlll1l1I ^ tabi_IlIlll1l1I;
-											tabi_l1Illl1l1I = tabi_IIllll1l1I * tabi_I1Illl1l1I;
-											tabi_I1Illl1l1I = 1;
-											tabi_l11I1l1l1I = tabi_llllll1l1I + tabi_l1Illl1l1I;
-											tabi_l1Illl1l1I = tabi_Illlll1l1I + tabi_I1Illl1l1I;
-											tabi_llllll1l1I = tabi_l11I1l1l1I;
-											tabi_Illlll1l1I = tabi_l1Illl1l1I;
-											tabi_llIlll1l1I = 4;
-											tabi_I1Illl1l1I = tabi_Illlll1l1I == tabi_llIlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1Illl1l1I and 7106265 or 4864148;
-										end;
-									end;
-								end;
-							end;
-						end;
-					else
-						if tabi_l11I1l1l1I < 14932537 then
-							if tabi_l11I1l1l1I < 13682730 then
-								if tabi_l11I1l1l1I < 12935381 then
-									if tabi_l11I1l1l1I < 12445848 then
-										if tabi_l11I1l1l1I < 12345458 then
-											if tabi_l11I1l1l1I < 12310324 then
-												tabi_l11I1l1l1I = tabi_I1l1ll1l1I;
-												tabi_l11I1l1l1I = tabi_l1II1l1l1I and 4992152 or 10825034;
-												tabi_lllI1l1l1I = tabi_l1II1l1l1I;
-											else
-												tabi_I1l1ll1l1I = tabi_lIl1ll1l1I;
-												tabi_l11I1l1l1I = tabi_IIl1ll1l1I;
-												tabi_l11I1l1l1I = tabi_lIl1ll1l1I and 1570864 or 5167262;
-											end;
-										else
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I(tabi_lllI1l1l1I);
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.nS9jlEJuQRJh;
-											tabi_l1lI1l1l1I = {};
-										end;
-									else
-										if tabi_l11I1l1l1I < 12780029 then
-											if tabi_l11I1l1l1I < 12643489 then
-												tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = "\067\111\108\111\114\051";
-												tabi_lII1ll1l1I = -10914;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = -11000;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = 216;
-												tabi_III1ll1l1I = 216;
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = 216;
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-												tabi_ll1lll1l1I = -10879;
-												tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_lII1ll1l1I = -11019;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = "\069\110\117\109";
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = 16;
-												tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_lII1ll1l1I = -10978;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = true;
-												tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10879;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_Il1lll1l1I = 0;
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_lII1ll1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = -10873;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_III1ll1l1I = -10967;
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10969;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I);
-												tabi_IlI1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_ll1lll1l1I = -11008;
-												tabi_lII1ll1l1I = -10946;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_IlI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_lII1ll1l1I = -11008;
-												tabi_l11lll1l1I = "\069\110\117\109";
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_lII1ll1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = -11025;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_lII1ll1l1I = -10913;
-												tabi_IlI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_III1ll1l1I = "\085\068\105\109";
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_I11lll1l1I = -10981;
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_III1ll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = 4;
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I);
-												tabi_l11lll1l1I = -10951;
-												tabi_IlI1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_ll1lll1l1I = -11000;
-												tabi_III1ll1l1I = -10969;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_III1ll1l1I = -10946;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-												tabi_III1ll1l1I = -10920;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l11lll1l1I = "\067\111\108\111\114\051";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_l1lI1l1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_ll1lll1l1I = 36;
-												tabi_I11lll1l1I = 33;
-												tabi_l11lll1l1I = 36;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l11lll1l1I = "\067\111\108\111\114\051";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = -11006;
-												tabi_ll1lll1l1I = -11000;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_l1lI1l1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = 0;
-												tabi_ll1lll1l1I = 0;
-												tabi_l11lll1l1I = 0;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_l11lll1l1I = "\085\068\105\109\050";
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_III1ll1l1I = -10912;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_III1ll1l1I = -10942;
-												tabi_ll1lll1l1I = -10981;
-												tabi_l1lI1l1l1I = 0;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_l1lI1l1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = 0;
-												tabi_l11lll1l1I = .0454545468;
-												tabi_ll1lll1l1I = 0;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = "\085\068\105\109\050";
-												tabi_ll1lll1l1I = -10981;
-												tabi_III1ll1l1I = -10958;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_Il1lll1l1I = 27;
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_l1lI1l1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_l11lll1l1I = 0;
-												tabi_I11lll1l1I = 104;
-												tabi_ll1lll1l1I = 0;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-												tabi_I11lll1l1I = -10981;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = "\085\068\105\109";
-												tabi_lII1ll1l1I = -10899;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_III1ll1l1I = 0;
-												tabi_l11lll1l1I = 5;
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I);
-												tabi_I1l1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_lII1ll1l1I = -10969;
-												tabi_III1ll1l1I = -10889;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I);
-												tabi_I1l1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10946;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_I1l1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_lII1ll1l1I = -10969;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = -10934;
-												tabi_I11lll1l1I = -11000;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I);
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10946;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_lII1ll1l1I = -10920;
-												tabi_III1ll1l1I = "\067\111\108\111\114\051";
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = 255;
-												tabi_III1ll1l1I = 255;
-												tabi_ll1lll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = 255;
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10881;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = 1;
-												tabi_I11lll1l1I = -11000;
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = "\067\111\108\111\114\051";
-												tabi_lII1ll1l1I = -11006;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_III1ll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_I11lll1l1I = 0;
-												tabi_l11lll1l1I = 0;
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-												tabi_III1ll1l1I = "\085\068\105\109\050";
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10912;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = 0;
-												tabi_lII1ll1l1I = -10942;
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_I11lll1l1I = -10981;
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = 0;
-												tabi_I11lll1l1I = 0;
-												tabi_III1ll1l1I = .115384616;
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_ll1lll1l1I = 0;
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_III1ll1l1I = "\085\068\105\109\050";
-												tabi_lII1ll1l1I = -10958;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = -10981;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = 1;
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = 0;
-												tabi_III1ll1l1I = .884615362;
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_ll1lll1l1I = -10917;
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_l11lll1l1I = "\069\110\117\109";
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10917;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_lII1ll1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = -10892;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_lll1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_lII1ll1l1I = -10909;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = tabi_lIlI1l1l1I and 3596909 or 14093742;
-												tabi_lII1ll1l1I = tabi_lIlI1l1l1I;
-											else
-												tabi_lII1ll1l1I = 256;
-												tabi_lllI1l1l1I = { tabi_II1I1l1l1I(1, tabi_I11I1l1l1I(tabi_ll1I1l1l1I)) };
-												tabi_I1l1ll1l1I = "\109\097\116\104";
-												tabi_l1II1l1l1I = "\109\097\116\104";
-												tabi_l11I1l1l1I = nil;
-												tabi_l1lI1l1l1I = nil;
-												tabi_lll1ll1l1I = "\116\097\098\108\101";
-												tabi_Ill1ll1l1I = "\115\116\114\105\110\103";
-												tabi_IIlI1l1l1I = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_l1II1l1l1I];
-												tabi_lIlI1l1l1I = tabi_l11I1l1l1I;
-												tabi_IIl1ll1l1I = tabi_IllI1l1l1I();
-												tabi_l1II1l1l1I = "\102\108\111\111\114";
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1II1l1l1I = tabi_IllI1l1l1I();
-												tabi_I1lI1l1l1I[tabi_l1II1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-												tabi_lIl1ll1l1I = tabi_IllI1l1l1I();
-												tabi_I1l1ll1l1I = "\114\097\110\100\111\109";
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_I1l1ll1l1I = tabi_l11I1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lll1ll1l1I];
-												tabi_lll1ll1l1I = "\114\101\109\111\118\101";
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lll1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = "\099\104\097\114";
-												tabi_lll1ll1l1I = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_IllI1l1l1I();
-												tabi_Ill1ll1l1I = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = 0;
-												tabi_I1lI1l1l1I[tabi_lIl1ll1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = 2;
-												tabi_I1lI1l1l1I[tabi_IIl1ll1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = {};
-												tabi_l1lI1l1l1I = 1;
-												tabi_l1I1ll1l1I = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = {};
-												tabi_III1ll1l1I = tabi_lII1ll1l1I;
-												tabi_I1lI1l1l1I[tabi_I1I1ll1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = 0;
-												tabi_llI1ll1l1I = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = {};
-												tabi_IlI1ll1l1I = tabi_l11I1l1l1I;
-												tabi_lII1ll1l1I = 1;
-												tabi_l11lll1l1I = tabi_lII1ll1l1I;
-												tabi_lII1ll1l1I = 0;
-												tabi_I11lll1l1I = tabi_l11lll1l1I < tabi_lII1ll1l1I;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I - tabi_l11lll1l1I;
-												tabi_l11I1l1l1I = 4913302;
-											end;
-										else
-											tabi_llI1ll1l1I = "\085\068\105\109\050";
-											tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-											tabi_lII1ll1l1I = -10981;
-											tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_II1lll1l1I = -10958;
-											tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-											tabi_llI1ll1l1I = 0;
-											tabi_l11I1l1l1I = 12326776;
-											tabi_l1I1ll1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-											tabi_IlI1ll1l1I = 500;
-											tabi_lII1ll1l1I = 0;
-											tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[7]];
-											tabi_Il1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lI1lll1l1I = tabi_Il1lll1l1I(tabi_II1lll1l1I);
-											tabi_I11lll1l1I = tabi_ll1lll1l1I[tabi_lI1lll1l1I];
-											tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lI1lll1l1I = -10964;
-											tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-											tabi_l11lll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_Il1lll1l1I = -10882;
-											tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-											tabi_III1ll1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I, tabi_III1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_I1I1ll1l1I;
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 13479302 then
-										if tabi_l11I1l1l1I < 13387877 then
-											if tabi_l11I1l1l1I < 13098285 then
-												tabi_Il1Ill1l1I = 1;
-												tabi_ll1Ill1l1I = 1;
-												tabi_I11Ill1l1I = tabi_I1llll1l1I + tabi_ll1Ill1l1I;
-												tabi_ll1Ill1l1I = tabi_I1llll1l1I + tabi_Il1Ill1l1I;
-												tabi_l11Ill1l1I = tabi_lIl1ll1l1I(tabi_lI1lll1l1I, tabi_I11Ill1l1I, tabi_ll1Ill1l1I);
-												tabi_Il1Ill1l1I = "\162";
-												tabi_lI1Ill1l1I = 30809814396949;
-												tabi_ll1Ill1l1I = tabi_lIlI1l1l1I(tabi_Il1Ill1l1I, tabi_lI1Ill1l1I);
-												tabi_l11I1l1l1I = 9602341;
-												tabi_I11Ill1l1I = tabi_IIlI1l1l1I[tabi_ll1Ill1l1I];
-												tabi_lIIlll1l1I = tabi_l11Ill1l1I ~= tabi_I11Ill1l1I;
-												tabi_llIlll1l1I = tabi_lIIlll1l1I;
-											else
-												tabi_lII1ll1l1I = -10981;
-												tabi_I1I1ll1l1I = "\085\068\105\109\050";
-												tabi_IlI1ll1l1I = -10981;
-												tabi_III1ll1l1I = 2;
-												tabi_l1I1ll1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_lllI1l1l1I = nil;
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_l1lI1l1l1I = {};
-												tabi_I1I1ll1l1I = 0;
-												tabi_IIl1ll1l1I = tabi_l1I1ll1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = 0;
-												tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I, tabi_l1II1l1l1I, tabi_llI1ll1l1I, tabi_l1II1l1l1I);
-												tabi_llI1ll1l1I = "\085\068\105\109\050";
-												tabi_I1I1ll1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = 2;
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_IIl1ll1l1I = tabi_I1I1ll1l1I[tabi_IlI1ll1l1I];
-												tabi_lII1ll1l1I = -tabi_l1II1l1l1I;
-												tabi_IlI1ll1l1I = tabi_lII1ll1l1I / tabi_III1ll1l1I;
-												tabi_lIl1ll1l1I = "\084\119\101\101\110\083\105\122\101\065\110\100\080\111\115\105\116\105\111\110";
-												tabi_l11lll1l1I = -tabi_l1II1l1l1I;
-												tabi_lII1ll1l1I = .5;
-												tabi_llI1ll1l1I = .5;
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.VBGWYsEh8E8v;
-												tabi_III1ll1l1I = tabi_l11lll1l1I / tabi_I11lll1l1I;
-												tabi_I1I1ll1l1I = tabi_IIl1ll1l1I(tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_lII1ll1l1I, tabi_III1ll1l1I);
-												tabi_IlI1ll1l1I = -10989;
-												tabi_lII1ll1l1I = -10975;
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = nil;
-												tabi_llI1ll1l1I = tabi_IIl1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_IIl1ll1l1I(tabi_lII1ll1l1I);
-												tabi_lIl1ll1l1I = tabi_lIlI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_lII1ll1l1I = false;
-												tabi_IIl1ll1l1I = .5;
-												tabi_lIl1ll1l1I = tabi_lIl1ll1l1I(tabi_lIlI1l1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I, tabi_llI1ll1l1I, tabi_IlI1ll1l1I, tabi_IIl1ll1l1I, tabi_lII1ll1l1I, tabi_III1ll1l1I);
-												tabi_IlI1ll1l1I = -11003;
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_I1I1ll1l1I = 1;
-												tabi_l1I1ll1l1I = { [tabi_llI1ll1l1I] = tabi_I1I1ll1l1I };
-												tabi_I1I1ll1l1I = .5;
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_lIlI1l1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I);
-												tabi_l1I1ll1l1I = .5;
-												tabi_IIl1ll1l1I = "\119\097\105\116";
-												tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-												tabi_lIl1ll1l1I = "\068\101\115\116\114\111\121";
-												tabi_l1II1l1l1I = nil;
-												tabi_lIl1ll1l1I = tabi_lIlI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = tabi_lIl1ll1l1I(tabi_lIlI1l1l1I);
-												tabi_IIlI1l1l1I = nil;
-												tabi_lIlI1l1l1I = nil;
-											end;
-										else
-											tabi_Illlll1l1I = 30843101409332;
-											tabi_III1ll1l1I = tabi_l11lll1l1I;
-											tabi_l11I1l1l1I = tabi_Ill1ll1l1I[tabi_III1ll1l1I];
-											tabi_lI1lll1l1I = tabi_l11I1l1l1I;
-											tabi_llllll1l1I = "\128\t\218\123\049\004";
-											tabi_II1lll1l1I = tabi_IlI1ll1l1I(tabi_lI1lll1l1I);
-											tabi_I1llll1l1I = tabi_lIlI1l1l1I(tabi_llllll1l1I, tabi_Illlll1l1I);
-											tabi_l1llll1l1I = tabi_IIlI1l1l1I[tabi_I1llll1l1I];
-											tabi_l11I1l1l1I = tabi_II1lll1l1I == tabi_l1llll1l1I;
-											tabi_l11I1l1l1I = tabi_l11I1l1l1I and 10031922 or 7717099;
-										end;
-									else
-										if tabi_l11I1l1l1I < 13554456 then
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_Ill1ll1l1I = -10998;
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_IIlI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-											tabi_lll1ll1l1I = "\084\119\101\101\110\073\110\102\111";
-											tabi_I1l1ll1l1I = tabi_IIIl1l1l1I[tabi_lll1ll1l1I];
-											tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_l1I1ll1l1I = "\069\110\117\109";
-											tabi_lIl1ll1l1I = -10981;
-											tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-											tabi_l1II1l1l1I = tabi_I1l1ll1l1I[tabi_Ill1ll1l1I];
-											tabi_lll1ll1l1I = .2;
-											tabi_IIl1ll1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_llI1ll1l1I = -10947;
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_I1I1ll1l1I = -10956;
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_I1I1ll1l1I = -10981;
-											tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I, tabi_Ill1ll1l1I);
-											tabi_lIlI1l1l1I = "\067\114\101\097\116\101";
-											tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_IIl1ll1l1I = "\085\068\105\109\050";
-											tabi_lIl1ll1l1I = -10958;
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.ln5GtBloNsDLY;
-											tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_I1I1ll1l1I = .5;
-											tabi_llI1ll1l1I = 0;
-											tabi_IIl1ll1l1I = 0;
-											tabi_lll1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = 6;
-											tabi_lIl1ll1l1I = tabi_lll1ll1l1I(tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I, tabi_llI1ll1l1I);
-											tabi_l1II1l1l1I = { [tabi_Ill1ll1l1I] = tabi_lIl1ll1l1I };
-											tabi_lIlI1l1l1I = tabi_lllI1l1l1I[tabi_lIlI1l1l1I];
-											tabi_lIlI1l1l1I = tabi_lIlI1l1l1I(tabi_lllI1l1l1I, tabi_IIlI1l1l1I, tabi_I1l1ll1l1I, tabi_l1II1l1l1I);
-											tabi_lllI1l1l1I = "\080\108\097\121";
-											tabi_lllI1l1l1I = tabi_lIlI1l1l1I[tabi_lllI1l1l1I];
-											tabi_lllI1l1l1I = tabi_lllI1l1l1I(tabi_lIlI1l1l1I);
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_lIlI1l1l1I = "\067\114\101\097\116\101";
-											tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_l1I1ll1l1I = "\069\110\117\109";
-											tabi_lIlI1l1l1I = tabi_lllI1l1l1I[tabi_lIlI1l1l1I];
-											tabi_Ill1ll1l1I = -10998;
-											tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-											tabi_IIlI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-											tabi_lIl1ll1l1I = -10981;
-											tabi_lll1ll1l1I = "\084\119\101\101\110\073\110\102\111";
-											tabi_I1l1ll1l1I = tabi_IIIl1l1l1I[tabi_lll1ll1l1I];
-											tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-											tabi_lll1ll1l1I = .2;
-											tabi_l1II1l1l1I = tabi_I1l1ll1l1I[tabi_Ill1ll1l1I];
-											tabi_IIl1ll1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-											tabi_llI1ll1l1I = -10947;
-											tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-											tabi_lIl1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_I1I1ll1l1I = -10956;
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I, tabi_Ill1ll1l1I);
-											tabi_lIl1ll1l1I = -10920;
-											tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-											tabi_l1lI1l1l1I = {};
-											tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[5]];
-											tabi_l1II1l1l1I = { [tabi_Ill1ll1l1I] = tabi_lll1ll1l1I };
-											tabi_lIlI1l1l1I = tabi_lIlI1l1l1I(tabi_lllI1l1l1I, tabi_IIlI1l1l1I, tabi_I1l1ll1l1I, tabi_l1II1l1l1I);
-											tabi_l1II1l1l1I = -10886;
-											tabi_lllI1l1l1I = "\080\108\097\121";
-											tabi_lllI1l1l1I = tabi_lIlI1l1l1I[tabi_lllI1l1l1I];
-											tabi_lllI1l1l1I = tabi_lllI1l1l1I(tabi_lIlI1l1l1I);
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[6]];
-											tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_IIlI1l1l1I = tabi_lIlI1l1l1I(tabi_l1II1l1l1I);
-											tabi_lIlI1l1l1I = true;
-											tabi_lllI1l1l1I[tabi_IIlI1l1l1I] = tabi_lIlI1l1l1I;
-										else
-											tabi_IIlI1l1l1I = tabi_ll1I1l1l1I[3];
-											tabi_l1II1l1l1I = tabi_ll1I1l1l1I[4];
-											tabi_l11I1l1l1I = {};
-											tabi_I1l1ll1l1I = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_IIlI1l1l1I and 4591756 or 5589162;
-											tabi_l1lI1l1l1I = tabi_IIlI1l1l1I;
-											tabi_lIlI1l1l1I = tabi_ll1I1l1l1I[2];
-											tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-										end;
-									end;
-								end;
-							else
-								if tabi_l11I1l1l1I < 14305247 then
-									if tabi_l11I1l1l1I < 14162747 then
-										if tabi_l11I1l1l1I < 14089215 then
-											if tabi_l11I1l1l1I < 13968421 then
-												tabi_l11I1l1l1I = true;
-												tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = 8955665;
-											else
-												tabi_l11I1l1l1I = tabi_I1l1ll1l1I;
-												tabi_lllI1l1l1I = tabi_l1II1l1l1I;
-												tabi_l11I1l1l1I = tabi_l1II1l1l1I and 5581482 or 7966963;
-											end;
-										else
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I11lll1l1I = -10900;
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_lII1ll1l1I = tabi_l11lll1l1I;
-											tabi_l11I1l1l1I = 3596909;
-										end;
-									else
-										if tabi_l11I1l1l1I < 14279374 then
-											tabi_lll1ll1l1I = nil;
-											tabi_l1II1l1l1I = nil;
-											tabi_l11I1l1l1I = 5172894;
-											tabi_Ill1ll1l1I = nil;
-										else
-											tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-											tabi_lllI1l1l1I = nil;
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I["\056\073\050\110\078\075\098\087\114\056\100\082"];
-											tabi_l1lI1l1l1I = {};
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 14458673 then
-										if tabi_l11I1l1l1I < 14435812 then
-											if tabi_l11I1l1l1I < 14368013 then
-												tabi_l11I1l1l1I = tabi_IIlI1l1l1I;
-												tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.GAgoLq8AisWhC;
-												tabi_lllI1l1l1I = tabi_l1lI1l1l1I(tabi_lIlI1l1l1I, tabi_IIlI1l1l1I);
-												tabi_l1lI1l1l1I = {};
-											else
-												tabi_l11lll1l1I = -10997;
-												tabi_l11I1l1l1I = 5595819;
-												tabi_lII1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_lII1ll1l1I(tabi_l11lll1l1I);
-												tabi_IlI1ll1l1I = tabi_III1ll1l1I;
-											end;
-										else
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lllI1l1l1I);
-											tabi_l11I1l1l1I = 2313798;
-										end;
-									else
-										if tabi_l11I1l1l1I < 14902507 then
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1I1ll1l1I = -10902;
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_l11I1l1l1I = 7650537;
-											tabi_lIl1ll1l1I = tabi_l1I1ll1l1I;
-										else
-											tabi_lIlI1l1l1I = -10881;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_lllI1l1l1I = tabi_l1lI1l1l1I(tabi_lIlI1l1l1I);
-											tabi_l1lI1l1l1I = 0;
-											tabi_l11I1l1l1I[tabi_lllI1l1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I["\048\053\079\067\052\054\116\052\115\107\052\108\078"];
-											tabi_l1lI1l1l1I = {};
-										end;
-									end;
-								end;
-							end;
-						else
-							if tabi_l11I1l1l1I < 16035702 then
-								if tabi_l11I1l1l1I < 15555581 then
-									if tabi_l11I1l1l1I < 15520700 then
-										if tabi_l11I1l1l1I < 15504647 then
-											if tabi_l11I1l1l1I < 15085572 then
-												tabi_IIlI1l1l1I = -10974;
-												tabi_lllI1l1l1I = "\116\097\115\107";
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lllI1l1l1I];
-												tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIlI1l1l1I = tabi_lllI1l1l1I(tabi_IIlI1l1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lIlI1l1l1I];
-												tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lIlI1l1l1I = tabi_l11I1l1l1I;
-												tabi_lllI1l1l1I = tabi_IIlI1l1l1I;
-												tabi_l11I1l1l1I = tabi_IIlI1l1l1I and 9562916 or 4280450;
-											else
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I and 5474471 or 9912111;
-											end;
-										else
-											tabi_lII1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10914;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = -11000;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_I1Illl1l1I = -10879;
-											tabi_lIllll1l1I = "\067\111\108\111\114\051";
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l1Illl1l1I = 255;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 255;
-											tabi_lIllll1l1I = 255;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_lII1ll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -11019;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = 14;
-											tabi_Illlll1l1I = -10879;
-											tabi_IIllll1l1I = "\069\110\117\109";
-											tabi_lII1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_Illlll1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = -10873;
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_llIlll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_lII1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_IIllll1l1I = -10896;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_III1ll1l1I];
-											tabi_lIllll1l1I = -10969;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_lIllll1l1I = -10946;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_III1ll1l1I];
-											tabi_I1Illl1l1I = -11000;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_III1ll1l1I];
-											tabi_lIllll1l1I = -10920;
-											tabi_IIllll1l1I = "\067\111\108\111\114\051";
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_I1Illl1l1I = 255;
-											tabi_IIllll1l1I = 255;
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = 255;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_III1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = "\067\111\108\111\114\051";
-											tabi_lIllll1l1I = -10881;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = 1;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_III1ll1l1I];
-											tabi_lIllll1l1I = -11006;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1Illl1l1I = -11000;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = 0;
-											tabi_IIllll1l1I = 0;
-											tabi_I1Illl1l1I = 0;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_I1Illl1l1I = -10981;
-											tabi_lIllll1l1I = -10912;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_III1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = 0;
-											tabi_lIllll1l1I = -10942;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_III1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_IIllll1l1I = "\085\068\105\109\050";
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_I1Illl1l1I = .194999993;
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_IIllll1l1I = .0179999992;
-											tabi_l1Illl1l1I = 0;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I, tabi_llIlll1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_III1ll1l1I];
-											tabi_IIllll1l1I = "\085\068\105\109\050";
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = -10877;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = 180;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_III1ll1l1I];
-											tabi_lIllll1l1I = -10958;
-											tabi_I1Illl1l1I = -10981;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_llIlll1l1I = 16;
-											tabi_I1Illl1l1I = 0;
-											tabi_IIllll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = 16;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I, tabi_llIlll1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_lIllll1l1I = -11014;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_III1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = -10894;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = "\085\068\105\109";
-											tabi_Illlll1l1I = -10899;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = -10981;
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_lIllll1l1I = 0;
-											tabi_IIllll1l1I = 6;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I);
-											tabi_l11lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10969;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_lIllll1l1I = -11007;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I);
-											tabi_l11lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l11lll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10969;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = -10973;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I);
-											tabi_I11lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10946;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l1Illl1l1I = -11000;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_I11lll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10920;
-											tabi_lIllll1l1I = "\067\111\108\111\114\051";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l1Illl1l1I = 38;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_I1Illl1l1I = 30;
-											tabi_lIllll1l1I = 38;
-											tabi_IIllll1l1I = 35;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_I11lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -11006;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l1Illl1l1I = -11000;
-											tabi_lIllll1l1I = "\067\111\108\111\114\051";
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_lIllll1l1I = 0;
-											tabi_l1Illl1l1I = 0;
-											tabi_IIllll1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_I11lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10912;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = -10942;
-											tabi_l11I1l1l1I = 0;
-											tabi_I11lll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = -10981;
-											tabi_lIllll1l1I = "\085\068\105\109\050";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_lIllll1l1I = 0;
-											tabi_l1Illl1l1I = 0;
-											tabi_IIllll1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_I11lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10958;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l1Illl1l1I = -10981;
-											tabi_I1Illl1l1I = 273;
-											tabi_lIllll1l1I = "\085\068\105\109\050";
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_lIllll1l1I = 0;
-											tabi_l1Illl1l1I = 0;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 110;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_l1Illl1l1I = -10981;
-											tabi_I11lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_lIllll1l1I = "\085\068\105\109";
-											tabi_Illlll1l1I = -10899;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_lIllll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 6;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I);
-											tabi_ll1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10969;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = -10929;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I);
-											tabi_ll1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10946;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I11lll1l1I;
-											tabi_Illlll1l1I = -10969;
-											tabi_ll1lll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l1Illl1l1I = -10981;
-											tabi_lIllll1l1I = -10995;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I);
-											tabi_Il1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I11lll1l1I;
-											tabi_Illlll1l1I = -10901;
-											tabi_Il1lll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = "\086\101\099\116\111\114\050";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_lIllll1l1I = 1;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 1;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I);
-											tabi_Il1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10920;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = "\067\111\108\111\114\051";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = -11000;
-											tabi_I1Illl1l1I = 0;
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l1Illl1l1I = 38;
-											tabi_lIllll1l1I = 38;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 35;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_Il1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_lIllll1l1I = "\067\111\108\111\114\051";
-											tabi_Illlll1l1I = -11006;
-											tabi_l1Illl1l1I = -11000;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_lIllll1l1I = 0;
-											tabi_l1Illl1l1I = 0;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_Il1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10912;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = 0;
-											tabi_Illlll1l1I = -10942;
-											tabi_lIllll1l1I = "\085\068\105\109\050";
-											tabi_l1Illl1l1I = -10981;
-											tabi_Il1lll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l1Illl1l1I = 1;
-											tabi_lIllll1l1I = 1;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_Il1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10958;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = -10981;
-											tabi_I1Illl1l1I = 7;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_lIllll1l1I = "\085\068\105\109\050";
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_lIllll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_l1Illl1l1I = 0;
-											tabi_IIllll1l1I = 7;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_Il1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10969;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l1Illl1l1I = -11000;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = -10954;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = "\067\111\108\111\114\051";
-											tabi_lI1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I11lll1l1I;
-											tabi_lI1lll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_Illlll1l1I = -10920;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 35;
-											tabi_lIllll1l1I = 38;
-											tabi_l1Illl1l1I = 38;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_lI1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_lIllll1l1I = "\067\111\108\111\114\051";
-											tabi_l1Illl1l1I = -11000;
-											tabi_Illlll1l1I = -11006;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_l1Illl1l1I = 0;
-											tabi_IIllll1l1I = 0;
-											tabi_lIllll1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_lIllll1l1I = "\085\068\105\109\050";
-											tabi_lI1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10912;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = 0;
-											tabi_I1Illl1l1I = 7;
-											tabi_lI1lll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_Illlll1l1I = -10958;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_l1Illl1l1I = -10981;
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_lIllll1l1I = 1;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 0;
-											tabi_l1Illl1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_lIllll1l1I = -10887;
-											tabi_lI1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10969;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = -11000;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I);
-											tabi_II1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = tabi_I11lll1l1I;
-											tabi_II1lll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_lIllll1l1I = "\067\111\108\111\114\051";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10920;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l1Illl1l1I = 255;
-											tabi_lIllll1l1I = 255;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 255;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_II1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_Illlll1l1I = -10881;
-											tabi_l1Illl1l1I = -11000;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = 1;
-											tabi_Illlll1l1I = -11006;
-											tabi_II1lll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_lIllll1l1I = "\067\111\108\111\114\051";
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_lIllll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 0;
-											tabi_l1Illl1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-											tabi_II1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10912;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = 0;
-											tabi_Illlll1l1I = -10953;
-											tabi_II1lll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_lIllll1l1I = "\085\068\105\109\050";
-											tabi_l1Illl1l1I = -10981;
-											tabi_l11I1l1l1I = true;
-											tabi_II1lll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1Illl1l1I = 0;
-											tabi_Illlll1l1I = -10942;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_lIllll1l1I = 0;
-											tabi_l1Illl1l1I = .00706713786;
-											tabi_IIllll1l1I = 0;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_II1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_I1Illl1l1I = 0;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -10958;
-											tabi_l1Illl1l1I = -10981;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_lIllll1l1I = "\085\068\105\109\050";
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_lIllll1l1I = 1;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 0;
-											tabi_l1Illl1l1I = .980000019;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_II1lll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1llll1l1I];
-											tabi_lIllll1l1I = -10969;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_IIllll1l1I = -10884;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1llll1l1I];
-											tabi_lIllll1l1I = -10946;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_I1Illl1l1I = -11000;
-											tabi_l1lI1l1l1I = tabi_II1lll1l1I;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_IIllll1l1I = "\067\111\108\111\114\051";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1llll1l1I];
-											tabi_lIllll1l1I = -10920;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llIlll1l1I = 0;
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_IIllll1l1I = 255;
-											tabi_I1Illl1l1I = 255;
-											tabi_l1Illl1l1I = 255;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_IIllll1l1I = "\067\111\108\111\114\051";
-											tabi_lIllll1l1I = -10881;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1llll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = 1;
-											tabi_lIllll1l1I = -11006;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_I1Illl1l1I = -11000;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1llll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_I1Illl1l1I = 0;
-											tabi_l1Illl1l1I = 0;
-											tabi_IIllll1l1I = 0;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1llll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lIllll1l1I = -10912;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_IIllll1l1I = "\085\068\105\109\050";
-											tabi_lIllll1l1I = -10958;
-											tabi_l1lI1l1l1I = 0;
-											tabi_I1Illl1l1I = -10981;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1llll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_I1Illl1l1I = 1;
-											tabi_IIllll1l1I = 1;
-											tabi_l1Illl1l1I = 0;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I, tabi_llIlll1l1I);
-											tabi_I1Illl1l1I = -10981;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1llll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = "\085\068\105\109\050";
-											tabi_lIllll1l1I = -10992;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_llIlll1l1I = 0;
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_IIllll1l1I = 0;
-											tabi_l1Illl1l1I = 0;
-											tabi_I1Illl1l1I = 0;
-											tabi_lIllll1l1I = tabi_l1lI1l1l1I(tabi_IIllll1l1I, tabi_l1Illl1l1I, tabi_I1Illl1l1I, tabi_llIlll1l1I);
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_lIllll1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1llll1l1I];
-											tabi_lIllll1l1I = -10932;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = 0;
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1llll1l1I];
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = "\069\110\117\109";
-											tabi_lIllll1l1I = -11023;
-											tabi_Illlll1l1I = tabi_l1lI1l1l1I(tabi_lIllll1l1I);
-											tabi_IIllll1l1I = tabi_IIIl1l1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_llIlll1l1I = -10985;
-											tabi_I1Illl1l1I = tabi_l1Illl1l1I(tabi_llIlll1l1I);
-											tabi_lIllll1l1I = tabi_IIllll1l1I[tabi_I1Illl1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I1Illl1l1I = -10964;
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_l1lI1l1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l11I1l1l1I[tabi_Illlll1l1I] = tabi_l1lI1l1l1I;
-											tabi_Illlll1l1I = -10946;
-											tabi_IIllll1l1I = "\069\110\117\109";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = -10930;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1llll1l1I];
-											tabi_I1llll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_I1Illl1l1I = -10930;
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_Illlll1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_l1Illl1l1I = -10940;
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_I1llll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_I1Illl1l1I = -11008;
-											tabi_IIllll1l1I = "\069\110\117\109";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Illlll1l1I = -11008;
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_lIllll1l1I = tabi_IIIl1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_Illlll1l1I = tabi_lIllll1l1I[tabi_l1Illl1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = -11025;
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_I1llll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_Illlll1l1I = -10913;
-											tabi_lIllll1l1I = "\085\068\105\109";
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = -10981;
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_lIllll1l1I = 0;
-											tabi_l11I1l1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = 3;
-											tabi_Illlll1l1I = tabi_l11I1l1l1I(tabi_lIllll1l1I, tabi_IIllll1l1I);
-											tabi_I1llll1l1I[tabi_l1lI1l1l1I] = tabi_Illlll1l1I;
-											tabi_l1lI1l1l1I = "\097\112\112\108\121\100\114\097\103";
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I[tabi_l1lI1l1l1I];
-											tabi_Illlll1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_Illlll1l1I);
-											tabi_l11I1l1l1I = false;
-											tabi_Illlll1l1I = tabi_IllI1l1l1I();
-											tabi_l1lI1l1l1I = "\073\115\077\105\110\105\109\105\122\101\100";
-											tabi_I1lI1l1l1I[tabi_Illlll1l1I] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = tabi_l111ll1l1I(10023730, { tabi_Illlll1l1I });
-											tabi_I1l1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l1lI1l1l1I = "\077\105\110\105\109\105\122\101";
-											tabi_l11I1l1l1I = tabi_lIII1l1l1I(3005019, {
-													tabi_Illlll1l1I,
-													tabi_Il1I1l1l1I[2],
-													tabi_III1ll1l1I,
-													tabi_Il1I1l1l1I[1],
-													tabi_IlI1ll1l1I,
-													tabi_IIl1ll1l1I,
-													tabi_l1I1ll1l1I,
-												});
-											tabi_I1l1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l1Illl1l1I = -10885;
-											tabi_I1Illl1l1I = -10966;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_III1ll1l1I];
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_IIllll1l1I];
-											tabi_IIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = tabi_IIllll1l1I(tabi_I1Illl1l1I);
-											tabi_lIllll1l1I = tabi_I1l1ll1l1I[tabi_l1Illl1l1I];
-											tabi_l1lI1l1l1I = "\067\111\110\110\101\099\116";
-											tabi_l1lI1l1l1I = tabi_l11I1l1l1I[tabi_l1lI1l1l1I];
-											tabi_l1lI1l1l1I = tabi_l1lI1l1l1I(tabi_l11I1l1l1I, tabi_lIllll1l1I);
-											tabi_l1lI1l1l1I = "\084\097\098";
-											tabi_l11I1l1l1I = tabi_IlII1l1l1I(16108524, {
-													tabi_Il1I1l1l1I[1],
-													tabi_llllll1l1I,
-													tabi_l1llll1l1I,
-													tabi_Il1I1l1l1I[3],
-													tabi_Il1I1l1l1I[4],
-													tabi_Il1I1l1l1I[2],
-													tabi_lll1ll1l1I,
-													tabi_Ill1ll1l1I,
-													tabi_Il1I1l1l1I[5],
-													tabi_Il1I1l1l1I[6],
-													tabi_Il1I1l1l1I[7],
-												});
-											tabi_I1l1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-											tabi_l1lI1l1l1I = { tabi_I1l1ll1l1I };
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I["\052\078\088\117\087\111\076\120\090\105\053\101\082\106"];
-										end;
-									else
-										if tabi_l11I1l1l1I < 15536650 then
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I and 3246691 or 1940027;
-										else
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I11lll1l1I = -10885;
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_l1lI1l1l1I = tabi_IIl1ll1l1I[tabi_l11lll1l1I];
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I["\057\120\109\112\081\081\110\079\122\079\120\048\053\098"];
-											tabi_I11lll1l1I = "\116\097\098\117\104\104";
-											tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-											tabi_III1ll1l1I = "\067\111\110\110\101\099\116";
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I[tabi_III1ll1l1I];
-											tabi_III1ll1l1I = tabi_III1ll1l1I(tabi_l1lI1l1l1I, tabi_l11lll1l1I);
-											tabi_III1ll1l1I = "\070\111\108\100\101\114";
-											tabi_l1lI1l1l1I = tabi_IlII1l1l1I(8258300, {
-													tabi_Il1I1l1l1I[1],
-													tabi_I1I1ll1l1I,
-													tabi_Il1I1l1l1I[8],
-													tabi_Il1I1l1l1I[6],
-													tabi_Il1I1l1l1I[9],
-													tabi_Il1I1l1l1I[10],
-													tabi_Il1I1l1l1I[11],
-												});
-											tabi_IIlI1l1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = { tabi_IIlI1l1l1I };
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 15688425 then
-										if tabi_l11I1l1l1I < 15619826 then
-											if tabi_l11I1l1l1I < 15592888 then
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_lllI1l1l1I];
-												tabi_Ill1ll1l1I = -11002;
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-												tabi_IIl1ll1l1I = -11002;
-												tabi_IIlI1l1l1I = tabi_l1II1l1l1I[tabi_lll1ll1l1I];
-												tabi_Ill1ll1l1I = "\069\110\117\109";
-												tabi_lll1ll1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_I1l1ll1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = -10999;
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_l1II1l1l1I = tabi_I1l1ll1l1I[tabi_Ill1ll1l1I];
-												tabi_lIlI1l1l1I = tabi_IIlI1l1l1I == tabi_l1II1l1l1I;
-												tabi_l1lI1l1l1I = tabi_lIlI1l1l1I;
-												tabi_l11I1l1l1I = 15529946;
-											else
-												tabi_lI1lll1l1I = tabi_IllI1l1l1I();
-												tabi_llllll1l1I = -10981;
-												tabi_l1llll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_ll1lll1l1I = tabi_III1ll1l1I;
-												tabi_I1lI1l1l1I[tabi_lI1lll1l1I] = tabi_Il1lll1l1I;
-												tabi_Illlll1l1I = -10981;
-												tabi_Il1lll1l1I = tabi_lI1lll1l1I;
-												tabi_II1lll1l1I = tabi_IIIl1l1l1I[tabi_l1llll1l1I];
-												tabi_l1llll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1llll1l1I = tabi_l1llll1l1I(tabi_llllll1l1I);
-												tabi_llllll1l1I = -10957;
-												tabi_lI1lll1l1I = tabi_II1lll1l1I[tabi_I1llll1l1I];
-												tabi_l1llll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1llll1l1I = { tabi_l1llll1l1I(tabi_llllll1l1I) };
-												tabi_IIllll1l1I = -11000;
-												tabi_II1lll1l1I = tabi_lI1lll1l1I(tabi_I11I1l1l1I(tabi_I1llll1l1I));
-												tabi_I1llll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_l1llll1l1I = tabi_IIIl1l1l1I[tabi_I1llll1l1I];
-												tabi_I1llll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llllll1l1I = tabi_I1llll1l1I(tabi_Illlll1l1I);
-												tabi_lI1lll1l1I = tabi_l1llll1l1I[tabi_llllll1l1I];
-												tabi_I1llll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Illlll1l1I = -10937;
-												tabi_llllll1l1I = { tabi_I1llll1l1I(tabi_Illlll1l1I) };
-												tabi_l1llll1l1I = tabi_lI1lll1l1I(tabi_I11I1l1l1I(tabi_llllll1l1I));
-												tabi_l1Illl1l1I = 0;
-												tabi_llllll1l1I = -10969;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Illlll1l1I = -10990;
-												tabi_llllll1l1I = tabi_lI1lll1l1I(tabi_Illlll1l1I);
-												tabi_II1lll1l1I[tabi_I1llll1l1I] = tabi_llllll1l1I;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llllll1l1I = -10946;
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_l11I1l1l1I = 3834997;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_II1lll1l1I[tabi_I1llll1l1I] = tabi_lI1lll1l1I;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llllll1l1I = -10920;
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_Illlll1l1I = "\067\111\108\111\114\051";
-												tabi_llllll1l1I = tabi_IIIl1l1l1I[tabi_Illlll1l1I];
-												tabi_Illlll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_ll1lll1l1I = nil;
-												tabi_lIllll1l1I = tabi_Illlll1l1I(tabi_IIllll1l1I);
-												tabi_IIllll1l1I = 65;
-												tabi_Illlll1l1I = 65;
-												tabi_lI1lll1l1I = tabi_llllll1l1I[tabi_lIllll1l1I];
-												tabi_lIllll1l1I = 65;
-												tabi_llllll1l1I = tabi_lI1lll1l1I(tabi_Illlll1l1I, tabi_lIllll1l1I, tabi_IIllll1l1I);
-												tabi_II1lll1l1I[tabi_I1llll1l1I] = tabi_llllll1l1I;
-												tabi_Illlll1l1I = "\067\111\108\111\114\051";
-												tabi_llllll1l1I = -11006;
-												tabi_IIllll1l1I = -11000;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_llllll1l1I = tabi_IIIl1l1l1I[tabi_Illlll1l1I];
-												tabi_Illlll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIllll1l1I = tabi_Illlll1l1I(tabi_IIllll1l1I);
-												tabi_Illlll1l1I = 0;
-												tabi_lI1lll1l1I = tabi_llllll1l1I[tabi_lIllll1l1I];
-												tabi_lIllll1l1I = 0;
-												tabi_IIllll1l1I = 0;
-												tabi_llllll1l1I = tabi_lI1lll1l1I(tabi_Illlll1l1I, tabi_lIllll1l1I, tabi_IIllll1l1I);
-												tabi_II1lll1l1I[tabi_I1llll1l1I] = tabi_llllll1l1I;
-												tabi_IIllll1l1I = -10981;
-												tabi_llllll1l1I = -10912;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_lI1lll1l1I = 0;
-												tabi_II1lll1l1I[tabi_I1llll1l1I] = tabi_lI1lll1l1I;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llllll1l1I = -10942;
-												tabi_Illlll1l1I = "\085\068\105\109\050";
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_llllll1l1I = tabi_IIIl1l1l1I[tabi_Illlll1l1I];
-												tabi_Illlll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIllll1l1I = tabi_Illlll1l1I(tabi_IIllll1l1I);
-												tabi_Illlll1l1I = .0410958901;
-												tabi_IIllll1l1I = .257142872;
-												tabi_lI1lll1l1I = tabi_llllll1l1I[tabi_lIllll1l1I];
-												tabi_lIllll1l1I = 0;
-												tabi_llllll1l1I = tabi_lI1lll1l1I(tabi_Illlll1l1I, tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-												tabi_Illlll1l1I = "\085\068\105\109\050";
-												tabi_IIllll1l1I = -10981;
-												tabi_II1lll1l1I[tabi_I1llll1l1I] = tabi_llllll1l1I;
-												tabi_llllll1l1I = -10958;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_llllll1l1I = tabi_IIIl1l1l1I[tabi_Illlll1l1I];
-												tabi_Illlll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIllll1l1I = tabi_Illlll1l1I(tabi_IIllll1l1I);
-												tabi_Illlll1l1I = 1;
-												tabi_l1Illl1l1I = 21;
-												tabi_lI1lll1l1I = tabi_llllll1l1I[tabi_lIllll1l1I];
-												tabi_lIllll1l1I = -20;
-												tabi_IIllll1l1I = 0;
-												tabi_llllll1l1I = tabi_lI1lll1l1I(tabi_Illlll1l1I, tabi_lIllll1l1I, tabi_IIllll1l1I, tabi_l1Illl1l1I);
-												tabi_II1lll1l1I[tabi_I1llll1l1I] = tabi_llllll1l1I;
-												tabi_llllll1l1I = -10917;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIllll1l1I = "\069\110\117\109";
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_Illlll1l1I = tabi_IIIl1l1l1I[tabi_lIllll1l1I];
-												tabi_l1Illl1l1I = -10917;
-												tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-												tabi_llllll1l1I = tabi_Illlll1l1I[tabi_IIllll1l1I];
-												tabi_Illlll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIllll1l1I = -10892;
-												tabi_lIllll1l1I = tabi_Illlll1l1I(tabi_IIllll1l1I);
-												tabi_lI1lll1l1I = tabi_llllll1l1I[tabi_lIllll1l1I];
-												tabi_llllll1l1I = -10909;
-												tabi_II1lll1l1I[tabi_I1llll1l1I] = tabi_lI1lll1l1I;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_llllll1l1I = "\116\111\115\116\114\105\110\103";
-												tabi_lI1lll1l1I = tabi_IIIl1l1l1I[tabi_llllll1l1I];
-												tabi_Illlll1l1I = tabi_I1lI1l1l1I[tabi_Il1lll1l1I];
-												tabi_llllll1l1I = tabi_lI1lll1l1I(tabi_Illlll1l1I);
-												tabi_IIllll1l1I = -11000;
-												tabi_II1lll1l1I[tabi_I1llll1l1I] = tabi_llllll1l1I;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llllll1l1I = -10914;
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_Illlll1l1I = "\067\111\108\111\114\051";
-												tabi_llllll1l1I = tabi_IIIl1l1l1I[tabi_Illlll1l1I];
-												tabi_Illlll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIllll1l1I = tabi_Illlll1l1I(tabi_IIllll1l1I);
-												tabi_Illlll1l1I = 255;
-												tabi_IIllll1l1I = 255;
-												tabi_lI1lll1l1I = tabi_llllll1l1I[tabi_lIllll1l1I];
-												tabi_lIllll1l1I = 255;
-												tabi_llllll1l1I = tabi_lI1lll1l1I(tabi_Illlll1l1I, tabi_lIllll1l1I, tabi_IIllll1l1I);
-												tabi_II1lll1l1I[tabi_I1llll1l1I] = tabi_llllll1l1I;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Illlll1l1I = "\085\068\105\109";
-												tabi_llllll1l1I = -11019;
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_lI1lll1l1I = 14;
-												tabi_llllll1l1I = -10984;
-												tabi_II1lll1l1I[tabi_I1llll1l1I] = tabi_lI1lll1l1I;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_IIllll1l1I = -10981;
-												tabi_lI1lll1l1I = false;
-												tabi_II1lll1l1I[tabi_I1llll1l1I] = tabi_lI1lll1l1I;
-												tabi_llllll1l1I = -10899;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_llllll1l1I = tabi_IIIl1l1l1I[tabi_Illlll1l1I];
-												tabi_Illlll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIllll1l1I = tabi_Illlll1l1I(tabi_IIllll1l1I);
-												tabi_Illlll1l1I = 0;
-												tabi_lI1lll1l1I = tabi_llllll1l1I[tabi_lIllll1l1I];
-												tabi_lIllll1l1I = 4;
-												tabi_llllll1l1I = tabi_lI1lll1l1I(tabi_Illlll1l1I, tabi_lIllll1l1I);
-												tabi_Illlll1l1I = -10977;
-												tabi_l1llll1l1I[tabi_I1llll1l1I] = tabi_llllll1l1I;
-												tabi_llllll1l1I = -10969;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llllll1l1I = tabi_lI1lll1l1I(tabi_Illlll1l1I);
-												tabi_l1llll1l1I[tabi_I1llll1l1I] = tabi_llllll1l1I;
-												tabi_llllll1l1I = -10946;
-												tabi_lI1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1llll1l1I = tabi_lI1lll1l1I(tabi_llllll1l1I);
-												tabi_lI1lll1l1I = tabi_II1lll1l1I;
-												tabi_l1llll1l1I[tabi_I1llll1l1I] = tabi_lI1lll1l1I;
-												tabi_Illlll1l1I = -10885;
-												tabi_I1llll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llllll1l1I = tabi_I1llll1l1I(tabi_Illlll1l1I);
-												tabi_lI1lll1l1I = tabi_II1lll1l1I[tabi_llllll1l1I];
-												tabi_I1llll1l1I = "\067\111\110\110\101\099\116";
-												tabi_llllll1l1I = tabi_lIII1l1l1I(6811856, { tabi_lII1ll1l1I, tabi_l1II1l1l1I, tabi_Il1lll1l1I });
-												tabi_Il1lll1l1I = tabi_I1II1l1l1I(tabi_Il1lll1l1I);
-												tabi_I1llll1l1I = tabi_lI1lll1l1I[tabi_I1llll1l1I];
-												tabi_I1llll1l1I = tabi_I1llll1l1I(tabi_lI1lll1l1I, tabi_llllll1l1I);
-												tabi_II1lll1l1I = nil;
-												tabi_l1llll1l1I = nil;
-											end;
-										else
-											tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-											tabi_IIlI1l1l1I = tabi_l11I1l1l1I;
-											tabi_lIlI1l1l1I = tabi_ll1I1l1l1I[2];
-											tabi_l11I1l1l1I = tabi_IIlI1l1l1I[tabi_lIlI1l1l1I];
-											tabi_l11I1l1l1I = tabi_l11I1l1l1I and 7672554 or 585745;
-										end;
-									else
-										if tabi_l11I1l1l1I < 15869747 then
-											tabi_lllI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1II1l1l1I = -11001;
-											tabi_lll1ll1l1I = -11001;
-											tabi_lIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_IIlI1l1l1I = tabi_lIlI1l1l1I(tabi_l1II1l1l1I);
-											tabi_l1II1l1l1I = "\069\110\117\109";
-											tabi_l1lI1l1l1I = tabi_lllI1l1l1I[tabi_IIlI1l1l1I];
-											tabi_IIlI1l1l1I = tabi_IIIl1l1l1I[tabi_l1II1l1l1I];
-											tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-											tabi_lIlI1l1l1I = tabi_IIlI1l1l1I[tabi_I1l1ll1l1I];
-											tabi_I1l1ll1l1I = -10910;
-											tabi_IIlI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-											tabi_l1II1l1l1I = tabi_IIlI1l1l1I(tabi_I1l1ll1l1I);
-											tabi_lllI1l1l1I = tabi_lIlI1l1l1I[tabi_l1II1l1l1I];
-											tabi_l11I1l1l1I = tabi_l1lI1l1l1I == tabi_lllI1l1l1I;
-											tabi_l11I1l1l1I = tabi_l11I1l1l1I and 15959527 or 7734508;
-										else
-											tabi_l11I1l1l1I = false;
-											tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[3]] = tabi_l11I1l1l1I;
-											tabi_l11I1l1l1I = 7734508;
-										end;
-									end;
-								end;
-							else
-								if tabi_l11I1l1l1I < 16421402 then
-									if tabi_l11I1l1l1I < 16314756 then
-										if tabi_l11I1l1l1I < 16294332 then
-											if tabi_l11I1l1l1I < 16122554 then
-												tabi_l1II1l1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-												tabi_Ill1ll1l1I = -10981;
-												tabi_lIlI1l1l1I = tabi_ll1I1l1l1I[2];
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_l1II1l1l1I];
-												tabi_lIl1ll1l1I = -10981;
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11I1l1l1I = {};
-												tabi_lll1ll1l1I = -10981;
-												tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-												tabi_IIlI1l1l1I = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_lll1ll1l1I = -11017;
-												tabi_ll1lll1l1I = -11000;
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Il1lll1l1I = 0;
-												tabi_I1l1ll1l1I = { tabi_l1II1l1l1I(tabi_lll1ll1l1I) };
-												tabi_l11lll1l1I = -10979;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_I1l1ll1l1I));
-												tabi_l1II1l1l1I = tabi_IllI1l1l1I();
-												tabi_I1lI1l1l1I[tabi_l1II1l1l1I] = tabi_l1lI1l1l1I;
-												tabi_I1l1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_I1l1ll1l1I];
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = tabi_I1l1ll1l1I(tabi_Ill1ll1l1I);
-												tabi_Ill1ll1l1I = -10937;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lll1ll1l1I];
-												tabi_I1l1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = { tabi_I1l1ll1l1I(tabi_Ill1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_lll1ll1l1I));
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I;
-												tabi_I1I1ll1l1I = -10981;
-												tabi_IlI1ll1l1I = -10981;
-												tabi_lll1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lll1ll1l1I];
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Ill1ll1l1I = tabi_lll1ll1l1I(tabi_lIl1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_Ill1ll1l1I];
-												tabi_IIl1ll1l1I = -10981;
-												tabi_lIl1ll1l1I = -11018;
-												tabi_lll1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Ill1ll1l1I = { tabi_lll1ll1l1I(tabi_lIl1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_Ill1ll1l1I));
-												tabi_l1I1ll1l1I = -10981;
-												tabi_Ill1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_lll1ll1l1I = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lIl1ll1l1I];
-												tabi_IIl1ll1l1I = -11017;
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = { tabi_Ill1ll1l1I(tabi_IIl1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_lIl1ll1l1I));
-												tabi_lIl1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_Ill1ll1l1I = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_IIl1ll1l1I];
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = -10937;
-												tabi_IIl1ll1l1I = { tabi_lIl1ll1l1I(tabi_l1I1ll1l1I) };
-												tabi_lII1ll1l1I = -10981;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_IIl1ll1l1I));
-												tabi_IIl1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_llI1ll1l1I = -10981;
-												tabi_lIl1ll1l1I = tabi_l1lI1l1l1I;
-												tabi_III1ll1l1I = -10981;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-												tabi_I1I1ll1l1I = -10957;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_l1I1ll1l1I];
-												tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = { tabi_IIl1ll1l1I(tabi_I1I1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_l1I1ll1l1I));
-												tabi_IIl1ll1l1I = tabi_l1lI1l1l1I;
-												tabi_l1I1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_l1I1ll1l1I];
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1I1ll1l1I = tabi_l1I1ll1l1I(tabi_llI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_l1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = -11017;
-												tabi_I1I1ll1l1I = { tabi_l1I1ll1l1I(tabi_llI1ll1l1I) };
-												tabi_l1I1ll1l1I = tabi_IllI1l1l1I();
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_I1I1ll1l1I));
-												tabi_I1I1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_I1lI1l1l1I[tabi_l1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_I1I1ll1l1I];
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = tabi_I1I1ll1l1I(tabi_IlI1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_llI1ll1l1I];
-												tabi_IlI1ll1l1I = -10919;
-												tabi_I1I1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_llI1ll1l1I = { tabi_I1I1ll1l1I(tabi_IlI1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_llI1ll1l1I));
-												tabi_I1I1ll1l1I = tabi_IllI1l1l1I();
-												tabi_I1lI1l1l1I[tabi_I1I1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_llI1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_llI1ll1l1I];
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = tabi_llI1ll1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_IlI1ll1l1I];
-												tabi_lII1ll1l1I = -11018;
-												tabi_llI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IlI1ll1l1I = { tabi_llI1ll1l1I(tabi_lII1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_IlI1ll1l1I));
-												tabi_IlI1ll1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_llI1ll1l1I = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_IlI1ll1l1I];
-												tabi_IlI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_IlI1ll1l1I(tabi_III1ll1l1I);
-												tabi_III1ll1l1I = -10933;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_lII1ll1l1I];
-												tabi_IlI1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = { tabi_IlI1ll1l1I(tabi_III1ll1l1I) };
-												tabi_III1ll1l1I = -10969;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_lII1ll1l1I));
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-												tabi_IlI1ll1l1I = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = -10946;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l11lll1l1I = "\067\111\108\111\114\051";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_III1ll1l1I = -10920;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_l11lll1l1I = 255;
-												tabi_l1lI1l1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_ll1lll1l1I = 255;
-												tabi_I11lll1l1I = 255;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_l11lll1l1I = "\067\111\108\111\114\051";
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_III1ll1l1I = -10881;
-												tabi_ll1lll1l1I = -11000;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l1lI1l1l1I = 1;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_III1ll1l1I = -11006;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_l1lI1l1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = 0;
-												tabi_l11lll1l1I = 0;
-												tabi_ll1lll1l1I = 0;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_III1ll1l1I = -10912;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = "\085\068\105\109\050";
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l1lI1l1l1I = 0;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_III1ll1l1I = -10958;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-												tabi_ll1lll1l1I = -10981;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_l11lll1l1I = 1;
-												tabi_ll1lll1l1I = 1;
-												tabi_l1lI1l1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = 0;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-												tabi_l11lll1l1I = -10924;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_III1ll1l1I = -10886;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l1lI1l1l1I = false;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = -10969;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_III1ll1l1I = -10946;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_ll1lll1l1I = -11000;
-												tabi_l11lll1l1I = "\067\111\108\111\114\051";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_l1I1ll1l1I];
-												tabi_III1ll1l1I = -11024;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_III1ll1l1I = -10920;
-												tabi_l1lI1l1l1I = true;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_ll1lll1l1I = 255;
-												tabi_l1lI1l1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = 255;
-												tabi_l11lll1l1I = 255;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = -10881;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l1lI1l1l1I = 1;
-												tabi_l11lll1l1I = "\067\111\108\111\114\051";
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_III1ll1l1I = -11006;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_ll1lll1l1I = -11000;
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_l11lll1l1I = 0;
-												tabi_l1lI1l1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_ll1lll1l1I = 0;
-												tabi_I11lll1l1I = 0;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_ll1lll1l1I = -10981;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_III1ll1l1I = -10912;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l1lI1l1l1I = 0;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = -10958;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l11lll1l1I = "\085\068\105\109\050";
-												tabi_Il1lll1l1I = 0;
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_l1lI1l1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = 0;
-												tabi_ll1lll1l1I = 1;
-												tabi_l11lll1l1I = 1;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = -10992;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l11lll1l1I = "\085\068\105\109\050";
-												tabi_ll1lll1l1I = -10981;
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_ll1lll1l1I = 0;
-												tabi_l11lll1l1I = 0;
-												tabi_Il1lll1l1I = 0;
-												tabi_l1lI1l1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = 0;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_l11lll1l1I = "\085\068\105\109\050";
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = -10932;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_III1ll1l1I = -10942;
-												tabi_Il1lll1l1I = 0;
-												tabi_l1lI1l1l1I = 4;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_ll1lll1l1I = -10981;
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_l1lI1l1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_l11lll1l1I = 0;
-												tabi_ll1lll1l1I = 0;
-												tabi_I11lll1l1I = 0;
-												tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-												tabi_I11lll1l1I = "\069\110\117\109";
-												tabi_Il1lll1l1I = -10985;
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_III1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_III1ll1l1I = -11023;
-												tabi_lII1ll1l1I = tabi_l1lI1l1l1I(tabi_III1ll1l1I);
-												tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-												tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-												tabi_III1ll1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-												tabi_ll1lll1l1I = -10964;
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_l1lI1l1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_l11I1l1l1I[tabi_lII1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_lII1ll1l1I = -10969;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_III1ll1l1I = -10891;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I);
-												tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10946;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_III1ll1l1I = "\067\111\108\111\114\051";
-												tabi_I11lll1l1I = -11000;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_I1I1ll1l1I];
-												tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lII1ll1l1I = -10920;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = 38;
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_III1ll1l1I = 38;
-												tabi_l11lll1l1I = 35;
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-												tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_lII1ll1l1I = -10881;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = 1;
-												tabi_ll1lll1l1I = 50;
-												tabi_III1ll1l1I = "\067\111\108\111\114\051";
-												tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_lII1ll1l1I = -11006;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_I11lll1l1I = -11000;
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_I11lll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_III1ll1l1I = 0;
-												tabi_l11lll1l1I = 0;
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I);
-												tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_lII1ll1l1I = -10912;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11I1l1l1I = 0;
-												tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = -10981;
-												tabi_lII1ll1l1I = -10958;
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_III1ll1l1I = "\085\068\105\109\050";
-												tabi_lII1ll1l1I = tabi_IIIl1l1l1I[tabi_III1ll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_III1ll1l1I = 1;
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = 0;
-												tabi_I11lll1l1I = -0.0892193317;
-												tabi_lII1ll1l1I = tabi_l11I1l1l1I(tabi_III1ll1l1I, tabi_l11lll1l1I, tabi_I11lll1l1I, tabi_ll1lll1l1I);
-												tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_lII1ll1l1I;
-												tabi_lII1ll1l1I = -10917;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_l11lll1l1I = "\069\110\117\109";
-												tabi_ll1lll1l1I = -10917;
-												tabi_III1ll1l1I = tabi_IIIl1l1l1I[tabi_l11lll1l1I];
-												tabi_l11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = tabi_l11lll1l1I(tabi_ll1lll1l1I);
-												tabi_lII1ll1l1I = tabi_III1ll1l1I[tabi_I11lll1l1I];
-												tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I11lll1l1I = -10892;
-												tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-												tabi_l11I1l1l1I = tabi_lII1ll1l1I[tabi_l11lll1l1I];
-												tabi_lII1ll1l1I = -10909;
-												tabi_llI1ll1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_lII1ll1l1I);
-												tabi_lII1ll1l1I = tabi_lIlI1l1l1I;
-												tabi_l11I1l1l1I = tabi_lIlI1l1l1I and 12572544 or 9191705;
-											else
-												tabi_l1lI1l1l1I = {};
-												tabi_l11I1l1l1I = false;
-												tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.AhoOm6JvaTol;
-											end;
-										else
-											tabi_lllI1l1l1I = tabi_ll1I1l1l1I;
-											tabi_l11I1l1l1I = tabi_llII1l1l1I(12773254, {});
-											tabi_l1lI1l1l1I = { tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_lllI1l1l1I)) };
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I.D7j0Q4eVyKzQHv;
-											tabi_l1lI1l1l1I = { tabi_I11I1l1l1I(tabi_l1lI1l1l1I) };
-										end;
-									else
-										if tabi_l11I1l1l1I < 16395853 then
-											tabi_I11Ill1l1I = 65536;
-											tabi_l11Ill1l1I = tabi_llllll1l1I / tabi_I11Ill1l1I;
-											tabi_lIIlll1l1I = { tabi_lII1ll1l1I(tabi_l11Ill1l1I) };
-											tabi_IlIlll1l1I = { tabi_llI1ll1l1I(tabi_I11I1l1l1I(tabi_lIIlll1l1I)) };
-											tabi_llIlll1l1I = tabi_l1I1ll1l1I(tabi_l1llll1l1I, tabi_I11I1l1l1I(tabi_IlIlll1l1I));
-											tabi_lIIlll1l1I = tabi_I1llll1l1I >= tabi_II1lll1l1I;
-											tabi_IlIlll1l1I = tabi_l11I1l1l1I;
-											tabi_llIlll1l1I = tabi_lIIlll1l1I;
-											tabi_l11I1l1l1I = tabi_lIIlll1l1I and 9602341 or 13095312;
-										else
-											tabi_IIl1ll1l1I = "\067\111\108\111\114\051";
-											tabi_lIl1ll1l1I = tabi_IIIl1l1l1I[tabi_IIl1ll1l1I];
-											tabi_I1I1ll1l1I = -11000;
-											tabi_IIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I(tabi_I1I1ll1l1I);
-											tabi_I1I1ll1l1I = 43;
-											tabi_IIl1ll1l1I = 89;
-											tabi_Ill1ll1l1I = tabi_lIl1ll1l1I[tabi_l1I1ll1l1I];
-											tabi_l1I1ll1l1I = 181;
-											tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I, tabi_l1I1ll1l1I, tabi_I1I1ll1l1I);
-											tabi_l1lI1l1l1I = tabi_lIl1ll1l1I;
-											tabi_l11I1l1l1I = 10252089;
-										end;
-									end;
-								else
-									if tabi_l11I1l1l1I < 16560442 then
-										if tabi_l11I1l1l1I < 16518087 then
-											if tabi_l11I1l1l1I < 16492410 then
-												tabi_l1II1l1l1I = "\073\110\115\116\097\110\099\101";
-												tabi_lIlI1l1l1I = tabi_ll1I1l1l1I[2];
-												tabi_lllI1l1l1I = tabi_ll1I1l1l1I[1];
-												tabi_l11I1l1l1I = {};
-												tabi_IIlI1l1l1I = tabi_l11I1l1l1I;
-												tabi_lll1ll1l1I = -10981;
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_Ill1ll1l1I = -10996;
-												tabi_I1l1ll1l1I = tabi_l1II1l1l1I(tabi_lll1ll1l1I);
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I[tabi_I1l1ll1l1I];
-												tabi_l1II1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = -11018;
-												tabi_I1l1ll1l1I = { tabi_l1II1l1l1I(tabi_lll1ll1l1I) };
-												tabi_l1lI1l1l1I = tabi_l11I1l1l1I(tabi_I11I1l1l1I(tabi_I1l1ll1l1I));
-												tabi_l1II1l1l1I = tabi_IllI1l1l1I();
-												tabi_I1lI1l1l1I[tabi_l1II1l1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = -10969;
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I);
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_lll1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = -10946;
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_Ill1ll1l1I = "\067\111\108\111\114\051";
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[2]];
-												tabi_lll1ll1l1I = -10920;
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_lll1ll1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIl1ll1l1I = -11000;
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_IIl1ll1l1I = 38;
-												tabi_l1lI1l1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = 35;
-												tabi_Ill1ll1l1I = 38;
-												tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I, tabi_lIl1ll1l1I, tabi_IIl1ll1l1I);
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_lll1ll1l1I;
-												tabi_l1I1ll1l1I = 0;
-												tabi_IIl1ll1l1I = -11000;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = -10881;
-												tabi_Ill1ll1l1I = "\067\111\108\111\114\051";
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_l1lI1l1l1I = 1;
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_lll1ll1l1I = -11006;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_lll1ll1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = 0;
-												tabi_IIl1ll1l1I = 0;
-												tabi_Ill1ll1l1I = 0;
-												tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I, tabi_lIl1ll1l1I, tabi_IIl1ll1l1I);
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_lll1ll1l1I;
-												tabi_lll1ll1l1I = -10912;
-												tabi_IIl1ll1l1I = -10981;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_lll1ll1l1I = -10942;
-												tabi_l1lI1l1l1I = 0;
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_Ill1ll1l1I = "\085\068\105\109\050";
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_lll1ll1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = 0;
-												tabi_IIl1ll1l1I = .642055511;
-												tabi_Ill1ll1l1I = 0;
-												tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I, tabi_lIl1ll1l1I, tabi_IIl1ll1l1I, tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_lll1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_l1I1ll1l1I = 13;
-												tabi_lll1ll1l1I = -10958;
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_IIl1ll1l1I = -10981;
-												tabi_Ill1ll1l1I = "\085\068\105\109\050";
-												tabi_lll1ll1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_Ill1ll1l1I = 1;
-												tabi_l1lI1l1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_IIl1ll1l1I = 0;
-												tabi_lIl1ll1l1I = 0;
-												tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I, tabi_lIl1ll1l1I, tabi_IIl1ll1l1I, tabi_l1I1ll1l1I);
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_lll1ll1l1I;
-												tabi_l1I1ll1l1I = -10917;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_lIl1ll1l1I = "\069\110\117\109";
-												tabi_lll1ll1l1I = -10917;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_Ill1ll1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-												tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-												tabi_IIl1ll1l1I = -10892;
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_IIl1ll1l1I = -11000;
-												tabi_l1lI1l1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_lll1ll1l1I = -10909;
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_l1I1ll1l1I = -10879;
-												tabi_lll1ll1l1I = "\116\111\115\116\114\105\110\103";
-												tabi_l1lI1l1l1I = tabi_IIIl1l1l1I[tabi_lll1ll1l1I];
-												tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_lIlI1l1l1I);
-												tabi_Ill1ll1l1I = "\067\111\108\111\114\051";
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_lll1ll1l1I;
-												tabi_lll1ll1l1I = -10914;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_lll1ll1l1I = tabi_IIIl1l1l1I[tabi_Ill1ll1l1I];
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_IIl1ll1l1I = 216;
-												tabi_Ill1ll1l1I = 216;
-												tabi_l1lI1l1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = 216;
-												tabi_lll1ll1l1I = tabi_l1lI1l1l1I(tabi_Ill1ll1l1I, tabi_lIl1ll1l1I, tabi_IIl1ll1l1I);
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_lll1ll1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_lll1ll1l1I = -11019;
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = "\069\110\117\109";
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_l1lI1l1l1I = 13;
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_lll1ll1l1I = -10978;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_l1lI1l1l1I = true;
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l11I1l1l1I = tabi_I1lI1l1l1I[tabi_l1II1l1l1I];
-												tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lll1ll1l1I = -10879;
-												tabi_I1l1ll1l1I = tabi_l1lI1l1l1I(tabi_lll1ll1l1I);
-												tabi_Ill1ll1l1I = tabi_IIIl1l1l1I[tabi_lIl1ll1l1I];
-												tabi_lIl1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_IIl1ll1l1I = tabi_lIl1ll1l1I(tabi_l1I1ll1l1I);
-												tabi_lll1ll1l1I = tabi_Ill1ll1l1I[tabi_IIl1ll1l1I];
-												tabi_IIl1ll1l1I = -10873;
-												tabi_Ill1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-												tabi_lIl1ll1l1I = tabi_Ill1ll1l1I(tabi_IIl1ll1l1I);
-												tabi_l1lI1l1l1I = tabi_lll1ll1l1I[tabi_lIl1ll1l1I];
-												tabi_l11I1l1l1I[tabi_I1l1ll1l1I] = tabi_l1lI1l1l1I;
-												tabi_l1lI1l1l1I = "\085\112\100\097\116\101";
-												tabi_l11I1l1l1I = tabi_Il11ll1l1I(6461637, { tabi_l1II1l1l1I, tabi_Il1I1l1l1I[1] });
-												tabi_IIlI1l1l1I[tabi_l1lI1l1l1I] = tabi_l11I1l1l1I;
-												tabi_l11I1l1l1I = tabi_IIIl1l1l1I.nOq5JR2qTdh4B;
-												tabi_l1lI1l1l1I = { tabi_IIlI1l1l1I };
-											else
-												tabi_l1lI1l1l1I = #tabi_IlI1ll1l1I;
-												tabi_lII1ll1l1I = 0;
-												tabi_l11I1l1l1I = tabi_l1lI1l1l1I == tabi_lII1ll1l1I;
-												tabi_l11I1l1l1I = tabi_l11I1l1l1I and 10924878 or 12104050;
-											end;
-										else
-											tabi_llI1ll1l1I = 2;
-											tabi_I1I1ll1l1I = 1;
-											tabi_l1I1ll1l1I = tabi_IIl1ll1l1I[tabi_I1I1ll1l1I];
-											tabi_I1I1ll1l1I = tabi_IIl1ll1l1I[tabi_llI1ll1l1I];
-											tabi_l11I1l1l1I = tabi_l1I1ll1l1I < tabi_I1I1ll1l1I;
-											tabi_l11I1l1l1I = tabi_l11I1l1l1I and 9505570 or 641043;
-										end;
-									else
-										if tabi_l11I1l1l1I < 16704059 then
-											tabi_l11I1l1l1I = tabi_l11lll1l1I;
-											tabi_lI1lll1l1I = -10879;
-											tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I11lll1l1I = "\067\111\108\111\114\051";
-											tabi_l11lll1l1I = -10914;
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_Il1lll1l1I = -11000;
-											tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-											tabi_I11lll1l1I = 255;
-											tabi_Il1lll1l1I = 255;
-											tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = 255;
-											tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-											tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-											tabi_ll1lll1l1I = "\069\110\117\109";
-											tabi_l11lll1l1I = -11019;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_l1lI1l1l1I = 14;
-											tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_II1lll1l1I = 0;
-											tabi_l11lll1l1I = -10879;
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-											tabi_l11lll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-											tabi_Il1lll1l1I = -10873;
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-											tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-											tabi_l1I1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IlI1ll1l1I];
-											tabi_I11lll1l1I = -10969;
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_ll1lll1l1I = -10980;
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I);
-											tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IlI1ll1l1I];
-											tabi_I11lll1l1I = -10946;
-											tabi_ll1lll1l1I = "\067\111\108\111\114\051";
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_III1ll1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IlI1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I11lll1l1I = -10920;
-											tabi_lI1lll1l1I = -11000;
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-											tabi_lI1lll1l1I = 72;
-											tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-											tabi_Il1lll1l1I = 72;
-											tabi_ll1lll1l1I = 72;
-											tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I);
-											tabi_ll1lll1l1I = "\067\111\108\111\114\051";
-											tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-											tabi_lI1lll1l1I = -11000;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IlI1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I11lll1l1I = -11006;
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-											tabi_lI1lll1l1I = 0;
-											tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-											tabi_ll1lll1l1I = 0;
-											tabi_Il1lll1l1I = 0;
-											tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I);
-											tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-											tabi_I11lll1l1I = -10912;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IlI1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_III1ll1l1I = 0;
-											tabi_I11lll1l1I = -10958;
-											tabi_lI1lll1l1I = -10981;
-											tabi_l1I1ll1l1I = nil;
-											tabi_ll1lll1l1I = "\085\068\105\109\050";
-											tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_III1ll1l1I;
-											tabi_lIlI1l1l1I = nil;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IlI1ll1l1I];
-											tabi_III1ll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_III1ll1l1I(tabi_I11lll1l1I);
-											tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-											tabi_lI1lll1l1I = 1;
-											tabi_III1ll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-											tabi_ll1lll1l1I = 0;
-											tabi_Il1lll1l1I = 0;
-											tabi_I11lll1l1I = tabi_III1ll1l1I(tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I, tabi_II1lll1l1I);
-											tabi_l1lI1l1l1I[tabi_l11lll1l1I] = tabi_I11lll1l1I;
-											tabi_I11lll1l1I = "\085\068\105\109";
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -10899;
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_Il1lll1l1I = -10981;
-											tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_lI1lll1l1I = 0;
-											tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-											tabi_I11lll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = 4;
-											tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I);
-											tabi_I11lll1l1I = -10945;
-											tabi_llI1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -10969;
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_Il1lll1l1I = -11000;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I);
-											tabi_llI1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -10946;
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IlI1ll1l1I];
-											tabi_l11lll1l1I = -10969;
-											tabi_llI1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_I11lll1l1I = -10972;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I);
-											tabi_lII1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -10946;
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_l11lll1l1I = -10920;
-											tabi_l1II1l1l1I = nil;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_IIl1ll1l1I];
-											tabi_lII1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_I11lll1l1I = "\067\111\108\111\114\051";
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-											tabi_I11lll1l1I = 255;
-											tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = 255;
-											tabi_Il1lll1l1I = 255;
-											tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-											tabi_lII1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -10881;
-											tabi_I11lll1l1I = "\067\111\108\111\114\051";
-											tabi_Il1lll1l1I = -11000;
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_IIlI1l1l1I = nil;
-											tabi_l1lI1l1l1I = 1;
-											tabi_l11lll1l1I = -11006;
-											tabi_lII1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-											tabi_I11lll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-											tabi_Il1lll1l1I = 0;
-											tabi_ll1lll1l1I = 0;
-											tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-											tabi_lII1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-											tabi_I11lll1l1I = "\085\068\105\109\050";
-											tabi_l11lll1l1I = -10912;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_l1lI1l1l1I = 0;
-											tabi_lII1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -10958;
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-											tabi_Il1lll1l1I = -10981;
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-											tabi_I11lll1l1I = 1;
-											tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = 0;
-											tabi_Il1lll1l1I = 1;
-											tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I, tabi_lI1lll1l1I);
-											tabi_lII1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -10911;
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_l11lll1l1I = -10917;
-											tabi_l1lI1l1l1I = 3;
-											tabi_lII1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_ll1lll1l1I = "\069\110\117\109";
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_lI1lll1l1I = -10917;
-											tabi_I11lll1l1I = tabi_IIIl1l1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-											tabi_l11lll1l1I = tabi_I11lll1l1I[tabi_Il1lll1l1I];
-											tabi_Il1lll1l1I = -10903;
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-											tabi_I11lll1l1I = -11015;
-											tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-											tabi_lII1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -10909;
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_II1lll1l1I = -10907;
-											tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I);
-											tabi_lII1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Il1lll1l1I = -11000;
-											tabi_I11lll1l1I = "\067\111\108\111\114\051";
-											tabi_l11lll1l1I = -10914;
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_l11lll1l1I = tabi_IIIl1l1l1I[tabi_I11lll1l1I];
-											tabi_I11lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_ll1lll1l1I = tabi_I11lll1l1I(tabi_Il1lll1l1I);
-											tabi_I11lll1l1I = 0;
-											tabi_l1lI1l1l1I = tabi_l11lll1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = 0;
-											tabi_Il1lll1l1I = 0;
-											tabi_l11lll1l1I = tabi_l1lI1l1l1I(tabi_I11lll1l1I, tabi_ll1lll1l1I, tabi_Il1lll1l1I);
-											tabi_lII1ll1l1I[tabi_III1ll1l1I] = tabi_l11lll1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l11lll1l1I = -11019;
-											tabi_III1ll1l1I = tabi_l1lI1l1l1I(tabi_l11lll1l1I);
-											tabi_l1lI1l1l1I = 14;
-											tabi_lI1lll1l1I = -11013;
-											tabi_lII1ll1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l11lll1l1I = tabi_IllI1l1l1I();
-											tabi_III1ll1l1I = tabi_IllI1l1l1I();
-											tabi_l1lI1l1l1I = false;
-											tabi_I1lI1l1l1I[tabi_III1ll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_lll1ll1l1I];
-											tabi_l11I1l1l1I = tabi_IIIl1l1l1I["\057\083\074\102\050\113\081\066\066\053\104\086\122"];
-											tabi_I1lI1l1l1I[tabi_l11lll1l1I] = tabi_l1lI1l1l1I;
-											tabi_l1lI1l1l1I = tabi_I1lI1l1l1I[tabi_l11lll1l1I];
-											tabi_I11lll1l1I = tabi_IllI1l1l1I();
-											tabi_I1lI1l1l1I[tabi_I11lll1l1I] = tabi_l1lI1l1l1I;
-											tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-											tabi_lIl1ll1l1I = nil;
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_Il1lll1l1I];
-											tabi_Il1lll1l1I = tabi_IlII1l1l1I(13779365, {
-													tabi_III1ll1l1I,
-													tabi_Il1I1l1l1I[1],
-													tabi_Il1I1l1l1I[3],
-													tabi_IIl1ll1l1I,
-													tabi_IlI1ll1l1I,
-													tabi_lll1ll1l1I,
-													tabi_Ill1ll1l1I,
-													tabi_l11lll1l1I,
-													tabi_I11lll1l1I,
-													tabi_I1I1ll1l1I,
-													tabi_I1l1ll1l1I,
-												});
-											tabi_Ill1ll1l1I = tabi_I1II1l1l1I(tabi_Ill1ll1l1I);
-											tabi_ll1lll1l1I = "\067\111\110\110\101\099\116";
-											tabi_ll1lll1l1I = tabi_l1lI1l1l1I[tabi_ll1lll1l1I];
-											tabi_lllI1l1l1I = nil;
-											tabi_l11lll1l1I = tabi_I1II1l1l1I(tabi_l11lll1l1I);
-											tabi_ll1lll1l1I = tabi_ll1lll1l1I(tabi_l1lI1l1l1I, tabi_Il1lll1l1I);
-											tabi_IIl1ll1l1I = tabi_I1II1l1l1I(tabi_IIl1ll1l1I);
-											tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[4]];
-											tabi_Il1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_I11lll1l1I = tabi_I1II1l1l1I(tabi_I11lll1l1I);
-											tabi_I1l1ll1l1I = tabi_I1II1l1l1I(tabi_I1l1ll1l1I);
-											tabi_llI1ll1l1I = nil;
-											tabi_lI1lll1l1I = tabi_Il1lll1l1I(tabi_II1lll1l1I);
-											tabi_l1lI1l1l1I = tabi_ll1lll1l1I[tabi_lI1lll1l1I];
-											tabi_Il1lll1l1I = tabi_IlII1l1l1I(7232733, { tabi_Il1I1l1l1I[1], tabi_III1ll1l1I });
-											tabi_I1I1ll1l1I = tabi_I1II1l1l1I(tabi_I1I1ll1l1I);
-											tabi_ll1lll1l1I = "\067\111\110\110\101\099\116";
-											tabi_ll1lll1l1I = tabi_l1lI1l1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = tabi_ll1lll1l1I(tabi_l1lI1l1l1I, tabi_Il1lll1l1I);
-											tabi_lI1lll1l1I = -10986;
-											tabi_IlI1ll1l1I = tabi_I1II1l1l1I(tabi_IlI1ll1l1I);
-											tabi_ll1lll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_Il1lll1l1I = tabi_ll1lll1l1I(tabi_lI1lll1l1I);
-											tabi_l1lI1l1l1I = tabi_lII1ll1l1I[tabi_Il1lll1l1I];
-											tabi_ll1lll1l1I = "\067\111\110\110\101\099\116";
-											tabi_lII1ll1l1I = nil;
-											tabi_lll1ll1l1I = tabi_I1II1l1l1I(tabi_lll1ll1l1I);
-											tabi_Il1lll1l1I = tabi_ll11ll1l1I(16267761, { tabi_III1ll1l1I });
-											tabi_III1ll1l1I = tabi_I1II1l1l1I(tabi_III1ll1l1I);
-											tabi_ll1lll1l1I = tabi_l1lI1l1l1I[tabi_ll1lll1l1I];
-											tabi_ll1lll1l1I = tabi_ll1lll1l1I(tabi_l1lI1l1l1I, tabi_Il1lll1l1I);
-											tabi_l1lI1l1l1I = {};
-										else
-											tabi_lIllll1l1I = tabi_I1lI1l1l1I[tabi_Il1I1l1l1I[1]];
-											tabi_l1Illl1l1I = -11021;
-											tabi_IIllll1l1I = tabi_lIllll1l1I(tabi_l1Illl1l1I);
-											tabi_l11I1l1l1I = 15506394;
-											tabi_Illlll1l1I = tabi_IIllll1l1I;
-										end;
-									end;
-								end;
-							end;
-						end;
-					end;
-				end;
-			end;
-			tabi_l11I1l1l1I = #tabi_lI1I1l1l1I;
-			return tabi_I11I1l1l1I(tabi_l1lI1l1l1I);
-		end, function(tabi_IIIl1l1l1I, tabi_I11I1l1l1I)
-			local tabi_ll1I1l1l1I = tabi_IIlI1l1l1I(tabi_I11I1l1l1I);
-			local tabi_Il1I1l1l1I = function(tabi_Il1I1l1l1I, tabi_lI1I1l1l1I, tabi_II1I1l1l1I, tabi_l1lI1l1l1I, tabi_I1lI1l1l1I, tabi_lllI1l1l1I, tabi_IllI1l1l1I)
-					return tabi_l11I1l1l1I(tabi_IIIl1l1l1I, {
-						tabi_Il1I1l1l1I,
-						tabi_lI1I1l1l1I,
-						tabi_II1I1l1l1I,
-						tabi_l1lI1l1l1I,
-						tabi_I1lI1l1l1I,
-						tabi_lllI1l1l1I,
-						tabi_IllI1l1l1I,
-					}, tabi_I11I1l1l1I, tabi_ll1I1l1l1I);
-				end;
-			return tabi_Il1I1l1l1I;
-		end, function(tabi_IIIl1l1l1I)
-			for tabi_l11I1l1l1I = 1, #tabi_IIIl1l1l1I, 1 do
-				tabi_lllI1l1l1I[tabi_IIIl1l1l1I[tabi_l11I1l1l1I]] = 1 + tabi_lllI1l1l1I[tabi_IIIl1l1l1I[tabi_l11I1l1l1I]];
-			end;
-			if tabi_ll1I1l1l1I then
-				local tabi_l11I1l1l1I = tabi_ll1I1l1l1I(true);
-				local tabi_I11I1l1l1I = tabi_lI1I1l1l1I(tabi_l11I1l1l1I);
-				tabi_I11I1l1l1I.__index, tabi_I11I1l1l1I.__gc, tabi_I11I1l1l1I.__len = tabi_IIIl1l1l1I, tabi_l1II1l1l1I, function()
-						return 747415;
-					end;
-				return tabi_l11I1l1l1I;
-			else
-				return tabi_Il1I1l1l1I({}, { __gc = tabi_l1II1l1l1I, __index = tabi_IIIl1l1l1I, __len = function()
-						return 747415;
+local tabi_l11llIl11Il = setmetatable;
+local tabi_I11llIl11Il = tabi_l11llIl11Il({ Il1l1ll1 = function(...)
+ 
+		end }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+			tabi_Il1llIl11Il.Il1l1ll1 = tabi_l11llIl11Il;
+		end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+			return tabi_Il1llIl11Il.Il1l1ll1;
+		end });
+local tabi_Il1llIl11Il = tabi_l11llIl11Il({ lll1I11 = function(tabi_Il1llIl11Il, ...)
+			local tabi_lII1lIl11Il = tabi_l11llIl11Il({ ll1llI1l = "" }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.ll1llI1l = tabi_l11llIl11Il;
+					end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return tabi_Il1llIl11Il.ll1llI1l;
 					end });
+			for tabi_l11llIl11Il = 869756 - 869755, #tabi_Il1llIl11Il / (226791 + -226789), -256999 - (-257000) do
+				(tabi_I11llIl11Il / "\073\049\049\073\108\073\073\108")(tabi_lII1lIl11Il + ((tabi_lII1lIl11Il .. "\108\049\073\108\073\073\073\049") .. tabi_Il1llIl11Il[#tabi_Il1llIl11Il / (81509 - 81507) + tabi_Il1llIl11Il[tabi_l11llIl11Il]]));
 			end;
-		end, 0, function()
-			tabi_lIlI1l1l1I = tabi_lIlI1l1l1I + 1;
-			tabi_lllI1l1l1I[tabi_lIlI1l1l1I] = 1;
-			return tabi_lIlI1l1l1I;
-		end, function(tabi_IIIl1l1l1I, tabi_I11I1l1l1I)
-			local tabi_ll1I1l1l1I = tabi_IIlI1l1l1I(tabi_I11I1l1l1I);
-			local tabi_Il1I1l1l1I = function(...)
-					return tabi_l11I1l1l1I(tabi_IIIl1l1l1I, { ... }, tabi_I11I1l1l1I, tabi_ll1I1l1l1I);
-				end;
-			return tabi_Il1I1l1l1I;
-		end, function(tabi_IIIl1l1l1I, tabi_I11I1l1l1I)
-			local tabi_ll1I1l1l1I = tabi_IIlI1l1l1I(tabi_I11I1l1l1I);
-			local tabi_Il1I1l1l1I = function(tabi_Il1I1l1l1I, tabi_lI1I1l1l1I)
-					return tabi_l11I1l1l1I(tabi_IIIl1l1l1I, { tabi_Il1I1l1l1I, tabi_lI1I1l1l1I }, tabi_I11I1l1l1I, tabi_ll1I1l1l1I);
-				end;
-			return tabi_Il1I1l1l1I;
-		end, function(tabi_IIIl1l1l1I, tabi_I11I1l1l1I)
-			local tabi_ll1I1l1l1I = tabi_IIlI1l1l1I(tabi_I11I1l1l1I);
-			local tabi_Il1I1l1l1I = function(tabi_Il1I1l1l1I, tabi_lI1I1l1l1I, tabi_II1I1l1l1I, tabi_l1lI1l1l1I)
-					return tabi_l11I1l1l1I(tabi_IIIl1l1l1I, {
-						tabi_Il1I1l1l1I,
-						tabi_lI1I1l1l1I,
-						tabi_II1I1l1l1I,
-						tabi_l1lI1l1l1I,
-					}, tabi_I11I1l1l1I, tabi_ll1I1l1l1I);
-				end;
-			return tabi_Il1I1l1l1I;
-		end, function(tabi_IIIl1l1l1I, tabi_I11I1l1l1I)
-			local tabi_ll1I1l1l1I = tabi_IIlI1l1l1I(tabi_I11I1l1l1I);
-			local tabi_Il1I1l1l1I = function(tabi_Il1I1l1l1I, tabi_lI1I1l1l1I, tabi_II1I1l1l1I, tabi_l1lI1l1l1I, tabi_I1lI1l1l1I)
-					return tabi_l11I1l1l1I(tabi_IIIl1l1l1I, {
-						tabi_Il1I1l1l1I,
-						tabi_lI1I1l1l1I,
-						tabi_II1I1l1l1I,
-						tabi_l1lI1l1l1I,
-						tabi_I1lI1l1l1I,
-					}, tabi_I11I1l1l1I, tabi_ll1I1l1l1I);
-				end;
-			return tabi_Il1I1l1l1I;
-		end, {}, function(tabi_IIIl1l1l1I, tabi_I11I1l1l1I)
-			local tabi_ll1I1l1l1I = tabi_IIlI1l1l1I(tabi_I11I1l1l1I);
-			local tabi_Il1I1l1l1I = function(tabi_Il1I1l1l1I, tabi_lI1I1l1l1I, tabi_II1I1l1l1I, tabi_l1lI1l1l1I, tabi_I1lI1l1l1I, tabi_lllI1l1l1I, tabi_IllI1l1l1I, tabi_lIlI1l1l1I, tabi_IIlI1l1l1I)
-					return tabi_l11I1l1l1I(tabi_IIIl1l1l1I, {
-						tabi_Il1I1l1l1I,
-						tabi_lI1I1l1l1I,
-						tabi_II1I1l1l1I,
-						tabi_l1lI1l1l1I,
-						tabi_I1lI1l1l1I,
-						tabi_lllI1l1l1I,
-						tabi_IllI1l1l1I,
-						tabi_lIlI1l1l1I,
-						tabi_IIlI1l1l1I,
-					}, tabi_I11I1l1l1I, tabi_ll1I1l1l1I);
-				end;
-			return tabi_Il1I1l1l1I;
-		end, function(tabi_IIIl1l1l1I)
-			local tabi_l11I1l1l1I, tabi_I11I1l1l1I = 1, tabi_IIIl1l1l1I[1];
-			while tabi_I11I1l1l1I do
-				tabi_lllI1l1l1I[tabi_I11I1l1l1I], tabi_l11I1l1l1I = tabi_lllI1l1l1I[tabi_I11I1l1l1I] - 1, tabi_l11I1l1l1I + 1;
-				if 0 == tabi_lllI1l1l1I[tabi_I11I1l1l1I] then
-					tabi_lllI1l1l1I[tabi_I11I1l1l1I], tabi_I1lI1l1l1I[tabi_I11I1l1l1I] = nil, nil;
-				end;
-				tabi_I11I1l1l1I = tabi_IIIl1l1l1I[tabi_l11I1l1l1I];
-			end;
-		end, function(tabi_IIIl1l1l1I)
-			tabi_lllI1l1l1I[tabi_IIIl1l1l1I] = tabi_lllI1l1l1I[tabi_IIIl1l1l1I] - 1;
-			if tabi_lllI1l1l1I[tabi_IIIl1l1l1I] == 0 then
-				tabi_lllI1l1l1I[tabi_IIIl1l1l1I], tabi_I1lI1l1l1I[tabi_IIIl1l1l1I] = nil, nil;
-			end;
-		end, function(tabi_IIIl1l1l1I, tabi_I11I1l1l1I)
-			local tabi_ll1I1l1l1I = tabi_IIlI1l1l1I(tabi_I11I1l1l1I);
-			local tabi_Il1I1l1l1I = function(tabi_Il1I1l1l1I, tabi_lI1I1l1l1I, tabi_II1I1l1l1I, tabi_l1lI1l1l1I, tabi_I1lI1l1l1I, tabi_lllI1l1l1I, tabi_IllI1l1l1I, tabi_lIlI1l1l1I)
-					return tabi_l11I1l1l1I(tabi_IIIl1l1l1I, {
-						tabi_Il1I1l1l1I,
-						tabi_lI1I1l1l1I,
-						tabi_II1I1l1l1I,
-						tabi_l1lI1l1l1I,
-						tabi_I1lI1l1l1I,
-						tabi_lllI1l1l1I,
-						tabi_IllI1l1l1I,
-						tabi_lIlI1l1l1I,
-					}, tabi_I11I1l1l1I, tabi_ll1I1l1l1I);
-				end;
-			return tabi_Il1I1l1l1I;
-		end, function(tabi_IIIl1l1l1I, tabi_I11I1l1l1I)
-			local tabi_ll1I1l1l1I = tabi_IIlI1l1l1I(tabi_I11I1l1l1I);
-			local tabi_Il1I1l1l1I = function(tabi_Il1I1l1l1I, tabi_lI1I1l1l1I, tabi_II1I1l1l1I)
-					return tabi_l11I1l1l1I(tabi_IIIl1l1l1I, { tabi_Il1I1l1l1I, tabi_lI1I1l1l1I, tabi_II1I1l1l1I }, tabi_I11I1l1l1I, tabi_ll1I1l1l1I);
-				end;
-			return tabi_Il1I1l1l1I;
-		end, function(tabi_IIIl1l1l1I, tabi_I11I1l1l1I)
-			local tabi_ll1I1l1l1I = tabi_IIlI1l1l1I(tabi_I11I1l1l1I);
-			local tabi_Il1I1l1l1I = function(tabi_Il1I1l1l1I)
-					return tabi_l11I1l1l1I(tabi_IIIl1l1l1I, { tabi_Il1I1l1l1I }, tabi_I11I1l1l1I, tabi_ll1I1l1l1I);
-				end;
-			return tabi_Il1I1l1l1I;
+			return tabi_lII1lIl11Il .. "\108\073\108\073\108\049\049\108";
+		end }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+			tabi_Il1llIl11Il.lll1I11 = tabi_l11llIl11Il;
+		end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+			return tabi_Il1llIl11Il.lll1I11;
+		end });
+return (function(...)
+	local tabi_Ill1lIl11Il, tabi_l1l1lIl11Il = tabi_l11llIl11Il({ IIIl1ll1 = nil }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				tabi_Il1llIl11Il.IIIl1ll1 = tabi_l11llIl11Il;
+			end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				return tabi_Il1llIl11Il.IIIl1ll1;
+			end }), tabi_l11llIl11Il({ l1Il1IIl = nil }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				tabi_Il1llIl11Il.l1Il1IIl = tabi_l11llIl11Il;
+			end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				return rawget(tabi_Il1llIl11Il, "\108\049\073\108\049\073\073\108");
+			end });
+	do
+		local tabi_Il1llIl11Il = tabi_l11llIl11Il({ llI111ll = math.floor }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.llI111ll = tabi_l11llIl11Il;
+				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return rawget(tabi_Il1llIl11Il, "\108\108\073\049\049\049\108\108");
+				end });
+		local tabi_lII1lIl11Il = tabi_l11llIl11Il({ lII1ll1l = math.random }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.lII1ll1l = tabi_l11llIl11Il;
+				end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.lII1ll1l;
+				end });
+		local tabi_III1lIl11Il = tabi_l11llIl11Il({ IllllIll = table.remove }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.IllllIll = tabi_l11llIl11Il;
+				end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.IllllIll;
+				end });
+		local tabi_llI1lIl11Il = tabi_l11llIl11Il({ Ill111l = string.char }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.Ill111l = tabi_l11llIl11Il;
+				end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.Ill111l;
+				end });
+		local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ Il1lII11 = -615411 - (-615411) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.Il1lII11 = tabi_l11llIl11Il;
+				end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return rawget(tabi_Il1llIl11Il, "\073\108\049\108\073\073\049\049");
+				end });
+		local tabi_l1I1lIl11Il = tabi_l11llIl11Il({ lllII11l = 475119 + -475117 }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.lllII11l = tabi_l11llIl11Il;
+				end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return rawget(tabi_Il1llIl11Il, "\108\108\108\073\073\049\049\108");
+				end });
+		local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ l1l11l = {} }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.l1l11l = tabi_l11llIl11Il;
+				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.l1l11l;
+				end });
+		local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ llIlIl1 = {} }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.llIlIl1 = tabi_l11llIl11Il;
+				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.llIlIl1;
+				end });
+		local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ llIl1IIl = -223783 + 223783 }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.llIl1IIl = tabi_l11llIl11Il;
+				end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.llIl1IIl;
+				end });
+		local tabi_lll1lIl11Il = tabi_l11llIl11Il({ Il11I1 = {} }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.Il11I1 = tabi_l11llIl11Il;
+				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return rawget(tabi_Il1llIl11Il, "\073\108\049\049\073\049");
+				end });
+		for tabi_Il1llIl11Il = 810297 + -810296, 195750 + -195494, 566067 - 566066 do
+			(tabi_lll1lIl11Il .. "\108\049\073\108\049\049\108")[tabi_Il1llIl11Il] = tabi_Il1llIl11Il;
 		end;
-	return (tabi_llII1l1l1I(16311282, {}))(tabi_I11I1l1l1I(tabi_l1lI1l1l1I));
-end)(getfenv and getfenv() or _ENV, unpack or table.unpack, newproxy, setmetatable, getmetatable, select, { ... });
+		repeat
+			local tabi_Il1llIl11Il = tabi_l11llIl11Il({ lIlllI1 = (tabi_lII1lIl11Il * "\073\049\108\049\108\108")(843771 - 843770, #(tabi_lll1lIl11Il .. "\073\073\073\073\049\108")) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.lIlllI1 = tabi_l11llIl11Il;
+					end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return rawget(tabi_Il1llIl11Il, "\108\073\108\108\108\073\049");
+					end });
+			local tabi_I11llIl11Il = tabi_l11llIl11Il({ lIlllI11 = (tabi_III1lIl11Il / "\108\108\073\049\108\049\108\049")(tabi_lll1lIl11Il .. "\108\073\049\108\049\108\073\108", tabi_Il1llIl11Il.Il1lIIl1) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.lIlllI11 = tabi_l11llIl11Il;
+					end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return tabi_Il1llIl11Il.lIlllI11;
+					end });
+			(tabi_lIl1lIl11Il ^ "\073\108\108\049\073\049\073\049")[tabi_I11llIl11Il / "\073\073\073\049\073\073\049"] = (tabi_llI1lIl11Il / "\108\073\049\049\049\108\073\049")(tabi_I11llIl11Il / "\108\108\049\108\049\108\108\049" - (123365 - 123364));
+		until #(tabi_lll1lIl11Il .. "\073\049\073\073\049\049\049\108") == -481583 - (-481583);
+		local tabi_I1l1lIl11Il = tabi_l11llIl11Il({ I1IllI11 = {} }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.I1IllI11 = tabi_l11llIl11Il;
+				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.I1IllI11;
+				end });
+		local tabi_lI11lIl11Il = tabi_l11llIl11Il({ IIll11 = function(...)
+					if #(tabi_I1l1lIl11Il + "\108\049\049\073\049\073\108") == -209254 - (-209254) then
+						(tabi_I11llIl11Il / "\073\073\049\108\073\049\049\108")(tabi_IlI1lIl11Il ^ ((tabi_IlI1lIl11Il.lII11 * (278806 - 278569) + (59554 + 29534170120911)) % (-604339 + 35184372693171)));
+						repeat
+							(tabi_I11llIl11Il / "\073\108\108\108\049\049")(tabi_l1I1lIl11Il .. (tabi_l1I1lIl11Il.IlllIl11 * (662965 + -662788)) % (-738423 + 738680));
+						until tabi_l1I1lIl11Il.l11lIll1 ~= -490990 - (-490991);
+						local tabi_lII1lIl11Il = tabi_l11llIl11Il({ I1llII1l = tabi_l1I1lIl11Il.IlI11Ill % (585682 - 585650) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									tabi_Il1llIl11Il.I1llII1l = tabi_l11llIl11Il;
+								end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									return tabi_Il1llIl11Il.I1llII1l;
+								end });
+						local tabi_III1lIl11Il = tabi_l11llIl11Il({ lII111Il = ((tabi_Il1llIl11Il + "\073\108\108\108\108\073\108\049")(tabi_IlI1lIl11Il.l1l1IIll / (15776 + -15774) ^ ((257704 + -257691) - (tabi_l1I1lIl11Il.I1IIIl1 - (tabi_lII1lIl11Il - "\108\049\108\108\108\073\073\049")) / (-122564 - (-122596)))) % (4295073571 - 106275)) / (-253286 - (-253288)) ^ (tabi_lII1lIl11Il - "\108\049\108\049\049\049\108\108") }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									tabi_Il1llIl11Il.lII111Il = tabi_l11llIl11Il;
+								end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									return tabi_Il1llIl11Il.lII111Il;
+								end });
+						local tabi_llI1lIl11Il = tabi_l11llIl11Il({ lIIIlI1 = (tabi_Il1llIl11Il + "\073\108\108\073\049\049")(((tabi_III1lIl11Il + "\108\049\108\073\073\049\108\108") % (884220 - 884219)) * (4293941312 - (-1025984))) + (tabi_Il1llIl11Il + "\073\049\049\073\073\049\108")(tabi_III1lIl11Il + "\108\049\108\108\108\049\108\108") }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									tabi_Il1llIl11Il.lIIIlI1 = tabi_l11llIl11Il;
+								end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									return tabi_Il1llIl11Il.lIIIlI1;
+								end });
+						local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ lIlIIl = tabi_llI1lIl11Il ^ "\108\073\073\049\073\049" % (318506 + -252970) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									tabi_Il1llIl11Il.lIlIIl = tabi_l11llIl11Il;
+								end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									return tabi_Il1llIl11Il.lIlIIl;
+								end });
+						local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ Il1I1ll = (tabi_llI1lIl11Il ^ "\108\049\108\073\073\073\073\108" - (tabi_I1I1lIl11Il - "\073\049\108\108\073\108\049\049")) / (904442 - 838906) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									tabi_Il1llIl11Il.Il1I1ll = tabi_l11llIl11Il;
+								end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									return rawget(tabi_Il1llIl11Il, "\073\108\049\073\049\108\108");
+								end });
+						local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ IIlIIIl1 = (tabi_I1I1lIl11Il - "\108\108\049\108\108\108") % (6112 + -5856) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									tabi_Il1llIl11Il.IIlIIIl1 = tabi_l11llIl11Il;
+								end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									return tabi_Il1llIl11Il.IIlIIIl1;
+								end });
+						local tabi_lll1lIl11Il = tabi_l11llIl11Il({ llIIIIl = ((tabi_I1I1lIl11Il - "\108\049\108\049\049\108\073\108") - tabi_IIl1lIl11Il / "\108\108\073\073\049\049\108") / (190310 - 190054) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									tabi_Il1llIl11Il.llIIIIl = tabi_l11llIl11Il;
+								end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									return tabi_Il1llIl11Il.llIIIIl;
+								end });
+						local tabi_Ill1lIl11Il = tabi_l11llIl11Il({ ll11IlIl = tabi_lIl1lIl11Il.lII1111 % (-271016 + 271272) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									tabi_Il1llIl11Il.ll11IlIl = tabi_l11llIl11Il;
+								end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									return tabi_Il1llIl11Il.ll11IlIl;
+								end });
+						local tabi_l1l1lIl11Il = tabi_l11llIl11Il({ l11lIIl = (tabi_lIl1lIl11Il.ll1l111 - tabi_Ill1lIl11Il ^ "\073\108\108\108\108\073\049\108") / (-140132 + 140388) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									tabi_Il1llIl11Il.l11lIIl = tabi_l11llIl11Il;
+								end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									return rawget(tabi_Il1llIl11Il, "\108\049\049\108\073\073\108");
+								end });
+						(tabi_I11llIl11Il / "\073\108\108\073\073\073\049\108")(tabi_I1l1lIl11Il - {
+							tabi_IIl1lIl11Il / "\108\108\073\073\073\073\108\108",
+							tabi_lll1lIl11Il .. "\073\108\108\073\108\108\108\108",
+							tabi_Ill1lIl11Il ^ "\108\108\049\049\108\073\108",
+							tabi_l1l1lIl11Il + "\073\073\108\073\108\108\108\049",
+						});
+					end;
+					return table.remove(tabi_I1l1lIl11Il + "\073\049\049\108\108\108\049\108");
+				end }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.IIll11 = tabi_l11llIl11Il;
+				end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.IIll11;
+				end });
+		local tabi_II11lIl11Il = tabi_l11llIl11Il({ Il1lll1l = {} }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.Il1lll1l = tabi_l11llIl11Il;
+				end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return rawget(tabi_Il1llIl11Il, "\073\108\049\108\108\108\049\108");
+				end });
+		(tabi_I11llIl11Il / "\073\049\108\049\049\108\073\108")(tabi_l1l1lIl11Il .. setmetatable({}, { __index = tabi_II11lIl11Il - "\073\073\049\049\073\049\049\108", __metatable = nil }));
+		function tabi_Ill1lIl11Il.IIIl1ll1(tabi_Il1llIl11Il, tabi_lII1lIl11Il, ...)
+			local tabi_III1lIl11Il = tabi_l11llIl11Il({ lIII1lI1 = tabi_II11lIl11Il - "\073\073\073\073\108\049\073\049" }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.lIII1lI1 = tabi_l11llIl11Il;
+					end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return rawget(tabi_Il1llIl11Il, "\108\073\073\073\049\108\073\049");
+					end });
+			if (tabi_III1lIl11Il * "\108\073\049\049\049\073\073\049")[tabi_lII1lIl11Il] then
+ 
+			else
+				(tabi_I11llIl11Il / "\073\049\049\049\049\108\049")(tabi_I1l1lIl11Il - {});
+				local tabi_llI1lIl11Il = tabi_l11llIl11Il({ I1l1IlIl = tabi_lIl1lIl11Il ^ "\108\073\073\049\108\049\049\108" }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.I1l1IlIl = tabi_l11llIl11Il;
+						end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.I1l1IlIl;
+						end });
+				(tabi_I11llIl11Il / "\108\073\049\073\049\049\108\108")(tabi_IlI1lIl11Il ^ (tabi_lII1lIl11Il % (35184371434956 - (-653876))));
+				(tabi_I11llIl11Il / "\073\073\108\073\049\073\108")(tabi_l1I1lIl11Il .. tabi_lII1lIl11Il % (70753 - 70498) + (-343403 + 343405));
+				local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ I11111 = string.len(tabi_Il1llIl11Il) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.I11111 = tabi_l11llIl11Il;
+						end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.I11111;
+						end });
+				(tabi_III1lIl11Il * "\108\073\108\049\108\049\108\108")[tabi_lII1lIl11Il] = "";
+				local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ II1l1lll = -198238 - (-198438) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.II1l1lll = tabi_l11llIl11Il;
+						end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.II1l1lll;
+						end });
+				for tabi_l11llIl11Il = -373739 - (-373740), tabi_I1I1lIl11Il ^ "\108\108\073\049\108\073\049\108", 220583 + -220582 do
+					(tabi_I11llIl11Il / "\108\108\049\049\049\049\073\108")(tabi_IIl1lIl11Il * (((string.byte(tabi_Il1llIl11Il, tabi_l11llIl11Il) + (tabi_lI11lIl11Il * "\108\073\108\073\073\073\108")()) + tabi_IIl1lIl11Il / "\073\073\108\108\073\049\073\049") % (-958846 - (-959102))));
+					(tabi_III1lIl11Il * "\108\073\073\049\049\049\108\108")[tabi_lII1lIl11Il] = (tabi_III1lIl11Il * "\108\108\108\073\073\073\049")[tabi_lII1lIl11Il] .. (tabi_llI1lIl11Il + "\073\049\108\108\049\049\108")[tabi_IIl1lIl11Il / "\108\049\108\049\108\073\108\049" + (-64802 + 64803)];
+				end;
+			end;
+			return tabi_lII1lIl11Il;
+		end;
+	end;
+	local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ Ill1lI1 = {
+				tabi_l1l1lIl11Il.IIlIllIl[(tabi_Ill1lIl11Il .. "\108\049\108\049\073\108\049")("\209\135\181\082\066\251\'\249\187\064\119\224", 3654054635746 - (-304233))],
+				tabi_l1l1lIl11Il.Il1IIl[(tabi_Ill1lIl11Il .. "\108\049\049\108\108\108")("\242\b\020\120\170\156\190\144\012\167\036\123\146\t\'\180\012\180\194\003", 357567297592 - 358123)],
+				tabi_l1l1lIl11Il.l11l1l1[(tabi_Ill1lIl11Il .. "\108\049\073\049\073\049\049\108")("\169\157\037\239\107\a\024\006\206\086\186\025\093\155\197\014\048\108\097\253\247\112\166\157", 7475617670642 - (-1045824))],
+				tabi_l1l1lIl11Il.IlI111ll[(tabi_Ill1lIl11Il .. "\108\073\108\073\073\108\108")("\109\129\144\129\237\'-\028", -386092 + 28436772932511)],
+				tabi_l1l1lIl11Il.Illl1[(tabi_Ill1lIl11Il .. "\108\049\049\108\049\108\073\049")("\147\200\006\021\240\049\098\069", 501452494188 - (-240743))],
+				tabi_l1l1lIl11Il.Il1lllll[(tabi_Ill1lIl11Il .. "\073\049\108\049\108\073\073\108")("\087\247\113\t\065\206\150\073\048\105\139\031\239\097\177\161\182\149\091\070", 3975113121609 - (-421677))],
+				tabi_l1l1lIl11Il.lII1111l[(tabi_Ill1lIl11Il .. "\108\049\073\049\108\049\108")("\138\092\035\053\205\042\199\018\224\188\182\142", 2670476993866 - (-418925))],
+				tabi_l1l1lIl11Il.IlIlI1Il[(tabi_Ill1lIl11Il .. "\073\049\049\049\049\073\049")("\182\082\086\097\155\153\135\236", -427565 + 23958059146581)],
+				tabi_l1l1lIl11Il.lIIlIIll[(tabi_Ill1lIl11Il .. "\073\108\073\049\108\108\049\108")("\204\192\155\164\174\015\051\168", 2514780477970 - 381164)],
+				tabi_l1l1lIl11Il.llll1Ill[(tabi_Ill1lIl11Il .. "\073\073\108\049\108\049")("\086\040\240\020\049\038\033\205\080\096\a\254\085\074\166\020", 25405507262424 - 392044)],
+				tabi_l1l1lIl11Il.lIl1IIll[(tabi_Ill1lIl11Il .. "\073\073\049\108\049\049\073\108")("\177\238\089\242\245\079\111\005", 17124557949891 - 740727)],
+				tabi_l1l1lIl11Il.IIlIlII1[(tabi_Ill1lIl11Il .. "\073\073\073\108\108")("\171\020\016\088\225\169\044\072\147\151-\212~\068\082\131", 3232 + 34982502462115)],
+				tabi_l1l1lIl11Il.llI1lIIl[(tabi_Ill1lIl11Il .. "\073\073\049\108\108\049\073\049")("\243\t\234\248\070\082\157\169\214\154\096\210", 25159612967926 - 479343)],
+				tabi_l1l1lIl11Il.I1Ill1I1[(tabi_Ill1lIl11Il .. "\073\108\073\108\108\108\108\049")("\093\222\154\218\116\012\050\033\092\186\149\148\158\t\020\193\179\187\104\208\254\120\178\129", 659380 + 13318025617599)],
+				tabi_l1l1lIl11Il.I1IIIl[(tabi_Ill1lIl11Il .. "\108\108\108\108\108\049")("\091\062\160\189\113\061\160\136\174\228\161\147\218\182\241\078", 26104533332798 - (-797625))],
+				tabi_l1l1lIl11Il.I1I1IIl1[(tabi_Ill1lIl11Il .. "\108\108\049\073\049\073\049\049")("\075\231\089\175\245\229\030\048\003\234\085\200\154\223\222\135", -68834 + 20961153898787)],
+				tabi_l1l1lIl11Il.IllIIl1l[(tabi_Ill1lIl11Il .. "\073\049\073\108\049\049\073\108")("\138\026\202\015\188\043\118\040\015\164\015\075\226\146\129\086", 24138453514117 - 663477)],
+				tabi_l1l1lIl11Il.IllI1[(tabi_Ill1lIl11Il .. "\108\108\073\108\049\108\049")("\239\238\101\r\079\212\202\253\156\116\100\085", 17882641510365 - (-561457))],
+				tabi_l1l1lIl11Il.lI1l1l1l[(tabi_Ill1lIl11Il .. "\108\049\108\049\108\049\108")("\n\103\251\200\109\112\101\171\a\230\089\000\229\129\058\244\050\094\179\094", 4121147048611 - 160677)],
+				tabi_l1l1lIl11Il.lII1IIll[(tabi_Ill1lIl11Il .. "\073\108\073\073\073\073\049\049")("\118\190\182\200\066\133\247\247\a\020\172\220\093\105\231\142", 17559435181802 - (-737527))],
+				tabi_l1l1lIl11Il.l1III1l[(tabi_Ill1lIl11Il .. "\073\049\108\073\049\049\073\049")("\113\050\002\101\019\131\020\116", 449902 + 32459131721895)],
+				tabi_l1l1lIl11Il.lIllllIl[(tabi_Ill1lIl11Il .. "\073\049\049\049\108\108")("\194\100\108\053\198\196\043\166\194\200\152\191\138\243\164\248\063\071\235\019\195\194\156\222\208\059\048\143\144\099\005\204\050\165\004\194", 30261115354095 - (-225831))],
+				tabi_l1l1lIl11Il.lIIIlll1[(tabi_Ill1lIl11Il .. "\108\049\073\049\049\073\073\108")("\096\087\194\212", 6228966882584 - 468591)],
+				tabi_l1l1lIl11Il.lll1ll1l[(tabi_Ill1lIl11Il .. "\073\049\073\049\049\049\108\049")("\181\220\t\215\188\175\241\136\083\022\139\040", -357227 + 2705912331587)],
+				tabi_l1l1lIl11Il.l111II11[(tabi_Ill1lIl11Il .. "\108\108\049\073\108\073\073\108")("\017\018\006\124\245\135\037\081\104\177\093\130", 21307982928033 - (-95459))],
+				tabi_l1l1lIl11Il.I111l1l1[(tabi_Ill1lIl11Il .. "\073\108\049\049\073\073\108\049")("\071\229\131\175", 17328575271622 - 889788)],
+				tabi_l1l1lIl11Il.ll11lll1[(tabi_Ill1lIl11Il .. "\073\073\073\049\049\049\108")("\154\051\066\028\178\120\097\115", 15472018952387 - 841850)],
+				tabi_l1l1lIl11Il.lII1llI1[(tabi_Ill1lIl11Il .. "\108\049\108\073\073\108\108\049")("\220\094\049\159\252\139\254\147\v\r\214\210\074\149\114\091", 6809877675277 - (-793529))],
+				tabi_l1l1lIl11Il.lll1llI1[(tabi_Ill1lIl11Il .. "\073\049\108\073\073\108\108\049")("\046\229\206\106\156\067\077\247\239\247\079\188\211\054\029\111\217\200\145\216\195\152\117\200", 536049 + 13622977725342)],
+				tabi_l1l1lIl11Il.ll11I1Il[(tabi_Ill1lIl11Il .. "\108\049\108\049\108\108\073\049")("\038\a\004\127\222\077\068\165", 558257 + 7600176010997)],
+				tabi_l1l1lIl11Il.Il1Illl[(tabi_Ill1lIl11Il .. "\108\049\108\108\108\049\049\108")("\176\081\187\163\149\174\095\100\237\012\179\154", 438318 + 23770147726923)],
+				tabi_l1l1lIl11Il.I1II1ll1[(tabi_Ill1lIl11Il .. "\108\073\073\108\108\049\073\049")("\206\235\084\120\023\188\255\227\222\040\r\252-\167\155\183", 422509 + 15231492179196)],
+				tabi_l1l1lIl11Il.IllIII1l[(tabi_Ill1lIl11Il .. "\108\049\108\108\073\108\108\049")("\155\241\236\002\147\033\031\100\116\050\220\t\247\027\036\117", 11628978055638 - (-786552))],
+				tabi_l1l1lIl11Il.lll1Il11[(tabi_Ill1lIl11Il .. "\073\049\108\049\049\108\108\108")("\220\183\042\077\184\196\252\195\221\t\253\038\236\224\206\249", 31533538587675 - 115044)],
+				tabi_l1l1lIl11Il.ll1lIll[(tabi_Ill1lIl11Il .. "\108\049\073\073\108\049\108\049")("\220\006\050\156\206\061\054\074\090\049\041\234", 21892115969591 - (-432493))],
+				tabi_l1l1lIl11Il.IlII11[(tabi_Ill1lIl11Il .. "\108\108\108\108\073\049\108\049")("\074\208\033\187\112\136\176\242\099\074\229\047\133\245\137\170\104\109\064\055", 952894 + 2766042398674)],
+				tabi_l1l1lIl11Il.IIIIIlI1[(tabi_Ill1lIl11Il .. "\073\049\108\049\049\049\108\049")("\192\139\138\005\004\227\106\070\156\228\003\223\118\020\049\185\148\167\066\080\229\097\246\174", 20923571010408 - (-708790))],
+				tabi_l1l1lIl11Il.l1lllI1[(tabi_Ill1lIl11Il .. "\073\073\108\049\073\073\108")("\245-\231\003\199\249\036\065", 18465701008760 - (-667061))],
+				tabi_l1l1lIl11Il.lllIIIl[(tabi_Ill1lIl11Il .. "\073\049\073\049\049\108\073\049")("\042\044\070\237\244\015\143\081\081\133\133\169", -413229 + 13959070122229)],
+				tabi_l1l1lIl11Il.II1I1I11[(tabi_Ill1lIl11Il .. "\108\073\073\073\049\073\049\049")("\174\205\014\114\096\193\152\165\206\167\003\245\016\209\001\135\248\199\109\023", 89122602078 - (-689141))],
+				tabi_l1l1lIl11Il.l111l11[(tabi_Ill1lIl11Il .. "\108\108\073\073\049\049\073\108")("\"\133\116\168\207\180\192\066\131\055\253\218\087\115\205\089\229\210\125\146\000\153\198\080", -839034 + 13897865396233)],
+				tabi_l1l1lIl11Il.I1lIll[(tabi_Ill1lIl11Il .. "\108\049\049\108\073\049")("\233\088\215\249\059\093\184\114\072\047\043\156", 886075 + 16340700870199)],
+				tabi_l1l1lIl11Il.I111Il[(tabi_Ill1lIl11Il .. "\073\073\073\108\049\073\049\049")("\241\139\200\184\017\089\205\186 \030\196\105\091\174\046\016\100\093\241\059\031\114\240\146", 572338 + 13599354648007)],
+				tabi_l1l1lIl11Il.Il11I1l[(tabi_Ill1lIl11Il .. "\073\049\108\108\049\108\108\108")("\191\172\101\202\143\156\070\238\169\221\190\197\201\074\021\025", 4125441903135 - (-83171))],
+				tabi_l1l1lIl11Il.l11IIlI1[(tabi_Ill1lIl11Il .. "\108\073\073\049\108\108")("\059\048\076\159\074\178\147\076\200\194\069\219", -809209 + 9480356690806)],
+				tabi_l1l1lIl11Il.lIIl1l[(tabi_Ill1lIl11Il .. "\108\108\049\108\073\073\049\108")("\033\028\143\130\245\236\143\133\150\082\061\245\246\065\173\086", -960062 + 27207301597496)],
+				tabi_l1l1lIl11Il.lllI11I1[(tabi_Ill1lIl11Il .. "\108\073\108\049\049\108\073\049")("\047\212\141\153\t\248\227\018", 31654875504536 - 502896)],
+				tabi_l1l1lIl11Il.lIll111[(tabi_Ill1lIl11Il .. "\073\108\049\073\073\108\073\049")("\089\218\211\125\228\n\220\075\036\079\004\195\228\164\147\151", -995391 + 19339755189914)],
+				tabi_l1l1lIl11Il.II1l1l1[(tabi_Ill1lIl11Il .. "\108\049\073\073\073\073\073\049")("\234\077\180\050\089\021\t\049\111\125\070\223\225\002\164\051\104\030\217\012", -146853 + 6455532999969)],
+				tabi_l1l1lIl11Il.I1ll1I1l[(tabi_Ill1lIl11Il .. "\108\108\049\108\049")("\t\024\185\033\059\128\152\v\047\252\149\020\025\170\048 ", 579837837870 - (-442350))],
+				tabi_l1l1lIl11Il.ll1Il11[(tabi_Ill1lIl11Il .. "\073\108\049\108\049\049\073\108")("\077\069\169\218\187\017\197\121\107\030\234\170", 12547056857564 - 738359)],
+				tabi_l1l1lIl11Il.lIlI1l1l[(tabi_Ill1lIl11Il .. "\073\108\108\049\108\049\049\108")("\n\233\232\001\101\131\163\130\029\119\182\060", 991167 + 6734713256129)],
+				tabi_l1l1lIl11Il.l1lI1[(tabi_Ill1lIl11Il .. "\073\049\073\108\073\108\073\108")("\050\049\056\204\152\040\056\124", 17723723977835 - 545777)],
+				tabi_l1l1lIl11Il.III1lI1l[(tabi_Ill1lIl11Il .. "\073\049\108\108\073\108\108")("\086\098\239\253\134\143\036\232\116\137\100~\140\138\186\050\125\102\186\085\132\021\119\076", -679029 + 16527539214485)],
+				tabi_l1l1lIl11Il.l11Illl1[(tabi_Ill1lIl11Il .. "\073\108\108\073\108\073\049")("\178\030\104\225\226\042\076\208\134\216\248\050\243\156\041\098\205\038\154 ", 10689426630932 - 557617)],
+				tabi_l1l1lIl11Il.lll111[(tabi_Ill1lIl11Il .. "\073\108\073\108\073\073\108\108")("\093\157\132\123\128\014\226\098\136\025\212\146\025\053\204\213\070\196\223\091", 622579 + 27531579941941)],
+				tabi_l1l1lIl11Il.l1lIllll[(tabi_Ill1lIl11Il .. "\108\108\073\049\073\049\073\108")("\005\109\193\249\037\058\131\124\070\174\r~", 13090385233253 - (-830010))],
+				tabi_l1l1lIl11Il.lll11lll[(tabi_Ill1lIl11Il .. "\073\108\108\108\049")("\031\101\219-\058\066\"\058\085\202\018\254\095\223\107\163\085\b\053\223", -79586 + 4287582029435)],
+				tabi_l1l1lIl11Il.II11lI1l[(tabi_Ill1lIl11Il .. "\108\073\049\108\108\073\049\049")("\065\218\n\174\060\107\028\202\043\033\038\006\031\052\170\244\205\027\202\059", 221031 + 1095249863829)],
+				tabi_l1l1lIl11Il.l11I1Ill[(tabi_Ill1lIl11Il .. "\073\049\108\049\073\108\108\049")("\173\004\233\210\241\247\026\225\109\162\254\104", -615347 + 6481304058695)],
+				tabi_l1l1lIl11Il.III1Il[(tabi_Ill1lIl11Il .. "\108\073\073\108\073\049\073\108")("\176\112\074\180\148\233\229\078\254\118\098\243\205\015\085\191\121\196\239\079\100\042\158\218", -127524 + 17996462306204)],
+				tabi_l1l1lIl11Il.ll1l1II1[(tabi_Ill1lIl11Il .. "\108\108\108\073\108\108\073\108")("\018 \029\038\134\183\203\000\085\053\109\123", 13457617464676 - 490607)],
+				tabi_l1l1lIl11Il.l11II1[(tabi_Ill1lIl11Il .. "\108\049\108\108\049\108\049")("\072\053\023\100\087\199\038\005\092\180\157\056", -485871 + 2598535000931)],
+				tabi_l1l1lIl11Il.l1111l1l[(tabi_Ill1lIl11Il .. "\073\049\073\073\073\108\049\108")("\052\133\241\066\248\048\116\112", -119972 + 35122093282410)],
+				tabi_l1l1lIl11Il.lIII11ll[(tabi_Ill1lIl11Il .. "\073\049\108\108\049\049\073\049")("\090\105\090\241\110\105\212\243\021\003\069\087", -344619 + 35001830752640)],
+				tabi_l1l1lIl11Il.I1lIlI1l[(tabi_Ill1lIl11Il .. "\073\049\049\108\049\108\108\049")("\005\087\001\195\120\014\186\083", 31699973537650 - 3104)],
+				tabi_l1l1lIl11Il.lII1lI11[(tabi_Ill1lIl11Il .. "\073\073\108\049\108\049\049\108")("\189\234\220\164\209\057~\134", 752759 + 13402853717067)],
+				tabi_l1l1lIl11Il.llIIlll1[(tabi_Ill1lIl11Il .. "\108\108\049\073\108\049\049")("\148\173\235\132\235\149\208\231", 6575796128540 - 521008)],
+				tabi_l1l1lIl11Il.l1ll1Il[(tabi_Ill1lIl11Il .. "\073\049\049\073\049\108")("\204\195\188\240\081\140\079\080", 256631137840 - (-989887))],
+				tabi_l1l1lIl11Il.I1Il1l[(tabi_Ill1lIl11Il .. "\073\073\108\073\073\049\049\108")("\125\066\231\177\091\088~\211\131\225\120\064\164\066\105\123\220\152\078\037", 431853 + 14177045519526)],
+				tabi_l1l1lIl11Il.IIl1l1l1[(tabi_Ill1lIl11Il .. "\073\049\108\049\049\108\073\049")("\196\022\022\r\232\234\161\226\149\116\079\037\084\214\132\051", 15131630576333 - (-988223))],
+				tabi_l1l1lIl11Il.l1l11l1[(tabi_Ill1lIl11Il .. "\108\049\073\073\049\073\049\049")("\138\231\142\178\019\063\018\236\064\160\a\209\127\015\192\232", -745783 + 29999115325017)],
+				tabi_l1l1lIl11Il.l11Il1l[(tabi_Ill1lIl11Il .. "\108\073\108\049\108\073\108\108")("\157\100\229\143\219\201\146\038\152~\149\060\150\117\018\087\131\199\098\246\072\241\161\049\224\158\071\216", 987967 + 4756820459023)],
+				tabi_l1l1lIl11Il.III1lIl[(tabi_Ill1lIl11Il .. "\073\108\108\073\049\108\073\049")("\095\224\170\014\102\019\049\196\094\086\002\248\042\137\223\150", 33453446505142 - (-939773))],
+				tabi_l1l1lIl11Il.lIl1llll[(tabi_Ill1lIl11Il .. "\108\049\049\049\108\073\049\108")("\174\177\006\091\095\068\192\146\153\211\238\102\157\023\069\209\224\023\103\183", 2528739181843 - 15328)],
+				tabi_l1l1lIl11Il.l1II1l1l[(tabi_Ill1lIl11Il .. "\073\049\108\073\073\073\108")("\035\029\214-\201\118\190\023\127\076\184\"\180\242\087\240\227\129\184\186\012\069\224\107", 29233512598883 - (-695542))],
+				tabi_l1l1lIl11Il.llllIll[(tabi_Ill1lIl11Il .. "\073\073\049\049\073\073\073\049")("\082\225\087\163\029\252\r-", 7398306766724 - (-179046))],
+				tabi_l1l1lIl11Il.I1lll1ll[(tabi_Ill1lIl11Il .. "\073\073\073\073\073\108\108")("\t\'\249\086\068\077\237\153", -906876 + 18788908735190)],
+				tabi_l1l1lIl11Il.IIIIIIIl[(tabi_Ill1lIl11Il .. "\108\073\073\049\108\049\049")("\179\178\205\b\166\030\205\236", 13485535328758 - 215271)],
+				tabi_l1l1lIl11Il.IlllIll1[(tabi_Ill1lIl11Il .. "\073\108\073\049\049\108\049\108")("", 8953133044801 - 488367)],
+				tabi_l1l1lIl11Il.lIl11I11[(tabi_Ill1lIl11Il .. "\073\108\073\108\073\073\073\049")("\083\230\124\155\124\137\219\253\140\231\162\122", 8539728344914 - (-993215))],
+				tabi_l1l1lIl11Il.IlllI11l[(tabi_Ill1lIl11Il .. "\108\049\108\108\108\049\108")("\241\093\219\161\219\121\189\138\153\224\074\061\141\080\235\171\124\230\028\176\189\042\023\015", 13931151149313 - (-420269))],
+				tabi_l1l1lIl11Il.I11lIll[(tabi_Ill1lIl11Il .. "\108\108\073\108\073\073\049\108")("\143\245\141\139\201\090\110\160\239\124\116\070", 954238 + 10991155779710)],
+				tabi_l1l1lIl11Il.l1lIIl[(tabi_Ill1lIl11Il .. "\108\049\049\049\049\073\049")("\041\086\197\087\180\131\167\185\204\247\184\092", 542705 + 26201173301088)],
+				tabi_l1l1lIl11Il.IlI1l[(tabi_Ill1lIl11Il .. "\108\049\108\049\108\073\108\108")("\092\138\078\124\079\201\143\b\146\175\038\047\250\239\223\212", 16639210244750 - (-848378))],
+				tabi_l1l1lIl11Il.l1lIII1[(tabi_Ill1lIl11Il .. "\108\108\073\049\108\108")("\182~\054\181\139-\047\221\151\187\020\048\069\'\147\123", 102755 + 115967553289)],
+				tabi_l1l1lIl11Il.I1l1Il1[(tabi_Ill1lIl11Il .. "\073\108\108\073\073\049\108\108")("\114\040\232\235\089\178\193\178\057\121\134\080\218\047\063\084", -371948 + 13904307576705)],
+				tabi_l1l1lIl11Il.IlIl111[(tabi_Ill1lIl11Il .. "\108\049\108\049\049\073\073\108")("\104\029\199\225\044\092\132\102\089\211\"\180\137\066\203\223\003\211\225\170", 13553183416766 - 503920)],
+				tabi_l1l1lIl11Il.l1111Il1[(tabi_Ill1lIl11Il .. "\108\108\073\049\108\049\073\108")("\071\140\222\229\119\100\136\176~\137\020\187\098\055\107\100", -321386 + 2599608611039)],
+				tabi_l1l1lIl11Il.l1lIl1ll[(tabi_Ill1lIl11Il .. "\073\073\049\108\108\049\049")("\'\174\076\182\131\081\073\050", 114212 + 2258147854867)],
+				tabi_l1l1lIl11Il.Ill11[(tabi_Ill1lIl11Il .. "\073\049\049\049\108\073\108\108")("\087\215\016\127\146\067\226\084\216\094\129\104\251\132\182\234", 11475429458731 - 383340)],
+				tabi_l1l1lIl11Il.lIl1I1l[(tabi_Ill1lIl11Il .. "\073\049\073\049\073\049\108\049")("\071\022\123\064\150\223\241\208\194\062\054\042\000\105\241\105", 4791183068200 - 834234)],
+				tabi_l1l1lIl11Il.lIlIIlIl[(tabi_Ill1lIl11Il .. "\108\108\073\049\073\108\049")("\038\177\n\092\152\002\153\209", 835002 + 18825415329474)],
+				tabi_l1l1lIl11Il.lIl1I11l[(tabi_Ill1lIl11Il .. "\073\073\073\108\049\049\049\108")("\148\183\016\190\095\188\001\191\066\244\n\224\061\123\154\023\127\237\190\075\078\099\173\125\178\019\a\220\054\132\085\169\087\227\014\189", 17644263124721 - (-987455))],
+				tabi_l1l1lIl11Il.I1Il1l1[(tabi_Ill1lIl11Il .. "\073\073\073\108\049\049")("\023\066\022\164\213\108\108\243\074\179\170\197\176\240\196\214\191\228\064\105\242\000\036\255\066\090\113\164\131\015\227\112", -151141 + 23341712253775)],
+				tabi_l1l1lIl11Il.I1II1Ill[(tabi_Ill1lIl11Il .. "\073\108\073\073\108\073\108\108")("\028\012\223\"\185\146\049\028\243\156\127\061", -890876 + 29671614219245)],
+				tabi_l1l1lIl11Il.II1llll1[(tabi_Ill1lIl11Il .. "\073\049\049\049\049\108\108\108")("\145\101\088\233\151\083\037\209\227\176\103\051\021\002\090\197", 9115272292674 - (-227303))],
+				tabi_l1l1lIl11Il.IIllII1l[(tabi_Ill1lIl11Il .. "\073\108\049\049\108\049\108\049")("\188\170\043\058\185\104\245\142\n\230\179\185", -90019 + 27701237040233)],
+				tabi_l1l1lIl11Il.lI1lIl1[(tabi_Ill1lIl11Il .. "\073\049\108\049\073\049\049")("\147\077\215\031\125\168\213\102\246\b\234\239\153\068\194\211\133\042\037\024", 921021 + 15826362805206)],
+				tabi_l1l1lIl11Il.lIl1l1l1[(tabi_Ill1lIl11Il .. "\073\049\049\049\108\073\073\108")("\124\026\217\160", -970494 + 17572322184939)],
+				tabi_l1l1lIl11Il.IlllI11[(tabi_Ill1lIl11Il .. "\073\073\049\108\108\108\108\049")("\200\042\065\051\092\089\228\248\r\017\081\206\203\019\088\004", 690229 + 14171676388185)],
+				tabi_l1l1lIl11Il.l1lIllI1[(tabi_Ill1lIl11Il .. "\073\049\073\049\073\108\049\108")("\087\232\154\"\131\092\236\083\235\200\200\023\042\243\043\105\254\037\r\241", 19190499642932 - 116836)],
+				tabi_l1l1lIl11Il.IlII1I1[(tabi_Ill1lIl11Il .. "\108\073\108\049\049\073\108\049")("\100\112\169\067\185\113\223\060\238\044\052\255\125\102\073\112", 1113503871009 - (-381932))],
+				tabi_l1l1lIl11Il.l1llIlll[(tabi_Ill1lIl11Il .. "\108\049\073\049\108\108")("\144\174\219\166\154\107\072\150\006\127\025\220", 32156327366800 - (-369771))],
+				tabi_l1l1lIl11Il.lII11II1[(tabi_Ill1lIl11Il .. "\108\073\073\049\108\049\073\049")("\049\187\221\103\235\236\119\088\005\t\153\098\102\210\173\044\252\070\129\047\113\068\219\237", -744375 + 17366157236964)],
+				tabi_l1l1lIl11Il.Ill1lI1l[(tabi_Ill1lIl11Il .. "\073\073\049\049\108\073\049\108")("\090\041\195\050\188\212\047\169\207\112\238\164\138\101\098\208", 29096070798221 - 651700)],
+				tabi_l1l1lIl11Il.Il1I1I1l[(tabi_Ill1lIl11Il .. "\108\108\049\049\108\049\049")("\231\041\185\179\232\022\087\v\087\069\254\236\119\235\114\084", 30102197059046 - 118884)],
+				tabi_l1l1lIl11Il.lIlIl1l[(tabi_Ill1lIl11Il .. "\108\108\073\108\108\049\049")("\182\052\192\239\184\094\083\211\215\132\252\031\096\086\165\133\062\142\217\077", -385452 + 15720060426972)],
+				tabi_l1l1lIl11Il.lIlI11I1[(tabi_Ill1lIl11Il .. "\108\049\049\049\049\073\108")("\085\252\109\048\067\022\142\085\222\215\112\236\250\070\188\104\226\026\192\162", -951549 + 29988377784853)],
+				tabi_l1l1lIl11Il.lll111l[(tabi_Ill1lIl11Il .. "\073\049\108\108\108\049\073\049")("\113\006\236\238\144\069\100\161\191\064\094\v\180\245\017\231", 1026368 + 34010735432314)],
+				tabi_l1l1lIl11Il.lIl1lll1[(tabi_Ill1lIl11Il .. "\073\049\049\073\108")("\022\053\065\252\192\183\218\205\109\088\239\241\017\038\163\242\168\156\208\238", 904252 + 18474290968313)],
+				tabi_l1l1lIl11Il.llII1I1l[(tabi_Ill1lIl11Il .. "\073\049\073\049\073\073\108")("\168\218\233\133\250\141\035\077\079\252\237\181\106\135\163\054", 366635 + 33895842210596)],
+				tabi_l1l1lIl11Il.I1lII1Il[(tabi_Ill1lIl11Il .. "\073\049\108\108\049\073\108")("\228\099\122\"\206\148\020\121\068\167\229\203\n\186\060\198", 12462227194015 - (-732343))],
+				tabi_l1l1lIl11Il.l1IlIll[(tabi_Ill1lIl11Il .. "\108\108\073\073\108\049\108\049")("\237\001\216\192\213\001\071\162\217\089\b\242\230\033\044\166\185\183\228\169", -967870 + 14963049921325)],
+				tabi_l1l1lIl11Il.Ill1lI11[(tabi_Ill1lIl11Il .. "\073\073\108\108\049\108\108")("\051\020\080\149\113\148\123\063\021\018\250\205\094\150\139\022", 31621588814467 - 825210)],
+				tabi_l1l1lIl11Il.I11Illl1[(tabi_Ill1lIl11Il .. "\073\073\108\073\073\049\108\049")("\074\'\196\025\177\211\073\083\057\036\153\100\082\245\189\210", 627251 + 23429760992009)],
+				tabi_l1l1lIl11Il.lI1IIlll[(tabi_Ill1lIl11Il .. "\108\073\073\049\108\049")("\217\241\242-\142\153\254\195\144\151\r\120\b\021\250\208\156\031\161\025\220\111\223\163\189\056\040\092", 957886 + 19664033163723)],
+				tabi_l1l1lIl11Il.IlIIl11[(tabi_Ill1lIl11Il .. "\073\049\073\073\073\108\049\108")("\200\204\099\163\038\129\248\175", -474863 + 18454964404754)],
+				tabi_l1l1lIl11Il.lIlll1Il[(tabi_Ill1lIl11Il .. "\108\073\108\049\049\108\108")("\068\146\113\006\077\070\101\087", -525552 + 17943847749175)],
+				tabi_l1l1lIl11Il.lIIII11l[(tabi_Ill1lIl11Il .. "\108\049\073\049\073\073\073\049")("\171\209\012\241\028\205\029\133\105~\065\252\054\231\024\093", 33729407455890 - (-59426))],
+				tabi_l1l1lIl11Il.lI11Ill1[(tabi_Ill1lIl11Il .. "\108\108\049\049\049\049\049\108")("\074\073\073\249\165\213\145\124\075\221\189\067", 361643 + 26060509010467)],
+				tabi_l1l1lIl11Il.I1IIl1[(tabi_Ill1lIl11Il .. "\108\108\073\049\073\049\073\108")("\006\150\"\197", -492463 + 16919466754364)],
+				tabi_l1l1lIl11Il.llIlI1[(tabi_Ill1lIl11Il .. "\108\049\108\073\049")("\148\198\b\"\149\033\036\059\049\248\207\235", 837882 + 3191257252514)],
+				tabi_l1l1lIl11Il.lIIl1I1[(tabi_Ill1lIl11Il .. "\108\073\108\073\073\073\108\049")("\017\086\085\057\237\155\254\180", 64426138066 - (-337514))],
+				tabi_l1l1lIl11Il.ll1lIl1[(tabi_Ill1lIl11Il .. "\108\108\108\049\108")("\076\237\222\012\067\176\012\102", -127140 + 29933614456201)],
+				tabi_l1l1lIl11Il.I1II1lIl[(tabi_Ill1lIl11Il .. "\108\108\073\049\049\073\108")("\162\049\095\135\209\122\184\025\210\074\184\r\251\025\110\118\107\073\115\152\038\081\098\082\199\162\118\170\185\073\048\018", 22677045270548 - (-359019))],
+				tabi_l1l1lIl11Il.lllI111[(tabi_Ill1lIl11Il .. "\073\073\049\073\108\073\049\108")("\063\003\046\243\193\205\058\075", 16872221073949 - 894140)],
+				tabi_l1l1lIl11Il.I11IIIl1[(tabi_Ill1lIl11Il .. "\108\049\049\073\049")("\164\026\033\154\061\131\030\141\070\069\247\078", -236903 + 3941826767806)],
+				tabi_l1l1lIl11Il.I1l11lll[(tabi_Ill1lIl11Il .. "\108\073\049\049\049\073\049\049")("\143\135\028\113\169\123\239\020", 33143127591185 - 1003647)],
+				tabi_l1l1lIl11Il.I1III1l[(tabi_Ill1lIl11Il .. "\073\108\049\108\073\073\049\049")("\042\219\129\173\021\033\005\003", 12296865641789 - (-997247))],
+				tabi_l1l1lIl11Il.Il1IIll[(tabi_Ill1lIl11Il .. "\108\108\049\073\108\108\049\108")("\113\080\231\055\054\079\002\242", 24498166937075 - (-402220))],
+				tabi_l1l1lIl11Il.ll11IlI1[(tabi_Ill1lIl11Il .. "\108\108\073\108\108\108\108\108")("\085\159\116\204\110\222\028\074\087\199\072\230\237\015\128\231\178\217\063\229\024\216\140\133", 23361039135552 - (-909756))],
+				tabi_l1l1lIl11Il.lI1llIl1[(tabi_Ill1lIl11Il .. "\108\049\049\049\073\108\049\108")("\120\122\248\248\138\130\228\048\104\240\252\128\058\133\027\196", -644916 + 3094619021942)],
+				tabi_l1l1lIl11Il.ll1IIl1l[(tabi_Ill1lIl11Il .. "\108\073\049\073\073\108\108")("\001\165\099\190\103\149\244\179\035\194\119\101\253\111\217\147\090\080\065\213", 9907718321392 - 151781)],
+				tabi_l1l1lIl11Il.Il1llII1[(tabi_Ill1lIl11Il .. "\073\073\049\108\073\108\108")("\084\065\090\245\224\104\124\185\206\236\115\061\038\173\190\141", -961470 + 16307415705361)],
+				tabi_l1l1lIl11Il.Il11Ill[(tabi_Ill1lIl11Il .. "\073\049\108\073\073\108\108\108")("\080\109\097\b\182\147\055\143", 22891799969749 - (-578418))],
+				tabi_l1l1lIl11Il.Ill1I1[(tabi_Ill1lIl11Il .. "\073\073\108\108\073\073\049\049")("\132\238\222\184\030\155\061\154\059\202\212\101\251\056\118\086", 530480 + 11530191049154)],
+				tabi_l1l1lIl11Il.ll1lIIl1[(tabi_Ill1lIl11Il .. "\073\108\108\073\049\108\108\108")("\064\031\230\221\129\084\240\177", 190502 + 27085963917923)],
+				tabi_l1l1lIl11Il.lllIlIll[(tabi_Ill1lIl11Il .. "\073\049\073\049\073\073\049\108")("\111\019\142\171\001\097\156\194\241\180~\141\158\017\087\230", 33654244242923 - 949117)],
+				tabi_l1l1lIl11Il.llII1Ill[(tabi_Ill1lIl11Il .. "\073\049\108\108\073\108\049")("\020\031\097\002\113\146\104\079", 19636115984079 - 1888)],
+				tabi_l1l1lIl11Il.IlI11lIl[(tabi_Ill1lIl11Il .. "\108\049\108\073\049\049\108")("\143\171\058\015", -615347 + 23448016402688)],
+				tabi_l1l1lIl11Il.lII111Il[(tabi_Ill1lIl11Il .. "\108\049\049\108\049\108\049")("\208\216\197\227\207\255\047\135\205\095\184\153\164~\098\117", -917052 + 31958754128511)],
+				tabi_l1l1lIl11Il.IIlllll[(tabi_Ill1lIl11Il .. "\073\073\049\049\049\049\108\108")("\073\143\101\184", 2233452158943 - 1005503)],
+				tabi_l1l1lIl11Il.l1IIIl1[(tabi_Ill1lIl11Il .. "\108\073\049\073\073\108")("\029\046\002\108\v\048\"\127\201\154\197\036\038\208\237\142\132\115\221~", -329962 + 25006063051746)],
+				tabi_l1l1lIl11Il.ll1I11l1[(tabi_Ill1lIl11Il .. "\073\073\049\108\049\108\108")("\059\175\118\236\055\069\028\a", 271784 + 23386810363756)],
+				tabi_l1l1lIl11Il.llllI1ll[(tabi_Ill1lIl11Il .. "\073\108\049\073\073\073\073\049")("\104\068\249\036\025\057\136\086\253\055\112\088\158\064\143\031\057\095\166\056\212\075\212\033", 915772 + 32165990792136)],
+				tabi_l1l1lIl11Il.l1llll[(tabi_Ill1lIl11Il .. "\108\049\049\108\073\049\049")("\251\104\051\232\042\224\021\073\054\123\122\243\202\102\251\057\026\168\026\165", -614899 + 32941257578953)],
+				tabi_l1l1lIl11Il.IlllII11[(tabi_Ill1lIl11Il .. "\108\049\049\073\073\049\049")("\239\170\n\n\095\091\188\198", 26159296198524 - (-436142))],
+				tabi_l1l1lIl11Il.l11l111[(tabi_Ill1lIl11Il .. "\108\108\049\108\108\049\049\108")("\101\170\217\197\072\001\021\001\154\248\235 ", -289705 + 22750062591596)],
+				tabi_l1l1lIl11Il.IIIl1lIl[(tabi_Ill1lIl11Il .. "\073\108\108\108\108\073\049")("\149\247\178\234\077\179\022\233", 22106870836541 - (-484143))],
+				tabi_l1l1lIl11Il.IlIllI1[(tabi_Ill1lIl11Il .. "\108\073\073\049\073\049\108\108")("\216\117\001\101\223\240\255\151\190\068\122\086\092\234\047\252", -140260 + 3987998978662)],
+				tabi_l1l1lIl11Il.l11II1l1[(tabi_Ill1lIl11Il .. "\108\049\049\108\073\108\049\049")("\069\058\065\168\156\144\137\209\252\135\083\095\252\085\211\023", 12577122246255 - 438446)],
+				tabi_l1l1lIl11Il.llIllI11[(tabi_Ill1lIl11Il .. "\073\049\049")("\170\163\005\108\118\026\059\216\120\208\041\029", 740535 + 2046613633723)],
+			} }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				tabi_Il1llIl11Il.Ill1lI1 = tabi_l11llIl11Il;
+			end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				return tabi_Il1llIl11Il.Ill1lI1;
+			end });
+	for tabi_Il1llIl11Il, tabi_l11llIl11Il in ipairs({ { -389612 + 389613, 110499 + -110346 }, { 168678 - 168677, -731884 - (-731959) }, { -70806 - (-70882), 70075 - 69922 } }) do
+		while tabi_l11llIl11Il[152805 + -152804] < tabi_l11llIl11Il[-915196 + 915198] do
+			(tabi_IIl1lIl11Il * "\108\073\049\073\108\049\108\108")[tabi_l11llIl11Il[-78242 + 78243]], (tabi_IIl1lIl11Il * "\108\108\049\073\108\073\049\049")[tabi_l11llIl11Il[-480365 - (-480367)]], tabi_l11llIl11Il[1020992 + -1020991], tabi_l11llIl11Il[55908 - 55906] = (tabi_IIl1lIl11Il * "\108\108\108\073\073\049\049\108")[tabi_l11llIl11Il[531122 - 531120]], (tabi_IIl1lIl11Il * "\073\049\049\049\073\108\073\049")[tabi_l11llIl11Il[-833914 + 833915]], tabi_l11llIl11Il[560050 - 560049] + (-614323 + 614324), tabi_l11llIl11Il[-125156 + 125158] - (-508335 - (-508336));
+		end;
+	end;
+	local tabi_lll1lIl11Il = tabi_l11llIl11Il({ l1I1llIl = function(tabi_Il1llIl11Il, ...)
+				return (tabi_IIl1lIl11Il * "\073\073\073\073\073\108\049\108")[tabi_Il1llIl11Il - (-529351 - (-575602))];
+			end }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				tabi_Il1llIl11Il.l1I1llIl = tabi_l11llIl11Il;
+			end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				return tabi_Il1llIl11Il.l1I1llIl;
+			end });
+	do
+		local tabi_Il1llIl11Il = tabi_l11llIl11Il({ lI1IIl11 = table[tabi_l1l1lIl11Il.I1I1I1[(tabi_Ill1lIl11Il .. "\073\049\108\049\049\108\108\108")("\145\120\244\216\209\161", 785080 + 19862681636234)]] }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.lI1IIl11 = tabi_l11llIl11Il;
+				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.lI1IIl11;
+				end });
+		local tabi_lII1lIl11Il = tabi_l11llIl11Il({ I1II1Il1 = string[tabi_l1l1lIl11Il.II1I1IIl[(tabi_Ill1lIl11Il .. "\073\073\073\108\073\108\073\049")("\158\134\231", 35075921272327 - 417389)]] }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.I1II1Il1 = tabi_l11llIl11Il;
+				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.I1II1Il1;
+				end });
+		local tabi_III1lIl11Il = tabi_l11llIl11Il({ Ill1lI11 = math[tabi_l1l1lIl11Il.IIl1l1Il[(tabi_Ill1lIl11Il .. "\108\108\073\049\073\049\049")("\200\085\088\168\156", 521853472616 - (-979582))]] }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.Ill1lI11 = tabi_l11llIl11Il;
+				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return rawget(tabi_Il1llIl11Il, "\073\108\108\049\108\073\049\049");
+				end });
+		local tabi_llI1lIl11Il = tabi_l11llIl11Il({ l1IIIIIl = type }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.l1IIIIIl = tabi_l11llIl11Il;
+				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.l1IIIIIl;
+				end });
+		local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ lllIl1Il = string[tabi_l1l1lIl11Il.II1I1l1l[(tabi_Ill1lIl11Il .. "\073\049\073\049\073\049\108\108")("\021\052\234", 267370154978 - 281321)]] }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.lllIl1Il = tabi_l11llIl11Il;
+				end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return rawget(tabi_Il1llIl11Il, "\108\108\108\073\108\049\073\108");
+				end });
+		local tabi_l1I1lIl11Il = tabi_l11llIl11Il({ l1Il = {
+					[tabi_l1l1lIl11Il.lIIIl11[(tabi_Ill1lIl11Il .. "\108\049\108\108\073\108")("\041", 14580785346032 - 147685)]] = -878139 + 878163,
+					[tabi_l1l1lIl11Il.lllI11I1[(tabi_Ill1lIl11Il .. "\073\073\073\108\049\073\049")("\012", 33917319045409 - 976318)]] = -330582 - (-330602),
+					[tabi_l1l1lIl11Il.I1I11Ill[(tabi_Ill1lIl11Il .. "\073\073\049\073\108\073\108\049")("\104", 25665359503909 - (-817977))]] = 233191 + -233147,
+					[tabi_l1l1lIl11Il.lI11ll1l[(tabi_Ill1lIl11Il .. "\108\073\073\049\049\049\108")("\246", 612403 + 18235913300516)]] = 160933 + -160908,
+					[tabi_l1l1lIl11Il.lllI11ll[(tabi_Ill1lIl11Il .. "\108\073\108\108\049\073\108\108")("\195", 926205 + 14530316866271)]] = -885515 - (-885563),
+					[tabi_l1l1lIl11Il.IlIIlII1[(tabi_Ill1lIl11Il .. "\108\049\073\108\049\073\108\049")("\079", -61538 + 31456226763473)]] = 164055 - 164005,
+					[tabi_l1l1lIl11Il.lI11lI1[(tabi_Ill1lIl11Il .. "\108\073\049\073\108\049\108\108")("\189", 21443279466108 - 843898)]] = -145124 + 145152,
+					[tabi_l1l1lIl11Il.l11Il1I1[(tabi_Ill1lIl11Il .. "\108\073\049\108\108\108")("\102", 18508651715672 - (-943869))]] = -558961 + 559022,
+					[tabi_l1l1lIl11Il.lll11lll[(tabi_Ill1lIl11Il .. "\108\108\108\049\049\073\073\108")("\046", 828346 + 16609144576178)]] = 392300 + -392286,
+					[tabi_l1l1lIl11Il.lllIlI1[(tabi_Ill1lIl11Il .. "\073\049\049\049\108")("\066", 13851692592847 - 343147)]] = 748855 + -748838,
+					[tabi_l1l1lIl11Il.IllIIl1l[(tabi_Ill1lIl11Il .. "\073\073\073\108\108\049\108\108")("\v", 10839753512304 - (-1004031))]] = -520358 - (-520368),
+					[tabi_l1l1lIl11Il.ll11I11[(tabi_Ill1lIl11Il .. "\073\049\049\049\073\108\049")("\109", 5332364490818 - (-138020))]] = -462044 - (-462062),
+					[tabi_l1l1lIl11Il.lIllIlIl[(tabi_Ill1lIl11Il .. "\108\049\073\049\108\073\108\108")("\030", 17159991143866 - (-626867))]] = -915324 + 915336,
+					[tabi_l1l1lIl11Il.ll1lIll[(tabi_Ill1lIl11Il .. "\108\049\108\073\049")("\044", 138212 + 17592722793500)]] = 838063 - 838010,
+					[tabi_l1l1lIl11Il.Il1111[(tabi_Ill1lIl11Il .. "\108\108\049\073\073\073\108\108")("\069", 1372284579058 - 649204)]] = -71477 - (-71522),
+					[tabi_l1l1lIl11Il.I11IIl[(tabi_Ill1lIl11Il .. "\108\108\108\049\073\049\049")("\136", 9846512825324 - (-192486))]] = 740727 + -740696,
+					[tabi_l1l1lIl11Il.llIIIl1[(tabi_Ill1lIl11Il .. "\073\073\108\108\108\108\049")("\130", -288873 + 25595565262214)]] = -596146 + 596162,
+					[tabi_l1l1lIl11Il.ll1l1l1[(tabi_Ill1lIl11Il .. "\108\073\073\073\108\108\108\108")("\016", 5044593607244 - 569330)]] = 966947 - 966910,
+					[tabi_l1l1lIl11Il.Ill1Ill[(tabi_Ill1lIl11Il .. "\073\049\049\108\073\108\049\108")("\205", 589938 + 10985787271045)]] = 65762 + -65751,
+					[tabi_l1l1lIl11Il.I11llII1[(tabi_Ill1lIl11Il .. "\073\049\073\108\108\049\049")("\139", -470767 + 34381189164034)]] = 220647 + -220621,
+					[tabi_l1l1lIl11Il.l111lll[(tabi_Ill1lIl11Il .. "\073\049\049\073\049\108\049")("\248", -477423 + 24765537690375)]] = 185126 + -185126,
+					[tabi_l1l1lIl11Il.l11lIlll[(tabi_Ill1lIl11Il .. "\073\049\108\073\073\073\108\049")("\189", 5337732480619 - (-1021184))]] = -639796 + 639815,
+					[tabi_l1l1lIl11Il.IlI1IlIl[(tabi_Ill1lIl11Il .. "\073\049\073\108\073\049\108\108")("\049", -326762 + 1650391876203)]] = -276009 + 276042,
+					[tabi_l1l1lIl11Il.lIlI1Il1[(tabi_Ill1lIl11Il .. "\108\049\108\108\108\108")("\060", 27350112256595 - (-401708))]] = -260021 - (-260072),
+					[tabi_l1l1lIl11Il.ll1IlIll[(tabi_Ill1lIl11Il .. "\108\073\073\108\049\049\108\108")("\248", -1043840 + 15513896363504)]] = -484360 - (-484399),
+					[tabi_l1l1lIl11Il.I1lIIll[(tabi_Ill1lIl11Il .. "\073\049\049\073\049\108\049")("\181", 741559 + 2693025937685)]] = 295768 - 295721,
+					[tabi_l1l1lIl11Il.lI1lllIl[(tabi_Ill1lIl11Il .. "\073\049\049\108\049\108\073\108")("\016", 308778 + 7659233863091)]] = -255720 + 255741,
+					[tabi_l1l1lIl11Il.IIl11ll1[(tabi_Ill1lIl11Il .. "\108\108\049\073\073\049\073\049")("\252", 12962605842472 - (-1044224))]] = -9010 - (-9056),
+					[tabi_l1l1lIl11Il.II1lll[(tabi_Ill1lIl11Il .. "\073\108\049\049\073\049\049")("\239", 440110 + 18966080196049)]] = 673395 - 673333,
+					[tabi_l1l1lIl11Il.llll1I1[(tabi_Ill1lIl11Il .. "\108\073\108\049\073\108\108\049")("\096", 21923255870753 - 5472)]] = 710265 - 710262,
+					[tabi_l1l1lIl11Il.llIIl1l[(tabi_Ill1lIl11Il .. "\108\073\108\049\049\049\073\049")("\235", 24280191209015 - 112099)]] = -865787 + 865845,
+					[tabi_l1l1lIl11Il.I11lIIIl[(tabi_Ill1lIl11Il .. "\073\108\073\049\108\049\073\108")("\237", 25015726595102 - (-98019))]] = 440557 - 440494,
+					[tabi_l1l1lIl11Il.IIl1Il11[(tabi_Ill1lIl11Il .. "\108\108\049\073\049\073\049\108")("\206", 367403 + 33256946326993)]] = 502759 - 502704,
+					[tabi_l1l1lIl11Il.I1l1IIIl[(tabi_Ill1lIl11Il .. "\073\049\049\049\108\049\049\108")("\206", 540401 + 33938793020550)]] = -911676 + 911699,
+					[tabi_l1l1lIl11Il.l1IlIl1[(tabi_Ill1lIl11Il .. "\073\108\073\073\049\073\108\108")("\107", 14137316789469 - 498031)]] = -172773 + 172774,
+					[tabi_l1l1lIl11Il.I1111l1[(tabi_Ill1lIl11Il .. "\073\073\073\049\073\049\073\049")("\252", 4194164324474 - 764216)]] = 484975 + -484941,
+					[tabi_l1l1lIl11Il.II1IIl[(tabi_Ill1lIl11Il .. "\073\073\049\049\108\108\049")("\166", 29358071064746 - (-82467))]] = 72478 - 72418,
+					[tabi_l1l1lIl11Il.lI1IlIl1[(tabi_Ill1lIl11Il .. "\073\049\073\108\108\108\108\049")("\122", -900220 + 25437721008390)]] = -630452 + 630490,
+					[tabi_l1l1lIl11Il.ll1Ill1[(tabi_Ill1lIl11Il .. "\108\073\049\049\108\108\049")("\107", 856315 + 19213047936234)]] = 169765 + -169735,
+					[tabi_l1l1lIl11Il.IIll1l1l[(tabi_Ill1lIl11Il .. "\108\049\049\049\108\073\073\049")("\217", -687157 + 11834070476610)]] = -180838 + 180887,
+					[tabi_l1l1lIl11Il.lIIII1ll[(tabi_Ill1lIl11Il .. "\108\073\108\049\108\049\108\049")("\251", 17897674279080 - (-637044))]] = -133257 - (-133284),
+					[tabi_l1l1lIl11Il.l11ll[(tabi_Ill1lIl11Il .. "\108\049\073\049\108\049\073\108")("\018", 502512 + 31553939687386)]] = -610355 + 610361,
+					[tabi_l1l1lIl11Il.llllIlIl[(tabi_Ill1lIl11Il .. "\108\049\049\108\049\049\108")("\055", -719734 + 32119820120143)]] = 205350 + -205296,
+					[tabi_l1l1lIl11Il.l11l1I11[(tabi_Ill1lIl11Il .. "\073\049\108\108\108\049\073\049")(" ", 4760043404997 - 634228)]] = 115336 - 115300,
+					[tabi_l1l1lIl11Il.lIl11Il[(tabi_Ill1lIl11Il .. "\108\108\073\073\049\049\108\049")("\212", 25337860097453 - 1026432)]] = 481839 + -481835,
+					[tabi_l1l1lIl11Il.llII1lI1[(tabi_Ill1lIl11Il .. "\073\108\049\108\049\108\049")("\097", -578226 + 18210143900913)]] = -493295 + 493300,
+					[tabi_l1l1lIl11Il.II111ll[(tabi_Ill1lIl11Il .. "\108\049\073\108\049\073\049\108")("\187", -149797 + 1585965223658)]] = -119447 - (-119460),
+					[tabi_l1l1lIl11Il.lII11I11[(tabi_Ill1lIl11Il .. "\108\073\108\049\073\108\073\049")("\036", 99043 + 16749809777164)]] = -375180 - (-375212),
+					[tabi_l1l1lIl11Il.IIll1I11[(tabi_Ill1lIl11Il .. "\073\108\108\073\049\049\073\049")("\235", -82467 + 11389527190418)]] = 438461 - 438446,
+					[tabi_l1l1lIl11Il.IlI11Il1[(tabi_Ill1lIl11Il .. "\073\108\108\049\049\073\073\108")("\082", 11110345899281 - 185510)]] = -44833 + 44835,
+					[tabi_l1l1lIl11Il.l111lI1[(tabi_Ill1lIl11Il .. "\108\049\073\108\073\049\073\108")("\050", -794169 + 12835902278891)]] = 658804 + -658748,
+					[tabi_l1l1lIl11Il.IIl1lI1l[(tabi_Ill1lIl11Il .. "\108\049\108\108\073\073\049")("\213", 148005 + 26418076163574)]] = -423917 + 423976,
+					[tabi_l1l1lIl11Il.ll1II1ll[(tabi_Ill1lIl11Il .. "\108\073\049\049\108\108\108\108")("\"", 23452310682987 - (-202726))]] = -500336 + 500345,
+					[tabi_l1l1lIl11Il.l111I1I1[(tabi_Ill1lIl11Il .. "\108\049\049\049\073\073\049\049")("\027", 6268695163410 - (-910524))]] = -489327 + 489335,
+					[tabi_l1l1lIl11Il.lI11lIIl[(tabi_Ill1lIl11Il .. "\073\073\073\049\108\049\049\108")("\225", 645620 + 32620197715127)]] = 56063 - 56034,
+					[tabi_l1l1lIl11Il.l1111lI1[(tabi_Ill1lIl11Il .. "\108\073\108\049\108\108\049\108")("\185", 76386 + 5228208416931)]] = -699709 - (-699766),
+					[tabi_l1l1lIl11Il.I1II1l1[(tabi_Ill1lIl11Il .. "\073\073\108\108\073\108\049\049")("\102", 21808362128378 - 144548)]] = -894844 + 894851,
+					[tabi_l1l1lIl11Il.lII1llIl[(tabi_Ill1lIl11Il .. "\073\049\108\108\049\073\049\049")("\031", 527600 + 23829205240256)]] = -340547 - (-340587),
+					[tabi_l1l1lIl11Il.Il1Il11[(tabi_Ill1lIl11Il .. "\108\049\108\108")("\098", -873595 + 33656391716587)]] = 70690 + -70655,
+					[tabi_l1l1lIl11Il.lIIIlII1[(tabi_Ill1lIl11Il .. "\108\108\049\073\108\049")("\154", 760760 + 23563982682625)]] = -1040832 + 1040873,
+					[tabi_l1l1lIl11Il.II1l1l1l[(tabi_Ill1lIl11Il .. "\108\073\049\073\073\108\049\108")("\109", 23206416665809 - 161893)]] = -78178 + 78200,
+					[tabi_l1l1lIl11Il.lll1Il11[(tabi_Ill1lIl11Il .. "\073\108\108\049\073\108\049\108")("\049", -170597 + 15971323466879)]] = -406765 + 406807,
+					[tabi_l1l1lIl11Il.ll1l111[(tabi_Ill1lIl11Il .. "\108\108\073\108\073\108\049")("\142", 28982250120722 - 81059)]] = 146533 + -146481,
+					[tabi_l1l1lIl11Il.lIl1I1l1[(tabi_Ill1lIl11Il .. "\108\073\049\108\073\049\073\108")("\000", -837946 + 28936078570110)]] = -609992 - (-610035),
+				} }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.l1Il = tabi_l11llIl11Il;
+				end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.l1Il;
+				end });
+		local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ IIllII1l = tabi_IIl1lIl11Il * "\073\108\073\049\108\108\108" }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.IIllII1l = tabi_l11llIl11Il;
+				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.IIllII1l;
+				end });
+		local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ ll11lIl1 = string[tabi_l1l1lIl11Il.lII11ll1[(tabi_Ill1lIl11Il .. "\108\073\049\073\108\108\073\049")("\020\208\235\169", 946685 + 31742923571581)]] }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.ll11lIl1 = tabi_l11llIl11Il;
+				end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.ll11lIl1;
+				end });
+		local tabi_lll1lIl11Il = tabi_l11llIl11Il({ IllIl11l = table[tabi_l1l1lIl11Il.lI1ll11[(tabi_Ill1lIl11Il .. "\073\108\108\108\073\108\108")("\042\184\029\075\021\224", 704694 + 25880114535792)]] }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.IllIl11l = tabi_l11llIl11Il;
+				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.IllIl11l;
+				end });
+		for tabi_IIl1lIl11Il = -85154 - (-85155), #tabi_I1I1lIl11Il ^ "\073\073\049\073\108\073\073\049", 903484 + -903483 do
+			local tabi_I1l1lIl11Il = tabi_l11llIl11Il({ llIIl1 = (tabi_I1I1lIl11Il ^ "\073\108\049\108\049\073\049")[tabi_IIl1lIl11Il] }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.llIIl1 = tabi_l11llIl11Il;
+					end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return tabi_Il1llIl11Il.llIIl1;
+					end });
+			if (tabi_llI1lIl11Il .. "\073\049\049\108\049\073\049\049")(tabi_I1l1lIl11Il .. "\108\049\108\108\108\049\073\108") == tabi_l1l1lIl11Il.lIlIIl1l[(tabi_Ill1lIl11Il .. "\108\073\049\073\049\073\073\049")("\236\185\031\038\149\239", 21697763949286 - 748535)] then
+				local tabi_llI1lIl11Il = tabi_l11llIl11Il({ I11I1l = tabi_IlI1lIl11Il.lI11111l(tabi_I1l1lIl11Il .. "\108\073\049\108\073\108\073\049") }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.I11I1l = tabi_l11llIl11Il;
+						end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.I11I1l;
+						end });
+				local tabi_lI11lIl11Il = tabi_l11llIl11Il({ IIl11ll1 = {} }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.IIl11ll1 = tabi_l11llIl11Il;
+						end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.IIl11ll1;
+						end });
+				local tabi_II11lIl11Il = tabi_l11llIl11Il({ I1Il1IIl = -164965 + 164966 }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.I1Il1IIl = tabi_l11llIl11Il;
+						end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.I1Il1IIl;
+						end });
+				local tabi_ll11lIl11Il = tabi_l11llIl11Il({ Il1IlIl1 = -131556 - (-131556) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.Il1IlIl1 = tabi_l11llIl11Il;
+						end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.Il1IlIl1;
+						end });
+				local tabi_Il11lIl11Il = tabi_l11llIl11Il({ IllIl11 = -934717 - (-934717) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.IllIl11 = tabi_l11llIl11Il;
+						end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.IllIl11;
+						end });
+				while tabi_II11lIl11Il - "\108\108\073\108\049\073\108" <= tabi_llI1lIl11Il .. "\108\049\108\073\049\049\049\108" do
+					local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ llI11IIl = (tabi_lII1lIl11Il + "\073\049\108\073\108\073\108\108")(tabi_I1l1lIl11Il .. "\108\108\108\049\049\108\108\049", tabi_II11lIl11Il - "\073\049\049\073\049\049\073\108", tabi_II11lIl11Il - "\073\073\108\049\108\073\073\108") }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.llI11IIl = tabi_l11llIl11Il;
+							end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return rawget(tabi_Il1llIl11Il, "\108\108\073\049\049\073\073\108");
+							end });
+					local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ lll11l1l = (tabi_l1I1lIl11Il - "\108\108\073\073\073\108\108")[tabi_IlI1lIl11Il * "\073\108\108\073\049\073\049\108"] }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.lll11l1l = tabi_l11llIl11Il;
+							end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return rawget(tabi_Il1llIl11Il, "\108\108\108\049\049\108\049\108");
+							end });
+					if tabi_I1I1lIl11Il - "\108\049\049\108\049\073\049\049" then
+						(tabi_I11llIl11Il / "\108\073\049\108\108\073\073\049")(tabi_ll11lIl11Il .. tabi_ll11lIl11Il / "\108\073\073\108\049\108\108\108" + (tabi_I1I1lIl11Il - "\073\108\049\073\073\108") * (-464814 + 464878) ^ ((566773 - 566770) - tabi_Il11lIl11Il * "\108\108\049\108\073\049\108\049"));
+						(tabi_I11llIl11Il / "\108\073\108\049\073\108\108")(tabi_Il11lIl11Il - (tabi_Il11lIl11Il * "\073\073\049\108\049\049\049" + (947325 + -947324)));
+						if tabi_Il11lIl11Il * "\073\049\108\108\049\049\073\049" == 1002563 - 1002559 then
+							(tabi_I11llIl11Il / "\108\073\073\108\049\073\073\108")(tabi_Il11lIl11Il - (-970558 - (-970558)));
+							local tabi_lII1lIl11Il = tabi_l11llIl11Il({ lI111I11 = (tabi_III1lIl11Il + "\073\049\049\073\073\073\108")((tabi_ll11lIl11Il / "\073\108\073\049") / (671541 + -606005)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+										tabi_Il1llIl11Il.lI111I11 = tabi_l11llIl11Il;
+									end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+										return tabi_Il1llIl11Il.lI111I11;
+									end });
+							local tabi_llI1lIl11Il = tabi_l11llIl11Il({ I11IIl11 = (tabi_III1lIl11Il + "\073\108\073\108\073\073\073\049")(((tabi_ll11lIl11Il / "\073\073\049\073\108\049\049\108") % (-297835 - (-363371))) / (754231 - 753975)) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+										tabi_Il1llIl11Il.I11IIl11 = tabi_l11llIl11Il;
+									end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+										return rawget(tabi_Il1llIl11Il, "\073\049\049\073\073\108\049\049");
+									end });
+							local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ lI1IllI1 = (tabi_ll11lIl11Il / "\108\049\073\108\049\108\049\108") % (-13088 - (-13344)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+										tabi_Il1llIl11Il.lI1IllI1 = tabi_l11llIl11Il;
+									end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+										return rawget(tabi_Il1llIl11Il, "\108\073\049\073\108\108\073\049");
+									end });
+							(tabi_Il1llIl11Il ^ "\073\049\049\108\108\049\073\108")(tabi_lI11lIl11Il - "\108\073\049\108\108\049\073\049", (tabi_lIl1lIl11Il / "\108\073\108\108\049\049\108\049")(tabi_lII1lIl11Il .. "\108\108\108\073\073\049", tabi_llI1lIl11Il.IIlll1l, tabi_IlI1lIl11Il.ll1ll1l));
+							(tabi_I11llIl11Il / "\108\073\108\108\073\108\049")(tabi_ll11lIl11Il .. 461294 - 461294);
+						end;
+					elseif tabi_IlI1lIl11Il * "\108\108\049\073\108\073\108\108" == tabi_l1l1lIl11Il.Il1Il11[(tabi_Ill1lIl11Il .. "\108\073\049\108\049\108\108\049")("\176", 18719113215184 - 735415)] then
+						(tabi_Il1llIl11Il ^ "\108\073\073\073\073\049\108\049")(tabi_lI11lIl11Il - "\073\108\108\073\108\049\108", (tabi_lIl1lIl11Il / "\108\049\049\049\073\108\073\108")((tabi_III1lIl11Il + "\073\049\108\108\108\049\073\049")((tabi_ll11lIl11Il / "\073\073\073\108\049\049\108") / (439918 + -374382))));
+						if tabi_II11lIl11Il - "\108\073\049\073\049\049\073\049" >= tabi_llI1lIl11Il .. "\073\049\108\108\108\073\108\049" or (tabi_lII1lIl11Il + "\073\108\108\108\049\049\073\049")(tabi_I1l1lIl11Il .. "\073\108\073\108\108\108\073\049", (tabi_II11lIl11Il - "\108\049\108\073\073\049\049\108") + (507121 - 507120), (tabi_II11lIl11Il - "\073\073\108\108\108\049\108") + (973119 - 973118)) ~= tabi_l1l1lIl11Il.lII1lIl1[(tabi_Ill1lIl11Il .. "\073\073\049\049\049\108\108\108")("\198", 17652853767751 - (-541169))] then
+							(tabi_Il1llIl11Il ^ "\073\073\049\049\073\073\049\049")(tabi_lI11lIl11Il - "\108\073\073\073\108\073\073\049", (tabi_lIl1lIl11Il / "\073\073\073\108\049\108\073\108")((tabi_III1lIl11Il + "\108\108\073\108\049\049\108\049")(((tabi_ll11lIl11Il / "\073\049\049\073\073\073\049") % (682675 - 617139)) / (-436718 + 436974))));
+						end;
+						break;
+					end;
+					(tabi_I11llIl11Il / "\073\049\073\108\108\049\108")(tabi_II11lIl11Il + ((tabi_II11lIl11Il - "\108\073\073\073\049\049\108\049") + (-316137 - (-316138))));
+				end;
+				(tabi_I1I1lIl11Il ^ "\073\108\073\073\108\108\108\108")[tabi_IIl1lIl11Il] = (tabi_lll1lIl11Il ^ "\073\108\108\073\049\049\108\049")(tabi_lI11lIl11Il - "\108\073\049\108\108\049\049");
+			end;
+		end;
+	end;
+	local tabi_Il1llIl11Il = tabi_l11llIl11Il({ I11III1 = {} }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				tabi_Il1llIl11Il.I11III1 = tabi_l11llIl11Il;
+			end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				return tabi_Il1llIl11Il.I11III1;
+			end });
+	local tabi_lII1lIl11Il = tabi_l11llIl11Il({ I1I1l1ll = -409581 - (-409581) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				tabi_Il1llIl11Il.I1I1l1ll = tabi_l11llIl11Il;
+			end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				return tabi_Il1llIl11Il.I1I1l1ll;
+			end });
+	local tabi_III1lIl11Il = tabi_l11llIl11Il({ Il1llIl1 = {} }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				tabi_Il1llIl11Il.Il1llIl1 = tabi_l11llIl11Il;
+			end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				return tabi_Il1llIl11Il.Il1llIl1;
+			end });
+	local tabi_llI1lIl11Il = tabi_l11llIl11Il({ llllIl1 = game:GetService((tabi_lll1lIl11Il - "\073\049\049\049\049\073\073\108")(1042112 + -995732)) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				tabi_Il1llIl11Il.llllIl1 = tabi_l11llIl11Il;
+			end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				return rawget(tabi_Il1llIl11Il, "\108\108\108\108\073\108\049");
+			end });
+	local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ llI1I1Il = function(...)
+				return game[(tabi_lll1lIl11Il - "\108\108\108\108\049\108\073\108")(609865 - 563569)][(tabi_lll1lIl11Il - "\073\049\108\108\049\049\108\108")(336042 + -289763)]:GetMouse();
+			end }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				tabi_Il1llIl11Il.llI1I1Il = tabi_l11llIl11Il;
+			end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				return rawget(tabi_Il1llIl11Il, "\108\108\073\049\073\049\073\108");
+			end });
+	local tabi_l1I1lIl11Il = tabi_l11llIl11Il({ Il1l1 = game:GetService((tabi_lll1lIl11Il - "\108\049\073\108\073\049\108\108")(114596 + -68338)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				tabi_Il1llIl11Il.Il1l1 = tabi_l11llIl11Il;
+			end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				return tabi_Il1llIl11Il.Il1l1;
+			end });
+	function applydrag(tabi_Il1llIl11Il, ...)
+		local tabi_lII1lIl11Il = tabi_l11llIl11Il({ Il111lll = nil }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.Il111lll = tabi_l11llIl11Il;
+				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.Il111lll;
+				end });
+		local tabi_III1lIl11Il = tabi_l11llIl11Il({ l11II1l1 = nil }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.l11II1l1 = tabi_l11llIl11Il;
+				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return rawget(tabi_Il1llIl11Il, "\108\049\049\073\073\049\108\049");
+				end });
+		local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ I11lII11 = nil }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.I11lII11 = tabi_l11llIl11Il;
+				end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.I11lII11;
+				end });
+		local tabi_l1I1lIl11Il = tabi_l11llIl11Il({ I1Il1ll = nil }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.I1Il1ll = tabi_l11llIl11Il;
+				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.I1Il1ll;
+				end });
+		local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ llI1Il11 = function(tabi_I11llIl11Il, ...)
+					local tabi_lII1lIl11Il = tabi_l11llIl11Il({ lllll1l1 = tabi_I11llIl11Il[(tabi_lll1lIl11Il - "\073\073\073\073\073\073\049")(-413101 + 459487)] - tabi_IlI1lIl11Il * "\108\108\073\108\049\049\108" }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.lllll1l1 = tabi_l11llIl11Il;
+							end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.lllll1l1;
+							end });
+					tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\049\108\073\049\073\108")(338154 + -291768)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\073\073\108\108\049")(-23137 + 69410)]((tabi_l1I1lIl11Il ^ "\073\049\049\073\073\108\108\049")[(tabi_lll1lIl11Il - "\108\049\073\108\108\108\108\049")(-798350 - (-844666))][(tabi_lll1lIl11Il - "\108\049\049\049\049\073\049\108")(-927549 + 973860)], (tabi_l1I1lIl11Il ^ "\073\108\073\073\108")[(tabi_lll1lIl11Il - "\073\108\049\049\073\073\049\108")(359958 - 313642)][(tabi_lll1lIl11Il - "\073\073\108\073\108\108\073\108")(-847418 + 893710)] + (tabi_lII1lIl11Il ^ "\108\073\108\108\073\108\073\108")[(tabi_lll1lIl11Il - "\073\049\073\049\049\073\049")(128079 - 81763)], (tabi_l1I1lIl11Il ^ "\108\049\108\049\049\108\073\108")[(tabi_lll1lIl11Il - "\108\073\073\073\049\108\108")(-674857 - (-721206))][(tabi_lll1lIl11Il - "\108\073\108\049\108\108")(140490 - 94179)], (tabi_l1I1lIl11Il ^ "\073\108\049\049\073\108")[(tabi_lll1lIl11Il - "\108\073\049\049\073\108\049\108")(458158 + -411809)][(tabi_lll1lIl11Il - "\108\108\073\073\073\108\073\108")(-555615 - (-601907))] + (tabi_lII1lIl11Il ^ "\108\108\073\049\049\108\073\108")[(tabi_lll1lIl11Il - "\073\108\073\073\073\049\049")(719682 - 673333)]);
+				end }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.llI1Il11 = tabi_l11llIl11Il;
+				end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.llI1Il11;
+				end });
+		tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\073\049\049\073\108\073\049")(-268328 + 314608)]:Connect(function(tabi_l11llIl11Il, ...)
+			if tabi_l11llIl11Il[(tabi_lll1lIl11Il - "\108\049\108\049\049\049\073\108")(-561649 + 607931)] == Enum[(tabi_lll1lIl11Il - "\108\073\049\049\073\073\108\108")(1056 + 45226)][(tabi_lll1lIl11Il - "\073\073\049\049\073\108")(-785528 + 831804)] or tabi_l11llIl11Il[(tabi_lll1lIl11Il - "\108\073\073\108\049\049\108\049")(308274 - 261992)] == Enum[(tabi_lll1lIl11Il - "\108\108\049\049\108\049\073\049")(152805 + -106523)][(tabi_lll1lIl11Il - "\073\073\108\073\108\108\108")(107747 - 61410)] then
+				(tabi_I11llIl11Il / "\073\108\108\049\073\049\073\049")(tabi_lII1lIl11Il ^ true);
+				(tabi_I11llIl11Il / "\073\073\073\108\108\073\073\108")(tabi_IlI1lIl11Il / tabi_l11llIl11Il[(tabi_lll1lIl11Il - "\073\073\073\073\108\073\108")(915821 - 869435)]);
+				(tabi_I11llIl11Il / "\108\049\108\108\049\073\073\108")(tabi_l1I1lIl11Il - tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\073\073\049\108\049\108")(-524352 - (-570738))]);
+				tabi_l11llIl11Il[(tabi_lll1lIl11Il - "\073\108\049\049\073\108\049")(678773 + -632516)]:Connect(function(...)
+					if tabi_l11llIl11Il[(tabi_lll1lIl11Il - "\108\073\073\073\049\073\108\049")(-985535 + 1031867)] == Enum[(tabi_lll1lIl11Il - "\073\049\073\108\073\073\049\049")(-450350 + 496682)][(tabi_lll1lIl11Il - "\073\049\049\073\049\073\049")(-560049 + 606363)] then
+						(tabi_I11llIl11Il / "\073\073\073\049\049\073\049\049")(tabi_lII1lIl11Il ^ false);
+					end;
+				end);
+			end;
+		end);
+		tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\108\108\073\073\073\049\049")(-262120 + 308461)]:Connect(function(tabi_Il1llIl11Il, ...)
+			if tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\108\049\049\049\108\049")(278249 + -231967)] == Enum[(tabi_lll1lIl11Il - "\108\049\073\108\108")(-465518 + 511800)][(tabi_lll1lIl11Il - "\073\049\073\073\073\108\108\049")(644122 - 597747)] or tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\108\108\073\108\108\049")(-870066 - (-916348))] == Enum[(tabi_lll1lIl11Il - "\108\073\049\049\108\073\073\108")(-246120 + 292402)][(tabi_lll1lIl11Il - "\073\049\073\073\108\108\108")(964989 - 918652)] then
+				(tabi_I11llIl11Il / "\108\049\108\108\049\108\073\049")(tabi_III1lIl11Il[tabi_Il1llIl11Il]);
+			end;
+		end);
+		tabi_llI1lIl11Il.IIlIl1I1[(tabi_lll1lIl11Il - "\108\049\108\073\108\049\108")(-240359 + 286700)]:Connect(function(tabi_Il1llIl11Il, ...)
+			if tabi_Il1llIl11Il == tabi_III1lIl11Il ^ "\108\073\049\073\049\049\108\049" and tabi_lII1lIl11Il .. "\073\073\108\073\108\049\049" then
+				(tabi_I1I1lIl11Il - "\073\108\049\049\108\049\049\108")(tabi_Il1llIl11Il);
+			end;
+		end);
+	end;
+	local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ IIl11Ill = function(tabi_Il1llIl11Il, tabi_I11llIl11Il, tabi_lII1lIl11Il, ...)
+				tabi_lII1lIl11Il = tabi_lII1lIl11Il or 403757 + -403756.5;
+				local tabi_III1lIl11Il = tabi_l11llIl11Il({ Illllll = TweenInfo[(tabi_lll1lIl11Il - "\108\108\049\073\108\073\073\049")(591730 - 545457)](tabi_lII1lIl11Il, Enum[(tabi_lll1lIl11Il - "\073\108\073\049\049\049\073\108")(-159794 - (-206118))][(tabi_lll1lIl11Il - "\108\108\108\073\073\049\108\108")(1018816 + -972486)], Enum[(tabi_lll1lIl11Il - "\108\108\108\049\108\108\073\108")(735863 + -689479)][(tabi_lll1lIl11Il - "\108\073\108\049\108\049\073\049")(1009535 + -963183)]) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.Illllll = tabi_l11llIl11Il;
+						end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.Illllll;
+						end });
+				local tabi_llI1lIl11Il = tabi_l11llIl11Il({ IllI1lIl = (tabi_l1I1lIl11Il .. "\073\073\049\108\049"):Create(tabi_Il1llIl11Il, tabi_III1lIl11Il ^ "\073\073\108\108\108\049\073\108", tabi_I11llIl11Il) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.IllI1lIl = tabi_l11llIl11Il;
+						end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.IllI1lIl;
+						end });
+				(tabi_llI1lIl11Il - "\108\108\073\108\049\108"):Play();
+			end }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				tabi_Il1llIl11Il.IIl11Ill = tabi_l11llIl11Il;
+			end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				return rawget(tabi_Il1llIl11Il, "\073\073\108\049\049\073\108\108");
+			end });
+	local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ lIlIl1I1 = function(tabi_Il1llIl11Il, ...)
+				spawn(function(...)
+					x, y = (game[(tabi_lll1lIl11Il - "\108\049\073\108\073\049\049")(-702454 + 748750)][(tabi_lll1lIl11Il - "\073\108\108\108\049\049\108")(930173 + -883894)]:GetMouse())[(tabi_lll1lIl11Il - "\073\108\073\073\073\073\049")(-168357 + 214673)], (game[(tabi_lll1lIl11Il - "\073\108\073\073\108\073\049")(766584 + -720288)][(tabi_lll1lIl11Il - "\073\108\049\108\049\108\108\049")(-651124 + 697403)]:GetMouse())[(tabi_lll1lIl11Il - "\108\073\073\049\108\073\049\049")(-274281 + 320630)];
+					tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\108\073\073\108\108\049")(444069 - 397740)] = true;
+					local tabi_lII1lIl11Il = tabi_l11llIl11Il({ Il11lII1 = Instance[(tabi_lll1lIl11Il - "\108\049\073\073\108\049\073\049")(-905212 - (-951485))]((tabi_lll1lIl11Il - "\108\108\049\049\073\108\073\049")(-997278 - (-1043584))) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.Il11lII1 = tabi_l11llIl11Il;
+							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return rawget(tabi_Il1llIl11Il, "\073\108\049\049\108\073\073\049");
+							end });
+					tabi_lII1lIl11Il.lI11IIl[(tabi_lll1lIl11Il - "\108\073\108\108\049\108\108\049")(882169 - 835834)] = (tabi_lll1lIl11Il - "\073\049\073\108\108\073\049")(14480 - (-31841));
+					tabi_lII1lIl11Il.Il1l11[(tabi_lll1lIl11Il - "\073\073\049\049\049\073\108\108")(652596 + -606240)] = tabi_Il1llIl11Il;
+					tabi_lII1lIl11Il.IllIlII1[(tabi_lll1lIl11Il - "\073\073\049\108\073\073\073\108")(-110435 + 156837)] = Color3[(tabi_lll1lIl11Il - "\108\073\108\049\073\049\108\108")(-124068 - (-170341))](-621491 + 621492, -317801 - (-317802), -541808 - (-541809));
+					tabi_lII1lIl11Il.l1I1Il1[(tabi_lll1lIl11Il - "\073\049\049\108\073\049\049\108")(591154 + -544855)] = -667317 + 667318;
+					tabi_lII1lIl11Il.I111l11l[(tabi_lll1lIl11Il - "\073\108\073\073\049\108\108\049")(432432 - 386028)] = (tabi_lll1lIl11Il - "\073\049\073\108\049\073\108\108")(1040960 + -994692);
+					tabi_lII1lIl11Il.lIIIl11l[(tabi_lll1lIl11Il - "\073\049\049\049\049\073\073\049")(-928669 - (-975038))] = -454125.5 - (-454126);
+					tabi_lII1lIl11Il.ll1lIIIl[(tabi_lll1lIl11Il - "\108\049\108\049\108\073\073\049")(-862651 + 909007)] = tabi_Il1llIl11Il;
+					tabi_lII1lIl11Il.l1lIl1ll[(tabi_lll1lIl11Il - "\073\073\073\073\108\073\049\049")(745783 + -699474)] = -628595 + 629595;
+					local tabi_III1lIl11Il = tabi_l11llIl11Il({ Il1I1Ill = x - tabi_lII1lIl11Il.l11llIIl[(tabi_lll1lIl11Il - "\108\049\049\073\073\108")(-734553 - (-780920))][(tabi_lll1lIl11Il - "\073\108\108\108\108\073\073\049")(-551025 + 597341)] }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.Il1I1Ill = tabi_l11llIl11Il;
+							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return rawget(tabi_Il1llIl11Il, "\073\108\049\073\049\073\108\108");
+							end });
+					local tabi_llI1lIl11Il = tabi_l11llIl11Il({ Il111lll = y - tabi_lII1lIl11Il.l1lIIIl1[(tabi_lll1lIl11Il - "\073\073\049\073\073\073\073\108")(-186150 + 232517)][(tabi_lll1lIl11Il - "\073\108\108\073\108\073\049\049")(-768632 + 814981)] }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.Il111lll = tabi_l11llIl11Il;
+							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.Il111lll;
+							end });
+					tabi_lII1lIl11Il.I1I1l1[(tabi_lll1lIl11Il - "\073\073\073\073\049\049\049\108")(791593 - 745207)] = UDim2[(tabi_lll1lIl11Il - "\108\073\108\108\073\073\108\049")(841914 + -795641)](-945533 + 945533, tabi_III1lIl11Il.IlI11Il, -8672 - (-8672), tabi_llI1lIl11Il + "\073\049\049\049\073\073\049\049");
+					local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ II1lIII1 = 721590 + -721590 }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.II1lIII1 = tabi_l11llIl11Il;
+							end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.II1lIII1;
+							end });
+					if tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\073\049\108\073\049\073\049\049")(-45074 - (-91363))][(tabi_lll1lIl11Il - "\073\049\073\108\049\108\073\049")(-198012 - (-244328))] > tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\108\049\049\049\108\073\108")(-279209 + 325498)][(tabi_lll1lIl11Il - "\073\049\108\073\049\049\049")(-423778 - (-470127))] then
+						(tabi_I11llIl11Il / "\108\108\108\049\073\049\049")(tabi_IlI1lIl11Il .. tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\073\049\108\108\049\073\049")(1014847 + -968558)][(tabi_lll1lIl11Il - "\108\073\073\049\073\073\108\049")(912316 + -866000)] * (66211.5 - 66210));
+					elseif tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\073\108\108\073\108\108")(974974 + -928685)][(tabi_lll1lIl11Il - "\108\108\073\073\073\108\049")(-521712 + 568028)] < tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\073\049\049\073\073\049\049")(486207 - 439918)][(tabi_lll1lIl11Il - "\073\049\049\108\108\073\049\108")(1038412 - 992063)] then
+						(tabi_I11llIl11Il / "\073\073\073\108\108\073\108")(tabi_IlI1lIl11Il .. tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\073\049\108\108\073\073\108\049")(-265305 - (-311594))][(tabi_lll1lIl11Il - "\108\049\049\108\073\108\049\049")(-268765 - (-315114))] * (701558 + -701556.5));
+					elseif tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\073\073\049\108\073\108")(211623 + -165334)][(tabi_lll1lIl11Il - "\108\049\073\108\108\073\108\049")(-860176 - (-906492))] == tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\073\108\049\049\073\108")(-432670 - (-478959))][(tabi_lll1lIl11Il - "\108\073\073\049\073\108\073\108")(895815 - 849466)] then
+						(tabi_I11llIl11Il / "\073\073\049\108\073\073\108")(tabi_IlI1lIl11Il .. tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\073\073\049\108\073\108")(565633 - 519344)][(tabi_lll1lIl11Il - "\108\073\049\049\049\049\049\108")(1012607 + -966291)] * (-612211 + 612212.5));
+					end;
+					tabi_lII1lIl11Il.IlIlI1l:TweenSizeAndPosition(UDim2[(tabi_lll1lIl11Il - "\108\108\108\073\108\073\108\108")(-622003 + 668276)](-76514 + 76514, tabi_IlI1lIl11Il / "\073\049\049\049\108\073\073\049", -772920 - (-772920), tabi_IlI1lIl11Il / "\073\049\108\073\108\073\049\049"), UDim2[(tabi_lll1lIl11Il - "\073\073\108\049\108\073\049\049")(778744 - 732471)](-123748 + 123748.5, -(tabi_IlI1lIl11Il / "\073\108\073\108\049\049\108\108") / (-751351 + 751353), -136868 + 136868.5, -(tabi_IlI1lIl11Il / "\073\049\049\108\049\049\108") / (-68450 + 68452)), (tabi_lll1lIl11Il - "\073\073\049\073\073\108\108")(-665589 + 711941), (tabi_lll1lIl11Il - "\108\108\073\073\108\108\049")(10464 + 35866), 246824 + -246823.5, false, nil);
+					(tabi_I1I1lIl11Il ^ "\108\073\108\073\049\108")(tabi_lII1lIl11Il.lII1Il11, { [(tabi_lll1lIl11Il - "\073\108\108\073\108\108\049\108")(-914108 + 960477)] = 229096 - 229095 }, -32800.5 - (-32801));
+					wait(-565681.5 - (-565682));
+					tabi_lII1lIl11Il.Il11I1l:Destroy();
+				end);
+			end }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				tabi_Il1llIl11Il.lIlIl1I1 = tabi_l11llIl11Il;
+			end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+				return tabi_Il1llIl11Il.lIlIl1I1;
+			end });
+	function tabi_Il1llIl11Il.I11III1.New(tabi_Ill1lIl11Il, tabi_Il1llIl11Il, tabi_I1I1lIl11Il, tabi_IIl1lIl11Il, ...)
+		local tabi_l1l1lIl11Il = tabi_l11llIl11Il({ IllIIlll = {} }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.IllIIlll = tabi_l11llIl11Il;
+				end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return rawget(tabi_Il1llIl11Il, "\073\108\108\073\073\108\108\108");
+				end });
+		local tabi_I1l1lIl11Il = tabi_l11llIl11Il({ l111IIll = tabi_I1I1lIl11Il or Color3[(tabi_lll1lIl11Il - "\108\073\049\108\108\108\108")(-284649 + 330918)](574863 - 574770, -1001725 - (-1001919), -674677 + 674723) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.l111IIll = tabi_l11llIl11Il;
+				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.l111IIll;
+				end });
+		local tabi_lI11lIl11Il = tabi_l11llIl11Il({ l1II1lll = tabi_I1I1lIl11Il or Color3[(tabi_lll1lIl11Il - "\108\108\073\049\073\049\108")(913660 + -867391)](-1028416 + 1028505, -355702 - (-355883), 357462 - 357419) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.l1II1lll = tabi_l11llIl11Il;
+				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.l1II1lll;
+				end });
+		local tabi_II11lIl11Il = tabi_l11llIl11Il({ IIIIlI11 = Instance[(tabi_lll1lIl11Il - "\108\073\108\049\073\049\108\108")(-592050 + 638323)]((tabi_lll1lIl11Il - "\108\108\049\108\049\049\108")(296297 + -250041)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.IIIIlI11 = tabi_l11llIl11Il;
+				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.IIIIlI11;
+				end });
+		local tabi_ll11lIl11Il = tabi_l11llIl11Il({ I1IlIll1 = Instance[(tabi_lll1lIl11Il - "\073\108\073\073\073\073\049\108")(326570 - 280297)]((tabi_lll1lIl11Il - "\108\073\108\108\073\073\073\108")(1068073 - 1021760)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.I1IlIll1 = tabi_l11llIl11Il;
+				end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.I1IlIll1;
+				end });
+		local tabi_Il11lIl11Il = tabi_l11llIl11Il({ I11l111l = Instance[(tabi_lll1lIl11Il - "\108\049\073\108\073\049\049")(501936 + -455663)]((tabi_lll1lIl11Il - "\108\049\073\073\049\049\049")(389204 - 342891)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.I11l111l = tabi_l11llIl11Il;
+				end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.I11l111l;
+				end });
+		local tabi_l111lIl11Il = tabi_l11llIl11Il({ I1l1Il1l = Instance[(tabi_lll1lIl11Il - "\073\073\073\073\108\108\073\108")(907516 + -861243)]((tabi_lll1lIl11Il - "\073\108\073\108\049\108\108\049")(1004095 + -957717)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.I1l1Il1l = tabi_l11llIl11Il;
+				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.I1l1Il1l;
+				end });
+		local tabi_I111lIl11Il = tabi_l11llIl11Il({ IlIll1Il = Instance[(tabi_lll1lIl11Il - "\108\073\073\049\108\073\108")(-403629 + 449902)]((tabi_lll1lIl11Il - "\073\049\073\073\073\108\073\108")(74402 + -28089)) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.IlIll1Il = tabi_l11llIl11Il;
+				end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return rawget(tabi_Il1llIl11Il, "\073\108\073\108\108\049\073\108");
+				end });
+		local tabi_lIII1Il11Il = tabi_l11llIl11Il({ I1lIl1l1 = Instance[(tabi_lll1lIl11Il - "\073\108\073\049\108\049\049\108")(704885 - 658612)]((tabi_lll1lIl11Il - "\073\073\108\108\049\049\108\108")(460311 - 413933)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.I1lIl1l1 = tabi_l11llIl11Il;
+				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.I1lIl1l1;
+				end });
+		local tabi_IIII1Il11Il = tabi_l11llIl11Il({ lI1Ill = Instance[(tabi_lll1lIl11Il - "\108\108\073\049\049\049\108\049")(-62882 - (-109155))]((tabi_lll1lIl11Il - "\108\108\049\073\073\049\049\108")(574767 - 528496)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.lI1Ill = tabi_l11llIl11Il;
+				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.lI1Ill;
+				end });
+		local tabi_llII1Il11Il = tabi_l11llIl11Il({ lIl111 = Instance[(tabi_lll1lIl11Il - "\108\049\073\108\049\049\049\108")(714742 + -668469)]((tabi_lll1lIl11Il - "\073\073\108\108\108\049")(-900092 + 946452)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.lIl111 = tabi_l11llIl11Il;
+				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return rawget(tabi_Il1llIl11Il, "\108\073\108\049\049\049");
+				end });
+		local tabi_IlII1Il11Il = tabi_l11llIl11Il({ lII1llI1 = Instance[(tabi_lll1lIl11Il - "\073\108\108\073\108\108\049")(840378 - 794105)]((tabi_lll1lIl11Il - "\108\108\108\073\108\049\049\108")(-276416 - (-322794))) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.lII1llI1 = tabi_l11llIl11Il;
+				end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.lII1llI1;
+				end });
+		local tabi_l1II1Il11Il = tabi_l11llIl11Il({ Il1l1I11 = Instance[(tabi_lll1lIl11Il - "\108\108\073\108\108\049\108\108")(115492 + -69219)]((tabi_lll1lIl11Il - "\108\108\073\108\049\108\073\049")(-1000191 + 1046504)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.Il1l1I11 = tabi_l11llIl11Il;
+				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return rawget(tabi_Il1llIl11Il, "\073\108\049\108\049\073\049\049");
+				end });
+		local tabi_I1II1Il11Il = tabi_l11llIl11Il({ IlI1ll = Instance[(tabi_lll1lIl11Il - "\108\073\049")(-376940 - (-423213))]((tabi_lll1lIl11Il - "\073\108\108\108\073\073\108\108")(1005247 + -958869)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.IlI1ll = tabi_l11llIl11Il;
+				end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.IlI1ll;
+				end });
+		local tabi_lIlI1Il11Il = tabi_l11llIl11Il({ llI1I1ll = Instance[(tabi_lll1lIl11Il - "\108\049\049\049\073\108\049")(302889 - 256616)]((tabi_lll1lIl11Il - "\073\049\049\073\073\108\049\108")(987302 - 940989)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.llI1I1ll = tabi_l11llIl11Il;
+				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.llI1I1ll;
+				end });
+		local tabi_IIlI1Il11Il = tabi_l11llIl11Il({ llI1Il1l = Instance[(tabi_lll1lIl11Il - "\108\049\049\108\108\073\049")(-482863 + 529136)]((tabi_lll1lIl11Il - "\108\073\049\108\049\073\073\049")(580146 + -533833)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.llI1Il1l = tabi_l11llIl11Il;
+				end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.llI1Il1l;
+				end });
+		local tabi_lllI1Il11Il = tabi_l11llIl11Il({ IlIll = Instance[(tabi_lll1lIl11Il - "\073\073\108\108\108\108\073\108")(-687350 - (-733623))]((tabi_lll1lIl11Il - "\108\073\108\049\073\049\049")(983014 - 936701)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.IlIll = tabi_l11llIl11Il;
+				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return rawget(tabi_Il1llIl11Il, "\073\108\073\108\108");
+				end });
+		local tabi_IllI1Il11Il = tabi_l11llIl11Il({ llIll1I1 = Instance[(tabi_lll1lIl11Il - "\108\049\073\049\073\108\049\049")(8288 - (-37985))]((tabi_lll1lIl11Il - "\073\049\108\108\049\073\108\108")(128100 + -81813)) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.llIll1I1 = tabi_l11llIl11Il;
+				end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.llIll1I1;
+				end });
+		local tabi_l1lI1Il11Il = tabi_l11llIl11Il({ l1l11l = Instance[(tabi_lll1lIl11Il - "\108\049\049\108\049\108")(443694 + -397421)]((tabi_lll1lIl11Il - "\073\108\049\073\108\073\108")(462510 + -416164)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.l1l11l = tabi_l11llIl11Il;
+				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.l1l11l;
+				end });
+		local tabi_I1lI1Il11Il = tabi_l11llIl11Il({ l1lIIII1 = Instance[(tabi_lll1lIl11Il - "\073\073\073\049\049\073\073\049")(-697398 + 743671)]((tabi_lll1lIl11Il - "\073\073\049\049\073\108\049\108")(305321 + -259008)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.l1lIIII1 = tabi_l11llIl11Il;
+				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.l1lIIII1;
+				end });
+		(tabi_II11lIl11Il + "\073\073\108\049\073\073\073\108")[(tabi_lll1lIl11Il - "\073\073\073\049")(-782203 - (-828538))] = (tabi_lll1lIl11Il - "\073\108\108\049\049\108\108\108")(106339 + -59992);
+		(tabi_II11lIl11Il + "\073\108\049\049\108\049\108")[(tabi_lll1lIl11Il - "\073\049\108\108\073\049\049\108")(1016210 - 969854)] = game[(tabi_lll1lIl11Il - "\073\049\049\049\073\108\049")(707638 + -661342)][(tabi_lll1lIl11Il - "\073\049\108\049\073\073\108\049")(-248296 + 294575)]:WaitForChild((tabi_lll1lIl11Il - "\108\073\073\073\049\049\108\108")(-488084 - (-534449)));
+		(tabi_II11lIl11Il + "\073\108\049\049\049")[(tabi_lll1lIl11Il - "\073\049\108\108\073\049\108\108")(1063221 - 1016960)] = Enum[(tabi_lll1lIl11Il - "\073\049\073\073\108\108")(700457 - 654196)][(tabi_lll1lIl11Il - "\108\108\049\108\108\108\049\108")(-687797 + 734136)];
+		(tabi_ll11lIl11Il / "\108\073\049\049\108\049\049")[(tabi_lll1lIl11Il - "\108\108\073\049\073\073\108")(-5902 - (-52258))] = tabi_II11lIl11Il + "\108\049\108\108\108\108\073\049";
+		(tabi_ll11lIl11Il / "\073\049\108\073\073\049\049\108")[(tabi_lll1lIl11Il - "\073\108\073\073\073\049\073\108")(-128995 - (-175397))] = Color3[(tabi_lll1lIl11Il - "\073\049\049\073\108\049\049")(70366 - 24097)](717914 - 717878, -206597 - (-206630), -281093 - (-281129));
+		(tabi_ll11lIl11Il / "\073\049\049\049\049\049\073\049")[(tabi_lll1lIl11Il - "\073\108\049\108\049\108")(520674 - 474415)] = Color3[(tabi_lll1lIl11Il - "\108\108\073\108\108\073\073\049")(24289 + 21980)](1046400 - 1046400, -420525 + 420525, 26337 + -26337);
+		(tabi_ll11lIl11Il / "\108\108\073\108\108\049\049")[(tabi_lll1lIl11Il - "\108\073\108\108\073\049")(-78178 + 124506)] = 1013119 + -1013119;
+		(tabi_ll11lIl11Il / "\108\073\073\108\049\108\073\049")[(tabi_lll1lIl11Il - "\073\073\049\073\049\108\073\108")(658228 + -611842)] = UDim2[(tabi_lll1lIl11Il - "\073\108\073\108\108\108")(222503 + -176230)](998527 - 998527, 519472 + -519467, -967742 + 967742, -32545 + 32550);
+		(tabi_ll11lIl11Il / "\108\108\073\049\108\049\049\108")[(tabi_lll1lIl11Il - "\108\049\049\049\108")(-799033 + 845397)] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\049\073\073\049")(-545585 - (-591858))](-114660 - (-114660), -550961 + 551461, 43809 - 43809, -995903 + 996213);
+		(tabi_ll11lIl11Il / "\073\049\108\049\049\049\108\108")[(tabi_lll1lIl11Il - "\108\049\049\049\073\108")(-319914 + 366243)] = true;
+		(tabi_I1lI1Il11Il + "\108\108\049\049\108\073\108")[(tabi_lll1lIl11Il - "\108\049\049\049\073\073\108")(882553 - 836218)] = (tabi_lll1lIl11Il - "\108\108\073\049\108\049\073\049")(349739 + -303349);
+		(tabi_I1lI1Il11Il + "\108\073\073\049\049")[(tabi_lll1lIl11Il - "\108\049\049\073\049\049\073\108")(864315 + -817959)] = tabi_ll11lIl11Il / "\108\108\073\049\108\049\049\108";
+		(tabi_I1lI1Il11Il + "\108\108\049\049\073\108\108\108")[(tabi_lll1lIl11Il - "\073\049\108\073\108\073\073\049")(774712 + -728310)] = Color3[(tabi_lll1lIl11Il - "\108\049\049\108\108\108\073\049")(-164970 - (-211239))](501104 + -500849, 567473 - 567218, 354218 - 353963);
+		(tabi_I1lI1Il11Il + "\073\073\108\073\073\108\049\049")[(tabi_lll1lIl11Il - "\073\049\108\049\073\108\108\049")(660686 - 614387)] = 81828 - 81827;
+		(tabi_I1lI1Il11Il + "\073\073\108\073\049\073\049")[(tabi_lll1lIl11Il - "\073\049\049\073\049\073\073\108")(-539071 - (-585330))] = Color3[(tabi_lll1lIl11Il - "\108\073\108\073\108\073\073\108")(-647412 + 693681)](872571 - 872571, 44641 + -44641, -754487 - (-754487));
+		(tabi_I1lI1Il11Il + "\108\108\049\108\108\073\073\108")[(tabi_lll1lIl11Il - "\108\073\108\108\108\073\049\049")(549992 - 503664)] = -767608 - (-767608);
+		(tabi_I1lI1Il11Il + "\108\049\049\049\049\073\073\108")[(tabi_lll1lIl11Il - "\073\108\073\049\073\049\108\049")(-19440 - (-65826))] = UDim2[(tabi_lll1lIl11Il - "\108\049\073\073\108\049\108")(-961086 + 1007359)](.238000005, 236647 + -236647, .109677419, 304873 - 304873);
+		(tabi_I1lI1Il11Il + "\073\073\108\073\108\108\073\108")[(tabi_lll1lIl11Il - "\108\049\073\049\049\108")(-342571 + 388935)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\108\073\049\049")(355883 - 309610)](197030 - 197030, -751303 - (-751671), 588274 + -588274, 564850 + -564581);
+		(tabi_Il11lIl11Il * "\108\049\108\108\049\073\049")[(tabi_lll1lIl11Il - "\073\108\108\073\049\049\108\108")(-638070 - (-684405))] = (tabi_lll1lIl11Il - "\108\049\049\073\108")(132331 - 85987);
+		(tabi_Il11lIl11Il * "\073\049\108\073\049\073\049\108")[(tabi_lll1lIl11Il - "\108\073\049\049\073\108\108\108")(-467822 + 514178)] = tabi_ll11lIl11Il / "\108\049\049\108\108\049\073\049";
+		(tabi_Il11lIl11Il * "\073\073\108\108\073\108\049\049")[(tabi_lll1lIl11Il - "\073\108\073\049\049\049\049\108")(-346154 - (-392556))] = tabi_I1l1lIl11Il .. "\073\049\108\108\108\073\108";
+		(tabi_Il11lIl11Il * "\073\049\049\049\049\049\108\108")[(tabi_lll1lIl11Il - "\108\108\108\049\049\049")(-213095 + 259354)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\073\108")(-446450 - (-492719))](192294 + -192294, 775608 - 775608, -998847 + 998847);
+		(tabi_Il11lIl11Il * "\073\108\073\049\049")[(tabi_lll1lIl11Il - "\073\073\049\073\108\073\049\049")(-807033 + 853361)] = 865531 + -865531;
+		(tabi_Il11lIl11Il * "\073\108\108\073\073\108\049")[(tabi_lll1lIl11Il - "\108\073\108\049\049\073\049")(-436270 + 482634)] = UDim2[(tabi_lll1lIl11Il - "\073\049\108\049\073\073\049")(493935 - 447662)](-876603 + 876604, -338730 - (-338730), 280617 + -280617, -1012095 + 1012120);
+		(tabi_l111lIl11Il ^ "\073\073\073\108\073\108\049\108")[(tabi_lll1lIl11Il - "\073\049\073\049\108\049\073\108")(-212519 + 258779)] = UDim[(tabi_lll1lIl11Il - "\073\073\049\108\108\108\073\049")(-917693 - (-963966))](-302953 - (-302953), -574578 + 574584);
+		(tabi_l111lIl11Il ^ "\073\073\108\073\073\049\073\049")[(tabi_lll1lIl11Il - "\108\108\073\108\049\049\073\108")(-11360 + 57695)] = (tabi_lll1lIl11Il - "\073\108\073\073\073\108\108\049")(318533 - 272232);
+		(tabi_l111lIl11Il ^ "\073\108\108\108\049\073\049\049")[(tabi_lll1lIl11Il - "\073\108\108\049\073\073\073\108")(448704 - 402348)] = tabi_Il11lIl11Il * "\108\108\073\049\073\073\108\108";
+		tabi_I111lIl11Il.IlI1llll[(tabi_lll1lIl11Il - "\073\073\108\049")(803705 + -757370)] = (tabi_lll1lIl11Il - "\108\049\073\073\049\108\049\108")(-1036544 + 1082869);
+		tabi_I111lIl11Il.l1l1l1[(tabi_lll1lIl11Il - "\073\073\049\108\049\073\049")(596037 - 549681)] = tabi_Il11lIl11Il * "\073\073\073\073\049\073\073\049";
+		tabi_I111lIl11Il.I1II1lll[(tabi_lll1lIl11Il - "\108\108\108\108\073\049\049\108")(241233 - 194918)] = Vector2[(tabi_lll1lIl11Il - "\108\073\073\049\073\108\049\108")(-502128 - (-548401))](-3808 - (-3808), 15649 - 15648);
+		tabi_I111lIl11Il.I1lII1[(tabi_lll1lIl11Il - "\108\073\049\073\073\049\108\049")(-700149 - (-746551))] = tabi_I1l1lIl11Il .. "\108\073\049\108\108\108";
+		tabi_I111lIl11Il.llI1I1l1[(tabi_lll1lIl11Il - "\073\073\108\049\108\073\049")(-167525 + 213784)] = Color3[(tabi_lll1lIl11Il - "\108\108\073\073\073\108\108\108")(-922493 + 968762)](44321 - 44321, 775288 + -775288, 230439 - 230439);
+		tabi_I111lIl11Il.llI11l1[(tabi_lll1lIl11Il - "\108\073\108\049\049\108\108\108")(-167781 + 214109)] = 91235 - 91235;
+		tabi_I111lIl11Il.lIlI1Ill[(tabi_lll1lIl11Il - "\108\108\049\108\108\049\073\108")(690357 + -643971)] = UDim2[(tabi_lll1lIl11Il - "\073\108\073\049\073\073\049")(-1045696 + 1091969)](515248 + -515248, -499887 + 499887, 1.00000012, -898044 - (-898044));
+		tabi_I111lIl11Il.II111ll[(tabi_lll1lIl11Il - "\073\073\073\073\049\108")(158975 - 112611)] = UDim2[(tabi_lll1lIl11Il - "\073\108\073\108\073\108\073\049")(-397037 - (-443310))](39650 - 39649, 945981 - 945981, .0390000008, 641652 + -641644);
+		(tabi_lIII1Il11Il .. "\108\108\049\108\073\049\108\049")[(tabi_lll1lIl11Il - "\073\108\073\073\108\073\108\049")(412394 - 366059)] = (tabi_lll1lIl11Il - "\108\073\108\108")(-302185 + 348469);
+		(tabi_lIII1Il11Il .. "\108\049\049\073\073\049\049\108")[(tabi_lll1lIl11Il - "\108\108\108\108\073\108\073\049")(802105 + -755749)] = tabi_I111lIl11Il.IllIll;
+		(tabi_lIII1Il11Il .. "\073\049\108\073\049\049\108\108")[(tabi_lll1lIl11Il - "\073\073\108\108\073\073\108")(717110 + -670850)] = UDim[(tabi_lll1lIl11Il - "\108\108\108\049\073\073\108\108")(615283 + -569010)](-714934 + 714934, 294761 - 294761);
+		(tabi_IIII1Il11Il + "\108\049\108\073\108\073\108\049")[(tabi_lll1lIl11Il - "\108\108\108\073\073\073\073\049")(922365 + -876009)] = tabi_Il11lIl11Il * "\108\073\049\073\073\049\108\049";
+		(tabi_IIII1Il11Il + "\108\049\049\108\108\049\073\108")[(tabi_lll1lIl11Il - "\108\049\108\108\049\073\049")(-459630 - (-506032))] = Color3[(tabi_lll1lIl11Il - "\108\073\049\108\049\073\073\108")(307365 - 261096)](-1043841 - (-1044096), 281449 + -281194, -371757 - (-372012));
+		(tabi_IIII1Il11Il + "\073\073\108\108\049\073\108")[(tabi_lll1lIl11Il - "\108\108\108\108\108\073\049\108")(-25441 + 71740)] = -201766 + 201767;
+		(tabi_IIII1Il11Il + "\073\108\073\049\049\108\108")[(tabi_lll1lIl11Il - "\108\073\108\108\073\049\073\108")(485985 - 439726)] = Color3[(tabi_lll1lIl11Il - "\073\108\073\073\073\049\108\108")(575474 + -529205)](421677 + -421677, 237351 + -237351, 75490 + -75490);
+		(tabi_IIII1Il11Il + "\108\108\108\108\073\049\049\108")[(tabi_lll1lIl11Il - "\073\108\073\049\073\049\049")(-754295 + 800623)] = 1045952 + -1045952;
+		(tabi_IIII1Il11Il + "\073\049\073\073\049\049\108\108")[(tabi_lll1lIl11Il - "\108\049\073\073\073\073\049\049")(393900 + -347514)] = UDim2[(tabi_lll1lIl11Il - "\073\073\108\108\108\108\073\049")(-527024 + 573297)](.0599999987, -843642 - (-843642), -109923 - (-109923), 833722 + -833722);
+		(tabi_IIII1Il11Il + "\073\073\049\049\108")[(tabi_lll1lIl11Il - "\108\049\049\049\049\049")(595122 + -548758)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\049\073\108\073\049")(-277161 + 323434)](.477999985, 104931 + -104931, 306731 - 306730, 542385 + -542385);
+		(tabi_IIII1Il11Il + "\073\073\073\073\049\108")[(tabi_lll1lIl11Il - "\073\049\108\049\049\108\108\049")(-667829 + 714223)] = Enum[(tabi_lll1lIl11Il - "\108\108\073\073\108\073\049")(-979910 - (-1026304))][(tabi_lll1lIl11Il - "\073\073\108\108\073\108\073\049")(-826628 - (-872955))];
+		(tabi_IIII1Il11Il + "\108\073\049\049\108\049\049\108")[(tabi_lll1lIl11Il - "\108\108\108\108\073\049\073\049")(108707 + -62304)] = tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\108\073\049\073\049\049\049")(-898203 - (-944573));
+		(tabi_IIII1Il11Il + "\108\049\073\108\049\049\073\049")[(tabi_lll1lIl11Il - "\108\108\049\108\073\108\108\108")(820473 + -774131)] = Color3[(tabi_lll1lIl11Il - "\108\108\108\073\073\108")(243491 - 197222)](736054 - 735799, -1013759 + 1014014, 70753 - 70498);
+		(tabi_IIII1Il11Il + "\108\049\073\108\049\049")[(tabi_lll1lIl11Il - "\073\049\073\108\073\049")(-56717 - (-103011))] = -435630 + 435644;
+		(tabi_IIII1Il11Il + "\073\108\049\049\073\049\108\049")[(tabi_lll1lIl11Il - "\108\073\073\108\108\073\073\049")(-1016384 + 1062701)] = Enum[(tabi_lll1lIl11Il - "\108\049\073\073\049\108")(-699594 - (-745911))][(tabi_lll1lIl11Il - "\073\108\073\108\049\049")(-452270 + 498604)];
+		(tabi_llII1Il11Il + "\073\049\108\108\108\108\049")[(tabi_lll1lIl11Il - "\108\108\049\049\073\073\108\049")(-751287 + 797622)] = (tabi_lll1lIl11Il - "\073\108\073\073\049\049\108")(323926 - 277545);
+		(tabi_llII1Il11Il + "\073\049\049\108\049\073\108\108")[(tabi_lll1lIl11Il - "\073\108\049\108\073\108\073\108")(-844410 + 890766)] = tabi_Il11lIl11Il * "\108\108\073\049\049\073\108\049";
+		(tabi_llII1Il11Il + "\073\049\073\073\108\073\073\108")[(tabi_lll1lIl11Il - "\073\049\108\108\108\049\049\108")(-768183 - (-814585))] = Color3[(tabi_lll1lIl11Il - "\108\049\108\108\049\108\108")(915576 - 869307)](-1017857 - (-1018112), 403180 + -402925, 595250 + -594995);
+		(tabi_llII1Il11Il + "\073\049\049\049\108\108\108\049")[(tabi_lll1lIl11Il - "\108\049\108\073\073\108\108\049")(892245 - 845946)] = -874618 - (-874619);
+		(tabi_llII1Il11Il + "\073\108\049\073\073\049")[(tabi_lll1lIl11Il - "\108\073\108\073\049\108\049")(-213351 + 259610)] = Color3[(tabi_lll1lIl11Il - "\073\073\108\108\108\108\073\049")(-512880 + 559149)](832698 - 832698, 438446 - 438446, -804729 - (-804729));
+		(tabi_llII1Il11Il + "\108\073\073\108\108\108\073\108")[(tabi_lll1lIl11Il - "\108\049\073\049\049\108\108\108")(217629 - 171301)] = 773112 - 773112;
+		(tabi_llII1Il11Il + "\108\108\049\108\108\108\108\049")[(tabi_lll1lIl11Il - "\108\049\049\108\108\073\049")(-980750 - (-1027136))] = UDim2[(tabi_lll1lIl11Il - "\108\073\108\073\049\108\108\108")(24032 - (-22241))](.0179999992, -872955 + 872955, .194999993, -168933 - (-168933));
+		(tabi_llII1Il11Il + "\108\073\073\049\073\073\073\108")[(tabi_lll1lIl11Il - "\108\049\108\073\108\108\108\049")(408715 - 362347)] = 950257 - 950077;
+		(tabi_llII1Il11Il + "\108\073\073\049\073\073\108\049")[(tabi_lll1lIl11Il - "\108\108\108\073\073\073\108\108")(884886 - 838522)] = UDim2[(tabi_lll1lIl11Il - "\073\073\108\108\049\108\073\108")(-81955 + 128228)](548529 + -548529, 92595 - 92579, -744823 - (-744823), 154101 - 154085);
+		(tabi_llII1Il11Il + "\073\073\073\073\049\108\073\108")[(tabi_lll1lIl11Il - "\073\073\073\073\108\049")(-78112 - (-124516))] = (tabi_lll1lIl11Il - "\073\049\108\049\049")(-558449 + 604797);
+		(tabi_IlII1Il11Il * "\073\108\049\108\073\049")[(tabi_lll1lIl11Il - "\108\108\049\108\073\108\108\108")(350187 + -303927)] = UDim[(tabi_lll1lIl11Il - "\108\049\073\049\073\073\049")(1030528 - 984255)](37729 - 37729, -610099 + 610105);
+		(tabi_IlII1Il11Il * "\108\108\073\108\108\073\108")[(tabi_lll1lIl11Il - "\108\049\073\049\108\108\049")(-598773 - (-645108))] = (tabi_lll1lIl11Il - "\108\073\049\108\108\073\073\049")(-719286 + 765619);
+		(tabi_IlII1Il11Il * "\073\108\108\073\073\049\108\049")[(tabi_lll1lIl11Il - "\073\049\049\108\073\073\073\049")(-662050 - (-708406))] = tabi_ll11lIl11Il / "\108\049\108\049\049\108\073\108";
+		(tabi_l1II1Il11Il .. "\073\108\108\108\108\073\108\049")[(tabi_lll1lIl11Il - "\108\049\049\108\049\073\108\108")(-119078 - (-165413))] = (tabi_lll1lIl11Il - "\073\108\108\073\108\049\108\108")(810637 - 764280);
+		(tabi_l1II1Il11Il .. "\108\073\108\073\073\073\108\108")[(tabi_lll1lIl11Il - "\073\049\108\108\073\108\073\108")(928893 + -882537)] = tabi_ll11lIl11Il / "\073\049\108\108\049\049\073\108";
+		(tabi_l1II1Il11Il .. "\108\073\108\073\073\108\108\049")[(tabi_lll1lIl11Il - "\073\108\073\108\073\073\049\049")(-502384 + 548786)] = Color3[(tabi_lll1lIl11Il - "\073\073\108\049\049")(435181 + -388912)](919997 + -919959, 385807 - 385772, 108873 - 108835);
+		(tabi_l1II1Il11Il .. "\108\049\049\073\073\049\049\108")[(tabi_lll1lIl11Il - "\108\108\049\108\108\073\049\049")(-8416 + 54675)] = Color3[(tabi_lll1lIl11Il - "\108\108\108\073\073\049\049")(39713 + 6556)](155045 - 155045, 404397 + -404397, -799289 - (-799289));
+		(tabi_l1II1Il11Il .. "\073\108\108\049\049\049\073\108")[(tabi_lll1lIl11Il - "\073\108\108\073\108\073\049")(550632 - 504304)] = -536113 - (-536113);
+		(tabi_l1II1Il11Il .. "\108\108\108\049\108\108\108")[(tabi_lll1lIl11Il - "\108\108\108\108\108\049")(905389 - 859003)] = UDim2[(tabi_lll1lIl11Il - "\073\049\108\073\108\108\108")(-481647 + 527920)](-405741 + 405741, -82211 - (-82211), -218919 + 218919, 287593 + -287563);
+		(tabi_l1II1Il11Il .. "\073\073\049\073\049\073\108")[(tabi_lll1lIl11Il - "\108\049\049\108\049\049")(644495 - 598131)] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\049\049\049\108\108")(-590963 - (-637236))](-819961 - (-819961), -555825 + 555935, 150309 - 150309, 759864 + -759591);
+		(tabi_I1II1Il11Il / "\073\049\108\108\073\108\073\108")[(tabi_lll1lIl11Il - "\073\049\108\073\049\073\049\108")(-782968 + 829228)] = UDim[(tabi_lll1lIl11Il - "\073\073\049\108\073\073\073\108")(-40609 + 86882)](887292 - 887292, 1009285 - 1009279);
+		(tabi_I1II1Il11Il / "\108\049\049\108\108\073\073\108")[(tabi_lll1lIl11Il - "\073\049\108\108\073\049\073\049")(-605747 + 652082)] = (tabi_lll1lIl11Il - "\073\073\108\049\049\049")(113872 - 67490);
+		(tabi_I1II1Il11Il / "\073\108\073\049\108")[(tabi_lll1lIl11Il - "\073\108\073\073\073\049\073\108")(989759 + -943403)] = tabi_l1II1Il11Il .. "\073\073\073\049\049\073\108";
+		(tabi_lIlI1Il11Il + "\108\073\049\073\073\049\108\108")[(tabi_lll1lIl11Il - "\108\049\108\073\108\108\108\049")(-841789 - (-888124))] = (tabi_lll1lIl11Il - "\108\049\073\073\049\073\108")(564369 - 518064);
+		(tabi_lIlI1Il11Il + "\108\049\108\108\108\108\108\108")[(tabi_lll1lIl11Il - "\073\049\073\049\049\073\049\108")(942992 - 896636)] = tabi_l1II1Il11Il .. "\108\073\073\108\108\108\073\049";
+		(tabi_lIlI1Il11Il + "\108\049\108\049\073\073\049\049")[(tabi_lll1lIl11Il - "\108\108\073\073\073\108\073\108")(-788472 + 834787)] = Vector2[(tabi_lll1lIl11Il - "\073\073\108\049\049")(-861435 - (-907708))](424173 + -424172, -936445 + 936446);
+		(tabi_lIlI1Il11Il + "\108\049\073\073\108\073\108\049")[(tabi_lll1lIl11Il - "\108\073\108\073\108")(519344 + -472942)] = Color3[(tabi_lll1lIl11Il - "\108\049\073\049\049\073\108\049")(978362 - 932093)](569624 - 569586, -50786 + 50821, 125348 + -125310);
+		(tabi_lIlI1Il11Il + "\108\049\108\049\073\108\049")[(tabi_lll1lIl11Il - "\073\073\073\049\073\108\073\108")(-1020800 + 1067059)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\049\049\049\073\108")(-299113 + 345382)](339883 - 339883, 243560 - 243560, -43681 + 43681);
+		(tabi_lIlI1Il11Il + "\073\049\049\108\073\073\108\049")[(tabi_lll1lIl11Il - "\073\049\108\108\073\108")(94435 + -48107)] = -779448 + 779448;
+		(tabi_lIlI1Il11Il + "\108\073\108\049\049\049\108\049")[(tabi_lll1lIl11Il - "\073\108\108\073\108\108\108\049")(-350394 - (-396780))] = UDim2[(tabi_lll1lIl11Il - "\073\108\108\108\049")(386604 - 340331)](479152 - 479151, 85283 - 85283, -436974 + 436975, 250856 + -250856);
+		(tabi_lIlI1Il11Il + "\108\108\049\073\073\049\108\108")[(tabi_lll1lIl11Il - "\108\049\073\108")(-913122 - (-959486))] = UDim2[(tabi_lll1lIl11Il - "\073\108\049\108\073\049\049")(636084 + -589811)](416301 + -416301, -90915 + 90922, -507888 + 507888, 344235 + -344228);
+		(tabi_IIlI1Il11Il - "\108\073\049\073\108\049\049\108")[(tabi_lll1lIl11Il - "\108\108\108\108\073\049\108")(317863 - 271528)] = (tabi_lll1lIl11Il - "\108\049\073\073\049\073\049\108")(-818681 + 865068);
+		(tabi_IIlI1Il11Il - "\073\108\049\073\108\073\049\108")[(tabi_lll1lIl11Il - "\073\073\108\073\073\108")(-429037 + 475393)] = tabi_l1II1Il11Il .. "\108\049\073\049\049\049\049\108";
+		(tabi_IIlI1Il11Il - "\108\049\073\049\108\073\108\049")[(tabi_lll1lIl11Il - "\073\049\108\108\108\073\073\108")(820602 - 774200)] = Color3[(tabi_lll1lIl11Il - "\073\073\049\108\049\049\108")(-494580 - (-540849))](796857 + -796819, -1014655 + 1014690, -215937 - (-215975));
+		(tabi_IIlI1Il11Il - "\073\049\108\073\108")[(tabi_lll1lIl11Il - "\073\073\049\049\108\073\049")(-172404 - (-218663))] = Color3[(tabi_lll1lIl11Il - "\108\049\049\049\049\073\049")(3424 + 42845)](-121060 - (-121060), 639220 + -639220, -543601 - (-543601));
+		(tabi_IIlI1Il11Il - "\073\073\108\073\049\049\073\049")[(tabi_lll1lIl11Il - "\108\073\108\108\049\073\073\108")(-953415 - (-999743))] = -909756 + 909756;
+		(tabi_IIlI1Il11Il - "\108\073\073\049\108\073\073\049")[(tabi_lll1lIl11Il - "\108\049\073\073\049\049")(-594802 + 641166)] = UDim2[(tabi_lll1lIl11Il - "\073\108\049\049\108\108\108\108")(385836 - 339563)](-449198 + 449199, -200550 - (-200550), 1016704 - 1016704, 1008063 + -1008056);
+		(tabi_lllI1Il11Il + "\073\108\073\073\073\108\073\049")[(tabi_lll1lIl11Il - "\073\073\108\049\049\049\108\108")(-468015 + 514350)] = (tabi_lll1lIl11Il - "\108\073\108\073\073\073\108")(-103651 + 150012);
+		(tabi_lllI1Il11Il + "\073\073\073\108\073\073\108\108")[(tabi_lll1lIl11Il - "\108\073\049\073\108\049\073\049")(170808 - 124452)] = tabi_l1II1Il11Il .. "\073\108\073\108\073\073\073\108";
+		(tabi_lllI1Il11Il + "\108\108\049\049\073\049\049")[(tabi_lll1lIl11Il - "\073\073\073\073\049\108\049")(726455 - 680053)] = Color3[(tabi_lll1lIl11Il - "\073\108\108\108\073\073\049\049")(-700858 - (-747127))](-657204 + 657459, 187813 - 187558, 139940 + -139685);
+		(tabi_lllI1Il11Il + "\073\049\049\108\108\073\108")[(tabi_lll1lIl11Il - "\108\108\049\073\108\108")(-742583 + 788882)] = 640500 + -640499;
+		(tabi_lllI1Il11Il + "\108\049\049\073\073\073\073\049")[(tabi_lll1lIl11Il - "\073\073\073\108\073\049\108\108")(620147 + -573888)] = Color3[(tabi_lll1lIl11Il - "\073\049\108\108\108\049\108\049")(-527728 + 573997)](-361579 - (-361579), 636276 - 636276, 293673 + -293673);
+		(tabi_lllI1Il11Il + "\073\049\108\049\108\108\108\108")[(tabi_lll1lIl11Il - "\073\108\108\049\049\108\073\049")(-205168 - (-251496))] = -644212 + 644212;
+		(tabi_lllI1Il11Il + "\108\073\073\073\108\049\108\108")[(tabi_lll1lIl11Il - "\108\108\049\073\073\108\108\049")(206438 + -160109)] = true;
+		(tabi_lllI1Il11Il + "\073\049\108\049\073\073\108\049")[(tabi_lll1lIl11Il - "\073\073\073\049\073\049\049")(-319097 - (-365483))] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\073\108\108")(127524 - 81251)](-705334 + 705334, 690357 - 690357, .00706713786, -460974 + 460974);
+		(tabi_lllI1Il11Il + "\108\049\073\073\073\049\073\049")[(tabi_lll1lIl11Il - "\073\073\073\108\108\108\108\049")(656655 - 610291)] = UDim2[(tabi_lll1lIl11Il - "\108\049\049\108\073\049\108\049")(-639092 - (-685365))](277034 - 277033, 858619 + -858619, .980000019, -399788 - (-399788));
+		(tabi_IllI1Il11Il / "\108\108\049\108\073\049\049\108")[(tabi_lll1lIl11Il - "\108\073\108\049\073\049\108\049")(731060 - 684725)] = (tabi_lll1lIl11Il - "\108\108\049\073\049\073\108\049")(-161381 + 207659);
+		(tabi_IllI1Il11Il / "\073\108\049\073\108\073\108\049")[(tabi_lll1lIl11Il - "\108\073\049\049\073\073\049\108")(46068 - (-288))] = tabi_lllI1Il11Il + "\108\049\108\108\108\073\049";
+		(tabi_IllI1Il11Il / "\108\049\049\073\049\108\073\049")[(tabi_lll1lIl11Il - "\108\049\073\108\073\073\108\108")(-712630 + 759032)] = Color3[(tabi_lll1lIl11Il - "\108\049\108\049\073\049\108\049")(-712315 - (-758584))](721462 + -721207, -945533 + 945788, 536625 + -536370);
+		(tabi_IllI1Il11Il / "\108\108\108\073\073\049\073\108")[(tabi_lll1lIl11Il - "\073\049\073\108\108\108\108\108")(-151845 + 198144)] = -558577 + 558578;
+		(tabi_IllI1Il11Il / "\073\049\108\108\108\049\049")[(tabi_lll1lIl11Il - "\073\108\049\049\073\049")(404461 + -358202)] = Color3[(tabi_lll1lIl11Il - "\073\073\049\073\073\108\108\108")(-958270 + 1004539)](107683 - 107683, 70370 - 70370, 271976 - 271976);
+		(tabi_IllI1Il11Il / "\108\073\108\049\108\049")[(tabi_lll1lIl11Il - "\108\049\073\049\108\049\073\108")(1044407 - 998079)] = 47457 - 47457;
+		(tabi_IllI1Il11Il / "\108\049\108\073\108\049\073\108")[(tabi_lll1lIl11Il - "\073\073\049\108\073\073\049\108")(-994596 - (-1040960))] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\108\049\049\049")(-99172 - (-145445))](777848 + -777847, -323178 - (-323178), 885436 - 885435, -826874 - (-826874));
+		(tabi_IllI1Il11Il / "\108\073\049\108\108\073\049")[(tabi_lll1lIl11Il - "\073\049\108\108\108\108\049")(813189 - 766904)] = UDim2[(tabi_lll1lIl11Il - "\073\108\108\049\108\049\049\108")(414893 + -368620)](586738 + -586738, -851194 + 851194, 812217 + -812217, 492527 + -492527);
+		(tabi_IllI1Il11Il / "\073\073\049\073\108\108")[(tabi_lll1lIl11Il - "\108\108\108\073\108\073\108\108")(259048 + -212685)] = 439982 + -439982;
+		(tabi_IllI1Il11Il / "\073\049\108\073\073\073\049\108")[(tabi_lll1lIl11Il - "\073\049\073\108\073\073\073\049")(-925292 - (-971582))] = Enum[(tabi_lll1lIl11Il - "\073\073\049\049\108\108\108\108")(694781 - 648500)][(tabi_lll1lIl11Il - "\108\049\049\073\049\073\108\108")(436526 + -390177)];
+		(tabi_l1lI1Il11Il + "\108\073\049\049\073\073\108\049")[(tabi_lll1lIl11Il - "\108\049\049\073\049")(-895292 + 941648)] = tabi_IllI1Il11Il / "\073\049\073\049\073\108\049\108";
+		(tabi_l1lI1Il11Il + "\073\049\049\049\073\049\073\108")[(tabi_lll1lIl11Il - "\073\049\049\108\108\049")(666034 - 619635)] = Enum[(tabi_lll1lIl11Il - "\073\073\108\073\049\049\073\108")(-263272 + 309671)][(tabi_lll1lIl11Il - "\108\108\073\049\108\049\049")(-771659 - (-817977))];
+		(tabi_l1lI1Il11Il + "\073\049\049\073\049\108\108\108")[(tabi_lll1lIl11Il - "\073\073\049\073\073\108\073\049")(-875983 - (-922237))] = Enum[(tabi_lll1lIl11Il - "\073\049\108\108\073\108\108")(1012332 - 966078)][(tabi_lll1lIl11Il - "\108\049\049\108\073\108\073\049")(757751 + -711375)];
+		(tabi_l1lI1Il11Il + "\108\108\108\073\049\073\108")[(tabi_lll1lIl11Il - "\073\073\049\108")(-84323 + 130700)] = UDim[(tabi_lll1lIl11Il - "\073\073\073\049\073\073\049")(-370156 - (-416429))](451310 - 451310, 641588 + -641585);
+		applydrag(tabi_ll11lIl11Il / "\073\073\108\049\073\049\108\049");
+		local tabi_lI1I1Il11Il = tabi_l11llIl11Il({ IIlIIll = false }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					tabi_Il1llIl11Il.IIlIIll = tabi_l11llIl11Il;
+				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+					return tabi_Il1llIl11Il.IIlIIll;
+				end });
+		function tabi_l1l1lIl11Il.IllIIlll.IsMinimized(...)
+			return tabi_lI1I1Il11Il .. "\108\108\108\049\108\049\049\108";
+		end;
+		function tabi_l1l1lIl11Il.IllIIlll.Minimize(...)
+			(tabi_I11llIl11Il / "\073\108\049\073\073\049\108\049")(tabi_lI1I1Il11Il / not (tabi_lI1I1Il11Il .. "\073\073\073\073\073\073\108\108"));
+			((tabi_l1I1lIl11Il .. "\073\049\073\049\108\049\108\108"):Create(tabi_llII1Il11Il + "\073\073\108\073\049\073\108", TweenInfo[(tabi_lll1lIl11Il - "\108\073\073\049\073\073\049\108")(-101923 + 148196)](.3, Enum[(tabi_lll1lIl11Il - "\108\049\073\108\049\073\108\049")(1001266 - 954942)][(tabi_lll1lIl11Il - "\073\108\108\073\108\049\049")(527654 - 481391)]), { [(tabi_lll1lIl11Il - "\108\073\073\073\073\108\049")(-475055 + 521423)] = tabi_lI1I1Il11Il .. "\073\073\108\108\108\049\108\108" and -230823 - (-230823) or 797357 - 797177 })):Play();
+			((tabi_l1I1lIl11Il .. "\073\073\108\108\108\049\108"):Create(tabi_lIII1Il11Il .. "\073\049\108\073\108\108\073\108", TweenInfo[(tabi_lll1lIl11Il - "\073\073\108\073\073\049\073\049")(436845 - 390572)](.3, Enum[(tabi_lll1lIl11Il - "\108\108\049\108\108\049\108")(-599296 - (-645620))][(tabi_lll1lIl11Il - "\108\108\073\108\108\049\049")(-200934 + 247197)]), { [(tabi_lll1lIl11Il - "\108\049\073\108\049\073\049\049")(164056 - 117796)] = tabi_lI1I1Il11Il .. "\108\108\108\049\108" and UDim[(tabi_lll1lIl11Il - "\073\049\108\108\073\049\108\108")(886395 + -840122)](-169701 - (-169701), 662011 - 662005) or UDim[(tabi_lll1lIl11Il - "\108\073\108\049\108\073\049\108")(-112996 + 159269)](430701 - 430701, 872699 + -872699) })):Play();
+			((tabi_l1I1lIl11Il .. "\108\073\073\108\108\073\049\049"):Create(tabi_ll11lIl11Il / "\108\049\073\049\049\108\049", TweenInfo[(tabi_lll1lIl11Il - "\108\073\073\049\073\073\073\049")(-100899 + 147172)](.3, Enum[(tabi_lll1lIl11Il - "\108\108\049\049\049\073\073\049")(329053 - 282729)][(tabi_lll1lIl11Il - "\108\049\073\049\049\073\049\108")(-394359 - (-440622))]), { [(tabi_lll1lIl11Il - "\073\108\073\073\108\108\073\108")(-941411 - (-987775))] = tabi_lI1I1Il11Il .. "\108\108\073\073\073\073\073\108" and UDim2[(tabi_lll1lIl11Il - "\108\108\108\049\049\108\108\108")(-283625 - (-329898))](411373 - 411373, 241243 - 240743, 654132 + -654132, (tabi_Il11lIl11Il * "\108\108\108\108\049\108\049\108")[(tabi_lll1lIl11Il - "\108\108\108\073\108\108\049")(-385745 - (-432109))][(tabi_lll1lIl11Il - "\108\049\073\049\108\049\073\049")(-900092 + 946441)][(tabi_lll1lIl11Il - "\108\108\049\049\108\073\049\108")(-937469 + 983761)]) or UDim2[(tabi_lll1lIl11Il - "\073\049\049\108\049\073\108\049")(-806521 - (-852794))](-882747 + 882747, 408289 - 407789, -354795 - (-354795), -181104 - (-181414)) })):Play();
+		end;
+		(tabi_llII1Il11Il + "\073\108\108\049\073\049\049")[(tabi_lll1lIl11Il - "\073\073\073\108\108\108\049")(-676274 - (-722614))]:Connect(tabi_l1l1lIl11Il.lIIIlI11[(tabi_lll1lIl11Il - "\108\049\049\049\108\073\108\049")(-533632 - (-579954))]);
+		function tabi_l1l1lIl11Il.IllIIlll.Tab(tabi_I1I1lIl11Il, tabi_Il1llIl11Il, ...)
+			local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ lIIIl1l = {} }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.lIIIl1l = tabi_l11llIl11Il;
+					end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return tabi_Il1llIl11Il.lIIIl1l;
+					end });
+			local tabi_Ill1lIl11Il = tabi_l11llIl11Il({ IllllIIl = Instance[(tabi_lll1lIl11Il - "\073\108\073\049\108\049\108")(269608 + -223335)]((tabi_lll1lIl11Il - "\073\073\049\108\073\108\108\049")(688669 - 642356)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.IllllIIl = tabi_l11llIl11Il;
+					end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return rawget(tabi_Il1llIl11Il, "\073\108\108\108\108\073\073\108");
+					end });
+			local tabi_l1l1lIl11Il = tabi_l11llIl11Il({ IIl111ll = Instance[(tabi_lll1lIl11Il - "\073\049\049\049\108\108\108")(247783 - 201510)]((tabi_lll1lIl11Il - "\073\073\108\108\049\073\049")(-305921 - (-352299))) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.IIl111ll = tabi_l11llIl11Il;
+					end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return tabi_Il1llIl11Il.IIl111ll;
+					end });
+			local tabi_II11lIl11Il = tabi_l11llIl11Il({ llIl1II1 = Instance[(tabi_lll1lIl11Il - "\108\073\073\073\108\073\049")(-974782 + 1021055)]((tabi_lll1lIl11Il - "\108\049\049\073\049\108\073\049")(-147045 + 193316)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.llIl1II1 = tabi_l11llIl11Il;
+					end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return tabi_Il1llIl11Il.llIl1II1;
+					end });
+			local tabi_ll11lIl11Il = tabi_l11llIl11Il({ I1IIl1l1 = Instance[(tabi_lll1lIl11Il - "\073\108\049\073\073\073\049\049")(305449 - 259176)]((tabi_lll1lIl11Il - "\073\049\049\049\108\108\073\108")(-796025 + 842338)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.I1IIl1l1 = tabi_l11llIl11Il;
+					end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return tabi_Il1llIl11Il.I1IIl1l1;
+					end });
+			local tabi_Il11lIl11Il = tabi_l11llIl11Il({ IlIIIll1 = Instance[(tabi_lll1lIl11Il - "\108\049\049\073\108\049\073\108")(944765 + -898492)]((tabi_lll1lIl11Il - "\073\108\049\108\108\049")(-979542 - (-1025920))) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.IlIIIll1 = tabi_l11llIl11Il;
+					end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return tabi_Il1llIl11Il.IlIIIll1;
+					end });
+			local tabi_l111lIl11Il = tabi_l11llIl11Il({ lII1I11l = Instance[(tabi_lll1lIl11Il - "\108\108\073\049\049\049\049\108")(-562673 + 608946)]((tabi_lll1lIl11Il - "\108\073\049\108\073\108\108")(-700470 + 746867)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.lII1I11l = tabi_l11llIl11Il;
+					end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return tabi_Il1llIl11Il.lII1I11l;
+					end });
+			local tabi_I111lIl11Il = tabi_l11llIl11Il({ I1l1IIl1 = Instance[(tabi_lll1lIl11Il - "\108\049\073\073\108\108\049\108")(-334826 + 381099)]((tabi_lll1lIl11Il - "\108\073\108\073\108\073\073\049")(852386 - 806073)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.I1l1IIl1 = tabi_l11llIl11Il;
+					end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return rawget(tabi_Il1llIl11Il, "\073\049\108\049\073\073\108\049");
+					end });
+			local tabi_lIII1Il11Il = tabi_l11llIl11Il({ III1Il11 = Instance[(tabi_lll1lIl11Il - "\073\049\073\073\108")(-894716 - (-940989))]((tabi_lll1lIl11Il - "\073\049\049\073\049\073\073\049")(-482913 - (-529200))) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.III1Il11 = tabi_l11llIl11Il;
+					end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return tabi_Il1llIl11Il.III1Il11;
+					end });
+			local tabi_IIII1Il11Il = tabi_l11llIl11Il({ l1l11II1 = Instance[(tabi_lll1lIl11Il - "\108\073\108\108\108\108\073\049")(-473455 - (-519728))]((tabi_lll1lIl11Il - "\108\108\108\049\073\073\108\108")(909242 - 862971)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.l1l11II1 = tabi_l11llIl11Il;
+					end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return tabi_Il1llIl11Il.l1l11II1;
+					end });
+			local tabi_llII1Il11Il = tabi_l11llIl11Il({ lIl1llll = Instance[(tabi_lll1lIl11Il - "\108\049\108\108\073\108")(-804217 + 850490)]((tabi_lll1lIl11Il - "\108\049\049\108\108\108\108\108")(-469679 + 516025)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.lIl1llll = tabi_l11llIl11Il;
+					end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return tabi_Il1llIl11Il.lIl1llll;
+					end });
+			(tabi_I111lIl11Il / "\108\073\073\073\108\073\108\108")[(tabi_lll1lIl11Il - "\108\049\108\049\108\073\108\108")(-8224 + 54559)] = (tabi_lll1lIl11Il - "\073\049\073\073\049\073\049\108")(-888451 - (-934717));
+			(tabi_I111lIl11Il / "\073\108\108\108\049\108")[(tabi_lll1lIl11Il - "\108\108\073\108\108\049\108\049")(440000 - 393644)] = tabi_I1lI1Il11Il + "\073\108\073\108\108\073\049";
+			(tabi_I111lIl11Il / "\108\073\049\108\049\073\108\108")[(tabi_lll1lIl11Il - "\073\073\108\108\049\108\073\049")(-38945 - (-85347))] = Color3[(tabi_lll1lIl11Il - "\108\108\108\049\073\073\108")(881847 - 835578)](819640 - 819385, 602035 + -601780, -551154 - (-551409));
+			(tabi_I111lIl11Il / "\073\108\049\073\108\073\049")[(tabi_lll1lIl11Il - "\108\108\108\049\049\073\108\049")(-931043 - (-977342))] = 733944 - 733943;
+			(tabi_I111lIl11Il / "\108\049\073\049\108\073\108")[(tabi_lll1lIl11Il - "\108\049\073\073\073\073\049")(263770 - 217511)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\049\108\108\108\049")(-1021504 + 1067773)](718454 + -718454, -104675 - (-104675), -159589 + 159589);
+			(tabi_I111lIl11Il / "\108\049\049\049\108\073\108\108")[(tabi_lll1lIl11Il - "\108\073\108\073\108\073\049")(-547258 - (-593586))] = -970750 + 970750;
+			(tabi_I111lIl11Il / "\073\108\049\049\049\108\108\049")[(tabi_lll1lIl11Il - "\073\049\108\049\073\049\073\049")(-334288 - (-380652))] = UDim2[(tabi_lll1lIl11Il - "\108\049\049\073\073\073\049")(-492656 - (-538929))](481840 - 481839, 437294 + -437294, -467694 + 467695, 451374 - 451374);
+			(tabi_I111lIl11Il / "\073\108\049\073\049\049\108\049")[(tabi_lll1lIl11Il - "\108\108\108\073\108\108\108")(-631220 + 677571)] = false;
+			(tabi_lIII1Il11Il / "\073\108\073\073\049\073\108\049")[(tabi_lll1lIl11Il - "\108\073\108\049\049")(-930111 - (-976446))] = (tabi_lll1lIl11Il - "\108\073\073\049\108\073\108")(-476591 + 522936);
+			(tabi_lIII1Il11Il / "\108\073\049\049\049\073\073\108")[(tabi_lll1lIl11Il - "\073\108\049\108\073\073\049\049")(251322 - 204966)] = tabi_I111lIl11Il / "\108\073\073\108\049\073\073\049";
+			(tabi_lIII1Il11Il / "\073\073\049\073\108\073\108")[(tabi_lll1lIl11Il - "\073\073\049\049\108\049\049\108")(-461934 + 508186)] = true;
+			(tabi_lIII1Il11Il / "\108\073\073\049\108\049\049")[(tabi_lll1lIl11Il - "\073\073\108\049\108\108\049")(41378 - (-5024))] = Color3[(tabi_lll1lIl11Il - "\073\049\108\108\073\108\049\108")(-88359 - (-134628))](-325418 + 325673, -356588 - (-356843), 42848 - 42593);
+			(tabi_lIII1Il11Il / "\073\108\108\049\073\049\073\049")[(tabi_lll1lIl11Il - "\073\108\073\108\073\073\073\049")(-953726 + 1000025)] = -1029375 - (-1029376);
+			(tabi_lIII1Il11Il / "\073\073\073\049\073\049\073\108")[(tabi_lll1lIl11Il - "\073\073\108\049\049\108\049")(192422 + -146163)] = Color3[(tabi_lll1lIl11Il - "\108\108\108\073\108\108\049\108")(929016 - 882747)](386732 + -386732, -827258 + 827258, -226727 + 226727);
+			(tabi_lIII1Il11Il / "\073\108\073\073\049")[(tabi_lll1lIl11Il - "\073\108\108\108\073\073\049\108")(-794370 - (-840698))] = -278761 - (-278761);
+			(tabi_lIII1Il11Il / "\108\108\049\049\073\049\049\108")[(tabi_lll1lIl11Il - "\073\073\108\108\108\073\073\049")(196710 + -150346)] = UDim2[(tabi_lll1lIl11Il - "\073\108\108\049\073\108")(-187046 - (-233319))](-301864 - (-301865), 871483 + -871483, 288298 - 288297, -207334 - (-207334));
+			(tabi_lIII1Il11Il / "\108\108\108\049\073\073\108")[(tabi_lll1lIl11Il - "\108\049\073\108\073\108")(-467811 - (-514096))] = UDim2[(tabi_lll1lIl11Il - "\108\049\073\073\049\108\108\108")(-222631 - (-268904))](-432557 + 432557, 729463 + -729463, -148197 + 148197, 468271 + -468271);
+			(tabi_lIII1Il11Il / "\108\073\108\049\049\049\049\108")[(tabi_lll1lIl11Il - "\108\049\073\049\108\049\108\108")(610995 + -564632)] = -357223 - (-357227);
+			(tabi_lIII1Il11Il / "\108\073\073\049\108\049\049")[(tabi_lll1lIl11Il - "\108\073\073\108\049")(561058 - 514672)] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\073\049\108\049")(470383 + -424110)](110691 - 110691, -239975 - (-239975), -581426 - (-581426), -850682 - (-850682));
+			(tabi_lIII1Il11Il / "\108\108\049\073\049\108")[(tabi_lll1lIl11Il - "\073\049\108\108\108\049\108\108")(291066 - 244776)] = Enum[(tabi_lll1lIl11Il - "\073\108\108\108\108\073\108\108")(997446 - 951165)][(tabi_lll1lIl11Il - "\073\049\073\108\108\073\108\108")(256488 + -210139)];
+			(tabi_IIII1Il11Il - "\108\073\049\049\108\108\108\108")[(tabi_lll1lIl11Il - "\108\108\108\073\073\049\073\049")(832375 - 786040)] = (tabi_lll1lIl11Il - "\108\049\049\108\049\108\073\049")(245544 + -199155);
+			(tabi_IIII1Il11Il - "\073\049\049\049\073\073\049")[(tabi_lll1lIl11Il - "\073\049\073\073\073\049\108\049")(142692 + -96336)] = tabi_lIII1Il11Il / "\108\049\073\073\108\073\108";
+			(tabi_IIII1Il11Il - "\108\108\108\049\049\073\049")[(tabi_lll1lIl11Il - "\108\073\049\108\108\108\049\108")(-779832 - (-826234))] = Color3[(tabi_lll1lIl11Il - "\073\049\108\108\073\049\108\049")(-577330 + 623599)](996671 + -996633, 681880 - 681845, 786872 + -786834);
+			(tabi_IIII1Il11Il - "\108\108\073\049\073\108\049\049")[(tabi_lll1lIl11Il - "\108\049\073\049\049\108\073\108")(-130660 + 176959)] = -81954 - (-81955);
+			(tabi_IIII1Il11Il - "\108\108\073\049\073\073\073\049")[(tabi_lll1lIl11Il - "\108\073\049\049\108\049\049\108")(-742391 + 788650)] = Color3[(tabi_lll1lIl11Il - "\073\073\049\108\108\108\108\049")(-642612 + 688881)](-82531 + 82531, 585138 + -585138, -270312 - (-270312));
+			(tabi_IIII1Il11Il - "\073\073\108\108\073\073\108\108")[(tabi_lll1lIl11Il - "\073\073\073\073\049\049")(468709 - 422381)] = 409901 - 409901;
+			(tabi_IIII1Il11Il - "\108\108\108\049\073\073\108\049")[(tabi_lll1lIl11Il - "\108\049\108\108\073\049\108\049")(-340715 + 387079)] = UDim2[(tabi_lll1lIl11Il - "\073\073\108\073\073\108\049\049")(-597491 + 643764)](-153700 - (-153701), -282089 + 282089, -0.0892193317, 839340 - 839290);
+			(tabi_IIII1Il11Il - "\108\049\049\049\073\049\108\049")[(tabi_lll1lIl11Il - "\108\108\049\073\108")(743735 + -697341)] = Enum[(tabi_lll1lIl11Il - "\108\073\108\049\049\073\108\108")(328739 - 282345)][(tabi_lll1lIl11Il - "\073\073\049\108\073\073\108\049")(989240 - 942845)];
+			(tabi_IIII1Il11Il - "\108\108\073\073\049\073\108\108")[(tabi_lll1lIl11Il - "\108\049\108\073\049\073\108\049")(123301 - 76898)] = tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\108\108\108\108\073\108\073\108")(-31713 + 78039);
+			(tabi_IIII1Il11Il - "\073\073\073\073\073\049\073\108")[(tabi_lll1lIl11Il - "\108\108\073\049\073\049\049")(311850 + -265508)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\073\049\073\049")(-937153 - (-983422))](165029 + -164813, -598683 - (-598899), 979798 - 979582);
+			(tabi_IIII1Il11Il - "\073\049\049\108\049\049\049")[(tabi_lll1lIl11Il - "\108\049\049\108\049\073\049\108")(-797881 + 844175)] = -471903 - (-471919);
+			(tabi_IIII1Il11Il - "\073\049\108\108\073\073\049\049")[(tabi_lll1lIl11Il - "\073\073\049\108\073\108\073\049")(1010239 + -963956)] = true;
+			(tabi_IIII1Il11Il - "\108\073\073\108\049\049\049\108")[(tabi_lll1lIl11Il - "\108\073\073\049\108\108\108")(754935 + -708618)] = Enum[(tabi_lll1lIl11Il - "\108\049\049\049\073\049\108")(-105720 - (-152037))][(tabi_lll1lIl11Il - "\073\108\073\073\108\108")(304425 + -258091)];
+			(tabi_llII1Il11Il - "\108\108\049\108\049\073\049")[(tabi_lll1lIl11Il - "\073\049\073\073\073\073\049")(-175909 + 222244)] = (tabi_lll1lIl11Il - "\108\108\049\108\049\073\073\108")(653220 - 606835);
+			(tabi_llII1Il11Il - "\073\073\073\073\108\108\108\108")[(tabi_lll1lIl11Il - "\073\073\073\073\073\073\049\108")(838541 - 792185)] = tabi_lIII1Il11Il / "\073\049\108\108\108\049\049\108";
+			(tabi_llII1Il11Il - "\073\073\073\108\049\049\073\049")[(tabi_lll1lIl11Il - "\073\108\108\108\049\049\049\108")(-500272 + 546526)] = Enum[(tabi_lll1lIl11Il - "\073\049\049\073\073\049")(1034029 - 987775)][(tabi_lll1lIl11Il - "\108\108\073\108\073\073\108\049")(530647 - 484271)];
+			(tabi_llII1Il11Il - "\108\073\108\108\049\073\108\108")[(tabi_lll1lIl11Il - "\073\073\108\073\073\049\073\108")(-1034176 + 1080553)] = UDim[(tabi_lll1lIl11Il - "\073\049\049\073\073\073\108")(-341035 + 387308)](89891 - 89891, -381164 + 381168);
+			tabi_Ill1lIl11Il.l11I11l[(tabi_lll1lIl11Il - "\108\049\108\049\049\073\108")(-926589 + 972924)] = (tabi_lll1lIl11Il - "\073\108\073\073\108\049\108\049")(631637 - 585330);
+			tabi_Ill1lIl11Il.l1lIlI1l[(tabi_lll1lIl11Il - "\073\073\073\073\108\108\108")(-775269 - (-821625))] = tabi_IllI1Il11Il / "\073\049\073\108\049\073\073\108";
+			tabi_Ill1lIl11Il.III1II1[(tabi_lll1lIl11Il - "\073\108\108\049\073\108\049\049")(451950 + -405548)] = Color3[(tabi_lll1lIl11Il - "\108\073\108\073\049\049\049\108")(-953854 + 1000123)](-302377 + 302413, -190054 + 190087, 261772 - 261736);
+			tabi_Ill1lIl11Il.l11IlIIl[(tabi_lll1lIl11Il - "\108\108\049\108\049\108\108\108")(-907516 + 953775)] = Color3[(tabi_lll1lIl11Il - "\073\108\108\049\108\073\073\108")(305769 + -259500)](-587314 - (-587314), -346539 + 346539, 332202 + -332202);
+			tabi_Ill1lIl11Il.IllI1Ill[(tabi_lll1lIl11Il - "\108\049\108\073\073\073\073\049")(914675 - 868347)] = -582770 - (-582770);
+			tabi_Ill1lIl11Il.lIl1llll[(tabi_lll1lIl11Il - "\108\073\049\049\049\049\108\108")(-548928 - (-595314))] = UDim2[(tabi_lll1lIl11Il - "\073\073\073\108\049\108\049\108")(-104291 + 150564)](.0454545468, 478895 + -478895, 413485 + -413485, -740215 + 740215);
+			tabi_Ill1lIl11Il.lIl111I1[(tabi_lll1lIl11Il - "\108\108\108\108\108\049\073\108")(73122 + -26758)] = UDim2[(tabi_lll1lIl11Il - "\073\049\108\049\049\049\108\049")(783480 + -737207)](853498 + -853498, -22073 - (-22177), -517168 + 517168, 215079 + -215052);
+			(tabi_l1l1lIl11Il * "\108\073\108\073\108\108\049\108")[(tabi_lll1lIl11Il - "\073\049\049\049\108\073\049\108")(600741 - 554481)] = UDim[(tabi_lll1lIl11Il - "\108\073\073\073\108\108\108")(-1001023 + 1047296)](-800185 - (-800185), 74535 - 74530);
+			(tabi_l1l1lIl11Il * "\108\108\073\108\073\049\108\108")[(tabi_lll1lIl11Il - "\108\073\108\108\049\108\073\108")(-805945 + 852280)] = (tabi_lll1lIl11Il - "\073\108\049\108\108\073\073\049")(749618 - 703222);
+			(tabi_l1l1lIl11Il * "\073\073\073\108\108\049\108\108")[(tabi_lll1lIl11Il - "\073\108\073\049\049\049\073\049")(-663669 + 710025)] = tabi_Ill1lIl11Il.lI111Il;
+			(tabi_II11lIl11Il ^ "\073\073\073\049\049\073\108")[(tabi_lll1lIl11Il - "\073\049\108\049\049\073\108\049")(-491183 + 537518)] = (tabi_lll1lIl11Il - "\108\073\073\049\108\049")(-213390 - (-259688));
+			(tabi_II11lIl11Il ^ "\108\049\049\108\108\108\049")[(tabi_lll1lIl11Il - "\108\108\049\108\073\049\073\108")(823756 - 777400)] = tabi_Ill1lIl11Il.lll1l;
+			(tabi_II11lIl11Il ^ "\108\073\108\049\108\108")[(tabi_lll1lIl11Il - "\108\108\108\049\108\073\049\108")(-828921 - (-875323))] = Color3[(tabi_lll1lIl11Il - "\073\073\073\049\049\073\073\108")(47901 - 1632)](-346348 - (-346603), 1013822 - 1013567, -40802 - (-41057));
+			(tabi_II11lIl11Il ^ "\073\073\108\108\073\049\108\049")[(tabi_lll1lIl11Il - "\073\073\073\073\108\073\108\049")(-503088 + 549387)] = -639091 - (-639092);
+			(tabi_II11lIl11Il ^ "\108\073\108\073\049\049\108\049")[(tabi_lll1lIl11Il - "\108\049\073\049\073\073\073\108")(141540 + -95281)] = Color3[(tabi_lll1lIl11Il - "\073\073\073\073\108\108\073\108")(-79394 + 125663)](600371 + -600371, -240871 - (-240871), 344427 - 344427);
+			(tabi_II11lIl11Il ^ "\073\108\108\073\049\108\073\108")[(tabi_lll1lIl11Il - "\073\108\108\049\049\108")(302185 + -255857)] = -368107 - (-368107);
+			(tabi_II11lIl11Il ^ "\108\108\049\049\108\073\108")[(tabi_lll1lIl11Il - "\073\049")(-706998 + 753384)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\108\108\049\049")(950397 + -904124)](.115384616, -781560 + 781560, -131236 + 131236, 626611 - 626611);
+			(tabi_II11lIl11Il ^ "\108\073\108\049\108\073\108\049")[(tabi_lll1lIl11Il - "\108\049\049\108\108\073\108\108")(1007807 + -961443)] = UDim2[(tabi_lll1lIl11Il - "\073\073\108\049\108\108\108")(404460 - 358187)](.884615362, -463790 - (-463790), -584050 + 584051, -227047 + 227047);
+			(tabi_II11lIl11Il ^ "\108\073\108\073\108\049\108")[(tabi_lll1lIl11Il - "\073\049\073\073\073\073\049\108")(145893 + -99499)] = Enum[(tabi_lll1lIl11Il - "\073\108\073\073\073\049\049")(25761 + 20633)][(tabi_lll1lIl11Il - "\073\108\108\049\073\108\108")(415526 - 369131)];
+			(tabi_II11lIl11Il ^ "\108\108\108\073\049\108\108")[(tabi_lll1lIl11Il - "\108\073\108\073\108")(-526767 - (-573170))] = tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\073\108\073\049\108\049\108\108")(-483834 - (-530160));
+			(tabi_II11lIl11Il ^ "\073\108\108\049\108\108\108")[(tabi_lll1lIl11Il - "\108\049\073\073\073\073\073\049")(73058 + -26716)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\108\073\049\108\049")(869751 - 823482)](-735671 + 735926, -727095 + 727350, 1006654 - 1006399);
+			(tabi_II11lIl11Il ^ "\108\049\049\073\073\108\108\049")[(tabi_lll1lIl11Il - "\108\108\073\108\049\108\108\049")(188154 - 141860)] = -771434 - (-771448);
+			(tabi_II11lIl11Il ^ "\073\049\049\073\108\049\073\049")[(tabi_lll1lIl11Il - "\108\073\073\108\049\049\108\108")(432301 + -385984)] = Enum[(tabi_lll1lIl11Il - "\073\108\108\049\073\108\108\049")(-92003 + 138320)][(tabi_lll1lIl11Il - "\073\108\049\049\049\073\049")(781880 + -735546)];
+			(tabi_ll11lIl11Il - "\108\049\049\073\108\073\049")[(tabi_lll1lIl11Il - "\108\049\073\108\073\108\049")(-654263 - (-700598))] = (tabi_lll1lIl11Il - "\108\108\108\108\073\049\073\108")(824442 + -778177);
+			(tabi_ll11lIl11Il - "\073\073\049\049\073\049\049")[(tabi_lll1lIl11Il - "\108\073\073\073\108\049\073\049")(918159 - 871803)] = tabi_Ill1lIl11Il.lll11lI1;
+			(tabi_ll11lIl11Il - "\108\108\073\049\049\073\049\108")[(tabi_lll1lIl11Il - "\108\049\073\108\073\073\108")(-570632 - (-616947))] = Vector2[(tabi_lll1lIl11Il - "\073\108\108\108\049\108\108\049")(217767 + -171494)](-43681 - (-43681), 426157.5 - 426157);
+			(tabi_ll11lIl11Il - "\073\073\073\049\108\049\049")[(tabi_lll1lIl11Il - "\073\108\049\049\073\108\108\108")(-369899 - (-416301))] = Color3[(tabi_lll1lIl11Il - "\073\073\073\073\073\049\108\108")(475114 - 428845)](-463406 + 463451, 929853 + -929808, -553649 + 553694);
+			(tabi_ll11lIl11Il - "\073\073\073\049\108\073\049\049")[(tabi_lll1lIl11Il - "\108\049\073\108\049\108\108\049")(-465326 + 511585)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\073\108")(-424050 - (-470319))](-162661 - (-162661), -305065 - (-305065), 718134 - 718134);
+			(tabi_ll11lIl11Il - "\108\108\073\073\073\049")[(tabi_lll1lIl11Il - "\108\108\049\049\108\108\073\049")(766968 + -720640)] = 251368 + -251368;
+			(tabi_ll11lIl11Il - "\073\049\108\073\073\049\108")[(tabi_lll1lIl11Il - "\073\108\108\049\073\073\073\108")(323818 + -277432)] = UDim2[(tabi_lll1lIl11Il - "\073\049\073\073\073\073\108")(-641012 + 687285)](-1022848 - (-1022848), -950013 + 950013, 323306 + -323305.5, 638452 - 638452);
+			(tabi_ll11lIl11Il - "\108\049\073\073\108\049\108\049")[(tabi_lll1lIl11Il - "\108\073\073\108\073\073\073\108")(232386 - 186022)] = UDim2[(tabi_lll1lIl11Il - "\108\073\073\049\073\108\108\049")(101667 + -55394)](-460142 - (-460142), 921341 + -921335, 401516 + -401515.75, 466798 + -466798);
+			(tabi_Il11lIl11Il / "\073\049\108\108\073\049\108")[(tabi_lll1lIl11Il - "\108\049\108\073\073\108\049\049")(637940 + -591605)] = (tabi_lll1lIl11Il - "\073\049\049\073\049\073\049\108")(879419 + -833144);
+			(tabi_Il11lIl11Il / "\108\049\108\108\073\108\073\108")[(tabi_lll1lIl11Il - "\073\073\049\073\049\049\108\108")(-616499 + 662855)] = tabi_ll11lIl11Il - "\108\073\049\049\049\049\049";
+			(tabi_l111lIl11Il * "\073\108\108")[(tabi_lll1lIl11Il - "\108\049\108\049\108\073\049\049")(-802425 + 848734)] = -303913 + 303915;
+			(tabi_l111lIl11Il * "\073\049\108\108\108\108\073\108")[(tabi_lll1lIl11Il - "\108\049\073\049\108\049\108")(-127970 - (-174373))] = (tabi_lll1lIl11Il - "\073\108\108\073\049\108\049")(-197734 + 243987);
+			(tabi_l111lIl11Il * "\073\108\108\108\108\073\073\108")[(tabi_lll1lIl11Il - "\073\049\073\073\049\049\108")(-297449 + 343813)] = UDim2[(tabi_lll1lIl11Il - "\073\108\108\049\049\108\108\049")(-943549 + 989822)](-624754 - (-624755), 764536 + -764536, 761016 + -761015, -498735 - (-498735));
+			(tabi_l111lIl11Il * "\073\108\073\108\049\108\073\108")[(tabi_lll1lIl11Il - "\073\049\073\049\108\108\108\049")(-493981 - (-540337))] = tabi_Ill1lIl11Il.IllIIlI1;
+			(tabi_l111lIl11Il * "\073\073\108\049\108\108\108\049")[(tabi_lll1lIl11Il - "\073\108\108\108\049\108\049")(-23943 - (-70242))] = -415661 + 415662;
+			(tabi_I11llIl11Il / "\073\108\073\049\073\108")(tabi_lII1lIl11Il * ((tabi_lII1lIl11Il + "\108\049\049\049\073\108\108\049") + (-913788 + 913789)));
+			table[(tabi_lll1lIl11Il - "\108\073\049\049\073\049\049\108")(127716 + -81343)](tabi_III1lIl11Il / "\108\073\073\073\108\073\108\108", { tabi_Ill1lIl11Il.I11III1l, tabi_I111lIl11Il / "\073\108\073\073\049\108\073\049" });
+			local tabi_IlII1Il11Il = tabi_l11llIl11Il({ I1I11ll1 = false }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						tabi_Il1llIl11Il.I1I11ll1 = tabi_l11llIl11Il;
+					end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+						return tabi_Il1llIl11Il.I1I11ll1;
+					end });
+			function tabuhh(...)
+				for tabi_Il1llIl11Il, tabi_l11llIl11Il in tabi_III1lIl11Il / "\073\073\108\108\108\073\073\108" do
+					if tabi_l11llIl11Il ~= tabi_Ill1lIl11Il.lI1l1ll1 then
+						((tabi_l1I1lIl11Il .. "\073\073\073\049\108\049\108\108"):Create(tabi_l11llIl11Il[610675 + -610674][(tabi_lll1lIl11Il - "\108\049\049\108\073\049")(-42858 - (-89123))], TweenInfo[(tabi_lll1lIl11Il - "\073\073\049\049\073\049\108\108")(-256936 + 303209)](.2, Enum[(tabi_lll1lIl11Il - "\108\073\108\108\108\049\073\049")(-43681 + 90005)][(tabi_lll1lIl11Il - "\108\108\108\049\108\073\073\108")(-459449 - (-505712))]), { [(tabi_lll1lIl11Il - "\108\108\108\073\073\073\049")(-619417 - (-665781))] = UDim2[(tabi_lll1lIl11Il - "\073\073\073\049")(-970558 + 1016831)](-595186 - (-595186), -408557 + 408563, -107107 + 107107.25, 337642 + -337642) })):Play();
+						((tabi_l1I1lIl11Il .. "\073\049\049\108\073\108\049\049"):Create(tabi_l11llIl11Il[-333290 + 333291][(tabi_lll1lIl11Il - "\073\049\049\049\049\073\049\108")(-208175 - (-254440))], TweenInfo[(tabi_lll1lIl11Il - "\073\073\073\073\108\073\049\049")(-334058 + 380331)](.2, Enum[(tabi_lll1lIl11Il - "\073\049\073\049\108\108\049\108")(602533 - 556209)][(tabi_lll1lIl11Il - "\073\073\108\049\108\073\108\049")(236839 + -190576)]), { [(tabi_lll1lIl11Il - "\108\108\049\049\108\049\108\049")(814010 - 767608)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\049\049\073\049\108")(543857 + -497588)](-990290 - (-990335), 717814 + -717769, -697590 + 697635) })):Play();
+						tabi_l11llIl11Il[-30177 + 30179][(tabi_lll1lIl11Il - "\073\073\073\108\108\049\049")(914314 - 867963)] = false;
+					end;
+				end;
+				((tabi_l1I1lIl11Il .. "\073\108\108\073\073\049\108\108"):Create(tabi_Ill1lIl11Il.lIIlll1[(tabi_lll1lIl11Il - "\073\108\049\073\108\073\108")(-280177 - (-326442))], TweenInfo[(tabi_lll1lIl11Il - "\073\073\108\049\073\073\108")(-250856 + 297129)](.2, Enum[(tabi_lll1lIl11Il - "\073\108\108\073\073\108")(-279798 - (-326122))][(tabi_lll1lIl11Il - "\073\073\108\073\108\049\073\049")(-390828 + 437091)]), { [(tabi_lll1lIl11Il - "\073\073\049\108\073\073\049\049")(-879777 - (-926141))] = UDim2[(tabi_lll1lIl11Il - "\073\049\073\108\049\049\073\049")(-834618 + 880891)](2976 - 2976, 85161 - 85155, 224103 + -224102.5, 787192 - 787192) })):Play();
+				((tabi_l1I1lIl11Il .. "\073\049\108\108\049\049\073\049"):Create(tabi_Ill1lIl11Il.lllllIl1[(tabi_lll1lIl11Il - "\073\108\073\073\108\049\049\108")(212455 + -166190)], TweenInfo[(tabi_lll1lIl11Il - "\073\073\049\049\073\049\108\049")(599283 + -553010)](.2, Enum[(tabi_lll1lIl11Il - "\073\108\073\049\049")(-897161 - (-943485))][(tabi_lll1lIl11Il - "\073\073\108\108\049\049\108\108")(-884038 - (-930301))]), { [(tabi_lll1lIl11Il - "\073\108\108\108\108\049\049\108")(460271 - 413869)] = tabi_I1l1lIl11Il .. "\108\108\073\049\108\108\049" })):Play();
+				(tabi_I111lIl11Il / "\073\073\073\049\108\073\049\108")[(tabi_lll1lIl11Il - "\073\073\108\108")(444475 - 398124)] = true;
+			end;
+			if tabi_lII1lIl11Il + "\073\108\049\108\108\108" == 567730 + -567729 then
+				tabuhh();
+			end;
+			(tabi_l111lIl11Il * "\108\073\049\108\073\108\049\049")[(tabi_lll1lIl11Il - "\073\108\108\108\073\108")(803065 + -756725)]:Connect(tabuhh);
+			function tabi_IIl1lIl11Il.lIIIl1l.Folder(tabi_lII1lIl11Il, tabi_Il1llIl11Il, ...)
+				local tabi_III1lIl11Il = tabi_l11llIl11Il({ II1l1lll = {} }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.II1l1lll = tabi_l11llIl11Il;
+						end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return rawget(tabi_Il1llIl11Il, "\073\073\049\108\049\108\108\108");
+						end });
+				local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ l1IIlIl1 = Instance[(tabi_lll1lIl11Il - "\108\049\073\073\108\108\108")(711158 - 664885)]((tabi_lll1lIl11Il - "\108\108\073\108\108\049\108")(-200575 - (-246888))) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.l1IIlIl1 = tabi_l11llIl11Il;
+						end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.l1IIlIl1;
+						end });
+				local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ lIllI1I1 = Instance[(tabi_lll1lIl11Il - "\108\108\073\073\049\108\073\108")(38497 - (-7776))]((tabi_lll1lIl11Il - "\073\073\049\073\108\108\073\108")(527152 + -480846)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.lIllI1I1 = tabi_l11llIl11Il;
+						end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return rawget(tabi_Il1llIl11Il, "\108\073\108\108\073\049\073\049");
+						end });
+				local tabi_Ill1lIl11Il = tabi_l11llIl11Il({ Il1II1l = Instance[(tabi_lll1lIl11Il - "\108\073\108\049\108")(-30497 + 76770)]((tabi_lll1lIl11Il - "\108\108\073\108\108\108\108\049")(502384 + -456113)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.Il1II1l = tabi_l11llIl11Il;
+						end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.Il1II1l;
+						end });
+				local tabi_l1l1lIl11Il = tabi_l11llIl11Il({ IIII1Ill = Instance[(tabi_lll1lIl11Il - "\073\049\108\108\049\108\049\108")(189926 + -143653)]((tabi_lll1lIl11Il - "\108\049\049\049\073\108")(-963326 + 1009723)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.IIII1Ill = tabi_l11llIl11Il;
+						end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.IIII1Ill;
+						end });
+				local tabi_I1l1lIl11Il = tabi_l11llIl11Il({ Il1llI1 = Instance[(tabi_lll1lIl11Il - "\108\108\108\108\108\049\108\049")(527024 + -480751)]((tabi_lll1lIl11Il - "\073\108\049\049\108\108\073\049")(36257 + 10056)) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.Il1llI1 = tabi_l11llIl11Il;
+						end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.Il1llI1;
+						end });
+				local tabi_II11lIl11Il = tabi_l11llIl11Il({ l1l1I1 = Instance[(tabi_lll1lIl11Il - "\108\073\108\049\049\073\049\049")(-203047 - (-249320))]((tabi_lll1lIl11Il - "\108\108\049\108\073\073\073\108")(-276320 - (-322666))) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.l1l1I1 = tabi_l11llIl11Il;
+						end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.l1l1I1;
+						end });
+				(tabi_I1I1lIl11Il + "\073\073\108\049\108\108\073\108")[(tabi_lll1lIl11Il - "\073\108\049\073\049\108\108\108")(812601 + -766266)] = (tabi_lll1lIl11Il - "\073\049\049\108\049\073\108")(-538097 + 584428);
+				(tabi_I1I1lIl11Il + "\108\108\108\108\108\049\108\049")[(tabi_lll1lIl11Il - "\108\049\049\108\108\073\049\108")(800505 + -754149)] = tabi_lIII1Il11Il / "\073\108\049\049\108\108\108\108";
+				(tabi_I1I1lIl11Il + "\073\108\108\073\108\073\049")[(tabi_lll1lIl11Il - "\073\073\073\108\049\073\108\049")(-864379 + 910781)] = Color3[(tabi_lll1lIl11Il - "\108\049\073\073\073\049\049\108")(-743351 + 789620)](1039443 - 1039360, -14560 + 14730, -335618 - (-335658));
+				(tabi_I1I1lIl11Il + "\073\108\049\108\108\108\108")[(tabi_lll1lIl11Il - "\108\073\108\108\073\108\073\049")(796153 + -749854)] = -47137 + 47138;
+				(tabi_I1I1lIl11Il + "\108\073\073\108\049\049\073\108")[(tabi_lll1lIl11Il - "\108\108\049\073\073\049\049")(-862779 + 909038)] = Color3[(tabi_lll1lIl11Il - "\108\073\049\108\049\073\073\108")(-709174 + 755443)](409197 + -409197, 892156 - 892156, -229095 + 229095);
+				(tabi_I1I1lIl11Il + "\108\049\073\049\049\108")[(tabi_lll1lIl11Il - "\108\073\108\049\108\049\073\108")(-602867 + 649195)] = 586354 + -586354;
+				(tabi_I1I1lIl11Il + "\073\049\073\049\108\049")[(tabi_lll1lIl11Il - "\108\108\049\073\073\073\049\049")(833770 - 787384)] = UDim2[(tabi_lll1lIl11Il - "\108\049\108\049\073\049")(-953982 + 1000255)](900668 + -900668, -898812 + 898812, .111524165, -803897 - (-803897));
+				(tabi_I1I1lIl11Il + "\073\108\073\049")[(tabi_lll1lIl11Il - "\073\049\049\049\049\108\108\108")(-299177 + 345541)] = UDim2[(tabi_lll1lIl11Il - "\108\108\073\108\073\108\049\108")(853818 + -807545)](-556401 + 556401, -955902 + 956270, -374700 + 374700, -495451 - (-495471));
+				(tabi_I1I1lIl11Il + "\073\073\073\073\108\108\108\049")[(tabi_lll1lIl11Il - "\108\073\073\073\073\049\108")(-83555 + 129836)] = Enum[(tabi_lll1lIl11Il - "\108\108\108\073\073\073\049\049")(-284393 + 330674)][(tabi_lll1lIl11Il - "\108\108\073\049\049\108\108\108")(-884208 - (-930557))];
+				(tabi_IIl1lIl11Il .. "\073\049\108\073\049\049\073\049")[(tabi_lll1lIl11Il - "\108\108\073\108\049\073\073\108")(-635766 - (-682101))] = (tabi_lll1lIl11Il - "\073\049\108\073\108\049\049")(425197 + -378923);
+				(tabi_IIl1lIl11Il .. "\108\108\049\108\073\073\073\049")[(tabi_lll1lIl11Il - "\108\049\073\108\049\108\108\049")(335869 - 289513)] = tabi_I1I1lIl11Il + "\073\108\049\049\049\108\073\049";
+				(tabi_IIl1lIl11Il .. "\073\073\073\049\049\108\108\049")[(tabi_lll1lIl11Il - "\073\108\073\049\049\049\073\108")(801465 - 755063)] = Color3[(tabi_lll1lIl11Il - "\108\108\108\073\073\049\073\049")(-165930 - (-212199))](40481 + -40226, -696695 - (-696950), 801721 + -801466);
+				(tabi_IIl1lIl11Il .. "\108\108\108\073\108")[(tabi_lll1lIl11Il - "\108\073\108\073\049\108\108\108")(1021184 + -974885)] = 180263 - 180262;
+				(tabi_IIl1lIl11Il .. "\073\049\108\049\049\049\108\108")[(tabi_lll1lIl11Il - "\073\073\049\073\049\108\073\108")(-119652 + 165911)] = Color3[(tabi_lll1lIl11Il - "\108\049\108\108\073\108\108\049")(19169 + 27100)](1045248 + -1045248, -317034 + 317034, -896380 - (-896380));
+				(tabi_IIl1lIl11Il .. "\073\049\049\073\073\073\108\108")[(tabi_lll1lIl11Il - "\108\049\108\073\108\073\108\049")(146341 + -100013)] = -196646 - (-196646);
+				(tabi_IIl1lIl11Il .. "\108\049\049\108\049\049\108\108")[(tabi_lll1lIl11Il - "\073\108\049\073\073\073\049")(336027 - 289641)] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\049\108\108\108\049")(489711 + -443438)](-479215 + 479215, 992511 + -992508, -207526 - (-207526), -693686 + 693689);
+				(tabi_IIl1lIl11Il .. "\108\073\073\073\049\073\108\049")[(tabi_lll1lIl11Il - "\073\073\073\073\049\108\073\108")(-482735 + 529103)] = -251496 + 251586;
+				(tabi_IIl1lIl11Il .. "\073\049\049\108\049\108\108")[(tabi_lll1lIl11Il - "\073\073\073\049\108\108\108\108")(-561175 - (-607539))] = UDim2[(tabi_lll1lIl11Il - "\073\049\108\049\073\108\108\049")(608114 - 561841)](585970 - 585970, -237863 + 237877, 428077 - 428077, 528446 - 528432);
+				(tabi_IIl1lIl11Il .. "\073\108\108\108\049\108\108")[(tabi_lll1lIl11Il - "\073\073\073\073\073\049\049")(-771384 + 817788)] = (tabi_lll1lIl11Il - "\108\108\073\049")(-404205 + 450553);
+				(tabi_Ill1lIl11Il ^ "\073\049\108\049\073\108\108\108")[(tabi_lll1lIl11Il - "\073\073\049\073\073\108\049")(285734 - 239399)] = (tabi_lll1lIl11Il - "\108\073\073\108\049\049\049")(68055 - 21793);
+				(tabi_Ill1lIl11Il ^ "\108\073\049\073\049\049\108\049")[(tabi_lll1lIl11Il - "\073\049\073\049\073\049\108\049")(396972 + -350616)] = tabi_I1I1lIl11Il + "\108\073\073\073\073\049\073\049";
+				(tabi_Ill1lIl11Il ^ "\073\049\108\049\073\108\049\049")[(tabi_lll1lIl11Il - "\108\108\108\049\108\073\049\108")(220519 - 174117)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\073\049\073\073\108")(79074 + -32805)](-829370 + 829625, 26080 - 25825, 480942 - 480687);
+				(tabi_Ill1lIl11Il ^ "\108\108\073\108\049\108\049\108")[(tabi_lll1lIl11Il - "\073\108\073\073\073\073\049")(-817657 + 863956)] = -43616 - (-43617);
+				(tabi_Ill1lIl11Il ^ "\108\049\073\049\049\108\049")[(tabi_lll1lIl11Il - "\108\073\049\073\108\073\108")(468000 - 421741)] = Color3[(tabi_lll1lIl11Il - "\073\073\049\073\073\073\073\049")(-74471 - (-120740))](490543 + -490543, -188390 - (-188390), 636084 - 636084);
+				(tabi_Ill1lIl11Il ^ "\073\049\073\049\108\108\073\049")[(tabi_lll1lIl11Il - "\108\108\108\073\049\108\108\049")(-695103 - (-741431))] = 43681 + -43681;
+				(tabi_Ill1lIl11Il ^ "\073\049\073\073\108")[(tabi_lll1lIl11Il - "\073\108\049\108\049\073\108\108")(505632 - 459246)] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\073\073\049")(-623027 + 669300)](543025.0625 - 543025, 215975 - 215975, 601587 - 601587, 824442 - 824442);
+				(tabi_Ill1lIl11Il ^ "\073\049\108\108\049\049\108\049")[(tabi_lll1lIl11Il - "\073\049\073\108\108\073\108\049")(1011290 - 964926)] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\108\049\049\073\108")(-18017 - (-64290))](835706 + -835706, 84899 + -84715, 513072 + -513072, -33441 + 33461);
+				(tabi_Ill1lIl11Il ^ "\073\049\108\049\108\049\049\108")[(tabi_lll1lIl11Il - "\073\049\049\049\108\049\108\049")(-110435 + 156829)] = Enum[(tabi_lll1lIl11Il - "\073\108\073\108\073\108\073\108")(-531952 + 578346)][(tabi_lll1lIl11Il - "\073\108\073\049\073\073\108")(126216 - 79906)];
+				(tabi_Ill1lIl11Il ^ "\073\073\073\108\073\049")[(tabi_lll1lIl11Il - "\108\108\073\073\073\049\073\049")(-540209 + 586612)] = tabi_Il1llIl11Il;
+				(tabi_Ill1lIl11Il ^ "\073\108\108\049\049\049\073\108")[(tabi_lll1lIl11Il - "\108\073\073\073\108\049\108\049")(69922 + -23580)] = Color3[(tabi_lll1lIl11Il - "\108\108\073\073\073\108\108\049")(863355 + -817086)](333161 - 332906, 883003 + -882748, 1016382 - 1016127);
+				(tabi_Ill1lIl11Il ^ "\108\108\108\108\108\108\049")[(tabi_lll1lIl11Il - "\108\049\073\108\073\049\108")(233959 + -187665)] = -195544 - (-195558);
+				(tabi_Ill1lIl11Il ^ "\073\073\049\108\108\049\073\108")[(tabi_lll1lIl11Il - "\073\108\073\049\049\049\049\108")(-417857 - (-464174))] = Enum[(tabi_lll1lIl11Il - "\073\049\073\073\108\108\049\108")(-302654 - (-348971))][(tabi_lll1lIl11Il - "\108\073\049\073\049\108")(809721 + -763387)];
+				(tabi_l1l1lIl11Il / "\073\108\108\049\073\073\049\108")[(tabi_lll1lIl11Il - "\108\108\049\073\049\108\108\108")(128548 + -82239)] = -77026 + 77026;
+				(tabi_l1l1lIl11Il / "\108\049\049\073\049\073\073\049")[(tabi_lll1lIl11Il - "\108\108\073\049\049\073\049\108")(636238 - 589874)] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\049\073\108\073\108")(-261865 - (-308138))](140836 + -140836, -456878 + 457246, 370091 - 370091, 103991 - 103971);
+				(tabi_l1l1lIl11Il / "\108\049\049\108\073\073\049\108")[(tabi_lll1lIl11Il - "\073\073\108\108\049\073\073\108")(-645620 + 691976)] = tabi_I1I1lIl11Il + "\108\049\073\049\049\108\108\108";
+				(tabi_l1l1lIl11Il / "\073\073\049\108\073\073\108")[(tabi_lll1lIl11Il - "\108\108\073\073\073\073\108\049")(-856955 + 903358)] = (tabi_lll1lIl11Il - "\073\049\073\108\108\108")(142608 - 96355);
+				(tabi_l1l1lIl11Il / "\108\049\049\049\108\049\108\049")[(tabi_lll1lIl11Il - "\108\073\049\073\108\073\073\108")(-192806 + 239105)] = 915260 + -915259;
+				(tabi_l1l1lIl11Il / "\073\073\073\108\073\073\108")[(tabi_lll1lIl11Il - "\108\073\073\073\049\073\073\108")(1011840 - 965438)] = tabi_lI11lIl11Il .. "\073\073\049\073\108\073\108\108";
+				(tabi_l1l1lIl11Il / "\108\108\108\073\049\073\073\049")[(tabi_lll1lIl11Il - "\073\073\073\049\108\108")(-574851 - (-621171))] = false;
+				(tabi_I1l1lIl11Il * "\108\073\108\049")[(tabi_lll1lIl11Il - "\108\049\108\108\073\049\108\108")(-428208 - (-474543))] = (tabi_lll1lIl11Il - "\108\049\108\073\049\049\073\049")(996031 + -949759);
+				(tabi_I1l1lIl11Il * "\108\049\073\073\049\073\108\108")[(tabi_lll1lIl11Il - "\073\108\073\108")(-486383 + 532739)] = tabi_I1I1lIl11Il + "\108\108\073\073\108\049\108\108";
+				(tabi_I1l1lIl11Il * "\108\108\108\049")[(tabi_lll1lIl11Il - "\108\108\049\049\049\073\073\049")(1036865 - 990463)] = Color3[(tabi_lll1lIl11Il - "\073\108\049\108\049\108\073\108")(773304 + -727035)](868923 + -868668, -235560 - (-235815), 94754 - 94499);
+				(tabi_I1l1lIl11Il * "\073\049\108\108\073\108\108\049")[(tabi_lll1lIl11Il - "\073\108\073\108\073\108")(-817017 + 863316)] = -742839 + 742840;
+				(tabi_I1l1lIl11Il * "\073\049\049\108\049\073\049\108")[(tabi_lll1lIl11Il - "\108\108\049\073\073\108\049")(285146 - 238887)] = Color3[(tabi_lll1lIl11Il - "\073\073\108\049\049\073\049\108")(51682 + -5413)](-652084 - (-652084), -892348 + 892348, 1034496 + -1034496);
+				(tabi_I1l1lIl11Il * "\073\108\049\108\108\073\049\108")[(tabi_lll1lIl11Il - "\108\108\108\073\073\049\108")(-703350 + 749678)] = 653172 - 653172;
+				(tabi_I1l1lIl11Il * "\108\049\049\108\108\108\073\108")[(tabi_lll1lIl11Il - "\073\108\108\073\108\049\108\108")(-986446 - (-1032832))] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\049\108")(-612339 + 658612)](.0461956523, -522032 - (-522032), -143204 - (-143204), -681630 - (-681653));
+				(tabi_I1l1lIl11Il * "\108\049\049\108\108\049\073\108")[(tabi_lll1lIl11Il - "\073\073\108\049\108\108\049\108")(40252 - (-6112))] = UDim2[(tabi_lll1lIl11Il - "\073\049\073\108\049\073\073\108")(140388 + -94115)](339179 + -339179, 775800 + -775457, 515248 + -515248, -589874 - (-589874));
+				(tabi_I1l1lIl11Il * "\108\073\049\073\049\073\049")[(tabi_lll1lIl11Il - "\073\073\108\108\073\073\073\049")(-71202 + 117553)] = false;
+				(tabi_II11lIl11Il / "\073\049\049\073\073\049\049\108")[(tabi_lll1lIl11Il - "\073\108\108\108\073\108\049\108")(399788 + -353453)] = (tabi_lll1lIl11Il - "\073\049\108\108\108\108\073\108")(-313731 - (-360043));
+				(tabi_II11lIl11Il / "\073\073\073\049\073\108")[(tabi_lll1lIl11Il - "\073\049\108\049\108\108\108\049")(-304041 + 350397)] = tabi_I1l1lIl11Il * "\108\108\073\108\108\073\073\049";
+				(tabi_II11lIl11Il / "\108\049\073\049\108\108\073\049")[(tabi_lll1lIl11Il - "\108\073\108\108\049\049\073\108")(153745 - 107491)] = Enum[(tabi_lll1lIl11Il - "\108\108\049\108\108\073\049\049")(-604998 - (-651252))][(tabi_lll1lIl11Il - "\073\049\073\049\049")(763294 - 716918)];
+				(tabi_II11lIl11Il / "\073\049\073\049\108\108\049\108")[(tabi_lll1lIl11Il - "\073\108\108\073\049\049\108")(348651 + -302274)] = UDim[(tabi_lll1lIl11Il - "\073\108\073\073\108\049")(905084 - 858811)](-518768 - (-518768), 673973 + -673970);
+				local tabi_ll11lIl11Il = tabi_l11llIl11Il({ lIll111l = false }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							tabi_Il1llIl11Il.lIll111l = tabi_l11llIl11Il;
+						end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+							return tabi_Il1llIl11Il.lIll111l;
+						end });
+				(tabi_l1l1lIl11Il / "\073\049\108\049\049\108\108\049")[(tabi_lll1lIl11Il - "\073\049\073\073\108\049\108")(-297302 - (-343595))]:Connect(function(...)
+					(tabi_l1l1lIl11Il / "\073\049\049\073\049\073\108\049")[(tabi_lll1lIl11Il - "\108\073\108\049\049\049\073\049")(-463918 + 510217)] = -406381 - (-406381);
+				end);
+				(tabi_l1l1lIl11Il / "\108\073\108\108\108\108\108\049")[(tabi_lll1lIl11Il - "\073\049\049\049\073\049\108")(-447583 - (-493871))]:Connect(function(...)
+					(tabi_l1l1lIl11Il / "\073\049\073\073\108\108")[(tabi_lll1lIl11Il - "\108\073\073\073\073\108\049\108")(723728 - 677429)] = 828219 - 828218;
+				end);
+				(tabi_l1l1lIl11Il / "\108\073\108\108\073\073\108\108")[(tabi_lll1lIl11Il - "\108\073\049\073\049\049\108\049")(687288 - 640948)]:Connect(function(...)
+					(tabi_I11llIl11Il / "\073\049\073\108\049\108\073\049")(tabi_ll11lIl11Il / not (tabi_ll11lIl11Il - "\073\049\049\073\049\108\073\108"));
+					(tabi_I1l1lIl11Il * "\108\073\108\049\108\073\049\049")[(tabi_lll1lIl11Il - "\073\108\049\049\073\108\073\108")(-295772 - (-342123))] = tabi_ll11lIl11Il - "\108\049\073\073\073\108\108\049";
+					((tabi_l1I1lIl11Il .. "\108\073\073\108\108\049\049\108"):Create(tabi_IIl1lIl11Il .. "\073\108\108\049\073\049\108\108", TweenInfo[(tabi_lll1lIl11Il - "\108\108\108\073\108\049\108\108")(5088 + 41185)](.3, Enum[(tabi_lll1lIl11Il - "\108\073\073\073\073\049\049")(349803 + -303479)][(tabi_lll1lIl11Il - "\073\049\073\073\073\073\073\108")(-403703 - (-449966))]), { [(tabi_lll1lIl11Il - "\073\073\049\049\108\108\108")(544655 - 498287)] = tabi_ll11lIl11Il - "\073\049\049\049\108\073\049\049" and 522864 + -522684 or -146507 - (-146597) })):Play();
+				end);
+				function tabi_III1lIl11Il.II1l1lll.Button(tabi_lII1lIl11Il, tabi_Il1llIl11Il, tabi_I11llIl11Il, ...)
+					local tabi_III1lIl11Il = tabi_l11llIl11Il({ lllIIlI1 = Instance[(tabi_lll1lIl11Il - "\108\108\073\108\073\073\049\049")(-606899 - (-653172))]((tabi_lll1lIl11Il - "\108\073\049\049\049\049\108\049")(-590066 + 636463)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.lllIIlI1 = tabi_l11llIl11Il;
+							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return rawget(tabi_Il1llIl11Il, "\108\108\108\073\073\108\073\049");
+							end });
+					local tabi_llI1lIl11Il = tabi_l11llIl11Il({ l11lll1l = Instance[(tabi_lll1lIl11Il - "\073\073\049\049\073\049\108\049")(166053 - 119780)]((tabi_lll1lIl11Il - "\073\049\108\073\049\108\049")(566258 + -519880)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.l11lll1l = tabi_l11llIl11Il;
+							end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return rawget(tabi_Il1llIl11Il, "\108\049\049\108\108\108\049\108");
+							end });
+					tabi_III1lIl11Il.llIIl1ll[(tabi_lll1lIl11Il - "\108\073\073\108\108\108")(-157285 + 203620)] = (tabi_lll1lIl11Il - "\073\073\073\073\073\049\073\049")(-662589 - (-708982));
+					tabi_III1lIl11Il.II1ll1I1[(tabi_lll1lIl11Il - "\073\049\073\108\108\049")(510786 - 464430)] = tabi_I1l1lIl11Il * "\073\049\049\073\049\108\049\108";
+					tabi_III1lIl11Il.I1IlI1I1[(tabi_lll1lIl11Il - "\073\073\049\049\108\049")(25889 + 20513)] = Color3[(tabi_lll1lIl11Il - "\073\073\108\108\108\073\049\049")(513648 + -467379)](-705213 - (-705270), 20250 - 20193, 555697 + -555640);
+					tabi_III1lIl11Il.ll1l1lI1[(tabi_lll1lIl11Il - "\108\073\049\049\073\108\049")(131364 + -85105)] = Color3[(tabi_lll1lIl11Il - "\073\049\108\108\108\073\108\049")(903292 + -857023)](-423917 + 423917, -501040 + 501040, 292841 - 292841);
+					tabi_III1lIl11Il.Il1IIl1l[(tabi_lll1lIl11Il - "\073\049\073\073\073\049\049")(1048384 + -1002056)] = 821689 - 821689;
+					tabi_III1lIl11Il.I11I1l1[(tabi_lll1lIl11Il - "\073\108\073\108\108\108\049")(-799609 + 845973)] = UDim2[(tabi_lll1lIl11Il - "\108\073\073\073\073\049\073\049")(414060 - 367787)](554097 + -554097, -349690 - (-349867), -162661 + 162661, -864827 + 864846);
+					tabi_III1lIl11Il.l1ll1lIl[(tabi_lll1lIl11Il - "\073\049\108\073\073\073\108")(-80803 + 127123)] = false;
+					tabi_III1lIl11Il.Il11llI1[(tabi_lll1lIl11Il - "\108\073\108\108\049\049\073\108")(516841 - 470447)] = Enum[(tabi_lll1lIl11Il - "\108\073\073\073\073\073\073\108")(69986 + -23592)][(tabi_lll1lIl11Il - "\108\049\073\073\049\073\108\108")(599562 - 553265)];
+					tabi_III1lIl11Il.lIIlIl[(tabi_lll1lIl11Il - "\108\108\108\108\108\073\073\049")(-409451 - (-455854))] = (tabi_lll1lIl11Il - "\073\108\108\108\049\049\073\108")(-790179 - (-836474)) .. (tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\108\049\049\049\108\073\108")(118235 - 71842));
+					tabi_III1lIl11Il.lll111[(tabi_lll1lIl11Il - "\108\049\049\108\073\073\073\049")(-868598 - (-914940))] = Color3[(tabi_lll1lIl11Il - "\108\108\049\108\049\073\049")(-513904 + 560173)](810617 + -810415, 452024 - 451822, 746945 - 746743);
+					tabi_III1lIl11Il.llIl1I1[(tabi_lll1lIl11Il - "\108\108\108\108\073\073\049\108")(-882407 - (-928701))] = 953612 - 953598;
+					tabi_III1lIl11Il.l1l11l1[(tabi_lll1lIl11Il - "\073\049\073\108\073\108\108\108")(16737 + 29580)] = Enum[(tabi_lll1lIl11Il - "\108\073\049\049\108\049\108\049")(773880 + -727563)][(tabi_lll1lIl11Il - "\108\108\108\049\049\073\108\049")(-116327 - (-162661))];
+					(tabi_llI1lIl11Il / "\073\108\108\108\049\049\108")[(tabi_lll1lIl11Il - "\108\108\049\108\108\108")(710390 + -664130)] = UDim[(tabi_lll1lIl11Il - "\108\073\049\049\108\049")(567346 + -521073)](-762168 - (-762168), -449902 + 449906);
+					(tabi_llI1lIl11Il / "\073\049\073\108")[(tabi_lll1lIl11Il - "\108\108\073\073\108\049\073\049")(-769146 - (-815481))] = (tabi_lll1lIl11Il - "\108\073\073\073\108\073\049\108")(750382 - 704118);
+					(tabi_llI1lIl11Il / "\108\073\049\049\108\073\049\049")[(tabi_lll1lIl11Il - "\108\073\108\108\108\049\108\049")(722057 - 675701)] = tabi_III1lIl11Il.Il11lI1;
+					(game:GetService((tabi_lll1lIl11Il - "\108\073\073\108\108\108")(-310343 - (-356715))))[(tabi_lll1lIl11Il - "\108\073\073\073\049\073\049\108")(-16008 - (-62370))]:Connect(function(...)
+						tabi_III1lIl11Il.I1ll11ll[(tabi_lll1lIl11Il - "\073\108\049\073\049\073\073\049")(-581298 + 627662)] = UDim2[(tabi_lll1lIl11Il - "\073\108\108\049\049\108\108\108")(-628979 + 675252)](-854458 - (-854458), tabi_III1lIl11Il.Ill111Il[(tabi_lll1lIl11Il - "\108\049\049\049\073\108\049\108")(177096 - 130788)][(tabi_lll1lIl11Il - "\073\108\108\073\049\073\108\049")(-116409 - (-162725))] + (-888632 - (-888636)), -460526 - (-460526), -897980 + 897999);
+					end);
+					tabi_III1lIl11Il.lllllll1[(tabi_lll1lIl11Il - "\108\049\073\049\049\108\049\108")(334890 + -288550)]:Connect(function(...)
+						task[(tabi_lll1lIl11Il - "\108\049\073\073\108\049\108\108")(-145829 + 192129)](tabi_I11llIl11Il or function(...)
+ 
+						end);
+						task[(tabi_lll1lIl11Il - "\073\108\049\108\108\049")(-90851 + 137151)](tabi_lIl1lIl11Il ^ "\073\108\049\108\108\073\108\108", tabi_III1lIl11Il.ll11I1I1);
+					end);
+				end;
+				function tabi_III1lIl11Il.II1l1lll.Toggle(tabi_III1lIl11Il, tabi_Il1llIl11Il, tabi_lII1lIl11Il, ...)
+					local tabi_llI1lIl11Il = tabi_l11llIl11Il({ IlI11l = Instance[(tabi_lll1lIl11Il - "\073\073\049\073\108\073\108\108")(-818169 + 864442)]((tabi_lll1lIl11Il - "\108\108\108\108\108\049\073\049")(-959294 + 1005607)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.IlI11l = tabi_l11llIl11Il;
+							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.IlI11l;
+							end });
+					local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ ll1I1Il = Instance[(tabi_lll1lIl11Il - "\073\108\073\108\049\108\108\108")(125028 + -78755)]((tabi_lll1lIl11Il - "\108\049\073\049\108\049\108\108")(575853 - 529456)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.ll1I1Il = tabi_l11llIl11Il;
+							end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.ll1I1Il;
+							end });
+					local tabi_l1I1lIl11Il = tabi_l11llIl11Il({ lIl11ll1 = Instance[(tabi_lll1lIl11Il - "\108\108\073\073\049\108\049\108")(-93539 - (-139812))]((tabi_lll1lIl11Il - "\108\108\073\108\108\073\108\108")(-1000214 - (-1046592))) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.lIl11ll1 = tabi_l11llIl11Il;
+							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return rawget(tabi_Il1llIl11Il, "\108\073\108\049\049\108\108\049");
+							end });
+					local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ lI1Illl1 = Instance[(tabi_lll1lIl11Il - "\108\108\073\108\108\049\049\108")(56289 - 10016)]((tabi_lll1lIl11Il - "\073\108\108\073\108\108\073\108")(545073 + -498802)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.lI1Illl1 = tabi_l11llIl11Il;
+							end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.lI1Illl1;
+							end });
+					(tabi_llI1lIl11Il + "\073\073\108\049\073\108\108\108")[(tabi_lll1lIl11Il - "\108\049\108\073\049\073\108\108")(52578 + -6243)] = (tabi_lll1lIl11Il - "\073\049\108\108\108\108\108")(-162085 + 208408);
+					(tabi_llI1lIl11Il + "\108\073\108\049\049\049\108\049")[(tabi_lll1lIl11Il - "\073\049\073\049\073\108\108\049")(-913066 - (-959422))] = tabi_I1l1lIl11Il * "\108\073\049\108\108";
+					(tabi_llI1lIl11Il + "\073\073\108\108\049\108\049")[(tabi_lll1lIl11Il - "\073\073\108\073\108\049\108")(-450029 - (-496431))] = Color3[(tabi_lll1lIl11Il - "\108\049\108\073\073\108\049\049")(-909116 + 955385)](-222376 - (-222631), -1002240 - (-1002495), 973629 - 973374);
+					(tabi_llI1lIl11Il + "\073\049\073\073\049\108\049")[(tabi_lll1lIl11Il - "\073\049\049\049\073\049\108\108")(747537 - 701238)] = 939517 + -939516;
+					(tabi_llI1lIl11Il + "\073\049\049\073\049\049\108")[(tabi_lll1lIl11Il - "\073\073\108\049\073\073\049")(-312952 - (-359211))] = Color3[(tabi_lll1lIl11Il - "\073\049\073\049\049\073\049\108")(795060 - 748791)](109987 - 109987, 486767 - 486767, -509616 - (-509616));
+					(tabi_llI1lIl11Il + "\108\073\108\073\049\108\049")[(tabi_lll1lIl11Il - "\073\073\108\108\108\108\108\049")(-185254 + 231582)] = 481007 - 481007;
+					(tabi_llI1lIl11Il + "\108\073\108\073\049\049\108\108")[(tabi_lll1lIl11Il - "\073\049\049\049\049\049\073\049")(1083314 - 1036928)] = UDim2[(tabi_lll1lIl11Il - "\073\049\073\049\108\073\049\108")(149989 + -103716)](-591090 + 591090, -1018368 + 1018368, .46808511, 75810 - 75810);
+					(tabi_llI1lIl11Il + "\073\108\073\108\073\108\049\108")[(tabi_lll1lIl11Il - "\073\108\073\108\108")(713425 - 667061)] = UDim2[(tabi_lll1lIl11Il - "\073\049\073\073\108\108\049")(846970 - 800697)](-713910 - (-713910), -18017 + 18193, 936957 + -936957, 544881 + -544862);
+					(tabi_IlI1lIl11Il - "\108\073\108\108\073\073\108\108")[(tabi_lll1lIl11Il - "\073\049\049\049\049\073\049\108")(-442798 + 489133)] = (tabi_lll1lIl11Il - "\073\049\108\073\073\108\049")(-698357 - (-744695));
+					(tabi_IlI1lIl11Il - "\108\073\108\108\049\073\073\049")[(tabi_lll1lIl11Il - "\073\108\108\049\108\073\108\108")(-752311 + 798667)] = tabi_llI1lIl11Il + "\073\049\073\049\108\108\108";
+					(tabi_IlI1lIl11Il - "\073\073\108\049\108\073\049\108")[(tabi_lll1lIl11Il - "\108\049\108\049\073\108\073\108")(763384 + -716982)] = tabi_lI11lIl11Il .. "\073\073\073\073\108\073\049\108";
+					(tabi_IlI1lIl11Il - "\108\108\049\073\108\049\108")[(tabi_lll1lIl11Il - "\108\073\049\073\073\108\108\108")(35923 - (-10336))] = Color3[(tabi_lll1lIl11Il - "\108\108\073\049\073\073\108\108")(-267816 + 314085)](-967294 + 967294, 932221 + -932221, 310122 - 310122);
+					(tabi_IlI1lIl11Il - "\073\049\108\073\108\049\049\108")[(tabi_lll1lIl11Il - "\108\049\073\073\073\049")(-147822 - (-194150))] = -993663 - (-993663);
+					(tabi_IlI1lIl11Il - "\108\049\049\108\073\049\073\108")[(tabi_lll1lIl11Il - "\108\073\073\049\108\049\108\108")(-642996 + 689360)] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\108\073\073\108\108")(832633 - 786360)](-1015167 - (-1015167), -599475 + 599494, -530096 - (-530096), -914236 + 914255);
+					(tabi_IlI1lIl11Il - "\073\073\108\108\073\049\073\108")[(tabi_lll1lIl11Il - "\073\073\049\049\108\073\049")(-805305 + 851625)] = false;
+					(tabi_IlI1lIl11Il - "\108\108\073\073\108")[(tabi_lll1lIl11Il - "\108\108\073\073\049\049\049\108")(518441 - 472047)] = Enum[(tabi_lll1lIl11Il - "\073\108\073\108\073\049\108\108")(628140 - 581746)][(tabi_lll1lIl11Il - "\108\049\073\108\073\108\108\108")(16161 + 30149)];
+					(tabi_IlI1lIl11Il - "\108\073\108\073\049\108\049\108")[(tabi_lll1lIl11Il - "\108\049\049\073\049\073\073\049")(529648 + -483245)] = (tabi_lll1lIl11Il - "\073\049\073\108\049\073\073\049")(-886651 + 932904);
+					(tabi_IlI1lIl11Il - "\108\049\049\108\108\049\108")[(tabi_lll1lIl11Il - "\108\108\049\108\073\049\108")(727355 - 681013)] = Color3[(tabi_lll1lIl11Il - "\073\049\049\073\073\073\049\049")(510955 - 464686)](694518 + -694263, 934141 + -933886, 72865 - 72610);
+					(tabi_IlI1lIl11Il - "\073\049\073\073\108\073\049")[(tabi_lll1lIl11Il - "\073\049\073\108\108\073\049")(981822 + -935528)] = 38515 - 38497;
+					tabi_l1I1lIl11Il.llllIIll[(tabi_lll1lIl11Il - "\108\108\049\049\108\108\073\049")(-834247 - (-880507))] = UDim[(tabi_lll1lIl11Il - "\108\049\108\049\073\108\073\108")(-61730 - (-108003))](34721 + -34721, 448050 - 448046);
+					tabi_l1I1lIl11Il.lI1lIll[(tabi_lll1lIl11Il - "\073\073\049\049\073\073\108\049")(348587 + -302252)] = (tabi_lll1lIl11Il - "\073\049\073\049\073\108\073\049")(-984635 - (-1030912));
+					tabi_l1I1lIl11Il.Il1III1[(tabi_lll1lIl11Il - "\108\049\049\073\049\049\049")(-645601 - (-691957))] = tabi_IlI1lIl11Il - "\108\073\073\049\073\073\108";
+					(tabi_I1I1lIl11Il ^ "\073\049\049\108\049\108\073\049")[(tabi_lll1lIl11Il - "\108\108\073\108\108\108\073\108")(736 + 45599)] = (tabi_lll1lIl11Il - "\073\049\108\049\073\108\073\108")(842618 + -796332);
+					(tabi_I1I1lIl11Il ^ "\073\049\049\108\073\073\049")[(tabi_lll1lIl11Il - "\073\073\049\108\073\049\073\108")(-145253 + 191609)] = tabi_llI1lIl11Il + "\108\049\049\073\073\073\073\049";
+					(tabi_I1I1lIl11Il ^ "\108\108\073\073\073\049\073\049")[(tabi_lll1lIl11Il - "\073\049\049\108\049\108\108\049")(-808504 - (-854906))] = Color3[(tabi_lll1lIl11Il - "\108\073\073\108\073\073\049\049")(1009471 + -963202)](-881340 - (-881595), 220582 - 220327, -75746 + 76001);
+					(tabi_I1I1lIl11Il ^ "\073\073\073\049\073\049\108\049")[(tabi_lll1lIl11Il - "\108\108\108\073\073\073\073\108")(-198182 + 244481)] = 946941 + -946940;
+					(tabi_I1I1lIl11Il ^ "\108\049\049\073\108\108\108\108")[(tabi_lll1lIl11Il - "\073\049\073\108\073\049\108\108")(-681525 + 727784)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\108\108\073\049")(1094141 - 1047872)](1030976 + -1030976, 329514 + -329514, -90339 + 90339);
+					(tabi_I1I1lIl11Il ^ "\073\108\108\049\049")[(tabi_lll1lIl11Il - "\108\073\073\073\049\108\108\049")(799983 - 753655)] = -302825 + 302825;
+					(tabi_I1I1lIl11Il ^ "\108\049\108\049\049\073\073\049")[(tabi_lll1lIl11Il - "\073\073\108\073\049\049\049")(1045120 + -998734)] = UDim2[(tabi_lll1lIl11Il - "\108\049\108\073\108\073\049")(-263593 - (-309866))](.17, 984831 + -984831, -510896 - (-510896), 95203 + -95203);
+					(tabi_I1I1lIl11Il ^ "\108\108\073\073\108\073\108\108")[(tabi_lll1lIl11Il - "\108\073\073\108\073\108\049")(-155493 + 201857)] = UDim2[(tabi_lll1lIl11Il - "\108\108\073\073\073\108\073\049")(220199 + -173926)](328234 - 328234, -567858 + 568026, -832953 - (-832954), -386156 - (-386156));
+					(tabi_I1I1lIl11Il ^ "\073\049\108\049\073\073\049")[(tabi_lll1lIl11Il - "\108\049\073\073\073\108\108")(-656892 - (-703286))] = Enum[(tabi_lll1lIl11Il - "\073\073\049\049\049\049\049")(266280 + -219886)][(tabi_lll1lIl11Il - "\073\073\108\073\049\049")(-749623 + 796018)];
+					(tabi_I1I1lIl11Il ^ "\073\108\049\049\108\073\049\049")[(tabi_lll1lIl11Il - "\073\108\108\073\073\049")(-939133 + 985536)] = tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\073\073\108\108\073\108\108\049")(204518 + -158195);
+					(tabi_I1I1lIl11Il ^ "\108\049\049\108\073\049\108\049")[(tabi_lll1lIl11Il - "\073\073\073\108\049\049\049\108")(441326 + -394984)] = Color3[(tabi_lll1lIl11Il - "\073\073\073\049\108\108\108\108")(-73703 - (-119972))](-135130 - (-135332), -408685 + 408887, -379116 + 379318);
+					(tabi_I1I1lIl11Il ^ "\108\108\049\049\073\049\108")[(tabi_lll1lIl11Il - "\073\073\049\049\073\073\049\049")(766156 - 719862)] = -124566 - (-124580);
+					(tabi_I1I1lIl11Il ^ "\073\108\049\049")[(tabi_lll1lIl11Il - "\108\108\049\049\108\049\108\108")(-781624 + 827941)] = Enum[(tabi_lll1lIl11Il - "\108\049\073\073\073\049\049")(662837 + -616520)][(tabi_lll1lIl11Il - "\073\049\073\073\073\073\108\108")(24413 - (-21921))];
+					local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ lll1lI11 = false }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.lll1lI11 = tabi_l11llIl11Il;
+							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return rawget(tabi_Il1llIl11Il, "\108\108\108\049\108\073\049\049");
+							end });
+					(tabi_IlI1lIl11Il - "\073\108\049\073\049\108\108\108")[(tabi_lll1lIl11Il - "\073\108\073\049\049\108\049")(-849018 + 895358)]:Connect(function(...)
+						(tabi_I11llIl11Il / "\108\049\108\073\049")(tabi_lIl1lIl11Il[not (tabi_lIl1lIl11Il + "\108\073\049\073\108\049\108\049")]);
+						(tabi_IlI1lIl11Il - "\108\049\073\108\108\073\049")[(tabi_lll1lIl11Il - "\108\108\108\108\108\049\108")(-836344 - (-882747))] = tabi_lIl1lIl11Il + "\108\073\108\049\108\049\108\049" and utf8[(tabi_lll1lIl11Il - "\073\049\108\073\073\073\108")(492430 - 446126)](-385452 + 395455) or (tabi_lll1lIl11Il - "\108\073\108\049\073\108\049\108")(-525125 - (-571378));
+						task[(tabi_lll1lIl11Il - "\108\108\049\108\073\108")(-691189 + 737489)](tabi_lII1lIl11Il or function(tabi_Il1llIl11Il, ...)
+ 
+						end, tabi_lIl1lIl11Il + "\073\108\073\108\049\073\073\049");
+					end);
+				end;
+				function tabi_III1lIl11Il.II1l1lll.DropDown(tabi_llI1lIl11Il, tabi_Il1llIl11Il, tabi_lII1lIl11Il, tabi_III1lIl11Il, ...)
+					local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ llIllI1l = Instance[(tabi_lll1lIl11Il - "\108\108\108\073\108\073\049\049")(101219 + -54946)]((tabi_lll1lIl11Il - "\073\108\049\108\108\108\073\049")(-408749 + 455062)) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.llIllI1l = tabi_l11llIl11Il;
+							end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.llIllI1l;
+							end });
+					local tabi_l1I1lIl11Il = tabi_l11llIl11Il({ I111lIll = Instance[(tabi_lll1lIl11Il - "\108\049\073\108\073\108\049\049")(619315 + -573042)]((tabi_lll1lIl11Il - "\108\073\073\108\108\073\108\108")(-487983 + 534361)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.I111lIll = tabi_l11llIl11Il;
+							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.I111lIll;
+							end });
+					local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ I11lIll = Instance[(tabi_lll1lIl11Il - "\073\073\108\073\073\073\049")(629748 + -583475)]((tabi_lll1lIl11Il - "\108\049\049\049\049\108\073\108")(368043 + -321772)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.I11lIll = tabi_l11llIl11Il;
+							end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.I11lIll;
+							end });
+					local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ lIl1Illl = Instance[(tabi_lll1lIl11Il - "\073\073\049\049\049\108\108\049")(680693 + -634420)]((tabi_lll1lIl11Il - "\073\108\073\108\073\073\073\049")(-209702 + 256008)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.lIl1Illl = tabi_l11llIl11Il;
+							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return rawget(tabi_Il1llIl11Il, "\108\073\108\049\073\108\108\108");
+							end });
+					local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ l1l11I1l = Instance[(tabi_lll1lIl11Il - "\073\049\108\049\073\049\108\108")(-770552 - (-816825))]((tabi_lll1lIl11Il - "\108\108\073\108\108\108\073\108")(339819 + -293506)) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.l1l11I1l = tabi_l11llIl11Il;
+							end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.l1l11I1l;
+							end });
+					local tabi_Ill1lIl11Il = tabi_l11llIl11Il({ I11l1I1 = Instance[(tabi_lll1lIl11Il - "\073\108\073\073\108\108\073\108")(30305 - (-15968))]((tabi_lll1lIl11Il - "\073\049\108\049")(-158053 + 204450)) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.I11l1I1 = tabi_l11llIl11Il;
+							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return rawget(tabi_Il1llIl11Il, "\073\049\049\108\049\073\049");
+							end });
+					local tabi_l1l1lIl11Il = tabi_l11llIl11Il({ I1I1llll = Instance[(tabi_lll1lIl11Il - "\108\108\073\073\073\049\073\049")(222887 + -176614)]((tabi_lll1lIl11Il - "\108\108\108\049\108\073\073\049")(-925205 - (-971518))) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.I1I1llll = tabi_l11llIl11Il;
+							end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.I1I1llll;
+							end });
+					local tabi_lI11lIl11Il = tabi_l11llIl11Il({ lIl1lII1 = Instance[(tabi_lll1lIl11Il - "\108\108\049\073\108\108")(-200039 - (-246312))]((tabi_lll1lIl11Il - "\073\108\073\073\073\049\108\049")(-115492 + 161838)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.lIl1lII1 = tabi_l11llIl11Il;
+							end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.lIl1lII1;
+							end });
+					(tabi_IlI1lIl11Il / "\108\073\108\049\073\108")[(tabi_lll1lIl11Il - "\108\049\073\073\049\108\049\108")(253797 - 207462)] = (tabi_lll1lIl11Il - "\073\049\073\108\108\108\049\108")(-982014 + 1028385);
+					(tabi_IlI1lIl11Il / "\073\073\049\073\049\073\049")[(tabi_lll1lIl11Il - "\073\049\049\073\073\108\049\049")(-111587 + 157943)] = tabi_I1l1lIl11Il * "\108\049\073\108\049\049\108\108";
+					(tabi_IlI1lIl11Il / "\108\108\108\073\108\108\108\108")[(tabi_lll1lIl11Il - "\108\073\108\049\073\049\108\049")(884220 - 837818)] = Color3[(tabi_lll1lIl11Il - "\073\049\049\073\108\108\073\108")(-79015 - (-125284))](667054 - 666997, 423654 - 423597, 465134 + -465077);
+					(tabi_IlI1lIl11Il / "\108\049\073\108\108\049\073\108")[(tabi_lll1lIl11Il - "\073\073\108\073\049\073\073\049")(714664 - 668405)] = Color3[(tabi_lll1lIl11Il - "\108\049\049\073\108\073\049")(-633780 + 680049)](-638964 + 638964, -45345 - (-45345), -469871 + 469871);
+					(tabi_IlI1lIl11Il / "\073\073\073\073\108\108\049")[(tabi_lll1lIl11Il - "\108\108\073\049\108\073\108\049")(346987 + -300659)] = -486575 + 486575;
+					(tabi_IlI1lIl11Il / "\073\108\073\108\049\108\073\108")[(tabi_lll1lIl11Il - "\108\108\073\049\073\073\049\108")(821945 + -775559)] = UDim2[(tabi_lll1lIl11Il - "\073\049\073\108\049\049\073\049")(-529073 - (-575346))](-12192 + 12192, 312490 - 312490, .427184463, 583474 + -583474);
+					(tabi_IlI1lIl11Il / "\108\049\073\049\108\049")[(tabi_lll1lIl11Il - "\108\073\108\073\073\108\073\108")(862037 - 815673)] = UDim2[(tabi_lll1lIl11Il - "\108\049\049\108\073\108\073\049")(14624 + 31649)](-853242 - (-853242), 93758 - 93539, -244840 - (-244840), -395031 - (-395052));
+					(tabi_l1I1lIl11Il + "\108\108\108\049\073\073\108\108")[(tabi_lll1lIl11Il - "\108\073\049\049\108\049\049\108")(-849992 - (-896252))] = UDim[(tabi_lll1lIl11Il - "\073\049\049\073\049\108\108\049")(761528 + -715255)](-497519 - (-497519), 859711 - 859707);
+					(tabi_l1I1lIl11Il + "\073\108\073\049\108\073\049")[(tabi_lll1lIl11Il - "\073\108\073\049\073\049\049")(-578674 + 625009)] = (tabi_lll1lIl11Il - "\073\073\049\049\073\108")(-249704 + 296047);
+					(tabi_l1I1lIl11Il + "\108\049\049\049\108\108\108\108")[(tabi_lll1lIl11Il - "\073\073\049\108\049\073\049")(762744 + -716388)] = tabi_IlI1lIl11Il / "\108\073\073\108\073\108\073\108";
+					(tabi_I1I1lIl11Il ^ "\073\049\108\049\073\049\073\049")[(tabi_lll1lIl11Il - "\073\049\073\108\049\049\073\108")(724404 - 678069)] = (tabi_lll1lIl11Il - "\073\049\073\049\073\108\049\108")(-356203 + 402594);
+					(tabi_I1I1lIl11Il ^ "\108\108\049\049\073\108\073\049")[(tabi_lll1lIl11Il - "\108\049\073\108\073\073\108\108")(479919 + -433563)] = tabi_IlI1lIl11Il / "\108\108\049\108\049\073\108\108";
+					(tabi_I1I1lIl11Il ^ "\108\073\073\073\108\073\108")[(tabi_lll1lIl11Il - "\108\049\073\073\073\049\108\049")(183846 + -137444)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\073\108\049\073\049")(164513 - 118244)](-722614 + 722869, -173350 - (-173605), -481584 - (-481839));
+					(tabi_I1I1lIl11Il ^ "\108\073\049\108\073\108\073\108")[(tabi_lll1lIl11Il - "\073\049\108\073\049\049\049")(478831 + -432532)] = 260777 - 260776;
+					(tabi_I1I1lIl11Il ^ "\108\073\049\049\049\108")[(tabi_lll1lIl11Il - "\108\049\073\108\073\108\073\108")(-494718 - (-540977))] = Color3[(tabi_lll1lIl11Il - "\108\108\049\108\108\108\073\049")(415464 - 369195)](-304553 - (-304553), -96867 - (-96867), -824634 + 824634);
+					(tabi_I1I1lIl11Il ^ "\073\108\073\073\049\108\073\108")[(tabi_lll1lIl11Il - "\073\073\049\049\049\108\049")(843514 + -797186)] = -133476 - (-133476);
+					(tabi_I1I1lIl11Il ^ "\073\073\049\049\073\049\108")[(tabi_lll1lIl11Il - "\108\108\049\073\108")(-476527 + 522913)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\108\073\108\049\049")(349163 + -302890)](988479 + -988479, 21094 - 21089, 543217 - 543217, 420589 - 420589);
+					(tabi_I1I1lIl11Il ^ "\073\073\108\108\108\073\073\049")[(tabi_lll1lIl11Il - "\073\073\108\049\108\073\073\108")(-220263 + 266627)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\049\073\108\073\049")(-331883 - (-378156))](680757 + -680757, 252010 - 251816, 1026240 + -1026240, -499311 + 499332);
+					(tabi_I1I1lIl11Il ^ "\108\073\049\049\108\049\073\108")[(tabi_lll1lIl11Il - "\073\108\073\073\049\049\073\049")(-247592 + 293986)] = Enum[(tabi_lll1lIl11Il - "\108\049\049\108\073\049\108\049")(-967877 - (-1014271))][(tabi_lll1lIl11Il - "\108\049\073\073\073\108")(515882 - 469487)];
+					(tabi_I1I1lIl11Il ^ "\108\049\108\108\049\108")[(tabi_lll1lIl11Il - "\108\108\108\049\108\073\049")(553329 + -506926)] = tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\073\049\049\049\073\108\108\049")(509009 - 462638);
+					(tabi_I1I1lIl11Il ^ "\073\108\073\073\073\073\108\049")[(tabi_lll1lIl11Il - "\073\073\073\049\108\049\108\049")(328810 + -282468)] = Color3[(tabi_lll1lIl11Il - "\073\073\108\073\049\073\108")(806649 + -760380)](-527782 - (-527984), -991679 + 991881, 699894 + -699692);
+					(tabi_I1I1lIl11Il ^ "\073\073\049\049\049\073\073\108")[(tabi_lll1lIl11Il - "\108\108\108\108\049\073\108")(-349995 + 396289)] = 720260 - 720246;
+					(tabi_I1I1lIl11Il ^ "\108\073\049\073\049\049\049")[(tabi_lll1lIl11Il - "\108\049\049\108\073\073\049\049")(-837710 - (-884027))] = Enum[(tabi_lll1lIl11Il - "\108\073\049\073\108\073\049")(-54818 + 101135)][(tabi_lll1lIl11Il - "\073\108\049\049\073\049\049")(-704249 - (-750583))];
+					tabi_lIl1lIl11Il.l1l1Il1l[(tabi_lll1lIl11Il - "\108\049\108\049\073\108\049")(31903 - (-14432))] = (tabi_lll1lIl11Il - "\108\108\108\049\073\049\073\108")(341047 - 294697);
+					tabi_lIl1lIl11Il.IlI1lI1l[(tabi_lll1lIl11Il - "\108\108\108\108\049\049\108\049")(912719 - 866363)] = tabi_IlI1lIl11Il / "\073\049\049\049\108\108\049\108";
+					tabi_lIl1lIl11Il.Il1I1l1[(tabi_lll1lIl11Il - "\073\049\108\049\108\049\073\049")(-184869 - (-231271))] = Color3[(tabi_lll1lIl11Il - "\108\049\073\049\049\108\108\049")(304229 - 257960)](216294 - 216039, 511280 + -511025, -223976 - (-224231));
+					tabi_lIl1lIl11Il.IIl1111[(tabi_lll1lIl11Il - "\073\108\073\108\073\108\049\108")(-959588 - (-1005887))] = -247463 - (-247464);
+					tabi_lIl1lIl11Il.IIIlll[(tabi_lll1lIl11Il - "\108\108\073\073\073\108")(294953 + -248694)] = Color3[(tabi_lll1lIl11Il - "\073\108\049\108\073\049\049\108")(-708086 + 754355)](-875195 + 875195, 254056 - 254056, 149349 + -149349);
+					tabi_lIl1lIl11Il.lll11lll[(tabi_lll1lIl11Il - "\073\108\073\049\049\073\073\108")(-253425 - (-299753))] = -856251 + 856251;
+					tabi_lIl1lIl11Il.I11Illll[(tabi_lll1lIl11Il - "\108\073\073\049\073\049\108\108")(514208 - 467822)] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\108\073\049\049")(-378220 - (-424493))](53090 + -53089, 354603 + -354628, -540849 + 540849, 157541 - 157541);
+					tabi_lIl1lIl11Il.lll1111[(tabi_lll1lIl11Il - "\108\108\108\049\108\108\108")(901719 - 855355)] = UDim2[(tabi_lll1lIl11Il - "\108\049\049\108\049\073\108\049")(-855483 - (-901756))](355627 + -355627, 954046 + -954023, 183206 - 183206, -60875 - (-60898));
+					tabi_lIl1lIl11Il.IlIIIl[(tabi_lll1lIl11Il - "\073\049\073\049\049\073\108")(345773 - 299369)] = (tabi_lll1lIl11Il - "\108\073\049\073\049\049\073\108")(247201 - 200934);
+					(tabi_IIl1lIl11Il .. "\108\073\049\108\073\073\073\108")[(tabi_lll1lIl11Il - "\073\049\108\108\049\108\049")(-446320 - (-492655))] = (tabi_lll1lIl11Il - "\073\049\073\049\108\108\049\108")(901305 - 855035);
+					(tabi_IIl1lIl11Il .. "\108\108\049\108\108\049\108")[(tabi_lll1lIl11Il - "\073\049\073\049\073\108\073\049")(-819449 + 865805)] = tabi_IlI1lIl11Il / "\108\108\073\049\073\073\108\049";
+					(tabi_IIl1lIl11Il .. "\108\108\049\073\049\108\073\049")[(tabi_lll1lIl11Il - "\108\108\073\073\073\108")(1033408 + -987006)] = Color3[(tabi_lll1lIl11Il - "\108\049\073\108\049\108\049\108")(-114084 + 160353)](-1006399 + 1006451, -47201 + 47253, -992127 + 992179);
+					(tabi_IIl1lIl11Il .. "\108\049\073\108\108\073\108")[(tabi_lll1lIl11Il - "\108\049\108\073\108\108\108\108")(-350649 - (-396908))] = Color3[(tabi_lll1lIl11Il - "\108\049\049\073\073\108\108\049")(-457267 - (-503536))](-451694 + 451694, -534833 - (-534833), -913084 - (-913084));
+					(tabi_IIl1lIl11Il .. "\073\049\049\108\073\049\108\049")[(tabi_lll1lIl11Il - "\073\073\073\073\108\073\108")(501734 - 455406)] = -181094 - (-181094);
+					(tabi_IIl1lIl11Il .. "\108\049\073\049\049\049\108")[(tabi_lll1lIl11Il - "\108\049\073\073\049\073\108\049")(571442 + -525056)] = UDim2[(tabi_lll1lIl11Il - "\108\073\073\108\073\049\108")(-938750 - (-985023))](-581426 + 581426, -230055 + 230055, 563633 - 563633, -461337 - (-461358));
+					(tabi_IIl1lIl11Il .. "\073\108\073\108\073\108\049\049")[(tabi_lll1lIl11Il - "\108\108\108\108\049\049\108")(847765 - 801401)] = UDim2[(tabi_lll1lIl11Il - "\108\049\073\073\049\049\108\049")(657460 - 611187)](689653 + -689652, -882107 - (-882107), 412781 + -412781, -428141 + 428143);
+					(tabi_IIl1lIl11Il .. "\073\049\049\049\049\108\049")[(tabi_lll1lIl11Il - "\073\049\049\108\108\049\108\049")(-501026 - (-547377))] = false;
+					tabi_Ill1lIl11Il.l1IIII1l[(tabi_lll1lIl11Il - "\108\108\108\049\073\108\049")(896956 + -850621)] = (tabi_lll1lIl11Il - "\108\073\073\073\049")(-145765 + 192148);
+					tabi_Ill1lIl11Il.l1I1II1[(tabi_lll1lIl11Il - "\073\108\073\073\108\049")(-190438 + 236794)] = tabi_IlI1lIl11Il / "\108\108\049\049\049\108";
+					tabi_Ill1lIl11Il.IlllI1l1[(tabi_lll1lIl11Il - "\108\108\108\073\073\049\073\108")(29473 - (-16929))] = Color3[(tabi_lll1lIl11Il - "\108\108\073\108\108")(-52450 + 98719)](-261545 - (-261800), -223335 + 223590, 981821 - 981566);
+					tabi_Ill1lIl11Il.l1IlII1l[(tabi_lll1lIl11Il - "\108\108\073\049\049\049")(-797919 - (-844218))] = -683957 + 683958;
+					tabi_Ill1lIl11Il.I1lIlI1l[(tabi_lll1lIl11Il - "\073\049\049\049\073\108")(-139236 + 185495)] = Color3[(tabi_lll1lIl11Il - "\073\073\108\073\108\108\049")(-605943 - (-652212))](-184486 - (-184486), -300393 + 300393, 148261 - 148261);
+					tabi_Ill1lIl11Il.Illll11[(tabi_lll1lIl11Il - "\073\049\073\108")(104739 + -58411)] = 25313 + -25313;
+					tabi_Ill1lIl11Il.I1lI11I1[(tabi_lll1lIl11Il - "\073\049\073\073\073\073\073\049")(515312 + -468948)] = UDim2[(tabi_lll1lIl11Il - "\108\049\108\108\049\049")(-136676 + 182949)](914301 - 914300, -619443 - (-619443), -241575 - (-241575), -403288 - (-403309));
+					tabi_Ill1lIl11Il.llIlI1l1[(tabi_lll1lIl11Il - "\108\049\049\049\073\108\049")(-775352 + 821746)] = Enum[(tabi_lll1lIl11Il - "\108\108\073\049\073\073\049\049")(-936772 - (-983166))][(tabi_lll1lIl11Il - "\073\049\049\073\108\108\049\108")(-683153 - (-729463))];
+					tabi_Ill1lIl11Il.l1Il1II1[(tabi_lll1lIl11Il - "\108\073\073\108\073\049\049\108")(97507 + -51104)] = (tabi_lll1lIl11Il - "\108\108\049\073\049\049\108\108")(-169573 + 215826);
+					tabi_Ill1lIl11Il.Il1l1ll[(tabi_lll1lIl11Il - "\073\073\049\049\108\108\108\108")(-262692 - (-309034))] = Color3[(tabi_lll1lIl11Il - "\073\073\108")(486443 - 440174)](839738 + -839738, -418413 - (-418413), -460974 + 460974);
+					tabi_Ill1lIl11Il.ll1I1lll[(tabi_lll1lIl11Il - "\108\073\049\049\049\108\049")(939261 + -892967)] = 526590 - 526576;
+					(tabi_l1l1lIl11Il .. "\108\108\049\049\108\073\073\049")[(tabi_lll1lIl11Il - "\073\108\108\073\108\073\049\049")(470892 - 424557)] = (tabi_lll1lIl11Il - "\108\073\049\073\073\049\108")(488559 + -442200);
+					(tabi_l1l1lIl11Il .. "\108\108\108\108\073\108")[(tabi_lll1lIl11Il - "\073\108\073\108\049\108\073\108")(164197 + -117841)] = tabi_IlI1lIl11Il / "\108\108\108\073\108\108\049";
+					(tabi_l1l1lIl11Il .. "\108\049\108\049\049\108\108\049")[(tabi_lll1lIl11Il - "\108\108\049\049\108\049\108")(645748 + -599496)] = true;
+					(tabi_l1l1lIl11Il .. "\108\073\049\049\108\108\108\049")[(tabi_lll1lIl11Il - "\073\108\049\049\073\049\108")(246440 + -200038)] = Color3[(tabi_lll1lIl11Il - "\073\049\049\108\108\049\108")(-154921 - (-201190))](-971519 - (-971774), -440494 + 440749, 124835 - 124580);
+					(tabi_l1l1lIl11Il .. "\073\073\049\108\073\108\049\049")[(tabi_lll1lIl11Il - "\108\049\049\073\073\108\073\049")(872315 + -826016)] = -324201 - (-324202);
+					(tabi_l1l1lIl11Il .. "\108\049\108\049\049\108\108")[(tabi_lll1lIl11Il - "\073\073\049\049\073\073\049")(-739909 - (-786168))] = Color3[(tabi_lll1lIl11Il - "\073\073\073\108\073\108\108\049")(566765 - 520496)](936253 + -936253, -844346 + 844346, -632180 - (-632180));
+					(tabi_l1l1lIl11Il .. "\108\049\049\049\108\108\073\108")[(tabi_lll1lIl11Il - "\108\108\073\108\073\049\049\108")(-100141 - (-146469))] = 224103 + -224103;
+					(tabi_l1l1lIl11Il .. "\073\073\073\073\108\049\108")[(tabi_lll1lIl11Il - "\073\049\073\049\049\049\108")(-600115 + 646501)] = UDim2[(tabi_lll1lIl11Il - "\108\073\073\049\108\049\108")(-669877 + 716150)](-547569 + 547569, 740919 - 740919, 282665 - 282665, 978430 + -978402);
+					(tabi_l1l1lIl11Il .. "\073\073\049\073\049\049\073\049")[(tabi_lll1lIl11Il - "\073\108\049\049\049\108\049\108")(-994916 - (-1041280))] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\108\073\049\049\108")(-603443 + 649716)](202983 - 202982, -505712 + 505712, 860219 + -860219, 214216 - 214119);
+					(tabi_l1l1lIl11Il .. "\073\049\108\108\073\049\108\049")[(tabi_lll1lIl11Il - "\108\108\108\108\049\108")(371705 - 325354)] = false;
+					(tabi_lI11lIl11Il .. "\108\073\108\108\049\108\108\108")[(tabi_lll1lIl11Il - "\073\108\049\049\108\108\108")(-324973 - (-371308))] = (tabi_lll1lIl11Il - "\073\108\108\108\049\049\108\049")(-113124 - (-159525));
+					(tabi_lI11lIl11Il .. "\108\049\049\108\108\073\049\108")[(tabi_lll1lIl11Il - "\108\073\108\108\108\073\073\108")(112246 - 65890)] = tabi_l1l1lIl11Il .. "\108\049\049\073\049\073\073\108";
+					(tabi_lI11lIl11Il .. "\108\108\049\073\108\049")[(tabi_lll1lIl11Il - "\108\108\108\108\108\073\073\108")(-825722 + 872121)] = Enum[(tabi_lll1lIl11Il - "\073\073\108\073\049\108\108\049")(-61732 - (-108131))][(tabi_lll1lIl11Il - "\073\073\108\073\073\108\049\049")(788536 + -742218)];
+					(tabi_lI11lIl11Il .. "\108\049\108\108")[(tabi_lll1lIl11Il - "\073\073\049\073\108\108\073\049")(-93219 + 139473)] = Enum[(tabi_lll1lIl11Il - "\073\108\049\049\049\049\073\108")(979518 + -933264)][(tabi_lll1lIl11Il - "\108\049\049\108\049\073\049\108")(-695247 - (-741623))];
+					(tabi_lI11lIl11Il .. "\108\049\049\108\108\073\108")[(tabi_lll1lIl11Il - "\108\049\049\108\073\049\073\049")(-742863 - (-789240))] = UDim[(tabi_lll1lIl11Il - "\108\108\108\049\073\073\073\108")(198758 - 152485)](-699382 + 699382, 239722 - 239719);
+					local tabi_II11lIl11Il = tabi_l11llIl11Il({ II111lIl = false }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.II111lIl = tabi_l11llIl11Il;
+							end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.II111lIl;
+							end });
+					local tabi_ll11lIl11Il = tabi_l11llIl11Il({ I1l1lll = function(...)
+								if #tabi_lII1lIl11Il == -653236 - (-653236) then
+									return;
+								end;
+								(tabi_I11llIl11Il / "\108\073\049\108\073\073\049\108")(tabi_II11lIl11Il + not (tabi_II11lIl11Il / "\073\049\049\108\049\108\049\108"));
+								(tabi_l1l1lIl11Il .. "\073\108\049\049\049\073\108\049")[(tabi_lll1lIl11Il - "\073\049\108\073\073\073\049")(714166 + -667815)] = tabi_II11lIl11Il / "\073\108\073\108\073\108\108";
+								(tabi_IIl1lIl11Il .. "\108\049\049\073\049\108\108\049")[(tabi_lll1lIl11Il - "\108\049\073\049\049\049\073\049")(-777131 - (-823482))] = tabi_II11lIl11Il / "\073\108\108\049\108\073\108";
+								(tabi_IlI1lIl11Il / "\108\108\049\108\049\073\108\049")[(tabi_lll1lIl11Il - "\108\073\073\073\108\049\049")(46460 - 96)] = tabi_II11lIl11Il / "\108\049\108\049\049\073\049\108" and UDim2[(tabi_lll1lIl11Il - "\108\049\073\049\073\073\073\108")(-462126 + 508399)](-10528 - (-10528), (tabi_IlI1lIl11Il / "\108\108\073\073\108\049\108\108")[(tabi_lll1lIl11Il - "\073\049\073\073\073\108\049")(-473492 - (-519856))][(tabi_lll1lIl11Il - "\108\108\073\108\108\049")(-9376 + 55692)][(tabi_lll1lIl11Il - "\073\073\049\108\073\073\049\108")(-776742 - (-823034))], 738231 - 738231, ((821497 + -821476) + #tabi_lII1lIl11Il * (612619 - 612595)) + (829754 + -829746)) or UDim2[(tabi_lll1lIl11Il - "\108\049\073\108\049\073\049")(365035 + -318762)](527088 - 527088, (tabi_IlI1lIl11Il / "\073\049\108\049\049")[(tabi_lll1lIl11Il - "\073\073\073\049\049\073\049\049")(897788 + -851424)][(tabi_lll1lIl11Il - "\108\108\049\073\073\108\108")(1038144 + -991828)][(tabi_lll1lIl11Il - "\073\049\108\108\073\108\073\049")(847373 - 801081)], 190054 + -190054, -921469 + 921490);
+								tabi_lIl1lIl11Il.II11llll[(tabi_lll1lIl11Il - "\108\073\108\049\049\049")(19233 + 27135)] = tabi_II11lIl11Il / "\073\108\108\049\049\049\108" and 826606 - 826426 or -95523 + 95523;
+							end }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.I1l1lll = tabi_l11llIl11Il;
+							end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.I1l1lll;
+							end });
+					for tabi_Il1llIl11Il, tabi_I11llIl11Il in tabi_lII1lIl11Il do
+						local tabi_lII1lIl11Il = tabi_l11llIl11Il({ l1l1I1ll = Instance[(tabi_lll1lIl11Il - "\108\108\073\049\073\073\108\108")(-599091 - (-645364))]((tabi_lll1lIl11Il - "\073\049\108\049\073\108")(748083 - 701686)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									tabi_Il1llIl11Il.l1l1I1ll = tabi_l11llIl11Il;
+								end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									return tabi_Il1llIl11Il.l1l1I1ll;
+								end });
+						local tabi_llI1lIl11Il = tabi_l11llIl11Il({ IlIIlIl1 = Instance[(tabi_lll1lIl11Il - "\108\073\073\073\108\049\108")(-265832 + 312105)]((tabi_lll1lIl11Il - "\108\108\049\108\073\049\073\049")(482351 + -435973)) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									tabi_Il1llIl11Il.IlIIlIl1 = tabi_l11llIl11Il;
+								end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+									return tabi_Il1llIl11Il.IlIIlIl1;
+								end });
+						(tabi_lII1lIl11Il - "\108\073\073\073\049\049\073\049")[(tabi_lll1lIl11Il - "\073\073\073\108\049\073\049")(-197033 - (-243368))] = (tabi_lll1lIl11Il - "\073\073\073\073\049")(95992 - 49634);
+						(tabi_lII1lIl11Il - "\073\049\108\108\108\073\049")[(tabi_lll1lIl11Il - "\073\049\108\108\073\108")(343595 + -297239)] = tabi_l1l1lIl11Il .. "\108\073\073\049\108\073\073\049";
+						(tabi_lII1lIl11Il - "\073\049\049\049\108\073\108\108")[(tabi_lll1lIl11Il - "\073\049\108\073\049\049\108")(396653 - 350251)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\049\108\049\108\049")(-30113 + 76382)](-259623 - (-259688), 416493 + -416428, 35681 + -35616);
+						(tabi_lII1lIl11Il - "\108\073\049\073\049\108\073\049")[(tabi_lll1lIl11Il - "\073\108\073\108\049\073\049\049")(-176869 + 223128)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\073\073\073\073\049")(-701750 + 748019)](332074 + -332074, 939709 + -939709, 42721 - 42721);
+						(tabi_lII1lIl11Il - "\108\049\049\073\049\108\049")[(tabi_lll1lIl11Il - "\073\108\073\073\108\073\049")(896562 - 850234)] = -703926 - (-703926);
+						(tabi_lII1lIl11Il - "\108\073\073\049\049\108\073\108")[(tabi_lll1lIl11Il - "\108\108\049\049\108\073\108\049")(866347 - 819961)] = UDim2[(tabi_lll1lIl11Il - "\108\073\108\108\049\108\108")(-954622 + 1000895)](.0410958901, -269800 - (-269800), .257142872, -102691 + 102691);
+						(tabi_lII1lIl11Il - "\073\108\073\108\108\049\049")[(tabi_lll1lIl11Il - "\108\049\073\073\049")(889750 - 843386)] = UDim2[(tabi_lll1lIl11Il - "\073\049\049\108\108\073\073\108")(117539 - 71266)](785337 - 785336, -466862 + 466842, -59682 - (-59682), 23777 + -23756);
+						(tabi_lII1lIl11Il - "\073\108\108\073\108\073\108")[(tabi_lll1lIl11Il - "\108\108\073\049\049\108\049\108")(869492 - 823098)] = Enum[(tabi_lll1lIl11Il - "\073\049\049\073\108\073\108\108")(317482 + -271088)][(tabi_lll1lIl11Il - "\073\073\073\049\073\073\073\049")(-940733 + 987128)];
+						(tabi_lII1lIl11Il - "\108\108\073\108\108\073\108\108")[(tabi_lll1lIl11Il - "\073\049\049\073\073\108\049\108")(-915451 - (-961854))] = tostring(tabi_I11llIl11Il);
+						(tabi_lII1lIl11Il - "\073\073\049\108\108\049\073\049")[(tabi_lll1lIl11Il - "\073\049\049")(628083 + -581741)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\049\073\108\108")(-992831 + 1039100)](210983 + -210728, -158437 + 158692, 573617 - 573362);
+						(tabi_lII1lIl11Il - "\108\049\073\108\073\108\049")[(tabi_lll1lIl11Il - "\108\073\108\049\073\073\108")(63714 + -17420)] = -986673 - (-986687);
+						(tabi_lII1lIl11Il - "\073\049\073\049\073\073\108\108")[(tabi_lll1lIl11Il - "\073\073\049\073\073\073\108\049")(-276410 - (-322730))] = false;
+						(tabi_llI1lIl11Il + "\073\108\073\073\049\073\073\049")[(tabi_lll1lIl11Il - "\073\073\073\049\049\108")(365291 + -319031)] = UDim[(tabi_lll1lIl11Il - "\073\108\108\049\073\049\049\108")(-65442 + 111715)](-819769 + 819769, -713142 + 713146);
+						(tabi_llI1lIl11Il + "\073\049\108\049\049\108\108")[(tabi_lll1lIl11Il - "\073\073\049\073\049\049\108\108")(719540 - 673205)] = (tabi_lll1lIl11Il - "\073\108\049\049\073\049\049")(306217 + -259843);
+						(tabi_llI1lIl11Il + "\073\108\049\073\049\049\073\049")[(tabi_lll1lIl11Il - "\073\073\049\073\049\108\049")(-68322 + 114678)] = tabi_lII1lIl11Il - "\073\108\049\108\108";
+						(tabi_lII1lIl11Il - "\073\073\073\049\108\049\049\108")[(tabi_lll1lIl11Il - "\073\108\073\073\108\073\073\049")(704696 - 658356)]:Connect(function(...)
+							(tabi_ll11lIl11Il ^ "\108\049\073\073\049\049\073\108")();
+							(tabi_III1lIl11Il or function(tabi_Il1llIl11Il, ...)
+ 
+							end)(tabi_I11llIl11Il);
+						end);
+					end;
+					tabi_Ill1lIl11Il.l11I1l1[(tabi_lll1lIl11Il - "\073\073\073\073\049\049\073\108")(257192 + -210852)]:Connect(tabi_ll11lIl11Il ^ "\108\073\049\049\049\073\108\049");
+				end;
+				function tabi_III1lIl11Il.II1l1lll.Slider(tabi_I1I1lIl11Il, tabi_Il1llIl11Il, tabi_lII1lIl11Il, tabi_III1lIl11Il, tabi_l1I1lIl11Il, ...)
+					local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ ll1llI1l = tabi_lII1lIl11Il or -462190 - (-462190) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.ll1llI1l = tabi_l11llIl11Il;
+							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return rawget(tabi_Il1llIl11Il, "\108\108\049\108\108\073\049\108");
+							end });
+					local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ IlII11 = tabi_III1lIl11Il or 693223 - 693173 }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.IlII11 = tabi_l11llIl11Il;
+							end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.IlII11;
+							end });
+					local tabi_Ill1lIl11Il = tabi_l11llIl11Il({ llII1Ill = Instance[(tabi_lll1lIl11Il - "\108\049\049\073\108\108\073\049")(-105315 + 151588)]((tabi_lll1lIl11Il - "\073\049\049\073\108\073\108\108")(-21113 - (-67426))) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.llII1Ill = tabi_l11llIl11Il;
+							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return rawget(tabi_Il1llIl11Il, "\108\108\073\073\049\073\108\108");
+							end });
+					local tabi_l1l1lIl11Il = tabi_l11llIl11Il({ I11l1I1 = Instance[(tabi_lll1lIl11Il - "\108\073\049\073\108\073\049\049")(613683 + -567410)]((tabi_lll1lIl11Il - "\073\073\073\108\073\073\073\049")(-705270 + 751648)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.I11l1I1 = tabi_l11llIl11Il;
+							end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.I11l1I1;
+							end });
+					local tabi_lI11lIl11Il = tabi_l11llIl11Il({ I1I1IIl = Instance[(tabi_lll1lIl11Il - "\108\049\073\073\108\108\073\049")(-565938 - (-612211))]((tabi_lll1lIl11Il - "\073\073\049\108\108\108\108\108")(636465 - 590194)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.I1I1IIl = tabi_l11llIl11Il;
+							end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.I1I1IIl;
+							end });
+					local tabi_II11lIl11Il = tabi_l11llIl11Il({ l1lIlII1 = Instance[(tabi_lll1lIl11Il - "\108\073\108\108\108\073\108")(-449070 - (-495343))]((tabi_lll1lIl11Il - "\073\073\049\049\073\073\049")(820855 - 774584)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.l1lIlII1 = tabi_l11llIl11Il;
+							end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return rawget(tabi_Il1llIl11Il, "\108\049\108\073\108\073\073\049");
+							end });
+					local tabi_ll11lIl11Il = tabi_l11llIl11Il({ IllIl1 = Instance[(tabi_lll1lIl11Il - "\108\049\108\073\108\073\049")(-484079 + 530352)]((tabi_lll1lIl11Il - "\108\049\073\108\073\073\049\049")(367187 - 320874)) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.IllIl1 = tabi_l11llIl11Il;
+							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.IllIl1;
+							end });
+					local tabi_Il11lIl11Il = tabi_l11llIl11Il({ I11I11Il = Instance[(tabi_lll1lIl11Il - "\073\108\108\049\073\049\108")(665781 + -619508)]((tabi_lll1lIl11Il - "\073\073\049\049\108\073\073\108")(414765 + -368387)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.I11I11Il = tabi_l11llIl11Il;
+							end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.I11I11Il;
+							end });
+					local tabi_l111lIl11Il = tabi_l11llIl11Il({ lIII1 = Instance[(tabi_lll1lIl11Il - "\073\073\073\108\108\108\049\108")(386220 - 339947)]((tabi_lll1lIl11Il - "\073\073\049\073\073\073\049\108")(977274 - 930877)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.lIII1 = tabi_l11llIl11Il;
+							end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.lIII1;
+							end });
+					tabi_Ill1lIl11Il.lll1ll1l[(tabi_lll1lIl11Il - "\073\108\049\073\049\108\073\108")(536942 - 490607)] = (tabi_lll1lIl11Il - "\108\049\108\108\073\108\108\108")(56738 + -10385);
+					tabi_Ill1lIl11Il.l1ll1IIl[(tabi_lll1lIl11Il - "\108\108\108\073\049\073\073\049")(826316 - 779960)] = tabi_I1l1lIl11Il * "\073\108\049\049\073\108";
+					tabi_Ill1lIl11Il.l1IlIIl1[(tabi_lll1lIl11Il - "\073\049\108\073\073\108\073\108")(-463534 + 509936)] = Color3[(tabi_lll1lIl11Il - "\108\108\108\108\108\073\049")(176289 - 130020)](353003 + -352941, 581746 + -581684, 691507 - 691445);
+					tabi_Ill1lIl11Il.lIlII11l[(tabi_lll1lIl11Il - "\073\108\108\073\108\108")(-1018240 + 1064499)] = Color3[(tabi_lll1lIl11Il - "\073\108\073\073\073\049\049\108")(786036 - 739767)](944125 - 944125, -432237 - (-432237), 898492 + -898492);
+					tabi_Ill1lIl11Il.IIll1l[(tabi_lll1lIl11Il - "\073\049\049\073\108")(118180 + -71852)] = 725494 + -725494;
+					tabi_Ill1lIl11Il.lI1l1lll[(tabi_lll1lIl11Il - "\108\073\073\049\108\073\049\049")(1005823 + -959437)] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\049\073\049\073\049")(-854075 - (-900348))](668981 - 668981, 880955 + -880955, .75555557, -951613 + 951613);
+					tabi_Ill1lIl11Il.lI11Il[(tabi_lll1lIl11Il - "\108\108\108\073\049\108\073\108")(-571890 + 618254)] = UDim2[(tabi_lll1lIl11Il - "\108\049\073\073\108\108\073\108")(834170 + -787897)](-829049 - (-829050), 37665 + -37665, 479215 + -479215, -771128 + 771149);
+					(tabi_l1l1lIl11Il - "\108\049\108\108\073\108\049")[(tabi_lll1lIl11Il - "\073\073\049\073\073\073\049")(-34222 - (-80482))] = UDim[(tabi_lll1lIl11Il - "\073\073\073\108\073\049\108\049")(-531952 + 578225)](-624371 - (-624371), 699258 - 699254);
+					(tabi_l1l1lIl11Il - "\073\073\108\108\108\049\108\049")[(tabi_lll1lIl11Il - "\108\073\073\049\073\108\049")(-385068 + 431403)] = (tabi_lll1lIl11Il - "\073\073\049\108\049\073\049\049")(-707449 - (-753847));
+					(tabi_l1l1lIl11Il - "\073\049\073\049\073\108\108")[(tabi_lll1lIl11Il - "\073\049\108\108\108\108\108\108")(-439086 + 485442)] = tabi_Ill1lIl11Il.llIIl1l1;
+					(tabi_lI11lIl11Il * "\108\108\108\049\049")[(tabi_lll1lIl11Il - "\073\073\049\108\049\049")(472428 - 426093)] = (tabi_lll1lIl11Il - "\073\049\049\073\049\049\049")(976190 + -929802);
+					(tabi_lI11lIl11Il * "\108\108\073\073\073\108\049\108")[(tabi_lll1lIl11Il - "\108\073\049\073\073\049\108")(-649250 - (-695606))] = tabi_Ill1lIl11Il.IlIlllll;
+					(tabi_lI11lIl11Il * "\073\073\108\049\049\073\049\049")[(tabi_lll1lIl11Il - "\073\049\108\049\108\073\108")(698806 + -652491)] = Vector2[(tabi_lll1lIl11Il - "\073\073\049\108\049")(-631988 - (-678261))](717046 + -717045.5, -64993.5 - (-64994));
+					(tabi_lI11lIl11Il * "\073\073\108\049\108")[(tabi_lll1lIl11Il - "\073\073\108\049\073\049\049")(113572 + -67170)] = Color3[(tabi_lll1lIl11Il - "\073\108\049\049\073\049\049")(-599799 - (-646068))](-8545 - (-8800), 408749 + -408494, -588658 + 588913);
+					(tabi_lI11lIl11Il * "\108\049\108\108\049\108\108\049")[(tabi_lll1lIl11Il - "\073\073\049\049\049\073\049\049")(213632 - 167333)] = -788792 + 788793;
+					(tabi_lI11lIl11Il * "\108\108\049\108\049\073\108")[(tabi_lll1lIl11Il - "\073\049\108\108\108\073\073\108")(1022272 + -976013)] = Color3[(tabi_lll1lIl11Il - "\108\073\049\073\108\073\108")(141920 - 95651)](478063 + -478063, -673397 - (-673397), -11424 - (-11424));
+					(tabi_lI11lIl11Il * "\073\049\049\073\049\108\049")[(tabi_lll1lIl11Il - "\108\073\073\049\049\073\073\049")(347361 - 301033)] = 372396 + -372396;
+					(tabi_lI11lIl11Il * "\108\073\049\049\108\073\108")[(tabi_lll1lIl11Il - "\108\108\073\073\049\108\108\108")(-858811 + 905197)] = UDim2[(tabi_lll1lIl11Il - "\073\073\073\108\073\108\108\049")(702262 + -655989)](.736151576, -220583 + 220583, -863034.5 - (-863035), -893500 + 893500);
+					(tabi_lI11lIl11Il * "\073\108\108\073\049\049\108\049")[(tabi_lll1lIl11Il - "\108\108\108\108\108\073\108")(-534742 - (-581106))] = UDim2[(tabi_lll1lIl11Il - "\073\049\108\108\073\073\108")(-774392 + 820665)](.482507288, 259752 - 259752, 234856 - 234855, -447406 + 447406);
+					(tabi_lI11lIl11Il * "\108\049\049\108\108\073\049\108")[(tabi_lll1lIl11Il - "\108\073\049\049\073\108\049\108")(200358 + -154049)] = -797111 - (-797113);
+					(tabi_lI11lIl11Il * "\108\049\108\108")[(tabi_lll1lIl11Il - "\108\073\108\073\049\049\108")(-866555 + 912949)] = Enum[(tabi_lll1lIl11Il - "\073\108\049\073\108\108\108")(-690805 + 737199)][(tabi_lll1lIl11Il - "\108\073\073\073\108\049\073\108")(983544 - 937149)];
+					(tabi_lI11lIl11Il * "\073\108\073\108\073\073\049\049")[(tabi_lll1lIl11Il - "\073\108\049\108\108\108\108\049")(-580464 - (-626867))] = tabi_lIl1lIl11Il.llI1I1l1;
+					(tabi_lI11lIl11Il * "\073\108\073\108\108\049\108")[(tabi_lll1lIl11Il - "\108\049\049\049\049\073\049\049")(238828 - 192486)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\073\108\108\073\049")(330474 + -284205)](-117156 + 117411, 1043647 - 1043392, -170277 + 170532);
+					(tabi_lI11lIl11Il * "\108\108\049\108\073\108\073\108")[(tabi_lll1lIl11Il - "\073\049\108\049\049\108\049")(-495963 - (-542257))] = -246042 - (-246056);
+					(tabi_lI11lIl11Il * "\073\073\108\049\073\108\073\108")[(tabi_lll1lIl11Il - "\073\108\108\073\049\073\049")(818873 + -772556)] = Enum[(tabi_lll1lIl11Il - "\108\108\049\108\108\073\049\049")(222567 + -176250)][(tabi_lll1lIl11Il - "\073\049\108\049\073\049\073\108")(819449 + -773146)];
+					(tabi_II11lIl11Il * "\108\049\073\108\108\108\073\108")[(tabi_lll1lIl11Il - "\108\073\108\049\073\049\049")(589680 - 543345)] = (tabi_lll1lIl11Il - "\073\073\108\049\049\073\049\108")(543089 + -496735);
+					(tabi_II11lIl11Il * "\073\073\108\049\049\073\049\108")[(tabi_lll1lIl11Il - "\073\049\108\108\049\108\049")(-762469 - (-808825))] = tabi_Ill1lIl11Il.lIIl1Ill;
+					(tabi_II11lIl11Il * "\108\108\073\049\073\108\108\049")[(tabi_lll1lIl11Il - "\108\073\108\049\073\073\073\108")(900348 + -854033)] = Vector2[(tabi_lll1lIl11Il - "\108\049\049\049\108\049")(-133348 + 179621)](-61473.5 - (-61474), 369131.5 - 369131);
+					(tabi_II11lIl11Il * "\108\108\073\108\073\073\073\049")[(tabi_lll1lIl11Il - "\108\049\073\073\049\073\049\108")(-631987 - (-678389))] = Color3[(tabi_lll1lIl11Il - "\108\108\049\073\073\108\108\108")(-657908 + 704177)](-475695 + 475950, 735479 + -735224, -516976 + 517231);
+					(tabi_II11lIl11Il * "\073\108\108\108\108")[(tabi_lll1lIl11Il - "\108\108\049\073\049\073\073\108")(-185868 - (-232167))] = -541808 - (-541809);
+					(tabi_II11lIl11Il * "\073\049\049\108\049\049\073\049")[(tabi_lll1lIl11Il - "\108\049\073\108\108\049\108\049")(-386348 + 432607)] = Color3[(tabi_lll1lIl11Il - "\108\108\073\073\049\073\073\049")(-80162 + 126431)](366187 + -366187, -126052 - (-126052), 892348 + -892348);
+					(tabi_II11lIl11Il * "\108\049\108\108\108\108\049")[(tabi_lll1lIl11Il - "\073\049\108\108\049\049")(-754615 + 800943)] = -460206 - (-460206);
+					(tabi_II11lIl11Il * "\073\049\108\108\073\049\049")[(tabi_lll1lIl11Il - "\073\049\049\073\108\073\108\049")(990319 - 943933)] = UDim2[(tabi_lll1lIl11Il - "\108\108\073\073\108\049\108\049")(143012 + -96739)](.255102038, -780344 - (-780344), 106851.5 - 106851, 329386 - 329386);
+					(tabi_II11lIl11Il * "\108\073\049\073\108\108\108\049")[(tabi_lll1lIl11Il - "\073\073\108\049\049\073\108\108")(-742300 - (-788664))] = UDim2[(tabi_lll1lIl11Il - "\073\073\108\049\108\049\049")(1005055 - 958782)](.479591846, -492079 + 492079, 497712 - 497711, -972862 + 972862);
+					(tabi_II11lIl11Il * "\108\073\073\073\073\108\108\108")[(tabi_lll1lIl11Il - "\073\049\049\073\073\049\108")(-559217 + 605526)] = 224297 - 224295;
+					(tabi_II11lIl11Il * "\108\108\108\108\049\108\073\108")[(tabi_lll1lIl11Il - "\108\049\049\049\108\073\049\108")(-1013503 + 1059897)] = Enum[(tabi_lll1lIl11Il - "\073\049\049\049\073\073\073\049")(-105771 - (-152165))][(tabi_lll1lIl11Il - "\108\108\049\108\073\108\049\049")(889077 - 842682)];
+					(tabi_II11lIl11Il * "\108\073\073\049\073\108")[(tabi_lll1lIl11Il - "\073\073\049\108\108\108\108\049")(815097 + -768694)] = tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\073\108\049\049\108\108")(-722919 - (-769272));
+					(tabi_II11lIl11Il * "\073\073\049\049\049\073\108\049")[(tabi_lll1lIl11Il - "\108\108\073\049\108\049\049\108")(-476714 - (-523056))] = Color3[(tabi_lll1lIl11Il - "\108\108\073\108\049\049\049")(1039932 - 993663)](-149862 - (-150117), -961663 - (-961918), -778872 + 779127);
+					(tabi_II11lIl11Il * "\108\049\049\108\073\073\049\049")[(tabi_lll1lIl11Il - "\073\049\049\073\049")(-540828 - (-587122))] = 558975 - 558961;
+					(tabi_II11lIl11Il * "\108\073\108\108\049\108\073\049")[(tabi_lll1lIl11Il - "\108\049\073\108\049\108")(438169 - 391852)] = Enum[(tabi_lll1lIl11Il - "\073\073\073\108\073\049\049\108")(-240636 - (-286953))][(tabi_lll1lIl11Il - "\073\073\073\073\049\073\049\108")(-856574 - (-902908))];
+					(tabi_ll11lIl11Il + "\108\073\049\073\108\108\108\108")[(tabi_lll1lIl11Il - "\108\073\049\108\049")(-287659 - (-333994))] = (tabi_lll1lIl11Il - "\108\108\108\073\073\073\049\049")(306920 - 260584);
+					(tabi_ll11lIl11Il + "\073\073\108\108")[(tabi_lll1lIl11Il - "\108\049\108\073\108\108\049\108")(958544 - 912188)] = tabi_Ill1lIl11Il.llIlIIl;
+					(tabi_ll11lIl11Il + "\108\049\108\108\073\108\108\108")[(tabi_lll1lIl11Il - "\073\108\108\108\108\073\049")(-619955 + 666357)] = Color3[(tabi_lll1lIl11Il - "\108\049\108\049\108\049\108\108")(931517 + -885248)](-384868 - (-384940), 765432 + -765360, -307810 - (-307882));
+					(tabi_ll11lIl11Il + "\108\073\073\073\073\073\049\108")[(tabi_lll1lIl11Il - "\108\073\049\108\108\108\073\108")(-528368 + 574627)] = Color3[(tabi_lll1lIl11Il - "\108\108\108\049\108\108\073\108")(616623 - 570354)](-65954 + 65954, -657524 + 657524, -692149 - (-692149));
+					(tabi_ll11lIl11Il + "\108\049\108\073\049\073\049")[(tabi_lll1lIl11Il - "\073\049\108\108\073\073\108\049")(369835 + -323507)] = 69922 - 69922;
+					(tabi_ll11lIl11Il + "\108\108\108\049\073\073\049")[(tabi_lll1lIl11Il - "\073\049\049\108\108\108\073\049")(467438 + -421074)] = UDim2[(tabi_lll1lIl11Il - "\073\073\108\049\049")(-274665 + 320938)](365227 + -365227, 948221 - 948221, -731958 - (-731959), 313514 + -313514);
+					(tabi_Il11lIl11Il * "\108\049\073\049\049\108\108\049")[(tabi_lll1lIl11Il - "\108\073\049\073\108\108\049")(1005554 - 959294)] = UDim[(tabi_lll1lIl11Il - "\073\108\073\108\049\049\049\108")(763767 - 717494)](-55522 - (-55522), 111975 - 111971);
+					(tabi_Il11lIl11Il * "\108\108\073\073\049\049\108\108")[(tabi_lll1lIl11Il - "\073\049\073\108\049\108\049\108")(711156 - 664821)] = (tabi_lll1lIl11Il - "\073\049\049\049\073\108\049\108")(381228 + -334909);
+					(tabi_Il11lIl11Il * "\108\073\108\073\108\073\073\108")[(tabi_lll1lIl11Il - "\073\049\049\073\073\073\049\108")(843405 - 797049)] = tabi_ll11lIl11Il + "\108\049\073\108\073\108\049\049";
+					(tabi_l111lIl11Il .. "\108\073\108\073\049\049\108")[(tabi_lll1lIl11Il - "\108\049\073\073\108\049\073\049")(936379 - 890044)] = (tabi_lll1lIl11Il - "\108\073\108\108\049\049")(-391852 + 438107);
+					(tabi_l111lIl11Il .. "\108\073\073\049\073\073\049\049")[(tabi_lll1lIl11Il - "\108\049\073\073\108\049\108\049")(39220 - (-7136))] = tabi_Ill1lIl11Il.lIlIlI1l;
+					(tabi_l111lIl11Il .. "\073\073\073\073\108")[(tabi_lll1lIl11Il - "\073\108\049\073\073\049\049")(-515312 + 561714)] = Color3[(tabi_lll1lIl11Il - "\073\108\049\049\108\108\049\108")(468015 + -421746)](464813 - 464558, 261735 - 261480, 467437 - 467182);
+					(tabi_l111lIl11Il .. "\073\108\073\073\049\108\108\049")[(tabi_lll1lIl11Il - "\108\108\073\073\073\073\108\049")(835347 - 789048)] = 860731 + -860730;
+					(tabi_l111lIl11Il .. "\073\108\073\108\108\049\049")[(tabi_lll1lIl11Il - "\108\108\073\049\049\073\049\108")(-851642 + 897901)] = Color3[(tabi_lll1lIl11Il - "\108\049\108\108\049\108\049\108")(361703 - 315434)](-127524 - (-127524), -405357 + 405357, -751607 + 751607);
+					(tabi_l111lIl11Il .. "\108\108\073\073\108\108\049")[(tabi_lll1lIl11Il - "\073\073\108\073\108\049\108")(1027328 + -981000)] = 745591 - 745591;
+					(tabi_l111lIl11Il .. "\108\108\049\073\073\049\108\108")[(tabi_lll1lIl11Il - "\073\049\049\108\073\049\108")(220327 + -173963)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\049\049\108\049\108")(901948 - 855675)](-229862 - (-229863), 194086 - 194086, 792826 - 792825, 702070 - 702070);
+					(tabi_l111lIl11Il .. "\108\049\049\073\073\108\108")[(tabi_lll1lIl11Il - "\108\073\049\073\108\108\108")(992127 + -945818)] = 913276 + -913273;
+					(tabi_l111lIl11Il .. "\073\073\049\108\049\073\073\049")[(tabi_lll1lIl11Il - "\108\108\049\073\049\073\108\108")(-492983 - (-539377))] = Enum[(tabi_lll1lIl11Il - "\108\073\049\049\108\108\073\108")(628915 + -582521)][(tabi_lll1lIl11Il - "\108\108\073\049\073\108\073\049")(-629199 - (-675509))];
+					(tabi_l111lIl11Il .. "\073\073\108\049\108\073\049\049")[(tabi_lll1lIl11Il - "\108\108\073\073\108\108\049\108")(-585330 + 631733)] = (tabi_lll1lIl11Il - "\108\049\049\073\108\108\108")(550749 - 504496);
+					(tabi_l111lIl11Il .. "\073\049\108")[(tabi_lll1lIl11Il - "\073\108\073\108\049\049\108\108")(88743 - 42401)] = Color3[(tabi_lll1lIl11Il - "\073\073\049\073\073\073\049")(188262 + -141993)](-438254 - (-438254), 178470 - 178470, -518576 - (-518576));
+					(tabi_l111lIl11Il .. "\108\049\049\108\049\108\073\049")[(tabi_lll1lIl11Il - "\073\073\108\073\073\073\049\049")(-736311 + 782605)] = -105045 - (-105059);
+					local tabi_I111lIl11Il = tabi_l11llIl11Il({ llIIlIIl = false }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.llIIlIIl = tabi_l11llIl11Il;
+							end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.llIIlIIl;
+							end });
+					local tabi_lIII1Il11Il = tabi_l11llIl11Il({ ll1lIlll = tabi_lIl1lIl11Il.I111l1 }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.ll1lIlll = tabi_l11llIl11Il;
+							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.ll1lIlll;
+							end });
+					local tabi_IIII1Il11Il = tabi_l11llIl11Il({ ll1l1ll = tabi_lIII1Il11Il + "\073\108\049\049\108\108\049\108" }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.ll1l1ll = tabi_l11llIl11Il;
+							end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.ll1l1ll;
+							end });
+					(tabi_l111lIl11Il .. "\108\108\073\108\073\108\073\049")[(tabi_lll1lIl11Il - "\073\049\073\108\073\049\073\108")(-85457 - (-131812))]:Connect(function(...)
+						(tabi_I11llIl11Il / "\108\108\108\073\108\049\108")(tabi_I111lIl11Il * true);
+						while tabi_I111lIl11Il / "\108\073\073\108\049\108" do
+							local tabi_Il1llIl11Il = tabi_l11llIl11Il({ I1IIll1 = math[(tabi_lll1lIl11Il - "\073\108\049\049\073\108\108\108")(-319053 - (-365355))]((((tabi_IlI1lIl11Il - "\108\049\073\049\049\108\108\049")())[(tabi_lll1lIl11Il - "\108\108\108\073\108\108\108\108")(366166 - 319850)] - tabi_Ill1lIl11Il.Ill1lIl1[(tabi_lll1lIl11Il - "\073\049\049\073\049\049\049")(425133 + -378766)][(tabi_lll1lIl11Il - "\108\073\108\108\049\049\073\049")(800803 - 754487)]) / tabi_Ill1lIl11Il.IlIllI11[(tabi_lll1lIl11Il - "\108\108\108\108")(113523 - 67234)][(tabi_lll1lIl11Il - "\108\073\108\049\049\073\073\108")(951357 + -905041)], 125156 + -125156, 234984 - 234983) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+										tabi_Il1llIl11Il.I1IIll1 = tabi_l11llIl11Il;
+									end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+										return tabi_Il1llIl11Il.I1IIll1;
+									end });
+							(tabi_ll11lIl11Il + "\108\049\108\108\073\049\049\108")[(tabi_lll1lIl11Il - "\108\108\108\073\049\049\073\049")(913687 - 867323)] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\049\073\073\073\049")(598834 - 552561)](tabi_Il1llIl11Il ^ "\108\049\073\108\108\049\073\049", -659444 - (-659444), 916093 - 916092, 987647 + -987647);
+							local tabi_lII1lIl11Il = tabi_l11llIl11Il({ IllI11ll = tabi_lIl1lIl11Il.I1IIl11 + tabi_Il1llIl11Il ^ "\073\108\108\073\108\108\073\108" * (tabi_IIl1lIl11Il ^ "\108\108\108\073\049\049\073\049" - tabi_lIl1lIl11Il.IIIlllIl) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+										tabi_Il1llIl11Il.IllI11ll = tabi_l11llIl11Il;
+									end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+										return rawget(tabi_Il1llIl11Il, "\073\108\108\073\049\049\108\108");
+									end });
+							if tabi_lII1lIl11Il - "\073\108\108\073\108\049\073\108" ~= tabi_lIII1Il11Il + "\073\108\073\049\108\108\073\108" then
+								(tabi_I11llIl11Il / "\108\108\073\073\073\049\049\108")(tabi_lIII1Il11Il / (tabi_lII1lIl11Il - "\108\073\108\108\049\108\049"));
+								(tabi_I11llIl11Il / "\108\049\049\049\108\108")(tabi_IIII1Il11Il + math[(tabi_lll1lIl11Il - "\108\108\073\108\108\049\049\108")(-76322 + 122701)](tabi_lIII1Il11Il + "\108\049\073\108\108\073\049\049"));
+								(tabi_lI11lIl11Il * "\073\049\073\073\073\049\049\108")[(tabi_lll1lIl11Il - "\108\049\108\073\049\049\073\108")(-679221 + 725624)] = tabi_IIII1Il11Il ^ "\108\049\108\049\049\108\049";
+								(tabi_l1I1lIl11Il or function(tabi_Il1llIl11Il, ...)
+ 
+								end)(tabi_IIII1Il11Il ^ "\073\108\049\049\073\108\073\049");
+							end;
+							task[(tabi_lll1lIl11Il - "\073\049\049\073\049\108\108\049")(43827 - (-2464))]();
+						end;
+					end);
+					tabi_llI1lIl11Il.Il1II1[(tabi_lll1lIl11Il - "\073\108\073\073\108\073\108")(686965 + -640565)]:Connect(function(tabi_Il1llIl11Il, ...)
+						if tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\108\073\049\108\049\108\108")(746880 - 700598)] == Enum[(tabi_lll1lIl11Il - "\108\108\073\073\049\049\073\049")(555770 - 509488)][(tabi_lll1lIl11Il - "\108\108\049\108\108\049\073\049")(-731124 - (-777400))] then
+							(tabi_I11llIl11Il / "\108\108\073\108\108\073\108\049")(tabi_I111lIl11Il * false);
+						end;
+					end);
+					(tabi_l111lIl11Il .. "\108\049\049\073\108\108\049\108")[(tabi_lll1lIl11Il - "\108\108\108\073\049\049")(-205130 - (-251496))]:Connect(function(...)
+						(tabi_I11llIl11Il / "\073\073\073\049\049\073\108\049")(tabi_I111lIl11Il * false);
+					end);
+				end;
+				function tabi_III1lIl11Il.II1l1lll.Label(tabi_I11llIl11Il, tabi_Il1llIl11Il, ...)
+					local tabi_lII1lIl11Il = tabi_l11llIl11Il({ IllIllll = {} }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.IllIllll = tabi_l11llIl11Il;
+							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.IllIllll;
+							end });
+					local tabi_III1lIl11Il = tabi_l11llIl11Il({ IllI1I1l = Instance[(tabi_lll1lIl11Il - "\108\049\049\049\073\073\049\108")(-784761 - (-831034))]((tabi_lll1lIl11Il - "\108\049\108\049\108\073\108\108")(183334 + -137063)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								tabi_Il1llIl11Il.IllI1I1l = tabi_l11llIl11Il;
+							end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
+								return tabi_Il1llIl11Il.IllI1I1l;
+							end });
+					(tabi_III1lIl11Il * "\108\049\073\049\108\108\049\108")[(tabi_lll1lIl11Il - "\108\049\049\073\049\108\073\049")(-977534 + 1023869)] = (tabi_lll1lIl11Il - "\108\049\049\049\108\108\073\049")(1024630 - 978238);
+					(tabi_III1lIl11Il * "\108\073\073\049\049\073\049\049")[(tabi_lll1lIl11Il - "\108\073\108\049\108\049\049")(-567538 + 613894)] = tabi_I1l1lIl11Il * "\108\073\108\049\073\108\108";
+					(tabi_III1lIl11Il * "\073\049\049\108\108")[(tabi_lll1lIl11Il - "\073\073\049\108\073\108\108\049")(-533489 + 579891)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\049\049\073\049")(296037 - 249768)](173989 + -173951, 648628 + -648593, -659982 - (-660020));
+					(tabi_III1lIl11Il * "\073\108\049\108\049\108")[(tabi_lll1lIl11Il - "\073\073\073\073\108\049\108\108")(198566 + -152267)] = -668725 + 668726;
+					(tabi_III1lIl11Il * "\108\049\049\049\073\049\049")[(tabi_lll1lIl11Il - "\108\108\108\108\073\108")(79394 + -33135)] = Color3[(tabi_lll1lIl11Il - "\073\073\073\049\049\108\108")(-135140 + 181409)](15712 + -15712, -888956 + 888956, 226215 - 226215);
+					(tabi_III1lIl11Il * "\073\049\108\108\049\108\073\108")[(tabi_lll1lIl11Il - "\108\073\073\049\073\073\108\108")(-982270 + 1028598)] = -287401 - (-287401);
+					(tabi_III1lIl11Il * "\108\049\073\108\073\108\108")[(tabi_lll1lIl11Il - "\108\073\049\073\049\049\049\108")(1043392 + -997006)] = UDim2[(tabi_lll1lIl11Il - "\108\073\108\108\049\073\108\108")(976638 + -930365)](-933629 + 933629, -18465 + 18465, .642055511, 434541 + -434541);
+					(tabi_III1lIl11Il * "\108\073\073\049\049\073\108\049")[(tabi_lll1lIl11Il - "\073\073\049\049\049\073\108\049")(841621 - 795257)] = UDim2[(tabi_lll1lIl11Il - "\073\049\108\108\073\049\108\049")(184422 + -138149)](299305 + -299304, 85987 + -85987, -195366 + 195366, -888943 - (-888956));
+					(tabi_III1lIl11Il * "\108\049\108\049\108\049\108")[(tabi_lll1lIl11Il - "\108\108\073\073\108\073\049\108")(803385 + -756991)] = Enum[(tabi_lll1lIl11Il - "\108\049\108\073\108\049")(262241 - 215847)][(tabi_lll1lIl11Il - "\108\108\073\073\073\049\108\108")(-723702 + 770097)];
+					(tabi_III1lIl11Il * "\108\108\073\108\073\073\073\108")[(tabi_lll1lIl11Il - "\108\073\108\073\049")(320234 + -273831)] = tostring(tabi_Il1llIl11Il);
+					(tabi_III1lIl11Il * "\073\049\073\049\108\049\049")[(tabi_lll1lIl11Il - "\108\073\073\049\073\073\049")(-6876 - (-53218))] = Color3[(tabi_lll1lIl11Il - "\108\049\049\108\073\108\108")(-311850 + 358119)](-585434 - (-585650), 359467 + -359251, 685261 - 685045);
+					(tabi_III1lIl11Il * "\073\049\049\073\108\073\108\108")[(tabi_lll1lIl11Il - "\108\049\073\108\108\073\073\049")(-652128 - (-698422))] = -529456 + 529469;
+					(tabi_III1lIl11Il * "\073\049\108\108\108\049\073\108")[(tabi_lll1lIl11Il - "\108\073\073\049\073\049\108")(-438628 - (-484911))] = true;
+					(tabi_III1lIl11Il * "\108\073\108\108\108\049\108\049")[(tabi_lll1lIl11Il - "\108\049\073\049\049\108")(960489 - 914172)] = Enum[(tabi_lll1lIl11Il - "\073\049\108\049\108\049\073\108")(892988 + -846671)][(tabi_lll1lIl11Il - "\108\073\108\108\073\108")(1009660 - 963326)];
+					function tabi_lII1lIl11Il.IllIllll.Update(tabi_l11llIl11Il, tabi_Il1llIl11Il, ...)
+						(tabi_III1lIl11Il * "\108\073\073\049\049\049\108\049")[(tabi_lll1lIl11Il - "\108\049\049\108\073\108\108")(119909 - 73506)] = tostring(tabi_Il1llIl11Il);
+					end;
+					return tabi_lII1lIl11Il + "\108\049\073\108\073\049\108\108";
+				end;
+				return tabi_III1lIl11Il * "\073\049\049\073\108\073\049";
+			end;
+			return tabi_IIl1lIl11Il ^ "\073\049\108\073\073\049\108\049";
+		end;
+		return tabi_l1l1lIl11Il.l1I1IIl;
+	end;
+	return tabi_Il1llIl11Il + "\108\108\049\049\049\073\108";
+end)(...);
