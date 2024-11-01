@@ -4,7 +4,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/railm
 ```
 # make window
 ```lua
-local window = library:New("Your Title") 2nd and 3rd arguments can be used for colors (primrary and secondary)
+local window = library:New("Your Title") -- 2nd and 3rd arguments can be used for colors (primrary and secondary)
 ```
 # make tab
 ```lua
