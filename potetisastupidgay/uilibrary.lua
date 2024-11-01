@@ -1,1673 +1,1679 @@
-local tabi_l11llIl11Il = setmetatable;
-local tabi_I11llIl11Il = tabi_l11llIl11Il({ Il1l1ll1 = function(...)
+local tabi_l1lI1IIlII = setmetatable;
+local tabi_IlII1IIlII = tabi_l1lI1IIlII({ I1l1Il1l = function(...)
  
-		end }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-			tabi_Il1llIl11Il.Il1l1ll1 = tabi_l11llIl11Il;
-		end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-			return tabi_Il1llIl11Il.Il1l1ll1;
+		end }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+			tabi_I1lI1IIlII.I1l1Il1l = tabi_l1lI1IIlII;
+		end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+			return rawget(tabi_I1lI1IIlII, "\073\049\108\049\073\108\049\108");
 		end });
-local tabi_Il1llIl11Il = tabi_l11llIl11Il({ lll1I11 = function(tabi_Il1llIl11Il, ...)
-			local tabi_lII1lIl11Il = tabi_l11llIl11Il({ ll1llI1l = "" }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.ll1llI1l = tabi_l11llIl11Il;
-					end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return tabi_Il1llIl11Il.ll1llI1l;
+local tabi_I1lI1IIlII = tabi_l1lI1IIlII({ Il1ll1I1 = function(tabi_I1lI1IIlII, ...)
+			local tabi_llII1IIlII, tabi_IIII1IIlII = tabi_l1lI1IIlII({ IIllII11 = tabi_I1lI1IIlII[#tabi_I1lI1IIlII] }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.IIllII11 = tabi_l1lI1IIlII;
+					end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return tabi_I1lI1IIlII.IIllII11;
+					end }), tabi_l1lI1IIlII({ l1II1l = "" }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.l1II1l = tabi_l1lI1IIlII;
+					end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return rawget(tabi_I1lI1IIlII, "\108\049\073\073\049\108");
 					end });
-			for tabi_l11llIl11Il = 869756 - 869755, #tabi_Il1llIl11Il / (226791 + -226789), -256999 - (-257000) do
-				(tabi_I11llIl11Il / "\073\049\049\073\108\073\073\108")(tabi_lII1lIl11Il + ((tabi_lII1lIl11Il .. "\108\049\073\108\073\073\073\049") .. tabi_Il1llIl11Il[#tabi_Il1llIl11Il / (81509 - 81507) + tabi_Il1llIl11Il[tabi_l11llIl11Il]]));
+			for tabi_l1lI1IIlII = 436975 - 436974, #(tabi_llII1IIlII - "\073\108\108\108\073\073\049\108"), 664758 - 664757 do
+				(tabi_IlII1IIlII ^ "\073\049\073\049\108\049")(tabi_IIII1IIlII * (tabi_IIII1IIlII.lI11lIIl .. (tabi_llII1IIlII - "\073\108\049\108\049\108\073\108")[tabi_I1lI1IIlII[tabi_l1lI1IIlII]]));
 			end;
-			return tabi_lII1lIl11Il .. "\108\073\108\073\108\049\049\108";
-		end }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-			tabi_Il1llIl11Il.lll1I11 = tabi_l11llIl11Il;
-		end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-			return tabi_Il1llIl11Il.lll1I11;
+			return tabi_IIII1IIlII.l1IIIlIl;
+		end }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+			tabi_I1lI1IIlII.Il1ll1I1 = tabi_l1lI1IIlII;
+		end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+			return rawget(tabi_I1lI1IIlII, "\073\108\049\108\108\049\073\049");
 		end });
 return (function(...)
-	local tabi_Ill1lIl11Il, tabi_l1l1lIl11Il = tabi_l11llIl11Il({ IIIl1ll1 = nil }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				tabi_Il1llIl11Il.IIIl1ll1 = tabi_l11llIl11Il;
-			end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				return tabi_Il1llIl11Il.IIIl1ll1;
-			end }), tabi_l11llIl11Il({ l1Il1IIl = nil }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				tabi_Il1llIl11Il.l1Il1IIl = tabi_l11llIl11Il;
-			end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				return rawget(tabi_Il1llIl11Il, "\108\049\073\108\049\073\073\108");
+	local tabi_I11I1IIlII, tabi_l11I1IIlII = tabi_l1lI1IIlII({ IIllllll = nil }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				tabi_I1lI1IIlII.IIllllll = tabi_l1lI1IIlII;
+			end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				return tabi_I1lI1IIlII.IIllllll;
+			end }), tabi_l1lI1IIlII({ IIl1ll1 = nil }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				tabi_I1lI1IIlII.IIl1ll1 = tabi_l1lI1IIlII;
+			end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				return tabi_I1lI1IIlII.IIl1ll1;
 			end });
 	do
-		local tabi_Il1llIl11Il = tabi_l11llIl11Il({ llI111ll = math.floor }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.llI111ll = tabi_l11llIl11Il;
-				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return rawget(tabi_Il1llIl11Il, "\108\108\073\049\049\049\108\108");
+		local tabi_I1lI1IIlII = tabi_l1lI1IIlII({ IIIIIl11 = math.floor }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.IIIIIl11 = tabi_l1lI1IIlII;
+				end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.IIIIIl11;
 				end });
-		local tabi_lII1lIl11Il = tabi_l11llIl11Il({ lII1ll1l = math.random }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.lII1ll1l = tabi_l11llIl11Il;
-				end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.lII1ll1l;
+		local tabi_llII1IIlII = tabi_l1lI1IIlII({ llllIIIl = math.random }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.llllIIIl = tabi_l1lI1IIlII;
+				end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\108\108\108\108\073\073\073\108");
 				end });
-		local tabi_III1lIl11Il = tabi_l11llIl11Il({ IllllIll = table.remove }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.IllllIll = tabi_l11llIl11Il;
-				end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.IllllIll;
+		local tabi_IIII1IIlII = tabi_l1lI1IIlII({ IIllll1 = table.remove }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.IIllll1 = tabi_l1lI1IIlII;
+				end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\073\073\108\108\108\108\049");
 				end });
-		local tabi_llI1lIl11Il = tabi_l11llIl11Il({ Ill111l = string.char }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.Ill111l = tabi_l11llIl11Il;
-				end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.Ill111l;
+		local tabi_lIII1IIlII = tabi_l1lI1IIlII({ ll1lIIll = string.char }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.ll1lIIll = tabi_l1lI1IIlII;
+				end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.ll1lIIll;
 				end });
-		local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ Il1lII11 = -615411 - (-615411) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.Il1lII11 = tabi_l11llIl11Il;
-				end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return rawget(tabi_Il1llIl11Il, "\073\108\049\108\073\073\049\049");
+		local tabi_I1II1IIlII = tabi_l1lI1IIlII({ III1ll1l = -1039552 + 1039552 }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.III1ll1l = tabi_l1lI1IIlII;
+				end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\073\073\073\049\108\108\049\108");
 				end });
-		local tabi_l1I1lIl11Il = tabi_l11llIl11Il({ lllII11l = 475119 + -475117 }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.lllII11l = tabi_l11llIl11Il;
-				end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return rawget(tabi_Il1llIl11Il, "\108\108\108\073\073\049\049\108");
+		local tabi_l1II1IIlII = tabi_l1lI1IIlII({ ll11lIIl = -245416 + 245418 }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.ll11lIIl = tabi_l1lI1IIlII;
+				end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.ll11lIIl;
 				end });
-		local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ l1l11l = {} }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.l1l11l = tabi_l11llIl11Il;
-				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.l1l11l;
+		local tabi_Il1I1IIlII = tabi_l1lI1IIlII({ I1l11l = {} }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.I1l11l = tabi_l1lI1IIlII;
+				end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.I1l11l;
 				end });
-		local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ llIlIl1 = {} }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.llIlIl1 = tabi_l11llIl11Il;
-				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.llIlIl1;
+		local tabi_ll1I1IIlII = tabi_l1lI1IIlII({ IIIlll = {} }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.IIIlll = tabi_l1lI1IIlII;
+				end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.IIIlll;
 				end });
-		local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ llIl1IIl = -223783 + 223783 }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.llIl1IIl = tabi_l11llIl11Il;
-				end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.llIl1IIl;
+		local tabi_II1I1IIlII = tabi_l1lI1IIlII({ II1I1II1 = 93411 + -93411 }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.II1I1II1 = tabi_l1lI1IIlII;
+				end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.II1I1II1;
 				end });
-		local tabi_lll1lIl11Il = tabi_l11llIl11Il({ Il11I1 = {} }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.Il11I1 = tabi_l11llIl11Il;
-				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return rawget(tabi_Il1llIl11Il, "\073\108\049\049\073\049");
+		local tabi_lI1I1IIlII = tabi_l1lI1IIlII({ lIll1lIl = {} }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.lIll1lIl = tabi_l1lI1IIlII;
+				end, __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\108\073\108\108\049\108\073\108");
 				end });
-		for tabi_Il1llIl11Il = 810297 + -810296, 195750 + -195494, 566067 - 566066 do
-			(tabi_lll1lIl11Il .. "\108\049\073\108\049\049\108")[tabi_Il1llIl11Il] = tabi_Il1llIl11Il;
+		for tabi_I1lI1IIlII = 422638 - 422637, -640692 - (-640948), -288872 - (-288873) do
+			(tabi_lI1I1IIlII .. "\073\108\073\049\108\049\049")[tabi_I1lI1IIlII] = tabi_I1lI1IIlII;
 		end;
 		repeat
-			local tabi_Il1llIl11Il = tabi_l11llIl11Il({ lIlllI1 = (tabi_lII1lIl11Il * "\073\049\108\049\108\108")(843771 - 843770, #(tabi_lll1lIl11Il .. "\073\073\073\073\049\108")) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.lIlllI1 = tabi_l11llIl11Il;
-					end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return rawget(tabi_Il1llIl11Il, "\108\073\108\108\108\073\049");
+			local tabi_I1lI1IIlII = tabi_l1lI1IIlII({ Illl11 = tabi_llII1IIlII.I1III11(-351530 - (-351531), #(tabi_lI1I1IIlII .. "\073\049\049\049\073\073\049")) }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.Illl11 = tabi_l1lI1IIlII;
+					end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return rawget(tabi_I1lI1IIlII, "\073\108\108\108\049\049");
 					end });
-			local tabi_I11llIl11Il = tabi_l11llIl11Il({ lIlllI11 = (tabi_III1lIl11Il / "\108\108\073\049\108\049\108\049")(tabi_lll1lIl11Il .. "\108\073\049\108\049\108\073\108", tabi_Il1llIl11Il.Il1lIIl1) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.lIlllI11 = tabi_l11llIl11Il;
-					end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return tabi_Il1llIl11Il.lIlllI11;
+			local tabi_IlII1IIlII = tabi_l1lI1IIlII({ II11 = (tabi_IIII1IIlII ^ "\073\108\108\073\073\108")(tabi_lI1I1IIlII .. "\108\108\049\073\049\108\108\108", tabi_I1lI1IIlII / "\073\108\108\108\108\108\073\049") }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.II11 = tabi_l1lI1IIlII;
+					end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return rawget(tabi_I1lI1IIlII, "\073\073\049\049");
 					end });
-			(tabi_lIl1lIl11Il ^ "\073\108\108\049\073\049\073\049")[tabi_I11llIl11Il / "\073\073\073\049\073\073\049"] = (tabi_llI1lIl11Il / "\108\073\049\049\049\108\073\049")(tabi_I11llIl11Il / "\108\108\049\108\049\108\108\049" - (123365 - 123364));
-		until #(tabi_lll1lIl11Il .. "\073\049\073\073\049\049\049\108") == -481583 - (-481583);
-		local tabi_I1l1lIl11Il = tabi_l11llIl11Il({ I1IllI11 = {} }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.I1IllI11 = tabi_l11llIl11Il;
-				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.I1IllI11;
+			(tabi_ll1I1IIlII + "\073\073\073\073\049\108\073\049")[tabi_IlII1IIlII.llI1ll1l] = (tabi_lIII1IIlII + "\073\073\073\049\073\049")(tabi_IlII1IIlII.Ill11l1 - (-492718 - (-492719)));
+		until #(tabi_lI1I1IIlII .. "\108\073\108\049\073\108\073\108") == 163237 - 163237;
+		local tabi_Ill11IIlII = tabi_l1lI1IIlII({ I11IIlIl = {} }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.I11IIlIl = tabi_l1lI1IIlII;
+				end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\073\049\049\073\073\108\073\108");
 				end });
-		local tabi_lI11lIl11Il = tabi_l11llIl11Il({ IIll11 = function(...)
-					if #(tabi_I1l1lIl11Il + "\108\049\049\073\049\073\108") == -209254 - (-209254) then
-						(tabi_I11llIl11Il / "\073\073\049\108\073\049\049\108")(tabi_IlI1lIl11Il ^ ((tabi_IlI1lIl11Il.lII11 * (278806 - 278569) + (59554 + 29534170120911)) % (-604339 + 35184372693171)));
+		local tabi_lll11IIlII = tabi_l1lI1IIlII({ lll1I1I1 = function(...)
+					if #(tabi_Ill11IIlII - "\108\049\073\049\049\073\073\049") == 877179 + -877179 then
+						(tabi_IlII1IIlII ^ "\073\049\073\108\049\073\049\108")(tabi_I1II1IIlII[(tabi_I1II1IIlII ^ "\073\049\108\108\049\108\108" * (674882 - 674805) + (-824250 + 18672940996519)) % (35184372421290 - 332458)]);
 						repeat
-							(tabi_I11llIl11Il / "\073\108\108\108\049\049")(tabi_l1I1lIl11Il .. (tabi_l1I1lIl11Il.IlllIl11 * (662965 + -662788)) % (-738423 + 738680));
-						until tabi_l1I1lIl11Il.l11lIll1 ~= -490990 - (-490991);
-						local tabi_lII1lIl11Il = tabi_l11llIl11Il({ I1llII1l = tabi_l1I1lIl11Il.IlI11Ill % (585682 - 585650) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									tabi_Il1llIl11Il.I1llII1l = tabi_l11llIl11Il;
-								end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									return tabi_Il1llIl11Il.I1llII1l;
+							(tabi_IlII1IIlII ^ "\073\049\108\073\049\073\108\108")(tabi_l1II1IIlII / ((tabi_l1II1IIlII ^ "\108\073\049\108\049\049\108" * (-225588 - (-225703))) % (291305 + -291048)));
+						until tabi_l1II1IIlII ^ "\073\049\108\073\049\049\073\108" ~= 190823 - 190822;
+						local tabi_llII1IIlII = tabi_l1lI1IIlII({ lIIl111l = tabi_l1II1IIlII ^ "\108\049\049\108\049\108\073\049" % (-571890 + 571922) }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									tabi_I1lI1IIlII.lIIl111l = tabi_l1lI1IIlII;
+								end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									return tabi_I1lI1IIlII.lIIl111l;
 								end });
-						local tabi_III1lIl11Il = tabi_l11llIl11Il({ lII111Il = ((tabi_Il1llIl11Il + "\073\108\108\108\108\073\108\049")(tabi_IlI1lIl11Il.l1l1IIll / (15776 + -15774) ^ ((257704 + -257691) - (tabi_l1I1lIl11Il.I1IIIl1 - (tabi_lII1lIl11Il - "\108\049\108\108\108\073\073\049")) / (-122564 - (-122596)))) % (4295073571 - 106275)) / (-253286 - (-253288)) ^ (tabi_lII1lIl11Il - "\108\049\108\049\049\049\108\108") }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									tabi_Il1llIl11Il.lII111Il = tabi_l11llIl11Il;
-								end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									return tabi_Il1llIl11Il.lII111Il;
+						local tabi_IIII1IIlII = tabi_l1lI1IIlII({ II11IIl1 = ((tabi_I1lI1IIlII - "\108\073\049\049\049\049\049\108")(tabi_I1II1IIlII ^ "\108\049\073\049\073\108\108\108" / (841978 + -841976) ^ ((157093 + -157080) - (tabi_l1II1IIlII ^ "\108\049\049\049\073\108\073\108" - (tabi_llII1IIlII + "\073\049\073\049\049\108\073\049")) / (664949 + -664917))) % (4295678646 - 711350)) / (20769 + -20767) ^ (tabi_llII1IIlII + "\108\049\108\049\049") }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									tabi_I1lI1IIlII.II11IIl1 = tabi_l1lI1IIlII;
+								end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									return tabi_I1lI1IIlII.II11IIl1;
 								end });
-						local tabi_llI1lIl11Il = tabi_l11llIl11Il({ lIIIlI1 = (tabi_Il1llIl11Il + "\073\108\108\073\049\049")(((tabi_III1lIl11Il + "\108\049\108\073\073\049\108\108") % (884220 - 884219)) * (4293941312 - (-1025984))) + (tabi_Il1llIl11Il + "\073\049\049\073\073\049\108")(tabi_III1lIl11Il + "\108\049\108\108\108\049\108\108") }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									tabi_Il1llIl11Il.lIIIlI1 = tabi_l11llIl11Il;
-								end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									return tabi_Il1llIl11Il.lIIIlI1;
+						local tabi_lIII1IIlII = tabi_l1lI1IIlII({ l11II11 = (tabi_I1lI1IIlII - "\073\108\049\073\073\108\049")(((tabi_IIII1IIlII * "\073\108\073\049\073\108\108\049") % (-177061 + 177062)) * (4294183880 - (-783416))) + (tabi_I1lI1IIlII - "\108\073\049\073\049\049\108\108")(tabi_IIII1IIlII * "\073\073\108\049\049\073\073\049") }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									tabi_I1lI1IIlII.l11II11 = tabi_l1lI1IIlII;
+								end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									return tabi_I1lI1IIlII.l11II11;
 								end });
-						local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ lIlIIl = tabi_llI1lIl11Il ^ "\108\073\073\049\073\049" % (318506 + -252970) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									tabi_Il1llIl11Il.lIlIIl = tabi_l11llIl11Il;
-								end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									return tabi_Il1llIl11Il.lIlIIl;
+						local tabi_Il1I1IIlII = tabi_l1lI1IIlII({ III11ll = (tabi_lIII1IIlII + "\073\108\108\049\108\073\108") % (531246 - 465710) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									tabi_I1lI1IIlII.III11ll = tabi_l1lI1IIlII;
+								end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									return rawget(tabi_I1lI1IIlII, "\073\073\073\049\049\108\108");
 								end });
-						local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ Il1I1ll = (tabi_llI1lIl11Il ^ "\108\049\108\073\073\073\073\108" - (tabi_I1I1lIl11Il - "\073\049\108\108\073\108\049\049")) / (904442 - 838906) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									tabi_Il1llIl11Il.Il1I1ll = tabi_l11llIl11Il;
-								end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									return rawget(tabi_Il1llIl11Il, "\073\108\049\073\049\108\108");
+						local tabi_ll1I1IIlII = tabi_l1lI1IIlII({ ll1lIlI1 = ((tabi_lIII1IIlII + "\108\049\049\073\073\049\073\049") - tabi_Il1I1IIlII.lll11Il1) / (26721 + 38815) }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									tabi_I1lI1IIlII.ll1lIlI1 = tabi_l1lI1IIlII;
+								end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									return tabi_I1lI1IIlII.ll1lIlI1;
 								end });
-						local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ IIlIIIl1 = (tabi_I1I1lIl11Il - "\108\108\049\108\108\108") % (6112 + -5856) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									tabi_Il1llIl11Il.IIlIIIl1 = tabi_l11llIl11Il;
-								end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									return tabi_Il1llIl11Il.IIlIIIl1;
+						local tabi_II1I1IIlII = tabi_l1lI1IIlII({ l111I11l = tabi_Il1I1IIlII.I11IIlI1 % (458222 - 457966) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									tabi_I1lI1IIlII.l111I11l = tabi_l1lI1IIlII;
+								end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									return tabi_I1lI1IIlII.l111I11l;
 								end });
-						local tabi_lll1lIl11Il = tabi_l11llIl11Il({ llIIIIl = ((tabi_I1I1lIl11Il - "\108\049\108\049\049\108\073\108") - tabi_IIl1lIl11Il / "\108\108\073\073\049\049\108") / (190310 - 190054) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									tabi_Il1llIl11Il.llIIIIl = tabi_l11llIl11Il;
-								end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									return tabi_Il1llIl11Il.llIIIIl;
+						local tabi_lI1I1IIlII = tabi_l1lI1IIlII({ lIl11I1l = (tabi_Il1I1IIlII.I1lIlIl1 - tabi_II1I1IIlII * "\073\049\108\049\108\049\108") / (-165413 - (-165669)) }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									tabi_I1lI1IIlII.lIl11I1l = tabi_l1lI1IIlII;
+								end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									return rawget(tabi_I1lI1IIlII, "\108\073\108\049\049\073\049\108");
 								end });
-						local tabi_Ill1lIl11Il = tabi_l11llIl11Il({ ll11IlIl = tabi_lIl1lIl11Il.lII1111 % (-271016 + 271272) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									tabi_Il1llIl11Il.ll11IlIl = tabi_l11llIl11Il;
-								end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									return tabi_Il1llIl11Il.ll11IlIl;
+						local tabi_I11I1IIlII = tabi_l1lI1IIlII({ I1l1llI1 = (tabi_ll1I1IIlII / "\073\049\049\108\049\049\108") % (574002 - 573746) }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									tabi_I1lI1IIlII.I1l1llI1 = tabi_l1lI1IIlII;
+								end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									return tabi_I1lI1IIlII.I1l1llI1;
 								end });
-						local tabi_l1l1lIl11Il = tabi_l11llIl11Il({ l11lIIl = (tabi_lIl1lIl11Il.ll1l111 - tabi_Ill1lIl11Il ^ "\073\108\108\108\108\073\049\108") / (-140132 + 140388) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									tabi_Il1llIl11Il.l11lIIl = tabi_l11llIl11Il;
-								end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									return rawget(tabi_Il1llIl11Il, "\108\049\049\108\073\073\108");
+						local tabi_l11I1IIlII = tabi_l1lI1IIlII({ IlI11l = (tabi_ll1I1IIlII / "\073\049\108\108\108\073\049\108" - (tabi_I11I1IIlII - "\108\049\049\049\049\049\108\049")) / (-289897 + 290153) }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									tabi_I1lI1IIlII.IlI11l = tabi_l1lI1IIlII;
+								end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									return rawget(tabi_I1lI1IIlII, "\073\108\073\049\049\108");
 								end });
-						(tabi_I11llIl11Il / "\073\108\108\073\073\073\049\108")(tabi_I1l1lIl11Il - {
-							tabi_IIl1lIl11Il / "\108\108\073\073\073\073\108\108",
-							tabi_lll1lIl11Il .. "\073\108\108\073\108\108\108\108",
-							tabi_Ill1lIl11Il ^ "\108\108\049\049\108\073\108",
-							tabi_l1l1lIl11Il + "\073\073\108\073\108\108\108\049",
-						});
+						(tabi_IlII1IIlII ^ "\108\049\049\073\073\073\049\108")(tabi_Ill11IIlII[{
+							tabi_II1I1IIlII * "\108\108\073\073\108\049",
+							tabi_lI1I1IIlII.Il1I1l1,
+							tabi_I11I1IIlII - "\108\073\108\049\073\108\073\108",
+							tabi_l11I1IIlII.l1ll1Il1,
+						}]);
 					end;
-					return table.remove(tabi_I1l1lIl11Il + "\073\049\049\108\108\108\049\108");
-				end }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.IIll11 = tabi_l11llIl11Il;
-				end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.IIll11;
+					return table.remove(tabi_Ill11IIlII - "\073\073\049\073\073\049\073\049");
+				end }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.lll1I1I1 = tabi_l1lI1IIlII;
+				end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.lll1I1I1;
 				end });
-		local tabi_II11lIl11Il = tabi_l11llIl11Il({ Il1lll1l = {} }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.Il1lll1l = tabi_l11llIl11Il;
-				end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return rawget(tabi_Il1llIl11Il, "\073\108\049\108\108\108\049\108");
+		local tabi_IIl11IIlII = tabi_l1lI1IIlII({ II1llIll = {} }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.II1llIll = tabi_l1lI1IIlII;
+				end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\073\073\049\108\108\073\108\108");
 				end });
-		(tabi_I11llIl11Il / "\073\049\108\049\049\108\073\108")(tabi_l1l1lIl11Il .. setmetatable({}, { __index = tabi_II11lIl11Il - "\073\073\049\049\073\049\049\108", __metatable = nil }));
-		function tabi_Ill1lIl11Il.IIIl1ll1(tabi_Il1llIl11Il, tabi_lII1lIl11Il, ...)
-			local tabi_III1lIl11Il = tabi_l11llIl11Il({ lIII1lI1 = tabi_II11lIl11Il - "\073\073\073\073\108\049\073\049" }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.lIII1lI1 = tabi_l11llIl11Il;
-					end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return rawget(tabi_Il1llIl11Il, "\108\073\073\073\049\108\073\049");
+		(tabi_IlII1IIlII ^ "\108\049\049\073\073\073\108\108")(tabi_l11I1IIlII * setmetatable({}, { __index = tabi_IIl11IIlII.I1llllll, __metatable = nil }));
+		function tabi_I11I1IIlII.IIllllll(tabi_I1lI1IIlII, tabi_llII1IIlII, ...)
+			local tabi_IIII1IIlII = tabi_l1lI1IIlII({ IlIlI1Il = tabi_IIl11IIlII.l11lI1l }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.IlIlI1Il = tabi_l1lI1IIlII;
+					end, __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return tabi_I1lI1IIlII.IlIlI1Il;
 					end });
-			if (tabi_III1lIl11Il * "\108\073\049\049\049\073\073\049")[tabi_lII1lIl11Il] then
+			if (tabi_IIII1IIlII .. "\073\108\108\049\108\108\049\108")[tabi_llII1IIlII] then
  
 			else
-				(tabi_I11llIl11Il / "\073\049\049\049\049\108\049")(tabi_I1l1lIl11Il - {});
-				local tabi_llI1lIl11Il = tabi_l11llIl11Il({ I1l1IlIl = tabi_lIl1lIl11Il ^ "\108\073\073\049\108\049\049\108" }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.I1l1IlIl = tabi_l11llIl11Il;
-						end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.I1l1IlIl;
+				(tabi_IlII1IIlII ^ "\108\073\073\049\049\073\049")(tabi_Ill11IIlII[{}]);
+				local tabi_lIII1IIlII = tabi_l1lI1IIlII({ IlI1llIl = tabi_ll1I1IIlII + "\073\073\049\073\049\073\073\049" }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.IlI1llIl = tabi_l1lI1IIlII;
+						end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.IlI1llIl;
 						end });
-				(tabi_I11llIl11Il / "\108\073\049\073\049\049\108\108")(tabi_IlI1lIl11Il ^ (tabi_lII1lIl11Il % (35184371434956 - (-653876))));
-				(tabi_I11llIl11Il / "\073\073\108\073\049\073\108")(tabi_l1I1lIl11Il .. tabi_lII1lIl11Il % (70753 - 70498) + (-343403 + 343405));
-				local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ I11111 = string.len(tabi_Il1llIl11Il) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.I11111 = tabi_l11llIl11Il;
-						end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.I11111;
+				(tabi_IlII1IIlII ^ "\108\108\073\108\073\073\049\049")(tabi_I1II1IIlII[tabi_llII1IIlII % (-119908 + 35184372208740)]);
+				(tabi_IlII1IIlII ^ "\073\049\073\073\049\073\108\108")(tabi_l1II1IIlII / (tabi_llII1IIlII % (-883836 - (-884091)) + (632884 + -632882)));
+				local tabi_Il1I1IIlII = tabi_l1lI1IIlII({ lIIIlll = string.len(tabi_I1lI1IIlII) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.lIIIlll = tabi_l1lI1IIlII;
+						end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.lIIIlll;
 						end });
-				(tabi_III1lIl11Il * "\108\073\108\049\108\049\108\108")[tabi_lII1lIl11Il] = "";
-				local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ II1l1lll = -198238 - (-198438) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.II1l1lll = tabi_l11llIl11Il;
-						end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.II1l1lll;
+				(tabi_IIII1IIlII .. "\108\049\108\108\073\073\108\049")[tabi_llII1IIlII] = "";
+				local tabi_II1I1IIlII = tabi_l1lI1IIlII({ l1I1lII1 = -492335 + 492496 }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.l1I1lII1 = tabi_l1lI1IIlII;
+						end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return rawget(tabi_I1lI1IIlII, "\108\049\073\049\108\073\073\049");
 						end });
-				for tabi_l11llIl11Il = -373739 - (-373740), tabi_I1I1lIl11Il ^ "\108\108\073\049\108\073\049\108", 220583 + -220582 do
-					(tabi_I11llIl11Il / "\108\108\049\049\049\049\073\108")(tabi_IIl1lIl11Il * (((string.byte(tabi_Il1llIl11Il, tabi_l11llIl11Il) + (tabi_lI11lIl11Il * "\108\073\108\073\073\073\108")()) + tabi_IIl1lIl11Il / "\073\073\108\108\073\049\073\049") % (-958846 - (-959102))));
-					(tabi_III1lIl11Il * "\108\073\073\049\049\049\108\108")[tabi_lII1lIl11Il] = (tabi_III1lIl11Il * "\108\108\108\073\073\073\049")[tabi_lII1lIl11Il] .. (tabi_llI1lIl11Il + "\073\049\108\108\049\049\108")[tabi_IIl1lIl11Il / "\108\049\108\049\108\073\108\049" + (-64802 + 64803)];
+				for tabi_l1lI1IIlII = 715063 - 715062, tabi_Il1I1IIlII ^ "\108\073\049\108\073\049", 512560 + -512559 do
+					(tabi_IlII1IIlII ^ "\073\049\073\108\049\073\049\108")(tabi_II1I1IIlII[((string.byte(tabi_I1lI1IIlII, tabi_l1lI1IIlII) + (tabi_lll11IIlII - "\073\108\073\108\073\108\049\049")()) + tabi_II1I1IIlII * "\073\049\108\073\049\073\108") % (349483 - 349227)]);
+					(tabi_IIII1IIlII .. "\108\073\049\049\108\108\073\049")[tabi_llII1IIlII] = (tabi_IIII1IIlII .. "\108\049\073\049\049\073\108\108")[tabi_llII1IIlII] .. (tabi_lIII1IIlII / "\108\073\073\049\108\073\049")[tabi_II1I1IIlII * "\073\108\049\108\073\049\108" + (1032960 + -1032959)];
 				end;
 			end;
-			return tabi_lII1lIl11Il;
+			return tabi_llII1IIlII;
 		end;
 	end;
-	local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ Ill1lI1 = {
-				tabi_l1l1lIl11Il.IIlIllIl[(tabi_Ill1lIl11Il .. "\108\049\108\049\073\108\049")("\209\135\181\082\066\251\'\249\187\064\119\224", 3654054635746 - (-304233))],
-				tabi_l1l1lIl11Il.Il1IIl[(tabi_Ill1lIl11Il .. "\108\049\049\108\108\108")("\242\b\020\120\170\156\190\144\012\167\036\123\146\t\'\180\012\180\194\003", 357567297592 - 358123)],
-				tabi_l1l1lIl11Il.l11l1l1[(tabi_Ill1lIl11Il .. "\108\049\073\049\073\049\049\108")("\169\157\037\239\107\a\024\006\206\086\186\025\093\155\197\014\048\108\097\253\247\112\166\157", 7475617670642 - (-1045824))],
-				tabi_l1l1lIl11Il.IlI111ll[(tabi_Ill1lIl11Il .. "\108\073\108\073\073\108\108")("\109\129\144\129\237\'-\028", -386092 + 28436772932511)],
-				tabi_l1l1lIl11Il.Illl1[(tabi_Ill1lIl11Il .. "\108\049\049\108\049\108\073\049")("\147\200\006\021\240\049\098\069", 501452494188 - (-240743))],
-				tabi_l1l1lIl11Il.Il1lllll[(tabi_Ill1lIl11Il .. "\073\049\108\049\108\073\073\108")("\087\247\113\t\065\206\150\073\048\105\139\031\239\097\177\161\182\149\091\070", 3975113121609 - (-421677))],
-				tabi_l1l1lIl11Il.lII1111l[(tabi_Ill1lIl11Il .. "\108\049\073\049\108\049\108")("\138\092\035\053\205\042\199\018\224\188\182\142", 2670476993866 - (-418925))],
-				tabi_l1l1lIl11Il.IlIlI1Il[(tabi_Ill1lIl11Il .. "\073\049\049\049\049\073\049")("\182\082\086\097\155\153\135\236", -427565 + 23958059146581)],
-				tabi_l1l1lIl11Il.lIIlIIll[(tabi_Ill1lIl11Il .. "\073\108\073\049\108\108\049\108")("\204\192\155\164\174\015\051\168", 2514780477970 - 381164)],
-				tabi_l1l1lIl11Il.llll1Ill[(tabi_Ill1lIl11Il .. "\073\073\108\049\108\049")("\086\040\240\020\049\038\033\205\080\096\a\254\085\074\166\020", 25405507262424 - 392044)],
-				tabi_l1l1lIl11Il.lIl1IIll[(tabi_Ill1lIl11Il .. "\073\073\049\108\049\049\073\108")("\177\238\089\242\245\079\111\005", 17124557949891 - 740727)],
-				tabi_l1l1lIl11Il.IIlIlII1[(tabi_Ill1lIl11Il .. "\073\073\073\108\108")("\171\020\016\088\225\169\044\072\147\151-\212~\068\082\131", 3232 + 34982502462115)],
-				tabi_l1l1lIl11Il.llI1lIIl[(tabi_Ill1lIl11Il .. "\073\073\049\108\108\049\073\049")("\243\t\234\248\070\082\157\169\214\154\096\210", 25159612967926 - 479343)],
-				tabi_l1l1lIl11Il.I1Ill1I1[(tabi_Ill1lIl11Il .. "\073\108\073\108\108\108\108\049")("\093\222\154\218\116\012\050\033\092\186\149\148\158\t\020\193\179\187\104\208\254\120\178\129", 659380 + 13318025617599)],
-				tabi_l1l1lIl11Il.I1IIIl[(tabi_Ill1lIl11Il .. "\108\108\108\108\108\049")("\091\062\160\189\113\061\160\136\174\228\161\147\218\182\241\078", 26104533332798 - (-797625))],
-				tabi_l1l1lIl11Il.I1I1IIl1[(tabi_Ill1lIl11Il .. "\108\108\049\073\049\073\049\049")("\075\231\089\175\245\229\030\048\003\234\085\200\154\223\222\135", -68834 + 20961153898787)],
-				tabi_l1l1lIl11Il.IllIIl1l[(tabi_Ill1lIl11Il .. "\073\049\073\108\049\049\073\108")("\138\026\202\015\188\043\118\040\015\164\015\075\226\146\129\086", 24138453514117 - 663477)],
-				tabi_l1l1lIl11Il.IllI1[(tabi_Ill1lIl11Il .. "\108\108\073\108\049\108\049")("\239\238\101\r\079\212\202\253\156\116\100\085", 17882641510365 - (-561457))],
-				tabi_l1l1lIl11Il.lI1l1l1l[(tabi_Ill1lIl11Il .. "\108\049\108\049\108\049\108")("\n\103\251\200\109\112\101\171\a\230\089\000\229\129\058\244\050\094\179\094", 4121147048611 - 160677)],
-				tabi_l1l1lIl11Il.lII1IIll[(tabi_Ill1lIl11Il .. "\073\108\073\073\073\073\049\049")("\118\190\182\200\066\133\247\247\a\020\172\220\093\105\231\142", 17559435181802 - (-737527))],
-				tabi_l1l1lIl11Il.l1III1l[(tabi_Ill1lIl11Il .. "\073\049\108\073\049\049\073\049")("\113\050\002\101\019\131\020\116", 449902 + 32459131721895)],
-				tabi_l1l1lIl11Il.lIllllIl[(tabi_Ill1lIl11Il .. "\073\049\049\049\108\108")("\194\100\108\053\198\196\043\166\194\200\152\191\138\243\164\248\063\071\235\019\195\194\156\222\208\059\048\143\144\099\005\204\050\165\004\194", 30261115354095 - (-225831))],
-				tabi_l1l1lIl11Il.lIIIlll1[(tabi_Ill1lIl11Il .. "\108\049\073\049\049\073\073\108")("\096\087\194\212", 6228966882584 - 468591)],
-				tabi_l1l1lIl11Il.lll1ll1l[(tabi_Ill1lIl11Il .. "\073\049\073\049\049\049\108\049")("\181\220\t\215\188\175\241\136\083\022\139\040", -357227 + 2705912331587)],
-				tabi_l1l1lIl11Il.l111II11[(tabi_Ill1lIl11Il .. "\108\108\049\073\108\073\073\108")("\017\018\006\124\245\135\037\081\104\177\093\130", 21307982928033 - (-95459))],
-				tabi_l1l1lIl11Il.I111l1l1[(tabi_Ill1lIl11Il .. "\073\108\049\049\073\073\108\049")("\071\229\131\175", 17328575271622 - 889788)],
-				tabi_l1l1lIl11Il.ll11lll1[(tabi_Ill1lIl11Il .. "\073\073\073\049\049\049\108")("\154\051\066\028\178\120\097\115", 15472018952387 - 841850)],
-				tabi_l1l1lIl11Il.lII1llI1[(tabi_Ill1lIl11Il .. "\108\049\108\073\073\108\108\049")("\220\094\049\159\252\139\254\147\v\r\214\210\074\149\114\091", 6809877675277 - (-793529))],
-				tabi_l1l1lIl11Il.lll1llI1[(tabi_Ill1lIl11Il .. "\073\049\108\073\073\108\108\049")("\046\229\206\106\156\067\077\247\239\247\079\188\211\054\029\111\217\200\145\216\195\152\117\200", 536049 + 13622977725342)],
-				tabi_l1l1lIl11Il.ll11I1Il[(tabi_Ill1lIl11Il .. "\108\049\108\049\108\108\073\049")("\038\a\004\127\222\077\068\165", 558257 + 7600176010997)],
-				tabi_l1l1lIl11Il.Il1Illl[(tabi_Ill1lIl11Il .. "\108\049\108\108\108\049\049\108")("\176\081\187\163\149\174\095\100\237\012\179\154", 438318 + 23770147726923)],
-				tabi_l1l1lIl11Il.I1II1ll1[(tabi_Ill1lIl11Il .. "\108\073\073\108\108\049\073\049")("\206\235\084\120\023\188\255\227\222\040\r\252-\167\155\183", 422509 + 15231492179196)],
-				tabi_l1l1lIl11Il.IllIII1l[(tabi_Ill1lIl11Il .. "\108\049\108\108\073\108\108\049")("\155\241\236\002\147\033\031\100\116\050\220\t\247\027\036\117", 11628978055638 - (-786552))],
-				tabi_l1l1lIl11Il.lll1Il11[(tabi_Ill1lIl11Il .. "\073\049\108\049\049\108\108\108")("\220\183\042\077\184\196\252\195\221\t\253\038\236\224\206\249", 31533538587675 - 115044)],
-				tabi_l1l1lIl11Il.ll1lIll[(tabi_Ill1lIl11Il .. "\108\049\073\073\108\049\108\049")("\220\006\050\156\206\061\054\074\090\049\041\234", 21892115969591 - (-432493))],
-				tabi_l1l1lIl11Il.IlII11[(tabi_Ill1lIl11Il .. "\108\108\108\108\073\049\108\049")("\074\208\033\187\112\136\176\242\099\074\229\047\133\245\137\170\104\109\064\055", 952894 + 2766042398674)],
-				tabi_l1l1lIl11Il.IIIIIlI1[(tabi_Ill1lIl11Il .. "\073\049\108\049\049\049\108\049")("\192\139\138\005\004\227\106\070\156\228\003\223\118\020\049\185\148\167\066\080\229\097\246\174", 20923571010408 - (-708790))],
-				tabi_l1l1lIl11Il.l1lllI1[(tabi_Ill1lIl11Il .. "\073\073\108\049\073\073\108")("\245-\231\003\199\249\036\065", 18465701008760 - (-667061))],
-				tabi_l1l1lIl11Il.lllIIIl[(tabi_Ill1lIl11Il .. "\073\049\073\049\049\108\073\049")("\042\044\070\237\244\015\143\081\081\133\133\169", -413229 + 13959070122229)],
-				tabi_l1l1lIl11Il.II1I1I11[(tabi_Ill1lIl11Il .. "\108\073\073\073\049\073\049\049")("\174\205\014\114\096\193\152\165\206\167\003\245\016\209\001\135\248\199\109\023", 89122602078 - (-689141))],
-				tabi_l1l1lIl11Il.l111l11[(tabi_Ill1lIl11Il .. "\108\108\073\073\049\049\073\108")("\"\133\116\168\207\180\192\066\131\055\253\218\087\115\205\089\229\210\125\146\000\153\198\080", -839034 + 13897865396233)],
-				tabi_l1l1lIl11Il.I1lIll[(tabi_Ill1lIl11Il .. "\108\049\049\108\073\049")("\233\088\215\249\059\093\184\114\072\047\043\156", 886075 + 16340700870199)],
-				tabi_l1l1lIl11Il.I111Il[(tabi_Ill1lIl11Il .. "\073\073\073\108\049\073\049\049")("\241\139\200\184\017\089\205\186 \030\196\105\091\174\046\016\100\093\241\059\031\114\240\146", 572338 + 13599354648007)],
-				tabi_l1l1lIl11Il.Il11I1l[(tabi_Ill1lIl11Il .. "\073\049\108\108\049\108\108\108")("\191\172\101\202\143\156\070\238\169\221\190\197\201\074\021\025", 4125441903135 - (-83171))],
-				tabi_l1l1lIl11Il.l11IIlI1[(tabi_Ill1lIl11Il .. "\108\073\073\049\108\108")("\059\048\076\159\074\178\147\076\200\194\069\219", -809209 + 9480356690806)],
-				tabi_l1l1lIl11Il.lIIl1l[(tabi_Ill1lIl11Il .. "\108\108\049\108\073\073\049\108")("\033\028\143\130\245\236\143\133\150\082\061\245\246\065\173\086", -960062 + 27207301597496)],
-				tabi_l1l1lIl11Il.lllI11I1[(tabi_Ill1lIl11Il .. "\108\073\108\049\049\108\073\049")("\047\212\141\153\t\248\227\018", 31654875504536 - 502896)],
-				tabi_l1l1lIl11Il.lIll111[(tabi_Ill1lIl11Il .. "\073\108\049\073\073\108\073\049")("\089\218\211\125\228\n\220\075\036\079\004\195\228\164\147\151", -995391 + 19339755189914)],
-				tabi_l1l1lIl11Il.II1l1l1[(tabi_Ill1lIl11Il .. "\108\049\073\073\073\073\073\049")("\234\077\180\050\089\021\t\049\111\125\070\223\225\002\164\051\104\030\217\012", -146853 + 6455532999969)],
-				tabi_l1l1lIl11Il.I1ll1I1l[(tabi_Ill1lIl11Il .. "\108\108\049\108\049")("\t\024\185\033\059\128\152\v\047\252\149\020\025\170\048 ", 579837837870 - (-442350))],
-				tabi_l1l1lIl11Il.ll1Il11[(tabi_Ill1lIl11Il .. "\073\108\049\108\049\049\073\108")("\077\069\169\218\187\017\197\121\107\030\234\170", 12547056857564 - 738359)],
-				tabi_l1l1lIl11Il.lIlI1l1l[(tabi_Ill1lIl11Il .. "\073\108\108\049\108\049\049\108")("\n\233\232\001\101\131\163\130\029\119\182\060", 991167 + 6734713256129)],
-				tabi_l1l1lIl11Il.l1lI1[(tabi_Ill1lIl11Il .. "\073\049\073\108\073\108\073\108")("\050\049\056\204\152\040\056\124", 17723723977835 - 545777)],
-				tabi_l1l1lIl11Il.III1lI1l[(tabi_Ill1lIl11Il .. "\073\049\108\108\073\108\108")("\086\098\239\253\134\143\036\232\116\137\100~\140\138\186\050\125\102\186\085\132\021\119\076", -679029 + 16527539214485)],
-				tabi_l1l1lIl11Il.l11Illl1[(tabi_Ill1lIl11Il .. "\073\108\108\073\108\073\049")("\178\030\104\225\226\042\076\208\134\216\248\050\243\156\041\098\205\038\154 ", 10689426630932 - 557617)],
-				tabi_l1l1lIl11Il.lll111[(tabi_Ill1lIl11Il .. "\073\108\073\108\073\073\108\108")("\093\157\132\123\128\014\226\098\136\025\212\146\025\053\204\213\070\196\223\091", 622579 + 27531579941941)],
-				tabi_l1l1lIl11Il.l1lIllll[(tabi_Ill1lIl11Il .. "\108\108\073\049\073\049\073\108")("\005\109\193\249\037\058\131\124\070\174\r~", 13090385233253 - (-830010))],
-				tabi_l1l1lIl11Il.lll11lll[(tabi_Ill1lIl11Il .. "\073\108\108\108\049")("\031\101\219-\058\066\"\058\085\202\018\254\095\223\107\163\085\b\053\223", -79586 + 4287582029435)],
-				tabi_l1l1lIl11Il.II11lI1l[(tabi_Ill1lIl11Il .. "\108\073\049\108\108\073\049\049")("\065\218\n\174\060\107\028\202\043\033\038\006\031\052\170\244\205\027\202\059", 221031 + 1095249863829)],
-				tabi_l1l1lIl11Il.l11I1Ill[(tabi_Ill1lIl11Il .. "\073\049\108\049\073\108\108\049")("\173\004\233\210\241\247\026\225\109\162\254\104", -615347 + 6481304058695)],
-				tabi_l1l1lIl11Il.III1Il[(tabi_Ill1lIl11Il .. "\108\073\073\108\073\049\073\108")("\176\112\074\180\148\233\229\078\254\118\098\243\205\015\085\191\121\196\239\079\100\042\158\218", -127524 + 17996462306204)],
-				tabi_l1l1lIl11Il.ll1l1II1[(tabi_Ill1lIl11Il .. "\108\108\108\073\108\108\073\108")("\018 \029\038\134\183\203\000\085\053\109\123", 13457617464676 - 490607)],
-				tabi_l1l1lIl11Il.l11II1[(tabi_Ill1lIl11Il .. "\108\049\108\108\049\108\049")("\072\053\023\100\087\199\038\005\092\180\157\056", -485871 + 2598535000931)],
-				tabi_l1l1lIl11Il.l1111l1l[(tabi_Ill1lIl11Il .. "\073\049\073\073\073\108\049\108")("\052\133\241\066\248\048\116\112", -119972 + 35122093282410)],
-				tabi_l1l1lIl11Il.lIII11ll[(tabi_Ill1lIl11Il .. "\073\049\108\108\049\049\073\049")("\090\105\090\241\110\105\212\243\021\003\069\087", -344619 + 35001830752640)],
-				tabi_l1l1lIl11Il.I1lIlI1l[(tabi_Ill1lIl11Il .. "\073\049\049\108\049\108\108\049")("\005\087\001\195\120\014\186\083", 31699973537650 - 3104)],
-				tabi_l1l1lIl11Il.lII1lI11[(tabi_Ill1lIl11Il .. "\073\073\108\049\108\049\049\108")("\189\234\220\164\209\057~\134", 752759 + 13402853717067)],
-				tabi_l1l1lIl11Il.llIIlll1[(tabi_Ill1lIl11Il .. "\108\108\049\073\108\049\049")("\148\173\235\132\235\149\208\231", 6575796128540 - 521008)],
-				tabi_l1l1lIl11Il.l1ll1Il[(tabi_Ill1lIl11Il .. "\073\049\049\073\049\108")("\204\195\188\240\081\140\079\080", 256631137840 - (-989887))],
-				tabi_l1l1lIl11Il.I1Il1l[(tabi_Ill1lIl11Il .. "\073\073\108\073\073\049\049\108")("\125\066\231\177\091\088~\211\131\225\120\064\164\066\105\123\220\152\078\037", 431853 + 14177045519526)],
-				tabi_l1l1lIl11Il.IIl1l1l1[(tabi_Ill1lIl11Il .. "\073\049\108\049\049\108\073\049")("\196\022\022\r\232\234\161\226\149\116\079\037\084\214\132\051", 15131630576333 - (-988223))],
-				tabi_l1l1lIl11Il.l1l11l1[(tabi_Ill1lIl11Il .. "\108\049\073\073\049\073\049\049")("\138\231\142\178\019\063\018\236\064\160\a\209\127\015\192\232", -745783 + 29999115325017)],
-				tabi_l1l1lIl11Il.l11Il1l[(tabi_Ill1lIl11Il .. "\108\073\108\049\108\073\108\108")("\157\100\229\143\219\201\146\038\152~\149\060\150\117\018\087\131\199\098\246\072\241\161\049\224\158\071\216", 987967 + 4756820459023)],
-				tabi_l1l1lIl11Il.III1lIl[(tabi_Ill1lIl11Il .. "\073\108\108\073\049\108\073\049")("\095\224\170\014\102\019\049\196\094\086\002\248\042\137\223\150", 33453446505142 - (-939773))],
-				tabi_l1l1lIl11Il.lIl1llll[(tabi_Ill1lIl11Il .. "\108\049\049\049\108\073\049\108")("\174\177\006\091\095\068\192\146\153\211\238\102\157\023\069\209\224\023\103\183", 2528739181843 - 15328)],
-				tabi_l1l1lIl11Il.l1II1l1l[(tabi_Ill1lIl11Il .. "\073\049\108\073\073\073\108")("\035\029\214-\201\118\190\023\127\076\184\"\180\242\087\240\227\129\184\186\012\069\224\107", 29233512598883 - (-695542))],
-				tabi_l1l1lIl11Il.llllIll[(tabi_Ill1lIl11Il .. "\073\073\049\049\073\073\073\049")("\082\225\087\163\029\252\r-", 7398306766724 - (-179046))],
-				tabi_l1l1lIl11Il.I1lll1ll[(tabi_Ill1lIl11Il .. "\073\073\073\073\073\108\108")("\t\'\249\086\068\077\237\153", -906876 + 18788908735190)],
-				tabi_l1l1lIl11Il.IIIIIIIl[(tabi_Ill1lIl11Il .. "\108\073\073\049\108\049\049")("\179\178\205\b\166\030\205\236", 13485535328758 - 215271)],
-				tabi_l1l1lIl11Il.IlllIll1[(tabi_Ill1lIl11Il .. "\073\108\073\049\049\108\049\108")("", 8953133044801 - 488367)],
-				tabi_l1l1lIl11Il.lIl11I11[(tabi_Ill1lIl11Il .. "\073\108\073\108\073\073\073\049")("\083\230\124\155\124\137\219\253\140\231\162\122", 8539728344914 - (-993215))],
-				tabi_l1l1lIl11Il.IlllI11l[(tabi_Ill1lIl11Il .. "\108\049\108\108\108\049\108")("\241\093\219\161\219\121\189\138\153\224\074\061\141\080\235\171\124\230\028\176\189\042\023\015", 13931151149313 - (-420269))],
-				tabi_l1l1lIl11Il.I11lIll[(tabi_Ill1lIl11Il .. "\108\108\073\108\073\073\049\108")("\143\245\141\139\201\090\110\160\239\124\116\070", 954238 + 10991155779710)],
-				tabi_l1l1lIl11Il.l1lIIl[(tabi_Ill1lIl11Il .. "\108\049\049\049\049\073\049")("\041\086\197\087\180\131\167\185\204\247\184\092", 542705 + 26201173301088)],
-				tabi_l1l1lIl11Il.IlI1l[(tabi_Ill1lIl11Il .. "\108\049\108\049\108\073\108\108")("\092\138\078\124\079\201\143\b\146\175\038\047\250\239\223\212", 16639210244750 - (-848378))],
-				tabi_l1l1lIl11Il.l1lIII1[(tabi_Ill1lIl11Il .. "\108\108\073\049\108\108")("\182~\054\181\139-\047\221\151\187\020\048\069\'\147\123", 102755 + 115967553289)],
-				tabi_l1l1lIl11Il.I1l1Il1[(tabi_Ill1lIl11Il .. "\073\108\108\073\073\049\108\108")("\114\040\232\235\089\178\193\178\057\121\134\080\218\047\063\084", -371948 + 13904307576705)],
-				tabi_l1l1lIl11Il.IlIl111[(tabi_Ill1lIl11Il .. "\108\049\108\049\049\073\073\108")("\104\029\199\225\044\092\132\102\089\211\"\180\137\066\203\223\003\211\225\170", 13553183416766 - 503920)],
-				tabi_l1l1lIl11Il.l1111Il1[(tabi_Ill1lIl11Il .. "\108\108\073\049\108\049\073\108")("\071\140\222\229\119\100\136\176~\137\020\187\098\055\107\100", -321386 + 2599608611039)],
-				tabi_l1l1lIl11Il.l1lIl1ll[(tabi_Ill1lIl11Il .. "\073\073\049\108\108\049\049")("\'\174\076\182\131\081\073\050", 114212 + 2258147854867)],
-				tabi_l1l1lIl11Il.Ill11[(tabi_Ill1lIl11Il .. "\073\049\049\049\108\073\108\108")("\087\215\016\127\146\067\226\084\216\094\129\104\251\132\182\234", 11475429458731 - 383340)],
-				tabi_l1l1lIl11Il.lIl1I1l[(tabi_Ill1lIl11Il .. "\073\049\073\049\073\049\108\049")("\071\022\123\064\150\223\241\208\194\062\054\042\000\105\241\105", 4791183068200 - 834234)],
-				tabi_l1l1lIl11Il.lIlIIlIl[(tabi_Ill1lIl11Il .. "\108\108\073\049\073\108\049")("\038\177\n\092\152\002\153\209", 835002 + 18825415329474)],
-				tabi_l1l1lIl11Il.lIl1I11l[(tabi_Ill1lIl11Il .. "\073\073\073\108\049\049\049\108")("\148\183\016\190\095\188\001\191\066\244\n\224\061\123\154\023\127\237\190\075\078\099\173\125\178\019\a\220\054\132\085\169\087\227\014\189", 17644263124721 - (-987455))],
-				tabi_l1l1lIl11Il.I1Il1l1[(tabi_Ill1lIl11Il .. "\073\073\073\108\049\049")("\023\066\022\164\213\108\108\243\074\179\170\197\176\240\196\214\191\228\064\105\242\000\036\255\066\090\113\164\131\015\227\112", -151141 + 23341712253775)],
-				tabi_l1l1lIl11Il.I1II1Ill[(tabi_Ill1lIl11Il .. "\073\108\073\073\108\073\108\108")("\028\012\223\"\185\146\049\028\243\156\127\061", -890876 + 29671614219245)],
-				tabi_l1l1lIl11Il.II1llll1[(tabi_Ill1lIl11Il .. "\073\049\049\049\049\108\108\108")("\145\101\088\233\151\083\037\209\227\176\103\051\021\002\090\197", 9115272292674 - (-227303))],
-				tabi_l1l1lIl11Il.IIllII1l[(tabi_Ill1lIl11Il .. "\073\108\049\049\108\049\108\049")("\188\170\043\058\185\104\245\142\n\230\179\185", -90019 + 27701237040233)],
-				tabi_l1l1lIl11Il.lI1lIl1[(tabi_Ill1lIl11Il .. "\073\049\108\049\073\049\049")("\147\077\215\031\125\168\213\102\246\b\234\239\153\068\194\211\133\042\037\024", 921021 + 15826362805206)],
-				tabi_l1l1lIl11Il.lIl1l1l1[(tabi_Ill1lIl11Il .. "\073\049\049\049\108\073\073\108")("\124\026\217\160", -970494 + 17572322184939)],
-				tabi_l1l1lIl11Il.IlllI11[(tabi_Ill1lIl11Il .. "\073\073\049\108\108\108\108\049")("\200\042\065\051\092\089\228\248\r\017\081\206\203\019\088\004", 690229 + 14171676388185)],
-				tabi_l1l1lIl11Il.l1lIllI1[(tabi_Ill1lIl11Il .. "\073\049\073\049\073\108\049\108")("\087\232\154\"\131\092\236\083\235\200\200\023\042\243\043\105\254\037\r\241", 19190499642932 - 116836)],
-				tabi_l1l1lIl11Il.IlII1I1[(tabi_Ill1lIl11Il .. "\108\073\108\049\049\073\108\049")("\100\112\169\067\185\113\223\060\238\044\052\255\125\102\073\112", 1113503871009 - (-381932))],
-				tabi_l1l1lIl11Il.l1llIlll[(tabi_Ill1lIl11Il .. "\108\049\073\049\108\108")("\144\174\219\166\154\107\072\150\006\127\025\220", 32156327366800 - (-369771))],
-				tabi_l1l1lIl11Il.lII11II1[(tabi_Ill1lIl11Il .. "\108\073\073\049\108\049\073\049")("\049\187\221\103\235\236\119\088\005\t\153\098\102\210\173\044\252\070\129\047\113\068\219\237", -744375 + 17366157236964)],
-				tabi_l1l1lIl11Il.Ill1lI1l[(tabi_Ill1lIl11Il .. "\073\073\049\049\108\073\049\108")("\090\041\195\050\188\212\047\169\207\112\238\164\138\101\098\208", 29096070798221 - 651700)],
-				tabi_l1l1lIl11Il.Il1I1I1l[(tabi_Ill1lIl11Il .. "\108\108\049\049\108\049\049")("\231\041\185\179\232\022\087\v\087\069\254\236\119\235\114\084", 30102197059046 - 118884)],
-				tabi_l1l1lIl11Il.lIlIl1l[(tabi_Ill1lIl11Il .. "\108\108\073\108\108\049\049")("\182\052\192\239\184\094\083\211\215\132\252\031\096\086\165\133\062\142\217\077", -385452 + 15720060426972)],
-				tabi_l1l1lIl11Il.lIlI11I1[(tabi_Ill1lIl11Il .. "\108\049\049\049\049\073\108")("\085\252\109\048\067\022\142\085\222\215\112\236\250\070\188\104\226\026\192\162", -951549 + 29988377784853)],
-				tabi_l1l1lIl11Il.lll111l[(tabi_Ill1lIl11Il .. "\073\049\108\108\108\049\073\049")("\113\006\236\238\144\069\100\161\191\064\094\v\180\245\017\231", 1026368 + 34010735432314)],
-				tabi_l1l1lIl11Il.lIl1lll1[(tabi_Ill1lIl11Il .. "\073\049\049\073\108")("\022\053\065\252\192\183\218\205\109\088\239\241\017\038\163\242\168\156\208\238", 904252 + 18474290968313)],
-				tabi_l1l1lIl11Il.llII1I1l[(tabi_Ill1lIl11Il .. "\073\049\073\049\073\073\108")("\168\218\233\133\250\141\035\077\079\252\237\181\106\135\163\054", 366635 + 33895842210596)],
-				tabi_l1l1lIl11Il.I1lII1Il[(tabi_Ill1lIl11Il .. "\073\049\108\108\049\073\108")("\228\099\122\"\206\148\020\121\068\167\229\203\n\186\060\198", 12462227194015 - (-732343))],
-				tabi_l1l1lIl11Il.l1IlIll[(tabi_Ill1lIl11Il .. "\108\108\073\073\108\049\108\049")("\237\001\216\192\213\001\071\162\217\089\b\242\230\033\044\166\185\183\228\169", -967870 + 14963049921325)],
-				tabi_l1l1lIl11Il.Ill1lI11[(tabi_Ill1lIl11Il .. "\073\073\108\108\049\108\108")("\051\020\080\149\113\148\123\063\021\018\250\205\094\150\139\022", 31621588814467 - 825210)],
-				tabi_l1l1lIl11Il.I11Illl1[(tabi_Ill1lIl11Il .. "\073\073\108\073\073\049\108\049")("\074\'\196\025\177\211\073\083\057\036\153\100\082\245\189\210", 627251 + 23429760992009)],
-				tabi_l1l1lIl11Il.lI1IIlll[(tabi_Ill1lIl11Il .. "\108\073\073\049\108\049")("\217\241\242-\142\153\254\195\144\151\r\120\b\021\250\208\156\031\161\025\220\111\223\163\189\056\040\092", 957886 + 19664033163723)],
-				tabi_l1l1lIl11Il.IlIIl11[(tabi_Ill1lIl11Il .. "\073\049\073\073\073\108\049\108")("\200\204\099\163\038\129\248\175", -474863 + 18454964404754)],
-				tabi_l1l1lIl11Il.lIlll1Il[(tabi_Ill1lIl11Il .. "\108\073\108\049\049\108\108")("\068\146\113\006\077\070\101\087", -525552 + 17943847749175)],
-				tabi_l1l1lIl11Il.lIIII11l[(tabi_Ill1lIl11Il .. "\108\049\073\049\073\073\073\049")("\171\209\012\241\028\205\029\133\105~\065\252\054\231\024\093", 33729407455890 - (-59426))],
-				tabi_l1l1lIl11Il.lI11Ill1[(tabi_Ill1lIl11Il .. "\108\108\049\049\049\049\049\108")("\074\073\073\249\165\213\145\124\075\221\189\067", 361643 + 26060509010467)],
-				tabi_l1l1lIl11Il.I1IIl1[(tabi_Ill1lIl11Il .. "\108\108\073\049\073\049\073\108")("\006\150\"\197", -492463 + 16919466754364)],
-				tabi_l1l1lIl11Il.llIlI1[(tabi_Ill1lIl11Il .. "\108\049\108\073\049")("\148\198\b\"\149\033\036\059\049\248\207\235", 837882 + 3191257252514)],
-				tabi_l1l1lIl11Il.lIIl1I1[(tabi_Ill1lIl11Il .. "\108\073\108\073\073\073\108\049")("\017\086\085\057\237\155\254\180", 64426138066 - (-337514))],
-				tabi_l1l1lIl11Il.ll1lIl1[(tabi_Ill1lIl11Il .. "\108\108\108\049\108")("\076\237\222\012\067\176\012\102", -127140 + 29933614456201)],
-				tabi_l1l1lIl11Il.I1II1lIl[(tabi_Ill1lIl11Il .. "\108\108\073\049\049\073\108")("\162\049\095\135\209\122\184\025\210\074\184\r\251\025\110\118\107\073\115\152\038\081\098\082\199\162\118\170\185\073\048\018", 22677045270548 - (-359019))],
-				tabi_l1l1lIl11Il.lllI111[(tabi_Ill1lIl11Il .. "\073\073\049\073\108\073\049\108")("\063\003\046\243\193\205\058\075", 16872221073949 - 894140)],
-				tabi_l1l1lIl11Il.I11IIIl1[(tabi_Ill1lIl11Il .. "\108\049\049\073\049")("\164\026\033\154\061\131\030\141\070\069\247\078", -236903 + 3941826767806)],
-				tabi_l1l1lIl11Il.I1l11lll[(tabi_Ill1lIl11Il .. "\108\073\049\049\049\073\049\049")("\143\135\028\113\169\123\239\020", 33143127591185 - 1003647)],
-				tabi_l1l1lIl11Il.I1III1l[(tabi_Ill1lIl11Il .. "\073\108\049\108\073\073\049\049")("\042\219\129\173\021\033\005\003", 12296865641789 - (-997247))],
-				tabi_l1l1lIl11Il.Il1IIll[(tabi_Ill1lIl11Il .. "\108\108\049\073\108\108\049\108")("\113\080\231\055\054\079\002\242", 24498166937075 - (-402220))],
-				tabi_l1l1lIl11Il.ll11IlI1[(tabi_Ill1lIl11Il .. "\108\108\073\108\108\108\108\108")("\085\159\116\204\110\222\028\074\087\199\072\230\237\015\128\231\178\217\063\229\024\216\140\133", 23361039135552 - (-909756))],
-				tabi_l1l1lIl11Il.lI1llIl1[(tabi_Ill1lIl11Il .. "\108\049\049\049\073\108\049\108")("\120\122\248\248\138\130\228\048\104\240\252\128\058\133\027\196", -644916 + 3094619021942)],
-				tabi_l1l1lIl11Il.ll1IIl1l[(tabi_Ill1lIl11Il .. "\108\073\049\073\073\108\108")("\001\165\099\190\103\149\244\179\035\194\119\101\253\111\217\147\090\080\065\213", 9907718321392 - 151781)],
-				tabi_l1l1lIl11Il.Il1llII1[(tabi_Ill1lIl11Il .. "\073\073\049\108\073\108\108")("\084\065\090\245\224\104\124\185\206\236\115\061\038\173\190\141", -961470 + 16307415705361)],
-				tabi_l1l1lIl11Il.Il11Ill[(tabi_Ill1lIl11Il .. "\073\049\108\073\073\108\108\108")("\080\109\097\b\182\147\055\143", 22891799969749 - (-578418))],
-				tabi_l1l1lIl11Il.Ill1I1[(tabi_Ill1lIl11Il .. "\073\073\108\108\073\073\049\049")("\132\238\222\184\030\155\061\154\059\202\212\101\251\056\118\086", 530480 + 11530191049154)],
-				tabi_l1l1lIl11Il.ll1lIIl1[(tabi_Ill1lIl11Il .. "\073\108\108\073\049\108\108\108")("\064\031\230\221\129\084\240\177", 190502 + 27085963917923)],
-				tabi_l1l1lIl11Il.lllIlIll[(tabi_Ill1lIl11Il .. "\073\049\073\049\073\073\049\108")("\111\019\142\171\001\097\156\194\241\180~\141\158\017\087\230", 33654244242923 - 949117)],
-				tabi_l1l1lIl11Il.llII1Ill[(tabi_Ill1lIl11Il .. "\073\049\108\108\073\108\049")("\020\031\097\002\113\146\104\079", 19636115984079 - 1888)],
-				tabi_l1l1lIl11Il.IlI11lIl[(tabi_Ill1lIl11Il .. "\108\049\108\073\049\049\108")("\143\171\058\015", -615347 + 23448016402688)],
-				tabi_l1l1lIl11Il.lII111Il[(tabi_Ill1lIl11Il .. "\108\049\049\108\049\108\049")("\208\216\197\227\207\255\047\135\205\095\184\153\164~\098\117", -917052 + 31958754128511)],
-				tabi_l1l1lIl11Il.IIlllll[(tabi_Ill1lIl11Il .. "\073\073\049\049\049\049\108\108")("\073\143\101\184", 2233452158943 - 1005503)],
-				tabi_l1l1lIl11Il.l1IIIl1[(tabi_Ill1lIl11Il .. "\108\073\049\073\073\108")("\029\046\002\108\v\048\"\127\201\154\197\036\038\208\237\142\132\115\221~", -329962 + 25006063051746)],
-				tabi_l1l1lIl11Il.ll1I11l1[(tabi_Ill1lIl11Il .. "\073\073\049\108\049\108\108")("\059\175\118\236\055\069\028\a", 271784 + 23386810363756)],
-				tabi_l1l1lIl11Il.llllI1ll[(tabi_Ill1lIl11Il .. "\073\108\049\073\073\073\073\049")("\104\068\249\036\025\057\136\086\253\055\112\088\158\064\143\031\057\095\166\056\212\075\212\033", 915772 + 32165990792136)],
-				tabi_l1l1lIl11Il.l1llll[(tabi_Ill1lIl11Il .. "\108\049\049\108\073\049\049")("\251\104\051\232\042\224\021\073\054\123\122\243\202\102\251\057\026\168\026\165", -614899 + 32941257578953)],
-				tabi_l1l1lIl11Il.IlllII11[(tabi_Ill1lIl11Il .. "\108\049\049\073\073\049\049")("\239\170\n\n\095\091\188\198", 26159296198524 - (-436142))],
-				tabi_l1l1lIl11Il.l11l111[(tabi_Ill1lIl11Il .. "\108\108\049\108\108\049\049\108")("\101\170\217\197\072\001\021\001\154\248\235 ", -289705 + 22750062591596)],
-				tabi_l1l1lIl11Il.IIIl1lIl[(tabi_Ill1lIl11Il .. "\073\108\108\108\108\073\049")("\149\247\178\234\077\179\022\233", 22106870836541 - (-484143))],
-				tabi_l1l1lIl11Il.IlIllI1[(tabi_Ill1lIl11Il .. "\108\073\073\049\073\049\108\108")("\216\117\001\101\223\240\255\151\190\068\122\086\092\234\047\252", -140260 + 3987998978662)],
-				tabi_l1l1lIl11Il.l11II1l1[(tabi_Ill1lIl11Il .. "\108\049\049\108\073\108\049\049")("\069\058\065\168\156\144\137\209\252\135\083\095\252\085\211\023", 12577122246255 - 438446)],
-				tabi_l1l1lIl11Il.llIllI11[(tabi_Ill1lIl11Il .. "\073\049\049")("\170\163\005\108\118\026\059\216\120\208\041\029", 740535 + 2046613633723)],
-			} }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				tabi_Il1llIl11Il.Ill1lI1 = tabi_l11llIl11Il;
-			end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				return tabi_Il1llIl11Il.Ill1lI1;
+	local tabi_II1I1IIlII = tabi_l1lI1IIlII({ IIllllll = {
+				(tabi_l11I1IIlII / "\108\049\108\108\049\073\108")[(tabi_I11I1IIlII / "\108\049\108\108\108\073\073\108")("\178\231\179\029\111\064\059\146\115\a\123\043\000\066\157\199\v\217\164\087\159\059\051\134", 28065 + 3759284822028)],
+				(tabi_l11I1IIlII / "\073\108\073\049\073\108\073\049")[(tabi_I11I1IIlII / "\108\108\073\049\049\108\108")("\178\147\203\204-\072\125\125", 593202 + 34733386166569)],
+				(tabi_l11I1IIlII / "\108\108\073\108\073\073\073\108")[(tabi_I11I1IIlII / "\073\108\049\049\049\073\049")("\152\084\174\086\004\146\100\165\022\000\037\035", 313542133379 - (-47777))],
+				(tabi_l11I1IIlII / "\073\073\049\108\108\049\049")[(tabi_I11I1IIlII / "\073\073\108\073\073\049")("\023\198\055\255\176\078\215\165\113\200\125\029\061\254\037\026", 871355 + 23984902212486)],
+				(tabi_l11I1IIlII / "\108\108\049\049\108\108\108\108")[(tabi_I11I1IIlII / "\108\073\108\049\108\108\108")("\241\176\245\124\072\070\029\109\120\101\123\182\204\031\033\091\246\128\229\191\134\174\124\179\170\025\223\078\091\100\193\194\036\120\081\160", 27128914123187 - (-968958))],
+				(tabi_l11I1IIlII / "\108\049\073\108\049\108\073\108")[(tabi_I11I1IIlII / "\073\049\108\073\049\073\049\049")("\052\238\022\170\178\062\040\183", 25148875090280 - 347627)],
+				(tabi_l11I1IIlII / "\108\049\108\049\049\108\108\108")[(tabi_I11I1IIlII / "\073\049\073\049\049\073\073\108")("\079\107\157\220\044\222\r\135\158\133\122\120\079\212\106\056\216\027\218\167\068\061\161\234", 7840 + 5071437394899)],
+				(tabi_l11I1IIlII / "\073\049\073\049\108\073\049\049")[(tabi_I11I1IIlII / "\073\073\073\108\049\108")("\209\150\'\019\246\231\092\197\110\136\029\183\231\022\162\029", 31187783718442 - 664757)],
+				(tabi_l11I1IIlII / "\073\049\073\049\108\049\049")[(tabi_I11I1IIlII / "\108\049\108\049\108\049")("\255\163\029\193\073\022\184\123\151\249\103\159\197\213\231\050\086\174\025\212", -887420 + 22251831778159)],
+				(tabi_l11I1IIlII / "\073\049\049\108\108\049\073\049")[(tabi_I11I1IIlII / "\108\073\073\108\049")("\041\131\023\017\036\078\044\233", 27590637293860 - (-873275))],
+				(tabi_l11I1IIlII / "\108\108\108\049\049\108\073\049")[(tabi_I11I1IIlII / "\108\049\073\073\073\049\073\108")("\157\121\255\245\160\248\197\050\158\'\076\097", 956606 + 25862933890392)],
+				(tabi_l11I1IIlII / "\073\108\073\073\073\108\073\049")[(tabi_I11I1IIlII / "\073\049\073\108\049\049\073\108")("\087\120\044\232\029\116\150\189\156\233\081\215", -3296 + 15374304625870)],
+				(tabi_l11I1IIlII / "\108\049\073\049\073\108\108\108")[(tabi_I11I1IIlII / "\108\073\049\108\073\049\049\108")("\065\152\186\191\183\217\204\234\130\033\173\161\001\193\058\215\218\"\074\193\135\200\129\105", -276393 + 29860597933130)],
+				(tabi_l11I1IIlII / "\108\108\049\108\108\049\108\049")[(tabi_I11I1IIlII / "\108\073\049\049\108\108\073\108")("\133\218\225\195\087\221\228\227\163\a\002\023", -927421 + 622790191361)],
+				(tabi_l11I1IIlII / "\073\049\073\073\108\108\108\108")[(tabi_I11I1IIlII / "\108\049\049\073\108\108")("\060\b\153\248\162\225\092\094\128\210\020\178\047\185\164\061", -440238 + 32665297333891)],
+				(tabi_l11I1IIlII / "\073\049\049\049\049\108\049\108")[(tabi_I11I1IIlII / "\108\073\108\049\108\049\073\108")("\113\017\114\172\022\185\000\188", 19415992647184 - 456558)],
+				(tabi_l11I1IIlII / "\073\049")[(tabi_I11I1IIlII / "\108\049\108\108\108\108\073\049")("\091\233\205\078\160\238\089\178", 10149317472397 - 19361)],
+				(tabi_l11I1IIlII / "\073\108\049\073\108\049\073\108")[(tabi_I11I1IIlII / "\108\073\108\049\108\073\073\108")("\238\166\232\090\043\211\046\041\116\161\040\144", 25957427716580 - 705398)],
+				(tabi_l11I1IIlII / "\073\073\049\073\073\073\073\108")[(tabi_I11I1IIlII / "\073\108\108\073\073\108\049\108")("\117\173\112\075\084\t\110\087\046\221\183\108\233\234\244\157\074\228\222\159\154\038\235\230\035\227\216\175\218\201\221\094", 16626325155912 - (-642100))],
+				(tabi_l11I1IIlII / "\108\049\108\049\049\073\108")[(tabi_I11I1IIlII / "\108\049\108\108\049\108")("\160\189\161\071\238\218\220\056\022\105\149\161\122\197\157\236\049\149\111\170", 11957553841695 - (-25953))],
+				(tabi_l11I1IIlII / "\108\108\049\108\049\108\073\049")[(tabi_I11I1IIlII / "\073\073\049\049\049")("\168\198\211\144\180\181~\106\067\138\240\078", 914428 + 2222712493082)],
+				(tabi_l11I1IIlII / "\073\073\108\073\073\108\049")[(tabi_I11I1IIlII / "\108\108\073\108\073\049\108\108")("\170\108\122\230\098\087\182\112\188\150\184\065\109\151\031\220", 28005115902296 - 742263)],
+				(tabi_l11I1IIlII / "\073\073\073\073\073\073\049")[(tabi_I11I1IIlII / "\108\108\073\073\108\049\108\108")("\152\019\255\116\119\105\046\106\237\t\099\250\025\110\077\235", 26540487481096 - 865915)],
+				(tabi_l11I1IIlII / "\108\073\108\108\073\049\108")[(tabi_I11I1IIlII / "\073\108\049\073\049\073\073\049")("\252\100\"\146\208\121\096\077\047\036\103\018\092\137\178\154", -486639 + 11085649384771)],
+				(tabi_l11I1IIlII / "\073\049\108\073\049\108\049")[(tabi_I11I1IIlII / "\073\073\073\108\049")("\225\252\119\091", -1033024 + 3792572895500)],
+				(tabi_l11I1IIlII / "\108\073\049\108\108\073\049")[(tabi_I11I1IIlII / "\073\073\108\049\049\108\108\049")("\004\224\151\069\023\081\031\233", 78882 + 16056151410247)],
+				(tabi_l11I1IIlII / "\108\049\073\049\108\073\108\049")[(tabi_I11I1IIlII / "\073\108\073\049\108\108\108")("\155\235\051\142\093\150~\085", 9674708179382 - (-903548))],
+				(tabi_l11I1IIlII / "\108\049\049\108\108\108\049\108")[(tabi_I11I1IIlII / "\073\049\073\108\108\073\108\108")("\095\016\054\108\105\237\244\155\071\056\162\186\110\174\228\210\058\020\242\099", -880059 + 20868810095014)],
+				(tabi_l11I1IIlII / "\108\108\073\108\049\049\073\049")[(tabi_I11I1IIlII / "\073\049\073\049\073\049\108\049")("\140\191\072\212\178\074\171\181\n\242\222\103", 25211153875165 - 206118)],
+				(tabi_l11I1IIlII / "\108\049\108\049")[(tabi_I11I1IIlII / "\073\073\108\073\108\108\108")("\071\249\014\n\189\038\024\253", -545969 + 14532465887631)],
+				(tabi_l11I1IIlII / "\108\049\049\049\049\049")[(tabi_I11I1IIlII / "\108\108\108\049\108\073\049")("\024\148\214\108\093\077\141\237\208\222\035\055\119\092\093\195", 273064 + 25415170568653)],
+				(tabi_l11I1IIlII / "\073\049\108\108\049\049\108\108")[(tabi_I11I1IIlII / "\073\049\049\073\108\108\073\049")("\116\235\033\116\144\060\087\100\174\186\253\187\121\235\091\208\244\110\020\186\t\094\123\060\146\088\097\004\114\173\v\120", 10573457534716 - (-882555))],
+				(tabi_l11I1IIlII / "\073\108\108\049\049\073\049\049")[(tabi_I11I1IIlII / "\108\049\108\108\073\073\108\049")("\218\148\111\235\052\026\173\191\087\210\a\078\160\064\105\211", 15477386163157 - (-820345))],
+				(tabi_l11I1IIlII / "\073\049\049\108\108\108\108\049")[(tabi_I11I1IIlII / "\108\049\108\049\049")("\162\145\076\t\222\229\209\168\072\033\134\115\209\103\118\206", -884027 + 25468860455394)],
+				(tabi_l11I1IIlII / "\073\073\049\049\108\108\073\049")[(tabi_I11I1IIlII / "\073\049\073\049\108\049\108")("\025\116\t\251\102\226\119\001\096\125\191\036\151\113\n\201", -660084 + 10362999257127)],
+				(tabi_l11I1IIlII / "\108\049\073\108\073\073\108\049")[(tabi_I11I1IIlII / "\073\073\108\108\049\073\108\049")("\145\053\119\169\191\155\123\075", 8027539083483 - 226215)],
+				(tabi_l11I1IIlII / "\073\108\049\108\049\073\108\108")[(tabi_I11I1IIlII / "\108\108\049\049\108\073\108\049")("\201\062\030\242\097\232\081\059\075\164\214\037\238\165\185\041", -426861 + 8777033950043)],
+				(tabi_l11I1IIlII / "\073\108\049\049\108\108")[(tabi_I11I1IIlII / "\108\073\073\049\049\073\108\049")("\186\105\233\020\069\198\t\098\252\176\171\099", 33120578304571 - 983486)],
+				(tabi_l11I1IIlII / "\073\049\049\049\108\073\108")[(tabi_I11I1IIlII / "\073\108\108\108\073\108\108\049")("\019\122\058\019\070\216\142\090\160\229\103\121", -662581 + 15202501350275)],
+				(tabi_l11I1IIlII / "\108\073\108\108\073\108\049\108")[(tabi_I11I1IIlII / "\073\108\049\073\073\108\049\049")("\188\'\253\056\224\052\076\056\204\122\137\222\150\088\111\020\147\214\087\183\104\071\054\031\170\226\231\083\128\100\048\003\098\131\255\159", 9152854155997 - (-474735))],
+				(tabi_l11I1IIlII / "\108\073\049\073\108\073\049\049")[(tabi_I11I1IIlII / "\073\049\073\073\049\049\108\108")("\124\125\175\076\157\197\004\195\237\251\237\255\015\252\038\050", 13241788985122 - 704246)],
+				(tabi_l11I1IIlII / "\108\073\108\108\073\073\073\049")[(tabi_I11I1IIlII / "\108\108\073\108\073\049")("\128\224\191\030\103\075\090\a\164\127\090\200\212\132\150\214\127\006\'\159", 259304 + 7818152552329)],
+				(tabi_l11I1IIlII / "\073\073\073\073\049\073\049\049")[(tabi_I11I1IIlII / "\108\108\049\108\049\073\108\049")("\139\077\165\180\206\085\172\040\043\015\121\102\006\049\131\203\030\106\136\091\228\048\035\157", 21616155902070 - (-429613))],
+				(tabi_l11I1IIlII / "\073\073\049\108\073\108\073\108")[(tabi_I11I1IIlII / "\073\049\049\108\049\073\049\049")("\134\092\192\027\084\171\222\135", 21433613749885 - (-900988))],
+				(tabi_l11I1IIlII / "\108\108\073\049\073\073\073\049")[(tabi_I11I1IIlII / "\073\073\108\108\108\073\073\108")("\179\041\124\096\b\209\060\241~\219\037\138\182\175\052\085", -1019904 + 25678246636906)],
+				(tabi_l11I1IIlII / "\073\049\049\108\049\073\073\108")[(tabi_I11I1IIlII / "\108\073\049\073\049\108\108")("\153\137\112 \116\097\214\237\115\212\049\078\243\086\195\057", 24517495923045 - 641076)],
+				(tabi_l11I1IIlII / "\108\049\108\049\073\049\073\108")[(tabi_I11I1IIlII / "\073\108\049\073\073\049\049\108")("\075\061\225\172\115\252\023\190\240\200\067\232", 81507 + 13258968592857)],
+				(tabi_l11I1IIlII / "\108\108\049\108\073\073\049\108")[(tabi_I11I1IIlII / "\108\108\073\073\073\073\049\108")("\205\206\054\224\255\087\177\130\144\159\088\021\030\043\079\236\148\201\074\201", -876347 + 13719618851108)],
+				(tabi_l11I1IIlII / "\108\108\073\108\049\073\049\049")[(tabi_I11I1IIlII / "\073\073\073\049\073\049\108")("\057\147\178\245\a\180\003\223\190\093\076\084\"\059\049\087", 10626073299334 - (-72994))],
+				(tabi_l11I1IIlII / "\108\049\073\049\049\108\073\108")[(tabi_I11I1IIlII / "\108\073\108\049\073\073\073\108")("\r\167\211\029\156\176\066\093", 30932224942190 - 241639)],
+				(tabi_l11I1IIlII / "\073\073\049\108\049\073\049")[(tabi_I11I1IIlII / "\108\108\049\108\049\108\049")("\102\237\248\053\211\153\097\197\184-\146\167\200\241\149\229", 7222207603740 - (-308778))],
+				(tabi_l11I1IIlII / "\108\073\108\073\073\049\073\049")[(tabi_I11I1IIlII / "\108\073\073\073\108\049\073\108")("\237\149\031\248\213\110\170\b", 19763895782617 - 623859)],
+				(tabi_l11I1IIlII / "\073\073\108\073\108\073\049\049")[(tabi_I11I1IIlII / "\108\049\108\073\073\073\108")("\027\091\120\153\073\234\025\081\220\146\095\111\214\244\081\127", -300457 + 16386874364230)],
+				(tabi_l11I1IIlII / "\108\073\049\073\049\049\108\108")[(tabi_I11I1IIlII / "\073\108\073\049\073\108\073\049")("\116\209\188\109\063\012\205\235\093\215\186\251\149\243\157\254\019\088\020\206\147\250\245\071", 14055708562471 - (-859899))],
+				(tabi_l11I1IIlII / "\108\049\108\073\049\049\108\049")[(tabi_I11I1IIlII / "\108\073\108\108\108\049\108\108")("\020\089\115\193\210\102\140\043\240\060\210\020\089\018\078\236", 16292381363604 - (-535985))],
+				(tabi_l11I1IIlII / "\108\073\073\073\108\108\073\049")[(tabi_I11I1IIlII / "\108\049\108\073\108\073\049\108")("\v\n\174\156\115\031\099\v", 139876 + 27134283825234)],
+				(tabi_l11I1IIlII / "\108\049\073\049\073\049\108")[(tabi_I11I1IIlII / "\108\049\108\049\108\049\049")("\128\020\049\054\102\087\047\066\029\125\031\000", 886971 + 20073141354571)],
+				(tabi_l11I1IIlII / "\073\073\049\049\073\049\049\108")[(tabi_I11I1IIlII / "\108\049\073\049\108\049\049")("\080\133\v\079\205\211\048\224\006\176\105\155\012\252\100\209", 842554 + 29577120321631)],
+				(tabi_l11I1IIlII / "\108\073\049\049\049\108")[(tabi_I11I1IIlII / "\073\108\049\108\108\073\049\049")("\064\125\179\134", -653108 + 281329596474)],
+				(tabi_l11I1IIlII / "\073\108\073\073\108\049\073\049")[(tabi_I11I1IIlII / "\073\049\073\073\108\108\073\049")("\229\103\044\004\193\046\017\244\237\094\059\042\207\221\229\020\184\076\191\050\058\129\191\104", -560113 + 4466902866993)],
+				(tabi_l11I1IIlII / "\108\049\108\073\073\108\049\049")[(tabi_I11I1IIlII / "\073\108\073\049\049\073\049\049")("\006\114\191\040\002\037\176\128", 26181846452784 - 551665)],
+				(tabi_l11I1IIlII / "\073\049\049\073\049\073\108\108")[(tabi_I11I1IIlII / "\108\073\073\049\073\108\073\108")("\204\103\000\131\003\122\012\223\038\068\255\044\b\044\228\238\018\161\238\004\101\090\209\245", -147429 + 33721891240594)],
+				(tabi_l11I1IIlII / "\108\073\049\108\049\049\108\049")[(tabi_I11I1IIlII / "\073\108\108\108\108\073\049")("\001\233\190\071\017\186\112\247\230\233\176\079", 23044276382256 - (-158117))],
+				(tabi_l11I1IIlII / "\108\049\073\073\108\049")[(tabi_I11I1IIlII / "\108\049\108\049\073\108")("\125\067\137\175\071\188\160\220\077\239\062\090\037\167\142\101", 15377525879439 - (-66914))],
+				(tabi_l11I1IIlII / "\108\049\049\073\108\108\108\049")[(tabi_I11I1IIlII / "\073\108\073\049\108\108\073\108")("\188~\a\r\208\218\173\146\112\165\060\100\188\041\"\051", 636596 + 10737745293404)],
+				(tabi_l11I1IIlII / "\073\073\108\108\049\049\049\108")[(tabi_I11I1IIlII / "\108\049\108\108\073\073\073\049")("\098\072\160\'\085\101\132\248\067\221\218\104", 1031872 + 2421360675343)],
+				(tabi_l11I1IIlII / "\073\049\073\108\049")[(tabi_I11I1IIlII / "\073\073\108\049\049\049\108\108")("\135\243\098\064\157\080\155\241", 651252 + 4931846054397)],
+				(tabi_l11I1IIlII / "\108\108\073\073\049\049\108")[(tabi_I11I1IIlII / "\073\049\073\049\073\073\108\108")("\184\023\107\073~\136\238\120\064\241\129\243", 724086 + 33087289584616)],
+				(tabi_l11I1IIlII / "\073\108\108\073\073\049\073\108")[(tabi_I11I1IIlII / "\073\073\073\073\049\049\108")("\224\097\103\190\a\234\144\229", 24405822373662 - (-350635))],
+				(tabi_l11I1IIlII / "\073\049\073\073\073\049\108\049")[(tabi_I11I1IIlII / "\073\108\108\049\108\073\049")("\251\106\121\060\166\001\097\244", 35297 + 31029938153217)],
+				(tabi_l11I1IIlII / "\108\108\049\049\108\049\073\049")[(tabi_I11I1IIlII / "\108\108\073\073\073\049\049")("\095\225\230\240\016\222\r\211\232\204\138\029\123\145\154\100\181\170\031\204\170-\125\108", -230183 + 26179698582116)],
+				(tabi_l11I1IIlII / "\073\049\108\108\108\073\108\049")[(tabi_I11I1IIlII / "\073\073\108\049\049")("\087\193\037\133\252\022\060\127\104\142\017\185\037\044\192\220\003\187\109\116", -673909 + 2245263347872)],
+				(tabi_l11I1IIlII / "\073\073\108\073\073\073\049\049")[(tabi_I11I1IIlII / "\073\073\049\049\073\049\073\049")("\019\137\205\252\132\196\186\140\098\072\090\020\120\130\170\174", 11426034426129 - (-1017984))],
+				(tabi_l11I1IIlII / "\073\073\108\108\108\049\108\049")[(tabi_I11I1IIlII / "\108\108\108\049\073\073\049\108")("\201\038\087\151\122\134\143\097", 19861608508317 - (-138404))],
+				(tabi_l11I1IIlII / "\108\108\049\108\108\073\049\108")[(tabi_I11I1IIlII / "\073\049\073\073\049\073\073\108")("\111\131\038\196\139\100\202\094\050\228\246\063\199\242\195\084", 8031833598157 - (-357483))],
+				(tabi_l11I1IIlII / "\108\049\073\073\108\049\073\108")[(tabi_I11I1IIlII / "\108\073\073\108\073\049\049")("\220\a\213\094\096\142\232\062\066\114\163\186\176\099\227\102\187\227\003\237\071\115\190 ", 8292760473973 - (-707766))],
+				(tabi_l11I1IIlII / "\108\049\049\049\049\108\073\108")[(tabi_I11I1IIlII / "\108\108\049\049\049\049\108\108")("\043\158\001\198\026\073\228\237\102\171\016\244", 9615651031437 - (-448878))],
+				(tabi_l11I1IIlII / "\073\049\108\108\049\108")[(tabi_I11I1IIlII / "\073\049\073\049\073\049\108\049")("\083\181\028\163\063\046\076\083\048\066\192\082\100\041\149\144", 10999746026376 - (-904316))],
+				(tabi_l11I1IIlII / "\073\108\073\108\108\049\108\108")[(tabi_I11I1IIlII / "\073\049\049\049\073\073\073\108")("\139\064\195\200\037\215\219\115", 792121 + 8571941783798)],
+				(tabi_l11I1IIlII / "\073\073\049\049\108\049\108")[(tabi_I11I1IIlII / "\073\073\108\073\073\049\108\049")("\199\116\181\192\049\173\187\064", 10110662280382 - 712694)],
+				(tabi_l11I1IIlII / "\108\073\073\049\073\108\049\108")[(tabi_I11I1IIlII / "\073\108\049\108\073\049\108\049")("\192\033\054-\209\234\190\119\148\182\123\224\128\142\158\069\002\146\210\241", -951293 + 6831354911959)],
+				(tabi_l11I1IIlII / "\073\073\049\073\049\073\049\108")[(tabi_I11I1IIlII / "\073\108\049\049\073\073\049\108")("\129\161\154\237\170\236\203\251\194\234\063\064", -380076 + 7558299740203)],
+				(tabi_l11I1IIlII / "\108\108\073\073\049\108\073\049")[(tabi_I11I1IIlII / "\108\073\049\073\049\073\108")("\075\033\024\019\029\077\255\168\211\109\065\012\004\012\108\003", 22241 + 30428624394193)],
+				(tabi_l11I1IIlII / "\073\049\108\108\049\049")[(tabi_I11I1IIlII / "\108\073\073\108\073\108\049")("\037\226\n\061\029\065\081\124\243\092\071\073\054\179\105\095\044\201\117\105", 16671425238306 - 907388)],
+				(tabi_l11I1IIlII / "\073\073\073\049\073\073\049")[(tabi_I11I1IIlII / "\108\073\073\073\049\049\073\108")("\119\127\054\229\018\002\084\127\121\162\106\157\097\093\134\232", 13562845928281 - (-955902))],
+				(tabi_l11I1IIlII / "\108\073\108\049\073\108\073\108")[(tabi_I11I1IIlII / "\108\108\073\073\049\108\108\108")("\200\004\078\078\236\235 \160\190\066\083\175\016\215\069\111\190\160\028\109", 828474 + 24202878497746)],
+				(tabi_l11I1IIlII / "\108\108\073\108\049\073\108\108")[(tabi_I11I1IIlII / "\073\108\073\108\108\108\108")("\192\213\070\027", 863931 + 14367103190409)],
+				(tabi_l11I1IIlII / "\108\049\073\049\049\049\108\049")[(tabi_I11I1IIlII / "\108\073\073\108\108\073\073\108")("\236\224\208\228\145\152\110\053", 136036 + 22681340591903)],
+				(tabi_l11I1IIlII / "\073\073\073\073\049\073\108")[(tabi_I11I1IIlII / "\108\108\073\049\073\073\073\108")("\195\014\117\083\166\044\135\069\192\106\217\036\186\215\223\065\239\000\092\239", 768312 + 14087921891848)],
+				(tabi_l11I1IIlII / "\073\049\073\108\049\073\108\108")[(tabi_I11I1IIlII / "\108\049\049\073\108\073\049\049")("\036\244\191\255\212\059\161\174\103\132\070\185\089\182\154\123", 9357946436550 - 858555)],
+				(tabi_l11I1IIlII / "\108\073\073\108\108\049\108\108")[(tabi_I11I1IIlII / "\108\073\108\073\073\108\073\108")("\242\098\111\132\224\044\190\012\136\091\106\179\063\049\033\132\152\096\151\177", 940285 + 6689614774105)],
+				(tabi_l11I1IIlII / "\073\073\073\049\049\049\049\108")[(tabi_I11I1IIlII / "\108\108\108\049\049\108\073\049")("\002\157\198\119\104\147\239\018", -191462 + 20996588582984)],
+				(tabi_l11I1IIlII / "\108\049\073\073\108\108\108\049")[(tabi_I11I1IIlII / "\073\108\049\049\049\049\108\049")("\025\093\035\234~\157\v~", 4023434318687 - 918716)],
+				(tabi_l11I1IIlII / "\073\049\073\073\108\049")[(tabi_I11I1IIlII / "\073\108\073\049\049\073\049\049")("\056\094\227\208\071\106\200\"\148\175\225\239", 865461458347 - (-863611))],
+				(tabi_l11I1IIlII / "\073\073\049\108\049\049\073\049")[(tabi_I11I1IIlII / "\108\049\108\073\049\108\073\049")("\074\095\031\162\020\114\134\137", -429869 + 13322321805220)],
+				(tabi_l11I1IIlII / "\073\049\108\108\108\049\108\049")[(tabi_I11I1IIlII / "\108\073\073\049\073\073\049\108")("\155\213\186\236\057\236\169\082\170\229\194\163", 4922183335195 - 600883)],
+				(tabi_l11I1IIlII / "\073\073\049\049\073\049\108")[(tabi_I11I1IIlII / "\108\049\049\073\108\108")("\093\095\005\189\118\252\160\108\078\188\167\105", -128868 + 22983071517440)],
+				(tabi_l11I1IIlII / "\073\073\049\049\108\073\073\108")[(tabi_I11I1IIlII / "\108\108\108\108\108\049\049\108")("\040\250\219\105\077\218\000\099\240\154\014\125\091\083\241\172\t\028\155\243", 14803056318515 - (-220583))],
+				(tabi_l11I1IIlII / "\073\108\108\049\073\108\073\049")[(tabi_I11I1IIlII / "\108\073\108\108\073\073\108\108")("\021\241\052\190\b\196\090\206\043\194\245\113\137\091\018\020\080\116\166\119", 21102892847933 - 771704)],
+				(tabi_l11I1IIlII / "\073\108\073\108\108\049\108")[(tabi_I11I1IIlII / "\073\049\108\073\108\049\073\049")("\097\237\136\211\139\183\214\061\089\033\005\019\246\229\002\179\078\109\042\114\075\112\124\101", 542641 + 31893252418645)],
+				(tabi_l11I1IIlII / "\108\073\108\073\049\073\073\049")[(tabi_I11I1IIlII / "\073\049\108\049\049")("\246\020\208\189", 81571 + 3138643053768)],
+				(tabi_l11I1IIlII / "\108\073\108\049\049\049\049\108")[(tabi_I11I1IIlII / "\073\049\049\108\108\049\108\049")("\234\236\023\124\120\158\233\184\250\094\125\251\169\002\197\215", -333802 + 29191636419100)],
+				(tabi_l11I1IIlII / "\108\108\108\073\049\073\049")[(tabi_I11I1IIlII / "\073\073\049\073\049\073\049\108")("\173\153\254\057\178\212\'\095\210\t\115\091\123\015\195\142\033\152\148\111\225\r\123\134", 15847839677653 - 459566)],
+				(tabi_l11I1IIlII / "\108\108\049\049\073\108\108\049")[(tabi_I11I1IIlII / "\073\049\049\108\108\073\073\108")("\137\225\070\242\168\164\236\035\111\111\059\140\000\132\211\205", 15350682062919 - 481391)],
+				(tabi_l11I1IIlII / "\108\108\049\108\108\108\073\049")[(tabi_I11I1IIlII / "\108\049\049\073\108\049\049")("\204\099\029\199\150\189\235\182\075\157\208\019\100\207\097\182", 772664 + 10936393457041)],
+				(tabi_l11I1IIlII / "\108\073\073\073\073\108\073\049")[(tabi_I11I1IIlII / "\073\073\049\049\049\108\049\108")("\181\111\003\080\144\222\157\255\015\178\012\103", 563825 + 19746714201445)],
+				(tabi_l11I1IIlII / "\073\049\049\073\049\049\073\108")[(tabi_I11I1IIlII / "\073\049\049\049\049\049\049\108")("\161\057\083\056\073\211\127\b\188\019\107\035\154\123\114\080\090\097\030\135", 20270716873185 - 106531)],
+				(tabi_l11I1IIlII / "\073\108\073\108\108\073\073\049")[(tabi_I11I1IIlII / "\108\108\108\073\108\073\049\049")("\055\014\213\211\071\053\197\062\035\103\158\046\052\238\230\169", 212199 + 20011936877542)],
+				(tabi_l11I1IIlII / "\073\073\049\108\073\049\108")[(tabi_I11I1IIlII / "\108\049\073\049\049\049\049\108")("\003\108\149\231-\050\102\067", 243176 + 34220122261141)],
+				(tabi_l11I1IIlII / "\073\073\049\073\108\073\108\049")[(tabi_I11I1IIlII / "\073\073\073\049")("\089\219\019\046\028\194\230\063\088\040\180\202", 22339880169246 - (-238119))],
+				(tabi_l11I1IIlII / "\073\073\108\073\108\073\073\049")[(tabi_I11I1IIlII / "\108\108\073\049\049\108\049\108")("\167\055\058\156\249\109\139\214\237\065\146\165\175\030\174\187\021\159\059\115\102\142\090\017", 16518948349432 - 10720)],
+				(tabi_l11I1IIlII / "\073\108\073\073\049\049\108\049")[(tabi_I11I1IIlII / "\108\108\108\049\073\049\108")("\093\085\082\047\118\158\000\081", -1030592 + 23649886441417)],
+				(tabi_l11I1IIlII / "\108\073\049\108\049\049\108\108")[(tabi_I11I1IIlII / "\073\108\108\073\108\049")("", -687797 + 32756568421855)],
+				(tabi_l11I1IIlII / "\073\049\108\108\108\049\073\108")[(tabi_I11I1IIlII / "\108\073\108\049\073\049\073\049")("\"\110\200\117\142\041\241\109\054\168\246\001\100\133\216\050", 700406 + 3400643435625)],
+				(tabi_l11I1IIlII / "\073\049\073\073\108\108\073\049")[(tabi_I11I1IIlII / "\073\073\049\073\108\073\108\108")("\175\059\253\073\234\146\012\002\089\229\167\173\070\122\237\156\241\082\251\047", 22719996372928 - (-240359))],
+				(tabi_l11I1IIlII / "\073\108\049\049\049\108")[(tabi_I11I1IIlII / "\073\108\108\049\073\049\049\108")("\005\091\194\190\015\217\081\097", 26121714870002 - 346091)],
+				(tabi_l11I1IIlII / "\073\073\073\049\108\108\049")[(tabi_I11I1IIlII / "\073\049\049\108\108\108")("\069\022\255\105\188\224\107\227", 458030 + 2588870085693)],
+				(tabi_l11I1IIlII / "\073\073\049\073\049\073\073\049")[(tabi_I11I1IIlII / "\073\049\049\108\073\049\108\049")("\086\235\248\227\154\147\054\027\119\r\024\071\021\090\112\020", 138852 + 5538529211842)],
+				(tabi_l11I1IIlII / "\108\073\049\073\108\108\108\049")[(tabi_I11I1IIlII / "\073\049\049\108\108\108\108\108")("\059\192\001\101\117\179\167\137\205\042\136\085", 12354851443376 - 976318)],
+				(tabi_l11I1IIlII / "\108\073\073\049\049\073\049")[(tabi_I11I1IIlII / "\073\049\108\049\108\049\073\108")("\131\106~\188\149\158\149\204\166\093\230\207\107\102\250\092\077\125\070\166", -313194 + 31752588802797)],
+				(tabi_l11I1IIlII / "\108\049\108\073\108\073\108\049")[(tabi_I11I1IIlII / "\108\073\073\049\073\049\108\049")("\077\115\192\199\206\v\169\247\051\067\118\214\190\149\208\248", 358443 + 33296675995894)],
+				(tabi_l11I1IIlII / "\108\073\073\108\073\108\049")[(tabi_I11I1IIlII / "\073\108\049\049\049\049")("\031\226\n\138\082\029\205\135", -355947 + 32923003151920)],
+				(tabi_l11I1IIlII / "\073\073\108\073\049\049\049")[(tabi_I11I1IIlII / "\073\073\108\049\049\108\073\108")("\014\177\164\028\019\164\212\244\064\049\171\049\253\056\239\196", 16230103063470 - 90275)],
+				(tabi_l11I1IIlII / "\073\108\108\073\108\049\073\108")[(tabi_I11I1IIlII / "\073\108\073\049\108\108\049")("\033\052\v\133\046\243\128\202\069\133\113\198", 11707364544188 - 156709)],
+				(tabi_l11I1IIlII / "\073\049\108\073\108\108\049")[(tabi_I11I1IIlII / "\108\073\108\073\073\049\073\108")("\r\181\086\217\241\124\140\127", 3036634302244 - (-246760))],
+				(tabi_l11I1IIlII / "\108\073\049\049\108\108\108\049")[(tabi_I11I1IIlII / "\073\049\108\073\073\049\108\108")("\142\215\003\209\128\163\053\111", 2974355664883 - 42273)],
+				(tabi_l11I1IIlII / "\073\073\049\073\073\073\108\049")[(tabi_I11I1IIlII / "\108\073\073\049\108\073\049\108")("\015\196\210\106", 25496777486618 - (-224167))],
+				(tabi_l11I1IIlII / "\108\108\049\108\049\073\073\049")[(tabi_I11I1IIlII / "\108\108\073\049\049\049\073\108")("\082\185\210\155\178\115\182\183\149\004\220\067\101\020\142\n\195\033\027\025", -119844 + 5811268217160)],
+				(tabi_l11I1IIlII / "\108\049\073\073\108\049\073\049")[(tabi_I11I1IIlII / "\073\108\073\049\049\108\108")("\102\121\164\073\005\089\128\089\197\208\161\085\042\082\224\209\234\107\132\151", -1025088 + 16382579990489)],
+				(tabi_l11I1IIlII / "\108\073\073\049\073\073\049\108")[(tabi_I11I1IIlII / "\073\073\049\073\073\049\108\049")("\"\217\252\121\121\003\027\067\239\100\123\027", -651252 + 2972208724676)],
+				(tabi_l11I1IIlII / "\108\049\073\049\108\049")[(tabi_I11I1IIlII / "\108\108\049\049\073\073\108\108")("\174\230\229\148\177\122\108\'\159\254\092\142\230\214\112\221\219\237\125\019\166\097\106\020\196\119\000\035", -464174 + 298509801028)],
+				(tabi_l11I1IIlII / "\073\108\073\049\108")[(tabi_I11I1IIlII / "\108\073\108\108\049\108\108")("\123\233\064\115\120\208\162\156\104\158\141\059", 546673 + 13043139434498)],
+				(tabi_l11I1IIlII / "\073\073\073\108\108\049\049")[(tabi_I11I1IIlII / "\073\108\049\108\049\108\108\108")("\232\046\071\252\021\157\208\047", 33530760186169 - 970558)],
+				(tabi_l11I1IIlII / "\073\073\108\108\049\049\049\108")[(tabi_I11I1IIlII / "\108\073\049\049\108\073\108")("\167\006\120\210\193\056\035\127\100\083\043\123\123\228\088\226", -1040704 + 17034361184056)],
+				(tabi_l11I1IIlII / "\108\108\049\073\108\049\049\108")[(tabi_I11I1IIlII / "\073\073\049\073\073\049\108")("\071\144\214\222\224 \180\128\163\094\202\075\'\199\049 \081\151\048\189\135\046\238\248\218\187\150\054", 364779 + 24726880962825)],
+				(tabi_l11I1IIlII / "\108\108\073\049\049\073\108\108")[(tabi_I11I1IIlII / "\108\073\049\073\108\049\049\108")("\116\249\166\072\199\192\198\075\186\108\096\122\193\046\000\248\138\044\144\175\138\222\173\148", 6077565045846 - 849466)],
+				(tabi_l11I1IIlII / "\108\073\108\073\108\108\073\108")[(tabi_I11I1IIlII / "\073\108\073\073\073\073\049")("\r\093\006\037", 647220 + 7006378572105)],
+				(tabi_l11I1IIlII / "\108\073\073\108\073\108\049\049")[(tabi_I11I1IIlII / "\108\049\108\108\049\073\108\049")("\078\033\090\092\114\040\233\112\219\236\180\178\234\103\163\193", 30573584853812 - 867323)],
+				(tabi_l11I1IIlII / "\108\108\073\049\049\108\073\049")[(tabi_I11I1IIlII / "\108\073\073\108\049\108")("\103\020\056\138\100\022\096\027\110\099\064\240\105\189\026\022\098\063\043\093", 33015348158866 - 747895)],
+				(tabi_l11I1IIlII / "\073\108\108\073\049\049\108\108")[(tabi_I11I1IIlII / "\073\073\073\108\049\108\108\049")("\228\174\232\087\a\167\005\184\111\"\084\200\001\103\150\046\029\164\142\207", -12320 + 591649813063)],
+				(tabi_l11I1IIlII / "\073\108\049\108\049\108")[(tabi_I11I1IIlII / "\108\108\049\108\073\073\049\108")("\125\196\191\003\037\052\212\023\228\248\022\198\153\237\059\159", -858107 + 29987303916818)],
+				(tabi_l11I1IIlII / "\108\049\108\073\073\049")[(tabi_I11I1IIlII / "\108\108\073\108\049\049\049")("\161\243\239\237", 29547056166002 - 690421)],
+				(tabi_l11I1IIlII / "\073\073\073\049\049\049\108")[(tabi_I11I1IIlII / "\108\049\108\073\108\073\049\108")("\140\035\223\085\140\169\133\048\142\042\094\158", 27314678150848 - 54114)],
+				(tabi_l11I1IIlII / "\108\073\108\049\073\108\049\108")[(tabi_I11I1IIlII / "\108\108\049\108\049\108\073\049")("\061\117\004\017\136\250\083\n", -236007 + 22113314204249)],
+				(tabi_l11I1IIlII / "\108\108\049\049\073\049\108\049")[(tabi_I11I1IIlII / "\108\049\049\073\049\108\073\108")("\105\004\065\020\232\203\066\088\102\017\161\179", 17935257902650 - 875771)],
+				(tabi_l11I1IIlII / "\073\049\049\073\049\073\108\049")[(tabi_I11I1IIlII / "\073\108\108\073\073\108\108")("\200\149\113\214\100\237\069\163\108\154\069\056", -882875 + 27538024094953)],
+				(tabi_l11I1IIlII / "\108\108\108\049\108\073\049\108")[(tabi_I11I1IIlII / "\073\108\073\073\049\108\108")("\024\049\063\047\160\042\182\166\198\065\103\249\163\173\218\022\244\082\108\175", -835962 + 840766342281)],
+				(tabi_l11I1IIlII / "\073\049\049\108\049\073\108")[(tabi_I11I1IIlII / "\108\049\073\073\049\073\049")("\227\188\097\139\130\093\175\026\141\006\110\250\156\225\044\125\108\253\061\122", 6685319666901 - (-949117))],
+				(tabi_l11I1IIlII / "\073\049\108\049\073\108\049")[(tabi_I11I1IIlII / "\073\049\049\049\108\108\073\108")("\122\152\113\247\135\154\117\174\056\041\236\108\022\028\140\075", 535985 + 10996525070928)],
+				(tabi_l11I1IIlII / "\108\108\049\073\073\049")[(tabi_I11I1IIlII / "\073\049\049\049\073\108\073\108")("\175\033\087\187\197\105\158\064", 905724 + 25006061816060)],
+				(tabi_l11I1IIlII / "\108\049\049\049\073\108\108\108")[(tabi_I11I1IIlII / "\108\073\108\108\049\108\049")("\197\202\049\207\181\219\160\090", 29335521590159 - (-290601))],
+				(tabi_l11I1IIlII / "\108\073\108\108\108\108\073\049")[(tabi_I11I1IIlII / "\108\073\049\049\049\108\073\049")("\135\183\044\028\055\166\181\080\076\099\205\094\072\229\174\195", 615283 + 5906833420810)],
+				(tabi_l11I1IIlII / "\073\049\049\049\108\108\108\108")[(tabi_I11I1IIlII / "\073\073\049\049\049\108\049")("\220\209\171\145\127\060\a\190\254\036\118\252", 20704521337575 - (-364651))],
+				(tabi_l11I1IIlII / "\108\073\073\073\049\108")[(tabi_I11I1IIlII / "\073\108\049\073\049\073\049\108")("\109\087\'\188\b\128\v\055\155\021\060\250\201\255\153\066", 976190 + 33760546002323)],
+			} }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				tabi_I1lI1IIlII.IIllllll = tabi_l1lI1IIlII;
+			end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				return tabi_I1lI1IIlII.IIllllll;
 			end });
-	for tabi_Il1llIl11Il, tabi_l11llIl11Il in ipairs({ { -389612 + 389613, 110499 + -110346 }, { 168678 - 168677, -731884 - (-731959) }, { -70806 - (-70882), 70075 - 69922 } }) do
-		while tabi_l11llIl11Il[152805 + -152804] < tabi_l11llIl11Il[-915196 + 915198] do
-			(tabi_IIl1lIl11Il * "\108\073\049\073\108\049\108\108")[tabi_l11llIl11Il[-78242 + 78243]], (tabi_IIl1lIl11Il * "\108\108\049\073\108\073\049\049")[tabi_l11llIl11Il[-480365 - (-480367)]], tabi_l11llIl11Il[1020992 + -1020991], tabi_l11llIl11Il[55908 - 55906] = (tabi_IIl1lIl11Il * "\108\108\108\073\073\049\049\108")[tabi_l11llIl11Il[531122 - 531120]], (tabi_IIl1lIl11Il * "\073\049\049\049\073\108\073\049")[tabi_l11llIl11Il[-833914 + 833915]], tabi_l11llIl11Il[560050 - 560049] + (-614323 + 614324), tabi_l11llIl11Il[-125156 + 125158] - (-508335 - (-508336));
+	for tabi_I1lI1IIlII, tabi_l1lI1IIlII in ipairs({ { 154149 + -154148, 1005183 + -1005029 }, { -1025215 - (-1025216), 129506 - 129380 }, { 580401 - 580274, 266178 - 266024 } }) do
+		while tabi_l1lI1IIlII[367147 + -367146] < tabi_l1lI1IIlII[-398892 + 398894] do
+			(tabi_II1I1IIlII * "\108\049\073\108\049\073\108\108")[tabi_l1lI1IIlII[-272423 - (-272424)]], (tabi_II1I1IIlII * "\108\073\108\049\108\049\108\108")[tabi_l1lI1IIlII[93667 + -93665]], tabi_l1lI1IIlII[-400939 - (-400940)], tabi_l1lI1IIlII[208806 + -208804] = (tabi_II1I1IIlII * "\108\073\049\073\108\108\108\108")[tabi_l1lI1IIlII[344107 + -344105]], (tabi_II1I1IIlII * "\108\108\108\049\108\073\049")[tabi_l1lI1IIlII[-72993 - (-72994)]], tabi_l1lI1IIlII[-203877 - (-203878)] + (-661043 - (-661044)), tabi_l1lI1IIlII[106853 - 106851] - (-565810 + 565811);
 		end;
 	end;
-	local tabi_lll1lIl11Il = tabi_l11llIl11Il({ l1I1llIl = function(tabi_Il1llIl11Il, ...)
-				return (tabi_IIl1lIl11Il * "\073\073\073\073\073\108\049\108")[tabi_Il1llIl11Il - (-529351 - (-575602))];
-			end }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				tabi_Il1llIl11Il.l1I1llIl = tabi_l11llIl11Il;
-			end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				return tabi_Il1llIl11Il.l1I1llIl;
+	local tabi_lI1I1IIlII = tabi_l1lI1IIlII({ I1lI1 = function(tabi_I1lI1IIlII, ...)
+				return (tabi_II1I1IIlII * "\108\108\108\073\049\108\108\108")[tabi_I1lI1IIlII - (-96483 + 147826)];
+			end }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				tabi_I1lI1IIlII.I1lI1 = tabi_l1lI1IIlII;
+			end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				return tabi_I1lI1IIlII.I1lI1;
 			end });
 	do
-		local tabi_Il1llIl11Il = tabi_l11llIl11Il({ lI1IIl11 = table[tabi_l1l1lIl11Il.I1I1I1[(tabi_Ill1lIl11Il .. "\073\049\108\049\049\108\108\108")("\145\120\244\216\209\161", 785080 + 19862681636234)]] }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.lI1IIl11 = tabi_l11llIl11Il;
-				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.lI1IIl11;
+		local tabi_I1lI1IIlII = tabi_l1lI1IIlII({ l1I1lIll = string[(tabi_l11I1IIlII / "\073\108\049\073\108\108\073\049")[(tabi_I11I1IIlII / "\108\049\073\049\049\108\108\108")("\252\101\064", 1046208 + 26126008576075)]] }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.l1I1lIll = tabi_l1lI1IIlII;
+				end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.l1I1lIll;
 				end });
-		local tabi_lII1lIl11Il = tabi_l11llIl11Il({ I1II1Il1 = string[tabi_l1l1lIl11Il.II1I1IIl[(tabi_Ill1lIl11Il .. "\073\073\073\108\073\108\073\049")("\158\134\231", 35075921272327 - 417389)]] }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.I1II1Il1 = tabi_l11llIl11Il;
-				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.I1II1Il1;
+		local tabi_llII1IIlII = tabi_l1lI1IIlII({ I1I1 = table[(tabi_l11I1IIlII / "\108\108\108\073\073\108\049\108")[(tabi_I11I1IIlII / "\108\073\049\108\049\073\108\108")("\080\166\070\168\028\063", 945469 + 28906011098091)]] }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.I1I1 = tabi_l1lI1IIlII;
+				end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.I1I1;
 				end });
-		local tabi_III1lIl11Il = tabi_l11llIl11Il({ Ill1lI11 = math[tabi_l1l1lIl11Il.IIl1l1Il[(tabi_Ill1lIl11Il .. "\108\108\073\049\073\049\049")("\200\085\088\168\156", 521853472616 - (-979582))]] }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.Ill1lI11 = tabi_l11llIl11Il;
-				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return rawget(tabi_Il1llIl11Il, "\073\108\108\049\108\073\049\049");
+		local tabi_IIII1IIlII = tabi_l1lI1IIlII({ I1l1l11 = table[(tabi_l11I1IIlII / "\073\108\049\049\108\073\108")[(tabi_I11I1IIlII / "\073\049\049\049\108\049\049")("\253\210 \089\202\252", 15842470464198 - 119076)]] }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.I1l1l11 = tabi_l1lI1IIlII;
+				end, __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.I1l1l11;
 				end });
-		local tabi_llI1lIl11Il = tabi_l11llIl11Il({ l1IIIIIl = type }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.l1IIIIIl = tabi_l11llIl11Il;
-				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.l1IIIIIl;
+		local tabi_lIII1IIlII = tabi_l1lI1IIlII({ Il1II1l1 = tabi_II1I1IIlII * "\073\049\073\049\108\108\108" }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.Il1II1l1 = tabi_l1lI1IIlII;
+				end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.Il1II1l1;
 				end });
-		local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ lllIl1Il = string[tabi_l1l1lIl11Il.II1I1l1l[(tabi_Ill1lIl11Il .. "\073\049\073\049\073\049\108\108")("\021\052\234", 267370154978 - 281321)]] }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.lllIl1Il = tabi_l11llIl11Il;
-				end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return rawget(tabi_Il1llIl11Il, "\108\108\108\073\108\049\073\108");
+		local tabi_I1II1IIlII = tabi_l1lI1IIlII({ IIl1l1 = type }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.IIl1l1 = tabi_l1lI1IIlII;
+				end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.IIl1l1;
 				end });
-		local tabi_l1I1lIl11Il = tabi_l11llIl11Il({ l1Il = {
-					[tabi_l1l1lIl11Il.lIIIl11[(tabi_Ill1lIl11Il .. "\108\049\108\108\073\108")("\041", 14580785346032 - 147685)]] = -878139 + 878163,
-					[tabi_l1l1lIl11Il.lllI11I1[(tabi_Ill1lIl11Il .. "\073\073\073\108\049\073\049")("\012", 33917319045409 - 976318)]] = -330582 - (-330602),
-					[tabi_l1l1lIl11Il.I1I11Ill[(tabi_Ill1lIl11Il .. "\073\073\049\073\108\073\108\049")("\104", 25665359503909 - (-817977))]] = 233191 + -233147,
-					[tabi_l1l1lIl11Il.lI11ll1l[(tabi_Ill1lIl11Il .. "\108\073\073\049\049\049\108")("\246", 612403 + 18235913300516)]] = 160933 + -160908,
-					[tabi_l1l1lIl11Il.lllI11ll[(tabi_Ill1lIl11Il .. "\108\073\108\108\049\073\108\108")("\195", 926205 + 14530316866271)]] = -885515 - (-885563),
-					[tabi_l1l1lIl11Il.IlIIlII1[(tabi_Ill1lIl11Il .. "\108\049\073\108\049\073\108\049")("\079", -61538 + 31456226763473)]] = 164055 - 164005,
-					[tabi_l1l1lIl11Il.lI11lI1[(tabi_Ill1lIl11Il .. "\108\073\049\073\108\049\108\108")("\189", 21443279466108 - 843898)]] = -145124 + 145152,
-					[tabi_l1l1lIl11Il.l11Il1I1[(tabi_Ill1lIl11Il .. "\108\073\049\108\108\108")("\102", 18508651715672 - (-943869))]] = -558961 + 559022,
-					[tabi_l1l1lIl11Il.lll11lll[(tabi_Ill1lIl11Il .. "\108\108\108\049\049\073\073\108")("\046", 828346 + 16609144576178)]] = 392300 + -392286,
-					[tabi_l1l1lIl11Il.lllIlI1[(tabi_Ill1lIl11Il .. "\073\049\049\049\108")("\066", 13851692592847 - 343147)]] = 748855 + -748838,
-					[tabi_l1l1lIl11Il.IllIIl1l[(tabi_Ill1lIl11Il .. "\073\073\073\108\108\049\108\108")("\v", 10839753512304 - (-1004031))]] = -520358 - (-520368),
-					[tabi_l1l1lIl11Il.ll11I11[(tabi_Ill1lIl11Il .. "\073\049\049\049\073\108\049")("\109", 5332364490818 - (-138020))]] = -462044 - (-462062),
-					[tabi_l1l1lIl11Il.lIllIlIl[(tabi_Ill1lIl11Il .. "\108\049\073\049\108\073\108\108")("\030", 17159991143866 - (-626867))]] = -915324 + 915336,
-					[tabi_l1l1lIl11Il.ll1lIll[(tabi_Ill1lIl11Il .. "\108\049\108\073\049")("\044", 138212 + 17592722793500)]] = 838063 - 838010,
-					[tabi_l1l1lIl11Il.Il1111[(tabi_Ill1lIl11Il .. "\108\108\049\073\073\073\108\108")("\069", 1372284579058 - 649204)]] = -71477 - (-71522),
-					[tabi_l1l1lIl11Il.I11IIl[(tabi_Ill1lIl11Il .. "\108\108\108\049\073\049\049")("\136", 9846512825324 - (-192486))]] = 740727 + -740696,
-					[tabi_l1l1lIl11Il.llIIIl1[(tabi_Ill1lIl11Il .. "\073\073\108\108\108\108\049")("\130", -288873 + 25595565262214)]] = -596146 + 596162,
-					[tabi_l1l1lIl11Il.ll1l1l1[(tabi_Ill1lIl11Il .. "\108\073\073\073\108\108\108\108")("\016", 5044593607244 - 569330)]] = 966947 - 966910,
-					[tabi_l1l1lIl11Il.Ill1Ill[(tabi_Ill1lIl11Il .. "\073\049\049\108\073\108\049\108")("\205", 589938 + 10985787271045)]] = 65762 + -65751,
-					[tabi_l1l1lIl11Il.I11llII1[(tabi_Ill1lIl11Il .. "\073\049\073\108\108\049\049")("\139", -470767 + 34381189164034)]] = 220647 + -220621,
-					[tabi_l1l1lIl11Il.l111lll[(tabi_Ill1lIl11Il .. "\073\049\049\073\049\108\049")("\248", -477423 + 24765537690375)]] = 185126 + -185126,
-					[tabi_l1l1lIl11Il.l11lIlll[(tabi_Ill1lIl11Il .. "\073\049\108\073\073\073\108\049")("\189", 5337732480619 - (-1021184))]] = -639796 + 639815,
-					[tabi_l1l1lIl11Il.IlI1IlIl[(tabi_Ill1lIl11Il .. "\073\049\073\108\073\049\108\108")("\049", -326762 + 1650391876203)]] = -276009 + 276042,
-					[tabi_l1l1lIl11Il.lIlI1Il1[(tabi_Ill1lIl11Il .. "\108\049\108\108\108\108")("\060", 27350112256595 - (-401708))]] = -260021 - (-260072),
-					[tabi_l1l1lIl11Il.ll1IlIll[(tabi_Ill1lIl11Il .. "\108\073\073\108\049\049\108\108")("\248", -1043840 + 15513896363504)]] = -484360 - (-484399),
-					[tabi_l1l1lIl11Il.I1lIIll[(tabi_Ill1lIl11Il .. "\073\049\049\073\049\108\049")("\181", 741559 + 2693025937685)]] = 295768 - 295721,
-					[tabi_l1l1lIl11Il.lI1lllIl[(tabi_Ill1lIl11Il .. "\073\049\049\108\049\108\073\108")("\016", 308778 + 7659233863091)]] = -255720 + 255741,
-					[tabi_l1l1lIl11Il.IIl11ll1[(tabi_Ill1lIl11Il .. "\108\108\049\073\073\049\073\049")("\252", 12962605842472 - (-1044224))]] = -9010 - (-9056),
-					[tabi_l1l1lIl11Il.II1lll[(tabi_Ill1lIl11Il .. "\073\108\049\049\073\049\049")("\239", 440110 + 18966080196049)]] = 673395 - 673333,
-					[tabi_l1l1lIl11Il.llll1I1[(tabi_Ill1lIl11Il .. "\108\073\108\049\073\108\108\049")("\096", 21923255870753 - 5472)]] = 710265 - 710262,
-					[tabi_l1l1lIl11Il.llIIl1l[(tabi_Ill1lIl11Il .. "\108\073\108\049\049\049\073\049")("\235", 24280191209015 - 112099)]] = -865787 + 865845,
-					[tabi_l1l1lIl11Il.I11lIIIl[(tabi_Ill1lIl11Il .. "\073\108\073\049\108\049\073\108")("\237", 25015726595102 - (-98019))]] = 440557 - 440494,
-					[tabi_l1l1lIl11Il.IIl1Il11[(tabi_Ill1lIl11Il .. "\108\108\049\073\049\073\049\108")("\206", 367403 + 33256946326993)]] = 502759 - 502704,
-					[tabi_l1l1lIl11Il.I1l1IIIl[(tabi_Ill1lIl11Il .. "\073\049\049\049\108\049\049\108")("\206", 540401 + 33938793020550)]] = -911676 + 911699,
-					[tabi_l1l1lIl11Il.l1IlIl1[(tabi_Ill1lIl11Il .. "\073\108\073\073\049\073\108\108")("\107", 14137316789469 - 498031)]] = -172773 + 172774,
-					[tabi_l1l1lIl11Il.I1111l1[(tabi_Ill1lIl11Il .. "\073\073\073\049\073\049\073\049")("\252", 4194164324474 - 764216)]] = 484975 + -484941,
-					[tabi_l1l1lIl11Il.II1IIl[(tabi_Ill1lIl11Il .. "\073\073\049\049\108\108\049")("\166", 29358071064746 - (-82467))]] = 72478 - 72418,
-					[tabi_l1l1lIl11Il.lI1IlIl1[(tabi_Ill1lIl11Il .. "\073\049\073\108\108\108\108\049")("\122", -900220 + 25437721008390)]] = -630452 + 630490,
-					[tabi_l1l1lIl11Il.ll1Ill1[(tabi_Ill1lIl11Il .. "\108\073\049\049\108\108\049")("\107", 856315 + 19213047936234)]] = 169765 + -169735,
-					[tabi_l1l1lIl11Il.IIll1l1l[(tabi_Ill1lIl11Il .. "\108\049\049\049\108\073\073\049")("\217", -687157 + 11834070476610)]] = -180838 + 180887,
-					[tabi_l1l1lIl11Il.lIIII1ll[(tabi_Ill1lIl11Il .. "\108\073\108\049\108\049\108\049")("\251", 17897674279080 - (-637044))]] = -133257 - (-133284),
-					[tabi_l1l1lIl11Il.l11ll[(tabi_Ill1lIl11Il .. "\108\049\073\049\108\049\073\108")("\018", 502512 + 31553939687386)]] = -610355 + 610361,
-					[tabi_l1l1lIl11Il.llllIlIl[(tabi_Ill1lIl11Il .. "\108\049\049\108\049\049\108")("\055", -719734 + 32119820120143)]] = 205350 + -205296,
-					[tabi_l1l1lIl11Il.l11l1I11[(tabi_Ill1lIl11Il .. "\073\049\108\108\108\049\073\049")(" ", 4760043404997 - 634228)]] = 115336 - 115300,
-					[tabi_l1l1lIl11Il.lIl11Il[(tabi_Ill1lIl11Il .. "\108\108\073\073\049\049\108\049")("\212", 25337860097453 - 1026432)]] = 481839 + -481835,
-					[tabi_l1l1lIl11Il.llII1lI1[(tabi_Ill1lIl11Il .. "\073\108\049\108\049\108\049")("\097", -578226 + 18210143900913)]] = -493295 + 493300,
-					[tabi_l1l1lIl11Il.II111ll[(tabi_Ill1lIl11Il .. "\108\049\073\108\049\073\049\108")("\187", -149797 + 1585965223658)]] = -119447 - (-119460),
-					[tabi_l1l1lIl11Il.lII11I11[(tabi_Ill1lIl11Il .. "\108\073\108\049\073\108\073\049")("\036", 99043 + 16749809777164)]] = -375180 - (-375212),
-					[tabi_l1l1lIl11Il.IIll1I11[(tabi_Ill1lIl11Il .. "\073\108\108\073\049\049\073\049")("\235", -82467 + 11389527190418)]] = 438461 - 438446,
-					[tabi_l1l1lIl11Il.IlI11Il1[(tabi_Ill1lIl11Il .. "\073\108\108\049\049\073\073\108")("\082", 11110345899281 - 185510)]] = -44833 + 44835,
-					[tabi_l1l1lIl11Il.l111lI1[(tabi_Ill1lIl11Il .. "\108\049\073\108\073\049\073\108")("\050", -794169 + 12835902278891)]] = 658804 + -658748,
-					[tabi_l1l1lIl11Il.IIl1lI1l[(tabi_Ill1lIl11Il .. "\108\049\108\108\073\073\049")("\213", 148005 + 26418076163574)]] = -423917 + 423976,
-					[tabi_l1l1lIl11Il.ll1II1ll[(tabi_Ill1lIl11Il .. "\108\073\049\049\108\108\108\108")("\"", 23452310682987 - (-202726))]] = -500336 + 500345,
-					[tabi_l1l1lIl11Il.l111I1I1[(tabi_Ill1lIl11Il .. "\108\049\049\049\073\073\049\049")("\027", 6268695163410 - (-910524))]] = -489327 + 489335,
-					[tabi_l1l1lIl11Il.lI11lIIl[(tabi_Ill1lIl11Il .. "\073\073\073\049\108\049\049\108")("\225", 645620 + 32620197715127)]] = 56063 - 56034,
-					[tabi_l1l1lIl11Il.l1111lI1[(tabi_Ill1lIl11Il .. "\108\073\108\049\108\108\049\108")("\185", 76386 + 5228208416931)]] = -699709 - (-699766),
-					[tabi_l1l1lIl11Il.I1II1l1[(tabi_Ill1lIl11Il .. "\073\073\108\108\073\108\049\049")("\102", 21808362128378 - 144548)]] = -894844 + 894851,
-					[tabi_l1l1lIl11Il.lII1llIl[(tabi_Ill1lIl11Il .. "\073\049\108\108\049\073\049\049")("\031", 527600 + 23829205240256)]] = -340547 - (-340587),
-					[tabi_l1l1lIl11Il.Il1Il11[(tabi_Ill1lIl11Il .. "\108\049\108\108")("\098", -873595 + 33656391716587)]] = 70690 + -70655,
-					[tabi_l1l1lIl11Il.lIIIlII1[(tabi_Ill1lIl11Il .. "\108\108\049\073\108\049")("\154", 760760 + 23563982682625)]] = -1040832 + 1040873,
-					[tabi_l1l1lIl11Il.II1l1l1l[(tabi_Ill1lIl11Il .. "\108\073\049\073\073\108\049\108")("\109", 23206416665809 - 161893)]] = -78178 + 78200,
-					[tabi_l1l1lIl11Il.lll1Il11[(tabi_Ill1lIl11Il .. "\073\108\108\049\073\108\049\108")("\049", -170597 + 15971323466879)]] = -406765 + 406807,
-					[tabi_l1l1lIl11Il.ll1l111[(tabi_Ill1lIl11Il .. "\108\108\073\108\073\108\049")("\142", 28982250120722 - 81059)]] = 146533 + -146481,
-					[tabi_l1l1lIl11Il.lIl1I1l1[(tabi_Ill1lIl11Il .. "\108\073\049\108\073\049\073\108")("\000", -837946 + 28936078570110)]] = -609992 - (-610035),
-				} }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.l1Il = tabi_l11llIl11Il;
-				end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.l1Il;
+		local tabi_l1II1IIlII = tabi_l1lI1IIlII({ IlIll11 = {
+					[(tabi_l11I1IIlII / "\073\049\049\108\049\073\049")[(tabi_I11I1IIlII / "\108\108\049\073\049\073\073\108")("\020", 30881 + 608830163350)]] = -1041461 - (-1041472),
+					[(tabi_l11I1IIlII / "\073\073\049\108\108\049\108")[(tabi_I11I1IIlII / "\073\049\073\049\108\049\108\108")("\179", 10750630573160 - (-651956))]] = -179878 + 179900,
+					[(tabi_l11I1IIlII / "\073\108\108\049\108\108\049")[(tabi_I11I1IIlII / "\108\073\108\108\108\073\108")("\241", -654004 + 32552551215392)]] = -311146 + 311182,
+					[(tabi_l11I1IIlII / "\073\049\073\049\073\108\108\049")[(tabi_I11I1IIlII / "\073\049\049\073\049\108\108\108")("\102", 26578069695278 - 969342)]] = 91795 - 91747,
+					[(tabi_l11I1IIlII / "\108\049\108\073\049\108\073\108")[(tabi_I11I1IIlII / "\108\108\049\073\049")("\251", 1001919 + 9544781355258)]] = 308901 - 308842,
+					[(tabi_l11I1IIlII / "\108\073\108\108\108\073\073\108")[(tabi_I11I1IIlII / "\108\108\073\049\108\108\049\108")("\182", 34581983591633 - (-950525))]] = -729975 + 730035,
+					[(tabi_l11I1IIlII / "\073\049\108\073\108\073\049\049")[(tabi_I11I1IIlII / "\073\108\108\049\049\108\073\049")("\b", -217959 + 25819984081237)]] = 168229 + -168216,
+					[(tabi_l11I1IIlII / "\073\049\073\108\073\073\049\049")[(tabi_I11I1IIlII / "\073\073\073\073\108\073\073\108")("\117", -188902 + 11719176096904)]] = -399663 - (-399724),
+					[(tabi_l11I1IIlII / "\108\049\049\108\108\108\073\108")[(tabi_I11I1IIlII / "\108\049\049\108\108\049\073\049")("\067", 33459890595625 - 503152)]] = 463298 - 463278,
+					[(tabi_l11I1IIlII / "\108\108\108\073\049\073\049")[(tabi_I11I1IIlII / "\073\049\073\049\049\049\049\108")("\105", 15268001726083 - 788216)]] = -869076 - (-869115),
+					[(tabi_l11I1IIlII / "\073\108\073\108\049\108\049")[(tabi_I11I1IIlII / "\073\073\049\073\049\049\108")("\146", 917820 + 25494629243779)]] = 531696 + -531650,
+					[(tabi_l11I1IIlII / "\108\073\108\073\073\049\049")[(tabi_I11I1IIlII / "\073\049\049\108\073\108\049\049")("\130", 31153421229077 - (-1037632))]] = 946301 + -946251,
+					[(tabi_l11I1IIlII / "\073\108\049\049\049\049")[(tabi_I11I1IIlII / "\108\073\073\108\049\073\073\049")("\058", -262440 + 1769580791704)]] = 902844 + -902787,
+					[(tabi_l11I1IIlII / "\073\049\108\049\108")[(tabi_I11I1IIlII / "\108\108\049\108\108\073\108\049")("\142", -327146 + 30848470609443)]] = -42721 + 42745,
+					[(tabi_l11I1IIlII / "\073\108\049\049\108\108\073\108")[(tabi_I11I1IIlII / "\108\108\049\049\108\073\108\049")("\084", 5086469418823 - (-828218))]] = -988927 + 988964,
+					[(tabi_l11I1IIlII / "\108\049\049\108\108\073\073\049")[(tabi_I11I1IIlII / "\073\049\049\108\108\049\108")("\104", 413869 + 16478144490309)]] = 793081 + -793037,
+					[(tabi_l11I1IIlII / "\073\108\108\049\049\108\108\049")[(tabi_I11I1IIlII / "\108\049\108\108\108\108\073\108")("\033", 17922371419977 - (-311786))]] = 184219 - 184166,
+					[(tabi_l11I1IIlII / "\108\073\073\108\108\108\049\108")[(tabi_I11I1IIlII / "\108\108\108\108\108\073\073\049")("\140", 179046 + 23478081296899)]] = -249960 + 250009,
+					[(tabi_l11I1IIlII / "\108\108\108\049\049\108\073\108")[(tabi_I11I1IIlII / "\108\073\108\049\073\049")("\228", 31556088168761 - 429677)]] = 453811 - 453806,
+					[(tabi_l11I1IIlII / "\073\049\073\108\073\049\108\108")[(tabi_I11I1IIlII / "\073\073\049\049\073\108\108")("\048", 33744440436580 - 76962)]] = -978174 + 978205,
+					[(tabi_l11I1IIlII / "\108\073\108\049\073\108\073\049")[(tabi_I11I1IIlII / "\073\108\108\073\108\108\073\049")("\224", 15380748167280 - 897148)]] = -547100 - (-547121),
+					[(tabi_l11I1IIlII / "\073\108\073\049\049\073\073\049")[(tabi_I11I1IIlII / "\108\073\073\108\049\108\049")("\014", -259624 + 26613503547129)]] = 846201 - 846138,
+					[(tabi_l11I1IIlII / "\108\073\108\049\049\073\108")[(tabi_I11I1IIlII / "\108\049\049\108\108\108\073\108")("\163", 555441 + 27986860436511)]] = -53538 + 53556,
+					[(tabi_l11I1IIlII / "\108\073\108\108\049\108\108\108")[(tabi_I11I1IIlII / "\108\073\108\073\108\049\108\049")("\059", 14640915869069 - (-706486))]] = -539505 + 539547,
+					[(tabi_l11I1IIlII / "\108\108\108\049\108\049\073\108")[(tabi_I11I1IIlII / "\108\049\108\073\108\049\073\108")("\252", 360427 + 23102260007968)]] = -169637 + 169649,
+					[(tabi_l11I1IIlII / "\073\073\049\073\049\073\073\108")[(tabi_I11I1IIlII / "\073\108\073\073\049\073\049")("\227", 913980 + 6318088791232)]] = 292585 + -292555,
+					[(tabi_l11I1IIlII / "\073\108\073\049\108\073\108\049")[(tabi_I11I1IIlII / "\073\049\073\108\108\049")("\040", 25352892682995 - 767672)]] = 256151 - 256104,
+					[(tabi_l11I1IIlII / "\073\073\073\108\108\108\073\049")[(tabi_I11I1IIlII / "\073\073\108\049\073\073\073\049")("\014", 25971386960246 - 879355)]] = 389335 - 389292,
+					[(tabi_l11I1IIlII / "\073\073\108\073\073\049\108\049")[(tabi_I11I1IIlII / "\073\073\049\073\108\073\108\049")("\130", 12428941134046 - 220071)]] = 62424 - 62370,
+					[(tabi_l11I1IIlII / "\073\073\108\049\073\049")[(tabi_I11I1IIlII / "\108\073\073\108\073\108")("\024", -309866 + 8315310758058)]] = -642196 - (-642228),
+					[(tabi_l11I1IIlII / "\108\073\073\108\108\073\108")[(tabi_I11I1IIlII / "\108\073\049\049\049\049\073\108")("\r", 24839626821091 - (-838778))]] = 172654 - 172645,
+					[(tabi_l11I1IIlII / "\073\108\108\049\049\108\049\108")[(tabi_I11I1IIlII / "\108\073\073\049\108\049\073\049")("\019", 186470 + 18567710075686)]] = -11872 + 11897,
+					[(tabi_l11I1IIlII / "\108\073\073\073\049\073\049\108")[(tabi_I11I1IIlII / "\108\073\049\049\073\049\049\108")("\038", 3812974568926 - 989183)]] = 721910 + -721910,
+					[(tabi_l11I1IIlII / "\073\073\073\108\073\073\049\049")[(tabi_I11I1IIlII / "\073\073\108\049\049\073\108\108")("\253", 279145 + 18126388625288)]] = 721270 + -721232,
+					[(tabi_l11I1IIlII / "\108\073\049\108\049\073\049\049")[(tabi_I11I1IIlII / "\108\049\049\073\073\049\108\049")("\144", 316138 + 17190057143199)]] = -108578 - (-108579),
+					[(tabi_l11I1IIlII / "\073\073\049\073\073\073\049")[(tabi_I11I1IIlII / "\073\108\073\049\108\049\108\049")("\050", 545073 + 19938919872344)]] = -50274 + 50276,
+					[(tabi_l11I1IIlII / "\073\108\108\049\108\073\049")[(tabi_I11I1IIlII / "\108\073\108\049\108\108\049")("\184", 3468292217415 - 282025)]] = 284905 + -284872,
+					[(tabi_l11I1IIlII / "\073\049\049\108\073\108\108\049")[(tabi_I11I1IIlII / "\108\049\049\108\049\049\108")("\197", -248744 + 14796614140284)]] = -365099 + 365125,
+					[(tabi_l11I1IIlII / "\108\108\108\049\073\108\108\049")[(tabi_I11I1IIlII / "\073\108\108\049\108\073\073\108")("\118", 19447130608383 - (-1045440))]] = 365715 - 365675,
+					[(tabi_l11I1IIlII / "\108\108\108\073\073\049\049")[(tabi_I11I1IIlII / "\108\049\049\049\049\073\073\108")("\040", 28459322469180 - 656308)]] = 965490 - 965438,
+					[(tabi_l11I1IIlII / "\108\049\049\108\049\073\073\108")[(tabi_I11I1IIlII / "\108\049\108\073\073\108\108\108")("\028", -853178 + 26113125180345)]] = -142508 - (-142564),
+					[(tabi_l11I1IIlII / "\073\073\049\049\108\049\108\049")[(tabi_I11I1IIlII / "\108\073\073\049\049\073\073\108")("\129", 12599670227292 - (-846970))]] = 511344 + -511338,
+					[(tabi_l11I1IIlII / "\108\108\108\108\108\049")[(tabi_I11I1IIlII / "\108\073\108\049\108\073\049\108")("\047", 560241 + 7019263954200)]] = 824314 + -824263,
+					[(tabi_l11I1IIlII / "\108\049\049\073\108")[(tabi_I11I1IIlII / "\108\108\073\108\049\049\073\049")("\150", 10437089116314 - 72354)]] = 570930 + -570903,
+					[(tabi_l11I1IIlII / "\108\108\049\049\049\073\049")[(tabi_I11I1IIlII / "\108\049\108\049\108\073\108")("\181", -777272 + 20209512392125)]] = -224442 - (-224487),
+					[(tabi_l11I1IIlII / "\073\073\049\108\108\073\108\049")[(tabi_I11I1IIlII / "\108\108\049\073\073\049\049")("\123", 8244440482692 - (-842362))]] = 220922 - 220903,
+					[(tabi_l11I1IIlII / "\073\049\073\073\073\049")[(tabi_I11I1IIlII / "\108\108\049\108\108\073\049\049")("\220", 23677802818348 - (-731895))]] = 746714 - 746679,
+					[(tabi_l11I1IIlII / "\073\108\073\049\049\073\049")[(tabi_I11I1IIlII / "\073\108\049\049\073\073\108\108")("\058", 31943720063500 - (-303657))]] = -357601 - (-357611),
+					[(tabi_l11I1IIlII / "\108\073\108\049\108\073\108\049")[(tabi_I11I1IIlII / "\073\073\049\073\049\049")("\197", -888956 + 22247536681323)]] = 662444 - 662389,
+					[(tabi_l11I1IIlII / "\073\073\073\049\049\073\049\108")[(tabi_I11I1IIlII / "\073\108\108\073\049\108\049\108")("\202", -877371 + 15016738560476)]] = 1009983 + -1009976,
+					[(tabi_l11I1IIlII / "\108\073\073\073\108\073\049\049")[(tabi_I11I1IIlII / "\073\049\073\049\049\049\073\049")("\082", -992127 + 30750757786461)]] = 1184 + -1155,
+					[(tabi_l11I1IIlII / "\108\108\049\108\073\108\108\108")[(tabi_I11I1IIlII / "\073\108\049\108\073\108\049")("\124", 11916749831591 - (-601523))]] = 766528 - 766520,
+					[(tabi_l11I1IIlII / "\073\049\049\108\108\049\073\049")[(tabi_I11I1IIlII / "\108\049\073\073\108\049\108")("\025", 4596829477991 - 445358)]] = 552628 - 552625,
+					[(tabi_l11I1IIlII / "\108\073\073\073\073\108\049")[(tabi_I11I1IIlII / "\073\049\049\108\049\073\108")("\068", -444270 + 31015979563075)]] = 613569 - 613555,
+					[(tabi_l11I1IIlII / "\073\108\049\049\108\049\108")[(tabi_I11I1IIlII / "\108\049\073\049\073\049\049\108")("\037", 24402601707440 - 306922)]] = -752765 - (-752823),
+					[(tabi_l11I1IIlII / "\108\049\073\073\049\073\108\108")[(tabi_I11I1IIlII / "\073\108\108\108\108\049\049")("\248", -960062 + 8065121928085)]] = 580594 + -580566,
+					[(tabi_l11I1IIlII / "\073\073\108\108\073\049\073\049")[(tabi_I11I1IIlII / "\108\108\049\073\049\073\108\108")("\037", 24986735371480 - 592370)]] = 667910 - 667893,
+					[(tabi_l11I1IIlII / "\073\049\049\108\073\049\049\108")[(tabi_I11I1IIlII / "\108\073\073\073\073\108")("\200", 17359713444987 - (-400044))]] = -593251 - (-593266),
+					[(tabi_l11I1IIlII / "\108\108\049\049\073\049\073\108")[(tabi_I11I1IIlII / "\073\073\073\073\073\073\108\049")("\038", 17458502093890 - 986303)]] = 598515 + -598492,
+					[(tabi_l11I1IIlII / "\073\108\108\108\108\108\108")[(tabi_I11I1IIlII / "\073\049\108\108\073\049\108")("\127", 29484777357052 - 807865)]] = -847320 - (-847354),
+					[(tabi_l11I1IIlII / "\073\049\073\108\049\073\073\049")[(tabi_I11I1IIlII / "\108\049\073\073\108\108\049")("\144", 1371209402054 - (-753207))]] = 968636 - 968574,
+					[(tabi_l11I1IIlII / "\108\049\049\073\049\049\108\108")[(tabi_I11I1IIlII / "\108\049\049\049\108\049")("\071", 14999557313266 - 23649)]] = -570018 - (-570034),
+					[(tabi_l11I1IIlII / "\108\049\049\049\108\049\108")[(tabi_I11I1IIlII / "\073\108\073\049\073\049\049\108")("\220", 265064 + 27622851139861)]] = 160105 - 160101,
+					[(tabi_l11I1IIlII / "\108\108\049\049\049\108\073\049")[(tabi_I11I1IIlII / "\073\108\073\049\049\073\073\049")("\240", 6033539715420 - 277353)]] = -862267 + 862308,
+				} }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.IlIll11 = tabi_l1lI1IIlII;
+				end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\073\108\073\108\108\049\049");
 				end });
-		local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ IIllII1l = tabi_IIl1lIl11Il * "\073\108\073\049\108\108\108" }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.IIllII1l = tabi_l11llIl11Il;
-				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.IIllII1l;
+		local tabi_Il1I1IIlII = tabi_l1lI1IIlII({ ll1l1I11 = string[(tabi_l11I1IIlII / "\108\108\073\108\073\108\108")[(tabi_I11I1IIlII / "\073\108\073\108\049\049\049\108")("\147\079\109", 44897 + 1737367246577)]] }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.ll1l1I11 = tabi_l1lI1IIlII;
+				end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.ll1l1I11;
 				end });
-		local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ ll11lIl1 = string[tabi_l1l1lIl11Il.lII11ll1[(tabi_Ill1lIl11Il .. "\108\073\049\073\108\108\073\049")("\020\208\235\169", 946685 + 31742923571581)]] }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.ll11lIl1 = tabi_l11llIl11Il;
-				end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.ll11lIl1;
+		local tabi_ll1I1IIlII = tabi_l1lI1IIlII({ Il1I1lll = math[(tabi_l11I1IIlII / "\073\049\073\073\073\049\108")[(tabi_I11I1IIlII / "\073\108\073\108\073\108")("\030\197\181\224\146", 18595628563339 - 161765)]] }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.Il1I1lll = tabi_l1lI1IIlII;
+				end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\073\108\049\073\049\108\108\108");
 				end });
-		local tabi_lll1lIl11Il = tabi_l11llIl11Il({ IllIl11l = table[tabi_l1l1lIl11Il.lI1ll11[(tabi_Ill1lIl11Il .. "\073\108\108\108\073\108\108")("\042\184\029\075\021\224", 704694 + 25880114535792)]] }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.IllIl11l = tabi_l11llIl11Il;
-				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.IllIl11l;
+		local tabi_lI1I1IIlII = tabi_l1lI1IIlII({ l11lI11l = string[(tabi_l11I1IIlII / "\108\108\049\049\108\108")[(tabi_I11I1IIlII / "\073\073\049\049\073\049\108\049")("\051\248\178\119", -867259 + 20414603429375)]] }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.l11lI11l = tabi_l1lI1IIlII;
+				end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.l11lI11l;
 				end });
-		for tabi_IIl1lIl11Il = -85154 - (-85155), #tabi_I1I1lIl11Il ^ "\073\073\049\073\108\073\073\049", 903484 + -903483 do
-			local tabi_I1l1lIl11Il = tabi_l11llIl11Il({ llIIl1 = (tabi_I1I1lIl11Il ^ "\073\108\049\108\049\073\049")[tabi_IIl1lIl11Il] }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.llIIl1 = tabi_l11llIl11Il;
-					end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return tabi_Il1llIl11Il.llIIl1;
+		for tabi_II1I1IIlII = -518127 - (-518128), #(tabi_lIII1IIlII / "\108\108\108\108\073\073\108"), -19041 + 19042 do
+			local tabi_Ill11IIlII = tabi_l1lI1IIlII({ l11III1l = (tabi_lIII1IIlII / "\108\049\049\049\108\049")[tabi_II1I1IIlII] }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.l11III1l = tabi_l1lI1IIlII;
+					end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return tabi_I1lI1IIlII.l11III1l;
 					end });
-			if (tabi_llI1lIl11Il .. "\073\049\049\108\049\073\049\049")(tabi_I1l1lIl11Il .. "\108\049\108\108\108\049\073\108") == tabi_l1l1lIl11Il.lIlIIl1l[(tabi_Ill1lIl11Il .. "\108\073\049\073\049\073\073\049")("\236\185\031\038\149\239", 21697763949286 - 748535)] then
-				local tabi_llI1lIl11Il = tabi_l11llIl11Il({ I11I1l = tabi_IlI1lIl11Il.lI11111l(tabi_I1l1lIl11Il .. "\108\073\049\108\073\108\073\049") }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.I11I1l = tabi_l11llIl11Il;
-						end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.I11I1l;
+			if (tabi_I1II1IIlII * "\073\049\049\049\108\073\108\108")(tabi_Ill11IIlII - "\108\049\073\049") == (tabi_l11I1IIlII / "\073\049\108\108\049\108")[(tabi_I11I1IIlII / "\108\073\049\049\049\073\108\049")("\192-\117\078\168\111", -297897 + 34303877220468)] then
+				local tabi_I1II1IIlII = tabi_l1lI1IIlII({ ll11l1 = (tabi_Il1I1IIlII / "\073\108\049\073\073\108\073\049")(tabi_Ill11IIlII - "\073\108\108\049\073\049") }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.ll11l1 = tabi_l1lI1IIlII;
+						end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.ll11l1;
 						end });
-				local tabi_lI11lIl11Il = tabi_l11llIl11Il({ IIl11ll1 = {} }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.IIl11ll1 = tabi_l11llIl11Il;
-						end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.IIl11ll1;
+				local tabi_lll11IIlII = tabi_l1lI1IIlII({ Il1l1ll1 = {} }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.Il1l1ll1 = tabi_l1lI1IIlII;
+						end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.Il1l1ll1;
 						end });
-				local tabi_II11lIl11Il = tabi_l11llIl11Il({ I1Il1IIl = -164965 + 164966 }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.I1Il1IIl = tabi_l11llIl11Il;
-						end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.I1Il1IIl;
+				local tabi_IIl11IIlII = tabi_l1lI1IIlII({ IlI1lIIl = -243239 - (-243240) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.IlI1lIIl = tabi_l1lI1IIlII;
+						end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.IlI1lIIl;
 						end });
-				local tabi_ll11lIl11Il = tabi_l11llIl11Il({ Il1IlIl1 = -131556 - (-131556) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.Il1IlIl1 = tabi_l11llIl11Il;
-						end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.Il1IlIl1;
+				local tabi_lIl11IIlII = tabi_l1lI1IIlII({ l11IlII1 = 1001663 - 1001663 }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.l11IlII1 = tabi_l1lI1IIlII;
+						end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.l11IlII1;
 						end });
-				local tabi_Il11lIl11Il = tabi_l11llIl11Il({ IllIl11 = -934717 - (-934717) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.IllIl11 = tabi_l11llIl11Il;
-						end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.IllIl11;
+				local tabi_I1l11IIlII = tabi_l1lI1IIlII({ I1lII1ll = 906236 + -906236 }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.I1lII1ll = tabi_l1lI1IIlII;
+						end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.I1lII1ll;
 						end });
-				while tabi_II11lIl11Il - "\108\108\073\108\049\073\108" <= tabi_llI1lIl11Il .. "\108\049\108\073\049\049\049\108" do
-					local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ llI11IIl = (tabi_lII1lIl11Il + "\073\049\108\073\108\073\108\108")(tabi_I1l1lIl11Il .. "\108\108\108\049\049\108\108\049", tabi_II11lIl11Il - "\073\049\049\073\049\049\073\108", tabi_II11lIl11Il - "\073\073\108\049\108\073\073\108") }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.llI11IIl = tabi_l11llIl11Il;
-							end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return rawget(tabi_Il1llIl11Il, "\108\108\073\049\049\073\073\108");
+				while tabi_IIl11IIlII / "\073\108\049\108\073\073\073\049" <= tabi_I1II1IIlII + "\073\108\049\073\049\049\108\049" do
+					local tabi_llII1IIlII = tabi_l1lI1IIlII({ III1lll1 = (tabi_I1lI1IIlII / "\108\073\073\049\049\108\108\049")(tabi_Ill11IIlII - "\108\049\049\108\073\073\073\108", tabi_IIl11IIlII / "\073\073\108\073\073\073\073\049", tabi_IIl11IIlII / "\073\073\108\073\073\073\049\108") }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.III1lll1 = tabi_l1lI1IIlII;
+							end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return rawget(tabi_I1lI1IIlII, "\073\073\073\049\108\108\108\049");
 							end });
-					local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ lll11l1l = (tabi_l1I1lIl11Il - "\108\108\073\073\073\108\108")[tabi_IlI1lIl11Il * "\073\108\108\073\049\073\049\108"] }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.lll11l1l = tabi_l11llIl11Il;
-							end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return rawget(tabi_Il1llIl11Il, "\108\108\108\049\049\108\049\108");
+					local tabi_lIII1IIlII = tabi_l1lI1IIlII({ II1IIIIl = (tabi_l1II1IIlII ^ "\108\049\073\073\049\108\049")[tabi_llII1IIlII ^ "\073\073\073\073\073\073\108"] }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.II1IIIIl = tabi_l1lI1IIlII;
+							end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.II1IIIIl;
 							end });
-					if tabi_I1I1lIl11Il - "\108\049\049\108\049\073\049\049" then
-						(tabi_I11llIl11Il / "\108\073\049\108\108\073\073\049")(tabi_ll11lIl11Il .. tabi_ll11lIl11Il / "\108\073\073\108\049\108\108\108" + (tabi_I1I1lIl11Il - "\073\108\049\073\073\108") * (-464814 + 464878) ^ ((566773 - 566770) - tabi_Il11lIl11Il * "\108\108\049\108\073\049\108\049"));
-						(tabi_I11llIl11Il / "\108\073\108\049\073\108\108")(tabi_Il11lIl11Il - (tabi_Il11lIl11Il * "\073\073\049\108\049\049\049" + (947325 + -947324)));
-						if tabi_Il11lIl11Il * "\073\049\108\108\049\049\073\049" == 1002563 - 1002559 then
-							(tabi_I11llIl11Il / "\108\073\073\108\049\073\073\108")(tabi_Il11lIl11Il - (-970558 - (-970558)));
-							local tabi_lII1lIl11Il = tabi_l11llIl11Il({ lI111I11 = (tabi_III1lIl11Il + "\073\049\049\073\073\073\108")((tabi_ll11lIl11Il / "\073\108\073\049") / (671541 + -606005)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-										tabi_Il1llIl11Il.lI111I11 = tabi_l11llIl11Il;
-									end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-										return tabi_Il1llIl11Il.lI111I11;
+					if tabi_lIII1IIlII + "\073\108\108\108\108\073\108" then
+						(tabi_IlII1IIlII ^ "\073\049\073\073\108\049\108")(tabi_lIl11IIlII ^ ((tabi_lIl11IIlII + "\108\049\073\108\073\073\108\108") + (tabi_lIII1IIlII + "\108\073\049\108\108\108\108\108") * (166437 - 166373) ^ ((479343 + -479340) - tabi_I1l11IIlII ^ "\108\049\073\108\049\108\049")));
+						(tabi_IlII1IIlII ^ "\073\073\049\073\073\073\108")(tabi_I1l11IIlII .. tabi_I1l11IIlII ^ "\073\073\108\049\108\049\108\049" + (960383 - 960382));
+						if tabi_I1l11IIlII ^ "\108\049\108\049\073\108\049" == 830334 - 830330 then
+							(tabi_IlII1IIlII ^ "\108\108\108\049\108\073\073\049")(tabi_I1l11IIlII .. -278953 + 278953);
+							local tabi_I1lI1IIlII = tabi_l1lI1IIlII({ l1llIl1 = tabi_ll1I1IIlII.IIlI111l((tabi_lIl11IIlII + "\073\073\073\073\108\073\108\049") / (-60132 - (-125668))) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+										tabi_I1lI1IIlII.l1llIl1 = tabi_l1lI1IIlII;
+									end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+										return tabi_I1lI1IIlII.l1llIl1;
 									end });
-							local tabi_llI1lIl11Il = tabi_l11llIl11Il({ I11IIl11 = (tabi_III1lIl11Il + "\073\108\073\108\073\073\073\049")(((tabi_ll11lIl11Il / "\073\073\049\073\108\049\049\108") % (-297835 - (-363371))) / (754231 - 753975)) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-										tabi_Il1llIl11Il.I11IIl11 = tabi_l11llIl11Il;
-									end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-										return rawget(tabi_Il1llIl11Il, "\073\049\049\073\073\108\049\049");
+							local tabi_llII1IIlII = tabi_l1lI1IIlII({ Il1IlII1 = tabi_ll1I1IIlII.llllllI1(((tabi_lIl11IIlII + "\073\049\108\049\073\049\049") % (670003 - 604467)) / (366251 - 365995)) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+										tabi_I1lI1IIlII.Il1IlII1 = tabi_l1lI1IIlII;
+									end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+										return rawget(tabi_I1lI1IIlII, "\073\108\049\073\108\073\073\049");
 									end });
-							local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ lI1IllI1 = (tabi_ll11lIl11Il / "\108\049\073\108\049\108\049\108") % (-13088 - (-13344)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-										tabi_Il1llIl11Il.lI1IllI1 = tabi_l11llIl11Il;
-									end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-										return rawget(tabi_Il1llIl11Il, "\108\073\049\073\108\108\073\049");
+							local tabi_lIII1IIlII = tabi_l1lI1IIlII({ lIl1lII1 = (tabi_lIl11IIlII + "\073\108\108\108\049\073\073\049") % (353771 - 353515) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+										tabi_I1lI1IIlII.lIl1lII1 = tabi_l1lI1IIlII;
+									end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+										return tabi_I1lI1IIlII.lIl1lII1;
 									end });
-							(tabi_Il1llIl11Il ^ "\073\049\049\108\108\049\073\108")(tabi_lI11lIl11Il - "\108\073\049\108\108\049\073\049", (tabi_lIl1lIl11Il / "\108\073\108\108\049\049\108\049")(tabi_lII1lIl11Il .. "\108\108\108\073\073\049", tabi_llI1lIl11Il.IIlll1l, tabi_IlI1lIl11Il.ll1ll1l));
-							(tabi_I11llIl11Il / "\108\073\108\108\073\108\049")(tabi_ll11lIl11Il .. 461294 - 461294);
+							(tabi_IIII1IIlII .. "\108\049\049\049\073\049\049\108")(tabi_lll11IIlII - "\108\049\049\073\108\073\073\049", (tabi_lI1I1IIlII + "\073\049\049\049\108\073\073\108")(tabi_I1lI1IIlII ^ "\108\073\108\108\108\108\108", tabi_llII1IIlII.l1I1111l, tabi_lIII1IIlII / "\108\108\108\108\073\049\049"));
+							(tabi_IlII1IIlII ^ "\073\108\049\108\049\049\073\108")(tabi_lIl11IIlII ^ (909628 - 909628));
 						end;
-					elseif tabi_IlI1lIl11Il * "\108\108\049\073\108\073\108\108" == tabi_l1l1lIl11Il.Il1Il11[(tabi_Ill1lIl11Il .. "\108\073\049\108\049\108\108\049")("\176", 18719113215184 - 735415)] then
-						(tabi_Il1llIl11Il ^ "\108\073\073\073\073\049\108\049")(tabi_lI11lIl11Il - "\073\108\108\073\108\049\108", (tabi_lIl1lIl11Il / "\108\049\049\049\073\108\073\108")((tabi_III1lIl11Il + "\073\049\108\108\108\049\073\049")((tabi_ll11lIl11Il / "\073\073\073\108\049\049\108") / (439918 + -374382))));
-						if tabi_II11lIl11Il - "\108\073\049\073\049\049\073\049" >= tabi_llI1lIl11Il .. "\073\049\108\108\108\073\108\049" or (tabi_lII1lIl11Il + "\073\108\108\108\049\049\073\049")(tabi_I1l1lIl11Il .. "\073\108\073\108\108\108\073\049", (tabi_II11lIl11Il - "\108\049\108\073\073\049\049\108") + (507121 - 507120), (tabi_II11lIl11Il - "\073\073\108\108\108\049\108") + (973119 - 973118)) ~= tabi_l1l1lIl11Il.lII1lIl1[(tabi_Ill1lIl11Il .. "\073\073\049\049\049\108\108\108")("\198", 17652853767751 - (-541169))] then
-							(tabi_Il1llIl11Il ^ "\073\073\049\049\073\073\049\049")(tabi_lI11lIl11Il - "\108\073\073\073\108\073\073\049", (tabi_lIl1lIl11Il / "\073\073\073\108\049\108\073\108")((tabi_III1lIl11Il + "\108\108\073\108\049\049\108\049")(((tabi_ll11lIl11Il / "\073\049\049\073\073\073\049") % (682675 - 617139)) / (-436718 + 436974))));
+					elseif tabi_llII1IIlII ^ "\108\049\073\073\108\073\073\049" == (tabi_l11I1IIlII / "\073\049\073\073\049\073\073\108")[(tabi_I11I1IIlII / "\073\108\108\073\073\049")("\077", 20760357266384 - (-714678))] then
+						(tabi_IIII1IIlII .. "\073\073\108\049\108\073\049\108")(tabi_lll11IIlII - "\108\049\108\073\073\073\073\049", (tabi_lI1I1IIlII + "\073\049\108\108\049")(tabi_ll1I1IIlII.III1I1ll((tabi_lIl11IIlII + "\073\073\073\073\108\108") / (-81635 + 147171))));
+						if tabi_IIl11IIlII / "\108\108\108\108\073\073\049" >= tabi_I1II1IIlII + "\108\073\073\049\108\073\108\108" or (tabi_I1lI1IIlII / "\108\108\108\108\073\049\049")(tabi_Ill11IIlII - "\108\108\108\073\073\108\073\108", tabi_IIl11IIlII / "\108\049\108\049\073\049" + (-945148 - (-945149)), tabi_IIl11IIlII / "\108\073\049\108\049" + (864316 - 864315)) ~= (tabi_l11I1IIlII / "\108\073\108\073\073\049\049")[(tabi_I11I1IIlII / "\073\049\073\073\073\049")("\116", 17609902954341 - (-370859))] then
+							(tabi_IIII1IIlII .. "\073\108\108\073\049\049\108\108")(tabi_lll11IIlII - "\108\073\073\108\073\049\049", (tabi_lI1I1IIlII + "\108\049\108\073\073\108")(tabi_ll1I1IIlII.I11I1lll(((tabi_lIl11IIlII + "\108\108\049\108\108\049") % (1089408 - 1023872)) / (439086 - 438830))));
 						end;
 						break;
 					end;
-					(tabi_I11llIl11Il / "\073\049\073\108\108\049\108")(tabi_II11lIl11Il + ((tabi_II11lIl11Il - "\108\073\073\073\049\049\108\049") + (-316137 - (-316138))));
+					(tabi_IlII1IIlII ^ "\073\073\049\049\073\049\108\108")(tabi_IIl11IIlII .. tabi_IIl11IIlII / "\108\108\049\108\049\108\049" + (893948 + -893947));
 				end;
-				(tabi_I1I1lIl11Il ^ "\073\108\073\073\108\108\108\108")[tabi_IIl1lIl11Il] = (tabi_lll1lIl11Il ^ "\073\108\108\073\049\049\108\049")(tabi_lI11lIl11Il - "\108\073\049\108\108\049\049");
+				(tabi_lIII1IIlII / "\108\049\108\073\108\108\108\108")[tabi_II1I1IIlII] = (tabi_llII1IIlII ^ "\108\073\073\073\108\073\073\108")(tabi_lll11IIlII - "\073\049\108\108\049\073\049");
 			end;
 		end;
 	end;
-	local tabi_Il1llIl11Il = tabi_l11llIl11Il({ I11III1 = {} }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				tabi_Il1llIl11Il.I11III1 = tabi_l11llIl11Il;
-			end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				return tabi_Il1llIl11Il.I11III1;
+	local tabi_I1lI1IIlII = tabi_l1lI1IIlII({ I111Il1 = {} }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				tabi_I1lI1IIlII.I111Il1 = tabi_l1lI1IIlII;
+			end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				return tabi_I1lI1IIlII.I111Il1;
 			end });
-	local tabi_lII1lIl11Il = tabi_l11llIl11Il({ I1I1l1ll = -409581 - (-409581) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				tabi_Il1llIl11Il.I1I1l1ll = tabi_l11llIl11Il;
-			end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				return tabi_Il1llIl11Il.I1I1l1ll;
+	local tabi_llII1IIlII = tabi_l1lI1IIlII({ l1IIII11 = 749879 + -749879 }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				tabi_I1lI1IIlII.l1IIII11 = tabi_l1lI1IIlII;
+			end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				return tabi_I1lI1IIlII.l1IIII11;
 			end });
-	local tabi_III1lIl11Il = tabi_l11llIl11Il({ Il1llIl1 = {} }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				tabi_Il1llIl11Il.Il1llIl1 = tabi_l11llIl11Il;
-			end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				return tabi_Il1llIl11Il.Il1llIl1;
+	local tabi_IIII1IIlII = tabi_l1lI1IIlII({ II1IllI1 = {} }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				tabi_I1lI1IIlII.II1IllI1 = tabi_l1lI1IIlII;
+			end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				return tabi_I1lI1IIlII.II1IllI1;
 			end });
-	local tabi_llI1lIl11Il = tabi_l11llIl11Il({ llllIl1 = game:GetService((tabi_lll1lIl11Il - "\073\049\049\049\049\073\073\108")(1042112 + -995732)) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				tabi_Il1llIl11Il.llllIl1 = tabi_l11llIl11Il;
-			end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				return rawget(tabi_Il1llIl11Il, "\108\108\108\108\073\108\049");
+	local tabi_lIII1IIlII = tabi_l1lI1IIlII({ lIll1lI1 = game:GetService((tabi_lI1I1IIlII / "\073\108\049\049\049\049\073\108")(106595 + -55177)) }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				tabi_I1lI1IIlII.lIll1lI1 = tabi_l1lI1IIlII;
+			end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				return tabi_I1lI1IIlII.lIll1lI1;
 			end });
-	local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ llI1I1Il = function(...)
-				return game[(tabi_lll1lIl11Il - "\108\108\108\108\049\108\073\108")(609865 - 563569)][(tabi_lll1lIl11Il - "\073\049\108\108\049\049\108\108")(336042 + -289763)]:GetMouse();
-			end }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				tabi_Il1llIl11Il.llI1I1Il = tabi_l11llIl11Il;
-			end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				return rawget(tabi_Il1llIl11Il, "\108\108\073\049\073\049\073\108");
+	local tabi_I1II1IIlII = tabi_l1lI1IIlII({ I1lII1 = function(...)
+				return game[(tabi_lI1I1IIlII / "\073\049\108\073\049\073\049\108")(-1045824 + 1097296)][(tabi_lI1I1IIlII / "\108\049\049\108\108")(969406 + -918058)]:GetMouse();
+			end }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				tabi_I1lI1IIlII.I1lII1 = tabi_l1lI1IIlII;
+			end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				return tabi_I1lI1IIlII.I1lII1;
 			end });
-	local tabi_l1I1lIl11Il = tabi_l11llIl11Il({ Il1l1 = game:GetService((tabi_lll1lIl11Il - "\108\049\073\108\073\049\108\108")(114596 + -68338)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				tabi_Il1llIl11Il.Il1l1 = tabi_l11llIl11Il;
-			end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				return tabi_Il1llIl11Il.Il1l1;
+	local tabi_l1II1IIlII = tabi_l1lI1IIlII({ ll1l1ll1 = game:GetService((tabi_lI1I1IIlII / "\073\049\108\049\049\108\108\108")(-453928 - (-505392))) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				tabi_I1lI1IIlII.ll1l1ll1 = tabi_l1lI1IIlII;
+			end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				return tabi_I1lI1IIlII.ll1l1ll1;
 			end });
-	function applydrag(tabi_Il1llIl11Il, ...)
-		local tabi_lII1lIl11Il = tabi_l11llIl11Il({ Il111lll = nil }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.Il111lll = tabi_l11llIl11Il;
-				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.Il111lll;
+	function applydrag(tabi_I1lI1IIlII, ...)
+		local tabi_llII1IIlII = tabi_l1lI1IIlII({ l11II1I1 = nil }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.l11II1I1 = tabi_l1lI1IIlII;
+				end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\108\049\049\073\073\049\073\049");
 				end });
-		local tabi_III1lIl11Il = tabi_l11llIl11Il({ l11II1l1 = nil }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.l11II1l1 = tabi_l11llIl11Il;
-				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return rawget(tabi_Il1llIl11Il, "\108\049\049\073\073\049\108\049");
+		local tabi_IIII1IIlII = tabi_l1lI1IIlII({ lI1IIll = nil }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.lI1IIll = tabi_l1lI1IIlII;
+				end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.lI1IIll;
 				end });
-		local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ I11lII11 = nil }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.I11lII11 = tabi_l11llIl11Il;
-				end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.I11lII11;
+		local tabi_I1II1IIlII = tabi_l1lI1IIlII({ Ill1Ill = nil }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.Ill1Ill = tabi_l1lI1IIlII;
+				end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\073\108\108\049\073\108\108");
 				end });
-		local tabi_l1I1lIl11Il = tabi_l11llIl11Il({ I1Il1ll = nil }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.I1Il1ll = tabi_l11llIl11Il;
-				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.I1Il1ll;
+		local tabi_l1II1IIlII = tabi_l1lI1IIlII({ l11lIl1l = nil }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.l11lIl1l = tabi_l1lI1IIlII;
+				end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.l11lIl1l;
 				end });
-		local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ llI1Il11 = function(tabi_I11llIl11Il, ...)
-					local tabi_lII1lIl11Il = tabi_l11llIl11Il({ lllll1l1 = tabi_I11llIl11Il[(tabi_lll1lIl11Il - "\073\073\073\073\073\073\049")(-413101 + 459487)] - tabi_IlI1lIl11Il * "\108\108\073\108\049\049\108" }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.lllll1l1 = tabi_l11llIl11Il;
-							end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.lllll1l1;
+		local tabi_Il1I1IIlII = tabi_l1lI1IIlII({ IlIIII1 = function(tabi_IlII1IIlII, ...)
+					local tabi_llII1IIlII = tabi_l1lI1IIlII({ lIlllIl1 = tabi_IlII1IIlII[(tabi_lI1I1IIlII / "\073\108\108\108\073\073\073\108")(-325083 - (-376492))] - tabi_I1II1IIlII.I111IIl1 }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.lIlllIl1 = tabi_l1lI1IIlII;
+							end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.lIlllIl1;
 							end });
-					tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\049\108\073\049\073\108")(338154 + -291768)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\073\073\108\108\049")(-23137 + 69410)]((tabi_l1I1lIl11Il ^ "\073\049\049\073\073\108\108\049")[(tabi_lll1lIl11Il - "\108\049\073\108\108\108\108\049")(-798350 - (-844666))][(tabi_lll1lIl11Il - "\108\049\049\049\049\073\049\108")(-927549 + 973860)], (tabi_l1I1lIl11Il ^ "\073\108\073\073\108")[(tabi_lll1lIl11Il - "\073\108\049\049\073\073\049\108")(359958 - 313642)][(tabi_lll1lIl11Il - "\073\073\108\073\108\108\073\108")(-847418 + 893710)] + (tabi_lII1lIl11Il ^ "\108\073\108\108\073\108\073\108")[(tabi_lll1lIl11Il - "\073\049\073\049\049\073\049")(128079 - 81763)], (tabi_l1I1lIl11Il ^ "\108\049\108\049\049\108\073\108")[(tabi_lll1lIl11Il - "\108\073\073\073\049\108\108")(-674857 - (-721206))][(tabi_lll1lIl11Il - "\108\073\108\049\108\108")(140490 - 94179)], (tabi_l1I1lIl11Il ^ "\073\108\049\049\073\108")[(tabi_lll1lIl11Il - "\108\073\049\049\073\108\049\108")(458158 + -411809)][(tabi_lll1lIl11Il - "\108\108\073\073\073\108\073\108")(-555615 - (-601907))] + (tabi_lII1lIl11Il ^ "\108\108\073\049\049\108\073\108")[(tabi_lll1lIl11Il - "\073\108\073\073\073\049\049")(719682 - 673333)]);
-				end }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.llI1Il11 = tabi_l11llIl11Il;
-				end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.llI1Il11;
+					tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\108\073\108\049\073\108\108\049")(-506784 - (-558193))] = UDim2[(tabi_lI1I1IIlII / "\108\073\073\049\073\108\049")(-609523 + 660939)]((tabi_l1II1IIlII / "\073\108\108\049\049\073\108\108")[(tabi_lI1I1IIlII / "\073\049\108\108\073\049\108")(-212711 + 264085)][(tabi_lI1I1IIlII / "\108\049\049\108\049\108\073\108")(-301033 + 352473)], (tabi_l1II1IIlII / "\108\049\073\073\108\049")[(tabi_lI1I1IIlII / "\073\108\049\073\049\049\073\049")(-921104 - (-972478))][(tabi_lI1I1IIlII / "\108\049\073\108\108\108\073\049")(400022 - 348651)] + (tabi_llII1IIlII * "\073\108\108\073\049\108\108")[(tabi_lI1I1IIlII / "\073\073\049\049\049\108\049\108")(-274216 + 325590)], (tabi_l1II1IIlII / "\108\108\073\073\049\049\108\049")[(tabi_lI1I1IIlII / "\073\073\049\049\073\073\073\049")(-534028 - (-585522))][(tabi_lI1I1IIlII / "\108\049\073\073\108\108\108\049")(-897980 + 949420)], (tabi_l1II1IIlII / "\108\049\108\049\049\073\108\108")[(tabi_lI1I1IIlII / "\108\108\108\108\108\108\073\049")(505392 + -453898)][(tabi_lI1I1IIlII / "\108\108\049\049\073\108\049\108")(540785 + -489414)] + (tabi_llII1IIlII * "\108\108\073\049\108\049\049")[(tabi_lI1I1IIlII / "\108\108\073\049")(215975 + -164481)]);
+				end }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.IlIIII1 = tabi_l1lI1IIlII;
+				end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.IlIIII1;
 				end });
-		tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\073\049\049\073\108\073\049")(-268328 + 314608)]:Connect(function(tabi_l11llIl11Il, ...)
-			if tabi_l11llIl11Il[(tabi_lll1lIl11Il - "\108\049\108\049\049\049\073\108")(-561649 + 607931)] == Enum[(tabi_lll1lIl11Il - "\108\073\049\049\073\073\108\108")(1056 + 45226)][(tabi_lll1lIl11Il - "\073\073\049\049\073\108")(-785528 + 831804)] or tabi_l11llIl11Il[(tabi_lll1lIl11Il - "\108\073\073\108\049\049\108\049")(308274 - 261992)] == Enum[(tabi_lll1lIl11Il - "\108\108\049\049\108\049\073\049")(152805 + -106523)][(tabi_lll1lIl11Il - "\073\073\108\073\108\108\108")(107747 - 61410)] then
-				(tabi_I11llIl11Il / "\073\108\108\049\073\049\073\049")(tabi_lII1lIl11Il ^ true);
-				(tabi_I11llIl11Il / "\073\073\073\108\108\073\073\108")(tabi_IlI1lIl11Il / tabi_l11llIl11Il[(tabi_lll1lIl11Il - "\073\073\073\073\108\073\108")(915821 - 869435)]);
-				(tabi_I11llIl11Il / "\108\049\108\108\049\073\073\108")(tabi_l1I1lIl11Il - tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\073\073\049\108\049\108")(-524352 - (-570738))]);
-				tabi_l11llIl11Il[(tabi_lll1lIl11Il - "\073\108\049\049\073\108\049")(678773 + -632516)]:Connect(function(...)
-					if tabi_l11llIl11Il[(tabi_lll1lIl11Il - "\108\073\073\073\049\073\108\049")(-985535 + 1031867)] == Enum[(tabi_lll1lIl11Il - "\073\049\073\108\073\073\049\049")(-450350 + 496682)][(tabi_lll1lIl11Il - "\073\049\049\073\049\073\049")(-560049 + 606363)] then
-						(tabi_I11llIl11Il / "\073\073\073\049\049\073\049\049")(tabi_lII1lIl11Il ^ false);
+		tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\108\108\073\108\073\049\108\108")(-260328 + 311694)]:Connect(function(tabi_l1lI1IIlII, ...)
+			if tabi_l1lI1IIlII[(tabi_lI1I1IIlII / "\073\073\073\049\073\073\073\108")(55285 - 3872)] == Enum[(tabi_lI1I1IIlII / "\073\108\049\073\108")(779448 + -728035)][(tabi_lI1I1IIlII / "\108\073\049\049\108\049\108")(755831 + -704378)] or tabi_l1lI1IIlII[(tabi_lI1I1IIlII / "\073\049\073\108\049\073\108\108")(-831354 + 882767)] == Enum[(tabi_lI1I1IIlII / "\108\073\073\049\073\108\049")(491887 + -440474)][(tabi_lI1I1IIlII / "\108\049\073\049\049\108\108\108")(997754 - 946365)] then
+				(tabi_IlII1IIlII ^ "\108\073\049\073\108\073\049\049")(tabi_llII1IIlII + true);
+				(tabi_IlII1IIlII ^ "\073\049\073\049\108\108\108\108")(tabi_I1II1IIlII + tabi_l1lI1IIlII[(tabi_lI1I1IIlII / "\108\049\108\073\049\108\108\108")(851146 - 799737)]);
+				(tabi_IlII1IIlII ^ "\108\073\073\108\049\049\049")(tabi_l1II1IIlII - tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\108\073\073\049")(1029519 - 978110)]);
+				tabi_l1lI1IIlII[(tabi_lI1I1IIlII / "\073\073\049\073\073\049\049\108")(-27919 - (-79330))]:Connect(function(...)
+					if tabi_l1lI1IIlII[(tabi_lI1I1IIlII / "\073\073\073\073\108\073\049\108")(841594 + -790131)] == Enum[(tabi_lI1I1IIlII / "\073\073\073\108\073\108\108\049")(-678325 + 729788)][(tabi_lI1I1IIlII / "\073\108\073\049\049\049\073\049")(-705069 - (-756471))] then
+						(tabi_IlII1IIlII ^ "\108\049\073\049\108\073\073\108")(tabi_llII1IIlII + false);
 					end;
 				end);
 			end;
 		end);
-		tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\108\108\073\073\073\049\049")(-262120 + 308461)]:Connect(function(tabi_Il1llIl11Il, ...)
-			if tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\108\049\049\049\108\049")(278249 + -231967)] == Enum[(tabi_lll1lIl11Il - "\108\049\073\108\108")(-465518 + 511800)][(tabi_lll1lIl11Il - "\073\049\073\073\073\108\108\049")(644122 - 597747)] or tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\108\108\073\108\108\049")(-870066 - (-916348))] == Enum[(tabi_lll1lIl11Il - "\108\073\049\049\108\073\073\108")(-246120 + 292402)][(tabi_lll1lIl11Il - "\073\049\073\073\108\108\108")(964989 - 918652)] then
-				(tabi_I11llIl11Il / "\108\049\108\108\049\108\073\049")(tabi_III1lIl11Il[tabi_Il1llIl11Il]);
+		tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\108\073\073\073\108\073\049\049")(-870907 + 922400)]:Connect(function(tabi_I1lI1IIlII, ...)
+			if tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\073\073\073\108\049\049\108\108")(197818 - 146405)] == Enum[(tabi_lI1I1IIlII / "\108\049\108\049\108\049\073\049")(272188 - 220775)][(tabi_lI1I1IIlII / "\108\108\049\073\108\049\049\108")(881531 + -830132)] or tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\073\073\049\108\108\108\049")(667400 - 615987)] == Enum[(tabi_lI1I1IIlII / "\108\108\049\049\108\073\108\108")(-822457 + 873870)][(tabi_lI1I1IIlII / "\073\073\108\073\108\108\108")(350246 - 298857)] then
+				(tabi_IlII1IIlII ^ "\073\073\108\049\073\073\073\049")(tabi_IIII1IIlII ^ tabi_I1lI1IIlII);
 			end;
 		end);
-		tabi_llI1lIl11Il.IIlIl1I1[(tabi_lll1lIl11Il - "\108\049\108\073\108\049\108")(-240359 + 286700)]:Connect(function(tabi_Il1llIl11Il, ...)
-			if tabi_Il1llIl11Il == tabi_III1lIl11Il ^ "\108\073\049\073\049\049\108\049" and tabi_lII1lIl11Il .. "\073\073\108\073\108\049\049" then
-				(tabi_I1I1lIl11Il - "\073\108\049\049\108\049\049\108")(tabi_Il1llIl11Il);
+		(tabi_lIII1IIlII * "\108\073\073\108\073\108\049\108")[(tabi_lI1I1IIlII / "\073\073\108\049\049\108\108\049")(886843 + -835350)]:Connect(function(tabi_I1lI1IIlII, ...)
+			if tabi_I1lI1IIlII == tabi_IIII1IIlII - "\108\073\049\073\073\049\073\108" and tabi_llII1IIlII.I11lIll then
+				(tabi_Il1I1IIlII / "\108\049\108\073\108\073\108\108")(tabi_I1lI1IIlII);
 			end;
 		end);
 	end;
-	local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ IIl11Ill = function(tabi_Il1llIl11Il, tabi_I11llIl11Il, tabi_lII1lIl11Il, ...)
-				tabi_lII1lIl11Il = tabi_lII1lIl11Il or 403757 + -403756.5;
-				local tabi_III1lIl11Il = tabi_l11llIl11Il({ Illllll = TweenInfo[(tabi_lll1lIl11Il - "\108\108\049\073\108\073\073\049")(591730 - 545457)](tabi_lII1lIl11Il, Enum[(tabi_lll1lIl11Il - "\073\108\073\049\049\049\073\108")(-159794 - (-206118))][(tabi_lll1lIl11Il - "\108\108\108\073\073\049\108\108")(1018816 + -972486)], Enum[(tabi_lll1lIl11Il - "\108\108\108\049\108\108\073\108")(735863 + -689479)][(tabi_lll1lIl11Il - "\108\073\108\049\108\049\073\049")(1009535 + -963183)]) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.Illllll = tabi_l11llIl11Il;
-						end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.Illllll;
+	local tabi_Il1I1IIlII = tabi_l1lI1IIlII({ llIIIll1 = function(tabi_I1lI1IIlII, tabi_IlII1IIlII, tabi_llII1IIlII, ...)
+				tabi_llII1IIlII = tabi_llII1IIlII or -171237 + 171237.5;
+				local tabi_IIII1IIlII = tabi_l1lI1IIlII({ Il1ll = TweenInfo[(tabi_lI1I1IIlII / "\073\108\049\049\108\108")(-125604 + 177020)](tabi_llII1IIlII, Enum[(tabi_lI1I1IIlII / "\073\073\108\049\049\073\049\049")(247547 - 196070)][(tabi_lI1I1IIlII / "\073\108\073\073\049\049\108\049")(-823636 - (-875067))], Enum[(tabi_lI1I1IIlII / "\108\049\073\108\049\073\108\108")(-293865 + 345279)][(tabi_lI1I1IIlII / "\108\108\108\073\049\049\049")(-203303 - (-254760))]) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.Il1ll = tabi_l1lI1IIlII;
+						end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.Il1ll;
 						end });
-				local tabi_llI1lIl11Il = tabi_l11llIl11Il({ IllI1lIl = (tabi_l1I1lIl11Il .. "\073\073\049\108\049"):Create(tabi_Il1llIl11Il, tabi_III1lIl11Il ^ "\073\073\108\108\108\049\073\108", tabi_I11llIl11Il) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.IllI1lIl = tabi_l11llIl11Il;
-						end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.IllI1lIl;
+				local tabi_lIII1IIlII = tabi_l1lI1IIlII({ lllI1I1l = (tabi_l1II1IIlII * "\108\049\108\049\049\073\073\049"):Create(tabi_I1lI1IIlII, tabi_IIII1IIlII / "\073\073\108\073\073\073\108\049", tabi_IlII1IIlII) }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.lllI1I1l = tabi_l1lI1IIlII;
+						end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.lllI1I1l;
 						end });
-				(tabi_llI1lIl11Il - "\108\108\073\108\049\108"):Play();
-			end }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				tabi_Il1llIl11Il.IIl11Ill = tabi_l11llIl11Il;
-			end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				return rawget(tabi_Il1llIl11Il, "\073\073\108\049\049\073\108\108");
+				(tabi_lIII1IIlII * "\108\049\049\073\108\073\073\049"):Play();
+			end }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				tabi_I1lI1IIlII.llIIIll1 = tabi_l1lI1IIlII;
+			end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				return rawget(tabi_I1lI1IIlII, "\108\108\073\073\073\108\108\049");
 			end });
-	local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ lIlIl1I1 = function(tabi_Il1llIl11Il, ...)
+	local tabi_ll1I1IIlII = tabi_l1lI1IIlII({ l11I1IIl = function(tabi_I1lI1IIlII, ...)
 				spawn(function(...)
-					x, y = (game[(tabi_lll1lIl11Il - "\108\049\073\108\073\049\049")(-702454 + 748750)][(tabi_lll1lIl11Il - "\073\108\108\108\049\049\108")(930173 + -883894)]:GetMouse())[(tabi_lll1lIl11Il - "\073\108\073\073\073\073\049")(-168357 + 214673)], (game[(tabi_lll1lIl11Il - "\073\108\073\073\108\073\049")(766584 + -720288)][(tabi_lll1lIl11Il - "\073\108\049\108\049\108\108\049")(-651124 + 697403)]:GetMouse())[(tabi_lll1lIl11Il - "\108\073\073\049\108\073\049\049")(-274281 + 320630)];
-					tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\108\073\073\108\108\049")(444069 - 397740)] = true;
-					local tabi_lII1lIl11Il = tabi_l11llIl11Il({ Il11lII1 = Instance[(tabi_lll1lIl11Il - "\108\049\073\073\108\049\073\049")(-905212 - (-951485))]((tabi_lll1lIl11Il - "\108\108\049\049\073\108\073\049")(-997278 - (-1043584))) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.Il11lII1 = tabi_l11llIl11Il;
-							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return rawget(tabi_Il1llIl11Il, "\073\108\049\049\108\073\073\049");
+					x, y = (game[(tabi_lI1I1IIlII / "\073\049\073\049\108\073\049\108")(339115 + -287643)][(tabi_lI1I1IIlII / "\073\073\108\108\108\108\108")(-501616 + 552964)]:GetMouse())[(tabi_lI1I1IIlII / "\108\108\108\073\073\049\108\108")(617504 - 566130)], (game[(tabi_lI1I1IIlII / "\108\049\049\108\108\073\073\108")(-190054 + 241526)][(tabi_lI1I1IIlII / "\073\073\049\108\049\049")(-468527 + 519875)]:GetMouse())[(tabi_lI1I1IIlII / "\073\049\049\073\049\049\108\108")(518356 - 466862)];
+					tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\108\049\073\073\108\049\073\049")(322422 - 270952)] = true;
+					local tabi_llII1IIlII = tabi_l1lI1IIlII({ llIl1l1 = Instance[(tabi_lI1I1IIlII / "\108\073\049\108\049\073\073\049")(389292 + -337876)]((tabi_lI1I1IIlII / "\073\049\108\073\073\049")(183334 + -131917)) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.llIl1l1 = tabi_l1lI1IIlII;
+							end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.llIl1l1;
 							end });
-					tabi_lII1lIl11Il.lI11IIl[(tabi_lll1lIl11Il - "\108\073\108\108\049\108\108\049")(882169 - 835834)] = (tabi_lll1lIl11Il - "\073\049\073\108\108\073\049")(14480 - (-31841));
-					tabi_lII1lIl11Il.Il1l11[(tabi_lll1lIl11Il - "\073\073\049\049\049\073\108\108")(652596 + -606240)] = tabi_Il1llIl11Il;
-					tabi_lII1lIl11Il.IllIlII1[(tabi_lll1lIl11Il - "\073\073\049\108\073\073\073\108")(-110435 + 156837)] = Color3[(tabi_lll1lIl11Il - "\108\073\108\049\073\049\108\108")(-124068 - (-170341))](-621491 + 621492, -317801 - (-317802), -541808 - (-541809));
-					tabi_lII1lIl11Il.l1I1Il1[(tabi_lll1lIl11Il - "\073\049\049\108\073\049\049\108")(591154 + -544855)] = -667317 + 667318;
-					tabi_lII1lIl11Il.I111l11l[(tabi_lll1lIl11Il - "\073\108\073\073\049\108\108\049")(432432 - 386028)] = (tabi_lll1lIl11Il - "\073\049\073\108\049\073\108\108")(1040960 + -994692);
-					tabi_lII1lIl11Il.lIIIl11l[(tabi_lll1lIl11Il - "\073\049\049\049\049\073\073\049")(-928669 - (-975038))] = -454125.5 - (-454126);
-					tabi_lII1lIl11Il.ll1lIIIl[(tabi_lll1lIl11Il - "\108\049\108\049\108\073\073\049")(-862651 + 909007)] = tabi_Il1llIl11Il;
-					tabi_lII1lIl11Il.l1lIl1ll[(tabi_lll1lIl11Il - "\073\073\073\073\108\073\049\049")(745783 + -699474)] = -628595 + 629595;
-					local tabi_III1lIl11Il = tabi_l11llIl11Il({ Il1I1Ill = x - tabi_lII1lIl11Il.l11llIIl[(tabi_lll1lIl11Il - "\108\049\049\073\073\108")(-734553 - (-780920))][(tabi_lll1lIl11Il - "\073\108\108\108\108\073\073\049")(-551025 + 597341)] }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.Il1I1Ill = tabi_l11llIl11Il;
-							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return rawget(tabi_Il1llIl11Il, "\073\108\049\073\049\073\108\108");
+					(tabi_llII1IIlII + "\108\049\073\049\073\049\108\049")[(tabi_lI1I1IIlII / "\073\108\073\073\049\108\108")(-418047 - (-469423))] = (tabi_lI1I1IIlII / "\073\073\049\049\073\073\108\108")(854127 - 802745);
+					(tabi_llII1IIlII + "\073\108\108\073\108\073\049\108")[(tabi_lI1I1IIlII / "\108\108\108\049\049\049\049\108")(-512624 + 564099)] = tabi_I1lI1IIlII;
+					(tabi_llII1IIlII + "\108\073\108\108\049\073\108\049")[(tabi_lI1I1IIlII / "\073\108\073\073\073\073\049\049")(61218 + -9792)] = Color3[(tabi_lI1I1IIlII / "\073\108\108\108\073\049\073\049")(-264658 - (-316074))](-443566 + 443567, -924668 - (-924669), -278312 - (-278313));
+					(tabi_llII1IIlII + "\108\108\049\073\049\108\108")[(tabi_lI1I1IIlII / "\108\073\049\108\049\049\108\049")(602867 + -551520)] = -766711 - (-766712);
+					(tabi_llII1IIlII + "\073\108\108\049\073\049\108")[(tabi_lI1I1IIlII / "\073\073\049\073\108\073\073\108")(466926 + -415531)] = (tabi_lI1I1IIlII / "\073\073\108\108\108\073\108\049")(-731096 - (-782584));
+					(tabi_llII1IIlII + "\073\049\049\108\073\073\108\108")[(tabi_lI1I1IIlII / "\108\108\073\073\049\073\049\049")(374035 - 322666)] = -39072.5 - (-39073);
+					(tabi_llII1IIlII + "\073\049\049\108\073\108")[(tabi_lI1I1IIlII / "\073\108\049\108\073\073\108\108")(386668 + -335193)] = tabi_I1lI1IIlII;
+					(tabi_llII1IIlII + "\108\049\073\073\049\049\073\049")[(tabi_lI1I1IIlII / "\108\049\049\108\049\073\049\108")(656244 + -604758)] = 656348 - 655348;
+					local tabi_IIII1IIlII = tabi_l1lI1IIlII({ IlI1llll = x - (tabi_llII1IIlII + "\073\073\073\108\049")[(tabi_lI1I1IIlII / "\108\108\108\108\108\073\049\049")(-813386 - (-864763))][(tabi_lI1I1IIlII / "\108\073\108\108\108\108\049")(430170 - 378796)] }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.IlI1llll = tabi_l1lI1IIlII;
+							end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.IlI1llll;
 							end });
-					local tabi_llI1lIl11Il = tabi_l11llIl11Il({ Il111lll = y - tabi_lII1lIl11Il.l1lIIIl1[(tabi_lll1lIl11Il - "\073\073\049\073\073\073\073\108")(-186150 + 232517)][(tabi_lll1lIl11Il - "\073\108\108\073\108\073\049\049")(-768632 + 814981)] }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.Il111lll = tabi_l11llIl11Il;
-							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.Il111lll;
+					local tabi_lIII1IIlII = tabi_l1lI1IIlII({ II1llI1l = y - (tabi_llII1IIlII + "\073\073\049\049\073\108\108\108")[(tabi_lI1I1IIlII / "\073\108\049\073\108\108\049")(688373 + -636996)][(tabi_lI1I1IIlII / "\108\073\073\073\073\073\108\108")(210059 - 158565)] }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.II1llI1l = tabi_l1lI1IIlII;
+							end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.II1llI1l;
 							end });
-					tabi_lII1lIl11Il.I1I1l1[(tabi_lll1lIl11Il - "\073\073\073\073\049\049\049\108")(791593 - 745207)] = UDim2[(tabi_lll1lIl11Il - "\108\073\108\108\073\073\108\049")(841914 + -795641)](-945533 + 945533, tabi_III1lIl11Il.IlI11Il, -8672 - (-8672), tabi_llI1lIl11Il + "\073\049\049\049\073\073\049\049");
-					local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ II1lIII1 = 721590 + -721590 }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.II1lIII1 = tabi_l11llIl11Il;
-							end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.II1lIII1;
+					(tabi_llII1IIlII + "\108\049\073\073\108\108\108")[(tabi_lI1I1IIlII / "\073\108\073\108\073\049")(410620 - 359211)] = UDim2[(tabi_lI1I1IIlII / "\073\108\049\073\073\049\049")(-735264 - (-786680))](-12128 - (-12128), tabi_IIII1IIlII ^ "\073\049\108\049\073\108\049\049", -634804 + 634804, tabi_lIII1IIlII ^ "\108\049\108\108\073\108\073\108");
+					local tabi_I1II1IIlII = tabi_l1lI1IIlII({ lll111l = 348779 + -348779 }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.lll111l = tabi_l1lI1IIlII;
+							end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.lll111l;
 							end });
-					if tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\073\049\108\073\049\073\049\049")(-45074 - (-91363))][(tabi_lll1lIl11Il - "\073\049\073\108\049\108\073\049")(-198012 - (-244328))] > tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\108\049\049\049\108\073\108")(-279209 + 325498)][(tabi_lll1lIl11Il - "\073\049\108\073\049\049\049")(-423778 - (-470127))] then
-						(tabi_I11llIl11Il / "\108\108\108\049\073\049\049")(tabi_IlI1lIl11Il .. tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\073\049\108\108\049\073\049")(1014847 + -968558)][(tabi_lll1lIl11Il - "\108\073\073\049\073\073\108\049")(912316 + -866000)] * (66211.5 - 66210));
-					elseif tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\073\108\108\073\108\108")(974974 + -928685)][(tabi_lll1lIl11Il - "\108\108\073\073\073\108\049")(-521712 + 568028)] < tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\073\049\049\073\073\049\049")(486207 - 439918)][(tabi_lll1lIl11Il - "\073\049\049\108\108\073\049\108")(1038412 - 992063)] then
-						(tabi_I11llIl11Il / "\073\073\073\108\108\073\108")(tabi_IlI1lIl11Il .. tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\073\049\108\108\073\073\108\049")(-265305 - (-311594))][(tabi_lll1lIl11Il - "\108\049\049\108\073\108\049\049")(-268765 - (-315114))] * (701558 + -701556.5));
-					elseif tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\073\073\049\108\073\108")(211623 + -165334)][(tabi_lll1lIl11Il - "\108\049\073\108\108\073\108\049")(-860176 - (-906492))] == tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\049\073\108\049\049\073\108")(-432670 - (-478959))][(tabi_lll1lIl11Il - "\108\073\073\049\073\108\073\108")(895815 - 849466)] then
-						(tabi_I11llIl11Il / "\073\073\049\108\073\073\108")(tabi_IlI1lIl11Il .. tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\073\073\049\108\073\108")(565633 - 519344)][(tabi_lll1lIl11Il - "\108\073\049\049\049\049\049\108")(1012607 + -966291)] * (-612211 + 612212.5));
+					if tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\108\073\049\108\073\108\073\049")(-135736 - (-187174))][(tabi_lI1I1IIlII / "\108\108\108\108\073\073\108\049")(-825229 - (-876603))] > tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\108\049\108\108\108\049\108\049")(37582 - (-13856))][(tabi_lI1I1IIlII / "\108\073\108\049\108\049\049")(-776120 + 827614)] then
+						(tabi_IlII1IIlII ^ "\073\049\049\108\108\108\108\108")(tabi_I1II1IIlII * (tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\073\073\108\049\108\049\049\108")(407513 - 356075)][(tabi_lI1I1IIlII / "\108\073\073\108\073\108\073\108")(-505136 + 556510)] * (-272294.5 - (-272296))));
+					elseif tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\073\049\049\108\073\073\049\049")(1007404 - 955966)][(tabi_lI1I1IIlII / "\108\108\073\049\108\049")(-1015487 + 1066861)] < tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\108\049\049\049\049\049\108")(-295785 + 347223)][(tabi_lI1I1IIlII / "\108\108\049\108\108\049\108\108")(88163 + -36669)] then
+						(tabi_IlII1IIlII ^ "\073\108\073\049\073\073\108\108")(tabi_I1II1IIlII * (tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\108\049\073\073\049")(-891087 - (-942525))][(tabi_lI1I1IIlII / "\073\108\049\108\108\073\049\049")(643060 + -591566)] * (-255720 + 255721.5)));
+					elseif tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\073\108\073\108\108\108\073\049")(-586482 + 637920)][(tabi_lI1I1IIlII / "\073\049\108\049\049\049\108\049")(271016 + -219642)] == tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\108\049\073\108\108\049\073\049")(1005612 - 954174)][(tabi_lI1I1IIlII / "\073\108\049\073\073\108\108")(-768531 - (-820025))] then
+						(tabi_IlII1IIlII ^ "\073\108\073\073\108\108\073\108")(tabi_I1II1IIlII * (tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\108\073\073\073\049\108\108\049")(-884431 - (-935869))][(tabi_lI1I1IIlII / "\073\073\108\049\049\049\073\049")(-448366 + 499740)] * (668854.5 - 668853)));
 					end;
-					tabi_lII1lIl11Il.IlIlI1l:TweenSizeAndPosition(UDim2[(tabi_lll1lIl11Il - "\108\108\108\073\108\073\108\108")(-622003 + 668276)](-76514 + 76514, tabi_IlI1lIl11Il / "\073\049\049\049\108\073\073\049", -772920 - (-772920), tabi_IlI1lIl11Il / "\073\049\108\073\108\073\049\049"), UDim2[(tabi_lll1lIl11Il - "\073\073\108\049\108\073\049\049")(778744 - 732471)](-123748 + 123748.5, -(tabi_IlI1lIl11Il / "\073\108\073\108\049\049\108\108") / (-751351 + 751353), -136868 + 136868.5, -(tabi_IlI1lIl11Il / "\073\049\049\108\049\049\108") / (-68450 + 68452)), (tabi_lll1lIl11Il - "\073\073\049\073\073\108\108")(-665589 + 711941), (tabi_lll1lIl11Il - "\108\108\073\073\108\108\049")(10464 + 35866), 246824 + -246823.5, false, nil);
-					(tabi_I1I1lIl11Il ^ "\108\073\108\073\049\108")(tabi_lII1lIl11Il.lII1Il11, { [(tabi_lll1lIl11Il - "\073\108\108\073\108\108\049\108")(-914108 + 960477)] = 229096 - 229095 }, -32800.5 - (-32801));
-					wait(-565681.5 - (-565682));
-					tabi_lII1lIl11Il.Il11I1l:Destroy();
+					(tabi_llII1IIlII + "\108\049\073\108\108\049"):TweenSizeAndPosition(UDim2[(tabi_lI1I1IIlII / "\073\073\108\049\049\073\108\049")(-339860 - (-391276))](-834490 - (-834490), tabi_I1II1IIlII ^ "\108\073\073\073\108", 1044160 + -1044160, tabi_I1II1IIlII ^ "\108\049\073\073\108\073\108"), UDim2[(tabi_lI1I1IIlII / "\108\108\049\073\073\073\108\049")(479813 - 428397)](-328874 + 328874.5, -tabi_I1II1IIlII ^ "\073\073\073\073\108\073\108\049" / (-787382 - (-787384)), 446574.5 - 446574, -tabi_I1II1IIlII ^ "\073\049\108\108\108\049" / (18657 + -18655)), (tabi_lI1I1IIlII / "\073\073\049\108\049\049")(-757688 - (-809145)), (tabi_lI1I1IIlII / "\073\073\108\108\108\049\049")(972158 + -920727), 392492 + -392491.5, false, nil);
+					(tabi_Il1I1IIlII - "\073\049\073\073\108\049\108\108")(tabi_llII1IIlII + "\108\073\049\073\073\073\049\108", { [(tabi_lI1I1IIlII / "\108\108\073\049\049\108\108\108")(138508 - 87139)] = 714679 - 714678 }, -407596.5 - (-407597));
+					wait(-591026 + 591026.5);
+					(tabi_llII1IIlII + "\108\073\049\108\108\108\073\108"):Destroy();
 				end);
-			end }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				tabi_Il1llIl11Il.lIlIl1I1 = tabi_l11llIl11Il;
-			end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-				return tabi_Il1llIl11Il.lIlIl1I1;
+			end }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				tabi_I1lI1IIlII.l11I1IIl = tabi_l1lI1IIlII;
+			end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+				return rawget(tabi_I1lI1IIlII, "\108\049\049\073\049\073\073\108");
 			end });
-	function tabi_Il1llIl11Il.I11III1.New(tabi_Ill1lIl11Il, tabi_Il1llIl11Il, tabi_I1I1lIl11Il, tabi_IIl1lIl11Il, ...)
-		local tabi_l1l1lIl11Il = tabi_l11llIl11Il({ IllIIlll = {} }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.IllIIlll = tabi_l11llIl11Il;
-				end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return rawget(tabi_Il1llIl11Il, "\073\108\108\073\073\108\108\108");
+	function tabi_I1lI1IIlII.I111Il1.New(tabi_I11I1IIlII, tabi_I1lI1IIlII, tabi_Il1I1IIlII, tabi_II1I1IIlII, ...)
+		local tabi_l11I1IIlII = tabi_l1lI1IIlII({ Il1Il1I1 = {} }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.Il1Il1I1 = tabi_l1lI1IIlII;
+				end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\073\108\049\073\108\049\073\049");
 				end });
-		local tabi_I1l1lIl11Il = tabi_l11llIl11Il({ l111IIll = tabi_I1I1lIl11Il or Color3[(tabi_lll1lIl11Il - "\108\073\049\108\108\108\108")(-284649 + 330918)](574863 - 574770, -1001725 - (-1001919), -674677 + 674723) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.l111IIll = tabi_l11llIl11Il;
-				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.l111IIll;
+		local tabi_Ill11IIlII = tabi_l1lI1IIlII({ l1l1II1l = tabi_Il1I1IIlII or Color3[(tabi_lI1I1IIlII / "\108\049\049\049\049\108\049")(-902561 - (-953982))](-135460 + 135553, 211177 - 210983, 917244 + -917198) }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.l1l1II1l = tabi_l1lI1IIlII;
+				end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.l1l1II1l;
 				end });
-		local tabi_lI11lIl11Il = tabi_l11llIl11Il({ l1II1lll = tabi_I1I1lIl11Il or Color3[(tabi_lll1lIl11Il - "\108\108\073\049\073\049\108")(913660 + -867391)](-1028416 + 1028505, -355702 - (-355883), 357462 - 357419) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.l1II1lll = tabi_l11llIl11Il;
-				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.l1II1lll;
+		local tabi_lll11IIlII = tabi_l1lI1IIlII({ Il1I1lIl = tabi_Il1I1IIlII or Color3[(tabi_lI1I1IIlII / "\073\049\049\073\049\049\108")(-90723 + 142144)](1009368 - 1009279, -168037 + 168218, -389996 + 390039) }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.Il1I1lIl = tabi_l1lI1IIlII;
+				end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.Il1I1lIl;
 				end });
-		local tabi_II11lIl11Il = tabi_l11llIl11Il({ IIIIlI11 = Instance[(tabi_lll1lIl11Il - "\108\073\108\049\073\049\108\108")(-592050 + 638323)]((tabi_lll1lIl11Il - "\108\108\049\108\049\049\108")(296297 + -250041)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.IIIIlI11 = tabi_l11llIl11Il;
-				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.IIIIlI11;
+		local tabi_IIl11IIlII = tabi_l1lI1IIlII({ lIl1ll1l = Instance[(tabi_lI1I1IIlII / "\073\049\073\049\073\108\049")(963988 - 912572)]((tabi_lI1I1IIlII / "\108\108\073\073\073\108\108\049")(-665397 + 716877)) }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.lIl1ll1l = tabi_l1lI1IIlII;
+				end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\108\073\108\049\108\108\049\108");
 				end });
-		local tabi_ll11lIl11Il = tabi_l11llIl11Il({ I1IlIll1 = Instance[(tabi_lll1lIl11Il - "\073\108\073\073\073\073\049\108")(326570 - 280297)]((tabi_lll1lIl11Il - "\108\073\108\108\073\073\073\108")(1068073 - 1021760)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.I1IlIll1 = tabi_l11llIl11Il;
-				end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.I1IlIll1;
+		local tabi_lIl11IIlII = tabi_l1lI1IIlII({ l11llI11 = Instance[(tabi_lI1I1IIlII / "\108\073\108\073\049\108\108\108")(-973374 + 1024790)]((tabi_lI1I1IIlII / "\108\073\049\073\049")(61666 + -10218)) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.l11llI11 = tabi_l1lI1IIlII;
+				end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\108\049\049\108\108\073\049\049");
 				end });
-		local tabi_Il11lIl11Il = tabi_l11llIl11Il({ I11l111l = Instance[(tabi_lll1lIl11Il - "\108\049\073\108\073\049\049")(501936 + -455663)]((tabi_lll1lIl11Il - "\108\049\073\073\049\049\049")(389204 - 342891)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.I11l111l = tabi_l11llIl11Il;
-				end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.I11l111l;
+		local tabi_I1l11IIlII = tabi_l1lI1IIlII({ lII1l = Instance[(tabi_lI1I1IIlII / "\108\049\073\073\049\049\108")(-605148 - (-656564))]((tabi_lI1I1IIlII / "\073\108\108\073\049\049\108")(-574971 - (-626419))) }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.lII1l = tabi_l1lI1IIlII;
+				end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.lII1l;
 				end });
-		local tabi_l111lIl11Il = tabi_l11llIl11Il({ I1l1Il1l = Instance[(tabi_lll1lIl11Il - "\073\073\073\073\108\108\073\108")(907516 + -861243)]((tabi_lll1lIl11Il - "\073\108\073\108\049\108\108\049")(1004095 + -957717)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.I1l1Il1l = tabi_l11llIl11Il;
-				end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.I1l1Il1l;
+		local tabi_l1l11IIlII = tabi_l1lI1IIlII({ lI1ll1ll = Instance[(tabi_lI1I1IIlII / "\073\073\073\108\073\108\049\108")(6432 + 44984)]((tabi_lI1I1IIlII / "\073\049\049\108\049\049\049\108")(-261160 + 312513)) }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.lI1ll1ll = tabi_l1lI1IIlII;
+				end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.lI1ll1ll;
 				end });
-		local tabi_I111lIl11Il = tabi_l11llIl11Il({ IlIll1Il = Instance[(tabi_lll1lIl11Il - "\108\073\073\049\108\073\108")(-403629 + 449902)]((tabi_lll1lIl11Il - "\073\049\073\073\073\108\073\108")(74402 + -28089)) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.IlIll1Il = tabi_l11llIl11Il;
-				end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return rawget(tabi_Il1llIl11Il, "\073\108\073\108\108\049\073\108");
+		local tabi_IlI11IIlII = tabi_l1lI1IIlII({ I1l11I1l = Instance[(tabi_lI1I1IIlII / "\108\108\073\108\049\108")(-739040 - (-790456))]((tabi_lI1I1IIlII / "\108\073\073\049\049\073\049")(642794 - 591346)) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.I1l11I1l = tabi_l1lI1IIlII;
+				end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.I1l11I1l;
 				end });
-		local tabi_lIII1Il11Il = tabi_l11llIl11Il({ I1lIl1l1 = Instance[(tabi_lll1lIl11Il - "\073\108\073\049\108\049\049\108")(704885 - 658612)]((tabi_lll1lIl11Il - "\073\073\108\108\049\049\108\108")(460311 - 413933)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.I1lIl1l1 = tabi_l11llIl11Il;
-				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.I1lIl1l1;
+		local tabi_llI11IIlII = tabi_l1lI1IIlII({ l1l1IIl = Instance[(tabi_lI1I1IIlII / "\108\108\049\108\049\073\073\108")(-1001471 + 1052887)]((tabi_lI1I1IIlII / "\073\049\108\108\108\108\049\108")(-344555 + 395908)) }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.l1l1IIl = tabi_l1lI1IIlII;
+				end, __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\108\049\108\049\073\073\108");
 				end });
-		local tabi_IIII1Il11Il = tabi_l11llIl11Il({ lI1Ill = Instance[(tabi_lll1lIl11Il - "\108\108\073\049\049\049\108\049")(-62882 - (-109155))]((tabi_lll1lIl11Il - "\108\108\049\073\073\049\049\108")(574767 - 528496)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.lI1Ill = tabi_l11llIl11Il;
-				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.lI1Ill;
+		local tabi_III11IIlII = tabi_l1lI1IIlII({ Ill1ll1 = Instance[(tabi_lI1I1IIlII / "\073\108\049\049\108\073\049")(-258920 + 310336)]((tabi_lI1I1IIlII / "\073\073\108\108\108\049\049")(-887099 + 938533)) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.Ill1ll1 = tabi_l1lI1IIlII;
+				end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.Ill1ll1;
 				end });
-		local tabi_llII1Il11Il = tabi_l11llIl11Il({ lIl111 = Instance[(tabi_lll1lIl11Il - "\108\049\073\108\049\049\049\108")(714742 + -668469)]((tabi_lll1lIl11Il - "\073\073\108\108\108\049")(-900092 + 946452)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.lIl111 = tabi_l11llIl11Il;
-				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return rawget(tabi_Il1llIl11Il, "\108\073\108\049\049\049");
+		local tabi_lII11IIlII = tabi_l1lI1IIlII({ IlIII1l1 = Instance[(tabi_lI1I1IIlII / "\108\108\049\108\049\049\108\049")(776888 + -725472)]((tabi_lI1I1IIlII / "\073\073\108\108\108\049\049\108")(59131 - 7712)) }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.IlIII1l1 = tabi_l1lI1IIlII;
+				end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\073\108\073\073\073\049\108\049");
 				end });
-		local tabi_IlII1Il11Il = tabi_l11llIl11Il({ lII1llI1 = Instance[(tabi_lll1lIl11Il - "\073\108\108\073\108\108\049")(840378 - 794105)]((tabi_lll1lIl11Il - "\108\108\108\073\108\049\049\108")(-276416 - (-322794))) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.lII1llI1 = tabi_l11llIl11Il;
-				end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.lII1llI1;
+		local tabi_I1I11IIlII = tabi_l1lI1IIlII({ lIlIllIl = Instance[(tabi_lI1I1IIlII / "\108\108\108\049\108\108\073\108")(-602931 + 654347)]((tabi_lI1I1IIlII / "\073\108\049\049\108\073\108\108")(-894268 + 945621)) }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.lIlIllIl = tabi_l1lI1IIlII;
+				end, __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\108\073\108\073\108\108\073\108");
 				end });
-		local tabi_l1II1Il11Il = tabi_l11llIl11Il({ Il1l1I11 = Instance[(tabi_lll1lIl11Il - "\108\108\073\108\108\049\108\108")(115492 + -69219)]((tabi_lll1lIl11Il - "\108\108\073\108\049\108\073\049")(-1000191 + 1046504)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.Il1l1I11 = tabi_l11llIl11Il;
-				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return rawget(tabi_Il1llIl11Il, "\073\108\049\108\049\073\049\049");
+		local tabi_l1I11IIlII = tabi_l1lI1IIlII({ lI1l1 = Instance[(tabi_lI1I1IIlII / "\073\073\049\049\108\073\073\108")(414467 - 363051)]((tabi_lI1I1IIlII / "\073\073\108\108\049\073\108\049")(-8800 + 60248)) }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.lI1l1 = tabi_l1lI1IIlII;
+				end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.lI1l1;
 				end });
-		local tabi_I1II1Il11Il = tabi_l11llIl11Il({ IlI1ll = Instance[(tabi_lll1lIl11Il - "\108\073\049")(-376940 - (-423213))]((tabi_lll1lIl11Il - "\073\108\108\108\073\073\108\108")(1005247 + -958869)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.IlI1ll = tabi_l11llIl11Il;
-				end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.IlI1ll;
+		local tabi_Il111IIlII = tabi_l1lI1IIlII({ IlIIl1l1 = Instance[(tabi_lI1I1IIlII / "\108\108\108\073\073\108")(811728 - 760312)]((tabi_lI1I1IIlII / "\108\073\049\073\049\108\108\049")(-984319 + 1035672)) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.IlIIl1l1 = tabi_l1lI1IIlII;
+				end, __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.IlIIl1l1;
 				end });
-		local tabi_lIlI1Il11Il = tabi_l11llIl11Il({ llI1I1ll = Instance[(tabi_lll1lIl11Il - "\108\049\049\049\073\108\049")(302889 - 256616)]((tabi_lll1lIl11Il - "\073\049\049\073\073\108\049\108")(987302 - 940989)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.llI1I1ll = tabi_l11llIl11Il;
-				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.llI1I1ll;
+		local tabi_ll111IIlII = tabi_l1lI1IIlII({ l1l1111l = Instance[(tabi_lI1I1IIlII / "\073\108\073\073\108\108\049")(-351060 - (-402476))]((tabi_lI1I1IIlII / "\108\108\049\073\073\073\108\049")(-1018560 + 1070008)) }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.l1l1111l = tabi_l1lI1IIlII;
+				end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.l1l1111l;
 				end });
-		local tabi_IIlI1Il11Il = tabi_l11llIl11Il({ llI1Il1l = Instance[(tabi_lll1lIl11Il - "\108\049\049\108\108\073\049")(-482863 + 529136)]((tabi_lll1lIl11Il - "\108\073\049\108\049\073\073\049")(580146 + -533833)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.llI1Il1l = tabi_l11llIl11Il;
-				end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.llI1Il1l;
+		local tabi_II111IIlII = tabi_l1lI1IIlII({ IIIlII1 = Instance[(tabi_lI1I1IIlII / "\108\073\049\049\073\049\073\049")(658164 + -606748)]((tabi_lI1I1IIlII / "\108\108\073\108\108\108")(748270 - 696822)) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.IIIlII1 = tabi_l1lI1IIlII;
+				end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.IIIlII1;
 				end });
-		local tabi_lllI1Il11Il = tabi_l11llIl11Il({ IlIll = Instance[(tabi_lll1lIl11Il - "\073\073\108\108\108\108\073\108")(-687350 - (-733623))]((tabi_lll1lIl11Il - "\108\073\108\049\073\049\049")(983014 - 936701)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.IlIll = tabi_l11llIl11Il;
-				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return rawget(tabi_Il1llIl11Il, "\073\108\073\108\108");
+		local tabi_lI111IIlII = tabi_l1lI1IIlII({ l11lll = Instance[(tabi_lI1I1IIlII / "\108\108\073\108\108\108\049")(-548635 - (-600051))]((tabi_lI1I1IIlII / "\073\108\073\073\073\073\108\049")(-541562 - (-593010))) }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.l11lll = tabi_l1lI1IIlII;
+				end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\108\049\049\108\108\108");
 				end });
-		local tabi_IllI1Il11Il = tabi_l11llIl11Il({ llIll1I1 = Instance[(tabi_lll1lIl11Il - "\108\049\073\049\073\108\049\049")(8288 - (-37985))]((tabi_lll1lIl11Il - "\073\049\108\108\049\073\108\108")(128100 + -81813)) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.llIll1I1 = tabi_l11llIl11Il;
-				end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.llIll1I1;
+		local tabi_I1111IIlII = tabi_l1lI1IIlII({ l1I1llll = Instance[(tabi_lI1I1IIlII / "\073\108\073\073\073\073\073\049")(-819875 - (-871291))]((tabi_lI1I1IIlII / "\108\073\049\049\049\073\108")(392974 - 341611)) }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.l1I1llll = tabi_l1lI1IIlII;
+				end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.l1I1llll;
 				end });
-		local tabi_l1lI1Il11Il = tabi_l11llIl11Il({ l1l11l = Instance[(tabi_lll1lIl11Il - "\108\049\049\108\049\108")(443694 + -397421)]((tabi_lll1lIl11Il - "\073\108\049\073\108\073\108")(462510 + -416164)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.l1l11l = tabi_l11llIl11Il;
-				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.l1l11l;
+		local tabi_l1111IIlII = tabi_l1lI1IIlII({ IIl11II1 = Instance[(tabi_lI1I1IIlII / "\073\073\049\108\049\108\108\108")(-232167 + 283583)]((tabi_lI1I1IIlII / "\108\049\108\049\073\073\108\049")(157988 - 106595)) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.IIl11II1 = tabi_l1lI1IIlII;
+				end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.IIl11II1;
 				end });
-		local tabi_I1lI1Il11Il = tabi_l11llIl11Il({ l1lIIII1 = Instance[(tabi_lll1lIl11Il - "\073\073\073\049\049\073\073\049")(-697398 + 743671)]((tabi_lll1lIl11Il - "\073\073\049\049\073\108\049\108")(305321 + -259008)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.l1lIIII1 = tabi_l11llIl11Il;
-				end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.l1lIIII1;
+		local tabi_Illll1IlII = tabi_l1lI1IIlII({ l11IIlI1 = Instance[(tabi_lI1I1IIlII / "\073\108\049\108\049\049\073\108")(-961319 - (-1012735))]((tabi_lI1I1IIlII / "\108\108\049\108\049\108\049")(862843 + -811395)) }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.l11IIlI1 = tabi_l1lI1IIlII;
+				end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return rawget(tabi_I1lI1IIlII, "\108\049\049\073\073\108\073\049");
 				end });
-		(tabi_II11lIl11Il + "\073\073\108\049\073\073\073\108")[(tabi_lll1lIl11Il - "\073\073\073\049")(-782203 - (-828538))] = (tabi_lll1lIl11Il - "\073\108\108\049\049\108\108\108")(106339 + -59992);
-		(tabi_II11lIl11Il + "\073\108\049\049\108\049\108")[(tabi_lll1lIl11Il - "\073\049\108\108\073\049\049\108")(1016210 - 969854)] = game[(tabi_lll1lIl11Il - "\073\049\049\049\073\108\049")(707638 + -661342)][(tabi_lll1lIl11Il - "\073\049\108\049\073\073\108\049")(-248296 + 294575)]:WaitForChild((tabi_lll1lIl11Il - "\108\073\073\073\049\049\108\108")(-488084 - (-534449)));
-		(tabi_II11lIl11Il + "\073\108\049\049\049")[(tabi_lll1lIl11Il - "\073\049\108\108\073\049\108\108")(1063221 - 1016960)] = Enum[(tabi_lll1lIl11Il - "\073\049\073\073\108\108")(700457 - 654196)][(tabi_lll1lIl11Il - "\108\108\049\108\108\108\049\108")(-687797 + 734136)];
-		(tabi_ll11lIl11Il / "\108\073\049\049\108\049\049")[(tabi_lll1lIl11Il - "\108\108\073\049\073\073\108")(-5902 - (-52258))] = tabi_II11lIl11Il + "\108\049\108\108\108\108\073\049";
-		(tabi_ll11lIl11Il / "\073\049\108\073\073\049\049\108")[(tabi_lll1lIl11Il - "\073\108\073\073\073\049\073\108")(-128995 - (-175397))] = Color3[(tabi_lll1lIl11Il - "\073\049\049\073\108\049\049")(70366 - 24097)](717914 - 717878, -206597 - (-206630), -281093 - (-281129));
-		(tabi_ll11lIl11Il / "\073\049\049\049\049\049\073\049")[(tabi_lll1lIl11Il - "\073\108\049\108\049\108")(520674 - 474415)] = Color3[(tabi_lll1lIl11Il - "\108\108\073\108\108\073\073\049")(24289 + 21980)](1046400 - 1046400, -420525 + 420525, 26337 + -26337);
-		(tabi_ll11lIl11Il / "\108\108\073\108\108\049\049")[(tabi_lll1lIl11Il - "\108\073\108\108\073\049")(-78178 + 124506)] = 1013119 + -1013119;
-		(tabi_ll11lIl11Il / "\108\073\073\108\049\108\073\049")[(tabi_lll1lIl11Il - "\073\073\049\073\049\108\073\108")(658228 + -611842)] = UDim2[(tabi_lll1lIl11Il - "\073\108\073\108\108\108")(222503 + -176230)](998527 - 998527, 519472 + -519467, -967742 + 967742, -32545 + 32550);
-		(tabi_ll11lIl11Il / "\108\108\073\049\108\049\049\108")[(tabi_lll1lIl11Il - "\108\049\049\049\108")(-799033 + 845397)] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\049\073\073\049")(-545585 - (-591858))](-114660 - (-114660), -550961 + 551461, 43809 - 43809, -995903 + 996213);
-		(tabi_ll11lIl11Il / "\073\049\108\049\049\049\108\108")[(tabi_lll1lIl11Il - "\108\049\049\049\073\108")(-319914 + 366243)] = true;
-		(tabi_I1lI1Il11Il + "\108\108\049\049\108\073\108")[(tabi_lll1lIl11Il - "\108\049\049\049\073\073\108")(882553 - 836218)] = (tabi_lll1lIl11Il - "\108\108\073\049\108\049\073\049")(349739 + -303349);
-		(tabi_I1lI1Il11Il + "\108\073\073\049\049")[(tabi_lll1lIl11Il - "\108\049\049\073\049\049\073\108")(864315 + -817959)] = tabi_ll11lIl11Il / "\108\108\073\049\108\049\049\108";
-		(tabi_I1lI1Il11Il + "\108\108\049\049\073\108\108\108")[(tabi_lll1lIl11Il - "\073\049\108\073\108\073\073\049")(774712 + -728310)] = Color3[(tabi_lll1lIl11Il - "\108\049\049\108\108\108\073\049")(-164970 - (-211239))](501104 + -500849, 567473 - 567218, 354218 - 353963);
-		(tabi_I1lI1Il11Il + "\073\073\108\073\073\108\049\049")[(tabi_lll1lIl11Il - "\073\049\108\049\073\108\108\049")(660686 - 614387)] = 81828 - 81827;
-		(tabi_I1lI1Il11Il + "\073\073\108\073\049\073\049")[(tabi_lll1lIl11Il - "\073\049\049\073\049\073\073\108")(-539071 - (-585330))] = Color3[(tabi_lll1lIl11Il - "\108\073\108\073\108\073\073\108")(-647412 + 693681)](872571 - 872571, 44641 + -44641, -754487 - (-754487));
-		(tabi_I1lI1Il11Il + "\108\108\049\108\108\073\073\108")[(tabi_lll1lIl11Il - "\108\073\108\108\108\073\049\049")(549992 - 503664)] = -767608 - (-767608);
-		(tabi_I1lI1Il11Il + "\108\049\049\049\049\073\073\108")[(tabi_lll1lIl11Il - "\073\108\073\049\073\049\108\049")(-19440 - (-65826))] = UDim2[(tabi_lll1lIl11Il - "\108\049\073\073\108\049\108")(-961086 + 1007359)](.238000005, 236647 + -236647, .109677419, 304873 - 304873);
-		(tabi_I1lI1Il11Il + "\073\073\108\073\108\108\073\108")[(tabi_lll1lIl11Il - "\108\049\073\049\049\108")(-342571 + 388935)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\108\073\049\049")(355883 - 309610)](197030 - 197030, -751303 - (-751671), 588274 + -588274, 564850 + -564581);
-		(tabi_Il11lIl11Il * "\108\049\108\108\049\073\049")[(tabi_lll1lIl11Il - "\073\108\108\073\049\049\108\108")(-638070 - (-684405))] = (tabi_lll1lIl11Il - "\108\049\049\073\108")(132331 - 85987);
-		(tabi_Il11lIl11Il * "\073\049\108\073\049\073\049\108")[(tabi_lll1lIl11Il - "\108\073\049\049\073\108\108\108")(-467822 + 514178)] = tabi_ll11lIl11Il / "\108\049\049\108\108\049\073\049";
-		(tabi_Il11lIl11Il * "\073\073\108\108\073\108\049\049")[(tabi_lll1lIl11Il - "\073\108\073\049\049\049\049\108")(-346154 - (-392556))] = tabi_I1l1lIl11Il .. "\073\049\108\108\108\073\108";
-		(tabi_Il11lIl11Il * "\073\049\049\049\049\049\108\108")[(tabi_lll1lIl11Il - "\108\108\108\049\049\049")(-213095 + 259354)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\073\108")(-446450 - (-492719))](192294 + -192294, 775608 - 775608, -998847 + 998847);
-		(tabi_Il11lIl11Il * "\073\108\073\049\049")[(tabi_lll1lIl11Il - "\073\073\049\073\108\073\049\049")(-807033 + 853361)] = 865531 + -865531;
-		(tabi_Il11lIl11Il * "\073\108\108\073\073\108\049")[(tabi_lll1lIl11Il - "\108\073\108\049\049\073\049")(-436270 + 482634)] = UDim2[(tabi_lll1lIl11Il - "\073\049\108\049\073\073\049")(493935 - 447662)](-876603 + 876604, -338730 - (-338730), 280617 + -280617, -1012095 + 1012120);
-		(tabi_l111lIl11Il ^ "\073\073\073\108\073\108\049\108")[(tabi_lll1lIl11Il - "\073\049\073\049\108\049\073\108")(-212519 + 258779)] = UDim[(tabi_lll1lIl11Il - "\073\073\049\108\108\108\073\049")(-917693 - (-963966))](-302953 - (-302953), -574578 + 574584);
-		(tabi_l111lIl11Il ^ "\073\073\108\073\073\049\073\049")[(tabi_lll1lIl11Il - "\108\108\073\108\049\049\073\108")(-11360 + 57695)] = (tabi_lll1lIl11Il - "\073\108\073\073\073\108\108\049")(318533 - 272232);
-		(tabi_l111lIl11Il ^ "\073\108\108\108\049\073\049\049")[(tabi_lll1lIl11Il - "\073\108\108\049\073\073\073\108")(448704 - 402348)] = tabi_Il11lIl11Il * "\108\108\073\049\073\073\108\108";
-		tabi_I111lIl11Il.IlI1llll[(tabi_lll1lIl11Il - "\073\073\108\049")(803705 + -757370)] = (tabi_lll1lIl11Il - "\108\049\073\073\049\108\049\108")(-1036544 + 1082869);
-		tabi_I111lIl11Il.l1l1l1[(tabi_lll1lIl11Il - "\073\073\049\108\049\073\049")(596037 - 549681)] = tabi_Il11lIl11Il * "\073\073\073\073\049\073\073\049";
-		tabi_I111lIl11Il.I1II1lll[(tabi_lll1lIl11Il - "\108\108\108\108\073\049\049\108")(241233 - 194918)] = Vector2[(tabi_lll1lIl11Il - "\108\073\073\049\073\108\049\108")(-502128 - (-548401))](-3808 - (-3808), 15649 - 15648);
-		tabi_I111lIl11Il.I1lII1[(tabi_lll1lIl11Il - "\108\073\049\073\073\049\108\049")(-700149 - (-746551))] = tabi_I1l1lIl11Il .. "\108\073\049\108\108\108";
-		tabi_I111lIl11Il.llI1I1l1[(tabi_lll1lIl11Il - "\073\073\108\049\108\073\049")(-167525 + 213784)] = Color3[(tabi_lll1lIl11Il - "\108\108\073\073\073\108\108\108")(-922493 + 968762)](44321 - 44321, 775288 + -775288, 230439 - 230439);
-		tabi_I111lIl11Il.llI11l1[(tabi_lll1lIl11Il - "\108\073\108\049\049\108\108\108")(-167781 + 214109)] = 91235 - 91235;
-		tabi_I111lIl11Il.lIlI1Ill[(tabi_lll1lIl11Il - "\108\108\049\108\108\049\073\108")(690357 + -643971)] = UDim2[(tabi_lll1lIl11Il - "\073\108\073\049\073\073\049")(-1045696 + 1091969)](515248 + -515248, -499887 + 499887, 1.00000012, -898044 - (-898044));
-		tabi_I111lIl11Il.II111ll[(tabi_lll1lIl11Il - "\073\073\073\073\049\108")(158975 - 112611)] = UDim2[(tabi_lll1lIl11Il - "\073\108\073\108\073\108\073\049")(-397037 - (-443310))](39650 - 39649, 945981 - 945981, .0390000008, 641652 + -641644);
-		(tabi_lIII1Il11Il .. "\108\108\049\108\073\049\108\049")[(tabi_lll1lIl11Il - "\073\108\073\073\108\073\108\049")(412394 - 366059)] = (tabi_lll1lIl11Il - "\108\073\108\108")(-302185 + 348469);
-		(tabi_lIII1Il11Il .. "\108\049\049\073\073\049\049\108")[(tabi_lll1lIl11Il - "\108\108\108\108\073\108\073\049")(802105 + -755749)] = tabi_I111lIl11Il.IllIll;
-		(tabi_lIII1Il11Il .. "\073\049\108\073\049\049\108\108")[(tabi_lll1lIl11Il - "\073\073\108\108\073\073\108")(717110 + -670850)] = UDim[(tabi_lll1lIl11Il - "\108\108\108\049\073\073\108\108")(615283 + -569010)](-714934 + 714934, 294761 - 294761);
-		(tabi_IIII1Il11Il + "\108\049\108\073\108\073\108\049")[(tabi_lll1lIl11Il - "\108\108\108\073\073\073\073\049")(922365 + -876009)] = tabi_Il11lIl11Il * "\108\073\049\073\073\049\108\049";
-		(tabi_IIII1Il11Il + "\108\049\049\108\108\049\073\108")[(tabi_lll1lIl11Il - "\108\049\108\108\049\073\049")(-459630 - (-506032))] = Color3[(tabi_lll1lIl11Il - "\108\073\049\108\049\073\073\108")(307365 - 261096)](-1043841 - (-1044096), 281449 + -281194, -371757 - (-372012));
-		(tabi_IIII1Il11Il + "\073\073\108\108\049\073\108")[(tabi_lll1lIl11Il - "\108\108\108\108\108\073\049\108")(-25441 + 71740)] = -201766 + 201767;
-		(tabi_IIII1Il11Il + "\073\108\073\049\049\108\108")[(tabi_lll1lIl11Il - "\108\073\108\108\073\049\073\108")(485985 - 439726)] = Color3[(tabi_lll1lIl11Il - "\073\108\073\073\073\049\108\108")(575474 + -529205)](421677 + -421677, 237351 + -237351, 75490 + -75490);
-		(tabi_IIII1Il11Il + "\108\108\108\108\073\049\049\108")[(tabi_lll1lIl11Il - "\073\108\073\049\073\049\049")(-754295 + 800623)] = 1045952 + -1045952;
-		(tabi_IIII1Il11Il + "\073\049\073\073\049\049\108\108")[(tabi_lll1lIl11Il - "\108\049\073\073\073\073\049\049")(393900 + -347514)] = UDim2[(tabi_lll1lIl11Il - "\073\073\108\108\108\108\073\049")(-527024 + 573297)](.0599999987, -843642 - (-843642), -109923 - (-109923), 833722 + -833722);
-		(tabi_IIII1Il11Il + "\073\073\049\049\108")[(tabi_lll1lIl11Il - "\108\049\049\049\049\049")(595122 + -548758)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\049\073\108\073\049")(-277161 + 323434)](.477999985, 104931 + -104931, 306731 - 306730, 542385 + -542385);
-		(tabi_IIII1Il11Il + "\073\073\073\073\049\108")[(tabi_lll1lIl11Il - "\073\049\108\049\049\108\108\049")(-667829 + 714223)] = Enum[(tabi_lll1lIl11Il - "\108\108\073\073\108\073\049")(-979910 - (-1026304))][(tabi_lll1lIl11Il - "\073\073\108\108\073\108\073\049")(-826628 - (-872955))];
-		(tabi_IIII1Il11Il + "\108\073\049\049\108\049\049\108")[(tabi_lll1lIl11Il - "\108\108\108\108\073\049\073\049")(108707 + -62304)] = tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\108\073\049\073\049\049\049")(-898203 - (-944573));
-		(tabi_IIII1Il11Il + "\108\049\073\108\049\049\073\049")[(tabi_lll1lIl11Il - "\108\108\049\108\073\108\108\108")(820473 + -774131)] = Color3[(tabi_lll1lIl11Il - "\108\108\108\073\073\108")(243491 - 197222)](736054 - 735799, -1013759 + 1014014, 70753 - 70498);
-		(tabi_IIII1Il11Il + "\108\049\073\108\049\049")[(tabi_lll1lIl11Il - "\073\049\073\108\073\049")(-56717 - (-103011))] = -435630 + 435644;
-		(tabi_IIII1Il11Il + "\073\108\049\049\073\049\108\049")[(tabi_lll1lIl11Il - "\108\073\073\108\108\073\073\049")(-1016384 + 1062701)] = Enum[(tabi_lll1lIl11Il - "\108\049\073\073\049\108")(-699594 - (-745911))][(tabi_lll1lIl11Il - "\073\108\073\108\049\049")(-452270 + 498604)];
-		(tabi_llII1Il11Il + "\073\049\108\108\108\108\049")[(tabi_lll1lIl11Il - "\108\108\049\049\073\073\108\049")(-751287 + 797622)] = (tabi_lll1lIl11Il - "\073\108\073\073\049\049\108")(323926 - 277545);
-		(tabi_llII1Il11Il + "\073\049\049\108\049\073\108\108")[(tabi_lll1lIl11Il - "\073\108\049\108\073\108\073\108")(-844410 + 890766)] = tabi_Il11lIl11Il * "\108\108\073\049\049\073\108\049";
-		(tabi_llII1Il11Il + "\073\049\073\073\108\073\073\108")[(tabi_lll1lIl11Il - "\073\049\108\108\108\049\049\108")(-768183 - (-814585))] = Color3[(tabi_lll1lIl11Il - "\108\049\108\108\049\108\108")(915576 - 869307)](-1017857 - (-1018112), 403180 + -402925, 595250 + -594995);
-		(tabi_llII1Il11Il + "\073\049\049\049\108\108\108\049")[(tabi_lll1lIl11Il - "\108\049\108\073\073\108\108\049")(892245 - 845946)] = -874618 - (-874619);
-		(tabi_llII1Il11Il + "\073\108\049\073\073\049")[(tabi_lll1lIl11Il - "\108\073\108\073\049\108\049")(-213351 + 259610)] = Color3[(tabi_lll1lIl11Il - "\073\073\108\108\108\108\073\049")(-512880 + 559149)](832698 - 832698, 438446 - 438446, -804729 - (-804729));
-		(tabi_llII1Il11Il + "\108\073\073\108\108\108\073\108")[(tabi_lll1lIl11Il - "\108\049\073\049\049\108\108\108")(217629 - 171301)] = 773112 - 773112;
-		(tabi_llII1Il11Il + "\108\108\049\108\108\108\108\049")[(tabi_lll1lIl11Il - "\108\049\049\108\108\073\049")(-980750 - (-1027136))] = UDim2[(tabi_lll1lIl11Il - "\108\073\108\073\049\108\108\108")(24032 - (-22241))](.0179999992, -872955 + 872955, .194999993, -168933 - (-168933));
-		(tabi_llII1Il11Il + "\108\073\073\049\073\073\073\108")[(tabi_lll1lIl11Il - "\108\049\108\073\108\108\108\049")(408715 - 362347)] = 950257 - 950077;
-		(tabi_llII1Il11Il + "\108\073\073\049\073\073\108\049")[(tabi_lll1lIl11Il - "\108\108\108\073\073\073\108\108")(884886 - 838522)] = UDim2[(tabi_lll1lIl11Il - "\073\073\108\108\049\108\073\108")(-81955 + 128228)](548529 + -548529, 92595 - 92579, -744823 - (-744823), 154101 - 154085);
-		(tabi_llII1Il11Il + "\073\073\073\073\049\108\073\108")[(tabi_lll1lIl11Il - "\073\073\073\073\108\049")(-78112 - (-124516))] = (tabi_lll1lIl11Il - "\073\049\108\049\049")(-558449 + 604797);
-		(tabi_IlII1Il11Il * "\073\108\049\108\073\049")[(tabi_lll1lIl11Il - "\108\108\049\108\073\108\108\108")(350187 + -303927)] = UDim[(tabi_lll1lIl11Il - "\108\049\073\049\073\073\049")(1030528 - 984255)](37729 - 37729, -610099 + 610105);
-		(tabi_IlII1Il11Il * "\108\108\073\108\108\073\108")[(tabi_lll1lIl11Il - "\108\049\073\049\108\108\049")(-598773 - (-645108))] = (tabi_lll1lIl11Il - "\108\073\049\108\108\073\073\049")(-719286 + 765619);
-		(tabi_IlII1Il11Il * "\073\108\108\073\073\049\108\049")[(tabi_lll1lIl11Il - "\073\049\049\108\073\073\073\049")(-662050 - (-708406))] = tabi_ll11lIl11Il / "\108\049\108\049\049\108\073\108";
-		(tabi_l1II1Il11Il .. "\073\108\108\108\108\073\108\049")[(tabi_lll1lIl11Il - "\108\049\049\108\049\073\108\108")(-119078 - (-165413))] = (tabi_lll1lIl11Il - "\073\108\108\073\108\049\108\108")(810637 - 764280);
-		(tabi_l1II1Il11Il .. "\108\073\108\073\073\073\108\108")[(tabi_lll1lIl11Il - "\073\049\108\108\073\108\073\108")(928893 + -882537)] = tabi_ll11lIl11Il / "\073\049\108\108\049\049\073\108";
-		(tabi_l1II1Il11Il .. "\108\073\108\073\073\108\108\049")[(tabi_lll1lIl11Il - "\073\108\073\108\073\073\049\049")(-502384 + 548786)] = Color3[(tabi_lll1lIl11Il - "\073\073\108\049\049")(435181 + -388912)](919997 + -919959, 385807 - 385772, 108873 - 108835);
-		(tabi_l1II1Il11Il .. "\108\049\049\073\073\049\049\108")[(tabi_lll1lIl11Il - "\108\108\049\108\108\073\049\049")(-8416 + 54675)] = Color3[(tabi_lll1lIl11Il - "\108\108\108\073\073\049\049")(39713 + 6556)](155045 - 155045, 404397 + -404397, -799289 - (-799289));
-		(tabi_l1II1Il11Il .. "\073\108\108\049\049\049\073\108")[(tabi_lll1lIl11Il - "\073\108\108\073\108\073\049")(550632 - 504304)] = -536113 - (-536113);
-		(tabi_l1II1Il11Il .. "\108\108\108\049\108\108\108")[(tabi_lll1lIl11Il - "\108\108\108\108\108\049")(905389 - 859003)] = UDim2[(tabi_lll1lIl11Il - "\073\049\108\073\108\108\108")(-481647 + 527920)](-405741 + 405741, -82211 - (-82211), -218919 + 218919, 287593 + -287563);
-		(tabi_l1II1Il11Il .. "\073\073\049\073\049\073\108")[(tabi_lll1lIl11Il - "\108\049\049\108\049\049")(644495 - 598131)] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\049\049\049\108\108")(-590963 - (-637236))](-819961 - (-819961), -555825 + 555935, 150309 - 150309, 759864 + -759591);
-		(tabi_I1II1Il11Il / "\073\049\108\108\073\108\073\108")[(tabi_lll1lIl11Il - "\073\049\108\073\049\073\049\108")(-782968 + 829228)] = UDim[(tabi_lll1lIl11Il - "\073\073\049\108\073\073\073\108")(-40609 + 86882)](887292 - 887292, 1009285 - 1009279);
-		(tabi_I1II1Il11Il / "\108\049\049\108\108\073\073\108")[(tabi_lll1lIl11Il - "\073\049\108\108\073\049\073\049")(-605747 + 652082)] = (tabi_lll1lIl11Il - "\073\073\108\049\049\049")(113872 - 67490);
-		(tabi_I1II1Il11Il / "\073\108\073\049\108")[(tabi_lll1lIl11Il - "\073\108\073\073\073\049\073\108")(989759 + -943403)] = tabi_l1II1Il11Il .. "\073\073\073\049\049\073\108";
-		(tabi_lIlI1Il11Il + "\108\073\049\073\073\049\108\108")[(tabi_lll1lIl11Il - "\108\049\108\073\108\108\108\049")(-841789 - (-888124))] = (tabi_lll1lIl11Il - "\108\049\073\073\049\073\108")(564369 - 518064);
-		(tabi_lIlI1Il11Il + "\108\049\108\108\108\108\108\108")[(tabi_lll1lIl11Il - "\073\049\073\049\049\073\049\108")(942992 - 896636)] = tabi_l1II1Il11Il .. "\108\073\073\108\108\108\073\049";
-		(tabi_lIlI1Il11Il + "\108\049\108\049\073\073\049\049")[(tabi_lll1lIl11Il - "\108\108\073\073\073\108\073\108")(-788472 + 834787)] = Vector2[(tabi_lll1lIl11Il - "\073\073\108\049\049")(-861435 - (-907708))](424173 + -424172, -936445 + 936446);
-		(tabi_lIlI1Il11Il + "\108\049\073\073\108\073\108\049")[(tabi_lll1lIl11Il - "\108\073\108\073\108")(519344 + -472942)] = Color3[(tabi_lll1lIl11Il - "\108\049\073\049\049\073\108\049")(978362 - 932093)](569624 - 569586, -50786 + 50821, 125348 + -125310);
-		(tabi_lIlI1Il11Il + "\108\049\108\049\073\108\049")[(tabi_lll1lIl11Il - "\073\073\073\049\073\108\073\108")(-1020800 + 1067059)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\049\049\049\073\108")(-299113 + 345382)](339883 - 339883, 243560 - 243560, -43681 + 43681);
-		(tabi_lIlI1Il11Il + "\073\049\049\108\073\073\108\049")[(tabi_lll1lIl11Il - "\073\049\108\108\073\108")(94435 + -48107)] = -779448 + 779448;
-		(tabi_lIlI1Il11Il + "\108\073\108\049\049\049\108\049")[(tabi_lll1lIl11Il - "\073\108\108\073\108\108\108\049")(-350394 - (-396780))] = UDim2[(tabi_lll1lIl11Il - "\073\108\108\108\049")(386604 - 340331)](479152 - 479151, 85283 - 85283, -436974 + 436975, 250856 + -250856);
-		(tabi_lIlI1Il11Il + "\108\108\049\073\073\049\108\108")[(tabi_lll1lIl11Il - "\108\049\073\108")(-913122 - (-959486))] = UDim2[(tabi_lll1lIl11Il - "\073\108\049\108\073\049\049")(636084 + -589811)](416301 + -416301, -90915 + 90922, -507888 + 507888, 344235 + -344228);
-		(tabi_IIlI1Il11Il - "\108\073\049\073\108\049\049\108")[(tabi_lll1lIl11Il - "\108\108\108\108\073\049\108")(317863 - 271528)] = (tabi_lll1lIl11Il - "\108\049\073\073\049\073\049\108")(-818681 + 865068);
-		(tabi_IIlI1Il11Il - "\073\108\049\073\108\073\049\108")[(tabi_lll1lIl11Il - "\073\073\108\073\073\108")(-429037 + 475393)] = tabi_l1II1Il11Il .. "\108\049\073\049\049\049\049\108";
-		(tabi_IIlI1Il11Il - "\108\049\073\049\108\073\108\049")[(tabi_lll1lIl11Il - "\073\049\108\108\108\073\073\108")(820602 - 774200)] = Color3[(tabi_lll1lIl11Il - "\073\073\049\108\049\049\108")(-494580 - (-540849))](796857 + -796819, -1014655 + 1014690, -215937 - (-215975));
-		(tabi_IIlI1Il11Il - "\073\049\108\073\108")[(tabi_lll1lIl11Il - "\073\073\049\049\108\073\049")(-172404 - (-218663))] = Color3[(tabi_lll1lIl11Il - "\108\049\049\049\049\073\049")(3424 + 42845)](-121060 - (-121060), 639220 + -639220, -543601 - (-543601));
-		(tabi_IIlI1Il11Il - "\073\073\108\073\049\049\073\049")[(tabi_lll1lIl11Il - "\108\073\108\108\049\073\073\108")(-953415 - (-999743))] = -909756 + 909756;
-		(tabi_IIlI1Il11Il - "\108\073\073\049\108\073\073\049")[(tabi_lll1lIl11Il - "\108\049\073\073\049\049")(-594802 + 641166)] = UDim2[(tabi_lll1lIl11Il - "\073\108\049\049\108\108\108\108")(385836 - 339563)](-449198 + 449199, -200550 - (-200550), 1016704 - 1016704, 1008063 + -1008056);
-		(tabi_lllI1Il11Il + "\073\108\073\073\073\108\073\049")[(tabi_lll1lIl11Il - "\073\073\108\049\049\049\108\108")(-468015 + 514350)] = (tabi_lll1lIl11Il - "\108\073\108\073\073\073\108")(-103651 + 150012);
-		(tabi_lllI1Il11Il + "\073\073\073\108\073\073\108\108")[(tabi_lll1lIl11Il - "\108\073\049\073\108\049\073\049")(170808 - 124452)] = tabi_l1II1Il11Il .. "\073\108\073\108\073\073\073\108";
-		(tabi_lllI1Il11Il + "\108\108\049\049\073\049\049")[(tabi_lll1lIl11Il - "\073\073\073\073\049\108\049")(726455 - 680053)] = Color3[(tabi_lll1lIl11Il - "\073\108\108\108\073\073\049\049")(-700858 - (-747127))](-657204 + 657459, 187813 - 187558, 139940 + -139685);
-		(tabi_lllI1Il11Il + "\073\049\049\108\108\073\108")[(tabi_lll1lIl11Il - "\108\108\049\073\108\108")(-742583 + 788882)] = 640500 + -640499;
-		(tabi_lllI1Il11Il + "\108\049\049\073\073\073\073\049")[(tabi_lll1lIl11Il - "\073\073\073\108\073\049\108\108")(620147 + -573888)] = Color3[(tabi_lll1lIl11Il - "\073\049\108\108\108\049\108\049")(-527728 + 573997)](-361579 - (-361579), 636276 - 636276, 293673 + -293673);
-		(tabi_lllI1Il11Il + "\073\049\108\049\108\108\108\108")[(tabi_lll1lIl11Il - "\073\108\108\049\049\108\073\049")(-205168 - (-251496))] = -644212 + 644212;
-		(tabi_lllI1Il11Il + "\108\073\073\073\108\049\108\108")[(tabi_lll1lIl11Il - "\108\108\049\073\073\108\108\049")(206438 + -160109)] = true;
-		(tabi_lllI1Il11Il + "\073\049\108\049\073\073\108\049")[(tabi_lll1lIl11Il - "\073\073\073\049\073\049\049")(-319097 - (-365483))] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\073\108\108")(127524 - 81251)](-705334 + 705334, 690357 - 690357, .00706713786, -460974 + 460974);
-		(tabi_lllI1Il11Il + "\108\049\073\073\073\049\073\049")[(tabi_lll1lIl11Il - "\073\073\073\108\108\108\108\049")(656655 - 610291)] = UDim2[(tabi_lll1lIl11Il - "\108\049\049\108\073\049\108\049")(-639092 - (-685365))](277034 - 277033, 858619 + -858619, .980000019, -399788 - (-399788));
-		(tabi_IllI1Il11Il / "\108\108\049\108\073\049\049\108")[(tabi_lll1lIl11Il - "\108\073\108\049\073\049\108\049")(731060 - 684725)] = (tabi_lll1lIl11Il - "\108\108\049\073\049\073\108\049")(-161381 + 207659);
-		(tabi_IllI1Il11Il / "\073\108\049\073\108\073\108\049")[(tabi_lll1lIl11Il - "\108\073\049\049\073\073\049\108")(46068 - (-288))] = tabi_lllI1Il11Il + "\108\049\108\108\108\073\049";
-		(tabi_IllI1Il11Il / "\108\049\049\073\049\108\073\049")[(tabi_lll1lIl11Il - "\108\049\073\108\073\073\108\108")(-712630 + 759032)] = Color3[(tabi_lll1lIl11Il - "\108\049\108\049\073\049\108\049")(-712315 - (-758584))](721462 + -721207, -945533 + 945788, 536625 + -536370);
-		(tabi_IllI1Il11Il / "\108\108\108\073\073\049\073\108")[(tabi_lll1lIl11Il - "\073\049\073\108\108\108\108\108")(-151845 + 198144)] = -558577 + 558578;
-		(tabi_IllI1Il11Il / "\073\049\108\108\108\049\049")[(tabi_lll1lIl11Il - "\073\108\049\049\073\049")(404461 + -358202)] = Color3[(tabi_lll1lIl11Il - "\073\073\049\073\073\108\108\108")(-958270 + 1004539)](107683 - 107683, 70370 - 70370, 271976 - 271976);
-		(tabi_IllI1Il11Il / "\108\073\108\049\108\049")[(tabi_lll1lIl11Il - "\108\049\073\049\108\049\073\108")(1044407 - 998079)] = 47457 - 47457;
-		(tabi_IllI1Il11Il / "\108\049\108\073\108\049\073\108")[(tabi_lll1lIl11Il - "\073\073\049\108\073\073\049\108")(-994596 - (-1040960))] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\108\049\049\049")(-99172 - (-145445))](777848 + -777847, -323178 - (-323178), 885436 - 885435, -826874 - (-826874));
-		(tabi_IllI1Il11Il / "\108\073\049\108\108\073\049")[(tabi_lll1lIl11Il - "\073\049\108\108\108\108\049")(813189 - 766904)] = UDim2[(tabi_lll1lIl11Il - "\073\108\108\049\108\049\049\108")(414893 + -368620)](586738 + -586738, -851194 + 851194, 812217 + -812217, 492527 + -492527);
-		(tabi_IllI1Il11Il / "\073\073\049\073\108\108")[(tabi_lll1lIl11Il - "\108\108\108\073\108\073\108\108")(259048 + -212685)] = 439982 + -439982;
-		(tabi_IllI1Il11Il / "\073\049\108\073\073\073\049\108")[(tabi_lll1lIl11Il - "\073\049\073\108\073\073\073\049")(-925292 - (-971582))] = Enum[(tabi_lll1lIl11Il - "\073\073\049\049\108\108\108\108")(694781 - 648500)][(tabi_lll1lIl11Il - "\108\049\049\073\049\073\108\108")(436526 + -390177)];
-		(tabi_l1lI1Il11Il + "\108\073\049\049\073\073\108\049")[(tabi_lll1lIl11Il - "\108\049\049\073\049")(-895292 + 941648)] = tabi_IllI1Il11Il / "\073\049\073\049\073\108\049\108";
-		(tabi_l1lI1Il11Il + "\073\049\049\049\073\049\073\108")[(tabi_lll1lIl11Il - "\073\049\049\108\108\049")(666034 - 619635)] = Enum[(tabi_lll1lIl11Il - "\073\073\108\073\049\049\073\108")(-263272 + 309671)][(tabi_lll1lIl11Il - "\108\108\073\049\108\049\049")(-771659 - (-817977))];
-		(tabi_l1lI1Il11Il + "\073\049\049\073\049\108\108\108")[(tabi_lll1lIl11Il - "\073\073\049\073\073\108\073\049")(-875983 - (-922237))] = Enum[(tabi_lll1lIl11Il - "\073\049\108\108\073\108\108")(1012332 - 966078)][(tabi_lll1lIl11Il - "\108\049\049\108\073\108\073\049")(757751 + -711375)];
-		(tabi_l1lI1Il11Il + "\108\108\108\073\049\073\108")[(tabi_lll1lIl11Il - "\073\073\049\108")(-84323 + 130700)] = UDim[(tabi_lll1lIl11Il - "\073\073\073\049\073\073\049")(-370156 - (-416429))](451310 - 451310, 641588 + -641585);
-		applydrag(tabi_ll11lIl11Il / "\073\073\108\049\073\049\108\049");
-		local tabi_lI1I1Il11Il = tabi_l11llIl11Il({ IIlIIll = false }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					tabi_Il1llIl11Il.IIlIIll = tabi_l11llIl11Il;
-				end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-					return tabi_Il1llIl11Il.IIlIIll;
+		tabi_IIl11IIlII.lllIlI11[(tabi_lI1I1IIlII / "\108\049\049\108\049\108\049")(761592 + -710216)] = (tabi_lI1I1IIlII / "\108\108\108\108\073\049\108\108")(-574786 - (-626227));
+		tabi_IIl11IIlII.lllIl1I1[(tabi_lI1I1IIlII / "\073\073\073\108")(303035 - 251560)] = game[(tabi_lI1I1IIlII / "\108\049\108\049\073\073\073\108")(439982 + -388510)][(tabi_lI1I1IIlII / "\073\108\073\108\108\073\049\108")(872571 + -821223)]:WaitForChild((tabi_lI1I1IIlII / "\073\073\108\073\108\108\073\049")(676661 + -625180));
+		tabi_IIl11IIlII.Ill1IIll[(tabi_lI1I1IIlII / "\073\108\108\073\073\108\073\049")(1026944 + -975466)] = Enum[(tabi_lI1I1IIlII / "\108\073\108\108\073\073\049")(-1021952 + 1073430)][(tabi_lI1I1IIlII / "\073\049\108\073\073\049\049\108")(755024 - 703670)];
+		tabi_lIl11IIlII.lIIl11I1[(tabi_lI1I1IIlII / "\108\108\049\049\049\049")(458752 - 407277)] = tabi_IIl11IIlII.IllIl11;
+		tabi_lIl11IIlII.I1I111l1[(tabi_lI1I1IIlII / "\108\073\073\108\073\108\108")(773272 - 721846)] = Color3[(tabi_lI1I1IIlII / "\108\108\049\049\049\049\049")(261672 + -210251)](-30753 + 30789, 982654 + -982621, 416977 - 416941);
+		tabi_lIl11IIlII.I1IlI11l[(tabi_lI1I1IIlII / "\073\073\049\108\108\049\108")(-879483 + 930950)] = Color3[(tabi_lI1I1IIlII / "\108\108\049\073\073\073\049\049")(-9925 - (-61346))](-709238 - (-709238), 452526 + -452526, 599219 + -599219);
+		tabi_lIl11IIlII.lll1llll[(tabi_lI1I1IIlII / "\108\108\049\108\108\049\049")(-618434 - (-669877))] = 94307 - 94307;
+		tabi_lIl11IIlII.lI1[(tabi_lI1I1IIlII / "\073\073\049\108\073\073\108")(595266 - 543857)] = UDim2[(tabi_lI1I1IIlII / "\108\073\049\108\108\073\049\049")(-373228 + 424644)](-26081 + 26081, 192230 + -192225, 391212 + -391212, -362795 + 362800);
+		tabi_lIl11IIlII.Ill111ll[(tabi_lI1I1IIlII / "\108\073\049\073\073\108\073\108")(-234727 + 286193)] = UDim2[(tabi_lI1I1IIlII / "\108\108\049\049\049\108")(-756855 + 808271)](-196454 + 196454, 735595 - 735095, -288105 - (-288105), -172133 + 172443);
+		tabi_lIl11IIlII.I1lIlll1[(tabi_lI1I1IIlII / "\108\049\049\108\073\073\049\049")(547965 - 496495)] = true;
+		tabi_Illll1IlII.l1lI1l1l[(tabi_lI1I1IIlII / "\073\108\049\073\073\049")(202406 + -151030)] = (tabi_lI1I1IIlII / "\108\108\108\108\073\073\108\049")(551297 - 499887);
+		tabi_Illll1IlII.lllIlll[(tabi_lI1I1IIlII / "\073\049\049\073\073\049\108\049")(225319 + -173844)] = tabi_lIl11IIlII.llllll1;
+		tabi_Illll1IlII.IIIIll1[(tabi_lI1I1IIlII / "\073\073\073\049\073\108\108\108")(245960 - 194534)] = Color3[(tabi_lI1I1IIlII / "\073\073\049\108\073\108\073\049")(956606 + -905185)](701558 + -701303, -896316 + 896571, 74081 - 73826);
+		tabi_Illll1IlII.IIII1[(tabi_lI1I1IIlII / "\073\108\108\073\049\049\073\108")(-550321 + 601668)] = -686452 - (-686453);
+		tabi_Illll1IlII.lI1lI1Il[(tabi_lI1I1IIlII / "\073\049\073\073\049\049")(920381 + -868914)] = Color3[(tabi_lI1I1IIlII / "\073\108\108\049\049\073\073\108")(-603635 + 655056)](1048384 - 1048384, 68130 - 68130, -710838 - (-710838));
+		tabi_Illll1IlII.Ill111l1[(tabi_lI1I1IIlII / "\108\073\073\108\073\049\073\049")(522402 - 470959)] = 830970 + -830970;
+		tabi_Illll1IlII.Il1IlI11[(tabi_lI1I1IIlII / "\073\049\049\073\049\108")(-766840 + 818249)] = UDim2[(tabi_lI1I1IIlII / "\108\049\073\108\073\073\108")(509488 + -458072)](.238000005, 181926 - 181926, .109677419, -852666 - (-852666));
+		tabi_Illll1IlII.IIIllII1[(tabi_lI1I1IIlII / "\108\073\108\073\049\073\108\108")(-589874 + 641340)] = UDim2[(tabi_lI1I1IIlII / "\108\049\073\049\049\049\108")(-595186 + 646602)](170981 + -170981, 328362 + -327994, 165733 - 165733, 995199 + -994930);
+		(tabi_I1l11IIlII ^ "\073\073\108\049\108\049\108\049")[(tabi_lI1I1IIlII / "\108\073\049\073\073\108\108\108")(304553 + -253177)] = (tabi_lI1I1IIlII / "\108\108\108\108\108\073\108")(734903 + -683456);
+		(tabi_I1l11IIlII ^ "\073\049\073\108\073\108\073\108")[(tabi_lI1I1IIlII / "\108\108\108\108\073\108\049\049")(222072 - 170597)] = tabi_lIl11IIlII.ll1Ill1;
+		(tabi_I1l11IIlII ^ "\108\073\108\108\108\073\049\049")[(tabi_lI1I1IIlII / "\073\049\073\049\073\108\049")(-883067 + 934493)] = tabi_Ill11IIlII * "\108\108\108\073\108\108\049\108";
+		(tabi_I1l11IIlII ^ "\108\108\049\108\073\049")[(tabi_lI1I1IIlII / "\108\108\108\049\073\108\049")(795193 + -743726)] = Color3[(tabi_lI1I1IIlII / "\073\049\049\108\073\073\073\108")(-495316 - (-546737))](553905 + -553905, 653044 - 653044, -726967 + 726967);
+		(tabi_I1l11IIlII ^ "\073\049\049\108\049\108\108\049")[(tabi_lI1I1IIlII / "\108\108\049\108\108\108")(480864 - 429421)] = 602035 - 602035;
+		(tabi_I1l11IIlII ^ "\108\108\073\049\108\073\108\108")[(tabi_lI1I1IIlII / "\073\108\049\049\108\073\049")(63786 - 12320)] = UDim2[(tabi_lI1I1IIlII / "\108\108\108\049\073\108\108\049")(439748 - 388332)](736887 + -736886, 894588 + -894588, 693045 + -693045, 360811 + -360786);
+		(tabi_l1l11IIlII - "\108\073\073\108\073\073\073\108")[(tabi_lI1I1IIlII / "\108\073\049\108\108\108\108")(740661 - 689205)] = UDim[(tabi_lI1I1IIlII / "\073\073\108\049\049\108\049\108")(7223 - (-44193))](-261096 + 261096, -186918 + 186924);
+		(tabi_l1l11IIlII - "\073\049\073\073\073\073\073\049")[(tabi_lI1I1IIlII / "\073\108\108\049\073\073\108\108")(1048047 - 996671)] = (tabi_lI1I1IIlII / "\108\073\049\049\108\073\049\108")(-307178 + 358559);
+		(tabi_l1l11IIlII - "\073\108\108\108\108\108\108\049")[(tabi_lI1I1IIlII / "\108\108\073\073\049\073\108\108")(-617843 + 669318)] = tabi_I1l11IIlII ^ "\108\108\073\049\108\049\108\108";
+		(tabi_IlI11IIlII / "\108\108\049\049\049\108\108\108")[(tabi_lI1I1IIlII / "\073\073\108\049\073\073\073\049")(-136676 + 188052)] = (tabi_lI1I1IIlII / "\108\073\049\049\049\108\049")(-646644 + 698034);
+		(tabi_IlI11IIlII / "\108\049\049\049\108\108\108\108")[(tabi_lI1I1IIlII / "\073\073\049\049\049\108\073\108")(285417 + -233942)] = tabi_I1l11IIlII ^ "\073\049\049\049\073\049\073\049";
+		(tabi_IlI11IIlII / "\108\073\049\049\108\108\073\049")[(tabi_lI1I1IIlII / "\073\049\108\049\073\108\073\108")(111823 - 60450)] = Vector2[(tabi_lI1I1IIlII / "\073\108\049\049\108\073\049\049")(417517 + -366101)](-109923 - (-109923), -200166 + 200167);
+		(tabi_IlI11IIlII / "\108\049\108\073\073\049")[(tabi_lI1I1IIlII / "\073\073\073\049\049\073\049")(-745015 + 796441)] = tabi_Ill11IIlII * "\073\073\049\049\049\049\073\049";
+		(tabi_IlI11IIlII / "\108\073\073\073\073\108\049")[(tabi_lI1I1IIlII / "\108\073\049\073\108\049\108\108")(-322090 + 373557)] = Color3[(tabi_lI1I1IIlII / "\108\108\049\108\049\108\049")(-304142 - (-355563))](162853 + -162853, 671349 - 671349, -871547 + 871547);
+		(tabi_IlI11IIlII / "\073\108\108\073\108\073\108")[(tabi_lI1I1IIlII / "\108\108\108\073\049\108\049")(-910859 - (-962302))] = -884923 - (-884923);
+		(tabi_IlI11IIlII / "\108\108\049\073\073\108")[(tabi_lI1I1IIlII / "\108\108\108\049\108\108")(-462239 - (-513648))] = UDim2[(tabi_lI1I1IIlII / "\073\073\049\108\049\049\073\049")(481541 - 430125)](510128 - 510128, -856635 + 856635, 1.00000012, -311082 + 311082);
+		(tabi_IlI11IIlII / "\108\073\108\049\073\108\049\049")[(tabi_lI1I1IIlII / "\108\049\073\049\049\049\073\049")(-512999 - (-564465))] = UDim2[(tabi_lI1I1IIlII / "\073\108\073\049\108\073\049\108")(-693215 - (-744631))](982911 - 982910, 420781 - 420781, .0390000008, 753919 - 753911);
+		(tabi_llI11IIlII .. "\108\073\073\073\073\073\049\049")[(tabi_lI1I1IIlII / "\108\108\073\049\073\049\073\049")(675427 - 624051)] = (tabi_lI1I1IIlII / "\073\108\073\073\049\049\049")(765240 + -713844);
+		(tabi_llI11IIlII .. "\073\073\049\073\108\073\049\049")[(tabi_lI1I1IIlII / "\073\049\049\108\049\049\108")(-675509 + 726984)] = tabi_IlI11IIlII / "\108\049\049\108\073\108\108\049";
+		(tabi_llI11IIlII .. "\108\073\049\073\073\049\108\108")[(tabi_lI1I1IIlII / "\073\108\108\108\108\108\049")(-618485 - (-669941))] = UDim[(tabi_lI1I1IIlII / "\108\049\049\049\108\073\073\108")(627146 - 575730)](-864507 - (-864507), 659444 + -659444);
+		(tabi_III11IIlII * "\108\108\108\073\073\073\108\049")[(tabi_lI1I1IIlII / "\073\049\073\108\073\108\049\049")(-205461 - (-256936))] = tabi_I1l11IIlII ^ "\073\108\108\073\073\049\108\108";
+		(tabi_III11IIlII * "\073\049\049\073\073\073\108\108")[(tabi_lI1I1IIlII / "\073\049\108\049\049\073\108")(-933597 - (-985023))] = Color3[(tabi_lI1I1IIlII / "\073\073\049\073\073\073\108\108")(-181770 - (-233191))](747063 + -746808, 690164 - 689909, 897980 + -897725);
+		(tabi_III11IIlII * "\108\108\108\073\073\108\108\049")[(tabi_lI1I1IIlII / "\108\073\049\073\108\073\108\049")(27890 - (-23457))] = -385516 + 385517;
+		(tabi_III11IIlII * "\108\073\108\073\073\073\049")[(tabi_lI1I1IIlII / "\073\073\108\073\073\073\049")(219632 - 168165)] = Color3[(tabi_lI1I1IIlII / "\073\108\049\049\073\073\108\049")(-241420 - (-292841))](492655 + -492655, 152805 - 152805, 731447 - 731447);
+		(tabi_III11IIlII * "\108\049\108\108\073\049\049")[(tabi_lI1I1IIlII / "\073\108\108\049\049\108\108")(-116658 - (-168101))] = -946429 + 946429;
+		(tabi_III11IIlII * "\108\049\108\049\073\049\108\108")[(tabi_lI1I1IIlII / "\073\108\108\108\108\049\108")(141300 - 89891)] = UDim2[(tabi_lI1I1IIlII / "\073\108\073\108\073\049\049")(-502745 - (-554161))](.0599999987, 676725 + -676725, 360043 - 360043, 606195 - 606195);
+		(tabi_III11IIlII * "\073\073\049\073\108\108\049")[(tabi_lI1I1IIlII / "\108\073\108\073\073\108\049\108")(-886203 + 937669)] = UDim2[(tabi_lI1I1IIlII / "\073\073\108\108\108")(-536858 - (-588274))](.477999985, 680501 + -680501, -229606 - (-229607), 910076 + -910076);
+		(tabi_III11IIlII * "\073\108\108\108\073\073\049\108")[(tabi_lI1I1IIlII / "\108\108\049\073\049\073\049")(-610099 + 661558)] = Enum[(tabi_lI1I1IIlII / "\108\049\108\049\108\049\049\108")(745655 + -694196)][(tabi_lI1I1IIlII / "\108\108\073\108\049\073\049\108")(-996382 - (-1047872))];
+		(tabi_III11IIlII * "\108\049\073\073\049\073\108")[(tabi_lI1I1IIlII / "\108\073\073\073\049\108\049")(200294 + -148867)] = tabi_I1lI1IIlII or (tabi_lI1I1IIlII / "\108\108\049\108\108\073\049")(-735804 - (-787192));
+		(tabi_III11IIlII * "\108\108\073\049\073\073\108\049")[(tabi_lI1I1IIlII / "\073\049\073\049\049\108")(-519951 - (-571442))] = Color3[(tabi_lI1I1IIlII / "\073\049\049\049\073\073\049\049")(211943 + -160522)](748278 - 748023, 197605 - 197350, 155172 - 154917);
+		(tabi_III11IIlII * "\073\049\049\049\108\108\073\108")[(tabi_lI1I1IIlII / "\108\049\049\049\108\073\108\108")(-511574 - (-563057))] = 435758 + -435744;
+		(tabi_III11IIlII * "\108\073\049\073\073\073\049\049")[(tabi_lI1I1IIlII / "\108\073\108\108\073\073\108\049")(-643700 + 695087)] = Enum[(tabi_lI1I1IIlII / "\108\073\108\073\073\108")(583986 + -532599)][(tabi_lI1I1IIlII / "\073\108\073\049\049\073\049\108")(-464715 - (-516080))];
+		tabi_lII11IIlII.III1I1Il[(tabi_lI1I1IIlII / "\073\073\108\049\108\049\108")(481647 + -430271)] = (tabi_lI1I1IIlII / "\108\049\049\108\108\073\108\049")(526604 - 475247);
+		tabi_lII11IIlII.I1llI11l[(tabi_lI1I1IIlII / "\073\049\108\049\049\049\049\108")(-169812 - (-221287))] = tabi_I1l11IIlII ^ "\108\073\108\049\073\049\108\108";
+		tabi_lII11IIlII.l1l1l1l[(tabi_lI1I1IIlII / "\108\049\108\108\049\108\108\049")(-744119 + 795545)] = Color3[(tabi_lI1I1IIlII / "\108\073\049\049\049\108\073\108")(741431 + -690010)](-625332 - (-625587), 6752 + -6497, 3680 + -3425);
+		tabi_lII11IIlII.I1[(tabi_lI1I1IIlII / "\108\073\049\073\108\049\049\108")(-182420 - (-233767))] = 582834 + -582833;
+		tabi_lII11IIlII.I11lIIIl[(tabi_lI1I1IIlII / "\108\108\049\108\049\108\108\049")(614643 + -563176)] = Color3[(tabi_lI1I1IIlII / "\108\049\073\049\108\073\073\049")(-131145 - (-182566))](-318890 - (-318890), -832698 + 832698, -753335 + 753335);
+		tabi_lII11IIlII.I1l1l1l1[(tabi_lI1I1IIlII / "\073\049\049\049\049\073\049\108")(755447 + -704004)] = 221479 + -221479;
+		tabi_lII11IIlII.I1l1Il[(tabi_lI1I1IIlII / "\108\108\108\073\073\049\108\108")(921533 + -870124)] = UDim2[(tabi_lI1I1IIlII / "\108\073\049\073\073\073\073\108")(886 - (-50530))](.0179999992, -550897 - (-550897), .194999993, -925821 - (-925821));
+		tabi_lII11IIlII.IIl1l11l[(tabi_lI1I1IIlII / "\108\049\049\108\073\073\108\049")(-771384 + 822844)] = 461346 - 461166;
+		tabi_lII11IIlII.I1I11I1[(tabi_lI1I1IIlII / "\073\049\073\049\049\108\108\049")(-99483 - (-150949))] = UDim2[(tabi_lI1I1IIlII / "\073\073\049\108\049\049")(-30881 + 82297)](-489135 - (-489135), 735927 + -735911, -626227 + 626227, -370347 + 370363);
+		tabi_lII11IIlII.lllI11l1[(tabi_lI1I1IIlII / "\073\073\108\108\049\049\049")(677814 - 626419)] = (tabi_lI1I1IIlII / "\108\049\073\073\108\108\049")(-919459 - (-970814));
+		(tabi_I1I11IIlII .. "\073\049\073\108\049\049\108\049")[(tabi_lI1I1IIlII / "\073\049\073\108\108\108")(-987135 + 1038591)] = UDim[(tabi_lI1I1IIlII / "\073\073\108\073\049\073\108\108")(709686 + -658270)](538801 - 538801, 956990 + -956984);
+		(tabi_I1I11IIlII .. "\073\073\108\049\108\108\049")[(tabi_lI1I1IIlII / "\108\049\049\049\049\049\073\108")(685028 - 633652)] = (tabi_lI1I1IIlII / "\108\073\108\049\049\073\108\049")(354165 - 302697);
+		(tabi_I1I11IIlII .. "\073\073\108\108\049\049\108\108")[(tabi_lI1I1IIlII / "\108\073\049\073\049\108\049")(-969918 + 1021393)] = tabi_lIl11IIlII.llI11l1;
+		(tabi_l1I11IIlII * "\108\073\049\073\049\108\108\049")[(tabi_lI1I1IIlII / "\108\108\108\073\108\073\108\108")(-208294 + 259670)] = (tabi_lI1I1IIlII / "\073\073\108\108\049\108\049\108")(-340779 + 392224);
+		(tabi_l1I11IIlII * "\073\073\073\108\108\049\073\049")[(tabi_lI1I1IIlII / "\073\049\108\108\049\049\049")(414078 - 362603)] = tabi_lIl11IIlII.lII1lIIl;
+		(tabi_l1I11IIlII * "\108\073\049\108\108\073\108")[(tabi_lI1I1IIlII / "\108\049\108\049\073\108\073\108")(245896 - 194470)] = Color3[(tabi_lI1I1IIlII / "\073\108\049\049\073\108\108")(-46598 - (-98019))](-999487 + 999525, -1041088 + 1041123, -383148 + 383186);
+		(tabi_l1I11IIlII * "\108\108\073\049\108")[(tabi_lI1I1IIlII / "\073\108\108\108\108")(-567346 + 618813)] = Color3[(tabi_lI1I1IIlII / "\108\073\049\049\073\049\108\049")(-369232 - (-420653))](-867387 - (-867387), 80610 + -80610, 973438 + -973438);
+		(tabi_l1I11IIlII * "\073\049\073\108\108\073\073\108")[(tabi_lI1I1IIlII / "\108\108\108\049\073\108\108\108")(-720901 - (-772344))] = -233767 - (-233767);
+		(tabi_l1I11IIlII * "\073\108\049\073\073\049")[(tabi_lI1I1IIlII / "\073\073\073\049\049\073\049")(83698 - 32289)] = UDim2[(tabi_lI1I1IIlII / "\073\108\108\049\049\049\108\049")(524359 - 472943)](-757175 + 757175, 1040256 + -1040256, 744695 - 744695, 78306 + -78276);
+		(tabi_l1I11IIlII * "\073\073\108\108\073\049\108")[(tabi_lI1I1IIlII / "\108\108\108\108\108\108")(102124 - 50658)] = UDim2[(tabi_lI1I1IIlII / "\073\108\049\073\073\073\073\049")(-574235 - (-625651))](-524144 + 524144, -648820 + 648930, -62434 + 62434, 232888 - 232615);
+		(tabi_Il111IIlII .. "\073\108\108\049\049\073\049")[(tabi_lI1I1IIlII / "\108\073\049\073\108\049\108\049")(-64100 - (-115556))] = UDim[(tabi_lI1I1IIlII / "\073\049\049\073\073\108\073\049")(105914 - 54498)](-725750 - (-725750), 620467 + -620461);
+		(tabi_Il111IIlII .. "\073\073\073\049\108\049")[(tabi_lI1I1IIlII / "\073\073\073\073\049\073\108\108")(707638 + -656262)] = (tabi_lI1I1IIlII / "\073\073\108\073\073\049\049\108")(-67554 + 119009);
+		(tabi_Il111IIlII .. "\073\073\108\073\108\073\108\108")[(tabi_lI1I1IIlII / "\073\049\049\073\049\108\108")(-973310 + 1024785)] = tabi_l1I11IIlII * "\073\108\049\049\049\049\049\108";
+		(tabi_ll111IIlII - "\073\073\049\108\108\073\049\108")[(tabi_lI1I1IIlII / "\108\073\108\049\073\108\049\049")(-985535 + 1036911)] = (tabi_lI1I1IIlII / "\073\073\073\108\049\108\108\108")(304930 - 253544);
+		(tabi_ll111IIlII - "\073\108\049\108\049\049\049")[(tabi_lI1I1IIlII / "\073\073\073\073\049\049\073\108")(244281 - 192806)] = tabi_l1I11IIlII * "\108\108\073\108\073\073\108\108";
+		(tabi_ll111IIlII - "\073\108\108\073\049\108")[(tabi_lI1I1IIlII / "\073\108\049\049\049\108\073\049")(170917 + -119544)] = Vector2[(tabi_lI1I1IIlII / "\073\108\049\108\108\108\073\108")(-766968 + 818384)](783353 - 783352, 15776 + -15775);
+		(tabi_ll111IIlII - "\108\108\073\073\049\108\108\049")[(tabi_lI1I1IIlII / "\073\049\073\049\108\108\049\108")(-900860 + 952286)] = Color3[(tabi_lI1I1IIlII / "\073\049\073\073\073\049\073\108")(974974 + -923553)](2950 - 2912, 701942 + -701907, 314474 + -314436);
+		(tabi_ll111IIlII - "\108\073\073\108\108\049\073\108")[(tabi_lI1I1IIlII / "\108\073\049\049\073\073\049")(210800 - 159333)] = Color3[(tabi_lI1I1IIlII / "\073\049\049\108\108\108")(-71687 - (-123108))](-924349 + 924349, -443630 + 443630, 182182 + -182182);
+		(tabi_ll111IIlII - "\073\073\073\049\108\108\049")[(tabi_lI1I1IIlII / "\108\073\073\108\073\073\049")(-986751 + 1038194)] = -953598 + 953598;
+		(tabi_ll111IIlII - "\073\108\049\108\073\049\108\049")[(tabi_lI1I1IIlII / "\108\073\108\108\108\049\073\108")(651524 - 600115)] = UDim2[(tabi_lI1I1IIlII / "\108\049\108\049\108\108\073\108")(650379 - 598963)](928446 - 928445, -25633 + 25633, -4255 - (-4256), 480 + -480);
+		(tabi_ll111IIlII - "\108\049\049\073\108\073\108\108")[(tabi_lI1I1IIlII / "\108\049\108\108\108\108\073\049")(298290 - 246824)] = UDim2[(tabi_lI1I1IIlII / "\108\073\108\049\108\073\073\049")(-818531 - (-869947))](894012 - 894012, 563704 - 563697, 116708 + -116708, 450229 - 450222);
+		(tabi_II111IIlII - "\108\108\049\073\049\108")[(tabi_lI1I1IIlII / "\108\049\108\049\049\073\049\049")(709942 + -658566)] = (tabi_lI1I1IIlII / "\108\049\049\049\108\108\108")(763594 - 712118);
+		(tabi_II111IIlII - "\073\073\073\073\073\073\108")[(tabi_lI1I1IIlII / "\073\073\073\049\049\049")(-173221 + 224696)] = tabi_l1I11IIlII * "\108\073\073\049\108\049";
+		(tabi_II111IIlII - "\073\049\073\073\108\073\049\108")[(tabi_lI1I1IIlII / "\073\049\073\049\108")(-230375 + 281801)] = Color3[(tabi_lI1I1IIlII / "\073\049\108\108\049\049\073\108")(-857247 - (-908668))](-980862 + 980900, -385580 + 385615, -451438 + 451476);
+		(tabi_II111IIlII - "\108\073\073\049\049\108")[(tabi_lI1I1IIlII / "\073\073\108\073\073\108\108\049")(355060 - 303593)] = Color3[(tabi_lI1I1IIlII / "\073\108\049\049\073\049\073\049")(-15648 + 67069)](-601011 - (-601011), 208102 - 208102, -126116 - (-126116));
+		(tabi_II111IIlII - "\108\049\108\073\049")[(tabi_lI1I1IIlII / "\073\073\073\073\073\073\108\049")(774200 + -722757)] = 681973 - 681973;
+		(tabi_II111IIlII - "\108\049\049\073\049\073\108\049")[(tabi_lI1I1IIlII / "\073\108\073\108\049\049\049")(120036 + -68570)] = UDim2[(tabi_lI1I1IIlII / "\073\049\108\108")(911164 + -859748)](-109986 - (-109987), 930173 - 930173, -401324 + 401324, -388524 + 388531);
+		(tabi_lI111IIlII - "\073\108\108\108\108\073\049\108")[(tabi_lI1I1IIlII / "\073\108\108\049\073\073\073\049")(563633 + -512257)] = (tabi_lI1I1IIlII / "\108\108\049\049\049\108")(169701 + -118276);
+		(tabi_lI111IIlII - "\073\049\108\049\073\108")[(tabi_lI1I1IIlII / "\108\108\073\108\049\049\108")(-1001471 + 1052946)] = tabi_l1I11IIlII * "\108\049\049\049\108\073\049";
+		(tabi_lI111IIlII - "\108\049\108\049\108\073\073\108")[(tabi_lI1I1IIlII / "\073\108\049\073\073\049")(97539 - 46113)] = Color3[(tabi_lI1I1IIlII / "\073\073\049\108\108\108\108")(-438610 - (-490031))](719222 + -718967, 945276 - 945021, -161126 - (-161381));
+		(tabi_lI111IIlII - "\073\108\073\049\108\049\049\108")[(tabi_lI1I1IIlII / "\073\073\073\049\073\108\049\049")(948093 + -896746)] = 913532 + -913531;
+		(tabi_lI111IIlII - "\073\108\049\073\073\073\049")[(tabi_lI1I1IIlII / "\073\073\073\049\073\049\073\108")(510000 + -458533)] = Color3[(tabi_lI1I1IIlII / "\073\108\073\049\108\073\073\108")(589134 - 537713)](380972 + -380972, -599987 + 599987, 623667 - 623667);
+		(tabi_lI111IIlII - "\108\108\073\049\108\108\073\108")[(tabi_lI1I1IIlII / "\073\073\108\049\073\073\108\049")(-1028416 + 1079859)] = -981822 - (-981822);
+		(tabi_lI111IIlII - "\073\073\049\108\049\049\108")[(tabi_lI1I1IIlII / "\108\049\049\073\108\073\073\049")(372524 + -321054)] = true;
+		(tabi_lI111IIlII - "\108\049\108\049\049\108\073\049")[(tabi_lI1I1IIlII / "\073\049\108\049\073\108\073\049")(933836 - 882427)] = UDim2[(tabi_lI1I1IIlII / "\108\073\108\108\073\049\073\108")(807225 + -755809)](-377580 + 377580, 671797 + -671797, .00706713786, 98467 - 98467);
+		(tabi_lI111IIlII - "\073\108\049\049\108\049\108\049")[(tabi_lI1I1IIlII / "\073\073\073\108\049\073\073\108")(88099 + -36633)] = UDim2[(tabi_lI1I1IIlII / "\073\049\073\108\073\108\108")(-926141 + 977557)](-1002110 - (-1002111), 684149 + -684149, .980000019, -538161 + 538161);
+		(tabi_I1111IIlII - "\073\073\073\073\049\073\108")[(tabi_lI1I1IIlII / "\108\073\049\049\073\108\049\108")(730917 - 679541)] = (tabi_lI1I1IIlII / "\108\108\073\073\108\108\108")(-280873 + 332264);
+		(tabi_I1111IIlII - "\108\108\073\049\108\049\108\049")[(tabi_lI1I1IIlII / "\073\073\049\049\108\073\108\049")(137398 - 85923)] = tabi_lI111IIlII - "\108\108\049\108\073\108\049";
+		(tabi_I1111IIlII - "\073\108\073\049\049\049\073\108")[(tabi_lI1I1IIlII / "\073\073\073\108\049\108\073\049")(-83747 + 135173)] = Color3[(tabi_lI1I1IIlII / "\073\108\049\049\049\073\108\049")(-179814 + 231235)](-630389 - (-630644), -960575 - (-960830), -807865 + 808120);
+		(tabi_I1111IIlII - "\073\073\073\073\073\108\108")[(tabi_lI1I1IIlII / "\073\073\049\108\108\108\049")(268602 - 217255)] = 382892 + -382891;
+		(tabi_I1111IIlII - "\108\073\049\049\049\073\073\108")[(tabi_lI1I1IIlII / "\108\049\049\049\108\049\073\108")(-963774 + 1015241)] = Color3[(tabi_lI1I1IIlII / "\073\073\049\108\049\073\049\049")(-267917 - (-319338))](293417 + -293417, 1002367 - 1002367, -750135 + 750135);
+		(tabi_I1111IIlII - "\108\108\108\049\073\073\073\108")[(tabi_lI1I1IIlII / "\073\108\108\073\073\108\108\108")(-632706 - (-684149))] = -852026 - (-852026);
+		(tabi_I1111IIlII - "\108\049\049\073\108\049\108")[(tabi_lI1I1IIlII / "\108\049\073\073\049")(-403052 + 454518)] = UDim2[(tabi_lI1I1IIlII / "\073\073\049\049\049\108\049")(-30177 + 81593)](534130 - 534129, 764152 - 764152, -783544 + 783545, -651764 - (-651764));
+		(tabi_I1111IIlII - "\073\049\049\049\108\108\073\108")[(tabi_lI1I1IIlII / "\073\049\108\108\049\073\049")(-898620 + 949970)] = UDim2[(tabi_lI1I1IIlII / "\073\049\049\108\108\073\108\108")(819513 + -768097)](959102 + -959102, 963646 - 963646, -726263 - (-726263), 207718 - 207718);
+		(tabi_I1111IIlII - "\073\049\073\108\073\108\108")[(tabi_lI1I1IIlII / "\108\108\049\073\073\108\049\108")(-412333 + 463748)] = -762936 + 762936;
+		(tabi_I1111IIlII - "\108\073\073\073\108\108\073\049")[(tabi_lI1I1IIlII / "\073\073\049\108\073\049\049")(44449 + 7001)] = Enum[(tabi_lI1I1IIlII / "\073\108\108\049\073\049\108\108")(297745 - 246248)][(tabi_lI1I1IIlII / "\073\108\049\049\108\049\049")(124616 - 73122)];
+		(tabi_l1111IIlII * "\108\073\108\108\108\073\049")[(tabi_lI1I1IIlII / "\108\108\049\108\049")(1014673 - 963198)] = tabi_I1111IIlII - "\108\073\073\073\108\073\108\049";
+		(tabi_l1111IIlII * "\108\073\108\049\049\049\049")[(tabi_lI1I1IIlII / "\108\108\108\049\073\108\073\108")(1090742 - 1039296)] = Enum[(tabi_lI1I1IIlII / "\073\049\073\108\049\049\073\049")(608179 + -556733)][(tabi_lI1I1IIlII / "\108\049\073\049\049\073\073\108")(-656398 - (-707830))];
+		(tabi_l1111IIlII * "\108\049\073\049\073\049")[(tabi_lI1I1IIlII / "\108\073\108\073\049\049\049\108")(-340843 + 392226)] = Enum[(tabi_lI1I1IIlII / "\073\073\049\108\049\073\108\108")(127897 - 76514)][(tabi_lI1I1IIlII / "\073\049\108\108\108\108\073\108")(-953891 - (-1005311))];
+		(tabi_l1111IIlII * "\108\108\049\108\049\108\073\108")[(tabi_lI1I1IIlII / "\108\049\108\108\108\073\108\108")(-154679 - (-206118))] = UDim[(tabi_lI1I1IIlII / "\108\049\049\049\073\108\108\108")(890898 - 839482)](-503152 - (-503152), 1002818 - 1002815);
+		applydrag(tabi_lIl11IIlII.I11111ll);
+		local tabi_lllll1IlII = tabi_l1lI1IIlII({ I11I1l1l = false }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					tabi_I1lI1IIlII.I11I1l1l = tabi_l1lI1IIlII;
+				end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+					return tabi_I1lI1IIlII.I11I1l1l;
 				end });
-		function tabi_l1l1lIl11Il.IllIIlll.IsMinimized(...)
-			return tabi_lI1I1Il11Il .. "\108\108\108\049\108\049\049\108";
+		function tabi_l11I1IIlII.Il1Il1I1.IsMinimized(...)
+			return tabi_lllll1IlII - "\108\049\108\049\073\049\108\049";
 		end;
-		function tabi_l1l1lIl11Il.IllIIlll.Minimize(...)
-			(tabi_I11llIl11Il / "\073\108\049\073\073\049\108\049")(tabi_lI1I1Il11Il / not (tabi_lI1I1Il11Il .. "\073\073\073\073\073\073\108\108"));
-			((tabi_l1I1lIl11Il .. "\073\049\073\049\108\049\108\108"):Create(tabi_llII1Il11Il + "\073\073\108\073\049\073\108", TweenInfo[(tabi_lll1lIl11Il - "\108\073\073\049\073\073\049\108")(-101923 + 148196)](.3, Enum[(tabi_lll1lIl11Il - "\108\049\073\108\049\073\108\049")(1001266 - 954942)][(tabi_lll1lIl11Il - "\073\108\108\073\108\049\049")(527654 - 481391)]), { [(tabi_lll1lIl11Il - "\108\073\073\073\073\108\049")(-475055 + 521423)] = tabi_lI1I1Il11Il .. "\073\073\108\108\108\049\108\108" and -230823 - (-230823) or 797357 - 797177 })):Play();
-			((tabi_l1I1lIl11Il .. "\073\073\108\108\108\049\108"):Create(tabi_lIII1Il11Il .. "\073\049\108\073\108\108\073\108", TweenInfo[(tabi_lll1lIl11Il - "\073\073\108\073\073\049\073\049")(436845 - 390572)](.3, Enum[(tabi_lll1lIl11Il - "\108\108\049\108\108\049\108")(-599296 - (-645620))][(tabi_lll1lIl11Il - "\108\108\073\108\108\049\049")(-200934 + 247197)]), { [(tabi_lll1lIl11Il - "\108\049\073\108\049\073\049\049")(164056 - 117796)] = tabi_lI1I1Il11Il .. "\108\108\108\049\108" and UDim[(tabi_lll1lIl11Il - "\073\049\108\108\073\049\108\108")(886395 + -840122)](-169701 - (-169701), 662011 - 662005) or UDim[(tabi_lll1lIl11Il - "\108\073\108\049\108\073\049\108")(-112996 + 159269)](430701 - 430701, 872699 + -872699) })):Play();
-			((tabi_l1I1lIl11Il .. "\108\073\073\108\108\073\049\049"):Create(tabi_ll11lIl11Il / "\108\049\073\049\049\108\049", TweenInfo[(tabi_lll1lIl11Il - "\108\073\073\049\073\073\073\049")(-100899 + 147172)](.3, Enum[(tabi_lll1lIl11Il - "\108\108\049\049\049\073\073\049")(329053 - 282729)][(tabi_lll1lIl11Il - "\108\049\073\049\049\073\049\108")(-394359 - (-440622))]), { [(tabi_lll1lIl11Il - "\073\108\073\073\108\108\073\108")(-941411 - (-987775))] = tabi_lI1I1Il11Il .. "\108\108\073\073\073\073\073\108" and UDim2[(tabi_lll1lIl11Il - "\108\108\108\049\049\108\108\108")(-283625 - (-329898))](411373 - 411373, 241243 - 240743, 654132 + -654132, (tabi_Il11lIl11Il * "\108\108\108\108\049\108\049\108")[(tabi_lll1lIl11Il - "\108\108\108\073\108\108\049")(-385745 - (-432109))][(tabi_lll1lIl11Il - "\108\049\073\049\108\049\073\049")(-900092 + 946441)][(tabi_lll1lIl11Il - "\108\108\049\049\108\073\049\108")(-937469 + 983761)]) or UDim2[(tabi_lll1lIl11Il - "\073\049\049\108\049\073\108\049")(-806521 - (-852794))](-882747 + 882747, 408289 - 407789, -354795 - (-354795), -181104 - (-181414)) })):Play();
+		function tabi_l11I1IIlII.Il1Il1I1.Minimize(...)
+			(tabi_IlII1IIlII ^ "\073\108\049\073\073\108\049\108")(tabi_lllll1IlII .. not (tabi_lllll1IlII - "\108\073\108\108\049\108\049"));
+			((tabi_l1II1IIlII * "\073\073\073\073\073\073\108\108"):Create(tabi_lII11IIlII.Illl, TweenInfo[(tabi_lI1I1IIlII / "\108\049\073\049\073\049")(-87052 - (-138468))](.3, Enum[(tabi_lI1I1IIlII / "\073\108\073\049\108")(-322071 - (-373548))][(tabi_lI1I1IIlII / "\108\073\108\073\108\108\108\108")(605811 + -554460)]), { [(tabi_lI1I1IIlII / "\108\073\073\049\049")(-475439 + 526899)] = tabi_lllll1IlII - "\108\108\108\108\108\049" and 858299 - 858299 or 729387 - 729207 })):Play();
+			((tabi_l1II1IIlII * "\073\073\073\049\073\049\049\108"):Create(tabi_llI11IIlII .. "\108\108\108\049\049\108\108\108", TweenInfo[(tabi_lI1I1IIlII / "\108\108\073\073\049\108\073\049")(-618781 - (-670197))](.3, Enum[(tabi_lI1I1IIlII / "\073\073\049\073\108")(646023 - 594546)][(tabi_lI1I1IIlII / "\108\049\073\049\049\073\073\049")(793422 - 742071)]), { [(tabi_lI1I1IIlII / "\073\108\108\049\049\049")(466477 - 415021)] = tabi_lllll1IlII - "\108\049\073\108\073\073\108" and UDim[(tabi_lI1I1IIlII / "\108\049\049\073\108\073\108\049")(286761 + -235345)](327914 + -327914, -81821 - (-81827)) or UDim[(tabi_lI1I1IIlII / "\073\049\049\073\108\049\049\108")(-644212 + 695628)](-734071 - (-734071), -829114 - (-829114)) })):Play();
+			((tabi_l1II1IIlII * "\108\073\049\073\049\073\108\049"):Create(tabi_lIl11IIlII.llIlI1ll, TweenInfo[(tabi_lI1I1IIlII / "\073\049\073\073\073\049\073\108")(-475480 - (-526896))](.3, Enum[(tabi_lI1I1IIlII / "\073\073\049\073\108\049\108\108")(-130020 + 181497)][(tabi_lI1I1IIlII / "\108\108\073\073\073\049\049")(771832 + -720481)]), { [(tabi_lI1I1IIlII / "\108\049\049\073\073\049\073\049")(-434021 - (-485487))] = tabi_lllll1IlII - "\108\049\108\108\073\049\108" and UDim2[(tabi_lI1I1IIlII / "\073\073\049\049\108\049\108\049")(-878949 - (-930365))](966398 - 966398, -503612 - (-504112), -745591 + 745591, (tabi_I1l11IIlII ^ "\108\108\049\073\049\108\108\049")[(tabi_lI1I1IIlII / "\108\073\073\049\049\049\108\049")(740855 + -689389)][(tabi_lI1I1IIlII / "\108\108\108\049\108\073\049")(-956377 - (-1007871))][(tabi_lI1I1IIlII / "\108\108\073\049\049\073\049\108")(-172348 - (-223719))]) or UDim2[(tabi_lI1I1IIlII / "\073\108\108\073\049\108")(831440 - 780024)](-369963 - (-369963), 10836 - 10336, 849338 - 849338, 893426 - 893116) })):Play();
 		end;
-		(tabi_llII1Il11Il + "\073\108\108\049\073\049\049")[(tabi_lll1lIl11Il - "\073\073\073\108\108\108\049")(-676274 - (-722614))]:Connect(tabi_l1l1lIl11Il.lIIIlI11[(tabi_lll1lIl11Il - "\108\049\049\049\108\073\108\049")(-533632 - (-579954))]);
-		function tabi_l1l1lIl11Il.IllIIlll.Tab(tabi_I1I1lIl11Il, tabi_Il1llIl11Il, ...)
-			local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ lIIIl1l = {} }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.lIIIl1l = tabi_l11llIl11Il;
-					end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return tabi_Il1llIl11Il.lIIIl1l;
+		tabi_lII11IIlII.llIl1Il[(tabi_lI1I1IIlII / "\108\108\108\073\108\073\108")(-494575 + 545950)]:Connect(tabi_l11I1IIlII.lI1IIII1[(tabi_lI1I1IIlII / "\108\108\049\073\073\049\108")(286249 + -234852)]);
+		function tabi_l11I1IIlII.Il1Il1I1.Tab(tabi_Il1I1IIlII, tabi_I1lI1IIlII, ...)
+			local tabi_II1I1IIlII = tabi_l1lI1IIlII({ lI1I1Il = {} }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.lI1I1Il = tabi_l1lI1IIlII;
+					end, __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return tabi_I1lI1IIlII.lI1I1Il;
 					end });
-			local tabi_Ill1lIl11Il = tabi_l11llIl11Il({ IllllIIl = Instance[(tabi_lll1lIl11Il - "\073\108\073\049\108\049\108")(269608 + -223335)]((tabi_lll1lIl11Il - "\073\073\049\108\073\108\108\049")(688669 - 642356)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.IllllIIl = tabi_l11llIl11Il;
-					end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return rawget(tabi_Il1llIl11Il, "\073\108\108\108\108\073\073\108");
+			local tabi_I11I1IIlII = tabi_l1lI1IIlII({ I1III1 = Instance[(tabi_lI1I1IIlII / "\073\073\049\108\049\073\108")(1064855 - 1013439)]((tabi_lI1I1IIlII / "\073\073\049\108\108\108\049")(-576571 - (-628019))) }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.I1III1 = tabi_l1lI1IIlII;
+					end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return tabi_I1lI1IIlII.I1III1;
 					end });
-			local tabi_l1l1lIl11Il = tabi_l11llIl11Il({ IIl111ll = Instance[(tabi_lll1lIl11Il - "\073\049\049\049\108\108\108")(247783 - 201510)]((tabi_lll1lIl11Il - "\073\073\108\108\049\073\049")(-305921 - (-352299))) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.IIl111ll = tabi_l11llIl11Il;
-					end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return tabi_Il1llIl11Il.IIl111ll;
+			local tabi_l11I1IIlII = tabi_l1lI1IIlII({ I1111 = Instance[(tabi_lI1I1IIlII / "\073\049\108\073\108\049")(-66636 - (-118052))]((tabi_lI1I1IIlII / "\073\049\108\108\049\073\108\049")(97635 + -46282)) }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.I1111 = tabi_l1lI1IIlII;
+					end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return rawget(tabi_I1lI1IIlII, "\073\049\049\049\049");
 					end });
-			local tabi_II11lIl11Il = tabi_l11llIl11Il({ llIl1II1 = Instance[(tabi_lll1lIl11Il - "\108\073\073\073\108\073\049")(-974782 + 1021055)]((tabi_lll1lIl11Il - "\108\049\049\073\049\108\073\049")(-147045 + 193316)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.llIl1II1 = tabi_l11llIl11Il;
-					end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return tabi_Il1llIl11Il.llIl1II1;
+			local tabi_IIl11IIlII = tabi_l1lI1IIlII({ lI1I1l = Instance[(tabi_lI1I1IIlII / "\108\108\108\049\049\108\073\049")(670069 + -618653)]((tabi_lI1I1IIlII / "\073\049\073\108\049\049\073\108")(735327 - 683893)) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.lI1I1l = tabi_l1lI1IIlII;
+					end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return tabi_I1lI1IIlII.lI1I1l;
 					end });
-			local tabi_ll11lIl11Il = tabi_l11llIl11Il({ I1IIl1l1 = Instance[(tabi_lll1lIl11Il - "\073\108\049\073\073\073\049\049")(305449 - 259176)]((tabi_lll1lIl11Il - "\073\049\049\049\108\108\073\108")(-796025 + 842338)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.I1IIl1l1 = tabi_l11llIl11Il;
-					end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return tabi_Il1llIl11Il.I1IIl1l1;
+			local tabi_lIl11IIlII = tabi_l1lI1IIlII({ Il1II1l = Instance[(tabi_lI1I1IIlII / "\108\073\073\073\049\049\108\108")(652916 + -601500)]((tabi_lI1I1IIlII / "\108\073\073\073\108\049\073\049")(443502 + -392054)) }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.Il1II1l = tabi_l1lI1IIlII;
+					end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return tabi_I1lI1IIlII.Il1II1l;
 					end });
-			local tabi_Il11lIl11Il = tabi_l11llIl11Il({ IlIIIll1 = Instance[(tabi_lll1lIl11Il - "\108\049\049\073\108\049\073\108")(944765 + -898492)]((tabi_lll1lIl11Il - "\073\108\049\108\108\049")(-979542 - (-1025920))) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.IlIIIll1 = tabi_l11llIl11Il;
-					end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return tabi_Il1llIl11Il.IlIIIll1;
+			local tabi_I1l11IIlII = tabi_l1lI1IIlII({ Ill1lI1l = Instance[(tabi_lI1I1IIlII / "\108\108\108\108\073\108\108\049")(108515 + -57099)]((tabi_lI1I1IIlII / "\108\073\108\049\073\073\073\049")(857211 + -805858)) }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.Ill1lI1l = tabi_l1lI1IIlII;
+					end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return rawget(tabi_I1lI1IIlII, "\073\108\108\049\108\073\049\108");
 					end });
-			local tabi_l111lIl11Il = tabi_l11llIl11Il({ lII1I11l = Instance[(tabi_lll1lIl11Il - "\108\108\073\049\049\049\049\108")(-562673 + 608946)]((tabi_lll1lIl11Il - "\108\073\049\108\073\108\108")(-700470 + 746867)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.lII1I11l = tabi_l11llIl11Il;
-					end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return tabi_Il1llIl11Il.lII1I11l;
+			local tabi_l1l11IIlII = tabi_l1lI1IIlII({ I1llI1I1 = Instance[(tabi_lI1I1IIlII / "\108\073\049\049\073\073\049")(-597683 + 649099)]((tabi_lI1I1IIlII / "\108\108\073\073\108\049\073\108")(19745 + 31616)) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.I1llI1I1 = tabi_l1lI1IIlII;
+					end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return tabi_I1lI1IIlII.I1llI1I1;
 					end });
-			local tabi_I111lIl11Il = tabi_l11llIl11Il({ I1l1IIl1 = Instance[(tabi_lll1lIl11Il - "\108\049\073\073\108\108\049\108")(-334826 + 381099)]((tabi_lll1lIl11Il - "\108\073\108\073\108\073\073\049")(852386 - 806073)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.I1l1IIl1 = tabi_l11llIl11Il;
-					end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return rawget(tabi_Il1llIl11Il, "\073\049\108\049\073\073\108\049");
+			local tabi_IlI11IIlII = tabi_l1lI1IIlII({ II1IIIl1 = Instance[(tabi_lI1I1IIlII / "\073\108\073\108\108\108\073\049")(-295849 + 347265)]((tabi_lI1I1IIlII / "\108\073\108\108\108\108\073\108")(474415 + -422967)) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.II1IIIl1 = tabi_l1lI1IIlII;
+					end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return tabi_I1lI1IIlII.II1IIIl1;
 					end });
-			local tabi_lIII1Il11Il = tabi_l11llIl11Il({ III1Il11 = Instance[(tabi_lll1lIl11Il - "\073\049\073\073\108")(-894716 - (-940989))]((tabi_lll1lIl11Il - "\073\049\049\073\049\073\073\049")(-482913 - (-529200))) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.III1Il11 = tabi_l11llIl11Il;
-					end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return tabi_Il1llIl11Il.III1Il11;
+			local tabi_llI11IIlII = tabi_l1lI1IIlII({ IlIl1ll = Instance[(tabi_lI1I1IIlII / "\073\073\108\049\049\073\073\108")(126970 - 75554)]((tabi_lI1I1IIlII / "\073\073\108\073\108\108\073\049")(390572 + -339209)) }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.IlIl1ll = tabi_l1lI1IIlII;
+					end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return rawget(tabi_I1lI1IIlII, "\073\108\073\108\049\108\108");
 					end });
-			local tabi_IIII1Il11Il = tabi_l11llIl11Il({ l1l11II1 = Instance[(tabi_lll1lIl11Il - "\108\073\108\108\108\108\073\049")(-473455 - (-519728))]((tabi_lll1lIl11Il - "\108\108\108\049\073\073\108\108")(909242 - 862971)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.l1l11II1 = tabi_l11llIl11Il;
-					end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return tabi_Il1llIl11Il.l1l11II1;
+			local tabi_III11IIlII = tabi_l1lI1IIlII({ lIl1llll = Instance[(tabi_lI1I1IIlII / "\073\073\073\049\108\049\108\108")(810704 - 759288)]((tabi_lI1I1IIlII / "\073\108\049\073\073\108\073\049")(-189414 + 240848)) }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.lIl1llll = tabi_l1lI1IIlII;
+					end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return tabi_I1lI1IIlII.lIl1llll;
 					end });
-			local tabi_llII1Il11Il = tabi_l11llIl11Il({ lIl1llll = Instance[(tabi_lll1lIl11Il - "\108\049\108\108\073\108")(-804217 + 850490)]((tabi_lll1lIl11Il - "\108\049\049\108\108\108\108\108")(-469679 + 516025)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.lIl1llll = tabi_l11llIl11Il;
-					end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return tabi_Il1llIl11Il.lIl1llll;
+			local tabi_lII11IIlII = tabi_l1lI1IIlII({ III11ll = Instance[(tabi_lI1I1IIlII / "\073\073\108\108\108\049")(305065 + -253649)]((tabi_lI1I1IIlII / "\073\073\108\073\049\073\049")(-1025984 + 1077377)) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.III11ll = tabi_l1lI1IIlII;
+					end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return tabi_I1lI1IIlII.III11ll;
 					end });
-			(tabi_I111lIl11Il / "\108\073\073\073\108\073\108\108")[(tabi_lll1lIl11Il - "\108\049\108\049\108\073\108\108")(-8224 + 54559)] = (tabi_lll1lIl11Il - "\073\049\073\073\049\073\049\108")(-888451 - (-934717));
-			(tabi_I111lIl11Il / "\073\108\108\108\049\108")[(tabi_lll1lIl11Il - "\108\108\073\108\108\049\108\049")(440000 - 393644)] = tabi_I1lI1Il11Il + "\073\108\073\108\108\073\049";
-			(tabi_I111lIl11Il / "\108\073\049\108\049\073\108\108")[(tabi_lll1lIl11Il - "\073\073\108\108\049\108\073\049")(-38945 - (-85347))] = Color3[(tabi_lll1lIl11Il - "\108\108\108\049\073\073\108")(881847 - 835578)](819640 - 819385, 602035 + -601780, -551154 - (-551409));
-			(tabi_I111lIl11Il / "\073\108\049\073\108\073\049")[(tabi_lll1lIl11Il - "\108\108\108\049\049\073\108\049")(-931043 - (-977342))] = 733944 - 733943;
-			(tabi_I111lIl11Il / "\108\049\073\049\108\073\108")[(tabi_lll1lIl11Il - "\108\049\073\073\073\073\049")(263770 - 217511)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\049\108\108\108\049")(-1021504 + 1067773)](718454 + -718454, -104675 - (-104675), -159589 + 159589);
-			(tabi_I111lIl11Il / "\108\049\049\049\108\073\108\108")[(tabi_lll1lIl11Il - "\108\073\108\073\108\073\049")(-547258 - (-593586))] = -970750 + 970750;
-			(tabi_I111lIl11Il / "\073\108\049\049\049\108\108\049")[(tabi_lll1lIl11Il - "\073\049\108\049\073\049\073\049")(-334288 - (-380652))] = UDim2[(tabi_lll1lIl11Il - "\108\049\049\073\073\073\049")(-492656 - (-538929))](481840 - 481839, 437294 + -437294, -467694 + 467695, 451374 - 451374);
-			(tabi_I111lIl11Il / "\073\108\049\073\049\049\108\049")[(tabi_lll1lIl11Il - "\108\108\108\073\108\108\108")(-631220 + 677571)] = false;
-			(tabi_lIII1Il11Il / "\073\108\073\073\049\073\108\049")[(tabi_lll1lIl11Il - "\108\073\108\049\049")(-930111 - (-976446))] = (tabi_lll1lIl11Il - "\108\073\073\049\108\073\108")(-476591 + 522936);
-			(tabi_lIII1Il11Il / "\108\073\049\049\049\073\073\108")[(tabi_lll1lIl11Il - "\073\108\049\108\073\073\049\049")(251322 - 204966)] = tabi_I111lIl11Il / "\108\073\073\108\049\073\073\049";
-			(tabi_lIII1Il11Il / "\073\073\049\073\108\073\108")[(tabi_lll1lIl11Il - "\073\073\049\049\108\049\049\108")(-461934 + 508186)] = true;
-			(tabi_lIII1Il11Il / "\108\073\073\049\108\049\049")[(tabi_lll1lIl11Il - "\073\073\108\049\108\108\049")(41378 - (-5024))] = Color3[(tabi_lll1lIl11Il - "\073\049\108\108\073\108\049\108")(-88359 - (-134628))](-325418 + 325673, -356588 - (-356843), 42848 - 42593);
-			(tabi_lIII1Il11Il / "\073\108\108\049\073\049\073\049")[(tabi_lll1lIl11Il - "\073\108\073\108\073\073\073\049")(-953726 + 1000025)] = -1029375 - (-1029376);
-			(tabi_lIII1Il11Il / "\073\073\073\049\073\049\073\108")[(tabi_lll1lIl11Il - "\073\073\108\049\049\108\049")(192422 + -146163)] = Color3[(tabi_lll1lIl11Il - "\108\108\108\073\108\108\049\108")(929016 - 882747)](386732 + -386732, -827258 + 827258, -226727 + 226727);
-			(tabi_lIII1Il11Il / "\073\108\073\073\049")[(tabi_lll1lIl11Il - "\073\108\108\108\073\073\049\108")(-794370 - (-840698))] = -278761 - (-278761);
-			(tabi_lIII1Il11Il / "\108\108\049\049\073\049\049\108")[(tabi_lll1lIl11Il - "\073\073\108\108\108\073\073\049")(196710 + -150346)] = UDim2[(tabi_lll1lIl11Il - "\073\108\108\049\073\108")(-187046 - (-233319))](-301864 - (-301865), 871483 + -871483, 288298 - 288297, -207334 - (-207334));
-			(tabi_lIII1Il11Il / "\108\108\108\049\073\073\108")[(tabi_lll1lIl11Il - "\108\049\073\108\073\108")(-467811 - (-514096))] = UDim2[(tabi_lll1lIl11Il - "\108\049\073\073\049\108\108\108")(-222631 - (-268904))](-432557 + 432557, 729463 + -729463, -148197 + 148197, 468271 + -468271);
-			(tabi_lIII1Il11Il / "\108\073\108\049\049\049\049\108")[(tabi_lll1lIl11Il - "\108\049\073\049\108\049\108\108")(610995 + -564632)] = -357223 - (-357227);
-			(tabi_lIII1Il11Il / "\108\073\073\049\108\049\049")[(tabi_lll1lIl11Il - "\108\073\073\108\049")(561058 - 514672)] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\073\049\108\049")(470383 + -424110)](110691 - 110691, -239975 - (-239975), -581426 - (-581426), -850682 - (-850682));
-			(tabi_lIII1Il11Il / "\108\108\049\073\049\108")[(tabi_lll1lIl11Il - "\073\049\108\108\108\049\108\108")(291066 - 244776)] = Enum[(tabi_lll1lIl11Il - "\073\108\108\108\108\073\108\108")(997446 - 951165)][(tabi_lll1lIl11Il - "\073\049\073\108\108\073\108\108")(256488 + -210139)];
-			(tabi_IIII1Il11Il - "\108\073\049\049\108\108\108\108")[(tabi_lll1lIl11Il - "\108\108\108\073\073\049\073\049")(832375 - 786040)] = (tabi_lll1lIl11Il - "\108\049\049\108\049\108\073\049")(245544 + -199155);
-			(tabi_IIII1Il11Il - "\073\049\049\049\073\073\049")[(tabi_lll1lIl11Il - "\073\049\073\073\073\049\108\049")(142692 + -96336)] = tabi_lIII1Il11Il / "\108\049\073\073\108\073\108";
-			(tabi_IIII1Il11Il - "\108\108\108\049\049\073\049")[(tabi_lll1lIl11Il - "\108\073\049\108\108\108\049\108")(-779832 - (-826234))] = Color3[(tabi_lll1lIl11Il - "\073\049\108\108\073\049\108\049")(-577330 + 623599)](996671 + -996633, 681880 - 681845, 786872 + -786834);
-			(tabi_IIII1Il11Il - "\108\108\073\049\073\108\049\049")[(tabi_lll1lIl11Il - "\108\049\073\049\049\108\073\108")(-130660 + 176959)] = -81954 - (-81955);
-			(tabi_IIII1Il11Il - "\108\108\073\049\073\073\073\049")[(tabi_lll1lIl11Il - "\108\073\049\049\108\049\049\108")(-742391 + 788650)] = Color3[(tabi_lll1lIl11Il - "\073\073\049\108\108\108\108\049")(-642612 + 688881)](-82531 + 82531, 585138 + -585138, -270312 - (-270312));
-			(tabi_IIII1Il11Il - "\073\073\108\108\073\073\108\108")[(tabi_lll1lIl11Il - "\073\073\073\073\049\049")(468709 - 422381)] = 409901 - 409901;
-			(tabi_IIII1Il11Il - "\108\108\108\049\073\073\108\049")[(tabi_lll1lIl11Il - "\108\049\108\108\073\049\108\049")(-340715 + 387079)] = UDim2[(tabi_lll1lIl11Il - "\073\073\108\073\073\108\049\049")(-597491 + 643764)](-153700 - (-153701), -282089 + 282089, -0.0892193317, 839340 - 839290);
-			(tabi_IIII1Il11Il - "\108\049\049\049\073\049\108\049")[(tabi_lll1lIl11Il - "\108\108\049\073\108")(743735 + -697341)] = Enum[(tabi_lll1lIl11Il - "\108\073\108\049\049\073\108\108")(328739 - 282345)][(tabi_lll1lIl11Il - "\073\073\049\108\073\073\108\049")(989240 - 942845)];
-			(tabi_IIII1Il11Il - "\108\108\073\073\049\073\108\108")[(tabi_lll1lIl11Il - "\108\049\108\073\049\073\108\049")(123301 - 76898)] = tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\108\108\108\108\073\108\073\108")(-31713 + 78039);
-			(tabi_IIII1Il11Il - "\073\073\073\073\073\049\073\108")[(tabi_lll1lIl11Il - "\108\108\073\049\073\049\049")(311850 + -265508)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\073\049\073\049")(-937153 - (-983422))](165029 + -164813, -598683 - (-598899), 979798 - 979582);
-			(tabi_IIII1Il11Il - "\073\049\049\108\049\049\049")[(tabi_lll1lIl11Il - "\108\049\049\108\049\073\049\108")(-797881 + 844175)] = -471903 - (-471919);
-			(tabi_IIII1Il11Il - "\073\049\108\108\073\073\049\049")[(tabi_lll1lIl11Il - "\073\073\049\108\073\108\073\049")(1010239 + -963956)] = true;
-			(tabi_IIII1Il11Il - "\108\073\073\108\049\049\049\108")[(tabi_lll1lIl11Il - "\108\073\073\049\108\108\108")(754935 + -708618)] = Enum[(tabi_lll1lIl11Il - "\108\049\049\049\073\049\108")(-105720 - (-152037))][(tabi_lll1lIl11Il - "\073\108\073\073\108\108")(304425 + -258091)];
-			(tabi_llII1Il11Il - "\108\108\049\108\049\073\049")[(tabi_lll1lIl11Il - "\073\049\073\073\073\073\049")(-175909 + 222244)] = (tabi_lll1lIl11Il - "\108\108\049\108\049\073\073\108")(653220 - 606835);
-			(tabi_llII1Il11Il - "\073\073\073\073\108\108\108\108")[(tabi_lll1lIl11Il - "\073\073\073\073\073\073\049\108")(838541 - 792185)] = tabi_lIII1Il11Il / "\073\049\108\108\108\049\049\108";
-			(tabi_llII1Il11Il - "\073\073\073\108\049\049\073\049")[(tabi_lll1lIl11Il - "\073\108\108\108\049\049\049\108")(-500272 + 546526)] = Enum[(tabi_lll1lIl11Il - "\073\049\049\073\073\049")(1034029 - 987775)][(tabi_lll1lIl11Il - "\108\108\073\108\073\073\108\049")(530647 - 484271)];
-			(tabi_llII1Il11Il - "\108\073\108\108\049\073\108\108")[(tabi_lll1lIl11Il - "\073\073\108\073\073\049\073\108")(-1034176 + 1080553)] = UDim[(tabi_lll1lIl11Il - "\073\049\049\073\073\073\108")(-341035 + 387308)](89891 - 89891, -381164 + 381168);
-			tabi_Ill1lIl11Il.l11I11l[(tabi_lll1lIl11Il - "\108\049\108\049\049\073\108")(-926589 + 972924)] = (tabi_lll1lIl11Il - "\073\108\073\073\108\049\108\049")(631637 - 585330);
-			tabi_Ill1lIl11Il.l1lIlI1l[(tabi_lll1lIl11Il - "\073\073\073\073\108\108\108")(-775269 - (-821625))] = tabi_IllI1Il11Il / "\073\049\073\108\049\073\073\108";
-			tabi_Ill1lIl11Il.III1II1[(tabi_lll1lIl11Il - "\073\108\108\049\073\108\049\049")(451950 + -405548)] = Color3[(tabi_lll1lIl11Il - "\108\073\108\073\049\049\049\108")(-953854 + 1000123)](-302377 + 302413, -190054 + 190087, 261772 - 261736);
-			tabi_Ill1lIl11Il.l11IlIIl[(tabi_lll1lIl11Il - "\108\108\049\108\049\108\108\108")(-907516 + 953775)] = Color3[(tabi_lll1lIl11Il - "\073\108\108\049\108\073\073\108")(305769 + -259500)](-587314 - (-587314), -346539 + 346539, 332202 + -332202);
-			tabi_Ill1lIl11Il.IllI1Ill[(tabi_lll1lIl11Il - "\108\049\108\073\073\073\073\049")(914675 - 868347)] = -582770 - (-582770);
-			tabi_Ill1lIl11Il.lIl1llll[(tabi_lll1lIl11Il - "\108\073\049\049\049\049\108\108")(-548928 - (-595314))] = UDim2[(tabi_lll1lIl11Il - "\073\073\073\108\049\108\049\108")(-104291 + 150564)](.0454545468, 478895 + -478895, 413485 + -413485, -740215 + 740215);
-			tabi_Ill1lIl11Il.lIl111I1[(tabi_lll1lIl11Il - "\108\108\108\108\108\049\073\108")(73122 + -26758)] = UDim2[(tabi_lll1lIl11Il - "\073\049\108\049\049\049\108\049")(783480 + -737207)](853498 + -853498, -22073 - (-22177), -517168 + 517168, 215079 + -215052);
-			(tabi_l1l1lIl11Il * "\108\073\108\073\108\108\049\108")[(tabi_lll1lIl11Il - "\073\049\049\049\108\073\049\108")(600741 - 554481)] = UDim[(tabi_lll1lIl11Il - "\108\073\073\073\108\108\108")(-1001023 + 1047296)](-800185 - (-800185), 74535 - 74530);
-			(tabi_l1l1lIl11Il * "\108\108\073\108\073\049\108\108")[(tabi_lll1lIl11Il - "\108\073\108\108\049\108\073\108")(-805945 + 852280)] = (tabi_lll1lIl11Il - "\073\108\049\108\108\073\073\049")(749618 - 703222);
-			(tabi_l1l1lIl11Il * "\073\073\073\108\108\049\108\108")[(tabi_lll1lIl11Il - "\073\108\073\049\049\049\073\049")(-663669 + 710025)] = tabi_Ill1lIl11Il.lI111Il;
-			(tabi_II11lIl11Il ^ "\073\073\073\049\049\073\108")[(tabi_lll1lIl11Il - "\073\049\108\049\049\073\108\049")(-491183 + 537518)] = (tabi_lll1lIl11Il - "\108\073\073\049\108\049")(-213390 - (-259688));
-			(tabi_II11lIl11Il ^ "\108\049\049\108\108\108\049")[(tabi_lll1lIl11Il - "\108\108\049\108\073\049\073\108")(823756 - 777400)] = tabi_Ill1lIl11Il.lll1l;
-			(tabi_II11lIl11Il ^ "\108\073\108\049\108\108")[(tabi_lll1lIl11Il - "\108\108\108\049\108\073\049\108")(-828921 - (-875323))] = Color3[(tabi_lll1lIl11Il - "\073\073\073\049\049\073\073\108")(47901 - 1632)](-346348 - (-346603), 1013822 - 1013567, -40802 - (-41057));
-			(tabi_II11lIl11Il ^ "\073\073\108\108\073\049\108\049")[(tabi_lll1lIl11Il - "\073\073\073\073\108\073\108\049")(-503088 + 549387)] = -639091 - (-639092);
-			(tabi_II11lIl11Il ^ "\108\073\108\073\049\049\108\049")[(tabi_lll1lIl11Il - "\108\049\073\049\073\073\073\108")(141540 + -95281)] = Color3[(tabi_lll1lIl11Il - "\073\073\073\073\108\108\073\108")(-79394 + 125663)](600371 + -600371, -240871 - (-240871), 344427 - 344427);
-			(tabi_II11lIl11Il ^ "\073\108\108\073\049\108\073\108")[(tabi_lll1lIl11Il - "\073\108\108\049\049\108")(302185 + -255857)] = -368107 - (-368107);
-			(tabi_II11lIl11Il ^ "\108\108\049\049\108\073\108")[(tabi_lll1lIl11Il - "\073\049")(-706998 + 753384)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\108\108\049\049")(950397 + -904124)](.115384616, -781560 + 781560, -131236 + 131236, 626611 - 626611);
-			(tabi_II11lIl11Il ^ "\108\073\108\049\108\073\108\049")[(tabi_lll1lIl11Il - "\108\049\049\108\108\073\108\108")(1007807 + -961443)] = UDim2[(tabi_lll1lIl11Il - "\073\073\108\049\108\108\108")(404460 - 358187)](.884615362, -463790 - (-463790), -584050 + 584051, -227047 + 227047);
-			(tabi_II11lIl11Il ^ "\108\073\108\073\108\049\108")[(tabi_lll1lIl11Il - "\073\049\073\073\073\073\049\108")(145893 + -99499)] = Enum[(tabi_lll1lIl11Il - "\073\108\073\073\073\049\049")(25761 + 20633)][(tabi_lll1lIl11Il - "\073\108\108\049\073\108\108")(415526 - 369131)];
-			(tabi_II11lIl11Il ^ "\108\108\108\073\049\108\108")[(tabi_lll1lIl11Il - "\108\073\108\073\108")(-526767 - (-573170))] = tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\073\108\073\049\108\049\108\108")(-483834 - (-530160));
-			(tabi_II11lIl11Il ^ "\073\108\108\049\108\108\108")[(tabi_lll1lIl11Il - "\108\049\073\073\073\073\073\049")(73058 + -26716)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\108\073\049\108\049")(869751 - 823482)](-735671 + 735926, -727095 + 727350, 1006654 - 1006399);
-			(tabi_II11lIl11Il ^ "\108\049\049\073\073\108\108\049")[(tabi_lll1lIl11Il - "\108\108\073\108\049\108\108\049")(188154 - 141860)] = -771434 - (-771448);
-			(tabi_II11lIl11Il ^ "\073\049\049\073\108\049\073\049")[(tabi_lll1lIl11Il - "\108\073\073\108\049\049\108\108")(432301 + -385984)] = Enum[(tabi_lll1lIl11Il - "\073\108\108\049\073\108\108\049")(-92003 + 138320)][(tabi_lll1lIl11Il - "\073\108\049\049\049\073\049")(781880 + -735546)];
-			(tabi_ll11lIl11Il - "\108\049\049\073\108\073\049")[(tabi_lll1lIl11Il - "\108\049\073\108\073\108\049")(-654263 - (-700598))] = (tabi_lll1lIl11Il - "\108\108\108\108\073\049\073\108")(824442 + -778177);
-			(tabi_ll11lIl11Il - "\073\073\049\049\073\049\049")[(tabi_lll1lIl11Il - "\108\073\073\073\108\049\073\049")(918159 - 871803)] = tabi_Ill1lIl11Il.lll11lI1;
-			(tabi_ll11lIl11Il - "\108\108\073\049\049\073\049\108")[(tabi_lll1lIl11Il - "\108\049\073\108\073\073\108")(-570632 - (-616947))] = Vector2[(tabi_lll1lIl11Il - "\073\108\108\108\049\108\108\049")(217767 + -171494)](-43681 - (-43681), 426157.5 - 426157);
-			(tabi_ll11lIl11Il - "\073\073\073\049\108\049\049")[(tabi_lll1lIl11Il - "\073\108\049\049\073\108\108\108")(-369899 - (-416301))] = Color3[(tabi_lll1lIl11Il - "\073\073\073\073\073\049\108\108")(475114 - 428845)](-463406 + 463451, 929853 + -929808, -553649 + 553694);
-			(tabi_ll11lIl11Il - "\073\073\073\049\108\073\049\049")[(tabi_lll1lIl11Il - "\108\049\073\108\049\108\108\049")(-465326 + 511585)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\073\108")(-424050 - (-470319))](-162661 - (-162661), -305065 - (-305065), 718134 - 718134);
-			(tabi_ll11lIl11Il - "\108\108\073\073\073\049")[(tabi_lll1lIl11Il - "\108\108\049\049\108\108\073\049")(766968 + -720640)] = 251368 + -251368;
-			(tabi_ll11lIl11Il - "\073\049\108\073\073\049\108")[(tabi_lll1lIl11Il - "\073\108\108\049\073\073\073\108")(323818 + -277432)] = UDim2[(tabi_lll1lIl11Il - "\073\049\073\073\073\073\108")(-641012 + 687285)](-1022848 - (-1022848), -950013 + 950013, 323306 + -323305.5, 638452 - 638452);
-			(tabi_ll11lIl11Il - "\108\049\073\073\108\049\108\049")[(tabi_lll1lIl11Il - "\108\073\073\108\073\073\073\108")(232386 - 186022)] = UDim2[(tabi_lll1lIl11Il - "\108\073\073\049\073\108\108\049")(101667 + -55394)](-460142 - (-460142), 921341 + -921335, 401516 + -401515.75, 466798 + -466798);
-			(tabi_Il11lIl11Il / "\073\049\108\108\073\049\108")[(tabi_lll1lIl11Il - "\108\049\108\073\073\108\049\049")(637940 + -591605)] = (tabi_lll1lIl11Il - "\073\049\049\073\049\073\049\108")(879419 + -833144);
-			(tabi_Il11lIl11Il / "\108\049\108\108\073\108\073\108")[(tabi_lll1lIl11Il - "\073\073\049\073\049\049\108\108")(-616499 + 662855)] = tabi_ll11lIl11Il - "\108\073\049\049\049\049\049";
-			(tabi_l111lIl11Il * "\073\108\108")[(tabi_lll1lIl11Il - "\108\049\108\049\108\073\049\049")(-802425 + 848734)] = -303913 + 303915;
-			(tabi_l111lIl11Il * "\073\049\108\108\108\108\073\108")[(tabi_lll1lIl11Il - "\108\049\073\049\108\049\108")(-127970 - (-174373))] = (tabi_lll1lIl11Il - "\073\108\108\073\049\108\049")(-197734 + 243987);
-			(tabi_l111lIl11Il * "\073\108\108\108\108\073\073\108")[(tabi_lll1lIl11Il - "\073\049\073\073\049\049\108")(-297449 + 343813)] = UDim2[(tabi_lll1lIl11Il - "\073\108\108\049\049\108\108\049")(-943549 + 989822)](-624754 - (-624755), 764536 + -764536, 761016 + -761015, -498735 - (-498735));
-			(tabi_l111lIl11Il * "\073\108\073\108\049\108\073\108")[(tabi_lll1lIl11Il - "\073\049\073\049\108\108\108\049")(-493981 - (-540337))] = tabi_Ill1lIl11Il.IllIIlI1;
-			(tabi_l111lIl11Il * "\073\073\108\049\108\108\108\049")[(tabi_lll1lIl11Il - "\073\108\108\108\049\108\049")(-23943 - (-70242))] = -415661 + 415662;
-			(tabi_I11llIl11Il / "\073\108\073\049\073\108")(tabi_lII1lIl11Il * ((tabi_lII1lIl11Il + "\108\049\049\049\073\108\108\049") + (-913788 + 913789)));
-			table[(tabi_lll1lIl11Il - "\108\073\049\049\073\049\049\108")(127716 + -81343)](tabi_III1lIl11Il / "\108\073\073\073\108\073\108\108", { tabi_Ill1lIl11Il.I11III1l, tabi_I111lIl11Il / "\073\108\073\073\049\108\073\049" });
-			local tabi_IlII1Il11Il = tabi_l11llIl11Il({ I1I11ll1 = false }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						tabi_Il1llIl11Il.I1I11ll1 = tabi_l11llIl11Il;
-					end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-						return tabi_Il1llIl11Il.I1I11ll1;
+			(tabi_IlI11IIlII * "\108\073\049\108\049\049\049\108")[(tabi_lI1I1IIlII / "\108\108\049\049\108\073\049\049")(-25249 + 76625)] = (tabi_lI1I1IIlII / "\073\108\108\108\073\073\049")(299881 + -248444);
+			(tabi_IlI11IIlII * "\108\073\108\073\049\049\108")[(tabi_lI1I1IIlII / "\108\073\073\108\108\073\073\108")(-809384 - (-860859))] = tabi_Illll1IlII.IlIIllI1;
+			(tabi_IlI11IIlII * "\108\073\108\108\049\049\108")[(tabi_lI1I1IIlII / "\108\073\108\049\049\073\049\049")(892892 - 841466)] = Color3[(tabi_lI1I1IIlII / "\073\049\049\108\073\049\108\108")(1000282 - 948861)](-187174 + 187429, 859066 - 858811, -413230 - (-413485));
+			(tabi_IlI11IIlII * "\073\073\073\108\073\049\108\049")[(tabi_lI1I1IIlII / "\073\073\073\049\073\108\049")(39009 + 12338)] = -363307 + 363308;
+			(tabi_IlI11IIlII * "\108\073\108\073\049\073\073\108")[(tabi_lI1I1IIlII / "\073\073\073\049\108\049\073\108")(5472 + 45995)] = Color3[(tabi_lI1I1IIlII / "\073\049\108\108\108\073\049\108")(259907 - 208486)](-656436 + 656436, 154021 + -154021, 902524 - 902524);
+			(tabi_IlI11IIlII * "\073\049\073\108\073\049")[(tabi_lI1I1IIlII / "\108\073\049\108\049\073\108")(762281 - 710838)] = -55714 + 55714;
+			(tabi_IlI11IIlII * "\108\049\049\073\108\049")[(tabi_lI1I1IIlII / "\073\073\049\049\108\108\108\108")(1066633 - 1015167)] = UDim2[(tabi_lI1I1IIlII / "\108\108\049\073\108\073\073\049")(168037 + -116621)](-933181 + 933182, 904572 + -904572, -422252 - (-422253), 182118 + -182118);
+			(tabi_IlI11IIlII * "\073\108\108\049\073\049")[(tabi_lI1I1IIlII / "\073\073\108\108\049\073\049")(1027267 - 975806)] = false;
+			(tabi_llI11IIlII / "\073\073\108\073\073\108\049")[(tabi_lI1I1IIlII / "\073\049\049\073\108\049")(-842316 - (-893692))] = (tabi_lI1I1IIlII / "\108\108\073\073\049\073\108")(-734570 - (-785976));
+			(tabi_llI11IIlII / "\108\108\049\108\073\108\108\049")[(tabi_lI1I1IIlII / "\108\049\108\049\073\073\073\108")(933198 - 881723)] = tabi_IlI11IIlII * "\073\049\049\108\049\049\049";
+			(tabi_llI11IIlII / "\073\108\049\049")[(tabi_lI1I1IIlII / "\073\049\049\073\073\049\073\049")(738845 - 687349)] = true;
+			(tabi_llI11IIlII / "\073\049\108\073\108\073\108\049")[(tabi_lI1I1IIlII / "\108\108\108\108\049\108\108\049")(741239 + -689813)] = Color3[(tabi_lI1I1IIlII / "\108\049\073\073\108\073\073\108")(287081 + -235660)](95651 + -95396, 497454 - 497199, -307370 + 307625);
+			(tabi_llI11IIlII / "\108\108\073\108\049\073\073\049")[(tabi_lI1I1IIlII / "\108\049\049\049\108\073\073\049")(129141 - 77794)] = 126053 - 126052;
+			(tabi_llI11IIlII / "\073\108\108\073\073\073\049\108")[(tabi_lI1I1IIlII / "\108\073\073\108\108\049\073\108")(-752439 + 803906)] = Color3[(tabi_lI1I1IIlII / "\108\073\108\073\073\073\049")(784468 - 733047)](-370667 - (-370667), 457006 + -457006, 755191 + -755191);
+			(tabi_llI11IIlII / "\073\108\108\073\073\073\073\108")[(tabi_lI1I1IIlII / "\108\049\073\108\073\108\073\108")(882285 - 830842)] = -250280 - (-250280);
+			(tabi_llI11IIlII / "\073\073\049\049\049\108")[(tabi_lI1I1IIlII / "\108\108\049\108\049\049")(-538417 + 589883)] = UDim2[(tabi_lI1I1IIlII / "\108\049\108\073\049\073\108\049")(-236199 + 287615)](198694 + -198693, 918012 - 918012, -331497 - (-331498), 538929 + -538929);
+			(tabi_llI11IIlII / "\108\049\073\108\108\108\073\108")[(tabi_lI1I1IIlII / "\073\073\108\073\108\049\073\049")(470147 - 418797)] = UDim2[(tabi_lI1I1IIlII / "\073\108\108\073\049\108\049\108")(-180966 + 232382)](-385324 - (-385324), 534833 - 534833, 458862 - 458862, -649396 - (-649396));
+			(tabi_llI11IIlII / "\108\049\049\049\073\049\108\049")[(tabi_lI1I1IIlII / "\108\049\108\049\073\108\073\108")(449027 - 397612)] = 542709 - 542705;
+			(tabi_llI11IIlII / "\073\108\049\073\049\073\073\108")[(tabi_lI1I1IIlII / "\073\108\049\049\108\049\108\049")(343211 + -291802)] = UDim2[(tabi_lI1I1IIlII / "\073\108\073\073\073\108\049\049")(-338730 + 390146)](-530352 - (-530352), 1014847 + -1014847, 224487 + -224487, -353963 + 353963);
+			(tabi_llI11IIlII / "\108\108\049\108\049\073\073\049")[(tabi_lI1I1IIlII / "\073\073\073\108\108\073\108")(-161069 - (-212519))] = Enum[(tabi_lI1I1IIlII / "\073\049\073\073\049\049\108")(-165349 + 216846)][(tabi_lI1I1IIlII / "\108\073\049\108\073\073\049\049")(425709 + -374215)];
+			(tabi_III11IIlII - "\073\049\073\108\049\049\108\049")[(tabi_lI1I1IIlII / "\073\073\108\073\049\108\073\108")(-421887 - (-473263))] = (tabi_lI1I1IIlII / "\108\073\108\049\073\073\049")(617858 - 566514);
+			(tabi_III11IIlII - "\073\073\108\108\108\073\073\049")[(tabi_lI1I1IIlII / "\108\108\049\073\108\073\049\108")(-486238 - (-537713))] = tabi_llI11IIlII / "\073\108\049\108\108\108\108\049";
+			(tabi_III11IIlII - "\108\108\108\073\073\049")[(tabi_lI1I1IIlII / "\108\073\108\108\049\108\108\108")(735255 - 683829)] = Color3[(tabi_lI1I1IIlII / "\108\108\049\108\108\073\108")(441161 - 389740)](-147301 + 147339, 977377 - 977342, -29089 + 29127);
+			(tabi_III11IIlII - "\073\108\108\108\073\073\049\108")[(tabi_lI1I1IIlII / "\073\073\108\108\108\073\073\108")(-303273 + 354620)] = 325739 - 325738;
+			(tabi_III11IIlII - "\073\049\073\073\049\049\073\108")[(tabi_lI1I1IIlII / "\073\108\049\049\049\049\073\049")(-708973 - (-760440))] = Color3[(tabi_lI1I1IIlII / "\108\073\049\073\108\073\073\049")(-682677 + 734098)](-387628 + 387628, 311402 + -311402, 729399 - 729399);
+			(tabi_III11IIlII - "\073\108\108\049\049\073\108\049")[(tabi_lI1I1IIlII / "\073\108\073\073\049\049\108\049")(625651 + -574208)] = -98083 + 98083;
+			(tabi_III11IIlII - "\073\108\108\049\049\108\073\049")[(tabi_lI1I1IIlII / "\108\049\073\049\073\108\049\049")(-832570 + 884036)] = UDim2[(tabi_lI1I1IIlII / "\073\108\108\073\049\073\073\049")(745934 - 694518)](-296169 + 296170, 630772 - 630772, -0.0892193317, 519664 + -519614);
+			(tabi_III11IIlII - "\073\073\049\073\108\108\108\049")[(tabi_lI1I1IIlII / "\108\108\108\049\108\073\073\108")(1041730 - 990271)] = Enum[(tabi_lI1I1IIlII / "\073\049\073\073\073\073\108\108")(-755638 - (-807097))][(tabi_lI1I1IIlII / "\073\073\108\049\073\073\108\049")(-184712 - (-236071))];
+			(tabi_III11IIlII - "\108\108\108\049\108\073\108")[(tabi_lI1I1IIlII / "\108\049\049\108\073\073\108\108")(-744022 - (-795449))] = tabi_I1lI1IIlII or (tabi_lI1I1IIlII / "\073\073\049\073\049\108\108\049")(575266 - 523888);
+			(tabi_III11IIlII - "\108\108\073\108\049\108\049")[(tabi_lI1I1IIlII / "\108\049\073\108\049\049\049\108")(758233 - 706742)] = Color3[(tabi_lI1I1IIlII / "\073\073\108\108\073\073\073\108")(260648 + -209227)](-292817 - (-293033), 222503 + -222287, -98979 + 99195);
+			(tabi_III11IIlII - "\073\073\073\073\108\049\108")[(tabi_lI1I1IIlII / "\108\073\073\049\049\073\049\108")(-394003 - (-445486))] = -158549 - (-158565);
+			(tabi_III11IIlII - "\073\108\108\108\108\049\049\108")[(tabi_lI1I1IIlII / "\073\108\108\108\108\108\073\108")(-954866 - (-1006271))] = true;
+			(tabi_III11IIlII - "\108\049\073\049\108\108\073\108")[(tabi_lI1I1IIlII / "\073\049\108\108\108\108\049\108")(-603833 - (-655220))] = Enum[(tabi_lI1I1IIlII / "\073\049\108\049\108\108\073\108")(628019 + -576632)][(tabi_lI1I1IIlII / "\108\108\049\073\073\073\049\108")(-619472 - (-670837))];
+			(tabi_lII11IIlII / "\108\108\073\049\049\049\073\108")[(tabi_lI1I1IIlII / "\073\108\049\073\108\073\049\108")(1050543 - 999167)] = (tabi_lI1I1IIlII / "\073\108\049\108\073\073\108\108")(-476498 - (-527920));
+			(tabi_lII11IIlII / "\108\073\049\073\049\108\073\049")[(tabi_lI1I1IIlII / "\073\108\108\108\073\108\049")(-616819 + 668294)] = tabi_llI11IIlII / "\073\073\073\073\108\108\049\108";
+			(tabi_lII11IIlII / "\073\049\049\049\108\073\049")[(tabi_lI1I1IIlII / "\073\049\073\049\108\073\108\049")(-521840 + 573223)] = Enum[(tabi_lI1I1IIlII / "\073\049\108\073\049\049\108\108")(-581565 - (-632948))][(tabi_lI1I1IIlII / "\108\108\049\108\073\049\108\049")(477897 - 426477)];
+			(tabi_lII11IIlII / "\108\108\108\049\108\108\073\049")[(tabi_lI1I1IIlII / "\073\049\073\073\049\049\073\049")(166181 + -114742)] = UDim[(tabi_lI1I1IIlII / "\073\049\073\049\073\073\073\049")(720310 + -668894)](213607 + -213607, 485811 - 485807);
+			(tabi_I11I1IIlII + "\073\073\049\049\108\108\073\049")[(tabi_lI1I1IIlII / "\108\108\049\073\073\073\049")(511454 - 460078)] = (tabi_lI1I1IIlII / "\073\049\073\108\108\049\049\108")(1007306 - 955902);
+			(tabi_I11I1IIlII + "\073\049\073\073\073\073\108")[(tabi_lI1I1IIlII / "\108\049\108\073\049\108")(-466077 - (-517552))] = tabi_I1111IIlII - "\073\108\049\073\049\108\049";
+			(tabi_I11I1IIlII + "\073\049\049\073\049\049\073\108")[(tabi_lI1I1IIlII / "\108\049\108\049\073\073\108\108")(882012 - 830586)] = Color3[(tabi_lI1I1IIlII / "\108\073\108\049\073\049")(388396 + -336975)](800157 - 800121, 223752 - 223719, 208742 + -208706);
+			(tabi_I11I1IIlII + "\073\049\108\049\049\108\049")[(tabi_lI1I1IIlII / "\108\073\049\049\108\049\108\049")(-655860 + 707327)] = Color3[(tabi_lI1I1IIlII / "\108\073\108\049\073\073\108\108")(-143113 - (-194534))](-400300 + 400300, -254760 + 254760, -266024 - (-266024));
+			(tabi_I11I1IIlII + "\108\049\073\108\108\049\108")[(tabi_lI1I1IIlII / "\073\049\073\049\073\108\108\108")(241703 + -190260)] = -315434 + 315434;
+			(tabi_I11I1IIlII + "\108\073\073\073\108\108\049\108")[(tabi_lI1I1IIlII / "\108\073\108\108\073\108\049\049")(-597219 - (-648628))] = UDim2[(tabi_lI1I1IIlII / "\073\049\049\073\073\108\073\049")(-920870 - (-972286))](.0454545468, -722550 - (-722550), -22177 - (-22177), 763320 + -763320);
+			(tabi_I11I1IIlII + "\073\108\049\049\108\049\049\108")[(tabi_lI1I1IIlII / "\073\049\049\108\108\108\073\049")(-322850 - (-374316))] = UDim2[(tabi_lI1I1IIlII / "\108\073\049\049\108\073\049\108")(89529 - 38113)](-852538 - (-852538), -699406 - (-699510), 320874 + -320874, 677301 + -677274);
+			(tabi_l11I1IIlII / "\073\049\073\108\049")[(tabi_lI1I1IIlII / "\108\073\049\073\073\073\049\049")(-578228 - (-629684))] = UDim[(tabi_lI1I1IIlII / "\108\049\073\049\108\108\108")(-275433 + 326849)](520432 - 520432, 2725 - 2720);
+			(tabi_l11I1IIlII / "\108\073\108\049\073\073\049\108")[(tabi_lI1I1IIlII / "\108\049\108\108\108\073\049")(832058 + -780682)] = (tabi_lI1I1IIlII / "\108\049\049\108\073\108\049")(21921 + 29568);
+			(tabi_l11I1IIlII / "\073\108\073\108\073\073\108\108")[(tabi_lI1I1IIlII / "\108\049\073\049\049\049\073\049")(-627763 + 679238)] = tabi_I11I1IIlII + "\073\108\108\108\073\049\108";
+			(tabi_IIl11IIlII + "\073\073\073\049\073\049\049\108")[(tabi_lI1I1IIlII / "\108\073\108\108\073\049\049")(-648326 - (-699702))] = (tabi_lI1I1IIlII / "\073\108\108\049\073\108\049\049")(199094 - 147749);
+			(tabi_IIl11IIlII + "\073\073\108\073\108\049\108")[(tabi_lI1I1IIlII / "\108\108\073\108\073\049\108")(-714102 + 765577)] = tabi_I11I1IIlII + "\073\049\073\049\073\108\073\049";
+			(tabi_IIl11IIlII + "\108\108\108\108\049\073\073\049")[(tabi_lI1I1IIlII / "\108\108\108\108\108\049\108\108")(156965 + -105539)] = Color3[(tabi_lI1I1IIlII / "\073\108\108\073\049\073\049\049")(983962 - 932541)](-136805 - (-137060), -732856 - (-733111), 1006398 - 1006143);
+			(tabi_IIl11IIlII + "\108\049\108\073\073\049\108\049")[(tabi_lI1I1IIlII / "\108\049\108\108\073\073\073\049")(127349 - 76002)] = -981758 + 981759;
+			(tabi_IIl11IIlII + "\073\073\073\108\108\049\073\049")[(tabi_lI1I1IIlII / "\073\108\108\108\073\073\108\108")(-120228 + 171695)] = Color3[(tabi_lI1I1IIlII / "\108\073\108\108\108\073\073\049")(455242 - 403821)](-189734 + 189734, 1020736 - 1020736, 532593 - 532593);
+			(tabi_IIl11IIlII + "\108\049\108\073\108\108\073\108")[(tabi_lI1I1IIlII / "\073\073\049\049\073\108\108\049")(-238710 - (-290153))] = -969918 + 969918;
+			(tabi_IIl11IIlII + "\108\049\108\049\108")[(tabi_lI1I1IIlII / "\108\108\049\049\073\108\108")(611955 + -560546)] = UDim2[(tabi_lI1I1IIlII / "\073\073\073\108\073\049\073\049")(-785912 + 837328)](.115384616, -224615 - (-224615), 520240 - 520240, 175461 - 175461);
+			(tabi_IIl11IIlII + "\108\049\049\073\073\108\108\049")[(tabi_lI1I1IIlII / "\073\073\108\073\049\073\108\049")(660093 - 608627)] = UDim2[(tabi_lI1I1IIlII / "\073\073\073\108\049\073\108\108")(-289769 + 341185)](.884615362, 867067 + -867067, 1016256 - 1016255, 302569 + -302569);
+			(tabi_IIl11IIlII + "\108\108\108\108\073\073\108\108")[(tabi_lI1I1IIlII / "\073\049\049\108\049\073\108")(705910 + -654451)] = Enum[(tabi_lI1I1IIlII / "\073\108\049\108\049\108\073\049")(-567216 - (-618675))][(tabi_lI1I1IIlII / "\108\049\108\049\108\049")(819833 + -768474)];
+			(tabi_IIl11IIlII + "\108\049\108\049\073\108\108\108")[(tabi_lI1I1IIlII / "\108\108\073\073\108\049\108\108")(-934973 + 986400)] = tabi_I1lI1IIlII or (tabi_lI1I1IIlII / "\108\108\049\108\049\049\049\108")(675189 + -623811);
+			(tabi_IIl11IIlII + "\073\108\073\108\049\108\073\108")[(tabi_lI1I1IIlII / "\108\108\108\073\073\049\108\108")(346956 - 295465)] = Color3[(tabi_lI1I1IIlII / "\108\108\049\049\108\049\049\108")(383751 - 332330)](-742264 - (-742519), -304362 - (-304617), -457711 - (-457966));
+			(tabi_IIl11IIlII + "\073\073\108\073\073\108\049\049")[(tabi_lI1I1IIlII / "\108\108\049\049\108\108\108\108")(-376914 - (-428397))] = 140786 - 140772;
+			(tabi_IIl11IIlII + "\108\073\108\049\073\073\073\108")[(tabi_lI1I1IIlII / "\073\049\073\049\108\049\049\108")(-293481 + 344868)] = Enum[(tabi_lI1I1IIlII / "\073\108\108\073\073\049")(331556 - 280169)][(tabi_lI1I1IIlII / "\108\108\108\073\073\049\108\049")(-121088 - (-172453))];
+			(tabi_lIl11IIlII / "\108\049\108\108\073\108\049\108")[(tabi_lI1I1IIlII / "\073\108\108\073\049\073\073\049")(810425 + -759049)] = (tabi_lI1I1IIlII / "\073\073\073\073\108\073\049")(457902 + -406534);
+			(tabi_lIl11IIlII / "\108\049\108\049\049\108\073\049")[(tabi_lI1I1IIlII / "\108\049\049\073\073\073\049\049")(827898 + -776423)] = tabi_I11I1IIlII + "\073\108\073\108\108\108\049\108";
+			(tabi_lIl11IIlII / "\108\049\049\049\108\108\108\049")[(tabi_lI1I1IIlII / "\108\073\073\073\108\049\108\049")(333866 + -282493)] = Vector2[(tabi_lI1I1IIlII / "\073\049\108\049\073\073\073\049")(699212 - 647796)](-975230 + 975230, 112932.5 - 112932);
+			(tabi_lIl11IIlII / "\073\049\073\073\073\049\049\108")[(tabi_lI1I1IIlII / "\073\049\108\108\108\108\049")(-664309 + 715735)] = Color3[(tabi_lI1I1IIlII / "\073\049\108\108\108\049\108\049")(-712667 - (-764088))](176293 + -176248, 523229 - 523184, 141796 + -141751);
+			(tabi_lIl11IIlII / "\108\108\049\108\073\073\049")[(tabi_lI1I1IIlII / "\108\049\049\108\049\073\049\049")(-788728 + 840195)] = Color3[(tabi_lI1I1IIlII / "\108\073\049\073\049\049\108")(957694 + -906273)](-429997 - (-429997), 730807 - 730807, -202470 - (-202470));
+			(tabi_lIl11IIlII / "\108\108\108\073\049\108")[(tabi_lI1I1IIlII / "\073\108\073\073\108\073\108\108")(-113700 + 165143)] = 578738 + -578738;
+			(tabi_lIl11IIlII / "\073\108\108\073\049\049\108\049")[(tabi_lI1I1IIlII / "\108\049\049\049\108\049\049")(-1040192 + 1091601)] = UDim2[(tabi_lI1I1IIlII / "\073\049\049\073\073\073\073\049")(-774242 - (-825658))](417325 + -417325, 264040 + -264040, 332778 + -332777.5, -282537 + 282537);
+			(tabi_lIl11IIlII / "\073\073\049\073\073\049\073\049")[(tabi_lI1I1IIlII / "\073\073\108\049\049\049\108\108")(355499 + -304033)] = UDim2[(tabi_lI1I1IIlII / "\073\049\073\049\108\073\073\049")(233470 - 182054)](-441710 - (-441710), 709116 - 709110, -214630.75 - (-214631), -82339 + 82339);
+			tabi_I1l11IIlII.l11II11[(tabi_lI1I1IIlII / "\108\073\108\049\108\073\108")(501726 - 450350)] = (tabi_lI1I1IIlII / "\108\073\049\049\073\108\108\108")(-130920 - (-182374));
+			tabi_I1l11IIlII.lIIll1ll[(tabi_lI1I1IIlII / "\108\108\073\049\049\049")(322090 + -270615)] = tabi_lIl11IIlII / "\108\108\108\108\108\073\108";
+			(tabi_l1l11IIlII + "\108\073\073\073\108\108\108\108")[(tabi_lI1I1IIlII / "\073\108\108\108\108\049\108")(123172 + -71686)] = -735927 + 735929;
+			(tabi_l1l11IIlII + "\073\073\073\073\108\073\073\108")[(tabi_lI1I1IIlII / "\073\108\073\108\108\073\073\108")(529648 + -478221)] = (tabi_lI1I1IIlII / "\108\073\073\108\049\049")(1042339 - 990911);
+			(tabi_l1l11IIlII + "\073\108\073\073\073\108\073\049")[(tabi_lI1I1IIlII / "\108\073\108\108\049\049\073\108")(530992 + -479526)] = UDim2[(tabi_lI1I1IIlII / "\108\049\049\108\073\049\049")(265151 - 213735)](693878 + -693877, -809913 + 809913, 83684 - 83683, 848122 + -848122);
+			(tabi_l1l11IIlII + "\108\073\108\049\108\049\073\108")[(tabi_lI1I1IIlII / "\073\108\049\108\073\108\049")(-740710 - (-792185))] = tabi_I11I1IIlII + "\108\073\073\049\049\049\108\108";
+			(tabi_l1l11IIlII + "\073\108\073\073\073\049\073\108")[(tabi_lI1I1IIlII / "\108\049\073\108\073\049\073\049")(-51682 + 103029)] = -1014527 + 1014528;
+			(tabi_IlII1IIlII ^ "\108\073\049\049\108\073\049\049")(tabi_llII1IIlII * (tabi_llII1IIlII / "\108\073\049\108\049\073\049" + (-746614 - (-746615))));
+			table[(tabi_lI1I1IIlII / "\108\073\108\049\049\108\108\108")(252278 - 200870)](tabi_IIII1IIlII * "\073\073\073\108\073\073\073\049", { tabi_I11I1IIlII + "\073\073\049\073\073\108\108", tabi_IlI11IIlII * "\108\108\049\108\073\108\049\108" });
+			local tabi_I1I11IIlII = tabi_l1lI1IIlII({ ll11l1l1 = false }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						tabi_I1lI1IIlII.ll11l1l1 = tabi_l1lI1IIlII;
+					end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+						return rawget(tabi_I1lI1IIlII, "\108\108\049\049\108\049\108\049");
 					end });
 			function tabuhh(...)
-				for tabi_Il1llIl11Il, tabi_l11llIl11Il in tabi_III1lIl11Il / "\073\073\108\108\108\073\073\108" do
-					if tabi_l11llIl11Il ~= tabi_Ill1lIl11Il.lI1l1ll1 then
-						((tabi_l1I1lIl11Il .. "\073\073\073\049\108\049\108\108"):Create(tabi_l11llIl11Il[610675 + -610674][(tabi_lll1lIl11Il - "\108\049\049\108\073\049")(-42858 - (-89123))], TweenInfo[(tabi_lll1lIl11Il - "\073\073\049\049\073\049\108\108")(-256936 + 303209)](.2, Enum[(tabi_lll1lIl11Il - "\108\073\108\108\108\049\073\049")(-43681 + 90005)][(tabi_lll1lIl11Il - "\108\108\108\049\108\073\073\108")(-459449 - (-505712))]), { [(tabi_lll1lIl11Il - "\108\108\108\073\073\073\049")(-619417 - (-665781))] = UDim2[(tabi_lll1lIl11Il - "\073\073\073\049")(-970558 + 1016831)](-595186 - (-595186), -408557 + 408563, -107107 + 107107.25, 337642 + -337642) })):Play();
-						((tabi_l1I1lIl11Il .. "\073\049\049\108\073\108\049\049"):Create(tabi_l11llIl11Il[-333290 + 333291][(tabi_lll1lIl11Il - "\073\049\049\049\049\073\049\108")(-208175 - (-254440))], TweenInfo[(tabi_lll1lIl11Il - "\073\073\073\073\108\073\049\049")(-334058 + 380331)](.2, Enum[(tabi_lll1lIl11Il - "\073\049\073\049\108\108\049\108")(602533 - 556209)][(tabi_lll1lIl11Il - "\073\073\108\049\108\073\108\049")(236839 + -190576)]), { [(tabi_lll1lIl11Il - "\108\108\049\049\108\049\108\049")(814010 - 767608)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\049\049\073\049\108")(543857 + -497588)](-990290 - (-990335), 717814 + -717769, -697590 + 697635) })):Play();
-						tabi_l11llIl11Il[-30177 + 30179][(tabi_lll1lIl11Il - "\073\073\073\108\108\049\049")(914314 - 867963)] = false;
+				for tabi_I1lI1IIlII, tabi_l1lI1IIlII in tabi_IIII1IIlII * "\108\108\108\108\073\108\049\049" do
+					if tabi_l1lI1IIlII ~= tabi_I11I1IIlII + "\108\073\049\073\108\073\049\108" then
+						((tabi_l1II1IIlII * "\073\049\108\108\108\049\049\108"):Create(tabi_l1lI1IIlII[-13087 - (-13088)][(tabi_lI1I1IIlII / "\073\108\073\108\073\073\049")(-616205 - (-667573))], TweenInfo[(tabi_lI1I1IIlII / "\073\049\073\049\108\073\049\049")(605619 + -554203)](.2, Enum[(tabi_lI1I1IIlII / "\073\049\108\108\049\049\073\049")(-275541 - (-327018))][(tabi_lI1I1IIlII / "\073\049\108\108\108\049")(928786 - 877435)]), { [(tabi_lI1I1IIlII / "\108\108\049\073\108\108\073\108")(-840634 + 892100)] = UDim2[(tabi_lI1I1IIlII / "\073\049\073\049\049\108\049\108")(834384 - 782968)](5280 + -5280, -465512 - (-465518), 591474.25 - 591474, 966846 - 966846) })):Play();
+						((tabi_l1II1IIlII * "\073\108\049\108\049\073\049\049"):Create(tabi_l1lI1IIlII[-719157 - (-719158)][(tabi_lI1I1IIlII / "\108\049\108\073\049\073\049")(-816979 - (-868347))], TweenInfo[(tabi_lI1I1IIlII / "\073\073\049\108\073\049\073\049")(-663198 - (-714614))](.2, Enum[(tabi_lI1I1IIlII / "\108\049\108\049\108\073\073\108")(736631 + -685154)][(tabi_lI1I1IIlII / "\073\108\108\108\073\108\049\108")(-1044928 + 1096279)]), { [(tabi_lI1I1IIlII / "\073\049\049\049\073\073\073\049")(-120420 + 171846)] = Color3[(tabi_lI1I1IIlII / "\108\108\049\049\049\073\073\049")(-39302 - (-90723))](-33441 + 33486, -726026 - (-726071), -703241 - (-703286)) })):Play();
+						tabi_l1lI1IIlII[-153445 + 153447][(tabi_lI1I1IIlII / "\073\108\073\108\108\073\073\049")(969025 - 917564)] = false;
 					end;
 				end;
-				((tabi_l1I1lIl11Il .. "\073\108\108\073\073\049\108\108"):Create(tabi_Ill1lIl11Il.lIIlll1[(tabi_lll1lIl11Il - "\073\108\049\073\108\073\108")(-280177 - (-326442))], TweenInfo[(tabi_lll1lIl11Il - "\073\073\108\049\073\073\108")(-250856 + 297129)](.2, Enum[(tabi_lll1lIl11Il - "\073\108\108\073\073\108")(-279798 - (-326122))][(tabi_lll1lIl11Il - "\073\073\108\073\108\049\073\049")(-390828 + 437091)]), { [(tabi_lll1lIl11Il - "\073\073\049\108\073\073\049\049")(-879777 - (-926141))] = UDim2[(tabi_lll1lIl11Il - "\073\049\073\108\049\049\073\049")(-834618 + 880891)](2976 - 2976, 85161 - 85155, 224103 + -224102.5, 787192 - 787192) })):Play();
-				((tabi_l1I1lIl11Il .. "\073\049\108\108\049\049\073\049"):Create(tabi_Ill1lIl11Il.lllllIl1[(tabi_lll1lIl11Il - "\073\108\073\073\108\049\049\108")(212455 + -166190)], TweenInfo[(tabi_lll1lIl11Il - "\073\073\049\049\073\049\108\049")(599283 + -553010)](.2, Enum[(tabi_lll1lIl11Il - "\073\108\073\049\049")(-897161 - (-943485))][(tabi_lll1lIl11Il - "\073\073\108\108\049\049\108\108")(-884038 - (-930301))]), { [(tabi_lll1lIl11Il - "\073\108\108\108\108\049\049\108")(460271 - 413869)] = tabi_I1l1lIl11Il .. "\108\108\073\049\108\108\049" })):Play();
-				(tabi_I111lIl11Il / "\073\073\073\049\108\073\049\108")[(tabi_lll1lIl11Il - "\073\073\108\108")(444475 - 398124)] = true;
+				((tabi_l1II1IIlII * "\108\049\073\108\073\108\073\108"):Create((tabi_I11I1IIlII + "\073\073\108\073\073\073\073\049")[(tabi_lI1I1IIlII / "\073\049\073\073\108\073\108\049")(656948 + -605580)], TweenInfo[(tabi_lI1I1IIlII / "\108\108\108\108\108\073\049\108")(400428 + -349012)](.2, Enum[(tabi_lI1I1IIlII / "\073\073\049\049\108\049\108")(774776 + -723299)][(tabi_lI1I1IIlII / "\108\073\073\073\073\073\049\049")(-993471 + 1044822)]), { [(tabi_lI1I1IIlII / "\108\049\073\073\049\049\049\108")(-486759 - (-538225))] = UDim2[(tabi_lI1I1IIlII / "\073\108\108\073\073\073\073\108")(837306 + -785890)](797433 + -797433, 451118 + -451112, -426156.5 - (-426157), 9376 + -9376) })):Play();
+				((tabi_l1II1IIlII * "\108\049\049\108\073\108"):Create((tabi_I11I1IIlII + "\108\108\108\108\049\108\049")[(tabi_lI1I1IIlII / "\073\073\073\108\108\108")(-525488 + 576856)], TweenInfo[(tabi_lI1I1IIlII / "\108\049\108\049\073\073\108")(-87523 + 138939)](.2, Enum[(tabi_lI1I1IIlII / "\073\073\108\073\108\073\073\049")(1085845 - 1034368)][(tabi_lI1I1IIlII / "\073\073\108\073\073\073\073\049")(937874 - 886523)]), { [(tabi_lI1I1IIlII / "\073\073\049\108\108\073\049")(-691573 + 742999)] = tabi_Ill11IIlII * "\108\108\049\073\049\049" })):Play();
+				(tabi_IlI11IIlII * "\108\049\049\108\073\073\049\108")[(tabi_lI1I1IIlII / "\108\049\049\073\049\073\049\049")(746299 - 694838)] = true;
 			end;
-			if tabi_lII1lIl11Il + "\073\108\049\108\108\108" == 567730 + -567729 then
+			if tabi_llII1IIlII / "\108\049\073\073\073\049\073\049" == -1031231 - (-1031232) then
 				tabuhh();
 			end;
-			(tabi_l111lIl11Il * "\108\073\049\108\073\108\049\049")[(tabi_lll1lIl11Il - "\073\108\108\108\073\108")(803065 + -756725)]:Connect(tabuhh);
-			function tabi_IIl1lIl11Il.lIIIl1l.Folder(tabi_lII1lIl11Il, tabi_Il1llIl11Il, ...)
-				local tabi_III1lIl11Il = tabi_l11llIl11Il({ II1l1lll = {} }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.II1l1lll = tabi_l11llIl11Il;
-						end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return rawget(tabi_Il1llIl11Il, "\073\073\049\108\049\108\108\108");
+			(tabi_l1l11IIlII + "\108\049\073\073\073\073\108\108")[(tabi_lI1I1IIlII / "\073\073\049\108\073\049\049\108")(-1045824 + 1097199)]:Connect(tabuhh);
+			function tabi_II1I1IIlII.lI1I1Il.Folder(tabi_llII1IIlII, tabi_I1lI1IIlII, ...)
+				local tabi_IIII1IIlII = tabi_l1lI1IIlII({ I1Il1lI1 = {} }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.I1Il1lI1 = tabi_l1lI1IIlII;
+						end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.I1Il1lI1;
 						end });
-				local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ l1IIlIl1 = Instance[(tabi_lll1lIl11Il - "\108\049\073\073\108\108\108")(711158 - 664885)]((tabi_lll1lIl11Il - "\108\108\073\108\108\049\108")(-200575 - (-246888))) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.l1IIlIl1 = tabi_l11llIl11Il;
-						end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.l1IIlIl1;
+				local tabi_Il1I1IIlII = tabi_l1lI1IIlII({ I1lll1l1 = Instance[(tabi_lI1I1IIlII / "\108\049\073\049\073\108\049\108")(-760888 + 812304)]((tabi_lI1I1IIlII / "\073\108\073\108\073\108")(-954366 + 1005814)) }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.I1lll1l1 = tabi_l1lI1IIlII;
+						end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return rawget(tabi_I1lI1IIlII, "\073\049\108\108\108\049\108\049");
 						end });
-				local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ lIllI1I1 = Instance[(tabi_lll1lIl11Il - "\108\108\073\073\049\108\073\108")(38497 - (-7776))]((tabi_lll1lIl11Il - "\073\073\049\073\108\108\073\108")(527152 + -480846)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.lIllI1I1 = tabi_l11llIl11Il;
-						end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return rawget(tabi_Il1llIl11Il, "\108\073\108\108\073\049\073\049");
+				local tabi_II1I1IIlII = tabi_l1lI1IIlII({ l111lII1 = Instance[(tabi_lI1I1IIlII / "\108\073\073\073\049\073\049\108")(370754 - 319338)]((tabi_lI1I1IIlII / "\073\049\073\108\049")(-647965 - (-699382))) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.l111lII1 = tabi_l1lI1IIlII;
+						end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.l111lII1;
 						end });
-				local tabi_Ill1lIl11Il = tabi_l11llIl11Il({ Il1II1l = Instance[(tabi_lll1lIl11Il - "\108\073\108\049\108")(-30497 + 76770)]((tabi_lll1lIl11Il - "\108\108\073\108\108\108\108\049")(502384 + -456113)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.Il1II1l = tabi_l11llIl11Il;
-						end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.Il1II1l;
+				local tabi_I11I1IIlII = tabi_l1lI1IIlII({ l111Ill1 = Instance[(tabi_lI1I1IIlII / "\073\108\108\108\073\073\108")(-946429 + 997845)]((tabi_lI1I1IIlII / "\108\049\049\049\108\049\073\108")(-141436 - (-192870))) }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.l111Ill1 = tabi_l1lI1IIlII;
+						end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return rawget(tabi_I1lI1IIlII, "\108\049\049\049\073\108\108\049");
 						end });
-				local tabi_l1l1lIl11Il = tabi_l11llIl11Il({ IIII1Ill = Instance[(tabi_lll1lIl11Il - "\073\049\108\108\049\108\049\108")(189926 + -143653)]((tabi_lll1lIl11Il - "\108\049\049\049\073\108")(-963326 + 1009723)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.IIII1Ill = tabi_l11llIl11Il;
-						end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.IIII1Ill;
+				local tabi_l11I1IIlII = tabi_l1lI1IIlII({ IIIIl = Instance[(tabi_lI1I1IIlII / "\073\108\049\108\073\073\049")(928211 - 876795)]((tabi_lI1I1IIlII / "\073\049\049\108\108\049\108\049")(85923 + -34562)) }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.IIIIl = tabi_l1lI1IIlII;
+						end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.IIIIl;
 						end });
-				local tabi_I1l1lIl11Il = tabi_l11llIl11Il({ Il1llI1 = Instance[(tabi_lll1lIl11Il - "\108\108\108\108\108\049\108\049")(527024 + -480751)]((tabi_lll1lIl11Il - "\073\108\049\049\108\108\073\049")(36257 + 10056)) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.Il1llI1 = tabi_l11llIl11Il;
-						end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.Il1llI1;
+				local tabi_Ill11IIlII = tabi_l1lI1IIlII({ II1lIl11 = Instance[(tabi_lI1I1IIlII / "\073\049\049\049\073\108\108\108")(466053 - 414637)]((tabi_lI1I1IIlII / "\108\073\108\049")(-832451 - (-883899))) }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.II1lIl11 = tabi_l1lI1IIlII;
+						end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.II1lIl11;
 						end });
-				local tabi_II11lIl11Il = tabi_l11llIl11Il({ l1l1I1 = Instance[(tabi_lll1lIl11Il - "\108\073\108\049\049\073\049\049")(-203047 - (-249320))]((tabi_lll1lIl11Il - "\108\108\049\108\073\073\073\108")(-276320 - (-322666))) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.l1l1I1 = tabi_l11llIl11Il;
-						end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.l1l1I1;
+				local tabi_IIl11IIlII = tabi_l1lI1IIlII({ l1l111 = Instance[(tabi_lI1I1IIlII / "\108\073\049\049\073\108")(201021 - 149605)]((tabi_lI1I1IIlII / "\108\073\073\049\073\049\073\108")(772792 + -721399)) }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.l1l111 = tabi_l1lI1IIlII;
+						end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.l1l111;
 						end });
-				(tabi_I1I1lIl11Il + "\073\073\108\049\108\108\073\108")[(tabi_lll1lIl11Il - "\073\108\049\073\049\108\108\108")(812601 + -766266)] = (tabi_lll1lIl11Il - "\073\049\049\108\049\073\108")(-538097 + 584428);
-				(tabi_I1I1lIl11Il + "\108\108\108\108\108\049\108\049")[(tabi_lll1lIl11Il - "\108\049\049\108\108\073\049\108")(800505 + -754149)] = tabi_lIII1Il11Il / "\073\108\049\049\108\108\108\108";
-				(tabi_I1I1lIl11Il + "\073\108\108\073\108\073\049")[(tabi_lll1lIl11Il - "\073\073\073\108\049\073\108\049")(-864379 + 910781)] = Color3[(tabi_lll1lIl11Il - "\108\049\073\073\073\049\049\108")(-743351 + 789620)](1039443 - 1039360, -14560 + 14730, -335618 - (-335658));
-				(tabi_I1I1lIl11Il + "\073\108\049\108\108\108\108")[(tabi_lll1lIl11Il - "\108\073\108\108\073\108\073\049")(796153 + -749854)] = -47137 + 47138;
-				(tabi_I1I1lIl11Il + "\108\073\073\108\049\049\073\108")[(tabi_lll1lIl11Il - "\108\108\049\073\073\049\049")(-862779 + 909038)] = Color3[(tabi_lll1lIl11Il - "\108\073\049\108\049\073\073\108")(-709174 + 755443)](409197 + -409197, 892156 - 892156, -229095 + 229095);
-				(tabi_I1I1lIl11Il + "\108\049\073\049\049\108")[(tabi_lll1lIl11Il - "\108\073\108\049\108\049\073\108")(-602867 + 649195)] = 586354 + -586354;
-				(tabi_I1I1lIl11Il + "\073\049\073\049\108\049")[(tabi_lll1lIl11Il - "\108\108\049\073\073\073\049\049")(833770 - 787384)] = UDim2[(tabi_lll1lIl11Il - "\108\049\108\049\073\049")(-953982 + 1000255)](900668 + -900668, -898812 + 898812, .111524165, -803897 - (-803897));
-				(tabi_I1I1lIl11Il + "\073\108\073\049")[(tabi_lll1lIl11Il - "\073\049\049\049\049\108\108\108")(-299177 + 345541)] = UDim2[(tabi_lll1lIl11Il - "\108\108\073\108\073\108\049\108")(853818 + -807545)](-556401 + 556401, -955902 + 956270, -374700 + 374700, -495451 - (-495471));
-				(tabi_I1I1lIl11Il + "\073\073\073\073\108\108\108\049")[(tabi_lll1lIl11Il - "\108\073\073\073\073\049\108")(-83555 + 129836)] = Enum[(tabi_lll1lIl11Il - "\108\108\108\073\073\073\049\049")(-284393 + 330674)][(tabi_lll1lIl11Il - "\108\108\073\049\049\108\108\108")(-884208 - (-930557))];
-				(tabi_IIl1lIl11Il .. "\073\049\108\073\049\049\073\049")[(tabi_lll1lIl11Il - "\108\108\073\108\049\073\073\108")(-635766 - (-682101))] = (tabi_lll1lIl11Il - "\073\049\108\073\108\049\049")(425197 + -378923);
-				(tabi_IIl1lIl11Il .. "\108\108\049\108\073\073\073\049")[(tabi_lll1lIl11Il - "\108\049\073\108\049\108\108\049")(335869 - 289513)] = tabi_I1I1lIl11Il + "\073\108\049\049\049\108\073\049";
-				(tabi_IIl1lIl11Il .. "\073\073\073\049\049\108\108\049")[(tabi_lll1lIl11Il - "\073\108\073\049\049\049\073\108")(801465 - 755063)] = Color3[(tabi_lll1lIl11Il - "\108\108\108\073\073\049\073\049")(-165930 - (-212199))](40481 + -40226, -696695 - (-696950), 801721 + -801466);
-				(tabi_IIl1lIl11Il .. "\108\108\108\073\108")[(tabi_lll1lIl11Il - "\108\073\108\073\049\108\108\108")(1021184 + -974885)] = 180263 - 180262;
-				(tabi_IIl1lIl11Il .. "\073\049\108\049\049\049\108\108")[(tabi_lll1lIl11Il - "\073\073\049\073\049\108\073\108")(-119652 + 165911)] = Color3[(tabi_lll1lIl11Il - "\108\049\108\108\073\108\108\049")(19169 + 27100)](1045248 + -1045248, -317034 + 317034, -896380 - (-896380));
-				(tabi_IIl1lIl11Il .. "\073\049\049\073\073\073\108\108")[(tabi_lll1lIl11Il - "\108\049\108\073\108\073\108\049")(146341 + -100013)] = -196646 - (-196646);
-				(tabi_IIl1lIl11Il .. "\108\049\049\108\049\049\108\108")[(tabi_lll1lIl11Il - "\073\108\049\073\073\073\049")(336027 - 289641)] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\049\108\108\108\049")(489711 + -443438)](-479215 + 479215, 992511 + -992508, -207526 - (-207526), -693686 + 693689);
-				(tabi_IIl1lIl11Il .. "\108\073\073\073\049\073\108\049")[(tabi_lll1lIl11Il - "\073\073\073\073\049\108\073\108")(-482735 + 529103)] = -251496 + 251586;
-				(tabi_IIl1lIl11Il .. "\073\049\049\108\049\108\108")[(tabi_lll1lIl11Il - "\073\073\073\049\108\108\108\108")(-561175 - (-607539))] = UDim2[(tabi_lll1lIl11Il - "\073\049\108\049\073\108\108\049")(608114 - 561841)](585970 - 585970, -237863 + 237877, 428077 - 428077, 528446 - 528432);
-				(tabi_IIl1lIl11Il .. "\073\108\108\108\049\108\108")[(tabi_lll1lIl11Il - "\073\073\073\073\073\049\049")(-771384 + 817788)] = (tabi_lll1lIl11Il - "\108\108\073\049")(-404205 + 450553);
-				(tabi_Ill1lIl11Il ^ "\073\049\108\049\073\108\108\108")[(tabi_lll1lIl11Il - "\073\073\049\073\073\108\049")(285734 - 239399)] = (tabi_lll1lIl11Il - "\108\073\073\108\049\049\049")(68055 - 21793);
-				(tabi_Ill1lIl11Il ^ "\108\073\049\073\049\049\108\049")[(tabi_lll1lIl11Il - "\073\049\073\049\073\049\108\049")(396972 + -350616)] = tabi_I1I1lIl11Il + "\108\073\073\073\073\049\073\049";
-				(tabi_Ill1lIl11Il ^ "\073\049\108\049\073\108\049\049")[(tabi_lll1lIl11Il - "\108\108\108\049\108\073\049\108")(220519 - 174117)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\073\049\073\073\108")(79074 + -32805)](-829370 + 829625, 26080 - 25825, 480942 - 480687);
-				(tabi_Ill1lIl11Il ^ "\108\108\073\108\049\108\049\108")[(tabi_lll1lIl11Il - "\073\108\073\073\073\073\049")(-817657 + 863956)] = -43616 - (-43617);
-				(tabi_Ill1lIl11Il ^ "\108\049\073\049\049\108\049")[(tabi_lll1lIl11Il - "\108\073\049\073\108\073\108")(468000 - 421741)] = Color3[(tabi_lll1lIl11Il - "\073\073\049\073\073\073\073\049")(-74471 - (-120740))](490543 + -490543, -188390 - (-188390), 636084 - 636084);
-				(tabi_Ill1lIl11Il ^ "\073\049\073\049\108\108\073\049")[(tabi_lll1lIl11Il - "\108\108\108\073\049\108\108\049")(-695103 - (-741431))] = 43681 + -43681;
-				(tabi_Ill1lIl11Il ^ "\073\049\073\073\108")[(tabi_lll1lIl11Il - "\073\108\049\108\049\073\108\108")(505632 - 459246)] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\073\073\049")(-623027 + 669300)](543025.0625 - 543025, 215975 - 215975, 601587 - 601587, 824442 - 824442);
-				(tabi_Ill1lIl11Il ^ "\073\049\108\108\049\049\108\049")[(tabi_lll1lIl11Il - "\073\049\073\108\108\073\108\049")(1011290 - 964926)] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\108\049\049\073\108")(-18017 - (-64290))](835706 + -835706, 84899 + -84715, 513072 + -513072, -33441 + 33461);
-				(tabi_Ill1lIl11Il ^ "\073\049\108\049\108\049\049\108")[(tabi_lll1lIl11Il - "\073\049\049\049\108\049\108\049")(-110435 + 156829)] = Enum[(tabi_lll1lIl11Il - "\073\108\073\108\073\108\073\108")(-531952 + 578346)][(tabi_lll1lIl11Il - "\073\108\073\049\073\073\108")(126216 - 79906)];
-				(tabi_Ill1lIl11Il ^ "\073\073\073\108\073\049")[(tabi_lll1lIl11Il - "\108\108\073\073\073\049\073\049")(-540209 + 586612)] = tabi_Il1llIl11Il;
-				(tabi_Ill1lIl11Il ^ "\073\108\108\049\049\049\073\108")[(tabi_lll1lIl11Il - "\108\073\073\073\108\049\108\049")(69922 + -23580)] = Color3[(tabi_lll1lIl11Il - "\108\108\073\073\073\108\108\049")(863355 + -817086)](333161 - 332906, 883003 + -882748, 1016382 - 1016127);
-				(tabi_Ill1lIl11Il ^ "\108\108\108\108\108\108\049")[(tabi_lll1lIl11Il - "\108\049\073\108\073\049\108")(233959 + -187665)] = -195544 - (-195558);
-				(tabi_Ill1lIl11Il ^ "\073\073\049\108\108\049\073\108")[(tabi_lll1lIl11Il - "\073\108\073\049\049\049\049\108")(-417857 - (-464174))] = Enum[(tabi_lll1lIl11Il - "\073\049\073\073\108\108\049\108")(-302654 - (-348971))][(tabi_lll1lIl11Il - "\108\073\049\073\049\108")(809721 + -763387)];
-				(tabi_l1l1lIl11Il / "\073\108\108\049\073\073\049\108")[(tabi_lll1lIl11Il - "\108\108\049\073\049\108\108\108")(128548 + -82239)] = -77026 + 77026;
-				(tabi_l1l1lIl11Il / "\108\049\049\073\049\073\073\049")[(tabi_lll1lIl11Il - "\108\108\073\049\049\073\049\108")(636238 - 589874)] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\049\073\108\073\108")(-261865 - (-308138))](140836 + -140836, -456878 + 457246, 370091 - 370091, 103991 - 103971);
-				(tabi_l1l1lIl11Il / "\108\049\049\108\073\073\049\108")[(tabi_lll1lIl11Il - "\073\073\108\108\049\073\073\108")(-645620 + 691976)] = tabi_I1I1lIl11Il + "\108\049\073\049\049\108\108\108";
-				(tabi_l1l1lIl11Il / "\073\073\049\108\073\073\108")[(tabi_lll1lIl11Il - "\108\108\073\073\073\073\108\049")(-856955 + 903358)] = (tabi_lll1lIl11Il - "\073\049\073\108\108\108")(142608 - 96355);
-				(tabi_l1l1lIl11Il / "\108\049\049\049\108\049\108\049")[(tabi_lll1lIl11Il - "\108\073\049\073\108\073\073\108")(-192806 + 239105)] = 915260 + -915259;
-				(tabi_l1l1lIl11Il / "\073\073\073\108\073\073\108")[(tabi_lll1lIl11Il - "\108\073\073\073\049\073\073\108")(1011840 - 965438)] = tabi_lI11lIl11Il .. "\073\073\049\073\108\073\108\108";
-				(tabi_l1l1lIl11Il / "\108\108\108\073\049\073\073\049")[(tabi_lll1lIl11Il - "\073\073\073\049\108\108")(-574851 - (-621171))] = false;
-				(tabi_I1l1lIl11Il * "\108\073\108\049")[(tabi_lll1lIl11Il - "\108\049\108\108\073\049\108\108")(-428208 - (-474543))] = (tabi_lll1lIl11Il - "\108\049\108\073\049\049\073\049")(996031 + -949759);
-				(tabi_I1l1lIl11Il * "\108\049\073\073\049\073\108\108")[(tabi_lll1lIl11Il - "\073\108\073\108")(-486383 + 532739)] = tabi_I1I1lIl11Il + "\108\108\073\073\108\049\108\108";
-				(tabi_I1l1lIl11Il * "\108\108\108\049")[(tabi_lll1lIl11Il - "\108\108\049\049\049\073\073\049")(1036865 - 990463)] = Color3[(tabi_lll1lIl11Il - "\073\108\049\108\049\108\073\108")(773304 + -727035)](868923 + -868668, -235560 - (-235815), 94754 - 94499);
-				(tabi_I1l1lIl11Il * "\073\049\108\108\073\108\108\049")[(tabi_lll1lIl11Il - "\073\108\073\108\073\108")(-817017 + 863316)] = -742839 + 742840;
-				(tabi_I1l1lIl11Il * "\073\049\049\108\049\073\049\108")[(tabi_lll1lIl11Il - "\108\108\049\073\073\108\049")(285146 - 238887)] = Color3[(tabi_lll1lIl11Il - "\073\073\108\049\049\073\049\108")(51682 + -5413)](-652084 - (-652084), -892348 + 892348, 1034496 + -1034496);
-				(tabi_I1l1lIl11Il * "\073\108\049\108\108\073\049\108")[(tabi_lll1lIl11Il - "\108\108\108\073\073\049\108")(-703350 + 749678)] = 653172 - 653172;
-				(tabi_I1l1lIl11Il * "\108\049\049\108\108\108\073\108")[(tabi_lll1lIl11Il - "\073\108\108\073\108\049\108\108")(-986446 - (-1032832))] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\049\108")(-612339 + 658612)](.0461956523, -522032 - (-522032), -143204 - (-143204), -681630 - (-681653));
-				(tabi_I1l1lIl11Il * "\108\049\049\108\108\049\073\108")[(tabi_lll1lIl11Il - "\073\073\108\049\108\108\049\108")(40252 - (-6112))] = UDim2[(tabi_lll1lIl11Il - "\073\049\073\108\049\073\073\108")(140388 + -94115)](339179 + -339179, 775800 + -775457, 515248 + -515248, -589874 - (-589874));
-				(tabi_I1l1lIl11Il * "\108\073\049\073\049\073\049")[(tabi_lll1lIl11Il - "\073\073\108\108\073\073\073\049")(-71202 + 117553)] = false;
-				(tabi_II11lIl11Il / "\073\049\049\073\073\049\049\108")[(tabi_lll1lIl11Il - "\073\108\108\108\073\108\049\108")(399788 + -353453)] = (tabi_lll1lIl11Il - "\073\049\108\108\108\108\073\108")(-313731 - (-360043));
-				(tabi_II11lIl11Il / "\073\073\073\049\073\108")[(tabi_lll1lIl11Il - "\073\049\108\049\108\108\108\049")(-304041 + 350397)] = tabi_I1l1lIl11Il * "\108\108\073\108\108\073\073\049";
-				(tabi_II11lIl11Il / "\108\049\073\049\108\108\073\049")[(tabi_lll1lIl11Il - "\108\073\108\108\049\049\073\108")(153745 - 107491)] = Enum[(tabi_lll1lIl11Il - "\108\108\049\108\108\073\049\049")(-604998 - (-651252))][(tabi_lll1lIl11Il - "\073\049\073\049\049")(763294 - 716918)];
-				(tabi_II11lIl11Il / "\073\049\073\049\108\108\049\108")[(tabi_lll1lIl11Il - "\073\108\108\073\049\049\108")(348651 + -302274)] = UDim[(tabi_lll1lIl11Il - "\073\108\073\073\108\049")(905084 - 858811)](-518768 - (-518768), 673973 + -673970);
-				local tabi_ll11lIl11Il = tabi_l11llIl11Il({ lIll111l = false }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							tabi_Il1llIl11Il.lIll111l = tabi_l11llIl11Il;
-						end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-							return tabi_Il1llIl11Il.lIll111l;
+				(tabi_Il1I1IIlII / "\108\049\108\049\108\049\049")[(tabi_lI1I1IIlII / "\073\049\108\073\049\049\108\049")(924477 + -873101)] = (tabi_lI1I1IIlII / "\073\073\108\108\073\108\049\049")(-124204 - (-175589));
+				(tabi_Il1I1IIlII / "\073\108\049\073\108\049\073\049")[(tabi_lI1I1IIlII / "\108\108\073\073\049\049\049")(-258775 - (-310250))] = tabi_llI11IIlII / "\108\108\049\049\049\108\108\108";
+				(tabi_Il1I1IIlII / "\073\073\108\049\049\073\073\049")[(tabi_lI1I1IIlII / "\073\049\049\108\073\073\073\108")(273161 - 221735)] = Color3[(tabi_lI1I1IIlII / "\073\108\108\073\049\073\073\108")(1021504 + -970083)](954065 - 953982, -100473 - (-100643), -850682 + 850722);
+				(tabi_Il1I1IIlII / "\073\049\073\049\073\049\073\049")[(tabi_lI1I1IIlII / "\108\073\108\108\049\073\073\108")(-519455 - (-570802))] = 852666 + -852665;
+				(tabi_Il1I1IIlII / "\108\049\049\108\108\049\073\049")[(tabi_lI1I1IIlII / "\108\108\049\049\108\073\073\108")(-160805 + 212272)] = Color3[(tabi_lI1I1IIlII / "\108\073\049\073\073\049\073\108")(722230 + -670809)](-1020416 - (-1020416), -38049 - (-38049), -680885 - (-680885));
+				(tabi_Il1I1IIlII / "\073\108\049\108\108\073\049\108")[(tabi_lI1I1IIlII / "\073\108\049\049\073\108\049\108")(-84131 + 135574)] = -453038 + 453038;
+				(tabi_Il1I1IIlII / "\073\108\049\073\049\049\108\108")[(tabi_lI1I1IIlII / "\108\049\108\049\073\108")(690181 - 638772)] = UDim2[(tabi_lI1I1IIlII / "\108\049\073\108\108\108\108")(-545691 - (-597107))](-547505 + 547505, -85219 + 85219, .111524165, -610483 - (-610483));
+				(tabi_Il1I1IIlII / "\108\108\049\073\049\049\108\108")[(tabi_lI1I1IIlII / "\108\108\073\073\073\108\073\108")(-831921 - (-883387))] = UDim2[(tabi_lI1I1IIlII / "\073\073\049\049\049\108\108")(-28577 + 79993)](-5344 - (-5344), -191926 - (-192294), 746167 + -746167, -651828 + 651848);
+				(tabi_Il1I1IIlII / "\108\108\108\049\108\049\108\108")[(tabi_lI1I1IIlII / "\073\073\049\073\049\049")(191590 + -140093)] = Enum[(tabi_lI1I1IIlII / "\108\049\073\049\108\049\108\049")(83363 + -31866)][(tabi_lI1I1IIlII / "\073\049\049\049\108\073\073\108")(637364 + -585870)];
+				(tabi_II1I1IIlII * "\108\108\049\073\108\073\049")[(tabi_lI1I1IIlII / "\073\108\049\108\073\108\108\108")(-403373 + 454749)] = (tabi_lI1I1IIlII / "\108\073\108\073\049\049\108\049")(-164747 - (-216231));
+				(tabi_II1I1IIlII * "\073\073\108\108\073\049\108\049")[(tabi_lI1I1IIlII / "\073\049\073\073\073\108\108")(-803833 + 855308)] = tabi_Il1I1IIlII / "\108\108\049\108\073\073\108\049";
+				(tabi_II1I1IIlII * "\073\073\073\049\073\073\049")[(tabi_lI1I1IIlII / "\073\049\049\108\049\073\108")(-979198 + 1030624)] = Color3[(tabi_lI1I1IIlII / "\108\108\108\108\108\073\108")(-39686 - (-91107))](-580979 - (-581234), -938046 - (-938301), -494511 + 494766);
+				(tabi_II1I1IIlII * "\108\049\073\073\073\108\049")[(tabi_lI1I1IIlII / "\108\049\073\049\049\108\073\108")(-891754 - (-943101))] = -168548 - (-168549);
+				(tabi_II1I1IIlII * "\073\049\073\049\108\108\108")[(tabi_lI1I1IIlII / "\073\073\073\073\108")(433453 + -381986)] = Color3[(tabi_lI1I1IIlII / "\073\073\049\108\073\108\049\108")(-479983 + 531404)](-1011199 + 1011199, -487215 - (-487215), -732087 - (-732087));
+				(tabi_II1I1IIlII * "\108\049\073\049\073\049\073\049")[(tabi_lI1I1IIlII / "\073\049\073\049\108\049\073\108")(402284 + -350841)] = 663989 + -663989;
+				(tabi_II1I1IIlII * "\108\108\073\049\108\108\073\049")[(tabi_lI1I1IIlII / "\108\073\049\108\049\049\049")(-471967 - (-523376))] = UDim2[(tabi_lI1I1IIlII / "\108\049\073\108\049\073\073\108")(919933 + -868517)](765176 + -765176, -469359 + 469362, 248488 + -248488, -720822 + 720825);
+				(tabi_II1I1IIlII * "\073\049\073\108\108\049\073\108")[(tabi_lI1I1IIlII / "\108\108\108\073\073\049\073\049")(780667 - 729207)] = -411565 + 411655;
+				(tabi_II1I1IIlII * "\073\073\073\073\108\049\073\108")[(tabi_lI1I1IIlII / "\108\073\049\073\049\049")(367860 - 316394)] = UDim2[(tabi_lI1I1IIlII / "\108\049\049\108\108\049\073\049")(-964862 + 1016278)](-476463 + 476463, 1010047 + -1010033, 41889 - 41889, 916860 + -916846);
+				(tabi_II1I1IIlII * "\073\049\073\049\108\049\073\108")[(tabi_lI1I1IIlII / "\073\049\049\073\049\108\049")(-633972 + 685367)] = (tabi_lI1I1IIlII / "\108\108\073\108\108\073\073\049")(-862075 + 913430);
+				tabi_I11I1IIlII.lI1l1l[(tabi_lI1I1IIlII / "\073\049\108\108\108\073\108")(-648582 - (-699958))] = (tabi_lI1I1IIlII / "\073\073\049\108\073\073\073\108")(831034 + -779685);
+				tabi_I11I1IIlII.l11Il1I1[(tabi_lI1I1IIlII / "\108\049\073\073\073\073\108\108")(273018 - 221543)] = tabi_Il1I1IIlII / "\073\049\073\108\108\108\108\049";
+				tabi_I11I1IIlII.IIlIIl1l[(tabi_lI1I1IIlII / "\108\073\073\108\108\073\049")(164645 + -113219)] = Color3[(tabi_lI1I1IIlII / "\108\049\073\108\108\108\108\049")(-811166 - (-862587))](341995 + -341740, 446702 + -446447, -965503 - (-965758));
+				tabi_I11I1IIlII.l1l11lI1[(tabi_lI1I1IIlII / "\073\073\073\049\049\108\049")(-88355 + 139702)] = -276777 + 276778;
+				tabi_I11I1IIlII.IIlIl11l[(tabi_lI1I1IIlII / "\108\108\073\108\049\073\073\108")(553083 - 501616)] = Color3[(tabi_lI1I1IIlII / "\108\073\073\073\049\049\049")(374124 + -322703)](-89571 + 89571, 384236 + -384236, -427629 - (-427629));
+				tabi_I11I1IIlII.l1I1I1l[(tabi_lI1I1IIlII / "\073\073\049\073\108\049\108")(730039 + -678596)] = -503856 + 503856;
+				tabi_I11I1IIlII.IIl11Ill[(tabi_lI1I1IIlII / "\108\073\073\108\049\049\073\049")(537536 - 486127)] = UDim2[(tabi_lI1I1IIlII / "\073\049\108\073\108\049\049")(-886501 - (-937917))](330602 + -330601.9375, 92899 + -92899, 64034 + -64034, 695478 + -695478);
+				tabi_I11I1IIlII.Illl11I1[(tabi_lI1I1IIlII / "\073\049\108\049\108\073\073\049")(455991 - 404525)] = UDim2[(tabi_lI1I1IIlII / "\073\073\108\073\049\073\049\049")(1018070 - 966654)](-531248 - (-531248), 613811 + -613627, -251688 + 251688, -108131 + 108151);
+				tabi_I11I1IIlII.lII11IIl[(tabi_lI1I1IIlII / "\108\108\073\108\108")(-890938 - (-942397))] = Enum[(tabi_lI1I1IIlII / "\073\108\049\108\049\108\108")(759096 + -707637)][(tabi_lI1I1IIlII / "\073\049\108\073\108")(-1001215 + 1052644)];
+				tabi_I11I1IIlII.l1llIIll[(tabi_lI1I1IIlII / "\108\073\108\073\049\073\108\049")(706391 - 654964)] = tabi_I1lI1IIlII;
+				tabi_I11I1IIlII.llll1Il[(tabi_lI1I1IIlII / "\073\073\108\073\108\073\049")(724982 + -673491)] = Color3[(tabi_lI1I1IIlII / "\073\049\049\108\073\108\073\049")(-871008 - (-922429))](-955902 + 956157, -66402 + 66657, 326442 + -326187);
+				tabi_I11I1IIlII.Il1l1l[(tabi_lI1I1IIlII / "\073\073\073\073\108\049\049")(865428 - 813945)] = -69666 + 69680;
+				tabi_I11I1IIlII.III1l11[(tabi_lI1I1IIlII / "\073\049\108\108\108\073\073\108")(594156 - 542769)] = Enum[(tabi_lI1I1IIlII / "\073\049\108\108\049\073\073\108")(948477 + -897090)][(tabi_lI1I1IIlII / "\073\073\073\108\073\108\108\108")(-157477 + 208842)];
+				(tabi_l11I1IIlII ^ "\108\073\073\049\073\073\108\108")[(tabi_lI1I1IIlII / "\073\108\108\049\073\049\073\108")(-719478 + 770964)] = 517936 - 517936;
+				(tabi_l11I1IIlII ^ "\108\073\108\049\108\073\073\049")[(tabi_lI1I1IIlII / "\108\049\073\073\073\073\049\108")(425965 + -374499)] = UDim2[(tabi_lI1I1IIlII / "\108\073\049\108\073\049\108\108")(-377429 - (-428845))](777976 + -777976, 831594 - 831226, -164517 - (-164517), -706102 + 706122);
+				(tabi_l11I1IIlII ^ "\073\108\049\073\049\049\049")[(tabi_lI1I1IIlII / "\073\049\049\049\073\073\108\108")(272808 + -221333)] = tabi_Il1I1IIlII / "\108\073\049\049\108\108\073\108";
+				(tabi_l11I1IIlII ^ "\108\073\108\108\073\108\108\108")[(tabi_lI1I1IIlII / "\108\073\049\108\049\049")(137734 - 86307)] = (tabi_lI1I1IIlII / "\073\049\073\049\049\073\073\108")(1099812 - 1048384);
+				(tabi_l11I1IIlII ^ "\073\108\073\073\108\049\049\108")[(tabi_lI1I1IIlII / "\108\108\049\108\073\108\049\049")(900301 - 848954)] = -90787 + 90788;
+				(tabi_l11I1IIlII ^ "\073\049\073\073\049\049\108")[(tabi_lI1I1IIlII / "\073\108\049\073\049\049\049")(164358 - 112932)] = tabi_lll11IIlII / "\073\073\049\108\073\049\108";
+				(tabi_l11I1IIlII ^ "\073\049\073\073\049\108\108\108")[(tabi_lI1I1IIlII / "\108\049\049\049\049\108\108\108")(224167 + -172705)] = false;
+				(tabi_Ill11IIlII * "\108\049\108\049\049\108\049\108")[(tabi_lI1I1IIlII / "\073\108\049\049\049\049\049\108")(-793465 + 844841)] = (tabi_lI1I1IIlII / "\108\108\073\108\073\073\073\108")(-1040896 + 1092331);
+				(tabi_Ill11IIlII * "\108\073\108\108\073\108\073\049")[(tabi_lI1I1IIlII / "\073\049\049\108\073\108")(-804921 + 856396)] = tabi_Il1I1IIlII / "\073\073\049\073\073\049\049\108";
+				(tabi_Ill11IIlII * "\073\049\073\049\049\073\049\049")[(tabi_lI1I1IIlII / "\073\049\073\073\073\049\108\049")(-144420 + 195846)] = Color3[(tabi_lI1I1IIlII / "\073\049\073\108\108\108\073\049")(-739255 + 790676)](-824187 - (-824442), -1047681 - (-1047936), 107618 - 107363);
+				(tabi_Ill11IIlII * "\073\049\073\073\049\108\108")[(tabi_lI1I1IIlII / "\108\108\049\049\073\108\073\049")(-568416 - (-619763))] = 615412 - 615411;
+				(tabi_Ill11IIlII * "\073\108\108\073\073\108\049\108")[(tabi_lI1I1IIlII / "\073\049\108\049\108\049\073\108")(-440676 - (-492143))] = Color3[(tabi_lI1I1IIlII / "\108\049\108\049\073\108\073\108")(500491 - 449070)](769592 + -769592, 578290 - 578290, 580594 + -580594);
+				(tabi_Ill11IIlII * "\073\049\073\108\073\073\049\108")[(tabi_lI1I1IIlII / "\073\049\049\049\073\108\108\108")(-360954 - (-412397))] = -25569 - (-25569);
+				(tabi_Ill11IIlII * "\108\073\049\108\073\049\108\049")[(tabi_lI1I1IIlII / "\108\073\049\108\049\108\049\108")(1023375 - 971966)] = UDim2[(tabi_lI1I1IIlII / "\073\073\049\073\049\049\073\049")(-95843 + 147259)](.0461956523, -228263 + 228263, -368939 - (-368939), -805881 + 805904);
+				(tabi_Ill11IIlII * "\073\108\108\049\049\073\108")[(tabi_lI1I1IIlII / "\108\049\073\073\108\073\049")(-801776 - (-853242))] = UDim2[(tabi_lI1I1IIlII / "\073\073\049\073\108\049\049\108")(730765 - 679349)](-929853 - (-929853), 474607 + -474264, -259304 - (-259304), 961214 + -961214);
+				(tabi_Ill11IIlII * "\073\073\108\108\108\073\049\108")[(tabi_lI1I1IIlII / "\073\049\108\108\108\108\073\108")(1028803 - 977342)] = false;
+				(tabi_IIl11IIlII - "\073\049\073\073\073\073\049\049")[(tabi_lI1I1IIlII / "\073\108\073\108")(-609476 - (-660852))] = (tabi_lI1I1IIlII / "\073\049\108\108\108\108\108\049")(-755889 - (-807289));
+				(tabi_IIl11IIlII - "\108\049\073\049\049\073\108\108")[(tabi_lI1I1IIlII / "\073\049\049\073\073\108")(846842 + -795367)] = tabi_Ill11IIlII * "\108\108\073\049\073\049";
+				(tabi_IIl11IIlII - "\073\073\049\073\073\108")[(tabi_lI1I1IIlII / "\108\049\049\073\073\073\073\108")(-659711 - (-711094))] = Enum[(tabi_lI1I1IIlII / "\073\108\108\049\108")(766904 + -715521)][(tabi_lI1I1IIlII / "\108\049\108\049\108\049\108")(-900476 + 951896)];
+				(tabi_IIl11IIlII - "\108\108\073\108\073\049\073\108")[(tabi_lI1I1IIlII / "\073\049\049\108\108\049\049\108")(-4128 + 55567)] = UDim[(tabi_lI1I1IIlII / "\073\108\049\049\049\108\049\108")(-131598 - (-183014))](566322 - 566322, 702646 + -702643);
+				local tabi_lIl11IIlII = tabi_l1lI1IIlII({ I1Ill = false }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							tabi_I1lI1IIlII.I1Ill = tabi_l1lI1IIlII;
+						end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+							return tabi_I1lI1IIlII.I1Ill;
 						end });
-				(tabi_l1l1lIl11Il / "\073\049\108\049\049\108\108\049")[(tabi_lll1lIl11Il - "\073\049\073\073\108\049\108")(-297302 - (-343595))]:Connect(function(...)
-					(tabi_l1l1lIl11Il / "\073\049\049\073\049\073\108\049")[(tabi_lll1lIl11Il - "\108\073\108\049\049\049\073\049")(-463918 + 510217)] = -406381 - (-406381);
+				(tabi_l11I1IIlII ^ "\073\108\108\108\108\108\108\108")[(tabi_lI1I1IIlII / "\073\049\049\108\049")(392684 + -341332)]:Connect(function(...)
+					(tabi_l11I1IIlII ^ "\108\108\073\108\049\049\108\108")[(tabi_lI1I1IIlII / "\108\108\049\108\108\049\049\108")(-127844 + 179191)] = 387436 + -387436;
 				end);
-				(tabi_l1l1lIl11Il / "\108\073\108\108\108\108\108\049")[(tabi_lll1lIl11Il - "\073\049\049\049\073\049\108")(-447583 - (-493871))]:Connect(function(...)
-					(tabi_l1l1lIl11Il / "\073\049\073\073\108\108")[(tabi_lll1lIl11Il - "\108\073\073\073\073\108\049\108")(723728 - 677429)] = 828219 - 828218;
+				(tabi_l11I1IIlII ^ "\108\073\049\108\049\049\073\049")[(tabi_lI1I1IIlII / "\073\049\108\049\049\049\049")(1012415 + -960992)]:Connect(function(...)
+					(tabi_l11I1IIlII ^ "\073\073\073\073\049\073\049\108")[(tabi_lI1I1IIlII / "\073\049\073\073\049\108\108\049")(462446 + -411099)] = -470511 + 470512;
 				end);
-				(tabi_l1l1lIl11Il / "\108\073\108\108\073\073\108\108")[(tabi_lll1lIl11Il - "\108\073\049\073\049\049\108\049")(687288 - 640948)]:Connect(function(...)
-					(tabi_I11llIl11Il / "\073\049\073\108\049\108\073\049")(tabi_ll11lIl11Il / not (tabi_ll11lIl11Il - "\073\049\049\073\049\108\073\108"));
-					(tabi_I1l1lIl11Il * "\108\073\108\049\108\073\049\049")[(tabi_lll1lIl11Il - "\073\108\049\049\073\108\073\108")(-295772 - (-342123))] = tabi_ll11lIl11Il - "\108\049\073\073\073\108\108\049";
-					((tabi_l1I1lIl11Il .. "\108\073\073\108\108\049\049\108"):Create(tabi_IIl1lIl11Il .. "\073\108\108\049\073\049\108\108", TweenInfo[(tabi_lll1lIl11Il - "\108\108\108\073\108\049\108\108")(5088 + 41185)](.3, Enum[(tabi_lll1lIl11Il - "\108\073\073\073\073\049\049")(349803 + -303479)][(tabi_lll1lIl11Il - "\073\049\073\073\073\073\073\108")(-403703 - (-449966))]), { [(tabi_lll1lIl11Il - "\073\073\049\049\108\108\108")(544655 - 498287)] = tabi_ll11lIl11Il - "\073\049\049\049\108\073\049\049" and 522864 + -522684 or -146507 - (-146597) })):Play();
+				(tabi_l11I1IIlII ^ "\073\073\049\108\073\049\073\108")[(tabi_lI1I1IIlII / "\073\108\108\108\073\073\073\108")(1012863 + -961488)]:Connect(function(...)
+					(tabi_IlII1IIlII ^ "\073\073\108\049\073\073\073\108")(tabi_lIl11IIlII / not (tabi_lIl11IIlII + "\108\073\108\108\073\108\049"));
+					(tabi_Ill11IIlII * "\073\073\073\073\073\073\049\108")[(tabi_lI1I1IIlII / "\108\073\073\049\073\049\073\108")(-888316 + 939777)] = tabi_lIl11IIlII + "\073\108\049\108\049\073\108";
+					((tabi_l1II1IIlII * "\108\073\073\073\108\049\108\049"):Create(tabi_II1I1IIlII * "\073\049\049\073\049\073\073\108", TweenInfo[(tabi_lI1I1IIlII / "\073\049\073\049\049\108\073\049")(973845 - 922429)](.3, Enum[(tabi_lI1I1IIlII / "\108\049\108\073\108\073\073\108")(819213 - 767736)][(tabi_lI1I1IIlII / "\108\073\073\108\049\073\049")(895292 + -843941)]), { [(tabi_lI1I1IIlII / "\108\108\049\108\073\049")(167525 + -116065)] = tabi_lIl11IIlII + "\073\049\049\073\073\073\049" and 473699 - 473519 or -162341 + 162431 })):Play();
 				end);
-				function tabi_III1lIl11Il.II1l1lll.Button(tabi_lII1lIl11Il, tabi_Il1llIl11Il, tabi_I11llIl11Il, ...)
-					local tabi_III1lIl11Il = tabi_l11llIl11Il({ lllIIlI1 = Instance[(tabi_lll1lIl11Il - "\108\108\073\108\073\073\049\049")(-606899 - (-653172))]((tabi_lll1lIl11Il - "\108\073\049\049\049\049\108\049")(-590066 + 636463)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.lllIIlI1 = tabi_l11llIl11Il;
-							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return rawget(tabi_Il1llIl11Il, "\108\108\108\073\073\108\073\049");
+				function tabi_IIII1IIlII.I1Il1lI1.Button(tabi_llII1IIlII, tabi_I1lI1IIlII, tabi_IlII1IIlII, ...)
+					local tabi_IIII1IIlII = tabi_l1lI1IIlII({ lIIIIl11 = Instance[(tabi_lI1I1IIlII / "\108\073\049\049\049")(-118500 + 169916)]((tabi_lI1I1IIlII / "\073\073\073\108\108\049")(-932477 + 983838)) }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.lIIIIl11 = tabi_l1lI1IIlII;
+							end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return rawget(tabi_I1lI1IIlII, "\108\073\073\073\073\108\049\049");
 							end });
-					local tabi_llI1lIl11Il = tabi_l11llIl11Il({ l11lll1l = Instance[(tabi_lll1lIl11Il - "\073\073\049\049\073\049\108\049")(166053 - 119780)]((tabi_lll1lIl11Il - "\073\049\108\073\049\108\049")(566258 + -519880)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.l11lll1l = tabi_l11llIl11Il;
-							end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return rawget(tabi_Il1llIl11Il, "\108\049\049\108\108\108\049\108");
+					local tabi_lIII1IIlII = tabi_l1lI1IIlII({ Il1l11ll = Instance[(tabi_lI1I1IIlII / "\073\073\073\108\108\073\108")(-551131 - (-602547))]((tabi_lI1I1IIlII / "\073\108\108\073\073\073\073\049")(-590619 - (-641972))) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.Il1l11ll = tabi_l1lI1IIlII;
+							end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return rawget(tabi_I1lI1IIlII, "\073\108\049\108\049\049\108\108");
 							end });
-					tabi_III1lIl11Il.llIIl1ll[(tabi_lll1lIl11Il - "\108\073\073\108\108\108")(-157285 + 203620)] = (tabi_lll1lIl11Il - "\073\073\073\073\073\049\073\049")(-662589 - (-708982));
-					tabi_III1lIl11Il.II1ll1I1[(tabi_lll1lIl11Il - "\073\049\073\108\108\049")(510786 - 464430)] = tabi_I1l1lIl11Il * "\073\049\049\073\049\108\049\108";
-					tabi_III1lIl11Il.I1IlI1I1[(tabi_lll1lIl11Il - "\073\073\049\049\108\049")(25889 + 20513)] = Color3[(tabi_lll1lIl11Il - "\073\073\108\108\108\073\049\049")(513648 + -467379)](-705213 - (-705270), 20250 - 20193, 555697 + -555640);
-					tabi_III1lIl11Il.ll1l1lI1[(tabi_lll1lIl11Il - "\108\073\049\049\073\108\049")(131364 + -85105)] = Color3[(tabi_lll1lIl11Il - "\073\049\108\108\108\073\108\049")(903292 + -857023)](-423917 + 423917, -501040 + 501040, 292841 - 292841);
-					tabi_III1lIl11Il.Il1IIl1l[(tabi_lll1lIl11Il - "\073\049\073\073\073\049\049")(1048384 + -1002056)] = 821689 - 821689;
-					tabi_III1lIl11Il.I11I1l1[(tabi_lll1lIl11Il - "\073\108\073\108\108\108\049")(-799609 + 845973)] = UDim2[(tabi_lll1lIl11Il - "\108\073\073\073\073\049\073\049")(414060 - 367787)](554097 + -554097, -349690 - (-349867), -162661 + 162661, -864827 + 864846);
-					tabi_III1lIl11Il.l1ll1lIl[(tabi_lll1lIl11Il - "\073\049\108\073\073\073\108")(-80803 + 127123)] = false;
-					tabi_III1lIl11Il.Il11llI1[(tabi_lll1lIl11Il - "\108\073\108\108\049\049\073\108")(516841 - 470447)] = Enum[(tabi_lll1lIl11Il - "\108\073\073\073\073\073\073\108")(69986 + -23592)][(tabi_lll1lIl11Il - "\108\049\073\073\049\073\108\108")(599562 - 553265)];
-					tabi_III1lIl11Il.lIIlIl[(tabi_lll1lIl11Il - "\108\108\108\108\108\073\073\049")(-409451 - (-455854))] = (tabi_lll1lIl11Il - "\073\108\108\108\049\049\073\108")(-790179 - (-836474)) .. (tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\108\049\049\049\108\073\108")(118235 - 71842));
-					tabi_III1lIl11Il.lll111[(tabi_lll1lIl11Il - "\108\049\049\108\073\073\073\049")(-868598 - (-914940))] = Color3[(tabi_lll1lIl11Il - "\108\108\049\108\049\073\049")(-513904 + 560173)](810617 + -810415, 452024 - 451822, 746945 - 746743);
-					tabi_III1lIl11Il.llIl1I1[(tabi_lll1lIl11Il - "\108\108\108\108\073\073\049\108")(-882407 - (-928701))] = 953612 - 953598;
-					tabi_III1lIl11Il.l1l11l1[(tabi_lll1lIl11Il - "\073\049\073\108\073\108\108\108")(16737 + 29580)] = Enum[(tabi_lll1lIl11Il - "\108\073\049\049\108\049\108\049")(773880 + -727563)][(tabi_lll1lIl11Il - "\108\108\108\049\049\073\108\049")(-116327 - (-162661))];
-					(tabi_llI1lIl11Il / "\073\108\108\108\049\049\108")[(tabi_lll1lIl11Il - "\108\108\049\108\108\108")(710390 + -664130)] = UDim[(tabi_lll1lIl11Il - "\108\073\049\049\108\049")(567346 + -521073)](-762168 - (-762168), -449902 + 449906);
-					(tabi_llI1lIl11Il / "\073\049\073\108")[(tabi_lll1lIl11Il - "\108\108\073\073\108\049\073\049")(-769146 - (-815481))] = (tabi_lll1lIl11Il - "\108\073\073\073\108\073\049\108")(750382 - 704118);
-					(tabi_llI1lIl11Il / "\108\073\049\049\108\073\049\049")[(tabi_lll1lIl11Il - "\108\073\108\108\108\049\108\049")(722057 - 675701)] = tabi_III1lIl11Il.Il11lI1;
-					(game:GetService((tabi_lll1lIl11Il - "\108\073\073\108\108\108")(-310343 - (-356715))))[(tabi_lll1lIl11Il - "\108\073\073\073\049\073\049\108")(-16008 - (-62370))]:Connect(function(...)
-						tabi_III1lIl11Il.I1ll11ll[(tabi_lll1lIl11Il - "\073\108\049\073\049\073\073\049")(-581298 + 627662)] = UDim2[(tabi_lll1lIl11Il - "\073\108\108\049\049\108\108\108")(-628979 + 675252)](-854458 - (-854458), tabi_III1lIl11Il.Ill111Il[(tabi_lll1lIl11Il - "\108\049\049\049\073\108\049\108")(177096 - 130788)][(tabi_lll1lIl11Il - "\073\108\108\073\049\073\108\049")(-116409 - (-162725))] + (-888632 - (-888636)), -460526 - (-460526), -897980 + 897999);
+					(tabi_IIII1IIlII + "\108\049\108\108\049\108\073\049")[(tabi_lI1I1IIlII / "\073\073\049\108\049\108\049")(-461934 + 513310)] = (tabi_lI1I1IIlII / "\108\073\049\108\049\049\108\049")(956990 + -905505);
+					(tabi_IIII1IIlII + "\108\049\073\049\049\049\108")[(tabi_lI1I1IIlII / "\108\073\073\108\073\073\108\049")(327786 + -276311)] = tabi_Ill11IIlII * "\108\073\073\108\073\108\049\049";
+					(tabi_IIII1IIlII + "\108\073\073\049\073\108\049\049")[(tabi_lI1I1IIlII / "\108\073\049\073\073\073\049\049")(-533681 + 585107)] = Color3[(tabi_lI1I1IIlII / "\073\049\108\108\049\049\073\108")(-558230 - (-609651))](483624 - 483567, -591410 + 591467, 494511 + -494454);
+					(tabi_IIII1IIlII + "\073\049\108\049\049\108\073\108")[(tabi_lI1I1IIlII / "\108\049\073\108\049\108\108\108")(262130 - 210663)] = Color3[(tabi_lI1I1IIlII / "\108\108\049\049\073\108")(-773981 - (-825402))](-233127 + 233127, 41569 - 41569, 499439 + -499439);
+					(tabi_IIII1IIlII + "\108\108\049\073\049\108\108\049")[(tabi_lI1I1IIlII / "\108\108\108\108\108\108")(-206261 - (-257704))] = 860731 + -860731;
+					(tabi_IIII1IIlII + "\073\108\108\073\108\049\108\108")[(tabi_lI1I1IIlII / "\073\073\073\108\073\108\049")(978814 + -927348)] = UDim2[(tabi_lI1I1IIlII / "\108\049\073\049\049\108\049")(-128590 - (-180006))](344747 + -344747, 874092 - 873915, -743287 - (-743287), 662517 + -662498);
+					(tabi_IIII1IIlII + "\073\073\108\108\108\108\108\108")[(tabi_lI1I1IIlII / "\073\073\108\108\073\073\049\049")(139364 + -87902)] = false;
+					(tabi_IIII1IIlII + "\073\108\108\073\049\073\108\049")[(tabi_lI1I1IIlII / "\108\049\073\073\049\108\108\049")(162981 + -111522)] = Enum[(tabi_lI1I1IIlII / "\108\073\108\073\108\073\049")(-970814 + 1022273)][(tabi_lI1I1IIlII / "\108\049\049\073\049\049")(-483082 - (-534449))];
+					(tabi_IIII1IIlII + "\108\073\049\049\049\073\049")[(tabi_lI1I1IIlII / "\108\049\073\049\073\049\108\108")(-793687 - (-845114))] = (tabi_lI1I1IIlII / "\073\108\073\108\073\073\108\049")(-942019 - (-993471)) .. (tabi_I1lI1IIlII or (tabi_lI1I1IIlII / "\073\108\073\108\049\073\049\108")(946521 - 895036));
+					(tabi_IIII1IIlII + "\073\108\073\049\049\108\108\049")[(tabi_lI1I1IIlII / "\073\073\049\049\049\049\108")(416045 + -364554)] = Color3[(tabi_lI1I1IIlII / "\073\049\108\049\049\073\108\049")(-322191 - (-373612))](733111 + -732909, 285161 + -284959, 712128 - 711926);
+					(tabi_IIII1IIlII + "\108\073\073\073\108\108\108")[(tabi_lI1I1IIlII / "\073\108\108\108\073\073\049\049")(206246 + -154763)] = 893258 - 893244;
+					(tabi_IIII1IIlII + "\108\073\073\073\108\073\108")[(tabi_lI1I1IIlII / "\073\108\073\073\108\049\049\108")(518320 + -466933)] = Enum[(tabi_lI1I1IIlII / "\073\108\049\108\049\073\049")(-217383 + 268770)][(tabi_lI1I1IIlII / "\108\108\108\073\049\108\073\049")(733850 - 682485)];
+					tabi_lIII1IIlII.l1II11l1[(tabi_lI1I1IIlII / "\108\049\049\108\073\073\108\108")(815865 + -764409)] = UDim[(tabi_lI1I1IIlII / "\108\073\049\073\108\049")(8247 - (-43169))](26529 - 26529, 228647 + -228643);
+					tabi_lIII1IIlII.IlI1l1[(tabi_lI1I1IIlII / "\073\073\108\049\049\073\049")(1048448 + -997072)] = (tabi_lI1I1IIlII / "\073\108\073\049\073\108\108\108")(-219478 - (-270824));
+					tabi_lIII1IIlII.l11lII11[(tabi_lI1I1IIlII / "\108\049\073\073\073\108\108")(-868795 + 920270)] = tabi_IIII1IIlII + "\108\108\073\049\108\073\073\108";
+					(game:GetService((tabi_lI1I1IIlII / "\073\049\108\049\108\073\073\049")(524464 + -472972)))[(tabi_lI1I1IIlII / "\108\073\049\108\108\108\049\108")(489428 - 437998)]:Connect(function(...)
+						(tabi_IIII1IIlII + "\073\108\073\108\073\049\049")[(tabi_lI1I1IIlII / "\073\108\049\108\049\073\073\108")(-108507 - (-159973))] = UDim2[(tabi_lI1I1IIlII / "\108\108\049\073\073\073\108\108")(256488 + -205072)](966782 - 966782, (tabi_IIII1IIlII + "\108\049\108\108\108\108\049")[(tabi_lI1I1IIlII / "\108\108\108\108\049\108\108")(392940 + -341580)][(tabi_lI1I1IIlII / "\073\073\073\049\049\073\108")(824102 - 772728)] + (299497 + -299493), -594226 - (-594226), 236839 + -236820);
 					end);
-					tabi_III1lIl11Il.lllllll1[(tabi_lll1lIl11Il - "\108\049\073\049\049\108\049\108")(334890 + -288550)]:Connect(function(...)
-						task[(tabi_lll1lIl11Il - "\108\049\073\073\108\049\108\108")(-145829 + 192129)](tabi_I11llIl11Il or function(...)
+					(tabi_IIII1IIlII + "\073\108\049\073\049\073\073\049")[(tabi_lI1I1IIlII / "\108\108\049\073\049\049\073\049")(-569988 - (-621363))]:Connect(function(...)
+						task[(tabi_lI1I1IIlII / "\108\073\108\073\049\073\073\049")(-700726 + 752110)](tabi_IlII1IIlII or function(...)
  
 						end);
-						task[(tabi_lll1lIl11Il - "\073\108\049\108\108\049")(-90851 + 137151)](tabi_lIl1lIl11Il ^ "\073\108\049\108\108\073\108\108", tabi_III1lIl11Il.ll11I1I1);
+						task[(tabi_lI1I1IIlII / "\073\049\108\073\073\073\049\049")(308138 + -256754)](tabi_ll1I1IIlII.IlIIII1l, tabi_IIII1IIlII + "\073\108\073\049\049\108\073\049");
 					end);
 				end;
-				function tabi_III1lIl11Il.II1l1lll.Toggle(tabi_III1lIl11Il, tabi_Il1llIl11Il, tabi_lII1lIl11Il, ...)
-					local tabi_llI1lIl11Il = tabi_l11llIl11Il({ IlI11l = Instance[(tabi_lll1lIl11Il - "\073\073\049\073\108\073\108\108")(-818169 + 864442)]((tabi_lll1lIl11Il - "\108\108\108\108\108\049\073\049")(-959294 + 1005607)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.IlI11l = tabi_l11llIl11Il;
-							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.IlI11l;
+				function tabi_IIII1IIlII.I1Il1lI1.Toggle(tabi_IIII1IIlII, tabi_I1lI1IIlII, tabi_llII1IIlII, ...)
+					local tabi_lIII1IIlII = tabi_l1lI1IIlII({ lIl11lll = Instance[(tabi_lI1I1IIlII / "\073\108\049\108\108\073\108\108")(22263 - (-29153))]((tabi_lI1I1IIlII / "\108\049\049\108\108\108")(402659 - 351211)) }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.lIl11lll = tabi_l1lI1IIlII;
+							end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.lIl11lll;
 							end });
-					local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ ll1I1Il = Instance[(tabi_lll1lIl11Il - "\073\108\073\108\049\108\108\108")(125028 + -78755)]((tabi_lll1lIl11Il - "\108\049\073\049\108\049\108\108")(575853 - 529456)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.ll1I1Il = tabi_l11llIl11Il;
-							end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.ll1I1Il;
+					local tabi_I1II1IIlII = tabi_l1lI1IIlII({ lIll1IIl = Instance[(tabi_lI1I1IIlII / "\108\073\049\073\073\049\049\108")(-410477 + 461893)]((tabi_lI1I1IIlII / "\108\049\108\073\049\073\049")(-209031 - (-260392))) }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.lIll1IIl = tabi_l1lI1IIlII;
+							end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.lIll1IIl;
 							end });
-					local tabi_l1I1lIl11Il = tabi_l11llIl11Il({ lIl11ll1 = Instance[(tabi_lll1lIl11Il - "\108\108\073\073\049\108\049\108")(-93539 - (-139812))]((tabi_lll1lIl11Il - "\108\108\073\108\108\073\108\108")(-1000214 - (-1046592))) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.lIl11ll1 = tabi_l11llIl11Il;
-							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return rawget(tabi_Il1llIl11Il, "\108\073\108\049\049\108\108\049");
+					local tabi_l1II1IIlII = tabi_l1lI1IIlII({ IlI1ll1 = Instance[(tabi_lI1I1IIlII / "\108\073\073\073\073\049\073\049")(550961 + -499545)]((tabi_lI1I1IIlII / "\108\049\108\049\049\108")(672396 - 621043)) }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.IlI1ll1 = tabi_l1lI1IIlII;
+							end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.IlI1ll1;
 							end });
-					local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ lI1Illl1 = Instance[(tabi_lll1lIl11Il - "\108\108\073\108\108\049\049\108")(56289 - 10016)]((tabi_lll1lIl11Il - "\073\108\108\073\108\108\073\108")(545073 + -498802)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.lI1Illl1 = tabi_l11llIl11Il;
-							end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.lI1Illl1;
+					local tabi_Il1I1IIlII = tabi_l1lI1IIlII({ l11ll1l1 = Instance[(tabi_lI1I1IIlII / "\108\049\108\073\073\108\049\108")(6688 + 44728)]((tabi_lI1I1IIlII / "\108\108\049\073\049\108\073\108")(-598067 + 649501)) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.l11ll1l1 = tabi_l1lI1IIlII;
+							end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.l11ll1l1;
 							end });
-					(tabi_llI1lIl11Il + "\073\073\108\049\073\108\108\108")[(tabi_lll1lIl11Il - "\108\049\108\073\049\073\108\108")(52578 + -6243)] = (tabi_lll1lIl11Il - "\073\049\108\108\108\108\108")(-162085 + 208408);
-					(tabi_llI1lIl11Il + "\108\073\108\049\049\049\108\049")[(tabi_lll1lIl11Il - "\073\049\073\049\073\108\108\049")(-913066 - (-959422))] = tabi_I1l1lIl11Il * "\108\073\049\108\108";
-					(tabi_llI1lIl11Il + "\073\073\108\108\049\108\049")[(tabi_lll1lIl11Il - "\073\073\108\073\108\049\108")(-450029 - (-496431))] = Color3[(tabi_lll1lIl11Il - "\108\049\108\073\073\108\049\049")(-909116 + 955385)](-222376 - (-222631), -1002240 - (-1002495), 973629 - 973374);
-					(tabi_llI1lIl11Il + "\073\049\073\073\049\108\049")[(tabi_lll1lIl11Il - "\073\049\049\049\073\049\108\108")(747537 - 701238)] = 939517 + -939516;
-					(tabi_llI1lIl11Il + "\073\049\049\073\049\049\108")[(tabi_lll1lIl11Il - "\073\073\108\049\073\073\049")(-312952 - (-359211))] = Color3[(tabi_lll1lIl11Il - "\073\049\073\049\049\073\049\108")(795060 - 748791)](109987 - 109987, 486767 - 486767, -509616 - (-509616));
-					(tabi_llI1lIl11Il + "\108\073\108\073\049\108\049")[(tabi_lll1lIl11Il - "\073\073\108\108\108\108\108\049")(-185254 + 231582)] = 481007 - 481007;
-					(tabi_llI1lIl11Il + "\108\073\108\073\049\049\108\108")[(tabi_lll1lIl11Il - "\073\049\049\049\049\049\073\049")(1083314 - 1036928)] = UDim2[(tabi_lll1lIl11Il - "\073\049\073\049\108\073\049\108")(149989 + -103716)](-591090 + 591090, -1018368 + 1018368, .46808511, 75810 - 75810);
-					(tabi_llI1lIl11Il + "\073\108\073\108\073\108\049\108")[(tabi_lll1lIl11Il - "\073\108\073\108\108")(713425 - 667061)] = UDim2[(tabi_lll1lIl11Il - "\073\049\073\073\108\108\049")(846970 - 800697)](-713910 - (-713910), -18017 + 18193, 936957 + -936957, 544881 + -544862);
-					(tabi_IlI1lIl11Il - "\108\073\108\108\073\073\108\108")[(tabi_lll1lIl11Il - "\073\049\049\049\049\073\049\108")(-442798 + 489133)] = (tabi_lll1lIl11Il - "\073\049\108\073\073\108\049")(-698357 - (-744695));
-					(tabi_IlI1lIl11Il - "\108\073\108\108\049\073\073\049")[(tabi_lll1lIl11Il - "\073\108\108\049\108\073\108\108")(-752311 + 798667)] = tabi_llI1lIl11Il + "\073\049\073\049\108\108\108";
-					(tabi_IlI1lIl11Il - "\073\073\108\049\108\073\049\108")[(tabi_lll1lIl11Il - "\108\049\108\049\073\108\073\108")(763384 + -716982)] = tabi_lI11lIl11Il .. "\073\073\073\073\108\073\049\108";
-					(tabi_IlI1lIl11Il - "\108\108\049\073\108\049\108")[(tabi_lll1lIl11Il - "\108\073\049\073\073\108\108\108")(35923 - (-10336))] = Color3[(tabi_lll1lIl11Il - "\108\108\073\049\073\073\108\108")(-267816 + 314085)](-967294 + 967294, 932221 + -932221, 310122 - 310122);
-					(tabi_IlI1lIl11Il - "\073\049\108\073\108\049\049\108")[(tabi_lll1lIl11Il - "\108\049\073\073\073\049")(-147822 - (-194150))] = -993663 - (-993663);
-					(tabi_IlI1lIl11Il - "\108\049\049\108\073\049\073\108")[(tabi_lll1lIl11Il - "\108\073\073\049\108\049\108\108")(-642996 + 689360)] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\108\073\073\108\108")(832633 - 786360)](-1015167 - (-1015167), -599475 + 599494, -530096 - (-530096), -914236 + 914255);
-					(tabi_IlI1lIl11Il - "\073\073\108\108\073\049\073\108")[(tabi_lll1lIl11Il - "\073\073\049\049\108\073\049")(-805305 + 851625)] = false;
-					(tabi_IlI1lIl11Il - "\108\108\073\073\108")[(tabi_lll1lIl11Il - "\108\108\073\073\049\049\049\108")(518441 - 472047)] = Enum[(tabi_lll1lIl11Il - "\073\108\073\108\073\049\108\108")(628140 - 581746)][(tabi_lll1lIl11Il - "\108\049\073\108\073\108\108\108")(16161 + 30149)];
-					(tabi_IlI1lIl11Il - "\108\073\108\073\049\108\049\108")[(tabi_lll1lIl11Il - "\108\049\049\073\049\073\073\049")(529648 + -483245)] = (tabi_lll1lIl11Il - "\073\049\073\108\049\073\073\049")(-886651 + 932904);
-					(tabi_IlI1lIl11Il - "\108\049\049\108\108\049\108")[(tabi_lll1lIl11Il - "\108\108\049\108\073\049\108")(727355 - 681013)] = Color3[(tabi_lll1lIl11Il - "\073\049\049\073\073\073\049\049")(510955 - 464686)](694518 + -694263, 934141 + -933886, 72865 - 72610);
-					(tabi_IlI1lIl11Il - "\073\049\073\073\108\073\049")[(tabi_lll1lIl11Il - "\073\049\073\108\108\073\049")(981822 + -935528)] = 38515 - 38497;
-					tabi_l1I1lIl11Il.llllIIll[(tabi_lll1lIl11Il - "\108\108\049\049\108\108\073\049")(-834247 - (-880507))] = UDim[(tabi_lll1lIl11Il - "\108\049\108\049\073\108\073\108")(-61730 - (-108003))](34721 + -34721, 448050 - 448046);
-					tabi_l1I1lIl11Il.lI1lIll[(tabi_lll1lIl11Il - "\073\073\049\049\073\073\108\049")(348587 + -302252)] = (tabi_lll1lIl11Il - "\073\049\073\049\073\108\073\049")(-984635 - (-1030912));
-					tabi_l1I1lIl11Il.Il1III1[(tabi_lll1lIl11Il - "\108\049\049\073\049\049\049")(-645601 - (-691957))] = tabi_IlI1lIl11Il - "\108\073\073\049\073\073\108";
-					(tabi_I1I1lIl11Il ^ "\073\049\049\108\049\108\073\049")[(tabi_lll1lIl11Il - "\108\108\073\108\108\108\073\108")(736 + 45599)] = (tabi_lll1lIl11Il - "\073\049\108\049\073\108\073\108")(842618 + -796332);
-					(tabi_I1I1lIl11Il ^ "\073\049\049\108\073\073\049")[(tabi_lll1lIl11Il - "\073\073\049\108\073\049\073\108")(-145253 + 191609)] = tabi_llI1lIl11Il + "\108\049\049\073\073\073\073\049";
-					(tabi_I1I1lIl11Il ^ "\108\108\073\073\073\049\073\049")[(tabi_lll1lIl11Il - "\073\049\049\108\049\108\108\049")(-808504 - (-854906))] = Color3[(tabi_lll1lIl11Il - "\108\073\073\108\073\073\049\049")(1009471 + -963202)](-881340 - (-881595), 220582 - 220327, -75746 + 76001);
-					(tabi_I1I1lIl11Il ^ "\073\073\073\049\073\049\108\049")[(tabi_lll1lIl11Il - "\108\108\108\073\073\073\073\108")(-198182 + 244481)] = 946941 + -946940;
-					(tabi_I1I1lIl11Il ^ "\108\049\049\073\108\108\108\108")[(tabi_lll1lIl11Il - "\073\049\073\108\073\049\108\108")(-681525 + 727784)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\108\108\073\049")(1094141 - 1047872)](1030976 + -1030976, 329514 + -329514, -90339 + 90339);
-					(tabi_I1I1lIl11Il ^ "\073\108\108\049\049")[(tabi_lll1lIl11Il - "\108\073\073\073\049\108\108\049")(799983 - 753655)] = -302825 + 302825;
-					(tabi_I1I1lIl11Il ^ "\108\049\108\049\049\073\073\049")[(tabi_lll1lIl11Il - "\073\073\108\073\049\049\049")(1045120 + -998734)] = UDim2[(tabi_lll1lIl11Il - "\108\049\108\073\108\073\049")(-263593 - (-309866))](.17, 984831 + -984831, -510896 - (-510896), 95203 + -95203);
-					(tabi_I1I1lIl11Il ^ "\108\108\073\073\108\073\108\108")[(tabi_lll1lIl11Il - "\108\073\073\108\073\108\049")(-155493 + 201857)] = UDim2[(tabi_lll1lIl11Il - "\108\108\073\073\073\108\073\049")(220199 + -173926)](328234 - 328234, -567858 + 568026, -832953 - (-832954), -386156 - (-386156));
-					(tabi_I1I1lIl11Il ^ "\073\049\108\049\073\073\049")[(tabi_lll1lIl11Il - "\108\049\073\073\073\108\108")(-656892 - (-703286))] = Enum[(tabi_lll1lIl11Il - "\073\073\049\049\049\049\049")(266280 + -219886)][(tabi_lll1lIl11Il - "\073\073\108\073\049\049")(-749623 + 796018)];
-					(tabi_I1I1lIl11Il ^ "\073\108\049\049\108\073\049\049")[(tabi_lll1lIl11Il - "\073\108\108\073\073\049")(-939133 + 985536)] = tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\073\073\108\108\073\108\108\049")(204518 + -158195);
-					(tabi_I1I1lIl11Il ^ "\108\049\049\108\073\049\108\049")[(tabi_lll1lIl11Il - "\073\073\073\108\049\049\049\108")(441326 + -394984)] = Color3[(tabi_lll1lIl11Il - "\073\073\073\049\108\108\108\108")(-73703 - (-119972))](-135130 - (-135332), -408685 + 408887, -379116 + 379318);
-					(tabi_I1I1lIl11Il ^ "\108\108\049\049\073\049\108")[(tabi_lll1lIl11Il - "\073\073\049\049\073\073\049\049")(766156 - 719862)] = -124566 - (-124580);
-					(tabi_I1I1lIl11Il ^ "\073\108\049\049")[(tabi_lll1lIl11Il - "\108\108\049\049\108\049\108\108")(-781624 + 827941)] = Enum[(tabi_lll1lIl11Il - "\108\049\073\073\073\049\049")(662837 + -616520)][(tabi_lll1lIl11Il - "\073\049\073\073\073\073\108\108")(24413 - (-21921))];
-					local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ lll1lI11 = false }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.lll1lI11 = tabi_l11llIl11Il;
-							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return rawget(tabi_Il1llIl11Il, "\108\108\108\049\108\073\049\049");
+					(tabi_lIII1IIlII / "\108\073\108\073\049\108\108\049")[(tabi_lI1I1IIlII / "\073\108\049\108\049\073\049\108")(-877755 + 929131)] = (tabi_lI1I1IIlII / "\108\108\073\049\073\108\073\049")(-518499 - (-569970));
+					(tabi_lIII1IIlII / "\073\108\049\108\049\073\049")[(tabi_lI1I1IIlII / "\108\049\049\049\073\108\108\049")(-99555 + 151030)] = tabi_Ill11IIlII * "\108\049\073\073\108\073\108\108";
+					(tabi_lIII1IIlII / "\073\108\049\049\049\049\108")[(tabi_lI1I1IIlII / "\073\108\108\073\108\073\108")(241831 + -190405)] = Color3[(tabi_lI1I1IIlII / "\073\049\049\073\108")(824405 - 772984)](-193255 - (-193510), -620148 - (-620403), 603314 - 603059);
+					(tabi_lIII1IIlII / "\108\049\073\073\073\108\108")[(tabi_lI1I1IIlII / "\073\073\073\049\108\108\049")(262138 - 210791)] = -325610 + 325611;
+					(tabi_lIII1IIlII / "\108\108\073\049\108\073\108\049")[(tabi_lI1I1IIlII / "\108\108\108\108\073\108\073\049")(105325 - 53858)] = Color3[(tabi_lI1I1IIlII / "\108\073\049\049\108\073\073\108")(-175818 - (-227239))](-1035392 - (-1035392), -862715 - (-862715), -1003583 + 1003583);
+					(tabi_lIII1IIlII / "\108\049\108\073\073\108\108\049")[(tabi_lI1I1IIlII / "\108\049\108\049\108\049\049\108")(486048 - 434605)] = 1028864 + -1028864;
+					(tabi_lIII1IIlII / "\073\108\049\108\073\049\049\108")[(tabi_lI1I1IIlII / "\073\073\073\073\108\049\073\049")(-849515 - (-900924))] = UDim2[(tabi_lI1I1IIlII / "\108\049\073\108\049\073\073\108")(-937789 + 989205)](393324 + -393324, 122468 + -122468, .46808511, -237479 + 237479);
+					(tabi_lIII1IIlII / "\108\049\049\049\108\073\073\049")[(tabi_lI1I1IIlII / "\108\108\108\073\049\073\049\049")(623292 - 571826)] = UDim2[(tabi_lI1I1IIlII / "\073\108\108\049\108\049")(-209702 + 261118)](943421 - 943421, 472495 + -472319, -321642 - (-321642), -969918 + 969937);
+					(tabi_I1II1IIlII - "\108\108\108\049\049\108\108\108")[(tabi_lI1I1IIlII / "\108\073\073\108\073\108\108")(-529264 + 580640)] = (tabi_lI1I1IIlII / "\073\108\049\049\049\108\049\108")(-37345 + 88818);
+					(tabi_I1II1IIlII - "\108\108\049\073\049\073\049\049")[(tabi_lI1I1IIlII / "\108\108\073\108\049\049\073\108")(993168 - 941693)] = tabi_lIII1IIlII / "\073\108\108\049\108\108\108\108";
+					(tabi_I1II1IIlII - "\108\049\073\108\108\049\108\049")[(tabi_lI1I1IIlII / "\108\049\108\049\049\049\073\049")(-732023 + 783449)] = tabi_lll11IIlII / "\108\049\108\073\073\108\073\049";
+					(tabi_I1II1IIlII - "\108\049\049\108\049\108")[(tabi_lI1I1IIlII / "\073\049\108\073\073\108\073\108")(-146789 + 198256)] = Color3[(tabi_lI1I1IIlII / "\073\049\108\073\073\073\073\108")(-216487 + 267908)](-408493 - (-408493), 153317 - 153317, -334570 + 334570);
+					(tabi_I1II1IIlII - "\108\073\073\073\073\073\108\049")[(tabi_lI1I1IIlII / "\108\073\108\108\108\108\073\108")(641780 + -590337)] = 301801 - 301801;
+					(tabi_I1II1IIlII - "\108\049\073\049\108\073\049\049")[(tabi_lI1I1IIlII / "\073\108\073\108\108\049\108\049")(472055 - 420589)] = UDim2[(tabi_lI1I1IIlII / "\108\049\108")(900156 + -848740)](-915900 + 915900, -823802 + 823821, -166245 + 166245, -990892 - (-990911));
+					(tabi_I1II1IIlII - "\108\073\049\073\049\073\049\049")[(tabi_lI1I1IIlII / "\073\108\049\108\073\108\108\049")(945661 + -894199)] = false;
+					(tabi_I1II1IIlII - "\108\049\049\108\049\108\108\049")[(tabi_lI1I1IIlII / "\108\049\108\073\108\108\108\108")(229481 - 178022)] = Enum[(tabi_lI1I1IIlII / "\108\073\073\073\073\108\073\108")(-945277 + 996736)][(tabi_lI1I1IIlII / "\108\108\049\049\108\073\108\108")(574101 - 522672)];
+					(tabi_I1II1IIlII - "\108\108\108\108\108\049\073\049")[(tabi_lI1I1IIlII / "\108\073\073\073\073\049\049")(510768 + -459341)] = (tabi_lI1I1IIlII / "\073\049\049\073\108\108")(7456 + 43972);
+					(tabi_I1II1IIlII - "\073\049\108\049\108\073\108\049")[(tabi_lI1I1IIlII / "\108\049\108\108\108\108\108\108")(-664501 + 715992)] = Color3[(tabi_lI1I1IIlII / "\073\049\049\073\049\073\073\108")(-418477 + 469898)](-885564 - (-885819), 214566 - 214311, 788408 + -788153);
+					(tabi_I1II1IIlII - "\108\108\049\049\049\108\049")[(tabi_lI1I1IIlII / "\108\049\049\049\108\049")(-44257 + 95740)] = -452636 - (-452654);
+					(tabi_l1II1IIlII * "\073\049\073\049\073\108\073\108")[(tabi_lI1I1IIlII / "\073\108\049\073\073\049\073\049")(-576626 + 628082)] = UDim[(tabi_lI1I1IIlII / "\108\108\108\108\108\073\073\108")(-909286 - (-960702))](300649 - 300649, -334442 + 334446);
+					(tabi_l1II1IIlII * "\073\073\073\049\049")[(tabi_lI1I1IIlII / "\108\073\108\073\073\108\073\108")(-653574 - (-704950))] = (tabi_lI1I1IIlII / "\108\049\108\108\108\073\108")(40224 - (-11168));
+					(tabi_l1II1IIlII * "\073\049\073\073\049\073\073\108")[(tabi_lI1I1IIlII / "\108\049\073\073\108\108\108\049")(-134564 + 186039)] = tabi_I1II1IIlII - "\108\073\073\073\108\073\049";
+					(tabi_Il1I1IIlII + "\108\049\049\073\073\049\049")[(tabi_lI1I1IIlII / "\073\073\108\108\108\108\073\049")(-792394 - (-843770))] = (tabi_lI1I1IIlII / "\073\073\049\073\108\049\073\108")(218347 - 166949);
+					(tabi_Il1I1IIlII + "\108\108\049\049\049\108\073\049")[(tabi_lI1I1IIlII / "\073\073\108\073\073\073\073\049")(107765 - 56290)] = tabi_lIII1IIlII / "\073\049\108\073\108\073\073\108";
+					(tabi_Il1I1IIlII + "\073\073\073\049\049\073\108\049")[(tabi_lI1I1IIlII / "\108\049\108\049\108\049\108")(-972222 + 1023648)] = Color3[(tabi_lI1I1IIlII / "\073\049\108\073\073\108\073\108")(920125 + -868704)](-972991 - (-973246), -131749 - (-132004), -560625 + 560880);
+					(tabi_Il1I1IIlII + "\073\049\108\073\049\049\049")[(tabi_lI1I1IIlII / "\108\108\073\073\073\073\049\049")(105909 - 54562)] = -681397 + 681398;
+					(tabi_Il1I1IIlII + "\108\073\108\108\108\049\049\108")[(tabi_lI1I1IIlII / "\108\073\108\049\108\073\049\108")(860923 + -809456)] = Color3[(tabi_lI1I1IIlII / "\108\108\073\073\073\049\073\108")(-818974 - (-870395))](611507 + -611507, -906876 - (-906876), 333738 - 333738);
+					(tabi_Il1I1IIlII + "\073\073\049\073\073\049\108\108")[(tabi_lI1I1IIlII / "\073\073\073\049\073\108\108\049")(-14703 - (-66146))] = 689333 - 689333;
+					(tabi_Il1I1IIlII + "\108\049\049\049\108\049")[(tabi_lI1I1IIlII / "\108\049\073\049\073\073\049\108")(559985 + -508576)] = UDim2[(tabi_lI1I1IIlII / "\108\108\108\073\108\049\073\049")(-570674 + 622090)](.17, -635700 + 635700, -77026 - (-77026), -638388 - (-638388));
+					(tabi_Il1I1IIlII + "\108\049\108\049\073\049\108\049")[(tabi_lI1I1IIlII / "\108\049\049\108\108\049\073\108")(-222055 + 273521)] = UDim2[(tabi_lI1I1IIlII / "\073\073\073\073\073\049\108\108")(-600860 - (-652276))](-648692 + 648692, 788024 + -787856, 734072 - 734071, 6304 + -6304);
+					(tabi_Il1I1IIlII + "\073\073\108\073\049\073\049\108")[(tabi_lI1I1IIlII / "\108\049\049\049\049\108\073\108")(-166629 + 218088)] = Enum[(tabi_lI1I1IIlII / "\073\108\108\108\108\108\108")(-566642 + 618101)][(tabi_lI1I1IIlII / "\108\073\049\073\073\049\108")(303849 + -252490)];
+					(tabi_Il1I1IIlII + "\073\108\073\073\049\049\073\108")[(tabi_lI1I1IIlII / "\108\073\108\073\108\049\108\049")(486864 - 435437)] = tabi_I1lI1IIlII or (tabi_lI1I1IIlII / "\073\108\108\108\049\049\108\108")(298409 + -246938);
+					(tabi_Il1I1IIlII + "\073\108\049\049\049\049\108\108")[(tabi_lI1I1IIlII / "\073\049\049\108\073\049\049\108")(867003 + -815512)] = Color3[(tabi_lI1I1IIlII / "\108\073\108\073\073\073\073\108")(31201 + 20220)](-153371 - (-153573), -376930 - (-377132), -878257 - (-878459));
+					(tabi_Il1I1IIlII + "\108\073\073\108\108\049\108")[(tabi_lI1I1IIlII / "\073\073\108\049\073\049\049")(887163 + -835680)] = -301083 - (-301097);
+					(tabi_Il1I1IIlII + "\108\073\073\108\049\073\073\108")[(tabi_lI1I1IIlII / "\108\108\073\073\049\108\108")(-44072 - (-95459))] = Enum[(tabi_lI1I1IIlII / "\073\073\049\073\073\108\108\049")(-733431 + 784818)][(tabi_lI1I1IIlII / "\073\108\108\049\073\108\049\049")(-876091 + 927456)];
+					local tabi_ll1I1IIlII = tabi_l1lI1IIlII({ I1Il111l = false }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.I1Il111l = tabi_l1lI1IIlII;
+							end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.I1Il111l;
 							end });
-					(tabi_IlI1lIl11Il - "\073\108\049\073\049\108\108\108")[(tabi_lll1lIl11Il - "\073\108\073\049\049\108\049")(-849018 + 895358)]:Connect(function(...)
-						(tabi_I11llIl11Il / "\108\049\108\073\049")(tabi_lIl1lIl11Il[not (tabi_lIl1lIl11Il + "\108\073\049\073\108\049\108\049")]);
-						(tabi_IlI1lIl11Il - "\108\049\073\108\108\073\049")[(tabi_lll1lIl11Il - "\108\108\108\108\108\049\108")(-836344 - (-882747))] = tabi_lIl1lIl11Il + "\108\073\108\049\108\049\108\049" and utf8[(tabi_lll1lIl11Il - "\073\049\108\073\073\073\108")(492430 - 446126)](-385452 + 395455) or (tabi_lll1lIl11Il - "\108\073\108\049\073\108\049\108")(-525125 - (-571378));
-						task[(tabi_lll1lIl11Il - "\108\108\049\108\073\108")(-691189 + 737489)](tabi_lII1lIl11Il or function(tabi_Il1llIl11Il, ...)
+					(tabi_I1II1IIlII - "\073\049\049\073\049\108")[(tabi_lI1I1IIlII / "\073\073\049\108\108\073\049")(645537 - 594162)]:Connect(function(...)
+						(tabi_IlII1IIlII ^ "\073\108\073\073\073\073\049\108")(tabi_ll1I1IIlII - not (tabi_ll1I1IIlII / "\073\073\108\073\073\073\108"));
+						(tabi_I1II1IIlII - "\108\049\108\049\108\073\073\049")[(tabi_lI1I1IIlII / "\108\073\108\049\073\108\073\108")(-696310 + 747737)] = tabi_ll1I1IIlII / "\108\073\073\073\049" and utf8[(tabi_lI1I1IIlII / "\108\108\108\049\108\049\108")(-169052 - (-220455))](-483247 + 493250) or (tabi_lI1I1IIlII / "\108\108\108\049\073\073\108")(-237799 + 289227);
+						task[(tabi_lI1I1IIlII / "\108\049\108\108\049\108\073\108")(-54050 + 105434)](tabi_llII1IIlII or function(tabi_I1lI1IIlII, ...)
  
-						end, tabi_lIl1lIl11Il + "\073\108\073\108\049\073\073\049");
+						end, tabi_ll1I1IIlII / "\108\073\108\108\108\049\073\108");
 					end);
 				end;
-				function tabi_III1lIl11Il.II1l1lll.DropDown(tabi_llI1lIl11Il, tabi_Il1llIl11Il, tabi_lII1lIl11Il, tabi_III1lIl11Il, ...)
-					local tabi_IlI1lIl11Il = tabi_l11llIl11Il({ llIllI1l = Instance[(tabi_lll1lIl11Il - "\108\108\108\073\108\073\049\049")(101219 + -54946)]((tabi_lll1lIl11Il - "\073\108\049\108\108\108\073\049")(-408749 + 455062)) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.llIllI1l = tabi_l11llIl11Il;
-							end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.llIllI1l;
+				function tabi_IIII1IIlII.I1Il1lI1.DropDown(tabi_lIII1IIlII, tabi_I1lI1IIlII, tabi_llII1IIlII, tabi_IIII1IIlII, ...)
+					local tabi_I1II1IIlII = tabi_l1lI1IIlII({ lI1 = Instance[(tabi_lI1I1IIlII / "\108\049\073\108\108\073\108")(-156750 - (-208166))]((tabi_lI1I1IIlII / "\108\073\108\108\073\073\073\049")(707190 + -655742)) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.lI1 = tabi_l1lI1IIlII;
+							end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.lI1;
 							end });
-					local tabi_l1I1lIl11Il = tabi_l11llIl11Il({ I111lIll = Instance[(tabi_lll1lIl11Il - "\108\049\073\108\073\108\049\049")(619315 + -573042)]((tabi_lll1lIl11Il - "\108\073\073\108\108\073\108\108")(-487983 + 534361)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.I111lIll = tabi_l11llIl11Il;
-							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.I111lIll;
+					local tabi_l1II1IIlII = tabi_l1lI1IIlII({ ll1lI1l = Instance[(tabi_lI1I1IIlII / "\108\073\073\049\108\073\073\049")(219431 + -168015)]((tabi_lI1I1IIlII / "\073\073\049\108\073\108\049\108")(804345 + -752992)) }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.ll1lI1l = tabi_l1lI1IIlII;
+							end, __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.ll1lI1l;
 							end });
-					local tabi_I1I1lIl11Il = tabi_l11llIl11Il({ I11lIll = Instance[(tabi_lll1lIl11Il - "\073\073\108\073\073\073\049")(629748 + -583475)]((tabi_lll1lIl11Il - "\108\049\049\049\049\108\073\108")(368043 + -321772)) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.I11lIll = tabi_l11llIl11Il;
-							end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.I11lIll;
+					local tabi_Il1I1IIlII = tabi_l1lI1IIlII({ ll1IlII1 = Instance[(tabi_lI1I1IIlII / "\073\108\073\073\049\108")(918163 - 866747)]((tabi_lI1I1IIlII / "\073\108\073\073\108\049\108")(738719 - 687285)) }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.ll1IlII1 = tabi_l1lI1IIlII;
+							end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.ll1IlII1;
 							end });
-					local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ lIl1Illl = Instance[(tabi_lll1lIl11Il - "\073\073\049\049\049\108\108\049")(680693 + -634420)]((tabi_lll1lIl11Il - "\073\108\073\108\073\073\073\049")(-209702 + 256008)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.lIl1Illl = tabi_l11llIl11Il;
-							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return rawget(tabi_Il1llIl11Il, "\108\073\108\049\073\108\108\108");
+					local tabi_ll1I1IIlII = tabi_l1lI1IIlII({ lIIIIIl = Instance[(tabi_lI1I1IIlII / "\073\073\108\049\073\049\049\108")(-322090 + 373506)]((tabi_lI1I1IIlII / "\108\049\049\049\073\073\049\108")(-1041792 + 1093209)) }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.lIIIIIl = tabi_l1lI1IIlII;
+							end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.lIIIIIl;
 							end });
-					local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ l1l11I1l = Instance[(tabi_lll1lIl11Il - "\073\049\108\049\073\049\108\108")(-770552 - (-816825))]((tabi_lll1lIl11Il - "\108\108\073\108\108\108\073\108")(339819 + -293506)) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.l1l11I1l = tabi_l11llIl11Il;
-							end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.l1l11I1l;
+					local tabi_II1I1IIlII = tabi_l1lI1IIlII({ lIII1I1l = Instance[(tabi_lI1I1IIlII / "\073\049\073\108\049\073\108")(-819705 + 871121)]((tabi_lI1I1IIlII / "\073\108\073\108\073\073\049\049")(257950 - 206502)) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.lIII1I1l = tabi_l1lI1IIlII;
+							end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.lIII1I1l;
 							end });
-					local tabi_Ill1lIl11Il = tabi_l11llIl11Il({ I11l1I1 = Instance[(tabi_lll1lIl11Il - "\073\108\073\073\108\108\073\108")(30305 - (-15968))]((tabi_lll1lIl11Il - "\073\049\108\049")(-158053 + 204450)) }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.I11l1I1 = tabi_l11llIl11Il;
-							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return rawget(tabi_Il1llIl11Il, "\073\049\049\108\049\073\049");
+					local tabi_I11I1IIlII = tabi_l1lI1IIlII({ II11ll1l = Instance[(tabi_lI1I1IIlII / "\073\049\108\108\049\073\049")(-354219 + 405635)]((tabi_lI1I1IIlII / "\073\049\073\073\049\049\108\108")(604723 + -553362)) }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.II11ll1l = tabi_l1lI1IIlII;
+							end, __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.II11ll1l;
 							end });
-					local tabi_l1l1lIl11Il = tabi_l11llIl11Il({ I1I1llll = Instance[(tabi_lll1lIl11Il - "\108\108\073\073\073\049\073\049")(222887 + -176614)]((tabi_lll1lIl11Il - "\108\108\108\049\108\073\073\049")(-925205 - (-971518))) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.I1I1llll = tabi_l11llIl11Il;
-							end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.I1I1llll;
+					local tabi_l11I1IIlII = tabi_l1lI1IIlII({ IlIl1I11 = Instance[(tabi_lI1I1IIlII / "\108\049\108\108\073\073\108")(677173 + -625757)]((tabi_lI1I1IIlII / "\108\108\073\049\049\073\049\108")(-237169 - (-288617))) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.IlIl1I11 = tabi_l1lI1IIlII;
+							end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.IlIl1I11;
 							end });
-					local tabi_lI11lIl11Il = tabi_l11llIl11Il({ lIl1lII1 = Instance[(tabi_lll1lIl11Il - "\108\108\049\073\108\108")(-200039 - (-246312))]((tabi_lll1lIl11Il - "\073\108\073\073\073\049\108\049")(-115492 + 161838)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.lIl1lII1 = tabi_l11llIl11Il;
-							end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.lIl1lII1;
+					local tabi_lll11IIlII = tabi_l1lI1IIlII({ IllIIII1 = Instance[(tabi_lI1I1IIlII / "\073\108\073\108\108\108\049")(753870 - 702454)]((tabi_lI1I1IIlII / "\073\108\108\073\108\073\049\049")(207014 + -155621)) }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.IllIIII1 = tabi_l1lI1IIlII;
+							end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.IllIIII1;
 							end });
-					(tabi_IlI1lIl11Il / "\108\073\108\049\073\108")[(tabi_lll1lIl11Il - "\108\049\073\073\049\108\049\108")(253797 - 207462)] = (tabi_lll1lIl11Il - "\073\049\073\108\108\108\049\108")(-982014 + 1028385);
-					(tabi_IlI1lIl11Il / "\073\073\049\073\049\073\049")[(tabi_lll1lIl11Il - "\073\049\049\073\073\108\049\049")(-111587 + 157943)] = tabi_I1l1lIl11Il * "\108\049\073\108\049\049\108\108";
-					(tabi_IlI1lIl11Il / "\108\108\108\073\108\108\108\108")[(tabi_lll1lIl11Il - "\108\073\108\049\073\049\108\049")(884220 - 837818)] = Color3[(tabi_lll1lIl11Il - "\073\049\049\073\108\108\073\108")(-79015 - (-125284))](667054 - 666997, 423654 - 423597, 465134 + -465077);
-					(tabi_IlI1lIl11Il / "\108\049\073\108\108\049\073\108")[(tabi_lll1lIl11Il - "\073\073\108\073\049\073\073\049")(714664 - 668405)] = Color3[(tabi_lll1lIl11Il - "\108\049\049\073\108\073\049")(-633780 + 680049)](-638964 + 638964, -45345 - (-45345), -469871 + 469871);
-					(tabi_IlI1lIl11Il / "\073\073\073\073\108\108\049")[(tabi_lll1lIl11Il - "\108\108\073\049\108\073\108\049")(346987 + -300659)] = -486575 + 486575;
-					(tabi_IlI1lIl11Il / "\073\108\073\108\049\108\073\108")[(tabi_lll1lIl11Il - "\108\108\073\049\073\073\049\108")(821945 + -775559)] = UDim2[(tabi_lll1lIl11Il - "\073\049\073\108\049\049\073\049")(-529073 - (-575346))](-12192 + 12192, 312490 - 312490, .427184463, 583474 + -583474);
-					(tabi_IlI1lIl11Il / "\108\049\073\049\108\049")[(tabi_lll1lIl11Il - "\108\073\108\073\073\108\073\108")(862037 - 815673)] = UDim2[(tabi_lll1lIl11Il - "\108\049\049\108\073\108\073\049")(14624 + 31649)](-853242 - (-853242), 93758 - 93539, -244840 - (-244840), -395031 - (-395052));
-					(tabi_l1I1lIl11Il + "\108\108\108\049\073\073\108\108")[(tabi_lll1lIl11Il - "\108\073\049\049\108\049\049\108")(-849992 - (-896252))] = UDim[(tabi_lll1lIl11Il - "\073\049\049\073\049\108\108\049")(761528 + -715255)](-497519 - (-497519), 859711 - 859707);
-					(tabi_l1I1lIl11Il + "\073\108\073\049\108\073\049")[(tabi_lll1lIl11Il - "\073\108\073\049\073\049\049")(-578674 + 625009)] = (tabi_lll1lIl11Il - "\073\073\049\049\073\108")(-249704 + 296047);
-					(tabi_l1I1lIl11Il + "\108\049\049\049\108\108\108\108")[(tabi_lll1lIl11Il - "\073\073\049\108\049\073\049")(762744 + -716388)] = tabi_IlI1lIl11Il / "\108\073\073\108\073\108\073\108";
-					(tabi_I1I1lIl11Il ^ "\073\049\108\049\073\049\073\049")[(tabi_lll1lIl11Il - "\073\049\073\108\049\049\073\108")(724404 - 678069)] = (tabi_lll1lIl11Il - "\073\049\073\049\073\108\049\108")(-356203 + 402594);
-					(tabi_I1I1lIl11Il ^ "\108\108\049\049\073\108\073\049")[(tabi_lll1lIl11Il - "\108\049\073\108\073\073\108\108")(479919 + -433563)] = tabi_IlI1lIl11Il / "\108\108\049\108\049\073\108\108";
-					(tabi_I1I1lIl11Il ^ "\108\073\073\073\108\073\108")[(tabi_lll1lIl11Il - "\108\049\073\073\073\049\108\049")(183846 + -137444)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\073\108\049\073\049")(164513 - 118244)](-722614 + 722869, -173350 - (-173605), -481584 - (-481839));
-					(tabi_I1I1lIl11Il ^ "\108\073\049\108\073\108\073\108")[(tabi_lll1lIl11Il - "\073\049\108\073\049\049\049")(478831 + -432532)] = 260777 - 260776;
-					(tabi_I1I1lIl11Il ^ "\108\073\049\049\049\108")[(tabi_lll1lIl11Il - "\108\049\073\108\073\108\073\108")(-494718 - (-540977))] = Color3[(tabi_lll1lIl11Il - "\108\108\049\108\108\108\073\049")(415464 - 369195)](-304553 - (-304553), -96867 - (-96867), -824634 + 824634);
-					(tabi_I1I1lIl11Il ^ "\073\108\073\073\049\108\073\108")[(tabi_lll1lIl11Il - "\073\073\049\049\049\108\049")(843514 + -797186)] = -133476 - (-133476);
-					(tabi_I1I1lIl11Il ^ "\073\073\049\049\073\049\108")[(tabi_lll1lIl11Il - "\108\108\049\073\108")(-476527 + 522913)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\108\073\108\049\049")(349163 + -302890)](988479 + -988479, 21094 - 21089, 543217 - 543217, 420589 - 420589);
-					(tabi_I1I1lIl11Il ^ "\073\073\108\108\108\073\073\049")[(tabi_lll1lIl11Il - "\073\073\108\049\108\073\073\108")(-220263 + 266627)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\049\073\108\073\049")(-331883 - (-378156))](680757 + -680757, 252010 - 251816, 1026240 + -1026240, -499311 + 499332);
-					(tabi_I1I1lIl11Il ^ "\108\073\049\049\108\049\073\108")[(tabi_lll1lIl11Il - "\073\108\073\073\049\049\073\049")(-247592 + 293986)] = Enum[(tabi_lll1lIl11Il - "\108\049\049\108\073\049\108\049")(-967877 - (-1014271))][(tabi_lll1lIl11Il - "\108\049\073\073\073\108")(515882 - 469487)];
-					(tabi_I1I1lIl11Il ^ "\108\049\108\108\049\108")[(tabi_lll1lIl11Il - "\108\108\108\049\108\073\049")(553329 + -506926)] = tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\073\049\049\049\073\108\108\049")(509009 - 462638);
-					(tabi_I1I1lIl11Il ^ "\073\108\073\073\073\073\108\049")[(tabi_lll1lIl11Il - "\073\073\073\049\108\049\108\049")(328810 + -282468)] = Color3[(tabi_lll1lIl11Il - "\073\073\108\073\049\073\108")(806649 + -760380)](-527782 - (-527984), -991679 + 991881, 699894 + -699692);
-					(tabi_I1I1lIl11Il ^ "\073\073\049\049\049\073\073\108")[(tabi_lll1lIl11Il - "\108\108\108\108\049\073\108")(-349995 + 396289)] = 720260 - 720246;
-					(tabi_I1I1lIl11Il ^ "\108\073\049\073\049\049\049")[(tabi_lll1lIl11Il - "\108\049\049\108\073\073\049\049")(-837710 - (-884027))] = Enum[(tabi_lll1lIl11Il - "\108\073\049\073\108\073\049")(-54818 + 101135)][(tabi_lll1lIl11Il - "\073\108\049\049\073\049\049")(-704249 - (-750583))];
-					tabi_lIl1lIl11Il.l1l1Il1l[(tabi_lll1lIl11Il - "\108\049\108\049\073\108\049")(31903 - (-14432))] = (tabi_lll1lIl11Il - "\108\108\108\049\073\049\073\108")(341047 - 294697);
-					tabi_lIl1lIl11Il.IlI1lI1l[(tabi_lll1lIl11Il - "\108\108\108\108\049\049\108\049")(912719 - 866363)] = tabi_IlI1lIl11Il / "\073\049\049\049\108\108\049\108";
-					tabi_lIl1lIl11Il.Il1I1l1[(tabi_lll1lIl11Il - "\073\049\108\049\108\049\073\049")(-184869 - (-231271))] = Color3[(tabi_lll1lIl11Il - "\108\049\073\049\049\108\108\049")(304229 - 257960)](216294 - 216039, 511280 + -511025, -223976 - (-224231));
-					tabi_lIl1lIl11Il.IIl1111[(tabi_lll1lIl11Il - "\073\108\073\108\073\108\049\108")(-959588 - (-1005887))] = -247463 - (-247464);
-					tabi_lIl1lIl11Il.IIIlll[(tabi_lll1lIl11Il - "\108\108\073\073\073\108")(294953 + -248694)] = Color3[(tabi_lll1lIl11Il - "\073\108\049\108\073\049\049\108")(-708086 + 754355)](-875195 + 875195, 254056 - 254056, 149349 + -149349);
-					tabi_lIl1lIl11Il.lll11lll[(tabi_lll1lIl11Il - "\073\108\073\049\049\073\073\108")(-253425 - (-299753))] = -856251 + 856251;
-					tabi_lIl1lIl11Il.I11Illll[(tabi_lll1lIl11Il - "\108\073\073\049\073\049\108\108")(514208 - 467822)] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\108\073\049\049")(-378220 - (-424493))](53090 + -53089, 354603 + -354628, -540849 + 540849, 157541 - 157541);
-					tabi_lIl1lIl11Il.lll1111[(tabi_lll1lIl11Il - "\108\108\108\049\108\108\108")(901719 - 855355)] = UDim2[(tabi_lll1lIl11Il - "\108\049\049\108\049\073\108\049")(-855483 - (-901756))](355627 + -355627, 954046 + -954023, 183206 - 183206, -60875 - (-60898));
-					tabi_lIl1lIl11Il.IlIIIl[(tabi_lll1lIl11Il - "\073\049\073\049\049\073\108")(345773 - 299369)] = (tabi_lll1lIl11Il - "\108\073\049\073\049\049\073\108")(247201 - 200934);
-					(tabi_IIl1lIl11Il .. "\108\073\049\108\073\073\073\108")[(tabi_lll1lIl11Il - "\073\049\108\108\049\108\049")(-446320 - (-492655))] = (tabi_lll1lIl11Il - "\073\049\073\049\108\108\049\108")(901305 - 855035);
-					(tabi_IIl1lIl11Il .. "\108\108\049\108\108\049\108")[(tabi_lll1lIl11Il - "\073\049\073\049\073\108\073\049")(-819449 + 865805)] = tabi_IlI1lIl11Il / "\108\108\073\049\073\073\108\049";
-					(tabi_IIl1lIl11Il .. "\108\108\049\073\049\108\073\049")[(tabi_lll1lIl11Il - "\108\108\073\073\073\108")(1033408 + -987006)] = Color3[(tabi_lll1lIl11Il - "\108\049\073\108\049\108\049\108")(-114084 + 160353)](-1006399 + 1006451, -47201 + 47253, -992127 + 992179);
-					(tabi_IIl1lIl11Il .. "\108\049\073\108\108\073\108")[(tabi_lll1lIl11Il - "\108\049\108\073\108\108\108\108")(-350649 - (-396908))] = Color3[(tabi_lll1lIl11Il - "\108\049\049\073\073\108\108\049")(-457267 - (-503536))](-451694 + 451694, -534833 - (-534833), -913084 - (-913084));
-					(tabi_IIl1lIl11Il .. "\073\049\049\108\073\049\108\049")[(tabi_lll1lIl11Il - "\073\073\073\073\108\073\108")(501734 - 455406)] = -181094 - (-181094);
-					(tabi_IIl1lIl11Il .. "\108\049\073\049\049\049\108")[(tabi_lll1lIl11Il - "\108\049\073\073\049\073\108\049")(571442 + -525056)] = UDim2[(tabi_lll1lIl11Il - "\108\073\073\108\073\049\108")(-938750 - (-985023))](-581426 + 581426, -230055 + 230055, 563633 - 563633, -461337 - (-461358));
-					(tabi_IIl1lIl11Il .. "\073\108\073\108\073\108\049\049")[(tabi_lll1lIl11Il - "\108\108\108\108\049\049\108")(847765 - 801401)] = UDim2[(tabi_lll1lIl11Il - "\108\049\073\073\049\049\108\049")(657460 - 611187)](689653 + -689652, -882107 - (-882107), 412781 + -412781, -428141 + 428143);
-					(tabi_IIl1lIl11Il .. "\073\049\049\049\049\108\049")[(tabi_lll1lIl11Il - "\073\049\049\108\108\049\108\049")(-501026 - (-547377))] = false;
-					tabi_Ill1lIl11Il.l1IIII1l[(tabi_lll1lIl11Il - "\108\108\108\049\073\108\049")(896956 + -850621)] = (tabi_lll1lIl11Il - "\108\073\073\073\049")(-145765 + 192148);
-					tabi_Ill1lIl11Il.l1I1II1[(tabi_lll1lIl11Il - "\073\108\073\073\108\049")(-190438 + 236794)] = tabi_IlI1lIl11Il / "\108\108\049\049\049\108";
-					tabi_Ill1lIl11Il.IlllI1l1[(tabi_lll1lIl11Il - "\108\108\108\073\073\049\073\108")(29473 - (-16929))] = Color3[(tabi_lll1lIl11Il - "\108\108\073\108\108")(-52450 + 98719)](-261545 - (-261800), -223335 + 223590, 981821 - 981566);
-					tabi_Ill1lIl11Il.l1IlII1l[(tabi_lll1lIl11Il - "\108\108\073\049\049\049")(-797919 - (-844218))] = -683957 + 683958;
-					tabi_Ill1lIl11Il.I1lIlI1l[(tabi_lll1lIl11Il - "\073\049\049\049\073\108")(-139236 + 185495)] = Color3[(tabi_lll1lIl11Il - "\073\073\108\073\108\108\049")(-605943 - (-652212))](-184486 - (-184486), -300393 + 300393, 148261 - 148261);
-					tabi_Ill1lIl11Il.Illll11[(tabi_lll1lIl11Il - "\073\049\073\108")(104739 + -58411)] = 25313 + -25313;
-					tabi_Ill1lIl11Il.I1lI11I1[(tabi_lll1lIl11Il - "\073\049\073\073\073\073\073\049")(515312 + -468948)] = UDim2[(tabi_lll1lIl11Il - "\108\049\108\108\049\049")(-136676 + 182949)](914301 - 914300, -619443 - (-619443), -241575 - (-241575), -403288 - (-403309));
-					tabi_Ill1lIl11Il.llIlI1l1[(tabi_lll1lIl11Il - "\108\049\049\049\073\108\049")(-775352 + 821746)] = Enum[(tabi_lll1lIl11Il - "\108\108\073\049\073\073\049\049")(-936772 - (-983166))][(tabi_lll1lIl11Il - "\073\049\049\073\108\108\049\108")(-683153 - (-729463))];
-					tabi_Ill1lIl11Il.l1Il1II1[(tabi_lll1lIl11Il - "\108\073\073\108\073\049\049\108")(97507 + -51104)] = (tabi_lll1lIl11Il - "\108\108\049\073\049\049\108\108")(-169573 + 215826);
-					tabi_Ill1lIl11Il.Il1l1ll[(tabi_lll1lIl11Il - "\073\073\049\049\108\108\108\108")(-262692 - (-309034))] = Color3[(tabi_lll1lIl11Il - "\073\073\108")(486443 - 440174)](839738 + -839738, -418413 - (-418413), -460974 + 460974);
-					tabi_Ill1lIl11Il.ll1I1lll[(tabi_lll1lIl11Il - "\108\073\049\049\049\108\049")(939261 + -892967)] = 526590 - 526576;
-					(tabi_l1l1lIl11Il .. "\108\108\049\049\108\073\073\049")[(tabi_lll1lIl11Il - "\073\108\108\073\108\073\049\049")(470892 - 424557)] = (tabi_lll1lIl11Il - "\108\073\049\073\073\049\108")(488559 + -442200);
-					(tabi_l1l1lIl11Il .. "\108\108\108\108\073\108")[(tabi_lll1lIl11Il - "\073\108\073\108\049\108\073\108")(164197 + -117841)] = tabi_IlI1lIl11Il / "\108\108\108\073\108\108\049";
-					(tabi_l1l1lIl11Il .. "\108\049\108\049\049\108\108\049")[(tabi_lll1lIl11Il - "\108\108\049\049\108\049\108")(645748 + -599496)] = true;
-					(tabi_l1l1lIl11Il .. "\108\073\049\049\108\108\108\049")[(tabi_lll1lIl11Il - "\073\108\049\049\073\049\108")(246440 + -200038)] = Color3[(tabi_lll1lIl11Il - "\073\049\049\108\108\049\108")(-154921 - (-201190))](-971519 - (-971774), -440494 + 440749, 124835 - 124580);
-					(tabi_l1l1lIl11Il .. "\073\073\049\108\073\108\049\049")[(tabi_lll1lIl11Il - "\108\049\049\073\073\108\073\049")(872315 + -826016)] = -324201 - (-324202);
-					(tabi_l1l1lIl11Il .. "\108\049\108\049\049\108\108")[(tabi_lll1lIl11Il - "\073\073\049\049\073\073\049")(-739909 - (-786168))] = Color3[(tabi_lll1lIl11Il - "\073\073\073\108\073\108\108\049")(566765 - 520496)](936253 + -936253, -844346 + 844346, -632180 - (-632180));
-					(tabi_l1l1lIl11Il .. "\108\049\049\049\108\108\073\108")[(tabi_lll1lIl11Il - "\108\108\073\108\073\049\049\108")(-100141 - (-146469))] = 224103 + -224103;
-					(tabi_l1l1lIl11Il .. "\073\073\073\073\108\049\108")[(tabi_lll1lIl11Il - "\073\049\073\049\049\049\108")(-600115 + 646501)] = UDim2[(tabi_lll1lIl11Il - "\108\073\073\049\108\049\108")(-669877 + 716150)](-547569 + 547569, 740919 - 740919, 282665 - 282665, 978430 + -978402);
-					(tabi_l1l1lIl11Il .. "\073\073\049\073\049\049\073\049")[(tabi_lll1lIl11Il - "\073\108\049\049\049\108\049\108")(-994916 - (-1041280))] = UDim2[(tabi_lll1lIl11Il - "\108\073\049\108\073\049\049\108")(-603443 + 649716)](202983 - 202982, -505712 + 505712, 860219 + -860219, 214216 - 214119);
-					(tabi_l1l1lIl11Il .. "\073\049\108\108\073\049\108\049")[(tabi_lll1lIl11Il - "\108\108\108\108\049\108")(371705 - 325354)] = false;
-					(tabi_lI11lIl11Il .. "\108\073\108\108\049\108\108\108")[(tabi_lll1lIl11Il - "\073\108\049\049\108\108\108")(-324973 - (-371308))] = (tabi_lll1lIl11Il - "\073\108\108\108\049\049\108\049")(-113124 - (-159525));
-					(tabi_lI11lIl11Il .. "\108\049\049\108\108\073\049\108")[(tabi_lll1lIl11Il - "\108\073\108\108\108\073\073\108")(112246 - 65890)] = tabi_l1l1lIl11Il .. "\108\049\049\073\049\073\073\108";
-					(tabi_lI11lIl11Il .. "\108\108\049\073\108\049")[(tabi_lll1lIl11Il - "\108\108\108\108\108\073\073\108")(-825722 + 872121)] = Enum[(tabi_lll1lIl11Il - "\073\073\108\073\049\108\108\049")(-61732 - (-108131))][(tabi_lll1lIl11Il - "\073\073\108\073\073\108\049\049")(788536 + -742218)];
-					(tabi_lI11lIl11Il .. "\108\049\108\108")[(tabi_lll1lIl11Il - "\073\073\049\073\108\108\073\049")(-93219 + 139473)] = Enum[(tabi_lll1lIl11Il - "\073\108\049\049\049\049\073\108")(979518 + -933264)][(tabi_lll1lIl11Il - "\108\049\049\108\049\073\049\108")(-695247 - (-741623))];
-					(tabi_lI11lIl11Il .. "\108\049\049\108\108\073\108")[(tabi_lll1lIl11Il - "\108\049\049\108\073\049\073\049")(-742863 - (-789240))] = UDim[(tabi_lll1lIl11Il - "\108\108\108\049\073\073\073\108")(198758 - 152485)](-699382 + 699382, 239722 - 239719);
-					local tabi_II11lIl11Il = tabi_l11llIl11Il({ II111lIl = false }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.II111lIl = tabi_l11llIl11Il;
-							end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.II111lIl;
+					(tabi_I1II1IIlII - "\073\049\108\049\108\073\049")[(tabi_lI1I1IIlII / "\108\049\049\049\073\108\049")(545329 + -493953)] = (tabi_lI1I1IIlII / "\108\073\108\108\049\073\108\049")(-890793 - (-942205));
+					(tabi_I1II1IIlII - "\073\073\073\108\108\108\049\108")[(tabi_lI1I1IIlII / "\073\073\108\049\049\049\073\049")(-728933 - (-780408))] = tabi_Ill11IIlII * "\073\049\049\108\073\108\049\049";
+					(tabi_I1II1IIlII - "\073\049\049\073\108\049\108\049")[(tabi_lI1I1IIlII / "\073\108\108\073\049\049\049\108")(459694 + -408268)] = Color3[(tabi_lI1I1IIlII / "\073\108\108\073\073\049\108\108")(-571506 + 622927)](-199846 + 199903, -249263 - (-249320), -1959 - (-2016));
+					(tabi_I1II1IIlII - "\108\073\049\049\073\073\073\108")[(tabi_lI1I1IIlII / "\108\073\108\073\049\049\108\108")(-130523 - (-181990))] = Color3[(tabi_lI1I1IIlII / "\073\108\049\108\108\073\108")(422637 + -371216)](-364523 + 364523, 558769 + -558769, 514928 + -514928);
+					(tabi_I1II1IIlII - "\108\108\108\073\073\049\108\049")[(tabi_lI1I1IIlII / "\108\108\049\073\049\073\049\108")(-951756 - (-1003199))] = -109859 + 109859;
+					(tabi_I1II1IIlII - "\073\049\073\073\108\049\073\049")[(tabi_lI1I1IIlII / "\073\108\073\108\108\073\049\108")(417980 - 366571)] = UDim2[(tabi_lI1I1IIlII / "\108\049\108\049\108\073\073\049")(-285097 + 336513)](-77026 - (-77026), 1027200 + -1027200, .427184463, -975166 - (-975166));
+					(tabi_I1II1IIlII - "\108\108\108\049\049\108\073\108")[(tabi_lI1I1IIlII / "\108\108\073\108\073\108\108\108")(-165477 + 216943)] = UDim2[(tabi_lI1I1IIlII / "\073\049\108\108\108\108")(741453 - 690037)](-344299 - (-344299), -418285 + 418504, -435822 - (-435822), -520816 + 520837);
+					(tabi_l1II1IIlII .. "\073\049\073\073\108\049\108\108")[(tabi_lI1I1IIlII / "\073\049\073\073\108\049\108\108")(-520818 - (-572274))] = UDim[(tabi_lI1I1IIlII / "\108\108\108\073\073\108\073\049")(897212 + -845796)](846202 - 846202, -440682 - (-440686));
+					(tabi_l1II1IIlII .. "\073\108\073\108\049\073\108\049")[(tabi_lI1I1IIlII / "\073\073\073\108\108\073\073\108")(-723830 + 775206)] = (tabi_lI1I1IIlII / "\108\108\073\073\108\049\049")(317394 - 266024);
+					(tabi_l1II1IIlII .. "\073\049\108\049\073\073\108\108")[(tabi_lI1I1IIlII / "\073\073\073\073\049\049\108\049")(416254 - 364779)] = tabi_I1II1IIlII - "\108\073\073\108\049\049\049";
+					(tabi_Il1I1IIlII ^ "\108\073\108\049\049\108\073\049")[(tabi_lI1I1IIlII / "\073\073\108\108\108\108")(540145 + -488769)] = (tabi_lI1I1IIlII / "\108\108\108\108\049\049")(-452356 - (-503728));
+					(tabi_Il1I1IIlII ^ "\073\108\073\108\108\049\108\049")[(tabi_lI1I1IIlII / "\073\073\049\108\049\049\049")(380285 - 328810)] = tabi_I1II1IIlII - "\073\049\073\108\049\049\108\108";
+					(tabi_Il1I1IIlII ^ "\108\049\049\049\108\108\108\108")[(tabi_lI1I1IIlII / "\073\073\073\108\108\049\049\108")(222727 - 171301)] = Color3[(tabi_lI1I1IIlII / "\073\073\108\108\049\049\049\108")(412333 + -360912)](236966 - 236711, -134500 + 134755, -917564 + 917819);
+					(tabi_Il1I1IIlII ^ "\108\049\073\049\073\073\049")[(tabi_lI1I1IIlII / "\108\108\049\073\049\108\073\108")(318570 + -267223)] = 18721 + -18720;
+					(tabi_Il1I1IIlII ^ "\073\049\108\049\049\073\049")[(tabi_lI1I1IIlII / "\108\108\049\108\049\108\049\108")(436718 + -385251)] = Color3[(tabi_lI1I1IIlII / "\108\108\108\108\108\108\108\049")(303593 + -252172)](-1009663 - (-1009663), -627827 - (-627827), 887676 + -887676);
+					(tabi_Il1I1IIlII ^ "\073\049\073\108\049\073\108\049")[(tabi_lI1I1IIlII / "\108\108\073\108")(789674 - 738231)] = -277353 + 277353;
+					(tabi_Il1I1IIlII ^ "\108\108\108\073\073\073\049\049")[(tabi_lI1I1IIlII / "\108\073\049\108\049\049\073\049")(790600 - 739191)] = UDim2[(tabi_lI1I1IIlII / "\108\049\108\073\108\108")(1067031 - 1015615)](-201190 - (-201190), -718710 + 718715, 1042304 - 1042304, -1001215 + 1001215);
+					(tabi_Il1I1IIlII ^ "\108\108\073\108\049\049\049")[(tabi_lI1I1IIlII / "\108\049\049\049\073\108\073\108")(-527472 + 578938)] = UDim2[(tabi_lI1I1IIlII / "\073\073\073\108\073\073\049")(540615 - 489199)](-473711 - (-473711), -307690 + 307884, -98019 + 98019, -988415 + 988436);
+					(tabi_Il1I1IIlII ^ "\108\073\073\049\049\049\049\108")[(tabi_lI1I1IIlII / "\108\073\073\049\073\108\108\049")(493103 + -441644)] = Enum[(tabi_lI1I1IIlII / "\073\108\108\108\073\108\073\049")(-485167 + 536626)][(tabi_lI1I1IIlII / "\073\073\049\108\108\073\108")(-16609 + 67968)];
+					(tabi_Il1I1IIlII ^ "\073\049\073\049\108\073\108\049")[(tabi_lI1I1IIlII / "\108\073\108\049\049\108\108\049")(819419 - 767992)] = tabi_I1lI1IIlII or (tabi_lI1I1IIlII / "\073\073\108\073\049\049\049")(34675 - (-16737));
+					(tabi_Il1I1IIlII ^ "\073\049\108\108\108\108\108")[(tabi_lI1I1IIlII / "\073\073\049\049\073\049\108\049")(683701 + -632210)] = Color3[(tabi_lI1I1IIlII / "\108\073\049\049\073\108\073\108")(1002522 - 951101)](-482341 - (-482543), 1036426 - 1036224, -449390 + 449592);
+					(tabi_Il1I1IIlII ^ "\108\108\108\073\073\073\049\049")[(tabi_lI1I1IIlII / "\073\073\049\049\073\073\073\108")(-567192 - (-618675))] = 406139 - 406125;
+					(tabi_Il1I1IIlII ^ "\108\073\049\073\049\108\049")[(tabi_lI1I1IIlII / "\073\108\049\049\049\108\073\108")(446062 + -394675)] = Enum[(tabi_lI1I1IIlII / "\108\073\108\108\073\049\108")(-301929 + 353316)][(tabi_lI1I1IIlII / "\108\073\049\108\049\073\049\049")(-957182 + 1008547)];
+					(tabi_ll1I1IIlII - "\073\049\073\049\049\049\108")[(tabi_lI1I1IIlII / "\108\108\073\108\108\108\049\108")(149797 + -98421)] = (tabi_lI1I1IIlII / "\073\049\108\108\049\049\108\108")(83328 - 31841);
+					(tabi_ll1I1IIlII - "\108\073\049\049\049\073\049\108")[(tabi_lI1I1IIlII / "\073\073\108\049\049\108\108")(891917 - 840442)] = tabi_I1II1IIlII - "\108\073\049\108\049\073\108";
+					(tabi_ll1I1IIlII - "\073\073\049\049\108\073\049\108")[(tabi_lI1I1IIlII / "\073\049\073\108\049\073\108\049")(763320 + -711894)] = Color3[(tabi_lI1I1IIlII / "\108\049\073\049\108\073\073\049")(-846650 + 898071)](21280 - 21025, -491055 + 491310, -261672 + 261927);
+					(tabi_ll1I1IIlII - "\108\049\049\108\108\049\108")[(tabi_lI1I1IIlII / "\108\108\108\073\073\049\108")(332668 - 281321)] = 300585 + -300584;
+					(tabi_ll1I1IIlII - "\108\049\073\049\049\049\108")[(tabi_lI1I1IIlII / "\073\049\073\049\073\108\108\049")(852292 - 800825)] = Color3[(tabi_lI1I1IIlII / "\108\108\073\073\108\108\108")(-162314 - (-213735))](373804 + -373804, 690101 + -690101, -424749 + 424749);
+					(tabi_ll1I1IIlII - "\073\049\049\049\073\049\049\108")[(tabi_lI1I1IIlII / "\108\108\108\108\073\073\049")(624037 - 572594)] = 527152 - 527152;
+					(tabi_ll1I1IIlII - "\073\049\073\049\108\073\049\049")[(tabi_lI1I1IIlII / "\108\108\073\073\049\073\049\049")(876491 - 825082)] = UDim2[(tabi_lI1I1IIlII / "\108\108\073\073\108\049\049\108")(-365141 - (-416557))](862588 - 862587, -710479 - (-710454), -807417 - (-807417), -444270 + 444270);
+					(tabi_ll1I1IIlII - "\073\049\073\049\108")[(tabi_lI1I1IIlII / "\108\108\073\073\108\049\108")(-955893 - (-1007359))] = UDim2[(tabi_lI1I1IIlII / "\073\049\073\108\073\108\073\049")(-1015487 + 1066903)](297641 + -297641, 51042 + -51019, 63266 + -63266, -200358 + 200381);
+					(tabi_ll1I1IIlII - "\108\073\049\073\073\108\108")[(tabi_lI1I1IIlII / "\108\073\049\108\073\049\108")(140708 + -89313)] = (tabi_lI1I1IIlII / "\073\049\108\049\049\108\049\108")(-8528 - (-60002));
+					(tabi_II1I1IIlII + "\108\073\049\073\073\108\108\049")[(tabi_lI1I1IIlII / "\108\049\073\073\108\049\073\049")(609761 - 558385)] = (tabi_lI1I1IIlII / "\073\108\073\049\073\108\108\049")(-730551 + 781984);
+					(tabi_II1I1IIlII + "\073\108\073\073\049\108")[(tabi_lI1I1IIlII / "\108\108\073\049\073\073\073\049")(980688 - 929213)] = tabi_I1II1IIlII - "\108\049\108\073\073\108\049";
+					(tabi_II1I1IIlII + "\108\108\073\049\108")[(tabi_lI1I1IIlII / "\108\108\049\073\073\049")(725783 - 674357)] = Color3[(tabi_lI1I1IIlII / "\108\073\073\049\049\108\108\049")(-207563 - (-258984))](-945929 - (-945981), 36693 - 36641, -204390 + 204442);
+					(tabi_II1I1IIlII + "\073\049\108\108\049\108\049")[(tabi_lI1I1IIlII / "\108\073\108\073\108\049\049")(192495 - 141028)] = Color3[(tabi_lI1I1IIlII / "\108\108\049\073\049\073\108\108")(1040604 - 989183)](-62050 - (-62050), 226599 + -226599, 346091 - 346091);
+					(tabi_II1I1IIlII + "\108\108\073\073\073\073\049\049")[(tabi_lI1I1IIlII / "\108\073\049\073\049\108\108")(653414 - 601971)] = 912572 - 912572;
+					(tabi_II1I1IIlII + "\073\049\049\073\108\073\108\049")[(tabi_lI1I1IIlII / "\073\049\049\049\073\073\049\049")(71538 - 20129)] = UDim2[(tabi_lI1I1IIlII / "\108\049\073\049\049\108\108")(-963198 + 1014614)](-85923 + 85923, 174373 - 174373, -406125 - (-406125), 893308 + -893287);
+					(tabi_II1I1IIlII + "\108\073\073\073\049\049\049\108")[(tabi_lI1I1IIlII / "\108\073\108\073\108\108\049")(-509424 + 560890)] = UDim2[(tabi_lI1I1IIlII / "\108\108\049\073\073\049\108\108")(-882149 - (-933565))](-484270 - (-484271), -726711 + 726711, -53410 + 53410, 36705 + -36703);
+					(tabi_II1I1IIlII + "\108\108\073\073\073\108")[(tabi_lI1I1IIlII / "\108\108\073\108\108")(753211 - 701750)] = false;
+					(tabi_I11I1IIlII * "\108\108\108\108\049\073\108\108")[(tabi_lI1I1IIlII / "\073\049\049\049\049\073\108")(-308906 + 360282)] = (tabi_lI1I1IIlII / "\108\049\073\049\049\108\108")(183302 - 131940);
+					(tabi_I11I1IIlII * "\073\049\049\073\073\073\049\108")[(tabi_lI1I1IIlII / "\108\073\049\049\073\049\108\049")(-773944 + 825419)] = tabi_I1II1IIlII - "\073\108\049\073\073\108\049\108";
+					(tabi_I11I1IIlII * "\108\049\049\108\049\108")[(tabi_lI1I1IIlII / "\108\049\073\049\108\049\108\108")(-983134 - (-1034560))] = Color3[(tabi_lI1I1IIlII / "\108\108\073\049\049\108\073\108")(326854 - 275433)](-862460 - (-862715), 426285 + -426030, 461741 - 461486);
+					(tabi_I11I1IIlII * "\108\073\073\049\073\073\108\049")[(tabi_lI1I1IIlII / "\108\108\049\049\108")(-421212 - (-472559))] = -171492 - (-171493);
+					(tabi_I11I1IIlII * "\073\073\049\108\073\108\073\049")[(tabi_lI1I1IIlII / "\108\073\049\049\108\073\049\108")(-384812 + 436279)] = Color3[(tabi_lI1I1IIlII / "\108\073\108\073\108\049\108\108")(-319310 - (-370731))](-12576 + 12576, 80290 - 80290, -618547 + 618547);
+					(tabi_I11I1IIlII * "\108\073\108\049\049\073\108\108")[(tabi_lI1I1IIlII / "\108\073\108\073\049\108\049\108")(758569 - 707126)] = 534065 + -534065;
+					(tabi_I11I1IIlII * "\108\108\108\073\049\049\049\108")[(tabi_lI1I1IIlII / "\073\049\108\073\049\049\049")(873147 + -821681)] = UDim2[(tabi_lI1I1IIlII / "\073\108\108\108\108\049\108\049")(349931 + -298515)](-744055 + 744056, 452142 - 452142, 648436 - 648436, -442777 - (-442798));
+					(tabi_I11I1IIlII * "\108\108\108\049\108\049\049\108")[(tabi_lI1I1IIlII / "\073\073\108\049\073\073\108")(568498 + -517039)] = Enum[(tabi_lI1I1IIlII / "\073\049\108\108\108\073\049")(-394988 + 446447)][(tabi_lI1I1IIlII / "\108\108\108\049\073\049\108")(941857 - 890428)];
+					(tabi_I11I1IIlII * "\073\108\108\049\073\108\049\049")[(tabi_lI1I1IIlII / "\108\073\108\073\049\049\108")(-433484 - (-484911))] = (tabi_lI1I1IIlII / "\108\073\108\108\108\108\049\108")(-207974 + 259402);
+					(tabi_I11I1IIlII * "\073\108\049\108\108\073\108\049")[(tabi_lI1I1IIlII / "\108\108\049\049\108\049\108\049")(-977181 - (-1028672))] = Color3[(tabi_lI1I1IIlII / "\073\108\108\049\049\108\073\049")(770131 - 718710)](-811065 - (-811065), 640948 - 640948, 563249 - 563249);
+					(tabi_I11I1IIlII * "\108\073\073\108\108\073\049\049")[(tabi_lI1I1IIlII / "\073\073\049\049\073\049\108\108")(-830906 + 882389)] = -11680 + 11694;
+					(tabi_l11I1IIlII + "\108\073\049\073\049\049\073\049")[(tabi_lI1I1IIlII / "\108\049\073\108\073\108")(-376236 + 427612)] = (tabi_lI1I1IIlII / "\108\049\073\073\073\073\108\108")(500528 + -449059);
+					(tabi_l11I1IIlII + "\073\049\073\108\049\073\108")[(tabi_lI1I1IIlII / "\108\108\049\108\108\108\108\049")(-225494 - (-276969))] = tabi_I1II1IIlII - "\073\108\073\073\108\108\108\049";
+					(tabi_l11I1IIlII + "\108\108\049\108\049\049\108")[(tabi_lI1I1IIlII / "\108\073\108\073\073\049\073\049")(96483 + -44987)] = true;
+					(tabi_l11I1IIlII + "\108\049\108\073\073\108")[(tabi_lI1I1IIlII / "\108\108\073\073\073\108\073\049")(128900 - 77474)] = Color3[(tabi_lI1I1IIlII / "\073\108\049\073\073\108\049\049")(-525973 - (-577394))](111650 - 111395, -251688 + 251943, -287017 + 287272);
+					(tabi_l11I1IIlII + "\073\049\049\073\049\108\073\108")[(tabi_lI1I1IIlII / "\073\049\108\108\108\073\073\108")(996560 - 945213)] = -296424 - (-296425);
+					(tabi_l11I1IIlII + "\108\049\049\108\108\073\108")[(tabi_lI1I1IIlII / "\108\108\049\049\049\073\073\108")(-776175 - (-827642))] = Color3[(tabi_lI1I1IIlII / "\073\073\073\108\049\108\049")(-763420 - (-814841))](-726583 - (-726583), -882683 + 882683, -776248 + 776248);
+					(tabi_l11I1IIlII + "\073\049\073\049\073\049")[(tabi_lI1I1IIlII / "\108\049\108\108\073\108")(558065 + -506622)] = 80034 - 80034;
+					(tabi_l11I1IIlII + "\108\049\073\073\049\108\108")[(tabi_lI1I1IIlII / "\073\073\073\108\073\073\108\108")(-806201 + 857610)] = UDim2[(tabi_lI1I1IIlII / "\073\073\073\073\108\073\073\049")(-941671 - (-993087))](-861179 + 861179, 262888 + -262888, -858491 - (-858491), 514636 - 514608);
+					(tabi_l11I1IIlII + "\108\108\049\108\108\049\049")[(tabi_lI1I1IIlII / "\073\108\108\049\073\108\073\049")(516600 - 465134)] = UDim2[(tabi_lI1I1IIlII / "\108\108\108\073\108\073\049")(49250 + 2166)](992064 - 992063, -98787 - (-98787), 907644 - 907644, 324906 + -324809);
+					(tabi_l11I1IIlII + "\108\073\049\073\108\049\049")[(tabi_lI1I1IIlII / "\073\073\073\073\108\108\073\108")(-749172 - (-800633))] = false;
+					(tabi_lll11IIlII + "\108\049\049\073\049\049\073\049")[(tabi_lI1I1IIlII / "\073\108\108\049\049\073\073\108")(636002 - 584626)] = (tabi_lI1I1IIlII / "\108\108\108\049\049\108\108\108")(-675381 + 726825);
+					(tabi_lll11IIlII + "\073\073\108\108\073\108")[(tabi_lI1I1IIlII / "\108\073\049\049\049\073\073\108")(-64290 + 115765)] = tabi_l11I1IIlII + "\073\108\073\049\108\073\108";
+					(tabi_lll11IIlII + "\073\049\108\073\073\108\108")[(tabi_lI1I1IIlII / "\108\073\073\108\049\108\108\049")(275561 + -224115)] = Enum[(tabi_lI1I1IIlII / "\108\049\049\073\073\108")(530160 + -478714)][(tabi_lI1I1IIlII / "\073\073\049\073\049\073\073\049")(-798713 + 850145)];
+					(tabi_lll11IIlII + "\073\049\108\108\073\073\108")[(tabi_lI1I1IIlII / "\073\108\073\073\108\073\108\108")(365099 + -313716)] = Enum[(tabi_lI1I1IIlII / "\073\049\108\049\049\073\108\108")(1013365 - 961982)][(tabi_lI1I1IIlII / "\073\108\108\108\049\073\049\108")(-552343 - (-603763))];
+					(tabi_lll11IIlII + "\073\073\108\108\049\108\049\108")[(tabi_lI1I1IIlII / "\108\049\108\073\108\049")(-444032 - (-495471))] = UDim[(tabi_lI1I1IIlII / "\073\108\049\073\073\073\049\108")(-968360 - (-1019776))](-810105 + 810105, 965886 + -965883);
+					local tabi_IIl11IIlII = tabi_l1lI1IIlII({ Illlllll = false }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.Illlllll = tabi_l1lI1IIlII;
+							end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return rawget(tabi_I1lI1IIlII, "\073\108\108\108\108\108\108\108");
 							end });
-					local tabi_ll11lIl11Il = tabi_l11llIl11Il({ I1l1lll = function(...)
-								if #tabi_lII1lIl11Il == -653236 - (-653236) then
+					local tabi_lIl11IIlII = tabi_l1lI1IIlII({ lllI1 = function(...)
+								if #tabi_llII1IIlII == 795641 + -795641 then
 									return;
 								end;
-								(tabi_I11llIl11Il / "\108\073\049\108\073\073\049\108")(tabi_II11lIl11Il + not (tabi_II11lIl11Il / "\073\049\049\108\049\108\049\108"));
-								(tabi_l1l1lIl11Il .. "\073\108\049\049\049\073\108\049")[(tabi_lll1lIl11Il - "\073\049\108\073\073\073\049")(714166 + -667815)] = tabi_II11lIl11Il / "\073\108\073\108\073\108\108";
-								(tabi_IIl1lIl11Il .. "\108\049\049\073\049\108\108\049")[(tabi_lll1lIl11Il - "\108\049\073\049\049\049\073\049")(-777131 - (-823482))] = tabi_II11lIl11Il / "\073\108\108\049\108\073\108";
-								(tabi_IlI1lIl11Il / "\108\108\049\108\049\073\108\049")[(tabi_lll1lIl11Il - "\108\073\073\073\108\049\049")(46460 - 96)] = tabi_II11lIl11Il / "\108\049\108\049\049\073\049\108" and UDim2[(tabi_lll1lIl11Il - "\108\049\073\049\073\073\073\108")(-462126 + 508399)](-10528 - (-10528), (tabi_IlI1lIl11Il / "\108\108\073\073\108\049\108\108")[(tabi_lll1lIl11Il - "\073\049\073\073\073\108\049")(-473492 - (-519856))][(tabi_lll1lIl11Il - "\108\108\073\108\108\049")(-9376 + 55692)][(tabi_lll1lIl11Il - "\073\073\049\108\073\073\049\108")(-776742 - (-823034))], 738231 - 738231, ((821497 + -821476) + #tabi_lII1lIl11Il * (612619 - 612595)) + (829754 + -829746)) or UDim2[(tabi_lll1lIl11Il - "\108\049\073\108\049\073\049")(365035 + -318762)](527088 - 527088, (tabi_IlI1lIl11Il / "\073\049\108\049\049")[(tabi_lll1lIl11Il - "\073\073\073\049\049\073\049\049")(897788 + -851424)][(tabi_lll1lIl11Il - "\108\108\049\073\073\108\108")(1038144 + -991828)][(tabi_lll1lIl11Il - "\073\049\108\108\073\108\073\049")(847373 - 801081)], 190054 + -190054, -921469 + 921490);
-								tabi_lIl1lIl11Il.II11llll[(tabi_lll1lIl11Il - "\108\073\108\049\049\049")(19233 + 27135)] = tabi_II11lIl11Il / "\073\108\108\049\049\049\108" and 826606 - 826426 or -95523 + 95523;
-							end }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.I1l1lll = tabi_l11llIl11Il;
-							end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.I1l1lll;
+								(tabi_IlII1IIlII ^ "\073\073\049\049\049\073\073\108")(tabi_IIl11IIlII .. not tabi_IIl11IIlII.Ill1II11);
+								(tabi_l11I1IIlII + "\108\108\073\073\073\073\108")[(tabi_lI1I1IIlII / "\108\108\108\073\073\049\049\108")(-725555 - (-777016))] = tabi_IIl11IIlII.IIIIII1l;
+								(tabi_II1I1IIlII + "\073\108\049\073\108\108\108\108")[(tabi_lI1I1IIlII / "\108\073\049\049\073\049\073\049")(-116324 + 167785)] = tabi_IIl11IIlII.lII1lII1;
+								(tabi_I1II1IIlII - "\073\108\108\073\049\108\108")[(tabi_lI1I1IIlII / "\073\108\073\108\073\073\108")(-29977 - (-81443))] = tabi_IIl11IIlII.Il1lIIl1 and UDim2[(tabi_lI1I1IIlII / "\073\073\108\049\049\073\073\108")(-283602 - (-335018))](63074 + -63074, (tabi_I1II1IIlII - "\073\049\049\049\108\108\049")[(tabi_lI1I1IIlII / "\073\049\049\073\049\049\049")(-318506 + 369972)][(tabi_lI1I1IIlII / "\108\073\108\108\073\049\108\049")(-329002 + 380376)][(tabi_lI1I1IIlII / "\108\108\049\073\108\108\108\108")(179855 - 128484)], -618355 + 618355, ((710091 - 710070) + #tabi_llII1IIlII * (9144 - 9120)) + (370091 + -370083)) or UDim2[(tabi_lI1I1IIlII / "\108\108\108\108\049\049\108\049")(865083 + -813667)](-262952 + 262952, (tabi_I1II1IIlII - "\108\073\049\049\073\108\073\049")[(tabi_lI1I1IIlII / "\108\073\108\108\049\073\108")(-805617 - (-857083))][(tabi_lI1I1IIlII / "\108\073\108\073\108\108\108\049")(298134 - 246760)][(tabi_lI1I1IIlII / "\108\049\073\073\049\073\108")(357035 + -305664)], 741431 + -741431, -762104 + 762125);
+								(tabi_ll1I1IIlII - "\073\073\073\073\108")[(tabi_lI1I1IIlII / "\108\108\108\073\108\073\108\049")(524208 + -472748)] = tabi_IIl11IIlII.l1l11IIl and -29857 + 30037 or -677173 + 677173;
+							end }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.lllI1 = tabi_l1lI1IIlII;
+							end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.lllI1;
 							end });
-					for tabi_Il1llIl11Il, tabi_I11llIl11Il in tabi_lII1lIl11Il do
-						local tabi_lII1lIl11Il = tabi_l11llIl11Il({ l1l1I1ll = Instance[(tabi_lll1lIl11Il - "\108\108\073\049\073\073\108\108")(-599091 - (-645364))]((tabi_lll1lIl11Il - "\073\049\108\049\073\108")(748083 - 701686)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									tabi_Il1llIl11Il.l1l1I1ll = tabi_l11llIl11Il;
-								end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									return tabi_Il1llIl11Il.l1l1I1ll;
+					for tabi_IlII1IIlII, tabi_llII1IIlII in tabi_llII1IIlII do
+						local tabi_lIII1IIlII = tabi_l1lI1IIlII({ Ill11lI1 = Instance[(tabi_lI1I1IIlII / "\073\049\049\073\049\073\049\108")(-711200 - (-762616))]((tabi_lI1I1IIlII / "\073\073\108\049\073\108\049\108")(-587570 + 638931)) }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									tabi_I1lI1IIlII.Ill11lI1 = tabi_l1lI1IIlII;
+								end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									return rawget(tabi_I1lI1IIlII, "\073\108\108\049\049\108\073\049");
 								end });
-						local tabi_llI1lIl11Il = tabi_l11llIl11Il({ IlIIlIl1 = Instance[(tabi_lll1lIl11Il - "\108\073\073\073\108\049\108")(-265832 + 312105)]((tabi_lll1lIl11Il - "\108\108\049\108\073\049\073\049")(482351 + -435973)) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									tabi_Il1llIl11Il.IlIIlIl1 = tabi_l11llIl11Il;
-								end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-									return tabi_Il1llIl11Il.IlIIlIl1;
+						local tabi_I1II1IIlII = tabi_l1lI1IIlII({ I1lI111 = Instance[(tabi_lI1I1IIlII / "\108\049\108\049\049\049\108\108")(737463 + -686047)]((tabi_lI1I1IIlII / "\108\108\073\049\073\108\073\108")(-427053 + 478406)) }, { __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									tabi_I1lI1IIlII.I1lI111 = tabi_l1lI1IIlII;
+								end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+									return rawget(tabi_I1lI1IIlII, "\073\049\108\073\049\049\049");
 								end });
-						(tabi_lII1lIl11Il - "\108\073\073\073\049\049\073\049")[(tabi_lll1lIl11Il - "\073\073\073\108\049\073\049")(-197033 - (-243368))] = (tabi_lll1lIl11Il - "\073\073\073\073\049")(95992 - 49634);
-						(tabi_lII1lIl11Il - "\073\049\108\108\108\073\049")[(tabi_lll1lIl11Il - "\073\049\108\108\073\108")(343595 + -297239)] = tabi_l1l1lIl11Il .. "\108\073\073\049\108\073\073\049";
-						(tabi_lII1lIl11Il - "\073\049\049\049\108\073\108\108")[(tabi_lll1lIl11Il - "\073\049\108\073\049\049\108")(396653 - 350251)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\049\108\049\108\049")(-30113 + 76382)](-259623 - (-259688), 416493 + -416428, 35681 + -35616);
-						(tabi_lII1lIl11Il - "\108\073\049\073\049\108\073\049")[(tabi_lll1lIl11Il - "\073\108\073\108\049\073\049\049")(-176869 + 223128)] = Color3[(tabi_lll1lIl11Il - "\108\108\049\073\073\073\073\049")(-701750 + 748019)](332074 + -332074, 939709 + -939709, 42721 - 42721);
-						(tabi_lII1lIl11Il - "\108\049\049\073\049\108\049")[(tabi_lll1lIl11Il - "\073\108\073\073\108\073\049")(896562 - 850234)] = -703926 - (-703926);
-						(tabi_lII1lIl11Il - "\108\073\073\049\049\108\073\108")[(tabi_lll1lIl11Il - "\108\108\049\049\108\073\108\049")(866347 - 819961)] = UDim2[(tabi_lll1lIl11Il - "\108\073\108\108\049\108\108")(-954622 + 1000895)](.0410958901, -269800 - (-269800), .257142872, -102691 + 102691);
-						(tabi_lII1lIl11Il - "\073\108\073\108\108\049\049")[(tabi_lll1lIl11Il - "\108\049\073\073\049")(889750 - 843386)] = UDim2[(tabi_lll1lIl11Il - "\073\049\049\108\108\073\073\108")(117539 - 71266)](785337 - 785336, -466862 + 466842, -59682 - (-59682), 23777 + -23756);
-						(tabi_lII1lIl11Il - "\073\108\108\073\108\073\108")[(tabi_lll1lIl11Il - "\108\108\073\049\049\108\049\108")(869492 - 823098)] = Enum[(tabi_lll1lIl11Il - "\073\049\049\073\108\073\108\108")(317482 + -271088)][(tabi_lll1lIl11Il - "\073\073\073\049\073\073\073\049")(-940733 + 987128)];
-						(tabi_lII1lIl11Il - "\108\108\073\108\108\073\108\108")[(tabi_lll1lIl11Il - "\073\049\049\073\073\108\049\108")(-915451 - (-961854))] = tostring(tabi_I11llIl11Il);
-						(tabi_lII1lIl11Il - "\073\073\049\108\108\049\073\049")[(tabi_lll1lIl11Il - "\073\049\049")(628083 + -581741)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\049\073\108\108")(-992831 + 1039100)](210983 + -210728, -158437 + 158692, 573617 - 573362);
-						(tabi_lII1lIl11Il - "\108\049\073\108\073\108\049")[(tabi_lll1lIl11Il - "\108\073\108\049\073\073\108")(63714 + -17420)] = -986673 - (-986687);
-						(tabi_lII1lIl11Il - "\073\049\073\049\073\073\108\108")[(tabi_lll1lIl11Il - "\073\073\049\073\073\073\108\049")(-276410 - (-322730))] = false;
-						(tabi_llI1lIl11Il + "\073\108\073\073\049\073\073\049")[(tabi_lll1lIl11Il - "\073\073\073\049\049\108")(365291 + -319031)] = UDim[(tabi_lll1lIl11Il - "\073\108\108\049\073\049\049\108")(-65442 + 111715)](-819769 + 819769, -713142 + 713146);
-						(tabi_llI1lIl11Il + "\073\049\108\049\049\108\108")[(tabi_lll1lIl11Il - "\073\073\049\073\049\049\108\108")(719540 - 673205)] = (tabi_lll1lIl11Il - "\073\108\049\049\073\049\049")(306217 + -259843);
-						(tabi_llI1lIl11Il + "\073\108\049\073\049\049\073\049")[(tabi_lll1lIl11Il - "\073\073\049\073\049\108\049")(-68322 + 114678)] = tabi_lII1lIl11Il - "\073\108\049\108\108";
-						(tabi_lII1lIl11Il - "\073\073\073\049\108\049\049\108")[(tabi_lll1lIl11Il - "\073\108\073\073\108\073\073\049")(704696 - 658356)]:Connect(function(...)
-							(tabi_ll11lIl11Il ^ "\108\049\073\073\049\049\073\108")();
-							(tabi_III1lIl11Il or function(tabi_Il1llIl11Il, ...)
+						(tabi_lIII1IIlII ^ "\073\049\049\049\049\073\049")[(tabi_lI1I1IIlII / "\073\049\073\108\049\108\073\049")(-266874 - (-318250))] = (tabi_lI1I1IIlII / "\108\073\073\073\073\073\108\108")(-635033 - (-686389));
+						(tabi_lIII1IIlII ^ "\073\073\049\073\108\049\108\049")[(tabi_lI1I1IIlII / "\108\049\073\049")(-911595 - (-963070))] = tabi_l11I1IIlII + "\108\108\073\108\049\108\108\049";
+						(tabi_lIII1IIlII ^ "\108\049\108\108\108\049\108\049")[(tabi_lI1I1IIlII / "\108\108\049\108\049\049\073\049")(-702293 - (-753719))] = Color3[(tabi_lI1I1IIlII / "\073\073\108\073\049\108\073\108")(-805790 - (-857211))](-9056 + 9121, 485744 - 485679, -339691 + 339756);
+						(tabi_lIII1IIlII ^ "\073\049\073\108\073\073\049\108")[(tabi_lI1I1IIlII / "\073\073\073\108\073\049\108")(741440 - 689973)] = Color3[(tabi_lI1I1IIlII / "\108\049\049\073\073\108\073\108")(-489812 - (-541233))](1036864 + -1036864, -769400 - (-769400), -383532 + 383532);
+						(tabi_lIII1IIlII ^ "\073\049\108\073\108\049")[(tabi_lI1I1IIlII / "\108\049\108\049\049\049\049\108")(-224167 + 275610)] = -691189 + 691189;
+						(tabi_lIII1IIlII ^ "\108\108\108\073\108\049\108\108")[(tabi_lI1I1IIlII / "\108\073\108\073\073\073\049\049")(-141781 - (-193190))] = UDim2[(tabi_lI1I1IIlII / "\108\049\073\108\073\049\108")(202982 + -151566)](.0410958901, -522224 - (-522224), .257142872, -1022464 - (-1022464));
+						(tabi_lIII1IIlII ^ "\073\049\108\049\108\049\108\049")[(tabi_lI1I1IIlII / "\073\049\073\049\108\073\073\049")(-307169 - (-358635))] = UDim2[(tabi_lI1I1IIlII / "\073\108\049\108\073\073\108\108")(-5408 + 56824)](-55393 - (-55394), -238267 - (-238247), 540657 - 540657, 437422 + -437401);
+						(tabi_lIII1IIlII ^ "\108\073\049\073\049\108\108\049")[(tabi_lI1I1IIlII / "\108\073\049\049\073\073\108\049")(-663795 - (-715254))] = Enum[(tabi_lI1I1IIlII / "\108\108\108\073\108\108\073\108")(168039 - 116580)][(tabi_lI1I1IIlII / "\073\073\073\049\049\108")(798358 - 746999)];
+						(tabi_lIII1IIlII ^ "\073\049\049\073\073\049\073\049")[(tabi_lI1I1IIlII / "\073\073\049\049\108\108\108\108")(559635 - 508208)] = tostring(tabi_llII1IIlII);
+						(tabi_lIII1IIlII ^ "\073\049\049\108\108\073\049\049")[(tabi_lI1I1IIlII / "\073\108\073\049\073\108")(-722038 + 773529)] = Color3[(tabi_lI1I1IIlII / "\108\073\073\049\108\049")(-117796 + 169217)](796152 - 795897, 845818 + -845563, -234087 + 234342);
+						(tabi_lIII1IIlII ^ "\108\049\073\049\073\073\073\108")[(tabi_lI1I1IIlII / "\108\073\073\049\073\073\049\049")(285865 + -234382)] = -622003 + 622017;
+						(tabi_lIII1IIlII ^ "\073\073\073\073\108\049\108\108")[(tabi_lI1I1IIlII / "\073\049\049\073\108\049\073\108")(-337514 + 388976)] = false;
+						tabi_I1II1IIlII.IlI1I1ll[(tabi_lI1I1IIlII / "\073\108\073\108\108\073\073\049")(776184 + -724728)] = UDim[(tabi_lI1I1IIlII / "\108\108\108\049\049\049\073\049")(-847908 - (-899324))](854394 - 854394, -323302 - (-323306));
+						tabi_I1II1IIlII.IIlI11l1[(tabi_lI1I1IIlII / "\073\108\073\073\108\108\049")(-952015 - (-1003391))] = (tabi_lI1I1IIlII / "\073\073\108\073\108")(325098 + -273734);
+						tabi_I1II1IIlII.llllIlll[(tabi_lI1I1IIlII / "\073\049\049\049\108\073\073\108")(772280 + -720805)] = tabi_lIII1IIlII ^ "\108\108\073\049\073\049\108\049";
+						(tabi_lIII1IIlII ^ "\073\049\049\108\049\108\049\108")[(tabi_lI1I1IIlII / "\108\108\108\073\073\049\049\108")(683235 - 631860)]:Connect(function(...)
+							(tabi_Il1I1IIlII ^ "\108\049\108\073\073\108\073\108")[(tabi_lI1I1IIlII / "\073\073\073\108\073\108\049\049")(-702740 - (-754167))] = (tabi_I1lI1IIlII or (tabi_lI1I1IIlII / "\073\108\108\049\073\108\073\108")(-298711 - (-350123))) .. ((tabi_lI1I1IIlII / "\108\073\108\108\049\049\108\108")(-432125 - (-483567)) .. tostring(tabi_llII1IIlII));
+							(tabi_lIl11IIlII - "\108\049\108\049\073\073\049")();
+							(tabi_IIII1IIlII or function(tabi_I1lI1IIlII, ...)
  
-							end)(tabi_I11llIl11Il);
+							end)(tabi_llII1IIlII);
 						end);
 					end;
-					tabi_Ill1lIl11Il.l11I1l1[(tabi_lll1lIl11Il - "\073\073\073\073\049\049\073\108")(257192 + -210852)]:Connect(tabi_ll11lIl11Il ^ "\108\073\049\049\049\073\108\049");
+					(tabi_I11I1IIlII * "\073\073\073\049\108\108\073\049")[(tabi_lI1I1IIlII / "\073\073\108\073\108\049\073\049")(11424 + 39951)]:Connect(tabi_lIl11IIlII - "\108\049\073\049\073\073\049\049");
 				end;
-				function tabi_III1lIl11Il.II1l1lll.Slider(tabi_I1I1lIl11Il, tabi_Il1llIl11Il, tabi_lII1lIl11Il, tabi_III1lIl11Il, tabi_l1I1lIl11Il, ...)
-					local tabi_lIl1lIl11Il = tabi_l11llIl11Il({ ll1llI1l = tabi_lII1lIl11Il or -462190 - (-462190) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.ll1llI1l = tabi_l11llIl11Il;
-							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return rawget(tabi_Il1llIl11Il, "\108\108\049\108\108\073\049\108");
+				function tabi_IIII1IIlII.I1Il1lI1.Slider(tabi_Il1I1IIlII, tabi_I1lI1IIlII, tabi_llII1IIlII, tabi_IIII1IIlII, tabi_l1II1IIlII, ...)
+					local tabi_ll1I1IIlII = tabi_l1lI1IIlII({ lllIl1l1 = tabi_llII1IIlII or -676981 - (-676981) }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.lllIl1l1 = tabi_l1lI1IIlII;
+							end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.lllIl1l1;
 							end });
-					local tabi_IIl1lIl11Il = tabi_l11llIl11Il({ IlII11 = tabi_III1lIl11Il or 693223 - 693173 }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.IlII11 = tabi_l11llIl11Il;
-							end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.IlII11;
+					local tabi_II1I1IIlII = tabi_l1lI1IIlII({ I1IIl1 = tabi_IIII1IIlII or 306345 + -306295 }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.I1IIl1 = tabi_l1lI1IIlII;
+							end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return rawget(tabi_I1lI1IIlII, "\073\049\073\073\108\049");
 							end });
-					local tabi_Ill1lIl11Il = tabi_l11llIl11Il({ llII1Ill = Instance[(tabi_lll1lIl11Il - "\108\049\049\073\108\108\073\049")(-105315 + 151588)]((tabi_lll1lIl11Il - "\073\049\049\073\108\073\108\108")(-21113 - (-67426))) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.llII1Ill = tabi_l11llIl11Il;
-							end, __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return rawget(tabi_Il1llIl11Il, "\108\108\073\073\049\073\108\108");
+					local tabi_I11I1IIlII = tabi_l1lI1IIlII({ IlI1I1l = Instance[(tabi_lI1I1IIlII / "\108\073\108\108\073\049\073\108")(959060 - 907644)]((tabi_lI1I1IIlII / "\073\073\073\108\049\073\108\108")(494182 - 442734)) }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.IlI1I1l = tabi_l1lI1IIlII;
+							end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return rawget(tabi_I1lI1IIlII, "\073\108\073\049\073\049\108");
 							end });
-					local tabi_l1l1lIl11Il = tabi_l11llIl11Il({ I11l1I1 = Instance[(tabi_lll1lIl11Il - "\108\073\049\073\108\073\049\049")(613683 + -567410)]((tabi_lll1lIl11Il - "\073\073\073\108\073\073\073\049")(-705270 + 751648)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.I11l1I1 = tabi_l11llIl11Il;
-							end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.I11l1I1;
+					local tabi_l11I1IIlII = tabi_l1lI1IIlII({ IIIl1l = Instance[(tabi_lI1I1IIlII / "\073\049\108\049\073\108\108")(-53858 + 105274)]((tabi_lI1I1IIlII / "\108\108\108\073\073\073\049")(-358036 - (-409389))) }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.IIIl1l = tabi_l1lI1IIlII;
+							end, __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.IIIl1l;
 							end });
-					local tabi_lI11lIl11Il = tabi_l11llIl11Il({ I1I1IIl = Instance[(tabi_lll1lIl11Il - "\108\049\073\073\108\108\073\049")(-565938 - (-612211))]((tabi_lll1lIl11Il - "\073\073\049\108\108\108\108\108")(636465 - 590194)) }, { __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.I1I1IIl = tabi_l11llIl11Il;
-							end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.I1I1IIl;
+					local tabi_lll11IIlII = tabi_l1lI1IIlII({ lII1lIll = Instance[(tabi_lI1I1IIlII / "\108\049\108\049\049\073\108\108")(-203152 - (-254568))]((tabi_lI1I1IIlII / "\073\049\049\073\108\049\108\049")(261928 + -210494)) }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.lII1lIll = tabi_l1lI1IIlII;
+							end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return rawget(tabi_I1lI1IIlII, "\108\073\073\049\108\073\108\108");
 							end });
-					local tabi_II11lIl11Il = tabi_l11llIl11Il({ l1lIlII1 = Instance[(tabi_lll1lIl11Il - "\108\073\108\108\108\073\108")(-449070 - (-495343))]((tabi_lll1lIl11Il - "\073\073\049\049\073\073\049")(820855 - 774584)) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.l1lIlII1 = tabi_l11llIl11Il;
-							end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return rawget(tabi_Il1llIl11Il, "\108\049\108\073\108\073\073\049");
+					local tabi_IIl11IIlII = tabi_l1lI1IIlII({ lll1lI11 = Instance[(tabi_lI1I1IIlII / "\108\049\108\108\073\073\108")(311488 - 260072)]((tabi_lI1I1IIlII / "\073\108\049\049\108\073\108")(707678 - 656244)) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.lll1lI11 = tabi_l1lI1IIlII;
+							end, __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.lll1lI11;
 							end });
-					local tabi_ll11lIl11Il = tabi_l11llIl11Il({ IllIl1 = Instance[(tabi_lll1lIl11Il - "\108\049\108\073\108\073\049")(-484079 + 530352)]((tabi_lll1lIl11Il - "\108\049\073\108\073\073\049\049")(367187 - 320874)) }, { __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.IllIl1 = tabi_l11llIl11Il;
-							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.IllIl1;
+					local tabi_lIl11IIlII = tabi_l1lI1IIlII({ ll1I1lll = Instance[(tabi_lI1I1IIlII / "\108\108\108\108\073\073\049")(-953703 - (-1005119))]((tabi_lI1I1IIlII / "\073\049\108\073\049\108\049")(-660670 - (-712118))) }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.ll1I1lll = tabi_l1lI1IIlII;
+							end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.ll1I1lll;
 							end });
-					local tabi_Il11lIl11Il = tabi_l11llIl11Il({ I11I11Il = Instance[(tabi_lll1lIl11Il - "\073\108\108\049\073\049\108")(665781 + -619508)]((tabi_lll1lIl11Il - "\073\073\049\049\108\073\073\108")(414765 + -368387)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.I11I11Il = tabi_l11llIl11Il;
-							end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.I11I11Il;
+					local tabi_I1l11IIlII = tabi_l1lI1IIlII({ l1l1l1l = Instance[(tabi_lI1I1IIlII / "\073\108\049\049\108\073\049\049")(-783714 - (-835130))]((tabi_lI1I1IIlII / "\108\073\049\108\108\073\108\049")(408708 - 357355)) }, { __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.l1l1l1l = tabi_l1lI1IIlII;
+							end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.l1l1l1l;
 							end });
-					local tabi_l111lIl11Il = tabi_l11llIl11Il({ lIII1 = Instance[(tabi_lll1lIl11Il - "\073\073\073\108\108\108\049\108")(386220 - 339947)]((tabi_lll1lIl11Il - "\073\073\049\073\073\073\049\108")(977274 - 930877)) }, { __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.lIII1 = tabi_l11llIl11Il;
-							end, __concat = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.lIII1;
+					local tabi_l1l11IIlII = tabi_l1lI1IIlII({ I1I111I1 = Instance[(tabi_lI1I1IIlII / "\108\049\108\049\073\073\049")(-153230 - (-204646))]((tabi_lI1I1IIlII / "\073\049\108\073\049\073\049")(522128 - 470767)) }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.I1I111I1 = tabi_l1lI1IIlII;
+							end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.I1I111I1;
 							end });
-					tabi_Ill1lIl11Il.lll1ll1l[(tabi_lll1lIl11Il - "\073\108\049\073\049\108\073\108")(536942 - 490607)] = (tabi_lll1lIl11Il - "\108\049\108\108\073\108\108\108")(56738 + -10385);
-					tabi_Ill1lIl11Il.l1ll1IIl[(tabi_lll1lIl11Il - "\108\108\108\073\049\073\073\049")(826316 - 779960)] = tabi_I1l1lIl11Il * "\073\108\049\049\073\108";
-					tabi_Ill1lIl11Il.l1IlIIl1[(tabi_lll1lIl11Il - "\073\049\108\073\073\108\073\108")(-463534 + 509936)] = Color3[(tabi_lll1lIl11Il - "\108\108\108\108\108\073\049")(176289 - 130020)](353003 + -352941, 581746 + -581684, 691507 - 691445);
-					tabi_Ill1lIl11Il.lIlII11l[(tabi_lll1lIl11Il - "\073\108\108\073\108\108")(-1018240 + 1064499)] = Color3[(tabi_lll1lIl11Il - "\073\108\073\073\073\049\049\108")(786036 - 739767)](944125 - 944125, -432237 - (-432237), 898492 + -898492);
-					tabi_Ill1lIl11Il.IIll1l[(tabi_lll1lIl11Il - "\073\049\049\073\108")(118180 + -71852)] = 725494 + -725494;
-					tabi_Ill1lIl11Il.lI1l1lll[(tabi_lll1lIl11Il - "\108\073\073\049\108\073\049\049")(1005823 + -959437)] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\049\073\049\073\049")(-854075 - (-900348))](668981 - 668981, 880955 + -880955, .75555557, -951613 + 951613);
-					tabi_Ill1lIl11Il.lI11Il[(tabi_lll1lIl11Il - "\108\108\108\073\049\108\073\108")(-571890 + 618254)] = UDim2[(tabi_lll1lIl11Il - "\108\049\073\073\108\108\073\108")(834170 + -787897)](-829049 - (-829050), 37665 + -37665, 479215 + -479215, -771128 + 771149);
-					(tabi_l1l1lIl11Il - "\108\049\108\108\073\108\049")[(tabi_lll1lIl11Il - "\073\073\049\073\073\073\049")(-34222 - (-80482))] = UDim[(tabi_lll1lIl11Il - "\073\073\073\108\073\049\108\049")(-531952 + 578225)](-624371 - (-624371), 699258 - 699254);
-					(tabi_l1l1lIl11Il - "\073\073\108\108\108\049\108\049")[(tabi_lll1lIl11Il - "\108\073\073\049\073\108\049")(-385068 + 431403)] = (tabi_lll1lIl11Il - "\073\073\049\108\049\073\049\049")(-707449 - (-753847));
-					(tabi_l1l1lIl11Il - "\073\049\073\049\073\108\108")[(tabi_lll1lIl11Il - "\073\049\108\108\108\108\108\108")(-439086 + 485442)] = tabi_Ill1lIl11Il.llIIl1l1;
-					(tabi_lI11lIl11Il * "\108\108\108\049\049")[(tabi_lll1lIl11Il - "\073\073\049\108\049\049")(472428 - 426093)] = (tabi_lll1lIl11Il - "\073\049\049\073\049\049\049")(976190 + -929802);
-					(tabi_lI11lIl11Il * "\108\108\073\073\073\108\049\108")[(tabi_lll1lIl11Il - "\108\073\049\073\073\049\108")(-649250 - (-695606))] = tabi_Ill1lIl11Il.IlIlllll;
-					(tabi_lI11lIl11Il * "\073\073\108\049\049\073\049\049")[(tabi_lll1lIl11Il - "\073\049\108\049\108\073\108")(698806 + -652491)] = Vector2[(tabi_lll1lIl11Il - "\073\073\049\108\049")(-631988 - (-678261))](717046 + -717045.5, -64993.5 - (-64994));
-					(tabi_lI11lIl11Il * "\073\073\108\049\108")[(tabi_lll1lIl11Il - "\073\073\108\049\073\049\049")(113572 + -67170)] = Color3[(tabi_lll1lIl11Il - "\073\108\049\049\073\049\049")(-599799 - (-646068))](-8545 - (-8800), 408749 + -408494, -588658 + 588913);
-					(tabi_lI11lIl11Il * "\108\049\108\108\049\108\108\049")[(tabi_lll1lIl11Il - "\073\073\049\049\049\073\049\049")(213632 - 167333)] = -788792 + 788793;
-					(tabi_lI11lIl11Il * "\108\108\049\108\049\073\108")[(tabi_lll1lIl11Il - "\073\049\108\108\108\073\073\108")(1022272 + -976013)] = Color3[(tabi_lll1lIl11Il - "\108\073\049\073\108\073\108")(141920 - 95651)](478063 + -478063, -673397 - (-673397), -11424 - (-11424));
-					(tabi_lI11lIl11Il * "\073\049\049\073\049\108\049")[(tabi_lll1lIl11Il - "\108\073\073\049\049\073\073\049")(347361 - 301033)] = 372396 + -372396;
-					(tabi_lI11lIl11Il * "\108\073\049\049\108\073\108")[(tabi_lll1lIl11Il - "\108\108\073\073\049\108\108\108")(-858811 + 905197)] = UDim2[(tabi_lll1lIl11Il - "\073\073\073\108\073\108\108\049")(702262 + -655989)](.736151576, -220583 + 220583, -863034.5 - (-863035), -893500 + 893500);
-					(tabi_lI11lIl11Il * "\073\108\108\073\049\049\108\049")[(tabi_lll1lIl11Il - "\108\108\108\108\108\073\108")(-534742 - (-581106))] = UDim2[(tabi_lll1lIl11Il - "\073\049\108\108\073\073\108")(-774392 + 820665)](.482507288, 259752 - 259752, 234856 - 234855, -447406 + 447406);
-					(tabi_lI11lIl11Il * "\108\049\049\108\108\073\049\108")[(tabi_lll1lIl11Il - "\108\073\049\049\073\108\049\108")(200358 + -154049)] = -797111 - (-797113);
-					(tabi_lI11lIl11Il * "\108\049\108\108")[(tabi_lll1lIl11Il - "\108\073\108\073\049\049\108")(-866555 + 912949)] = Enum[(tabi_lll1lIl11Il - "\073\108\049\073\108\108\108")(-690805 + 737199)][(tabi_lll1lIl11Il - "\108\073\073\073\108\049\073\108")(983544 - 937149)];
-					(tabi_lI11lIl11Il * "\073\108\073\108\073\073\049\049")[(tabi_lll1lIl11Il - "\073\108\049\108\108\108\108\049")(-580464 - (-626867))] = tabi_lIl1lIl11Il.llI1I1l1;
-					(tabi_lI11lIl11Il * "\073\108\073\108\108\049\108")[(tabi_lll1lIl11Il - "\108\049\049\049\049\073\049\049")(238828 - 192486)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\073\108\108\073\049")(330474 + -284205)](-117156 + 117411, 1043647 - 1043392, -170277 + 170532);
-					(tabi_lI11lIl11Il * "\108\108\049\108\073\108\073\108")[(tabi_lll1lIl11Il - "\073\049\108\049\049\108\049")(-495963 - (-542257))] = -246042 - (-246056);
-					(tabi_lI11lIl11Il * "\073\073\108\049\073\108\073\108")[(tabi_lll1lIl11Il - "\073\108\108\073\049\073\049")(818873 + -772556)] = Enum[(tabi_lll1lIl11Il - "\108\108\049\108\108\073\049\049")(222567 + -176250)][(tabi_lll1lIl11Il - "\073\049\108\049\073\049\073\108")(819449 + -773146)];
-					(tabi_II11lIl11Il * "\108\049\073\108\108\108\073\108")[(tabi_lll1lIl11Il - "\108\073\108\049\073\049\049")(589680 - 543345)] = (tabi_lll1lIl11Il - "\073\073\108\049\049\073\049\108")(543089 + -496735);
-					(tabi_II11lIl11Il * "\073\073\108\049\049\073\049\108")[(tabi_lll1lIl11Il - "\073\049\108\108\049\108\049")(-762469 - (-808825))] = tabi_Ill1lIl11Il.lIIl1Ill;
-					(tabi_II11lIl11Il * "\108\108\073\049\073\108\108\049")[(tabi_lll1lIl11Il - "\108\073\108\049\073\073\073\108")(900348 + -854033)] = Vector2[(tabi_lll1lIl11Il - "\108\049\049\049\108\049")(-133348 + 179621)](-61473.5 - (-61474), 369131.5 - 369131);
-					(tabi_II11lIl11Il * "\108\108\073\108\073\073\073\049")[(tabi_lll1lIl11Il - "\108\049\073\073\049\073\049\108")(-631987 - (-678389))] = Color3[(tabi_lll1lIl11Il - "\108\108\049\073\073\108\108\108")(-657908 + 704177)](-475695 + 475950, 735479 + -735224, -516976 + 517231);
-					(tabi_II11lIl11Il * "\073\108\108\108\108")[(tabi_lll1lIl11Il - "\108\108\049\073\049\073\073\108")(-185868 - (-232167))] = -541808 - (-541809);
-					(tabi_II11lIl11Il * "\073\049\049\108\049\049\073\049")[(tabi_lll1lIl11Il - "\108\049\073\108\108\049\108\049")(-386348 + 432607)] = Color3[(tabi_lll1lIl11Il - "\108\108\073\073\049\073\073\049")(-80162 + 126431)](366187 + -366187, -126052 - (-126052), 892348 + -892348);
-					(tabi_II11lIl11Il * "\108\049\108\108\108\108\049")[(tabi_lll1lIl11Il - "\073\049\108\108\049\049")(-754615 + 800943)] = -460206 - (-460206);
-					(tabi_II11lIl11Il * "\073\049\108\108\073\049\049")[(tabi_lll1lIl11Il - "\073\049\049\073\108\073\108\049")(990319 - 943933)] = UDim2[(tabi_lll1lIl11Il - "\108\108\073\073\108\049\108\049")(143012 + -96739)](.255102038, -780344 - (-780344), 106851.5 - 106851, 329386 - 329386);
-					(tabi_II11lIl11Il * "\108\073\049\073\108\108\108\049")[(tabi_lll1lIl11Il - "\073\073\108\049\049\073\108\108")(-742300 - (-788664))] = UDim2[(tabi_lll1lIl11Il - "\073\073\108\049\108\049\049")(1005055 - 958782)](.479591846, -492079 + 492079, 497712 - 497711, -972862 + 972862);
-					(tabi_II11lIl11Il * "\108\073\073\073\073\108\108\108")[(tabi_lll1lIl11Il - "\073\049\049\073\073\049\108")(-559217 + 605526)] = 224297 - 224295;
-					(tabi_II11lIl11Il * "\108\108\108\108\049\108\073\108")[(tabi_lll1lIl11Il - "\108\049\049\049\108\073\049\108")(-1013503 + 1059897)] = Enum[(tabi_lll1lIl11Il - "\073\049\049\049\073\073\073\049")(-105771 - (-152165))][(tabi_lll1lIl11Il - "\108\108\049\108\073\108\049\049")(889077 - 842682)];
-					(tabi_II11lIl11Il * "\108\073\073\049\073\108")[(tabi_lll1lIl11Il - "\073\073\049\108\108\108\108\049")(815097 + -768694)] = tabi_Il1llIl11Il or (tabi_lll1lIl11Il - "\073\108\049\049\108\108")(-722919 - (-769272));
-					(tabi_II11lIl11Il * "\073\073\049\049\049\073\108\049")[(tabi_lll1lIl11Il - "\108\108\073\049\108\049\049\108")(-476714 - (-523056))] = Color3[(tabi_lll1lIl11Il - "\108\108\073\108\049\049\049")(1039932 - 993663)](-149862 - (-150117), -961663 - (-961918), -778872 + 779127);
-					(tabi_II11lIl11Il * "\108\049\049\108\073\073\049\049")[(tabi_lll1lIl11Il - "\073\049\049\073\049")(-540828 - (-587122))] = 558975 - 558961;
-					(tabi_II11lIl11Il * "\108\073\108\108\049\108\073\049")[(tabi_lll1lIl11Il - "\108\049\073\108\049\108")(438169 - 391852)] = Enum[(tabi_lll1lIl11Il - "\073\073\073\108\073\049\049\108")(-240636 - (-286953))][(tabi_lll1lIl11Il - "\073\073\073\073\049\073\049\108")(-856574 - (-902908))];
-					(tabi_ll11lIl11Il + "\108\073\049\073\108\108\108\108")[(tabi_lll1lIl11Il - "\108\073\049\108\049")(-287659 - (-333994))] = (tabi_lll1lIl11Il - "\108\108\108\073\073\073\049\049")(306920 - 260584);
-					(tabi_ll11lIl11Il + "\073\073\108\108")[(tabi_lll1lIl11Il - "\108\049\108\073\108\108\049\108")(958544 - 912188)] = tabi_Ill1lIl11Il.llIlIIl;
-					(tabi_ll11lIl11Il + "\108\049\108\108\073\108\108\108")[(tabi_lll1lIl11Il - "\073\108\108\108\108\073\049")(-619955 + 666357)] = Color3[(tabi_lll1lIl11Il - "\108\049\108\049\108\049\108\108")(931517 + -885248)](-384868 - (-384940), 765432 + -765360, -307810 - (-307882));
-					(tabi_ll11lIl11Il + "\108\073\073\073\073\073\049\108")[(tabi_lll1lIl11Il - "\108\073\049\108\108\108\073\108")(-528368 + 574627)] = Color3[(tabi_lll1lIl11Il - "\108\108\108\049\108\108\073\108")(616623 - 570354)](-65954 + 65954, -657524 + 657524, -692149 - (-692149));
-					(tabi_ll11lIl11Il + "\108\049\108\073\049\073\049")[(tabi_lll1lIl11Il - "\073\049\108\108\073\073\108\049")(369835 + -323507)] = 69922 - 69922;
-					(tabi_ll11lIl11Il + "\108\108\108\049\073\073\049")[(tabi_lll1lIl11Il - "\073\049\049\108\108\108\073\049")(467438 + -421074)] = UDim2[(tabi_lll1lIl11Il - "\073\073\108\049\049")(-274665 + 320938)](365227 + -365227, 948221 - 948221, -731958 - (-731959), 313514 + -313514);
-					(tabi_Il11lIl11Il * "\108\049\073\049\049\108\108\049")[(tabi_lll1lIl11Il - "\108\073\049\073\108\108\049")(1005554 - 959294)] = UDim[(tabi_lll1lIl11Il - "\073\108\073\108\049\049\049\108")(763767 - 717494)](-55522 - (-55522), 111975 - 111971);
-					(tabi_Il11lIl11Il * "\108\108\073\073\049\049\108\108")[(tabi_lll1lIl11Il - "\073\049\073\108\049\108\049\108")(711156 - 664821)] = (tabi_lll1lIl11Il - "\073\049\049\049\073\108\049\108")(381228 + -334909);
-					(tabi_Il11lIl11Il * "\108\073\108\073\108\073\073\108")[(tabi_lll1lIl11Il - "\073\049\049\073\073\073\049\108")(843405 - 797049)] = tabi_ll11lIl11Il + "\108\049\073\108\073\108\049\049";
-					(tabi_l111lIl11Il .. "\108\073\108\073\049\049\108")[(tabi_lll1lIl11Il - "\108\049\073\073\108\049\073\049")(936379 - 890044)] = (tabi_lll1lIl11Il - "\108\073\108\108\049\049")(-391852 + 438107);
-					(tabi_l111lIl11Il .. "\108\073\073\049\073\073\049\049")[(tabi_lll1lIl11Il - "\108\049\073\073\108\049\108\049")(39220 - (-7136))] = tabi_Ill1lIl11Il.lIlIlI1l;
-					(tabi_l111lIl11Il .. "\073\073\073\073\108")[(tabi_lll1lIl11Il - "\073\108\049\073\073\049\049")(-515312 + 561714)] = Color3[(tabi_lll1lIl11Il - "\073\108\049\049\108\108\049\108")(468015 + -421746)](464813 - 464558, 261735 - 261480, 467437 - 467182);
-					(tabi_l111lIl11Il .. "\073\108\073\073\049\108\108\049")[(tabi_lll1lIl11Il - "\108\108\073\073\073\073\108\049")(835347 - 789048)] = 860731 + -860730;
-					(tabi_l111lIl11Il .. "\073\108\073\108\108\049\049")[(tabi_lll1lIl11Il - "\108\108\073\049\049\073\049\108")(-851642 + 897901)] = Color3[(tabi_lll1lIl11Il - "\108\049\108\108\049\108\049\108")(361703 - 315434)](-127524 - (-127524), -405357 + 405357, -751607 + 751607);
-					(tabi_l111lIl11Il .. "\108\108\073\073\108\108\049")[(tabi_lll1lIl11Il - "\073\073\108\073\108\049\108")(1027328 + -981000)] = 745591 - 745591;
-					(tabi_l111lIl11Il .. "\108\108\049\073\073\049\108\108")[(tabi_lll1lIl11Il - "\073\049\049\108\073\049\108")(220327 + -173963)] = UDim2[(tabi_lll1lIl11Il - "\073\073\049\049\049\108\049\108")(901948 - 855675)](-229862 - (-229863), 194086 - 194086, 792826 - 792825, 702070 - 702070);
-					(tabi_l111lIl11Il .. "\108\049\049\073\073\108\108")[(tabi_lll1lIl11Il - "\108\073\049\073\108\108\108")(992127 + -945818)] = 913276 + -913273;
-					(tabi_l111lIl11Il .. "\073\073\049\108\049\073\073\049")[(tabi_lll1lIl11Il - "\108\108\049\073\049\073\108\108")(-492983 - (-539377))] = Enum[(tabi_lll1lIl11Il - "\108\073\049\049\108\108\073\108")(628915 + -582521)][(tabi_lll1lIl11Il - "\108\108\073\049\073\108\073\049")(-629199 - (-675509))];
-					(tabi_l111lIl11Il .. "\073\073\108\049\108\073\049\049")[(tabi_lll1lIl11Il - "\108\108\073\073\108\108\049\108")(-585330 + 631733)] = (tabi_lll1lIl11Il - "\108\049\049\073\108\108\108")(550749 - 504496);
-					(tabi_l111lIl11Il .. "\073\049\108")[(tabi_lll1lIl11Il - "\073\108\073\108\049\049\108\108")(88743 - 42401)] = Color3[(tabi_lll1lIl11Il - "\073\073\049\073\073\073\049")(188262 + -141993)](-438254 - (-438254), 178470 - 178470, -518576 - (-518576));
-					(tabi_l111lIl11Il .. "\108\049\049\108\049\108\073\049")[(tabi_lll1lIl11Il - "\073\073\108\073\073\073\049\049")(-736311 + 782605)] = -105045 - (-105059);
-					local tabi_I111lIl11Il = tabi_l11llIl11Il({ llIIlIIl = false }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.llIIlIIl = tabi_l11llIl11Il;
-							end, __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.llIIlIIl;
+					(tabi_I11I1IIlII + "\108\049\108\108\108\073\049\108")[(tabi_lI1I1IIlII / "\073\108\073\049\073\108\108\108")(695350 + -643974)] = (tabi_lI1I1IIlII / "\108\049\108\049\049\108\108")(-654068 + 705492);
+					(tabi_I11I1IIlII + "\108\108\108\073\108\073\108\049")[(tabi_lI1I1IIlII / "\108\049\049\073\108\108\073\049")(796025 + -744550)] = tabi_Ill11IIlII * "\108\108\108\073\108\073\049";
+					(tabi_I11I1IIlII + "\108\108\073\049\108\049\108\049")[(tabi_lI1I1IIlII / "\073\108\108\108\108\049\049")(-382508 + 433934)] = Color3[(tabi_lI1I1IIlII / "\073\073\049\049\049\108\073\049")(-287502 - (-338923))](-115430 - (-115492), 330216 - 330154, 484015 + -483953);
+					(tabi_I11I1IIlII + "\073\049\073\108\073\073\049\049")[(tabi_lI1I1IIlII / "\073\049\049\108\049\049\073\049")(306025 + -254558)] = Color3[(tabi_lI1I1IIlII / "\108\073\049\108\049\108\073\049")(-170469 + 221890)](183014 + -183014, -799865 - (-799865), 154149 + -154149);
+					(tabi_I11I1IIlII + "\073\049\073\073\073\049\049\108")[(tabi_lI1I1IIlII / "\073\108\073\073\073\108\073\049")(676085 + -624642)] = 269992 - 269992;
+					(tabi_I11I1IIlII + "\073\108\108\073\049\108\049\108")[(tabi_lI1I1IIlII / "\108\108\073\049\073\108\108\049")(535488 - 484079)] = UDim2[(tabi_lI1I1IIlII / "\108\108\049\049\108\073\073\049")(241470 - 190054)](369643 - 369643, -241767 - (-241767), .75555557, -297193 - (-297193));
+					(tabi_I11I1IIlII + "\073\108\049\049\108\108")[(tabi_lI1I1IIlII / "\108\073\049\073\073\049\108\108")(-397860 - (-449326))] = UDim2[(tabi_lI1I1IIlII / "\073\108\049\108\049\073\049\108")(90169 - 38753)](-678581 + 678582, 476207 + -476207, -460846 + 460846, 596487 - 596466);
+					(tabi_l11I1IIlII .. "\108\108\049\073\108\073\073\108")[(tabi_lI1I1IIlII / "\108\049\049\073\049\073\049\049")(-762041 - (-813497))] = UDim[(tabi_lI1I1IIlII / "\108\073\108\049\049\073\049\049")(-959783 - (-1011199))](740535 + -740535, 659512 - 659508);
+					(tabi_l11I1IIlII .. "\108\073\073\108\073\049\108\049")[(tabi_lI1I1IIlII / "\108\049\108\049\108\073\108\108")(649140 + -597764)] = (tabi_lI1I1IIlII / "\073\049\108\049\108\073\108\108")(537250 - 485871);
+					(tabi_l11I1IIlII .. "\073\049\108\073\049\073\108")[(tabi_lI1I1IIlII / "\073\073\108\049\108")(1025169 - 973694)] = tabi_I11I1IIlII + "\108\073\073\108\108\073\108";
+					tabi_lll11IIlII.lIII11Il[(tabi_lI1I1IIlII / "\073\108\073\108\108\049\049")(-154341 + 205717)] = (tabi_lI1I1IIlII / "\108\073\108\073\049\073\108")(-583666 - (-635124));
+					tabi_lll11IIlII.llIIIl11[(tabi_lI1I1IIlII / "\073\049\108\049\073\108\073\108")(176613 + -125138)] = tabi_I11I1IIlII + "\108\073\049\073\049\049\073\108";
+					tabi_lll11IIlII.I1lI1lIl[(tabi_lI1I1IIlII / "\108\049\108\049\108\049\073\108")(-76962 + 128335)] = Vector2[(tabi_lI1I1IIlII / "\073\073\108\049\073\108\108")(673291 - 621875)](414381 + -414380.5, -932093 + 932093.5);
+					tabi_lll11IIlII.IIlI1lIl[(tabi_lI1I1IIlII / "\108\108\108\049\108\108\108\108")(-876667 + 928093)] = Color3[(tabi_lI1I1IIlII / "\108\073\073\049\049\073\049\049")(-346859 + 398280)](-633717 - (-633972), 468975 + -468720, -820026 - (-820281));
+					tabi_lll11IIlII.l11IIIll[(tabi_lI1I1IIlII / "\108\049\049\108\108\073\073\108")(882043 + -830696)] = -594674 + 594675;
+					tabi_lll11IIlII.I1IIIlIl[(tabi_lI1I1IIlII / "\108\049\073\049\049\049")(338538 + -287071)] = Color3[(tabi_lI1I1IIlII / "\073\049\108\108\073\073\073\108")(-206374 + 257795)](-978622 - (-978622), -679733 + 679733, 378796 + -378796);
+					tabi_lll11IIlII.l1IlIII1[(tabi_lI1I1IIlII / "\073\108\108\049\108\049\108\049")(824762 + -773319)] = 637300 + -637300;
+					tabi_lll11IIlII.II1111l[(tabi_lI1I1IIlII / "\073\049\049\049\073\073\049\108")(-666869 + 718278)] = UDim2[(tabi_lI1I1IIlII / "\073\073\108\073\049\108\073\049")(474117 - 422701)](.736151576, -177253 - (-177253), -403309 + 403309.5, -460142 + 460142);
+					tabi_lll11IIlII.l1I1I1ll[(tabi_lI1I1IIlII / "\073\108\073\073\108\049\049")(1039680 + -988214)] = UDim2[(tabi_lI1I1IIlII / "\108\073\049\108\049\108")(828666 + -777250)](.482507288, 599923 + -599923, 374125 - 374124, -264744 + 264744);
+					tabi_lll11IIlII.lIl1[(tabi_lI1I1IIlII / "\108\049\108\049\049\108\049")(-455506 - (-506992))] = 475311 + -475309;
+					tabi_lll11IIlII.I11l111l[(tabi_lI1I1IIlII / "\108\108\049\108\073\108\108")(-639666 - (-691125))] = Enum[(tabi_lI1I1IIlII / "\073\108\049\073\108\073\073\049")(-790136 + 841595)][(tabi_lI1I1IIlII / "\108\108\108\073\108\108\108")(688309 + -636950)];
+					tabi_lll11IIlII.lIIlI1[(tabi_lI1I1IIlII / "\108\049\108\108\049\108\108")(-44833 + 96260)] = tabi_ll1I1IIlII ^ "\108\108\073\073\108\073\108";
+					tabi_lll11IIlII.II1lI11l[(tabi_lI1I1IIlII / "\073\049\108\073\049\049\108\049")(-388299 - (-439790))] = Color3[(tabi_lI1I1IIlII / "\073\049\073\049\108\049\108\049")(991258 - 939837)](-703671 - (-703926), 247399 - 247144, -718135 - (-718390));
+					tabi_lll11IIlII.l1I1III1[(tabi_lI1I1IIlII / "\108\073\049\049\073\108\049")(-177958 + 229441)] = 952140 - 952126;
+					tabi_lll11IIlII.lII1llll[(tabi_lI1I1IIlII / "\108\108\073\049\049\108\108")(-438004 - (-489391))] = Enum[(tabi_lI1I1IIlII / "\073\049\049\073\049\108\073\049")(-619955 + 671342)][(tabi_lI1I1IIlII / "\073\049\108\108\049\108\108\108")(-260968 + 312463)];
+					(tabi_IIl11IIlII / "\108\108\049\108\108\108\108\108")[(tabi_lI1I1IIlII / "\108\108\049\073\108\073\049\108")(894442 - 843066)] = (tabi_lI1I1IIlII / "\108\049\108\108\073\049")(-128314 - (-179750));
+					(tabi_IIl11IIlII / "\073\049\073\049\073\073\049\108")[(tabi_lI1I1IIlII / "\108\073\049\049\108\049\108\108")(965583 - 914108)] = tabi_I11I1IIlII + "\073\108\049\073\108\073\108\108";
+					(tabi_IIl11IIlII / "\108\049\108\108\073\073\108\108")[(tabi_lI1I1IIlII / "\108\049\073\108\073\049")(169169 - 117796)] = Vector2[(tabi_lI1I1IIlII / "\073\049\108\073\049\108\073\049")(538545 + -487129)](468911 + -468910.5, 22305.5 - 22305);
+					(tabi_IIl11IIlII / "\073\073\108\108\073\108\049\049")[(tabi_lI1I1IIlII / "\108\073\049\049\108\073\108\108")(-284872 - (-336298))] = Color3[(tabi_lI1I1IIlII / "\108\049\049\049\073\108\108\049")(-421101 + 472522)](-303145 + 303400, -940541 + 940796, 33120 - 32865);
+					(tabi_IIl11IIlII / "\073\049\108\108\049\073\108\108")[(tabi_lI1I1IIlII / "\108\073\049\073\073\108\073\108")(-52176 - (-103523))] = 716982 + -716981;
+					(tabi_IIl11IIlII / "\108\049\049\073\049\108\049\108")[(tabi_lI1I1IIlII / "\108\049\073\108\049\073\108\049")(-807216 - (-858683))] = Color3[(tabi_lI1I1IIlII / "\108\073\049\073\108\073\073\108")(-401681 - (-453102))](-720886 - (-720886), 82467 + -82467, -933821 + 933821);
+					(tabi_IIl11IIlII / "\073\108\049\108\073\108\073\049")[(tabi_lI1I1IIlII / "\073\073\049\073\073\108\049\108")(-439342 + 490785)] = -628403 + 628403;
+					(tabi_IIl11IIlII / "\108\073\073\049\049")[(tabi_lI1I1IIlII / "\108\073\108\049\049\049\073\049")(405165 + -353756)] = UDim2[(tabi_lI1I1IIlII / "\108\108\108\049\108\073\073\049")(-579100 - (-630516))](.255102038, 913724 - 913724, -771896 + 771896.5, -83939 + 83939);
+					(tabi_IIl11IIlII / "\108\108\108\073\073\108\108\049")[(tabi_lI1I1IIlII / "\073\073\073\049\049\049\108")(-1006527 + 1057993)] = UDim2[(tabi_lI1I1IIlII / "\108\049\049\049\073\108\049")(90745 - 39329)](.479591846, -919613 + 919613, 762168 + -762167, -987007 - (-987007));
+					(tabi_IIl11IIlII / "\108\073\108\108\049\073\108\049")[(tabi_lI1I1IIlII / "\108\073\073\049\108\049\108\049")(-736666 - (-788152))] = -914556 + 914558;
+					(tabi_IIl11IIlII / "\073\073\108\108\073\049\073\049")[(tabi_lI1I1IIlII / "\108\073\073\108\108\108\108")(-820217 + 871676)] = Enum[(tabi_lI1I1IIlII / "\108\108\073\049\073\108")(-322474 + 373933)][(tabi_lI1I1IIlII / "\073\108\049\108\108\049")(-876987 + 928346)];
+					(tabi_IIl11IIlII / "\108\049\049\073\108\049\049")[(tabi_lI1I1IIlII / "\108\108\073\073\049\108\073\049")(-79458 + 130885)] = tabi_I1lI1IIlII or (tabi_lI1I1IIlII / "\073\073\049\108\049\049\108\108")(481967 + -430543);
+					(tabi_IIl11IIlII / "\108\108\108\049\073\073\108\108")[(tabi_lI1I1IIlII / "\073\073\049\049\073\108")(504560 + -453069)] = Color3[(tabi_lI1I1IIlII / "\108\108\049\073\108\073\073\108")(418760 - 367339)](275432 - 275177, 753462 - 753207, -686005 + 686260);
+					(tabi_IIl11IIlII / "\108\073\073\049\108\049\073\108")[(tabi_lI1I1IIlII / "\108\073\073\108\073\073\049")(-635418 - (-686901))] = -245338 - (-245352);
+					(tabi_IIl11IIlII / "\108\073\108\108\073\073\073\049")[(tabi_lI1I1IIlII / "\108\073\073\108\049\049\073\108")(-392115 - (-443502))] = Enum[(tabi_lI1I1IIlII / "\073\073\049\049\049\108\108")(-134564 + 185951)][(tabi_lI1I1IIlII / "\108\049\108\108\049\108")(398188 + -346823)];
+					(tabi_lIl11IIlII ^ "\108\108\108\108\108\108\073\049")[(tabi_lI1I1IIlII / "\073\049\073\108\073\073\049\108")(-92404 - (-143780))] = (tabi_lI1I1IIlII / "\073\049\049\108\073\073\108")(-25889 + 77269);
+					(tabi_lIl11IIlII ^ "\108\073\108\108\073\049\049\108")[(tabi_lI1I1IIlII / "\073\108\073\073\108\073\049\108")(-1041280 + 1092755)] = tabi_I11I1IIlII + "\073\108\073\108\073\073\049\108";
+					(tabi_lIl11IIlII ^ "\073\073\073\049\108\049\108")[(tabi_lI1I1IIlII / "\108\108\049\073\108\108\049")(995551 - 944125)] = Color3[(tabi_lI1I1IIlII / "\108\108\049\073\049\049\108\108")(213863 + -162442)](624891 - 624819, 294569 + -294497, -170269 - (-170341));
+					(tabi_lIl11IIlII ^ "\073\073\073\049\108\049\049\108")[(tabi_lI1I1IIlII / "\073\108\049\049\073\073\073\108")(-121828 + 173295)] = Color3[(tabi_lI1I1IIlII / "\073\073\049\108\049\073\049\049")(-303182 - (-354603))](370603 + -370603, 204774 - 204774, -237735 + 237735);
+					(tabi_lIl11IIlII ^ "\108\073\073\108\108\108\073\049")[(tabi_lI1I1IIlII / "\073\049\049\108\073\108\073\108")(216743 + -165300)] = -304041 - (-304041);
+					(tabi_lIl11IIlII ^ "\108\049\073\049\073\073\073\108")[(tabi_lI1I1IIlII / "\073\108\073\049\073\073\108\049")(594427 - 542961)] = UDim2[(tabi_lI1I1IIlII / "\073\108\073\073\108\073\049\049")(-704607 - (-756023))](-126948 - (-126948), -719862 + 719862, 836986 + -836985, -167205 - (-167205));
+					(tabi_I1l11IIlII ^ "\073\108\108\108\049\049\108\108")[(tabi_lI1I1IIlII / "\108\108\108\073\073\073\073\108")(-635637 - (-687093))] = UDim[(tabi_lI1I1IIlII / "\073\073\108\073\073\108\073\049")(77305 - 25889)](-639028 - (-639028), 501492 - 501488);
+					(tabi_I1l11IIlII ^ "\108\073\049\049\108")[(tabi_lI1I1IIlII / "\073\073\049\073\049\049\108\108")(367979 + -316603)] = (tabi_lI1I1IIlII / "\073\073\049\073\108\108")(635508 + -584026);
+					(tabi_I1l11IIlII ^ "\108\108\049\108\108\108\108\049")[(tabi_lI1I1IIlII / "\108\108\073\108\073\108")(564227 - 512752)] = tabi_lIl11IIlII ^ "\108\108\049\108\073\073\108\049";
+					(tabi_l1l11IIlII - "\073\108\073\073\108\073\108\108")[(tabi_lI1I1IIlII / "\073\049\073\073\108\049\108\108")(-309226 + 360602)] = (tabi_lI1I1IIlII / "\108\049\073\108\108\073\073\108")(-513968 + 565326);
+					(tabi_l1l11IIlII - "\108\108\073\049\073\049\108\049")[(tabi_lI1I1IIlII / "\108\073\108\073\049\049\108\108")(-872234 - (-923709))] = tabi_I11I1IIlII + "\108\108\108\073\073\108\049\108";
+					(tabi_l1l11IIlII - "\073\049\049\073\049\108")[(tabi_lI1I1IIlII / "\108\049\073\049\073\049\049")(821978 - 770552)] = Color3[(tabi_lI1I1IIlII / "\108\073\049\108\108\049\049")(-878176 - (-929597))](913211 - 912956, -493360 - (-493615), 541744 - 541489);
+					(tabi_l1l11IIlII - "\108\073\073\108\049\108")[(tabi_lI1I1IIlII / "\073\108\108\073\073\108\073\049")(997119 + -945772)] = -695413 - (-695414);
+					(tabi_l1l11IIlII - "\073\049\073\108\108")[(tabi_lI1I1IIlII / "\073\108\049\049\108\108\108\049")(346155 + -294688)] = Color3[(tabi_lI1I1IIlII / "\108\108\049\049\049\108\108\049")(546545 + -495124)](1044224 + -1044224, -5280 - (-5280), 1048192 - 1048192);
+					(tabi_l1l11IIlII - "\108\049\073\073\108\049\073\108")[(tabi_lI1I1IIlII / "\073\108\073\073\073\108")(-886026 - (-937469))] = -998655 + 998655;
+					(tabi_l1l11IIlII - "\073\108\073\108\049\073\049")[(tabi_lI1I1IIlII / "\108\073\049\073\108\108\108")(-561129 - (-612595))] = UDim2[(tabi_lI1I1IIlII / "\108\049\049\049\073\108\073\108")(-891109 - (-942525))](-1001791 + 1001792, 358315 + -358315, -10463 - (-10464), -166565 + 166565);
+					(tabi_l1l11IIlII - "\073\073\108\073\108\108\108")[(tabi_lI1I1IIlII / "\073\073\049\073\108")(-819961 + 871447)] = 212650 - 212647;
+					(tabi_l1l11IIlII - "\073\073\108\049\108\073\049\049")[(tabi_lI1I1IIlII / "\073\049\049\108\108\049\073\108")(-617010 - (-668469))] = Enum[(tabi_lI1I1IIlII / "\073\108\049\108")(940157 + -888698)][(tabi_lI1I1IIlII / "\108\049\108\108\108\108\049\108")(-201830 + 253259)];
+					(tabi_l1l11IIlII - "\108\073\073\073\073\108\073\108")[(tabi_lI1I1IIlII / "\108\108\049\108\049\108\108\049")(-786744 + 838171)] = (tabi_lI1I1IIlII / "\073\049\073\108\049\049\049")(78981 - 27553);
+					(tabi_l1l11IIlII - "\073\049\049\049\108\108")[(tabi_lI1I1IIlII / "\108\108\073\108\073\108\073\108")(340139 + -288648)] = Color3[(tabi_lI1I1IIlII / "\108\073\108\073\049\108\108\108")(633551 - 582130)](-563313 - (-563313), -902972 + 902972, 383212 + -383212);
+					(tabi_l1l11IIlII - "\108\049\073\108\049\049\049")[(tabi_lI1I1IIlII / "\073\108\073\108\073\073\073\049")(735504 - 684021)] = 448060 - 448046;
+					local tabi_IlI11IIlII = tabi_l1lI1IIlII({ Ill1l1 = false }, { __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.Ill1l1 = tabi_l1lI1IIlII;
+							end, __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return rawget(tabi_I1lI1IIlII, "\073\108\108\049\108\049");
 							end });
-					local tabi_lIII1Il11Il = tabi_l11llIl11Il({ ll1lIlll = tabi_lIl1lIl11Il.I111l1 }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.ll1lIlll = tabi_l11llIl11Il;
-							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.ll1lIlll;
+					local tabi_llI11IIlII = tabi_l1lI1IIlII({ lI1lI1I1 = tabi_ll1I1IIlII ^ "\108\108\073\073\073\108\049" }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.lI1lI1I1 = tabi_l1lI1IIlII;
+							end, __add = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.lI1lI1I1;
 							end });
-					local tabi_IIII1Il11Il = tabi_l11llIl11Il({ ll1l1ll = tabi_lIII1Il11Il + "\073\108\049\049\108\108\049\108" }, { __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.ll1l1ll = tabi_l11llIl11Il;
-							end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.ll1l1ll;
+					local tabi_III11IIlII = tabi_l1lI1IIlII({ l11lIlll = tabi_llI11IIlII + "\073\108\073\073\049\108\108\108" }, { __mul = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.l11lIlll = tabi_l1lI1IIlII;
+							end, __concat = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.l11lIlll;
 							end });
-					(tabi_l111lIl11Il .. "\108\108\073\108\073\108\073\049")[(tabi_lll1lIl11Il - "\073\049\073\108\073\049\073\108")(-85457 - (-131812))]:Connect(function(...)
-						(tabi_I11llIl11Il / "\108\108\108\073\108\049\108")(tabi_I111lIl11Il * true);
-						while tabi_I111lIl11Il / "\108\073\073\108\049\108" do
-							local tabi_Il1llIl11Il = tabi_l11llIl11Il({ I1IIll1 = math[(tabi_lll1lIl11Il - "\073\108\049\049\073\108\108\108")(-319053 - (-365355))]((((tabi_IlI1lIl11Il - "\108\049\073\049\049\108\108\049")())[(tabi_lll1lIl11Il - "\108\108\108\073\108\108\108\108")(366166 - 319850)] - tabi_Ill1lIl11Il.Ill1lIl1[(tabi_lll1lIl11Il - "\073\049\049\073\049\049\049")(425133 + -378766)][(tabi_lll1lIl11Il - "\108\073\108\108\049\049\073\049")(800803 - 754487)]) / tabi_Ill1lIl11Il.IlIllI11[(tabi_lll1lIl11Il - "\108\108\108\108")(113523 - 67234)][(tabi_lll1lIl11Il - "\108\073\108\049\049\073\073\108")(951357 + -905041)], 125156 + -125156, 234984 - 234983) }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-										tabi_Il1llIl11Il.I1IIll1 = tabi_l11llIl11Il;
-									end, __pow = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-										return tabi_Il1llIl11Il.I1IIll1;
+					(tabi_l1l11IIlII - "\073\108\049\073\073\049\073\108")[(tabi_lI1I1IIlII / "\073\049\049\073\049\108\073\108")(-393964 + 445415)]:Connect(function(...)
+						(tabi_IlII1IIlII ^ "\073\108\108\108\108")(tabi_IlI11IIlII[true]);
+						while tabi_IlI11IIlII ^ "\073\073\049\073\073\049\073\049" do
+							local tabi_I1lI1IIlII = tabi_l1lI1IIlII({ llll111l = math[(tabi_lI1I1IIlII / "\108\108\073\108\073\108\049\108")(1001919 + -950512)]((((tabi_I1II1IIlII + "\073\049\108\049\073\073\049\108")())[(tabi_lI1I1IIlII / "\073\073\049\049\049\049\049\108")(-188518 + 239892)] - (tabi_I11I1IIlII + "\108\108\108\073\108\073\073\108")[(tabi_lI1I1IIlII / "\108\073\049\073\108\073\049\049")(68066 + -16689)][(tabi_lI1I1IIlII / "\108\073\049\073\108\108\073\108")(704354 - 652980)]) / (tabi_I11I1IIlII + "\108\073\073\108")[(tabi_lI1I1IIlII / "\108\108\049\108\049\108")(-204730 - (-256168))][(tabi_lI1I1IIlII / "\108\108\049\108\108\108\108\049")(-897404 + 948778)], -873851 + 873851, 366699 + -366698) }, { __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+										tabi_I1lI1IIlII.llll111l = tabi_l1lI1IIlII;
+									end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+										return rawget(tabi_I1lI1IIlII, "\108\108\108\108\049\049\049\108");
 									end });
-							(tabi_ll11lIl11Il + "\108\049\108\108\073\049\049\108")[(tabi_lll1lIl11Il - "\108\108\108\073\049\049\073\049")(913687 - 867323)] = UDim2[(tabi_lll1lIl11Il - "\108\108\049\049\073\073\073\049")(598834 - 552561)](tabi_Il1llIl11Il ^ "\108\049\073\108\108\049\073\049", -659444 - (-659444), 916093 - 916092, 987647 + -987647);
-							local tabi_lII1lIl11Il = tabi_l11llIl11Il({ IllI11ll = tabi_lIl1lIl11Il.I1IIl11 + tabi_Il1llIl11Il ^ "\073\108\108\073\108\108\073\108" * (tabi_IIl1lIl11Il ^ "\108\108\108\073\049\049\073\049" - tabi_lIl1lIl11Il.IIIlllIl) }, { __index = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-										tabi_Il1llIl11Il.IllI11ll = tabi_l11llIl11Il;
-									end, __sub = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-										return rawget(tabi_Il1llIl11Il, "\073\108\108\073\049\049\108\108");
+							(tabi_lIl11IIlII ^ "\073\073\049\049\073\108\049")[(tabi_lI1I1IIlII / "\108\049\049\049\108\108\073\108")(591739 - 540273)] = UDim2[(tabi_lI1I1IIlII / "\073\049\049\073\108\108\108")(-813497 + 864913)](tabi_I1lI1IIlII.l11l1lll, 40225 - 40225, -599091 + 599092, 606387 + -606387);
+							local tabi_llII1IIlII = tabi_l1lI1IIlII({ lI1I11l1 = tabi_ll1I1IIlII ^ "\073\108\108\108\049\073\073\049" + tabi_I1lI1IIlII.Il1lIl * ((tabi_II1I1IIlII - "\108\108\049\073\108\049\073\108") - tabi_ll1I1IIlII ^ "\108\108\108\049\108\073\108\049") }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+										tabi_I1lI1IIlII.lI1I11l1 = tabi_l1lI1IIlII;
+									end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+										return rawget(tabi_I1lI1IIlII, "\108\073\049\073\049\049\108\049");
 									end });
-							if tabi_lII1lIl11Il - "\073\108\108\073\108\049\073\108" ~= tabi_lIII1Il11Il + "\073\108\073\049\108\108\073\108" then
-								(tabi_I11llIl11Il / "\108\108\073\073\073\049\049\108")(tabi_lIII1Il11Il / (tabi_lII1lIl11Il - "\108\073\108\108\049\108\049"));
-								(tabi_I11llIl11Il / "\108\049\049\049\108\108")(tabi_IIII1Il11Il + math[(tabi_lll1lIl11Il - "\108\108\073\108\108\049\049\108")(-76322 + 122701)](tabi_lIII1Il11Il + "\108\049\073\108\108\073\049\049"));
-								(tabi_lI11lIl11Il * "\073\049\073\073\073\049\049\108")[(tabi_lll1lIl11Il - "\108\049\108\073\049\049\073\108")(-679221 + 725624)] = tabi_IIII1Il11Il ^ "\108\049\108\049\049\108\049";
-								(tabi_l1I1lIl11Il or function(tabi_Il1llIl11Il, ...)
+							if tabi_llII1IIlII.IIIIIlI1 ~= tabi_llI11IIlII + "\073\108\073\108\073\073\108" then
+								(tabi_IlII1IIlII ^ "\073\049\049\108\073\108")(tabi_llI11IIlII * tabi_llII1IIlII.lI1IlI1);
+								(tabi_IlII1IIlII ^ "\073\108\108\073\049\108\108\049")(tabi_III11IIlII * math[(tabi_lI1I1IIlII / "\073\073\049\108\073\049")(265776 - 214311)](tabi_llI11IIlII + "\073\108\108\073\108\049\108\049"));
+								tabi_lll11IIlII.l1ll1IIl[(tabi_lI1I1IIlII / "\108\073\049\108\073\108\049\049")(599987 + -548560)] = tabi_III11IIlII .. "\108\073\073\073\049\073\108\049";
+								(tabi_l1II1IIlII or function(tabi_I1lI1IIlII, ...)
  
-								end)(tabi_IIII1Il11Il ^ "\073\108\049\049\073\108\073\049");
+								end)(tabi_III11IIlII .. "\108\073\049\108\073\049\049\108");
 							end;
-							task[(tabi_lll1lIl11Il - "\073\049\049\073\049\108\108\049")(43827 - (-2464))]();
+							task[(tabi_lI1I1IIlII / "\108\049\108\049\108\073\108")(-253224 + 304618)]();
 						end;
 					end);
-					tabi_llI1lIl11Il.Il1II1[(tabi_lll1lIl11Il - "\073\108\073\073\108\073\108")(686965 + -640565)]:Connect(function(tabi_Il1llIl11Il, ...)
-						if tabi_Il1llIl11Il[(tabi_lll1lIl11Il - "\108\108\073\049\108\049\108\108")(746880 - 700598)] == Enum[(tabi_lll1lIl11Il - "\108\108\073\073\049\049\073\049")(555770 - 509488)][(tabi_lll1lIl11Il - "\108\108\049\108\108\049\073\049")(-731124 - (-777400))] then
-							(tabi_I11llIl11Il / "\108\108\073\108\108\073\108\049")(tabi_I111lIl11Il * false);
+					(tabi_lIII1IIlII * "\073\108\108\073\108")[(tabi_lI1I1IIlII / "\073\108\073\049\049\049\108\049")(-632060 - (-683509))]:Connect(function(tabi_I1lI1IIlII, ...)
+						if tabi_I1lI1IIlII[(tabi_lI1I1IIlII / "\108\049\073\049\108")(-792825 + 844238)] == Enum[(tabi_lI1I1IIlII / "\073\049\073\049\073\108\108")(59234 + -7821)][(tabi_lI1I1IIlII / "\073\049\073\073\049\073\108")(1077245 - 1025792)] then
+							(tabi_IlII1IIlII ^ "\108\073\073\073\073\073\108\049")(tabi_IlI11IIlII[false]);
 						end;
 					end);
-					(tabi_l111lIl11Il .. "\108\049\049\073\108\108\049\108")[(tabi_lll1lIl11Il - "\108\108\108\073\049\049")(-205130 - (-251496))]:Connect(function(...)
-						(tabi_I11llIl11Il / "\073\073\073\049\049\073\108\049")(tabi_I111lIl11Il * false);
+					(tabi_l1l11IIlII - "\073\049\108\049\108\073\108\049")[(tabi_lI1I1IIlII / "\073\049\073\108\073\073\049")(597818 - 546417)]:Connect(function(...)
+						(tabi_IlII1IIlII ^ "\073\049\049\108\049\049")(tabi_IlI11IIlII[false]);
 					end);
 				end;
-				function tabi_III1lIl11Il.II1l1lll.Label(tabi_I11llIl11Il, tabi_Il1llIl11Il, ...)
-					local tabi_lII1lIl11Il = tabi_l11llIl11Il({ IllIllll = {} }, { __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.IllIllll = tabi_l11llIl11Il;
-							end, __add = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.IllIllll;
+				function tabi_IIII1IIlII.I1Il1lI1.Label(tabi_IlII1IIlII, tabi_I1lI1IIlII, ...)
+					local tabi_llII1IIlII = tabi_l1lI1IIlII({ I1l111l = {} }, { __div = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.I1l111l = tabi_l1lI1IIlII;
+							end, __index = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return rawget(tabi_I1lI1IIlII, "\073\049\108\049\049\049\108");
 							end });
-					local tabi_III1lIl11Il = tabi_l11llIl11Il({ IllI1I1l = Instance[(tabi_lll1lIl11Il - "\108\049\049\049\073\073\049\108")(-784761 - (-831034))]((tabi_lll1lIl11Il - "\108\049\108\049\108\073\108\108")(183334 + -137063)) }, { __div = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								tabi_Il1llIl11Il.IllI1I1l = tabi_l11llIl11Il;
-							end, __mul = function(tabi_Il1llIl11Il, tabi_l11llIl11Il, ...)
-								return tabi_Il1llIl11Il.IllI1I1l;
+					local tabi_IIII1IIlII = tabi_l1lI1IIlII({ I1l11I11 = Instance[(tabi_lI1I1IIlII / "\108\049\108\108\073\108\108\049")(43256 - (-8160))]((tabi_lI1I1IIlII / "\073\073\108")(38113 + 13321)) }, { __pow = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								tabi_I1lI1IIlII.I1l11I11 = tabi_l1lI1IIlII;
+							end, __sub = function(tabi_I1lI1IIlII, tabi_l1lI1IIlII, ...)
+								return tabi_I1lI1IIlII.I1l11I11;
 							end });
-					(tabi_III1lIl11Il * "\108\049\073\049\108\108\049\108")[(tabi_lll1lIl11Il - "\108\049\049\073\049\108\073\049")(-977534 + 1023869)] = (tabi_lll1lIl11Il - "\108\049\049\049\108\108\073\049")(1024630 - 978238);
-					(tabi_III1lIl11Il * "\108\073\073\049\049\073\049\049")[(tabi_lll1lIl11Il - "\108\073\108\049\108\049\049")(-567538 + 613894)] = tabi_I1l1lIl11Il * "\108\073\108\049\073\108\108";
-					(tabi_III1lIl11Il * "\073\049\049\108\108")[(tabi_lll1lIl11Il - "\073\073\049\108\073\108\108\049")(-533489 + 579891)] = Color3[(tabi_lll1lIl11Il - "\073\049\073\049\049\073\049")(296037 - 249768)](173989 + -173951, 648628 + -648593, -659982 - (-660020));
-					(tabi_III1lIl11Il * "\073\108\049\108\049\108")[(tabi_lll1lIl11Il - "\073\073\073\073\108\049\108\108")(198566 + -152267)] = -668725 + 668726;
-					(tabi_III1lIl11Il * "\108\049\049\049\073\049\049")[(tabi_lll1lIl11Il - "\108\108\108\108\073\108")(79394 + -33135)] = Color3[(tabi_lll1lIl11Il - "\073\073\073\049\049\108\108")(-135140 + 181409)](15712 + -15712, -888956 + 888956, 226215 - 226215);
-					(tabi_III1lIl11Il * "\073\049\108\108\049\108\073\108")[(tabi_lll1lIl11Il - "\108\073\073\049\073\073\108\108")(-982270 + 1028598)] = -287401 - (-287401);
-					(tabi_III1lIl11Il * "\108\049\073\108\073\108\108")[(tabi_lll1lIl11Il - "\108\073\049\073\049\049\049\108")(1043392 + -997006)] = UDim2[(tabi_lll1lIl11Il - "\108\073\108\108\049\073\108\108")(976638 + -930365)](-933629 + 933629, -18465 + 18465, .642055511, 434541 + -434541);
-					(tabi_III1lIl11Il * "\108\073\073\049\049\073\108\049")[(tabi_lll1lIl11Il - "\073\073\049\049\049\073\108\049")(841621 - 795257)] = UDim2[(tabi_lll1lIl11Il - "\073\049\108\108\073\049\108\049")(184422 + -138149)](299305 + -299304, 85987 + -85987, -195366 + 195366, -888943 - (-888956));
-					(tabi_III1lIl11Il * "\108\049\108\049\108\049\108")[(tabi_lll1lIl11Il - "\108\108\073\073\108\073\049\108")(803385 + -756991)] = Enum[(tabi_lll1lIl11Il - "\108\049\108\073\108\049")(262241 - 215847)][(tabi_lll1lIl11Il - "\108\108\073\073\073\049\108\108")(-723702 + 770097)];
-					(tabi_III1lIl11Il * "\108\108\073\108\073\073\073\108")[(tabi_lll1lIl11Il - "\108\073\108\073\049")(320234 + -273831)] = tostring(tabi_Il1llIl11Il);
-					(tabi_III1lIl11Il * "\073\049\073\049\108\049\049")[(tabi_lll1lIl11Il - "\108\073\073\049\073\073\049")(-6876 - (-53218))] = Color3[(tabi_lll1lIl11Il - "\108\049\049\108\073\108\108")(-311850 + 358119)](-585434 - (-585650), 359467 + -359251, 685261 - 685045);
-					(tabi_III1lIl11Il * "\073\049\049\073\108\073\108\108")[(tabi_lll1lIl11Il - "\108\049\073\108\108\073\073\049")(-652128 - (-698422))] = -529456 + 529469;
-					(tabi_III1lIl11Il * "\073\049\108\108\108\049\073\108")[(tabi_lll1lIl11Il - "\108\073\073\049\073\049\108")(-438628 - (-484911))] = true;
-					(tabi_III1lIl11Il * "\108\073\108\108\108\049\108\049")[(tabi_lll1lIl11Il - "\108\049\073\049\049\108")(960489 - 914172)] = Enum[(tabi_lll1lIl11Il - "\073\049\108\049\108\049\073\108")(892988 + -846671)][(tabi_lll1lIl11Il - "\108\073\108\108\073\108")(1009660 - 963326)];
-					function tabi_lII1lIl11Il.IllIllll.Update(tabi_l11llIl11Il, tabi_Il1llIl11Il, ...)
-						(tabi_III1lIl11Il * "\108\073\073\049\049\049\108\049")[(tabi_lll1lIl11Il - "\108\049\049\108\073\108\108")(119909 - 73506)] = tostring(tabi_Il1llIl11Il);
+					(tabi_IIII1IIlII - "\073\073\049\108\108\073\049\049")[(tabi_lI1I1IIlII / "\073\049\108\073\073\049\108\108")(-427117 + 478493)] = (tabi_lI1I1IIlII / "\108\108\073\108\073\073\108\108")(-51724 - (-103203));
+					(tabi_IIII1IIlII - "\108\108\073\108\108\108\049")[(tabi_lI1I1IIlII / "\108\073\108\073\108\049\049\108")(-388140 + 439615)] = tabi_Ill11IIlII * "\108\108\073\108\049\049\049\108";
+					(tabi_IIII1IIlII - "\073\108\108\073\108\049\073\108")[(tabi_lI1I1IIlII / "\108\049\073\073\073\049\108")(615315 - 563889)] = Color3[(tabi_lI1I1IIlII / "\073\108\073\108\073\073\073\108")(911320 - 859899)](-405703 - (-405741), 40673 + -40638, 1013695 + -1013657);
+					(tabi_IIII1IIlII - "\108\073\049\049\049")[(tabi_lI1I1IIlII / "\073\049\108\108\108\073\108\049")(287418 - 236071)] = 539698 - 539697;
+					(tabi_IIII1IIlII - "\108\108\049\073\108\073\073\108")[(tabi_lI1I1IIlII / "\073\049\049\049\049\049\108\049")(747777 - 696310)] = Color3[(tabi_lI1I1IIlII / "\073\049\049\049\049\049\108")(-2464 + 53885)](-838714 - (-838714), -379308 - (-379308), -389036 - (-389036));
+					(tabi_IIII1IIlII - "\108\108\049\108\108\073\108\108")[(tabi_lI1I1IIlII / "\108\108\073\108\108\049\049")(-249512 + 300955)] = -675957 - (-675957);
+					(tabi_IIII1IIlII - "\108\108\049\049\049\073\108\108")[(tabi_lI1I1IIlII / "\073\073\073\073\108\108\073\049")(531008 - 479599)] = UDim2[(tabi_lI1I1IIlII / "\108\108\049\073\108\108\108\108")(751502 - 700086)](681845 + -681845, -122980 - (-122980), .642055511, -228263 + 228263);
+					(tabi_IIII1IIlII - "\108\108\073\049\073\108\108\108")[(tabi_lI1I1IIlII / "\073\049\049\073\108\073\049\108")(-387876 - (-439342))] = UDim2[(tabi_lI1I1IIlII / "\108\073\049\073\073\073\108\049")(994815 + -943399)](-560433 + 560434, -456302 - (-456302), 709174 - 709174, -192409 - (-192422));
+					(tabi_IIII1IIlII - "\108\073\108\049\108\108\108")[(tabi_lI1I1IIlII / "\108\049\108\108\108\108\108")(111587 + -60128)] = Enum[(tabi_lI1I1IIlII / "\073\073\073\108\073\108\049")(154214 - 102755)][(tabi_lI1I1IIlII / "\108\108\108\049\049\108\108\108")(536817 + -485458)];
+					(tabi_IIII1IIlII - "\073\049\108\049\108\049\108\049")[(tabi_lI1I1IIlII / "\108\073\073\049\073\049\108\049")(-142531 - (-193958))] = tostring(tabi_I1lI1IIlII);
+					(tabi_IIII1IIlII - "\108\049\108\108\108\049\108\049")[(tabi_lI1I1IIlII / "\073\073\073\108\108\108\073\108")(-390060 + 441551)] = Color3[(tabi_lI1I1IIlII / "\073\108\108\108\073\049\049\108")(-838458 + 889879)](-727095 + 727311, 616203 - 615987, 887892 - 887676);
+					(tabi_IIII1IIlII - "\073\049\073\108\073\049\073\108")[(tabi_lI1I1IIlII / "\108\073\073\049\049\073\108\049")(295235 - 243752)] = 68898 + -68885;
+					(tabi_IIII1IIlII - "\073\108\049\108\073\049\073\049")[(tabi_lI1I1IIlII / "\108\073\073\108\108\073\108\049")(787588 - 736183)] = true;
+					(tabi_IIII1IIlII - "\073\049\108\073\049\049\108")[(tabi_lI1I1IIlII / "\108\049\049\073\073\049\073\049")(733239 + -681852)] = Enum[(tabi_lI1I1IIlII / "\073\049\108\108\049\073\049\108")(364133 - 312746)][(tabi_lI1I1IIlII / "\108\049\108\073\073\049")(-315782 - (-367147))];
+					function tabi_llII1IIlII.I1l111l.Update(tabi_l1lI1IIlII, tabi_I1lI1IIlII, ...)
+						(tabi_IIII1IIlII - "\073\073\108\049\073\049\049\108")[(tabi_lI1I1IIlII / "\073\108\049\049\049")(-753494 - (-804921))] = tostring(tabi_I1lI1IIlII);
 					end;
-					return tabi_lII1lIl11Il + "\108\049\073\108\073\049\108\108";
+					return tabi_llII1IIlII.l11I11I1;
 				end;
-				return tabi_III1lIl11Il * "\073\049\049\073\108\073\049";
+				return tabi_IIII1IIlII + "\108\073\049\108\073\049\073\108";
 			end;
-			return tabi_IIl1lIl11Il ^ "\073\049\108\073\073\049\108\049";
+			return tabi_II1I1IIlII .. "\108\073\073\049\073\073\049\108";
 		end;
-		return tabi_l1l1lIl11Il.l1I1IIl;
+		return tabi_l11I1IIlII.lII1IlI1;
 	end;
-	return tabi_Il1llIl11Il + "\108\108\049\049\049\073\108";
+	return tabi_I1lI1IIlII - "\073\049\108\073\073\108\073\049";
 end)(...);
